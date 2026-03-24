@@ -27,6 +27,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout
@@ -42,6 +44,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch match data (football-data.org)
+        if: ${{ secrets.FOOTBALL_DATA_API_KEY != '' }}
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: |
@@ -51,7 +54,7 @@ jobs:
       - name: Fill gaps (API-Football)
         if: >-
           github.event.inputs.fill_gaps != 'false'
-          && env.API_FOOTBALL_API_KEY != ''
+          && secrets.API_FOOTBALL_API_KEY != ''
         env:
           API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
         run: python -m scripts.fill_gaps --mode fill --league DED
