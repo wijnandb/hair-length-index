@@ -29,6 +29,20 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://www.eurojackpotknvbbeker.nl/wedstrijden"
 
+# Map KNVB Beker site team names to football-data.org canonical names.
+# Only needed where the names differ between sources.
+TEAM_ALIASES = {
+    "FC Twente": "FC Twente '65",
+    "Excelsior M": "SBV Excelsior",
+    "SC Cambuur": "SC Cambuur Leeuwarden",
+    "Vitesse": "SBV Vitesse",
+    "ADO Den Haag": "ADO Den Haag",
+    "FC Volendam": "FC Volendam",
+    "Telstar": "Telstar",
+    "Roda JC": "Roda JC Kerkrade",
+    "VVV-Venlo": "VVV-Venlo",
+}
+
 # Map round names from the site to our round labels
 ROUND_MAP = {
     "kwalificatieronde 1": "Kwalificatieronde 1",
@@ -241,11 +255,18 @@ def parse_matches(html: str) -> list[dict]:
 
 def resolve_team(conn, name: str) -> int:
     """Find or create a team by name. Returns internal team ID."""
+    # Try exact name first
     team = find_team_by_name(conn, name)
     if team:
         return team["id"]
 
-    # Try common variations
+    # Try alias mapping (KNVB Beker name → football-data.org name)
+    canonical = TEAM_ALIASES.get(name)
+    if canonical and canonical != name:
+        team = find_team_by_name(conn, canonical)
+        if team:
+            return team["id"]
+
     # Strip trailing " 1" (first team marker on amateur clubs)
     if name.endswith(" 1"):
         team = find_team_by_name(conn, name[:-2])

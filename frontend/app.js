@@ -4,7 +4,7 @@
  * Loads hair-index.json and renders the ranking table.
  */
 
-const DATA_URL = "../data/hair-index.json";
+const DATA_URL = "data/hair-index.json";
 
 const TIER_EMOJI = {
   "Fresh cut": "\u{1F487}",
