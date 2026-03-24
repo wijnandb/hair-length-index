@@ -604,6 +604,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-04-21",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-04-13",
       "opponent": "VVV",
       "home_away": "H",
@@ -919,6 +929,16 @@
       "home_away": "H",
       "score": "4-4",
       "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3596,8 +3616,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 110,
-    "end_index": 116,
+    "start_index": 112,
+    "end_index": 118,
     "length": 7
   }
 }

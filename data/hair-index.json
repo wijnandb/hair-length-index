@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T16:12:54.309780",
+  "generated_at": "2026-03-24T16:17:14.700745",
   "threshold": 5,
   "teams": [
     {
@@ -12,7 +12,7 @@
       "streak_end_date": "2011-04-01",
       "streak_start_date": "2010-09-21",
       "days_since": 5471,
-      "matches_since": 355,
+      "matches_since": 359,
       "competitions_in_streak": [
         "Eerste Divisie",
         "KNVB Beker"
@@ -36,7 +36,7 @@
       "strict_streak_end_date": "2011-04-01",
       "strict_days_since": 5471,
       "includes_aet_pens": false,
-      "total_matches": 532,
+      "total_matches": 536,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -50,7 +50,7 @@
       "streak_end_date": "2013-08-24",
       "streak_start_date": "2013-05-12",
       "days_since": 4595,
-      "matches_since": 419,
+      "matches_since": 422,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -73,7 +73,7 @@
       "strict_streak_end_date": "2013-08-24",
       "strict_days_since": 4595,
       "includes_aet_pens": false,
-      "total_matches": 503,
+      "total_matches": 506,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -87,7 +87,7 @@
       "streak_end_date": "2015-09-19",
       "streak_start_date": "2015-08-16",
       "days_since": 3839,
-      "matches_since": 349,
+      "matches_since": 351,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -110,44 +110,7 @@
       "strict_streak_end_date": "2015-09-19",
       "strict_days_since": 3839,
       "includes_aet_pens": false,
-      "total_matches": 704,
-      "has_cup_data": true,
-      "data_complete": true
-    },
-    {
-      "team": "NAC Breda",
-      "team_id": 89,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2017-05-05",
-      "streak_start_date": "2016-10-21",
-      "days_since": 3245,
-      "matches_since": 162,
-      "competitions_in_streak": [
-        "Eerste Divisie"
-      ],
-      "current_form": [
-        "L",
-        "L",
-        "D",
-        "L",
-        "W",
-        "W",
-        "L",
-        "D",
-        "D",
-        "L"
-      ],
-      "search_depth": "2003-08-17",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2017-05-05",
-      "strict_days_since": 3245,
-      "includes_aet_pens": false,
-      "total_matches": 595,
+      "total_matches": 706,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -161,7 +124,7 @@
       "streak_end_date": "2017-09-23",
       "streak_start_date": "2017-08-26",
       "days_since": 3104,
-      "matches_since": 305,
+      "matches_since": 307,
       "competitions_in_streak": [
         "Eredivisie",
         "KNVB Beker"
@@ -185,7 +148,7 @@
       "strict_streak_end_date": "2017-09-23",
       "strict_days_since": 3104,
       "includes_aet_pens": false,
-      "total_matches": 799,
+      "total_matches": 801,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -199,7 +162,7 @@
       "streak_end_date": "2018-04-06",
       "streak_start_date": "2018-03-16",
       "days_since": 2909,
-      "matches_since": 110,
+      "matches_since": 112,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -222,7 +185,7 @@
       "strict_streak_end_date": "2018-04-06",
       "strict_days_since": 2909,
       "includes_aet_pens": false,
-      "total_matches": 359,
+      "total_matches": 361,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -236,7 +199,7 @@
       "streak_end_date": "2019-04-02",
       "streak_start_date": "2019-03-09",
       "days_since": 2548,
-      "matches_since": 145,
+      "matches_since": 149,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -259,7 +222,7 @@
       "strict_streak_end_date": "2019-04-02",
       "strict_days_since": 2548,
       "includes_aet_pens": false,
-      "total_matches": 650,
+      "total_matches": 654,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -269,11 +232,11 @@
       "short_name": null,
       "crest_url": null,
       "streak_found": true,
-      "streak_length": 7,
+      "streak_length": 8,
       "streak_end_date": "2020-03-08",
-      "streak_start_date": "2019-04-24",
+      "streak_start_date": "2019-03-16",
       "days_since": 2207,
-      "matches_since": 20,
+      "matches_since": 22,
       "competitions_in_streak": [
         "Eerste Divisie",
         "Eredivisie",
@@ -298,7 +261,7 @@
       "strict_streak_end_date": "2020-03-08",
       "strict_days_since": 2207,
       "includes_aet_pens": false,
-      "total_matches": 69,
+      "total_matches": 73,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -410,7 +373,44 @@
       "strict_streak_end_date": "2021-10-31",
       "strict_days_since": 1605,
       "includes_aet_pens": false,
-      "total_matches": 590,
+      "total_matches": 595,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
+      "team": "NAC Breda",
+      "team_id": 89,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 6,
+      "streak_end_date": "2022-03-14",
+      "streak_start_date": "2022-02-13",
+      "days_since": 1471,
+      "matches_since": 186,
+      "competitions_in_streak": [
+        "Eerste Divisie"
+      ],
+      "current_form": [
+        "L",
+        "L",
+        "D",
+        "L",
+        "W",
+        "W",
+        "L",
+        "D",
+        "D",
+        "L"
+      ],
+      "search_depth": "2003-08-17",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2022-03-14",
+      "strict_days_since": 1471,
+      "includes_aet_pens": false,
+      "total_matches": 871,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -486,7 +486,7 @@
       "strict_streak_end_date": "2024-01-14",
       "strict_days_since": 800,
       "includes_aet_pens": false,
-      "total_matches": 745,
+      "total_matches": 754,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -523,7 +523,7 @@
       "strict_streak_end_date": "2024-12-21",
       "strict_days_since": 458,
       "includes_aet_pens": false,
-      "total_matches": 805,
+      "total_matches": 806,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -597,7 +597,7 @@
       "strict_streak_end_date": "2025-09-17",
       "strict_days_since": 188,
       "includes_aet_pens": false,
-      "total_matches": 794,
+      "total_matches": 796,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -635,7 +635,7 @@
       "strict_streak_end_date": "2026-01-17",
       "strict_days_since": 66,
       "includes_aet_pens": false,
-      "total_matches": 796,
+      "total_matches": 798,
       "has_cup_data": true,
       "data_complete": true
     },

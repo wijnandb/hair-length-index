@@ -714,6 +714,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2023-07-19",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-05-28",
       "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
@@ -1764,6 +1774,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2020-08-18",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2020-08-14",
       "opponent": "Almere City FC",
       "home_away": "A",
@@ -2044,6 +2064,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2019-07-23",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-05-28",
       "opponent": "Go Ahead Eagles",
       "home_away": "A",
@@ -2140,6 +2170,16 @@
       "score": "1-2",
       "result": "L",
       "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-25",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -5326,8 +5366,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 355,
-    "end_index": 359,
+    "start_index": 359,
+    "end_index": 363,
     "length": 5
   }
 }

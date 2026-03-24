@@ -39,7 +39,7 @@ KNOWN_TEAMS = {
     "Telstar 1963": ("te1831", "telstar"),
     "Almere City FC": ("te681", "almere-city-fc"),
     "Willem II": ("te381", "willem-ii-tilburg"),
-    "NAC Breda": ("te386", "nac-breda"),
+    "NAC Breda": ("te1331", "nac-breda"),
     "NEC": ("te384", "nec-nijmegen"),
     "FC Groningen": ("te631", "fc-groningen"),
     "FC Twente '65": ("te1965", "fc-twente"),

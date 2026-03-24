@@ -124,6 +124,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2021-12-14",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2021-12-11",
       "opponent": "Go Ahead Eagles",
       "home_away": "H",
@@ -148,6 +158,16 @@
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-02",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-2",
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
@@ -274,6 +294,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-03-16",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-03-08",
       "opponent": "FC Groningen",
       "home_away": "H",
@@ -299,6 +329,16 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-05",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -696,8 +736,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 20,
-    "end_index": 26,
-    "length": 7
+    "start_index": 22,
+    "end_index": 29,
+    "length": 8
   }
 }

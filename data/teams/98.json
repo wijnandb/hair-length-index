@@ -374,6 +374,26 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2023-12-22",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-05",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-08-01",
       "opponent": "Almere City FC",
       "home_away": "H",
@@ -384,10 +404,30 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2023-04-25",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-01-15",
       "opponent": "Almere City FC",
       "home_away": "A",
       "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-11",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-2",
       "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -6506,8 +6546,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 145,
-    "end_index": 149,
+    "start_index": 149,
+    "end_index": 153,
     "length": 5
   }
 }

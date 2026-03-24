@@ -1204,6 +1204,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2023-02-07",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-02-04",
       "opponent": "Utrecht",
       "home_away": "A",
@@ -2102,6 +2112,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2020-08-01",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
     },
     {
       "date": "2020-03-07",
@@ -7996,8 +8016,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 305,
-    "end_index": 310,
+    "start_index": 307,
+    "end_index": 312,
     "length": 6
   }
 }
