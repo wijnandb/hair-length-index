@@ -114,8 +114,8 @@ function renderGrowthStrip(teamData) {
     const r = m.result || "?";
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
     const ha = m.home_away === "H" ? "T" : "U";
-    const extra = m.decided_in === "PENALTIES" ? " (str.)" :
-                  m.decided_in === "EXTRA_TIME" ? " (v.)" : "";
+    const extra = m.decided_in === "PENALTIES" ? " (w.n.s.)" :
+                  m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
     const tip = `${m.date} | ${m.opponent} (${ha}) ${m.score}${extra} | ${m.competition} | ${m.source}`;
     const streakClass = isStreak ? " streak-highlight" : "";
     const markerAttr = isStreak && i === startIdx ? ' data-streak-start="true"' : "";
@@ -157,8 +157,8 @@ function renderMatchTable(teamData) {
   const rows = matches.map((m, i) => {
     const r = m.result || "";
     const ha = m.home_away === "H" ? "thuis" : "uit";
-    const extra = m.decided_in === "PENALTIES" ? " (str.)" :
-                  m.decided_in === "EXTRA_TIME" ? " (v.)" : "";
+    const extra = m.decided_in === "PENALTIES" ? " (w.n.s.)" :
+                  m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
     const rowClass = isStreak ? "streak-row" : "";
     return `
@@ -204,8 +204,8 @@ function renderTeamCard(team, rank) {
   }
 
   let notes = [];
-  if (team.penalty_footnote) {
-    notes.push(`<span class="note">* 5 op een rij met strafschoppen</span>`);
+  if (team.includes_aet_pens) {
+    notes.push(`<span class="note">* incl. winst n.v./w.n.s.</span>`);
   }
   if (!team.data_complete) {
     notes.push(`<span class="data-warning">Bekerdata ontbreekt</span>`);

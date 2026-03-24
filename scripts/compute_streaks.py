@@ -182,7 +182,7 @@ def _build_recent_matches(matches: list, team_id: int, conn, limit: int = RECENT
         opp_row = conn.execute("SELECT name, short_name FROM teams WHERE id = ?", (opp_id,)).fetchone()
         opp_name = opp_row["short_name"] or opp_row["name"] if opp_row else "?"
 
-        result = _team_result(m, team_id, "result_90min")
+        result = _team_result(m, team_id, "result_final")
         if is_home:
             score = f"{m['home_goals_90min']}-{m['away_goals_90min']}"
         else:
@@ -216,14 +216,14 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
     for team in teams:
         matches = get_team_matches(conn, team["id"], order="DESC")
 
-        # Official index: based on 90-min results
-        streak_90 = find_last_streak(matches, team["id"], threshold, "result_90min")
-
-        # Fan index: based on final results (including AET/pens wins)
+        # Primary index: based on final results (winning is winning, including AET/pens)
         streak_final = find_last_streak(matches, team["id"], threshold, "result_final")
 
-        # Hair tier
-        tier_name, tier_desc = get_hair_tier(streak_90["days_since"])
+        # Strict index: based on 90-min results only
+        streak_90 = find_last_streak(matches, team["id"], threshold, "result_90min")
+
+        # Hair tier based on primary (final result)
+        tier_name, tier_desc = get_hair_tier(streak_final["days_since"])
 
         # Recent match details for frontend
         recent_matches = _build_recent_matches(matches, team["id"], conn)
@@ -237,27 +237,27 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
             "team_id": team["id"],
             "short_name": team["short_name"],
             "crest_url": team["crest_url"],
-            # Official index (90-min results)
-            "streak_found": streak_90["found"],
-            "streak_length": streak_90["streak_length"],
-            "streak_end_date": streak_90["streak_end_date"],
-            "streak_start_date": streak_90["streak_start_date"],
-            "days_since": streak_90["days_since"],
-            "matches_since": streak_90["matches_since"],
-            "competitions_in_streak": streak_90["competitions_in_streak"],
-            "current_form": streak_90["current_form"],
-            "search_depth": streak_90["search_depth"],
+            # Primary index (final results — winning is winning)
+            "streak_found": streak_final["found"],
+            "streak_length": streak_final["streak_length"],
+            "streak_end_date": streak_final["streak_end_date"],
+            "streak_start_date": streak_final["streak_start_date"],
+            "days_since": streak_final["days_since"],
+            "matches_since": streak_final["matches_since"],
+            "competitions_in_streak": streak_final["competitions_in_streak"],
+            "current_form": streak_final["current_form"],
+            "search_depth": streak_final["search_depth"],
             # Hair tier
             "hair_tier": tier_name,
             "hair_description": tier_desc,
-            # Fan index (final results, including AET/pens)
-            "fan_streak_found": streak_final["found"],
-            "fan_streak_end_date": streak_final["streak_end_date"],
-            "fan_days_since": streak_final["days_since"],
-            # Footnote for penalty/AET wins
-            "penalty_footnote": (
+            # Strict index (90-min results only)
+            "strict_streak_found": streak_90["found"],
+            "strict_streak_end_date": streak_90["streak_end_date"],
+            "strict_days_since": streak_90["days_since"],
+            # Footnote when streak includes AET/pens wins
+            "includes_aet_pens": (
                 streak_final["found"]
-                and not streak_90["found"]
+                and (not streak_90["found"] or streak_final["days_since"] < streak_90["days_since"])
             ),
             # Data completeness
             "total_matches": match_count,
@@ -271,9 +271,9 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
             "short_name": team["short_name"],
             "matches": _build_recent_matches(matches, team["id"], conn, limit=len(matches)),
             "streak": {
-                "found": streak_90["found"],
-                "start_index": streak_90.get("streak_start_index"),
-                "end_index": streak_90.get("streak_end_index"),
+                "found": streak_final["found"],
+                "start_index": streak_final.get("streak_start_index"),
+                "end_index": streak_final.get("streak_end_index"),
                 "length": streak_90["streak_length"],
             },
         }
@@ -337,7 +337,7 @@ def print_index(index: list[dict]) -> None:
         notes = []
         if not entry["data_complete"]:
             notes.append("incomplete")
-        if entry["penalty_footnote"]:
+        if entry.get("includes_aet_pens"):
             notes.append("*pens")
         note = ", ".join(notes)
 
