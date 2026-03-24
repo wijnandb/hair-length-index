@@ -31,11 +31,15 @@ We need a reliable, automated data pipeline.
 
 ```
 Match {
+  match_id: int                # football-data.org match ID (for deduplication)
   date: Date
   home_team: string
   away_team: string
+  home_team_id: int            # football-data.org team ID (for reliable matching)
+  away_team_id: int
   home_goals: int
   away_goals: int
+  result: enum [HOME_WIN, AWAY_WIN, DRAW]  # derived, but store for convenience
   competition: enum [LEAGUE, DOMESTIC_CUP, CHAMPIONS_LEAGUE, EUROPA_LEAGUE, CONFERENCE_LEAGUE, SUPER_CUP, FRIENDLY]
   round: string (optional — e.g. "Matchday 14", "Round of 16")
   season: string (e.g. "2025-26")
@@ -100,6 +104,7 @@ The **`/v4/teams/{id}/matches`** endpoint is ideal: it returns all matches for a
 |`FL1` |Ligue 1                                             |
 |`CL`  |Champions League                                    |
 |`EL`  |Europa League (check if available on free tier)     |
+|`ECL` |Conference League (check if available on free tier) |
 |`KNVB`|KNVB Cup (may not be available — needs verification)|
 
 ### 3.4 Free Tier Limitations to Verify
@@ -115,11 +120,11 @@ Step 1: Get all team IDs
   GET /competitions/DED/teams                          = 1 request
 
 Step 2: For each team, fetch current season matches
-  GET /teams/{id}/matches?dateFrom=2025-08-01&dateTo=2026-03-24&status=FINISHED
+  GET /teams/{id}/matches?dateFrom={season_start}&dateTo={today}&status=FINISHED
   18 teams × 1 request                                = 18 requests
 
 Step 3: For teams without a 5-streak, fetch previous season
-  GET /teams/{id}/matches?dateFrom=2024-08-01&dateTo=2025-06-30&status=FINISHED
+  GET /teams/{id}/matches?dateFrom={prev_start}&dateTo={prev_end}&status=FINISHED
   ~8 teams × 1 request                                = 8 requests
 
 Step 4: If still not found, go back another season
@@ -128,10 +133,19 @@ Step 4: If still not found, go back another season
 Step 5: Validate against standings
   GET /competitions/DED/standings                      = 1 request
 
-Total: ~31 requests (well within 10/min rate limit if paced)
+Total: ~31 requests
+At 10 req/min, this takes ~3 minutes with 6s sleep between requests.
 ```
 
-### 3.6 Match Response Structure (what we extract)
+### 3.6 Caching & Resilience
+
+- **Cache raw API responses** in `data/raw/` keyed by team ID and date range. Only re-fetch if the cached data is older than 24h.
+- **Completed seasons are immutable** — once 2024-25 is fully fetched, never re-fetch it. Only the current (in-progress) season needs daily updates.
+- **Rate limit handling**: If the API returns HTTP 429, back off exponentially (6s → 12s → 24s). Log and alert on repeated failures.
+- **API downtime fallback**: If the API is unreachable, serve the last successfully computed `hair-index.json`. The frontend should display a "last updated" timestamp so users know the data age.
+- **Data validation**: After each fetch, verify that the number of matches is plausible (e.g., a team mid-season should have 15-40 matches, not 0 or 500). Flag anomalies rather than silently using bad data.
+
+### 3.7 Match Response Structure (what we extract)
 
 ```json
 {
@@ -158,49 +172,53 @@ From this we derive: date, opponent, home/away, result (W/D/L), competition, and
 ```python
 def find_last_5_streak(team_id: str, api_client) -> dict:
     """
-    Search backward through a team's match history until we find
+    Search backward through a team’s match history until we find
     the most recent 5-win streak.
-    
+
     Strategy:
-    1. Fetch current season matches (most teams' streak is here)
-    2. If no 5-streak found, fetch previous season
-    3. Keep going back until found or data runs out
-    4. IMPORTANT: when crossing season boundaries, carry forward
-       any partial streak from the end of the previous season
-    
+    1. Fetch current season matches, sort chronologically
+    2. Scan from most recent match backward, counting consecutive wins
+    3. If streak >= 5 found, record it and stop
+    4. If no 5-streak in current season, fetch previous season
+    5. IMPORTANT: carry partial streak across season boundary
+       (e.g. if the current season starts W W W, check if the
+       previous season ended with wins to extend the streak)
+    6. Keep going back until found or data runs out
+
     Returns: {
         "team": str,
+        "team_id": int,
         "found": bool,
-        "streak_end_date": Date | None,     # date of the 5th win
-        "streak_start_date": Date | None,   # date of the 1st win
+        "streak_end_date": Date | None,     # date of the LAST win in the streak
+        "streak_start_date": Date | None,   # date of the 1st win in the streak
         "streak_length": int,               # might be > 5
-        "days_since": int,                  # hair length!
-        "matches_since": int,               # how many games since
+        "days_since": int,                  # calendar days from streak_end_date to today
+        "matches_since": int,               # competitive matches played since streak ended
         "competitions_in_streak": List[str], # e.g. ["Eredivisie", "KNVB Cup"]
-        "search_depth": str,                # e.g. "2023-24" (how far back we looked)
-        "current_form": str,                # last 10 matches W/D/L
+        "search_depth": str,                # earliest season searched, e.g. "2023-24"
+        "current_form": List[str],          # last 10 results, e.g. ["W","L","W","D",...]
     }
     """
 ```
 
-The key insight: we search **backward from today**, and we stop as soon as we find it. For PSV that’s a few weeks of data. For Telstar it might be years.
+The key insight: we search **backward from today**, and we stop as soon as we find a 5-win streak. For PSV that’s a few weeks of data. For Telstar it might be years.
+
+**Important clarification on "backward search":** We fetch season data chronologically (the API returns matches in date order), but we process seasons from most recent to oldest. Within each season, we scan from the latest match backward to find streaks. This is more efficient than a true reverse scan because the API doesn’t support reverse ordering.
 
 ### 4.2 Hair Length Metric
 
 The metric is **calendar days since the date of the 5th consecutive win** (i.e. the date the streak was “completed”). This makes it comparable across leagues and competitions with different schedules.
 
 ```
-hair_length = (today - date_of_5th_consecutive_win).days
+hair_length = (today - streak_end_date).days
 
-Categories:
-- 0-7 days:      💇 "Fresh cut" — just completed a 5-streak
-- 8-30 days:     ✂️ "Growing back"
-- 31-90 days:    💈 "Getting shaggy"  
-- 91-180 days:   🦁 "Long & wild"
-- 181-365 days:  🧔 "Full beard"
-- 1-2 years:     🧌 "Caveman"
-- 2-5 years:     🦍 "Sasquatch"
-- 5+ years:      💀 "Neanderthal"
+Tiers (canonical — used for both display and portrait generation):
+- 0-14 days:     💇 "Fresh cut" — just completed a 5-streak
+- 15-60 days:    ✂️ "Growing back"
+- 61-120 days:   💈 "Getting shaggy"
+- 121-270 days:  🦁 "Long & wild"
+- 271-500 days:  🧔 "Caveman"
+- 500+ days:     🧌 "Sasquatch"
 - Not found:     ❓ "Lost in time" (need deeper historical data)
 ```
 
@@ -212,7 +230,8 @@ Categories:
 - **Summer break gap**: The wins must be consecutive competitive matches — a 2-month gap between seasons is fine as long as no competitive match broke the streak
 - **Mid-week matches**: A team playing Wed + Sat builds/breaks streaks faster
 - **European teams** get more chances to build streaks but also more chances to break them
-- **Penalty shootout results**: Count as a Draw (match ended level after 90/120 min). The “win on penalties” is not a win for streak purposes
+- **Extra time wins**: A win in extra time (AET) counts as a Win — the team won the match within regulation play
+- **Penalty shootout results**: Count as a Draw — the match ended level after 90/120 min. The API's `score.fullTime` reflects the score at end of regular/extra time; if equal, it's a draw for streak purposes regardless of who advances
 - **Walkovers/forfeits**: Count as W or L per official result
 - **Promoted teams**: Search continues into lower division data (Eerste Divisie etc.)
 - **Relegated teams**: Their Eredivisie streak history still counts — search stops at the last 5-streak regardless of division
@@ -290,7 +309,7 @@ Each team’s card should be individually shareable as a social image:
 Example share text:
 
 > 🧔 Telstar-supporters hebben al 847 dagen geen kapper gezien.
-> De laatste keer dat Telstar 5x op rij won was op 14 november 2023.
+> De laatste keer dat Telstar 5x op een rij won was op 14 november 2023.
 > #HairLengthIndex #Eredivisie
 
 ### 5.4 V2: Timeline & Animation
@@ -375,36 +394,36 @@ hair-length-index/
 ### Phase 1: Data Pipeline (Day 1-2)
 
 1. **Explore the API** (30 min):
-- Hit `/competitions/DED/teams` to get all 18 Eredivisie team IDs
-- Hit `/teams/{psv_id}/matches` to see the exact response format
-- Test: does the free tier include KNVB Cup and European matches?
-- Test: how far back can we query? (`?season=2023`)
-1. **Write `fetch_matches.py`** — smart backward search:
-   
+   - Hit `/competitions/DED/teams` to get all 18 Eredivisie team IDs
+   - Hit `/teams/{psv_id}/matches` to see the exact response format
+   - Test: does the free tier include KNVB Cup and European matches?
+   - Test: how far back can we query? (`?season=2023`)
+2. **Write `fetch_matches.py`** — smart backward search:
+
    ```
    for each team:
      season = current
      streak_found = False
      while not streak_found and season >= 2022:
        fetch /teams/{id}/matches?season={season}&status=FINISHED
-       scan for 5-win streaks (all competitions chronologically)
+       scan for 5-win streaks (most recent match backward)
        if found: record it, break
        else: carry partial streak, go to previous season
    ```
-   
-   Rate limit: sleep 6s between requests (10 req/min limit)
-   Store raw JSON per team in `data/raw/`
-1. **Write `compute_index.py`**:
-- Read raw match data per team
-- Build chronological match list
-- Find last 5-win streak
-- Calculate days since (hair length)
-- Output `data/processed/hair-index.json`
-1. **Write `validate.py`**:
-- Fetch `/competitions/DED/standings`
-- Compare our computed league W/D/L/Pts with official standings
-- Report discrepancies
-1. **First full run**: Execute pipeline, verify results against our known PSV and Feyenoord data from Wikipedia
+
+   Rate limit: sleep 6s between requests (10 req/min limit).
+   Store raw JSON per team in `data/raw/`.
+3. **Write `compute_streaks.py`**:
+   - Read raw match data per team
+   - Build chronological match list across all competitions
+   - Find last 5-win streak (scanning backward from most recent match)
+   - Calculate days since (hair length)
+   - Output `data/processed/hair-index.json`
+4. **Write `validate_data.py`**:
+   - Fetch `/competitions/DED/standings`
+   - Compare our computed league W/D/L/Pts with official standings
+   - Report discrepancies
+5. **First full run**: Execute pipeline, verify results against our known PSV and Feyenoord data from Wikipedia
 
 ### Phase 2: Frontend MVP (Day 3-4)
 
@@ -468,10 +487,26 @@ These are Eredivisie-only. For the full Hair Length Index (all competitions), we
 
 -----
 
-## 10. Success Metrics
+## 10. MVP Definition of Done
 
-- **Accuracy**: 100% match between our computed standings and official league table
-- **Coverage**: All competitive matches for all teams in scope
-- **Freshness**: Data updated within 24h of last match
-- **Engagement**: Social sharing, Reddit/Twitter pickup
+The MVP is shippable when all of the following are true:
+
+- [ ] `fetch_matches.py` retrieves match data for all 18 Eredivisie teams from the API
+- [ ] `compute_streaks.py` correctly identifies the last 5-win streak (or “not found”) for each team
+- [ ] `validate_data.py` confirms 0 discrepancies with official league standings
+- [ ] `hair-index.json` is generated with all required fields per team
+- [ ] Frontend renders the Hair Length Index table, sorted longest-first
+- [ ] Each team row shows: crest, name, days since streak, date of streak, current form
+- [ ] GitHub Actions workflow runs daily and commits updated data
+- [ ] Deployed and publicly accessible
+
+-----
+
+## 11. Success Metrics
+
+- **Accuracy**: 0 discrepancies between our computed league W/D/L/Pts and official standings (automated validation on every run)
+- **Coverage**: All competitive matches (league + cup + European where available) for all 18 Eredivisie teams
+- **Freshness**: Data updated within 24h of last match day
+- **Reliability**: Pipeline runs successfully >95% of days (accounting for API downtime)
+- **Engagement**: Social sharing, Reddit/Twitter/Mastodon pickup — track via share button clicks and referral traffic
 - **Virality potential**: “Ajax fans haven’t had a haircut since [date]” is inherently shareable
