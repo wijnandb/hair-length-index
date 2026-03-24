@@ -1,0 +1,4463 @@
+{
+  "team_id": 390,
+  "team": "VVV-Venlo",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2026-03-20",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-17",
+      "opponent": "Ajax (J)",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-06",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-27",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-20",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-10",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-02",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-26",
+      "opponent": "Roda JC",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-23",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-16",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Sp. Rotterdam",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-19",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-12",
+      "opponent": "FC Den Bosch",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-05",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-28",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-24",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-21",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-07",
+      "opponent": "AZ (J)",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-31",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-28",
+      "opponent": "Heerenveen",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-24",
+      "opponent": "FC Eindhoven",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-21",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-17",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Duisburg",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-03",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-30",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-26",
+      "opponent": "Ajax (J)",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-21",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-16",
+      "opponent": "TOP Oss",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-13",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "KVC Westerlo",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-31",
+      "opponent": "SC Cambuur",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-24",
+      "opponent": "Roda JC",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-15",
+      "opponent": "Jong PSV",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-08",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-03",
+      "opponent": "Oud-Heverlee Leuven II",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-02",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-07-26",
+      "opponent": "Verl",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-07-19",
+      "opponent": "Vikt. Köln",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-07-12",
+      "opponent": "Lommel",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-07-05",
+      "opponent": "M'gladbach II",
+      "home_away": "H",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-07-02",
+      "opponent": "Nuenen",
+      "home_away": "H",
+      "score": "8-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-09",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "2-7",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-02",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-28",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-18",
+      "opponent": "FC Den Bosch",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-13",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-04",
+      "opponent": "TOP Oss",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-01",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-29",
+      "opponent": "Roda JC",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-22",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-14",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-07",
+      "opponent": "Ajax (J)",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-28",
+      "opponent": "SC Cambuur",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-22",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-09",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-03",
+      "opponent": "AZ (J)",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-27",
+      "opponent": "Jong PSV",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-17",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-12",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-06",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-21",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-13",
+      "opponent": "FC Eindhoven",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-06",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-01",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-22",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-15",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-08",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-01",
+      "opponent": "Ajax (J)",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-29",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-25",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-18",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-13",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-04",
+      "opponent": "SC Cambuur",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-27",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-20",
+      "opponent": "Jong PSV",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-16",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-13",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-05",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-30",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-25",
+      "opponent": "Roda JC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-16",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-10",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-02",
+      "opponent": "SC Cambuur",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-24",
+      "opponent": "Al Rayyan",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-20",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-13",
+      "opponent": "RKSV",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-10",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-06",
+      "opponent": "Uerdingen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-10",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-03",
+      "opponent": "Ajax (J)",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-26",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-22",
+      "opponent": "AZ (J)",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-14",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-07",
+      "opponent": "Roda JC",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-29",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-23",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-15",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-08",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-01",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-23",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-16",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-10",
+      "opponent": "SC Cambuur",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-02",
+      "opponent": "Jong PSV",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-26",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-22",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-15",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-07",
+      "opponent": "Lommel",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-22",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-15",
+      "opponent": "TOP Oss",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-08",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-01",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-24",
+      "opponent": "SC Cambuur",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-17",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-10",
+      "opponent": "FC Eindhoven",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-03",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-31",
+      "opponent": "Heerenveen",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-27",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-20",
+      "opponent": "FC Den Bosch",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-14",
+      "opponent": "Roda JC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-06",
+      "opponent": "Ajax (J)",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-01",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-22",
+      "opponent": "Jong PSV",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-15",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-09",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-01",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-25",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-18",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-13",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-05",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-07-28",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-07-25",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-07-22",
+      "opponent": "Bielefeld",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-07-15",
+      "opponent": "Vikt. Köln",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-07-12",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-07-08",
+      "opponent": "VVCS",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-06-03",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-30",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-27",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-23",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-19",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-12",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-05",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-28",
+      "opponent": "Ajax (J)",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-21",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-14",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-09",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-31",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-24",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-19",
+      "opponent": "Roda JC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-13",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-10",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-03",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-24",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-17",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-10",
+      "opponent": "Heracles",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-03",
+      "opponent": "AZ (J)",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-27",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-23",
+      "opponent": "Jong PSV",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-20",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-11",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-06",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-30",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-16",
+      "opponent": "FC Eindhoven",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-11",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-19",
+      "opponent": "FC Den Bosch",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-11",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-04",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-28",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-24",
+      "opponent": "Ajax (J)",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-20",
+      "opponent": "VV Dongen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-14",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-07",
+      "opponent": "Roda JC",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-30",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-23",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-16",
+      "opponent": "Jong PSV",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-09",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "3-5",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-02",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-26",
+      "opponent": "TOP Oss",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-21",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-12",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-05",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-30",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "2-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-26",
+      "opponent": "Atromitos",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-22",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-19",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-15",
+      "opponent": "SV Straelen",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-09",
+      "opponent": "M'gladbach II",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-05",
+      "opponent": "RKSV",
+      "home_away": "A",
+      "score": "7-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-02",
+      "opponent": "SV Roggel",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-06",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-29",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-25",
+      "opponent": "Ajax (J)",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-15",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-08",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-01",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-26",
+      "opponent": "FC Den Bosch",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-19",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-14",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-11",
+      "opponent": "FC Eindhoven",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-04",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-25",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-13",
+      "opponent": "Roda JC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-04",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-30",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-21",
+      "opponent": "AZ (J)",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-14",
+      "opponent": "Jong PSV",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-09",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-17",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-10",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-03",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-26",
+      "opponent": "Roda JC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-19",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-14",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-05",
+      "opponent": "Ajax (J)",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-29",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-26",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-22",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-15",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-09",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-01",
+      "opponent": "Jong PSV",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-24",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-17",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-10",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-05",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-27",
+      "opponent": "AZ (J)",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-21",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-13",
+      "opponent": "TOP Oss",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-08",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-31",
+      "opponent": "Panathinaikos",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-23",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-15",
+      "opponent": "SV Straelen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-09",
+      "opponent": "VV UNA",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-06",
+      "opponent": "SV Venray",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-16",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-13",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-08",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-01",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-24",
+      "opponent": "Sp. Rotterdam",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-16",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-11",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-03",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-21",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-14",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-09",
+      "opponent": "Sp. Rotterdam",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-06",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-02",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-27",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-20",
+      "opponent": "AZ Alkmaar",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-17",
+      "opponent": "N.E.C.",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-14",
+      "opponent": "FC Utrecht",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-30",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-27",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-24",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-21",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-17",
+      "opponent": "Heerenveen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-13",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-10",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-22",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-19",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-16",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-13",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-05",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-28",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-21",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-07",
+      "opponent": "Heracles",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-31",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-27",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-24",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-13",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-17",
+      "opponent": "AZ Alkmaar",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-03",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-26",
+      "opponent": "Heerenveen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-18",
+      "opponent": "FC Utrecht",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-13",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "5-3",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-04",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-29",
+      "opponent": "SV Straelen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-26",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-22",
+      "opponent": "VVCS",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-18",
+      "opponent": "VV Reuver",
+      "home_away": "A",
+      "score": "16-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-14",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-26",
+      "opponent": "EVV",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-21",
+      "opponent": "Sporting ST",
+      "home_away": "A",
+      "score": "19-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-07",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-29",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-22",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-14",
+      "opponent": "Heracles",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-08",
+      "opponent": "Heerenveen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-02",
+      "opponent": "FC Utrecht",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-25",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-19",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-10",
+      "opponent": "Kortrijk",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-22",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-14",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-07",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-01",
+      "opponent": "AZ Alkmaar",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-24",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-09",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-03",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-30",
+      "opponent": "RKSV Groene Ster",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-26",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-19",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-06",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-28",
+      "opponent": "Heerenveen",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-21",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-14",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-31",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-25",
+      "opponent": "FC Utrecht",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-17",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-09",
+      "opponent": "Sp. Rotterdam",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-03",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-27",
+      "opponent": "Panathinaikos",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-20",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-16",
+      "opponent": "SV Straelen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-13",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-05",
+      "opponent": "STVV",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-02",
+      "opponent": "Venlosche Boys",
+      "home_away": "A",
+      "score": "5-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-06-29",
+      "opponent": "SHH",
+      "home_away": "A",
+      "score": "14-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-06-25",
+      "opponent": "MVC'19",
+      "home_away": "A",
+      "score": "7-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-15",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-12",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-23",
+      "opponent": "Heerenveen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-20",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-13",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-07",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-03",
+      "opponent": "FC Utrecht",
+      "home_away": "H",
+      "score": "2-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-31",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-17",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-09",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-03",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-22",
+      "opponent": "Heracles",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-16",
+      "opponent": "AZ Alkmaar",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-09",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-02",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-26",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-19",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-12",
+      "opponent": "Vikt. Köln",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-21",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-15",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-09",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-06",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-02",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-25",
+      "opponent": "AZ Alkmaar",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-10",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-31",
+      "opponent": "AZ Alkmaar",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-26",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-21",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-06",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-29",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-25",
+      "opponent": "RKVV Westlandia",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-22",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-15",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-01",
+      "opponent": "Heerenveen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-26",
+      "opponent": "FC Utrecht",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-18",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-11",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-04",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-30",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-27",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-21",
+      "opponent": "De Treffers",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-18",
+      "opponent": "RKSV",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-10",
+      "opponent": "SVEB",
+      "home_away": "A",
+      "score": "16-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-07",
+      "opponent": "Veritas",
+      "home_away": "A",
+      "score": "7-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-03",
+      "opponent": "Sparta '18",
+      "home_away": "A",
+      "score": "7-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-05-06",
+      "opponent": "FC Utrecht",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-29",
+      "opponent": "Roda JC",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-19",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-14",
+      "opponent": "Heerenveen",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-07",
+      "opponent": "Sp. Rotterdam",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-01",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-17",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-10",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-04",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-24",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-16",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-10",
+      "opponent": "AZ Alkmaar",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-07",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-04",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-27",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-20",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-06",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-24",
+      "opponent": "Heracles",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-20",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-16",
+      "opponent": "Roda JC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-13",
+      "opponent": "FC Utrecht",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-09",
+      "opponent": "Heerenveen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-03",
+      "opponent": "AZ Alkmaar",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-25",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-18",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-04",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-28",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-25",
+      "opponent": "FC Utrecht",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-21",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-15",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-30",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-24",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-21",
+      "opponent": "Blauw Geel '38",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-17",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-10",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-27",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-19",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-12",
+      "opponent": "Sp. Rotterdam",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-07-27",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-05",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-28",
+      "opponent": "Ajax (J)",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-21",
+      "opponent": "FC Eindhoven",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-17",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-14",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-07",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-31",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-17",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-13",
+      "opponent": "FC Den Bosch",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-10",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-06",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-24",
+      "opponent": "Achilles'29",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-17",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-10",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "7-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-06",
+      "opponent": "Jong PSV",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-03",
+      "opponent": "De Graafs.",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-27",
+      "opponent": "TOP Oss",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-22",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-13",
+      "opponent": "SC Cambuur",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-16",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-09",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-02",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-28",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-25",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-18",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-04",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-31",
+      "opponent": "Ajax (J)",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-27",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-21",
+      "opponent": "FC Den Bosch",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-14",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-30",
+      "opponent": "Achilles'29",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-23",
+      "opponent": "FC Utrecht (J)",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-20",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-16",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-09",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-26",
+      "opponent": "De Graafs.",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-22",
+      "opponent": "Jong PSV",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-19",
+      "opponent": "TOP Oss",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-12",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-05",
+      "opponent": "SC Cambuur",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 360,
+    "end_index": 365,
+    "length": 6
+  }
+}
