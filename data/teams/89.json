@@ -1,0 +1,5863 @@
+{
+  "team_id": 89,
+  "team": "NAC Breda",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2025-10-29",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2025-05-18",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-05-14",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-04-24",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-04-12",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-04-06",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-03-29",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-03-14",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-14",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-03-07",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-03-01",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-02-15",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-02-09",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-01-31",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-01-25",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-01-19",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-01-12",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-12-21",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-12-15",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-12-07",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-11-30",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-30",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-11-24",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-11-09",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-11-02",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-10-26",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-10-20",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-10-05",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-09-29",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-09-22",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-09-14",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-08-31",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-08-24",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-08-18",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-08-09",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-05-07",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-16",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-16",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-10",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-27",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-23",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-05",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-16",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-01",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-03",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-11",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-14",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-26",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-23",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-22",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-21",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-31",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-26",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-06",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-08",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-01",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-20",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-20",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-15",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-05-12",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-04-24",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-04-21",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-21",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-04-12",
+      "opponent": "FC Emmen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-04-06",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-04-03",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-03",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-03-31",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-03-16",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-03-09",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-03-02",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-02-23",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-23",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-02-17",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-02-08",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-02-01",
+      "opponent": "Graafschap",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-01-25",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-01-20",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-12-22",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-12-15",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-12-09",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-12-02",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-02",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-11-24",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-11-10",
+      "opponent": "FC Emmen",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-11-03",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-10-27",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-10-21",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-10-05",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-09-29",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-09-22",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-09-02",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-08-25",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-25",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-08-18",
+      "opponent": "Graafschap",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-08-12",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-07-28",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-14",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-05-06",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-04-29",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-04-18",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-18",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-04-15",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-04-07",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-03-31",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-03-18",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-03-10",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-03-03",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-23",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-23",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-17",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-11",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-11",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-07",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "6-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-04",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-01-27",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-01-20",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-23",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-16",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-12",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-08",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-03",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-03",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-11-25",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-11-18",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-8",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-11-04",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-10-29",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-10-21",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-10-14",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-09-30",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-09-23",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-09-16",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-16",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-09-10",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-08-25",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-25",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-08-20",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-08-12",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-05-05",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-13",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-10",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-02",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-21",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-14",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-29",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-22",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-11",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-01",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-19",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-12-18",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-12-11",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-30",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-23",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-27",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-17",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "4-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-17",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "4-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-05-10",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-04-25",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-04-19",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-04-11",
+      "opponent": "FC Dordrecht",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-04-04",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-03-20",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-03-14",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-03-08",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-02-28",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-02-20",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-02-14",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-02-07",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-02-03",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-01-31",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-01-31",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-01-25",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2015-01-17",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-12-21",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-12-18",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-12-13",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-12-06",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-11-29",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-11-22",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-11-08",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-11-02",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-11-02",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-10-28",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-25",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-10-18",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-10-04",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-09-27",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-09-19",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-09-14",
+      "opponent": "FC Dordrecht",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-08-31",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-08-24",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-08-16",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-08-09",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-08-09",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-05-03",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-04-27",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-04-11",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-11",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-04-05",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-04-02",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-03-28",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-03-16",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-03-08",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-03-01",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-02-22",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-02-16",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-02-08",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-02-05",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-02-01",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-01-25",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2014-01-18",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-12-21",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-12-15",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-12-07",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-11-30",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-11-30",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-11-24",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-11-10",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-11-01",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-10-26",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-10-19",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-10-05",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-09-28",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-09-22",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-09-15",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "5-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-08-30",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-08-25",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-08-18",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-08-10",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-08-04",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-05-12",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-05-05",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "5-3",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-04-27",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-04-21",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-04-13",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-04-06",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-03-30",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-03-17",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-03-08",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-03-08",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-03-02",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-02-24",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-02-16",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-02-09",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-02-02",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-01-26",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2013-01-19",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-12-22",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-12-15",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-12-09",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-12-02",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-11-23",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-11-17",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-11-09",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-11-09",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-11-04",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-10-27",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-10-20",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-10-07",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-09-29",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-09-23",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-09-16",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-09-01",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-08-25",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-08-18",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-08-10",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-05-06",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-05-02",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-05-02",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-04-28",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-04-20",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-04-14",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-04-11",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-03-31",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-03-24",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-03-18",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-03-11",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-03-03",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-02-25",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-02-17",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-02-11",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-02-04",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-01-28",
+      "opponent": "Graafschap",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2012-01-21",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-01-21",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-12-18",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-12-10",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-12-03",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-11-26",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-11-19",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-11-05",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-10-28",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-10-21",
+      "opponent": "Graafschap",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-10-16",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-10-16",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-10-01",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-09-24",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-09-16",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-09-11",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-08-27",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-08-20",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-08-20",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-08-14",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-08-07",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-05-15",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-05-01",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-04-23",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-04-16",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-04-16",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-04-08",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-04-02",
+      "opponent": "Graafschap",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-03-19",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-03-19",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-03-13",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-03-05",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-02-26",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-02-20",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-02-13",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-02-05",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-01-30",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-01-22",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2011-01-18",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-12-18",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-12-15",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-12-15",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-12-11",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-11-26",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-11-21",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-11-13",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-11-06",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-11-06",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-10-30",
+      "opponent": "Graafschap",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-10-26",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-10-22",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-10-16",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-10-02",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-09-26",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-09-18",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-09-12",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-08-28",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-08-21",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-08-15",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-08-08",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-05-02",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-04-18",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-04-13",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-04-10",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-04-04",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-03-26",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-03-20",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-03-13",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-03-06",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-02-28",
+      "opponent": "Sparta",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-02-20",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-02-12",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-02-05",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-02-02",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-01-30",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-01-23",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2010-01-17",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-12-12",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-12-04",
+      "opponent": "Sparta",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-11-29",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-11-21",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-11-08",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-10-30",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-10-24",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-10-17",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-10-03",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-09-27",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-09-19",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-09-13",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-08-30",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-08-23",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-08-16",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-08-09",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-08-02",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-05-10",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-05-03",
+      "opponent": "Graafschap",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-04-25",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-04-17",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-04-10",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-04-05",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-03-22",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-03-14",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-03-08",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-02-28",
+      "opponent": "Sparta",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-02-21",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-02-14",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-02-07",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-02-04",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-01-31",
+      "opponent": "Volendam",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-01-24",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2009-01-17",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-12-26",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-12-20",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-12-12",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-12-07",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-11-30",
+      "opponent": "Sparta",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-11-22",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-11-14",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-11-07",
+      "opponent": "Graafschap",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-11-01",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-10-29",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-10-26",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-10-18",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-10-05",
+      "opponent": "Volendam",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-09-27",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-09-21",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-09-14",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-08-31",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-04-20",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-04-13",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-04-06",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-03-30",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-03-21",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-03-15",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-03-08",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-03-01",
+      "opponent": "Sparta",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-02-24",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-02-17",
+      "opponent": "Graafschap",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-02-09",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-02-06",
+      "opponent": "Sparta",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-02-01",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-01-26",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-01-22",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-01-19",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2008-01-12",
+      "opponent": "VVV-Venlo",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-12-30",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-12-27",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-12-15",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "1-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-12-08",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-12-02",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-11-23",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-11-10",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-11-04",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-10-28",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-10-21",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-10-06",
+      "opponent": "Graafschap",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-09-29",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-09-21",
+      "opponent": "VVV-Venlo",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-09-16",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-09-01",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-08-26",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-08-18",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-04-29",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-04-22",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-04-13",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-04-08",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-03-31",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-03-17",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-03-10",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-03-03",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-02-25",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-02-16",
+      "opponent": "Sparta",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-02-11",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-02-03",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-01-27",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-01-21",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2007-01-14",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-12-27",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-12-23",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-12-16",
+      "opponent": "Sparta",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-12-09",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-12-02",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-11-26",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-11-17",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-11-10",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-11-04",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-10-29",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-10-26",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-10-21",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-10-14",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-10-01",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-09-22",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-09-16",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-09-08",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-08-27",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-08-19",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-8",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-04-16",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-04-12",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-04-08",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-04-04",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-03-26",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-03-17",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-03-10",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-03-04",
+      "opponent": "Roosendaal",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-02-26",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-02-19",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-02-12",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-02-08",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-02-04",
+      "opponent": "Sparta",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-01-29",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-01-22",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-01-14",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2006-01-11",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-12-27",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-12-18",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-12-10",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-12-03",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-11-30",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-11-19",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-11-05",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-10-29",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-10-22",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-10-15",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-09-30",
+      "opponent": "Roosendaal",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-09-25",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-09-17",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-09-11",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-08-27",
+      "opponent": "Sparta",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-08-19",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-08-14",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-05-22",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-05-15",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-05-06",
+      "opponent": "Roosendaal",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-05-01",
+      "opponent": "Den Bosch",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-04-24",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-04-17",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-04-10",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-04-03",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-03-19",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-03-12",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-03-06",
+      "opponent": "Graafschap",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-02-26",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-02-20",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-02-13",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-02-06",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-01-30",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2005-01-22",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-12-17",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-12-12",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-12-04",
+      "opponent": "Roosendaal",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-11-28",
+      "opponent": "Den Bosch",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-11-21",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-11-13",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-11-07",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-10-27",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-10-23",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-10-17",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-10-02",
+      "opponent": "Graafschap",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-09-26",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-09-18",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-09-12",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-08-28",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-08-22",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "2-6",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-08-14",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-05-16",
+      "opponent": "RKC Waalwijk",
+      "home_away": "H",
+      "score": "5-3",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-05-09",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-05-01",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-04-25",
+      "opponent": "ADO Den Haag",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-04-18",
+      "opponent": "Volendam",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-04-11",
+      "opponent": "Vitesse",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-04-04",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-03-27",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-03-20",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-03-13",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-03-05",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-02-28",
+      "opponent": "Roosendaal",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-02-25",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-02-22",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-02-14",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-02-07",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-02-01",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2004-01-24",
+      "opponent": "Volendam",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-12-20",
+      "opponent": "Roosendaal",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-12-12",
+      "opponent": "Roda JC Kerkrade",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-12-07",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-11-29",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-11-22",
+      "opponent": "PEC Zwolle",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-11-08",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-11-01",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-10-25",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-10-19",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-10-04",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-09-28",
+      "opponent": "RKC Waalwijk",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-09-21",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-09-14",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-08-31",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-08-23",
+      "opponent": "Vitesse",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2003-08-17",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "N1",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 142,
+    "end_index": 146,
+    "length": 5
+  }
+}
