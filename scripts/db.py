@@ -53,7 +53,7 @@ def init_db(conn: sqlite3.Connection) -> None:
             )),
             round TEXT,
             season TEXT NOT NULL,
-            UNIQUE(source, source_match_id)
+            UNIQUE(date, home_team_id, away_team_id)
         );
 
         CREATE TABLE IF NOT EXISTS data_sources (
@@ -157,7 +157,7 @@ def get_teams_missing_cup_data(conn: sqlite3.Connection, league: str, season: st
 
 
 def upsert_match(conn: sqlite3.Connection, **kwargs) -> int | None:
-    """Insert a match, ignoring duplicates (same source + source_match_id)."""
+    """Insert a match, ignoring duplicates (same date + home + away team)."""
     cols = [k for k in kwargs if kwargs[k] is not None]
     placeholders = ", ".join("?" for _ in cols)
     values = [kwargs[k] for k in cols]
