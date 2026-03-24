@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hair Length Index — Eredivisie</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Hair Length Index</h1>
+      <p class="subtitle">Hoelang geleden won jouw club 5x op een rij?</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="controls">
+      <div class="league-badge">Eredivisie 2025-26</div>
+      <div class="updated" id="updated"></div>
+    </div>
+
+    <div class="index-table" id="index-table">
+      <div class="loading">Laden...</div>
+    </div>
+
+    <footer>
+      <p>
+        Ge&iuml;nspireerd door de Manchester United-fan die zijn haar niet knipt
+        totdat United 5x op een rij wint.
+      </p>
+      <p class="footnotes">
+        Officieel: resultaat na 90 minuten. Verlenging/strafschoppen = gelijkspel.<br>
+        Data: football-data.org &amp; API-Football. Bijgewerkt op <span id="footer-date"></span>.
+      </p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
