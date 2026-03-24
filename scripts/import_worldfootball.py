@@ -52,7 +52,7 @@ KNOWN_TEAMS = {
     "Heracles Almelo": ("te2025", "heracles-almelo"),
     "PEC Zwolle": ("te2024", "pec-zwolle"),
     "RKC Waalwijk": ("te2028", "rkc-waalwijk"),
-    "FC Volendam": ("te2029", "fc-volendam"),
+    "FC Volendam": ("te719", "fc-volendam"),
 }
 
 # Competition name mapping from worldfootball.net to our model

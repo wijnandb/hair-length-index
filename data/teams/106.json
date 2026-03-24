@@ -484,6 +484,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2025-01-14",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "5-4",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2025-01-11",
       "opponent": "AZ",
       "home_away": "H",
@@ -2912,6 +2922,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2017-10-26",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
     },
     {
       "date": "2017-10-22",

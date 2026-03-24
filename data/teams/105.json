@@ -664,6 +664,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2024-07-13",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "8-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2024-05-19",
       "opponent": "FC Utrecht",
       "home_away": "H",
@@ -3400,6 +3410,16 @@
       "score": "3-0",
       "result": "W",
       "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-07-09",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "8-1",
+      "result": "W",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },

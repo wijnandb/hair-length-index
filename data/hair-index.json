@@ -1,45 +1,7 @@
 {
-  "generated_at": "2026-03-24T16:34:31.517662",
+  "generated_at": "2026-03-24T16:50:05.859447",
   "threshold": 5,
   "teams": [
-    {
-      "team": "RKC Waalwijk",
-      "team_id": 91,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2011-04-01",
-      "streak_start_date": "2010-09-21",
-      "days_since": 5471,
-      "matches_since": 357,
-      "competitions_in_streak": [
-        "Eerste Divisie",
-        "KNVB Beker"
-      ],
-      "current_form": [
-        "L",
-        "W",
-        "W",
-        "W",
-        "L",
-        "W",
-        "L",
-        "L",
-        "L",
-        "D"
-      ],
-      "search_depth": "2003-08-16",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2011-04-01",
-      "strict_days_since": 5471,
-      "includes_aet_pens": false,
-      "total_matches": 534,
-      "has_cup_data": true,
-      "data_complete": true
-    },
     {
       "team": "PEC Zwolle",
       "team_id": 80,
@@ -50,7 +12,7 @@
       "streak_end_date": "2013-08-24",
       "streak_start_date": "2013-05-12",
       "days_since": 4595,
-      "matches_since": 410,
+      "matches_since": 412,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -73,7 +35,7 @@
       "strict_streak_end_date": "2013-08-24",
       "strict_days_since": 4595,
       "includes_aet_pens": false,
-      "total_matches": 494,
+      "total_matches": 496,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -115,6 +77,44 @@
       "data_complete": true
     },
     {
+      "team": "SBV Excelsior",
+      "team_id": 181,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 6,
+      "streak_end_date": "2014-05-15",
+      "streak_start_date": "2014-04-18",
+      "days_since": 4331,
+      "matches_since": 460,
+      "competitions_in_streak": [
+        "Eerste Divisie",
+        "Eredivisie"
+      ],
+      "current_form": [
+        "D",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "W",
+        "D",
+        "D",
+        "D"
+      ],
+      "search_depth": "2006-08-19",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2014-05-15",
+      "strict_days_since": 4331,
+      "includes_aet_pens": false,
+      "total_matches": 698,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
       "team": "Heracles Almelo",
       "team_id": 90,
       "short_name": null,
@@ -124,7 +124,7 @@
       "streak_end_date": "2015-09-19",
       "streak_start_date": "2015-08-16",
       "days_since": 3839,
-      "matches_since": 341,
+      "matches_since": 346,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -147,7 +147,7 @@
       "strict_streak_end_date": "2015-09-19",
       "strict_days_since": 3839,
       "includes_aet_pens": false,
-      "total_matches": 690,
+      "total_matches": 695,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -161,7 +161,7 @@
       "streak_end_date": "2017-09-23",
       "streak_start_date": "2017-08-26",
       "days_since": 3104,
-      "matches_since": 300,
+      "matches_since": 302,
       "competitions_in_streak": [
         "Eredivisie",
         "KNVB Beker"
@@ -185,7 +185,7 @@
       "strict_streak_end_date": "2017-09-23",
       "strict_days_since": 3104,
       "includes_aet_pens": false,
-      "total_matches": 783,
+      "total_matches": 786,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -222,7 +222,7 @@
       "strict_streak_end_date": "2018-04-06",
       "strict_days_since": 2909,
       "includes_aet_pens": false,
-      "total_matches": 538,
+      "total_matches": 544,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -265,6 +265,80 @@
       "data_complete": true
     },
     {
+      "team": "Telstar 1963",
+      "team_id": 195,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 5,
+      "streak_end_date": "2019-11-01",
+      "streak_start_date": "2019-10-18",
+      "days_since": 2335,
+      "matches_since": 125,
+      "competitions_in_streak": [
+        "Eerste Divisie"
+      ],
+      "current_form": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W",
+        "L",
+        "D",
+        "D",
+        "W",
+        "L"
+      ],
+      "search_depth": "2010-08-06",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2019-11-01",
+      "strict_days_since": 2335,
+      "includes_aet_pens": false,
+      "total_matches": 555,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
+      "team": "FC Volendam",
+      "team_id": 88,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 8,
+      "streak_end_date": "2021-10-22",
+      "streak_start_date": "2021-09-17",
+      "days_since": 1614,
+      "matches_since": 171,
+      "competitions_in_streak": [
+        "Eerste Divisie"
+      ],
+      "current_form": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "L",
+        "W",
+        "W",
+        "L",
+        "D",
+        "L"
+      ],
+      "search_depth": "2003-08-17",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2021-10-22",
+      "strict_days_since": 1614,
+      "includes_aet_pens": false,
+      "total_matches": 607,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
       "team": "Go Ahead Eagles",
       "team_id": 109,
       "short_name": null,
@@ -298,7 +372,7 @@
       "strict_streak_end_date": "2021-10-31",
       "strict_days_since": 1605,
       "includes_aet_pens": false,
-      "total_matches": 577,
+      "total_matches": 587,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -312,7 +386,7 @@
       "streak_end_date": "2022-03-14",
       "streak_start_date": "2022-02-13",
       "days_since": 1471,
-      "matches_since": 190,
+      "matches_since": 193,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -335,45 +409,7 @@
       "strict_streak_end_date": "2022-03-14",
       "strict_days_since": 1471,
       "includes_aet_pens": false,
-      "total_matches": 855,
-      "has_cup_data": true,
-      "data_complete": true
-    },
-    {
-      "team": "Almere City FC",
-      "team_id": 84,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2023-07-22",
-      "streak_start_date": "2023-06-03",
-      "days_since": 976,
-      "matches_since": 104,
-      "competitions_in_streak": [
-        "Eredivisie",
-        "KNVB Beker"
-      ],
-      "current_form": [
-        "L",
-        "W",
-        "W",
-        "L",
-        "D",
-        "D",
-        "L",
-        "W",
-        "D",
-        "L"
-      ],
-      "search_depth": "2010-08-13",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2022-04-01",
-      "strict_days_since": 1453,
-      "includes_aet_pens": true,
-      "total_matches": 741,
+      "total_matches": 870,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -411,45 +447,7 @@
       "strict_streak_end_date": "2023-10-11",
       "strict_days_since": 895,
       "includes_aet_pens": false,
-      "total_matches": 801,
-      "has_cup_data": true,
-      "data_complete": true
-    },
-    {
-      "team": "Willem II",
-      "team_id": 98,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2024-03-29",
-      "streak_start_date": "2024-03-08",
-      "days_since": 725,
-      "matches_since": 43,
-      "competitions_in_streak": [
-        "Eerste Divisie",
-        "KNVB Beker"
-      ],
-      "current_form": [
-        "L",
-        "W",
-        "D",
-        "L",
-        "L",
-        "D",
-        "L",
-        "L",
-        "L",
-        "L"
-      ],
-      "search_depth": "2003-08-16",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2024-03-29",
-      "strict_days_since": 725,
-      "includes_aet_pens": false,
-      "total_matches": 760,
+      "total_matches": 803,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -523,7 +521,7 @@
       "strict_streak_end_date": "2024-12-21",
       "strict_days_since": 458,
       "includes_aet_pens": false,
-      "total_matches": 789,
+      "total_matches": 791,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -560,7 +558,7 @@
       "strict_streak_end_date": "2025-03-09",
       "strict_days_since": 380,
       "includes_aet_pens": false,
-      "total_matches": 774,
+      "total_matches": 775,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -597,7 +595,7 @@
       "strict_streak_end_date": "2025-09-17",
       "strict_days_since": 188,
       "includes_aet_pens": false,
-      "total_matches": 780,
+      "total_matches": 781,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -635,7 +633,7 @@
       "strict_streak_end_date": "2026-01-17",
       "strict_days_since": 66,
       "includes_aet_pens": false,
-      "total_matches": 781,
+      "total_matches": 783,
       "has_cup_data": true,
       "data_complete": true
     },

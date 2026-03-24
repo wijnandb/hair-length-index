@@ -1434,6 +1434,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2021-07-08",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2021-05-16",
       "opponent": "FC Groningen",
       "home_away": "H",
@@ -2752,6 +2762,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2017-07-28",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
     },
     {
       "date": "2017-05-14",
@@ -4946,8 +4966,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 410,
-    "end_index": 414,
+    "start_index": 412,
+    "end_index": 416,
     "length": 5
   }
 }

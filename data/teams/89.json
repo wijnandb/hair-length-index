@@ -634,6 +634,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2024-07-20",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2024-06-02",
       "opponent": "SBV Excelsior",
       "home_away": "A",
@@ -1499,6 +1509,16 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-30",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -1750,6 +1770,16 @@
       "score": "1-0",
       "result": "W",
       "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-15",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -2014,6 +2044,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2022-01-14",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2022-01-08",
       "opponent": "FC Eindhoven",
       "home_away": "H",
@@ -2139,6 +2179,16 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-18",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2374,6 +2424,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2021-05-15",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2021-05-12",
       "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
@@ -2479,6 +2539,16 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-19",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2647,6 +2717,16 @@
       "date": "2021-01-03",
       "opponent": "SBV Excelsior",
       "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-18",
+      "opponent": "FC Volendam",
+      "home_away": "H",
       "score": "3-0",
       "result": "W",
       "competition": "Eerste Divisie",
@@ -3309,6 +3389,16 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-30",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4284,6 +4374,26 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2017-05-21",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-18",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2017-05-05",
       "opponent": "Almere City FC",
       "home_away": "A",
@@ -4306,6 +4416,16 @@
     {
       "date": "2017-03-10",
       "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-24",
+      "opponent": "FC Volendam",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -4338,6 +4458,16 @@
       "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-30",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-2",
       "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -4394,6 +4524,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-01-15",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-12-18",
       "opponent": "Almere City FC",
       "home_away": "A",
@@ -4439,6 +4579,16 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-08-07",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -8556,8 +8706,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 190,
-    "end_index": 195,
+    "start_index": 193,
+    "end_index": 198,
     "length": 6
   }
 }
