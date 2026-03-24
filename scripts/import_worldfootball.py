@@ -98,7 +98,8 @@ def _map_competition(comp_text: str) -> tuple[str, str, str]:
     # Remove "relegation", "promotion" suffixes
     lower = re.sub(r"\s*(relegation|promotion)$", "", lower)
 
-    for key, val in COMP_MAP.items():
+    # Check longer keys first (e.g., "playoffs eredivisie" before "eredivisie")
+    for key, val in sorted(COMP_MAP.items(), key=lambda x: -len(x[0])):
         if key in lower:
             return val
     return (f"WF_{comp_text[:10]}", comp_text, "LEAGUE")
