@@ -512,10 +512,24 @@ def run_fill_gaps(league: str = MVP_LEAGUE, seasons_back: int = MAX_SEASONS_BACK
             log.info(f"Skipping {skipped} season(s) outside free tier range "
                      f"({API_FOOTBALL_FREE_TIER_MIN_SEASON}-{API_FOOTBALL_FREE_TIER_MAX_SEASON})")
 
+    # Prioritize teams without a found streak — they need ED/cup data most
+    from scripts.compute_streaks import find_last_streak
+    from scripts.db import get_team_matches as _get_team_matches
+    def _has_streak(team_row):
+        matches = _get_team_matches(conn, team_row["id"], order="DESC")
+        result = find_last_streak(matches, team_row["id"], 5, "result_final")
+        return result["found"]
+
+    teams_no_streak = [t for t in teams if not _has_streak(t)]
+    teams_with_streak = [t for t in teams if t not in teams_no_streak]
+    ordered_teams = teams_no_streak + teams_with_streak
+    if teams_no_streak:
+        log.info(f"Prioritizing {len(teams_no_streak)} teams without a 5-win streak")
+
     total_new = 0
     teams_processed = 0
     rate_limited = False
-    for team in teams:
+    for team in ordered_teams:
         api_id = resolve_api_football_id(conn, client, team["name"], team["id"])
         if api_id is None:
             log.warning(f"  Skipping {team['name']} — no API-Football ID")
