@@ -31,22 +31,55 @@ We need a reliable, automated data pipeline.
 
 ```
 Match {
-  match_id: int                # football-data.org match ID (for deduplication)
-  date: Date
-  home_team: string
-  away_team: string
-  home_team_id: int            # football-data.org team ID (for reliable matching)
-  away_team_id: int
-  home_goals: int
-  away_goals: int
-  result_strict: enum [HOME_WIN, AWAY_WIN, DRAW]   # based on score after 90 min (AET/pens = DRAW)
-  result_lenient: enum [HOME_WIN, AWAY_WIN, DRAW]  # AET/penalty win counts as WIN
-  decided_in: enum [REGULAR, EXTRA_TIME, PENALTIES] # how the match was decided
-  competition: enum [LEAGUE, DOMESTIC_CUP, CHAMPIONS_LEAGUE, EUROPA_LEAGUE, CONFERENCE_LEAGUE, SUPER_CUP, FRIENDLY]
-  round: string (optional — e.g. "Matchday 14", "Round of 16")
-  season: string (e.g. "2025-26")
+  id: INTEGER PRIMARY KEY       # internal auto-increment
+  source: TEXT                   # "football-data.org", "api-football", "rsssf", "manual"
+  source_match_id: TEXT          # original ID from source (for dedup across sources)
+  date: DATE                    # match date (UTC)
+  home_team_id: INT             # FK → teams.id
+  away_team_id: INT             # FK → teams.id
+  home_goals_90min: INT         # score after 90 minutes
+  away_goals_90min: INT
+  home_goals_final: INT         # score at end of match (after AET if applicable, before pens)
+  away_goals_final: INT
+  home_goals_penalties: INT NULL # penalty shootout score (NULL if no shootout)
+  away_goals_penalties: INT NULL
+  decided_in: TEXT              # "REGULAR" | "EXTRA_TIME" | "PENALTIES"
+  result_90min: TEXT            # "H" | "A" | "D" — who won after 90 minutes
+  result_final: TEXT            # "H" | "A" | "D" — who progresses / wins the match
+  competition_id: TEXT          # e.g. "DED", "KNVB", "CL", "EL"
+  competition_name: TEXT        # human-readable, e.g. "Eredivisie"
+  competition_type: TEXT        # "LEAGUE" | "DOMESTIC_CUP" | "CONTINENTAL" | "SUPER_CUP"
+  round: TEXT NULL              # e.g. "Matchday 14", "Quarter-final"
+  season: TEXT                  # e.g. "2025-26"
+  UNIQUE(source, source_match_id)  # prevent duplicate imports
+}
+
+Team {
+  id: INTEGER PRIMARY KEY       # internal ID
+  name: TEXT                    # canonical display name, e.g. "PSV Eindhoven"
+  short_name: TEXT              # e.g. "PSV"
+  country: TEXT                 # e.g. "NL", "EN", "DE"
+  football_data_id: INT NULL    # football-data.org team ID
+  api_football_id: INT NULL     # api-football.com team ID
+  crest_url: TEXT NULL
+  current_league: TEXT          # e.g. "DED", "PL"
+}
+
+DataSource {
+  id: INTEGER PRIMARY KEY
+  source: TEXT                  # "football-data.org", "api-football", etc.
+  competition_id: TEXT          # e.g. "DED"
+  season: TEXT                  # e.g. "2025-26"
+  last_fetched: DATETIME        # when we last pulled data for this combo
+  match_count: INT              # how many matches stored
+  status: TEXT                  # "COMPLETE" | "PARTIAL" | "PENDING"
 }
 ```
+
+**Result fields explained:**
+- `result_90min`: The regulation result. D means draw after 90 min, even if someone later won in AET or pens. **This is the official hair index result** — a draw after 90 min breaks a winning streak.
+- `result_final`: Who actually won/progressed. Useful for display ("won on penalties") and for the lenient/fan interpretation. A team with 5 consecutive `result_final = W` where one was on penalties gets a footnote: *"5 op een rij — maar eentje was na strafschoppen"*.
+- Both fields make it trivial to compute either interpretation without re-parsing scores.
 
 ### 2.2 What We Need Per Team
 
@@ -74,96 +107,182 @@ The index looks **backward in time** per club until it finds the last 5-win stre
 
 -----
 
-## 3. Data Source: football-data.org API (v4)
+## 3. Data Sources — Multi-Source Strategy
 
-### 3.1 Why This Works
+The goal is **complete match data for all competitions** a team plays in. No single free API covers everything, so we use multiple sources with a priority system. All data flows into the same SQLite database.
 
-The **`/v4/teams/{id}/matches`** endpoint is ideal: it returns all matches for a team across ALL competitions (league, cup, European) in one call, filterable by date range. This maps directly to our backward-search algorithm.
+### 3.1 Source Priority
+
+| Priority | Source | What it gives us | Cost | Rate Limit |
+|----------|--------|-----------------|------|------------|
+| 1 | **football-data.org** (v4) | Top leagues, CL, EL. The `/teams/{id}/matches` endpoint returns all competitions per team in one call. | Free tier available | 10 req/min |
+| 2 | **API-Football** (via RapidAPI) | 1,200+ leagues incl. KNVB Beker, Eerste Divisie, Conference League, domestic cups for all countries. Much broader coverage. | Free: 100 req/day. Basic ~$10/mo: 7,500 req/day | Varies by plan |
+| 3 | **RSSSF.org** | Historical lower-league data (pre-2020 Eerste Divisie, old cup results). Published after season ends. Plain text, semi-structured. | Free (scrape/manual) | N/A |
+| 4 | **Manual import** | For edge cases: Wikipedia season pages, official KNVB results. Last resort. | Free | N/A |
+
+**Rule**: When a match exists in multiple sources, prefer the source with the most detail (penalty scores, AET info). The `UNIQUE(source, source_match_id)` constraint prevents duplicates within a source; cross-source dedup uses `(date, home_team_id, away_team_id)`.
+
+### 3.2 Source 1: football-data.org (v4) — Primary
 
 **API key**: Available (free tier)
-**Rate limit**: 10 requests/minute
 **Base URL**: `https://api.football-data.org/v4`
 **Auth**: Header `X-Auth-Token: {API_KEY}`
 
-### 3.2 Key Endpoints
+**Key Endpoints:**
 
-|Endpoint                                                     |Purpose                                      |Example                                |
-|-------------------------------------------------------------|---------------------------------------------|---------------------------------------|
-|`GET /competitions/DED/teams`                                |Get all Eredivisie team IDs                  |Returns 18 teams with IDs              |
-|`GET /teams/{id}/matches?dateFrom=X&dateTo=Y&status=FINISHED`|All finished matches for a team in date range|Returns league + cup + European matches|
-|`GET /competitions/DED/matches?season=2025`                  |All Eredivisie matches for a season          |Backup: league-only data               |
-|`GET /competitions/DED/standings`                            |Current league table                         |For validation                         |
+|Endpoint                                                     |Purpose                                      |
+|-------------------------------------------------------------|---------------------------------------------|
+|`GET /competitions/DED/teams`                                |Get all Eredivisie team IDs                  |
+|`GET /teams/{id}/matches?dateFrom=X&dateTo=Y&status=FINISHED`|All finished matches for a team in date range|
+|`GET /competitions/DED/matches?season=2025`                  |All Eredivisie matches for a season          |
+|`GET /competitions/DED/standings`                            |Current league table (for validation)        |
 
-### 3.3 Competition Codes
+**Competition codes (free tier confirmed):**
 
-|Code  |Competition                                         |
-|------|----------------------------------------------------|
-|`DED` |Eredivisie                                          |
-|`PL`  |Premier League                                      |
-|`BL1` |Bundesliga                                          |
-|`SA`  |Serie A                                             |
-|`PD`  |La Liga                                             |
-|`FL1` |Ligue 1                                             |
-|`CL`  |Champions League                                    |
-|`EL`  |Europa League (check if available on free tier)     |
-|`ECL` |Conference League (check if available on free tier) |
-|`KNVB`|KNVB Cup (may not be available — needs verification)|
+|Code  |Competition       |Available |
+|------|------------------|----------|
+|`DED` |Eredivisie        |Yes       |
+|`PL`  |Premier League    |Yes       |
+|`BL1` |Bundesliga        |Yes       |
+|`SA`  |Serie A           |Yes       |
+|`PD`  |La Liga           |Yes       |
+|`FL1` |Ligue 1           |Yes       |
+|`ELC` |Championship      |Yes       |
+|`CL`  |Champions League  |Yes       |
+|`EC`  |European Champ.   |Yes       |
 
-### 3.4 Free Tier Limitations to Verify
+**Free tier gaps (need verification):**
+- Domestic cups (KNVB Beker, FA Cup, DFB-Pokal, Copa del Rey) — **likely NOT on free tier**
+- Europa League, Conference League — **may require paid tier**
+- Eerste Divisie (KKD) — **NOT available**
+- Lower leagues — **NOT available**
 
-- **Which competitions are included?** The free tier may not include domestic cups or lower European competitions (Conference League). Need to test.
-- **Historical depth**: Can we query `?season=2023` for matches 2-3 years back?
-- **Eerste Divisie**: Probably NOT available — this affects promoted teams like Telstar whose last 5-streak might be in the KKD. For those, we note “not found in available data.”
-
-### 3.5 API Request Budget (per run)
-
-```
-Step 1: Get all team IDs
-  GET /competitions/DED/teams                          = 1 request
-
-Step 2: For each team, fetch current season matches
-  GET /teams/{id}/matches?dateFrom={season_start}&dateTo={today}&status=FINISHED
-  18 teams × 1 request                                = 18 requests
-
-Step 3: For teams without a 5-streak, fetch previous season
-  GET /teams/{id}/matches?dateFrom={prev_start}&dateTo={prev_end}&status=FINISHED
-  ~8 teams × 1 request                                = 8 requests
-
-Step 4: If still not found, go back another season
-  ~3 teams × 1 request                                = 3 requests
-
-Step 5: Validate against standings
-  GET /competitions/DED/standings                      = 1 request
-
-Total: ~31 requests
-At 10 req/min, this takes ~3 minutes with 6s sleep between requests.
-```
-
-### 3.6 Caching & Resilience
-
-- **Cache raw API responses** in `data/raw/` keyed by team ID and date range. Only re-fetch if the cached data is older than 24h.
-- **Completed seasons are immutable** — once 2024-25 is fully fetched, never re-fetch it. Only the current (in-progress) season needs daily updates.
-- **Rate limit handling**: If the API returns HTTP 429, back off exponentially (6s → 12s → 24s). Log and alert on repeated failures.
-- **API downtime fallback**: If the API is unreachable, serve the last successfully computed `hair-index.json`. The frontend should display a "last updated" timestamp so users know the data age.
-- **Data validation**: After each fetch, verify that the number of matches is plausible (e.g., a team mid-season should have 15-40 matches, not 0 or 500). Flag anomalies rather than silently using bad data.
-
-### 3.7 Match Response Structure (what we extract)
-
+**Match response includes:**
 ```json
 {
-  "utcDate": "2025-10-26T17:45:00Z",
-  "status": "FINISHED",
-  "competition": { "code": "DED", "name": "Eredivisie" },
-  "homeTeam": { "id": 674, "name": "PSV" },
-  "awayTeam": { "id": 675, "name": "Feyenoord" },
-  "score": {
-    "fullTime": { "home": 3, "away": 2 },
-    "halfTime": { "home": 1, "away": 0 }
+  “utcDate”: “2025-10-26T17:45:00Z”,
+  “status”: “FINISHED”,
+  “competition”: { “code”: “DED”, “name”: “Eredivisie” },
+  “homeTeam”: { “id”: 674, “name”: “PSV” },
+  “awayTeam”: { “id”: 675, “name”: “Feyenoord” },
+  “score”: {
+    “fullTime”: { “home”: 3, “away”: 2 },
+    “halfTime”: { “home”: 1, “away”: 0 },
+    “regularTime”: { “home”: 2, “away”: 2 },
+    “penalties”: { “home”: 4, “away”: 3 }
   }
 }
 ```
 
-From this we derive: date, opponent, home/away, result (W/D/L), competition, and score.
+**Mapping to our model:**
+- `home_goals_90min` / `away_goals_90min` = `score.regularTime` if present, else `score.fullTime` (league matches have no AET)
+- `home_goals_final` / `away_goals_final` = `score.fullTime` (includes AET)
+- `home_goals_penalties` / `away_goals_penalties` = `score.penalties` (NULL if absent)
+- `decided_in` = `PENALTIES` if penalties present, `EXTRA_TIME` if fullTime ≠ regularTime, else `REGULAR`
+- `result_90min` = derived from 90-min scores
+- `result_final` = if penalties: winner of penalties. else: derived from fullTime scores
+
+### 3.3 Source 2: API-Football (via RapidAPI) — Cups & Lower Leagues
+
+**Why**: Covers what football-data.org misses — domestic cups, Conference League, Eerste Divisie, and lower divisions across Europe.
+
+**Coverage verified**: 1,200+ leagues including:
+- KNVB Beker (Dutch Cup)
+- Eerste Divisie / Keuken Kampioen Divisie
+- FA Cup, EFL Cup (England)
+- DFB-Pokal (Germany)
+- Copa del Rey (Spain)
+- Coppa Italia
+- Coupe de France
+- Conference League
+- Europa League
+
+**Key endpoints:**
+- `GET /fixtures?team={id}&season={year}` — all matches for a team
+- `GET /fixtures?league={id}&season={year}` — all matches in a competition
+- Response includes `score.fulltime`, `score.extratime`, `score.penalty`
+
+**Usage strategy:**
+- **Don't duplicate**: Only fetch from API-Football what football-data.org doesn't have
+- **fill_gaps.py** queries `data_sources` table for competitions with status = PENDING, then fetches only those from API-Football
+- **Team ID mapping**: Store both `football_data_id` and `api_football_id` in the teams table. Build mapping once, reuse forever.
+- **Free tier (100 req/day)** is enough for gap-filling (we only need cup matches, ~2-4 per team per season). If we scale to all European leagues, the Basic plan at ~$10/mo covers it.
+
+### 3.4 Source 3: RSSSF.org — Historical Lower Leagues
+
+**What it is**: The Rec.Sport.Soccer Statistics Foundation. Volunteer-maintained archive of football results going back decades. Covers lower leagues that no API has.
+
+**Format**: Plain text, semi-structured. Example:
+```
+Round 1  [Aug 10]
+Telstar           1-0  Jong Ajax
+Cambuur           2-1  De Graafschap
+```
+
+**Good for**: Finding the last 5-win streak for promoted teams whose streak might be in the Eerste Divisie 3+ years ago, before API-Football's historical coverage.
+
+**How we use it:**
+- `import_rsssf.py` — semi-automated parser for RSSSF season pages
+- Only used for backfilling historical data that APIs don't cover
+- Results imported with `source = “rsssf”` so we know the provenance
+- **Not needed for MVP** — only kicks in when a team's streak can't be found via APIs
+
+### 3.5 Fetch Strategy: First Run vs Daily Updates
+
+**First run (one-time, longer):**
+```
+1. Fetch all Eredivisie team IDs from football-data.org
+2. For each team: fetch ALL matches for current season + 2 previous seasons
+   - football-data.org: league + European (what's available on free tier)
+   - API-Football: domestic cup + any competitions missing from source 1
+3. For teams with no 5-streak found: go deeper (season by season) via API-Football
+4. For extreme cases (promoted from KKD): try RSSSF for historical lower league data
+5. Populate data_sources table with status for every (source, competition, season) combo
+```
+
+**Daily updates (fast):**
+```
+1. For current season only:
+   - Fetch new matches from football-data.org (since last_fetched)
+   - If cup matches are in progress: fetch from API-Football too
+2. Re-compute streaks
+3. Export hair_index.json
+4. ~20 API calls, ~2 minutes
+```
+
+**Async gap-filling (runs separately, not blocking):**
+```
+- fill_gaps.py checks data_sources for status = PARTIAL or PENDING
+- Fetches missing competition data from API-Football
+- Can be triggered manually or via weekly cron
+- Example: “We have Feyenoord's Eredivisie matches but not their KNVB Beker results for 2024-25”
+```
+
+### 3.6 API Request Budget
+
+```
+First run (Eredivisie, 18 teams, 3 seasons):
+  football-data.org:
+    GET /competitions/DED/teams                     = 1 request
+    18 teams × 3 seasons × /teams/{id}/matches      = 54 requests (6 min at 10/min)
+    GET /competitions/DED/standings                  = 1 request
+  API-Football (gap-filling cups):
+    18 teams × ~2 cup seasons × /fixtures            = ~36 requests
+  Total: ~92 requests, ~10 minutes
+
+Daily update:
+  football-data.org: 18 teams × 1 request           = 18 requests (2 min)
+  API-Football: only if cup matches played           = ~2-5 requests
+  Total: ~23 requests, ~2 minutes
+```
+
+### 3.7 Resilience
+
+- **Completed seasons are immutable** — once fully fetched, never re-fetch. Only current (in-progress) season needs updates.
+- **Rate limit handling**: If HTTP 429, back off exponentially (6s → 12s → 24s).
+- **API downtime fallback**: Serve last computed `hair-index.json`. Display “last updated” timestamp.
+- **Data validation**: After each fetch, verify match counts are plausible. Flag anomalies.
+- **Graceful degradation**: If a source is down, compute streaks with available data. Mark teams with incomplete data. The index still works — it just might have a footnote “cup results pending.”
 
 -----
 
@@ -232,9 +351,11 @@ Tiers (canonical — used for both display and portrait generation):
 - **Summer break gap**: The wins must be consecutive competitive matches — a 2-month gap between seasons is fine as long as no competitive match broke the streak
 - **Mid-week matches**: A team playing Wed + Sat builds/breaks streaks faster
 - **European teams** get more chances to build streaks but also more chances to break them
-- **Extra time & penalty shootout results**: These are treated as special cases rather than plain W or D. Strictly speaking, a match decided in extra time or on penalties is not a regulation win. However, fans absolutely experience these as wins. We compute streaks **both ways** (strict: AET/penalties = Draw; lenient: AET = Win, penalties = Win) and compare. If a team's 5-streak only exists under the lenient interpretation, we highlight that — e.g. *"Feyenoord heeft 5 op een rij* gewonnen, maar alleen als je verlenging meetelt*"*. This makes for a great talking point and lets fans argue about it, which is exactly what we want.
-  - **Implementation**: Store a `result_strict` (90 min only; AET/pens = Draw) and `result_lenient` (AET win = Win, penalty win = Win) per match. Compute two streak values. Display the strict one by default with a toggle or footnote for the lenient version.
-  - **API mapping**: Use `score.fullTime` for the strict result. If `score.fullTime` is a draw but the match has a `score.penalties` field, the lenient result is a Win for the advancing team.
+- **Extra time & penalty shootout results**: Treated as special cases. We store two results per match:
+  - `result_90min`: The regulation result. AET or penalty matches are a **D** after 90 min. **This is the official index.**
+  - `result_final`: Who progresses. AET win = **W** for the winner. Penalty win = **W** for the winner.
+  - The official hair index uses `result_90min`. But if a team's 5-streak only exists when using `result_final`, we highlight that with a footnote — e.g. *"5 op een rij — maar eentje was na strafschoppen"*. Great for debate.
+  - **Note**: Extra time wins only occur in cup/knockout matches, never in league. So this only matters when cup results are part of the streak.
 - **Walkovers/forfeits**: Count as W or L per official result
 - **Promoted teams**: Search continues into lower division data (Eerste Divisie etc.)
 - **Relegated teams**: Their Eredivisie streak history still counts — search stops at the last 5-streak regardless of division
@@ -336,46 +457,72 @@ Example share text:
 
 ```
 Data Layer:
-├── Python script: fetch_matches.py
-│   ├── Calls football API
-│   ├── Stores raw match data as JSON
-│   └── Runs daily via cron/GitHub Actions
-├── Python script: compute_streaks.py
-│   ├── Reads match JSON
-│   ├── Computes streaks per team
-│   └── Outputs hair_index.json
+├── SQLite database: data/hair-index.db
+│   ├── matches table (all results, all sources, all competitions)
+│   ├── teams table (metadata, cross-source IDs)
+│   └── data_sources table (tracks what we've fetched and when)
+├── Python scripts:
+│   ├── fetch_matches.py    — pulls from APIs, upserts into SQLite
+│   ├── compute_streaks.py  — queries SQLite, outputs hair_index.json
+│   ├── fill_gaps.py        — async backfill for cups/lower leagues
+│   └── validate_data.py    — cross-check with known standings
+├── Runs daily via cron/GitHub Actions
 │
 Frontend:
 ├── Single React component or static HTML
-├── Reads hair_index.json
+├── Reads hair_index.json (exported from SQLite)
 ├── Renders the index table + visuals
 └── Hosted on Cloudflare Pages / GitHub Pages / Vercel
 ```
 
-### 6.2 Data Storage
+### 6.2 Data Storage: SQLite from Day 1
 
-MVP: Flat JSON files in a git repo, updated daily
-V2: SQLite or Supabase for historical queries
-V3: Proper database with multi-season data
+**Why SQLite, not flat JSON:**
+- **Deduplication**: `UNIQUE(source, source_match_id)` prevents double-counting when importing from multiple sources
+- **Incremental updates**: Upsert new matches without re-fetching everything. Only query "what's new since last fetch?"
+- **Cross-source merging**: A match might come from football-data.org (league) and api-football (with penalty detail). SQLite makes it easy to merge/prefer sources
+- **Gap detection**: `SELECT * FROM data_sources WHERE status = 'PENDING'` instantly shows what's missing
+- **Query flexibility**: "Show me all Feyenoord results across all competitions sorted by date" is one SQL query, not parsing 15 JSON files
+- **Portable**: Single file, committed to git, works everywhere, no server needed
+
+**The database file `data/hair-index.db` is committed to git.** It's small (a few MB even with all European leagues) and gives anyone who clones the repo immediate access to all data.
+
+**Daily update flow:**
+```
+1. fetch_matches.py:
+   - For each (source, competition, season) in data_sources where status != COMPLETE:
+     - Fetch new matches since last_fetched
+     - UPSERT into matches table
+     - Update data_sources.last_fetched
+   - Current season: always re-fetch (new matches played)
+   - Past seasons: skip if status = COMPLETE
+
+2. fill_gaps.py (runs separately, not blocking):
+   - Check which teams still need cup/European/lower league data
+   - Fetch from secondary sources (api-football, manual import)
+   - Mark gaps as filled in data_sources
+
+3. compute_streaks.py:
+   - For each team: SELECT all matches ORDER BY date DESC
+   - Scan for 5-win streaks using result_90min (official) and result_final (fan)
+   - Flag teams with incomplete data (missing competitions)
+   - Output hair_index.json for frontend
+```
 
 ### 6.3 File Structure
 
 ```
 hair-length-index/
 ├── data/
-│   ├── raw/
-│   │   ├── eredivisie-2025-26.json      # raw match results
-│   │   ├── premier-league-2025-26.json
-│   │   └── ...
-│   ├── processed/
-│   │   ├── streaks-eredivisie.json       # computed streak data
-│   │   └── hair-index.json              # final index for frontend
-│   └── teams.json                        # team metadata (name, crest URL, league)
+│   ├── hair-index.db                     # SQLite — the single source of truth
+│   └── hair-index.json                   # exported for frontend (generated, not edited)
 ├── scripts/
-│   ├── fetch_matches.py                  # API data fetcher
-│   ├── compute_streaks.py                # streak calculator
+│   ├── fetch_matches.py                  # API data fetcher → SQLite
+│   ├── fill_gaps.py                      # async backfill for cups/lower leagues
+│   ├── compute_streaks.py                # streak calculator (reads SQLite, writes JSON)
 │   ├── validate_data.py                  # cross-check with known standings
-│   └── config.py                         # API keys, league IDs
+│   ├── import_rsssf.py                   # manual/semi-auto import from RSSSF
+│   └── config.py                         # API keys, league IDs, source priorities
 ├── frontend/
 │   ├── index.html / App.jsx
 │   ├── components/
@@ -394,39 +541,45 @@ hair-length-index/
 
 ## 7. Implementation Plan
 
-### Phase 1: Data Pipeline (Day 1-2)
+### Phase 1: Database & Primary Data (Day 1-2)
 
-1. **Explore the API** (30 min):
-   - Hit `/competitions/DED/teams` to get all 18 Eredivisie team IDs
-   - Hit `/teams/{psv_id}/matches` to see the exact response format
-   - Test: does the free tier include KNVB Cup and European matches?
-   - Test: how far back can we query? (`?season=2023`)
-2. **Write `fetch_matches.py`** — smart backward search:
-
+1. **Set up SQLite schema** (30 min):
+   - Create `data/hair-index.db` with matches, teams, data_sources tables
+   - Write `scripts/db.py` — shared database module with upsert helpers
+2. **Explore & verify APIs** (1h):
+   - football-data.org: test free tier coverage (does it include KNVB Cup? EL? Conference League?)
+   - API-Football: test free tier, confirm KNVB Beker and Eerste Divisie are available
+   - Document what each source actually returns for a cup match with penalties
+3. **Write `fetch_matches.py`** — primary data pipeline:
    ```
-   for each team:
-     season = current
-     streak_found = False
-     while not streak_found and season >= 2022:
-       fetch /teams/{id}/matches?season={season}&status=FINISHED
-       scan for 5-win streaks (most recent match backward)
-       if found: record it, break
-       else: carry partial streak, go to previous season
+   for each team in teams table:
+     for each season (current → 3 seasons back):
+       fetch /teams/{id}/matches from football-data.org
+       upsert into matches table
+       update data_sources table (last_fetched, match_count, status)
    ```
-
    Rate limit: sleep 6s between requests (10 req/min limit).
-   Store raw JSON per team in `data/raw/`.
-3. **Write `compute_streaks.py`**:
-   - Read raw match data per team
-   - Build chronological match list across all competitions
-   - Find last 5-win streak (scanning backward from most recent match)
-   - Calculate days since (hair length)
-   - Output `data/processed/hair-index.json`
-4. **Write `validate_data.py`**:
+4. **Write `compute_streaks.py`**:
+   - Query SQLite: all matches per team, ordered by date DESC
+   - Compute streaks using `result_90min` (official) and `result_final` (fan)
+   - Flag teams where data is incomplete (missing competitions)
+   - Output `data/hair-index.json`
+5. **Write `validate_data.py`**:
    - Fetch `/competitions/DED/standings`
-   - Compare our computed league W/D/L/Pts with official standings
+   - Compare computed league W/D/L/Pts with official standings
    - Report discrepancies
-5. **First full run**: Execute pipeline, verify results against our known PSV and Feyenoord data from Wikipedia
+6. **First full run**: Execute pipeline, verify against known PSV and Feyenoord data
+
+### Phase 1b: Gap Filling (Day 2-3, non-blocking)
+
+1. **Write `fill_gaps.py`**:
+   - Query data_sources for competitions with status = PENDING
+   - Fetch missing cup/European data from API-Football
+   - Upsert into same matches table
+2. **Write `import_rsssf.py`** (if needed):
+   - Parser for RSSSF plain-text season pages
+   - Only used for historical lower-league data where APIs have no coverage
+3. **Team ID mapping**: Build and maintain cross-source ID map (football-data.org ↔ API-Football)
 
 ### Phase 2: Frontend MVP (Day 3-4)
 
@@ -481,12 +634,14 @@ These are Eredivisie-only. For the full Hair Length Index (all competitions), we
 ## 9. Open Questions
 
 1. **Streak threshold**: 5 is the Man United reference — do we also show alternative thresholds (3, 7, 10) as toggles?
-1. **Penalty shootouts**: Official result is a draw — confirm this interpretation. Some argue “advancing” = a win for fans, but the match result is a draw.
+1. ~~**Penalty shootouts**~~: RESOLVED — `result_90min` (D after 90 min) is the official index. `result_final` (who progresses) stored alongside for the fan/lenient view. Footnote when it matters.
 1. **How deep do we go?** If a team has NEVER won 5 in a row in their professional history… do we show that? (Could be powerful for lower-league teams)
 1. **Friendly matches**: Excluded for sure, but what about pre-season tournaments with prize money?
 1. **Update frequency**: Real-time during match days, or daily batch? (Daily is fine for the hair metaphor — hair doesn’t grow by the minute)
 1. **Relegated teams appearing in index**: If we show Eredivisie, do we include teams that got relegated mid-history? Or only current members?
 1. **The “barber visit” moment**: Should we send notifications / post on social when a team completes a 5-streak? “🎉 Ajax finally got a haircut!”
+1. **API-Football free tier**: 100 req/day — is that enough for gap-filling, or do we need the Basic plan (~$10/mo)?
+1. **football-data.org `regularTime` field**: Does the API actually return this for cup matches? If not, we can’t derive `result_90min` for AET matches from this source alone. Need to verify.
 
 -----
 
@@ -494,10 +649,13 @@ These are Eredivisie-only. For the full Hair Length Index (all competitions), we
 
 The MVP is shippable when all of the following are true:
 
-- [ ] `fetch_matches.py` retrieves match data for all 18 Eredivisie teams from the API
-- [ ] `compute_streaks.py` correctly identifies the last 5-win streak (or “not found”) for each team
+- [ ] SQLite database with matches, teams, data_sources tables
+- [ ] `fetch_matches.py` populates matches for all 18 Eredivisie teams (league data from football-data.org)
+- [ ] `fill_gaps.py` adds cup/European matches from API-Football (or marks as pending)
+- [ ] `compute_streaks.py` correctly identifies the last 5-win streak (or “not found”) for each team, using both `result_90min` and `result_final`
 - [ ] `validate_data.py` confirms 0 discrepancies with official league standings
 - [ ] `hair-index.json` is generated with all required fields per team
+- [ ] Teams with incomplete data are flagged (not silently wrong)
 - [ ] Frontend renders the Hair Length Index table, sorted longest-first
 - [ ] Each team row shows: crest, name, days since streak, date of streak, current form
 - [ ] GitHub Actions workflow runs daily and commits updated data
