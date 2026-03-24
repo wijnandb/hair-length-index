@@ -452,14 +452,86 @@ Example share text:
 > De laatste keer dat Telstar 5x op een rij won was op 14 november 2023.
 > #HairLengthIndex #Eredivisie
 
-### 5.4 V2: Timeline & Animation
+### 5.4 Teams to Watch ("Bijna bij de Kapper")
+
+A highlighted section on the page showing teams that are **close to getting a haircut** — long drought but currently on a hot streak.
+
+**Selection criteria:**
+- Team has a high `days_since` (long drought, e.g. > 120 days / "Getting shaggy" tier or worse)
+- Current form shows a winning streak of **3 or 4** consecutive wins (from `current_form`)
+- i.e., they need just 1-2 more wins to complete a 5-streak and "visit the barber"
+
+**Why this is compelling:**
+- Creates narrative tension: "Telstar hasn't won 5 in a row in 847 days, but they're on a 4-match streak right now…"
+- Gives visitors a reason to come back and check after the next match day
+- Natural social sharing hook: "Will [team] finally get a haircut this weekend?"
+
+**Data needed:** Already available — `current_form` (last 10 results) and `days_since` are in `hair-index.json`. The frontend just needs to filter:
+```python
+teams_to_watch = [
+    t for t in index
+    if t["days_since"] and t["days_since"] > 120  # shaggy or worse
+    and len(t["current_form"]) >= 3
+    and all(r == "W" for r in t["current_form"][:3])  # last 3+ are wins
+]
+```
+
+**Display:** A card/banner above or below the main table:
+- "🔥 **Bijna bij de kapper!**" header
+- Team crest + name + current streak length + "nog X te gaan"
+- Link to the team's next fixture if available
+
+### 5.5 Match Highlights (YouTube Integration)
+
+Link YouTube match highlight videos ("samenvattingen") to individual results in a team's form display or match history.
+
+**Feasibility: HIGH** — Eredivisie highlights are widely available on YouTube:
+- **ESPN NL / Eredivisie official** channels publish "samenvatting" videos within hours of each match
+- Video titles follow a predictable pattern: `{Home} - {Away} | Samenvatting | Eredivisie 2025-26`
+- International highlights channels cover big matches (CL, EL)
+
+**Search strategy:**
+```
+Query: "{home_team} {away_team} samenvatting {season}"
+Filter: regionCode=NL, recency=pastMonth, maxResults=3
+Match: pick the result with highest view count or from a known channel
+```
+
+**Known highlight channels (Eredivisie):**
+- ESPN NL (official Eredivisie broadcaster)
+- NOS Sport (public broadcaster, shorter clips)
+- For CL/EL: UEFA official, CBS Sports Golazo
+
+**Implementation approach:**
+1. **`scripts/fetch_highlights.py`** — new script, runs after `compute_streaks.py`
+   - For each match in the last 7 days: search YouTube API for highlights
+   - Store `youtube_video_id` in a new `match_highlights` table (or column on `matches`)
+   - Cache aggressively — a match's highlight URL never changes
+2. **YouTube Data API quota:** Search costs 100 units/call, daily limit = 10,000 units
+   - 18 teams × ~2 matches/week = ~36 searches/week = ~5/day → well within budget
+   - Only search for matches in the last 7 days (highlights are uploaded within 24h)
+   - Cache forever once found — never re-search a match
+3. **Frontend:** Each W/D/L dot in the form display becomes clickable → opens YouTube highlight
+4. **Fallback:** If no highlight found, the dot is not clickable. No broken links.
+
+**Data model addition:**
+```sql
+ALTER TABLE matches ADD COLUMN highlight_url TEXT;  -- YouTube video URL
+ALTER TABLE matches ADD COLUMN highlight_fetched DATETIME;  -- when we last searched
+```
+
+**Privacy/legal:** We're only linking to publicly available YouTube videos, not embedding or downloading. Standard practice, same as any sports news site.
+
+**Phase:** V2 feature — not needed for MVP, but high engagement potential. Fans love clicking through to watch the goals that built (or broke) a streak.
+
+### 5.6 V2: Timeline & Animation (was 5.4)
 
 - **Hair growth timeline**: Slider showing how each team’s hair evolved over the season. Every match day, hair grows or resets.
 - **“Barber alert”**: Push notification / social post when a team completes a 5-streak: “🎉 Ajax is eindelijk naar de kapper geweest!”
 - **Comparison mode**: Pick 2-3 teams, overlay their streak timelines
 - **League selector**: Switch between Eredivisie, PL, La Liga, etc.
 
-### 5.5 V3: Pan-European Hair Salon
+### 5.7 V3: Pan-European Hair Salon (was 5.5)
 
 - “Longest hair in Europe” — overall ranking across all leagues
 - Side-by-side league comparison (which league has the shaggiest fans?)

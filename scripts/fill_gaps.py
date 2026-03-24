@@ -35,6 +35,20 @@ from scripts.db import (
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
+# API-Football free tier: only seasons 2022-2024 available
+API_FOOTBALL_FREE_TIER_MIN_SEASON = 2022
+API_FOOTBALL_FREE_TIER_MAX_SEASON = 2024
+
+
+class RateLimitExceeded(Exception):
+    """Raised when API-Football daily rate limit is hit."""
+    pass
+
+
+class SeasonUnavailable(Exception):
+    """Raised when API-Football plan doesn't cover a season."""
+    pass
+
 
 class APIFootballClient:
     """Client for API-Football v3 (api-sports.io)."""
@@ -71,11 +85,14 @@ class APIFootballClient:
         # Check for API errors
         errors = data.get("errors")
         if errors:
-            if isinstance(errors, dict) and errors.get("rateLimit"):
-                log.error("API-Football rate limit reached. Try again tomorrow.")
-                raise RuntimeError("Rate limit exceeded")
-            if errors:
-                log.warning(f"API-Football errors: {errors}")
+            if isinstance(errors, dict):
+                if errors.get("rateLimit"):
+                    log.warning("API-Football rate limit reached. Saving progress and stopping.")
+                    raise RateLimitExceeded("Daily rate limit exceeded")
+                if errors.get("plan"):
+                    log.info(f"  Season unavailable on free tier: {errors['plan']}")
+                    raise SeasonUnavailable(errors["plan"])
+            log.warning(f"API-Football errors: {errors}")
 
         remaining = resp.headers.get("x-ratelimit-requests-remaining")
         if remaining:
@@ -438,7 +455,11 @@ def fill_team_cups(
     season_label = _season_label(season_year)
     log.info(f"  Fetching cups for {team_name} ({season_label})...")
 
-    fixtures = client.get_fixtures(team_id=api_football_id, season=season_year)
+    try:
+        fixtures = client.get_fixtures(team_id=api_football_id, season=season_year)
+    except SeasonUnavailable:
+        log.info(f"    {team_name}: season {season_label} not available on free tier, skipping")
+        return 0
 
     new_count = 0
     for f in fixtures:
@@ -477,21 +498,45 @@ def run_fill_gaps(league: str = MVP_LEAGUE, seasons_back: int = MAX_SEASONS_BACK
         log.warning(f"No teams found for {league}. Run fetch_matches.py first.")
         return
 
+    # Filter to seasons available on free tier
+    available_seasons = [
+        current_year - offset
+        for offset in range(seasons_back)
+        if API_FOOTBALL_FREE_TIER_MIN_SEASON <= (current_year - offset) <= API_FOOTBALL_FREE_TIER_MAX_SEASON
+    ]
+    if not available_seasons:
+        log.warning("No seasons available on API-Football free tier for the requested range.")
+    else:
+        skipped = seasons_back - len(available_seasons)
+        if skipped > 0:
+            log.info(f"Skipping {skipped} season(s) outside free tier range "
+                     f"({API_FOOTBALL_FREE_TIER_MIN_SEASON}-{API_FOOTBALL_FREE_TIER_MAX_SEASON})")
+
     total_new = 0
+    teams_processed = 0
+    rate_limited = False
     for team in teams:
         api_id = resolve_api_football_id(conn, client, team["name"], team["id"])
         if api_id is None:
             log.warning(f"  Skipping {team['name']} — no API-Football ID")
             continue
 
-        for offset in range(seasons_back):
-            season_year = current_year - offset
-            new = fill_team_cups(client, conn, team["id"], team["name"], api_id, season_year)
-            total_new += new
+        try:
+            for season_year in available_seasons:
+                new = fill_team_cups(client, conn, team["id"], team["name"], api_id, season_year)
+                total_new += new
+        except RateLimitExceeded:
+            log.warning(f"Rate limit hit while processing {team['name']}. "
+                        f"Progress saved: {teams_processed} teams done, {total_new} matches imported.")
+            rate_limited = True
+            break
 
-        # Check API budget
+        teams_processed += 1
+
+        # Check API budget proactively
         if client.requests_used >= 90:
-            log.warning(f"Approaching API limit ({client.requests_used} requests used). Stopping.")
+            log.warning(f"Approaching API limit ({client.requests_used} requests used). "
+                        f"Stopping after {teams_processed} teams, {total_new} matches imported.")
             break
 
     # Step 3: Update data_sources
