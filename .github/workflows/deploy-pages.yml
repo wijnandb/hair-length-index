@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - "frontend/**"
-      - "data/hair-index.json"
+      - "data/**"
   workflow_dispatch:
 
 permissions:
@@ -32,9 +32,10 @@ jobs:
 
       - name: Prepare site
         run: |
-          mkdir -p _site/data
+          mkdir -p _site/data/teams
           cp frontend/* _site/
           cp data/hair-index.json _site/data/
+          cp data/teams/*.json _site/data/teams/ 2>/dev/null || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
