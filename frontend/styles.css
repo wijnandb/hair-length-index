@@ -311,6 +311,96 @@ main {
 .days-sasquatch  { color: var(--tier-sasquatch); }
 .days-lost       { color: var(--tier-lost); }
 
+/* === Match Detail Panel === */
+.team-card-wrapper {
+  margin-bottom: 0.6rem;
+}
+
+.team-card-wrapper .team-card {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.team-card.expanded {
+  border-color: var(--accent);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.match-detail {
+  background: #f9fafb;
+  border: 1px solid var(--accent);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+}
+
+.match-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+.match-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.match-table td {
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid #f0f0f0;
+  white-space: nowrap;
+}
+
+.match-date {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.match-result-dot {
+  width: 24px;
+  text-align: center;
+}
+
+.match-opponent {
+  font-weight: 500;
+}
+
+.match-ha {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+.match-score {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.match-comp {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+.match-source {
+  color: #c0c4cc;
+  font-size: 0.65rem;
+}
+
+.no-matches {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
 /* === Footer === */
 footer {
   margin-top: 3rem;
@@ -394,5 +484,13 @@ footer p { margin-bottom: 0.75rem; }
     width: 15px;
     height: 15px;
     font-size: 0.5rem;
+  }
+
+  .match-table {
+    font-size: 0.7rem;
+  }
+
+  .match-source {
+    display: none;
   }
 }

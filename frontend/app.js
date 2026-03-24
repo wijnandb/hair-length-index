@@ -89,6 +89,39 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+function renderMatchRow(m) {
+  const resultClass = m.result || "";
+  const ha = m.home_away === "H" ? "thuis" : "uit";
+  const extra = m.decided_in === "PENALTIES" ? " (str.)" :
+                m.decided_in === "EXTRA_TIME" ? " (v.)" : "";
+  return `
+    <tr class="match-row ${resultClass}">
+      <td class="match-date">${m.date}</td>
+      <td class="match-result-dot"><span class="form-dot ${resultClass}">${resultClass}</span></td>
+      <td class="match-opponent">${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
+      <td class="match-score">${m.score}${extra}</td>
+      <td class="match-comp">${escapeHtml(m.competition)}</td>
+      <td class="match-source">${escapeHtml(m.source)}</td>
+    </tr>`;
+}
+
+function renderMatchDetail(team) {
+  const matches = team.recent_matches;
+  if (!matches || matches.length === 0) {
+    return `<div class="match-detail"><p class="no-matches">Geen wedstrijddata beschikbaar</p></div>`;
+  }
+  const rows = matches.map(renderMatchRow).join("");
+  return `
+    <div class="match-detail" style="display:none">
+      <table class="match-table">
+        <thead>
+          <tr><th>Datum</th><th></th><th>Tegenstander</th><th>Score</th><th>Competitie</th><th>Bron</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
 function renderTeamCard(team, rank) {
   const tc = tierClass(team.hair_tier);
   const emoji = TIER_EMOJI[team.hair_tier] || "";
@@ -115,33 +148,36 @@ function renderTeamCard(team, rank) {
   }
 
   return `
-    <div class="team-card">
-      <div class="rank">${rank}</div>
+    <div class="team-card-wrapper">
+      <div class="team-card" onclick="toggleDetail(this)">
+        <div class="rank">${rank}</div>
 
-      <div class="avatar">
-        <img src="${avatar}" alt="${escapeHtml(team.hair_tier)}" class="avatar-img" loading="lazy">
-      </div>
+        <div class="avatar">
+          <img src="${avatar}" alt="${escapeHtml(team.hair_tier)}" class="avatar-img" loading="lazy">
+        </div>
 
-      <div class="team-info">
-        <span class="team-name">${escapeHtml(team.team)}</span>
-        <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(team.hair_tier)}</span>
-      </div>
+        <div class="team-info">
+          <span class="team-name">${escapeHtml(team.team)}</span>
+          <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(team.hair_tier)}</span>
+        </div>
 
-      <div class="hair-metric">
-        <div class="days-number days-${tc}">${daysStr}</div>
-        <div class="days-label">dagen</div>
-      </div>
+        <div class="hair-metric">
+          <div class="days-number days-${tc}">${daysStr}</div>
+          <div class="days-label">dagen</div>
+        </div>
 
-      <div class="team-details">
-        <span class="streak-info">${streakDetail}</span>
-        <div class="form">${renderFormDots(team.current_form)}</div>
-        <div class="competitions">${renderCompetitions(team.competitions_in_streak)}</div>
-        ${notes.join(" ")}
-      </div>
+        <div class="team-details">
+          <span class="streak-info">${streakDetail}</span>
+          <div class="form">${renderFormDots(team.current_form)}</div>
+          <div class="competitions">${renderCompetitions(team.competitions_in_streak)}</div>
+          ${notes.join(" ")}
+        </div>
 
-      <div class="matches-since">
-        ${team.matches_since > 0 ? team.matches_since + " wedstrijden" : "Actieve reeks!"}
+        <div class="matches-since">
+          ${team.matches_since > 0 ? team.matches_since + " wedstrijden" : "Actieve reeks!"}
+        </div>
       </div>
+      ${renderMatchDetail(team)}
     </div>
   `;
 }
@@ -189,6 +225,22 @@ async function loadData() {
         <small>${escapeHtml(err.message)}</small>
       </div>
     `;
+  }
+}
+
+function toggleDetail(cardEl) {
+  const wrapper = cardEl.closest(".team-card-wrapper");
+  const detail = wrapper.querySelector(".match-detail");
+  if (!detail) return;
+  const isOpen = detail.style.display !== "none";
+  // Close all others first
+  document.querySelectorAll(".match-detail").forEach((d) => {
+    d.style.display = "none";
+    d.closest(".team-card-wrapper")?.querySelector(".team-card")?.classList.remove("expanded");
+  });
+  if (!isOpen) {
+    detail.style.display = "block";
+    cardEl.classList.add("expanded");
   }
 }
 

@@ -9,6 +9,9 @@ from pathlib import Path
 from scripts.config import DATA_DIR, MVP_LEAGUE, STREAK_THRESHOLD, get_hair_tier
 from scripts.db import get_all_teams, get_connection, get_team_matches, init_db
 
+# How many recent matches to include in JSON output
+RECENT_MATCHES_LIMIT = 20
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
@@ -166,6 +169,35 @@ def find_last_streak(
     }
 
 
+def _build_recent_matches(matches: list, team_id: int, conn, limit: int = RECENT_MATCHES_LIMIT) -> list[dict]:
+    """Build a list of recent match details for JSON export."""
+    recent = []
+    for m in matches[:limit]:
+        is_home = m["home_team_id"] == team_id
+        opp_id = m["away_team_id"] if is_home else m["home_team_id"]
+        opp_row = conn.execute("SELECT name, short_name FROM teams WHERE id = ?", (opp_id,)).fetchone()
+        opp_name = opp_row["short_name"] or opp_row["name"] if opp_row else "?"
+
+        result = _team_result(m, team_id, "result_90min")
+        if is_home:
+            score = f"{m['home_goals_90min']}-{m['away_goals_90min']}"
+        else:
+            score = f"{m['away_goals_90min']}-{m['home_goals_90min']}"
+
+        entry = {
+            "date": m["date"],
+            "opponent": opp_name,
+            "home_away": "H" if is_home else "A",
+            "score": score,
+            "result": result,
+            "competition": m["competition_name"] or m["competition_id"],
+            "decided_in": m["decided_in"],
+            "source": m["source"],
+        }
+        recent.append(entry)
+    return recent
+
+
 def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -> list[dict]:
     """Compute the Hair Length Index for all teams in a league."""
     conn = get_connection()
@@ -188,6 +220,9 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
 
         # Hair tier
         tier_name, tier_desc = get_hair_tier(streak_90["days_since"])
+
+        # Recent match details for frontend
+        recent_matches = _build_recent_matches(matches, team["id"], conn)
 
         # Check for data completeness
         match_count = len(matches)
@@ -224,6 +259,8 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
             "total_matches": match_count,
             "has_cup_data": has_cup_data,
             "data_complete": has_cup_data and match_count > 0,
+            # Recent matches for detail view
+            "recent_matches": recent_matches,
         }
         index.append(entry)
 
