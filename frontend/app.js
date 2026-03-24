@@ -2,9 +2,11 @@
  * Hair Length Index — Frontend
  *
  * Loads hair-index.json and renders the ranking table.
+ * Clicking a team loads per-team match data and shows the "hair growth strip."
  */
 
 const DATA_URL = "data/hair-index.json";
+const TEAMS_DIR = "data/teams";
 
 const TIER_EMOJI = {
   "Fresh cut": "\u{1F487}",
@@ -63,6 +65,12 @@ function formatDate(dateStr) {
   });
 }
 
+function formatDateShort(dateStr) {
+  if (!dateStr) return "";
+  const d = new Date(dateStr + "T00:00:00");
+  return d.toLocaleDateString("nl-NL", { day: "numeric", month: "short", year: "2-digit" });
+}
+
 function formatDays(days) {
   if (days === null || days === undefined) return "???";
   return days.toLocaleString("nl-NL");
@@ -89,38 +97,94 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-function renderMatchRow(m) {
-  const resultClass = m.result || "";
-  const ha = m.home_away === "H" ? "thuis" : "uit";
-  const extra = m.decided_in === "PENALTIES" ? " (str.)" :
-                m.decided_in === "EXTRA_TIME" ? " (v.)" : "";
+// === Hair Growth Strip ===
+
+function renderGrowthStrip(teamData) {
+  const matches = teamData.matches;
+  const streak = teamData.streak;
+  if (!matches || matches.length === 0) {
+    return `<p class="no-matches">Geen wedstrijddata beschikbaar</p>`;
+  }
+
+  const startIdx = streak.found ? streak.start_index : -1;
+  const endIdx = streak.found ? streak.end_index : -1;
+
+  // Matches are most-recent-first; render left-to-right = newest on left
+  const blocks = matches.map((m, i) => {
+    const r = m.result || "?";
+    const isStreak = streak.found && i >= startIdx && i <= endIdx;
+    const ha = m.home_away === "H" ? "T" : "U";
+    const extra = m.decided_in === "PENALTIES" ? " (str.)" :
+                  m.decided_in === "EXTRA_TIME" ? " (v.)" : "";
+    const tip = `${m.date} | ${m.opponent} (${ha}) ${m.score}${extra} | ${m.competition} | ${m.source}`;
+    const streakClass = isStreak ? " streak-highlight" : "";
+    const markerAttr = isStreak && i === startIdx ? ' data-streak-start="true"' : "";
+    return `<div class="strip-block ${r}${streakClass}" title="${escapeHtml(tip)}"${markerAttr}>${r}</div>`;
+  }).join("");
+
+  // Legend
+  const total = matches.length;
+  const wins = matches.filter(m => m.result === "W").length;
+  const draws = matches.filter(m => m.result === "D").length;
+  const losses = matches.filter(m => m.result === "L").length;
+  const oldest = matches[matches.length - 1]?.date || "";
+  const streakLabel = streak.found
+    ? `Streak van ${streak.length}x gemarkeerd`
+    : "Geen 5x winst op rij gevonden";
+
   return `
-    <tr class="match-row ${resultClass}">
-      <td class="match-date">${m.date}</td>
-      <td class="match-result-dot"><span class="form-dot ${resultClass}">${resultClass}</span></td>
-      <td class="match-opponent">${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
-      <td class="match-score">${m.score}${extra}</td>
-      <td class="match-comp">${escapeHtml(m.competition)}</td>
-      <td class="match-source">${escapeHtml(m.source)}</td>
-    </tr>`;
+    <div class="strip-legend">
+      <span>${total} wedstrijden sinds ${formatDateShort(oldest)}</span>
+      <span class="strip-stats">
+        <span class="form-dot W">W</span>${wins}
+        <span class="form-dot D">D</span>${draws}
+        <span class="form-dot L">L</span>${losses}
+      </span>
+      <span class="strip-streak-label">${streakLabel}</span>
+    </div>
+    <div class="strip-hint">Nieuwste links, oudste rechts. Hover voor details.</div>
+    <div class="growth-strip">${blocks}</div>
+  `;
 }
 
-function renderMatchDetail(team) {
-  const matches = team.recent_matches;
-  if (!matches || matches.length === 0) {
-    return `<div class="match-detail"><p class="no-matches">Geen wedstrijddata beschikbaar</p></div>`;
-  }
-  const rows = matches.map(renderMatchRow).join("");
+function renderMatchTable(teamData) {
+  const matches = teamData.matches;
+  if (!matches || matches.length === 0) return "";
+  const streak = teamData.streak;
+  const startIdx = streak.found ? streak.start_index : -1;
+  const endIdx = streak.found ? streak.end_index : -1;
+
+  const rows = matches.map((m, i) => {
+    const r = m.result || "";
+    const ha = m.home_away === "H" ? "thuis" : "uit";
+    const extra = m.decided_in === "PENALTIES" ? " (str.)" :
+                  m.decided_in === "EXTRA_TIME" ? " (v.)" : "";
+    const isStreak = streak.found && i >= startIdx && i <= endIdx;
+    const rowClass = isStreak ? "streak-row" : "";
+    return `
+      <tr class="match-row ${r} ${rowClass}">
+        <td class="match-date">${m.date}</td>
+        <td class="match-result-dot"><span class="form-dot ${r}">${r}</span></td>
+        <td class="match-opponent">${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
+        <td class="match-score">${m.score}${extra}</td>
+        <td class="match-comp">${escapeHtml(m.competition)}</td>
+        <td class="match-source">${escapeHtml(m.source)}</td>
+      </tr>`;
+  }).join("");
+
   return `
-    <div class="match-detail" style="display:none">
+    <details class="match-table-toggle">
+      <summary>Alle wedstrijden als tabel</summary>
       <table class="match-table">
         <thead>
           <tr><th>Datum</th><th></th><th>Tegenstander</th><th>Score</th><th>Competitie</th><th>Bron</th></tr>
         </thead>
         <tbody>${rows}</tbody>
       </table>
-    </div>`;
+    </details>`;
 }
+
+// === Team Cards ===
 
 function renderTeamCard(team, rank) {
   const tc = tierClass(team.hair_tier);
@@ -148,7 +212,7 @@ function renderTeamCard(team, rank) {
   }
 
   return `
-    <div class="team-card-wrapper">
+    <div class="team-card-wrapper" data-team-id="${team.team_id}">
       <div class="team-card" onclick="toggleDetail(this)">
         <div class="rank">${rank}</div>
 
@@ -177,10 +241,14 @@ function renderTeamCard(team, rank) {
           ${team.matches_since > 0 ? team.matches_since + " wedstrijden" : "Actieve reeks!"}
         </div>
       </div>
-      ${renderMatchDetail(team)}
+      <div class="match-detail" style="display:none">
+        <div class="detail-loading">Laden...</div>
+      </div>
     </div>
   `;
 }
+
+// === Index Rendering ===
 
 function renderIndex(data) {
   const container = document.getElementById("index-table");
@@ -195,7 +263,6 @@ function renderIndex(data) {
     .map((team, i) => renderTeamCard(team, i + 1))
     .join("");
 
-  // Update timestamps
   const genDate = data.generated_at
     ? new Date(data.generated_at).toLocaleDateString("nl-NL", {
         day: "numeric",
@@ -210,6 +277,8 @@ function renderIndex(data) {
   const footerDate = document.getElementById("footer-date");
   if (footerDate) footerDate.textContent = genDate;
 }
+
+// === Data Loading ===
 
 async function loadData() {
   try {
@@ -228,19 +297,52 @@ async function loadData() {
   }
 }
 
-function toggleDetail(cardEl) {
+const teamDataCache = {};
+
+async function loadTeamDetail(teamId) {
+  if (teamDataCache[teamId]) return teamDataCache[teamId];
+  const resp = await fetch(`${TEAMS_DIR}/${teamId}.json`);
+  if (!resp.ok) return null;
+  const data = await resp.json();
+  teamDataCache[teamId] = data;
+  return data;
+}
+
+async function toggleDetail(cardEl) {
   const wrapper = cardEl.closest(".team-card-wrapper");
   const detail = wrapper.querySelector(".match-detail");
+  const teamId = wrapper.dataset.teamId;
   if (!detail) return;
+
   const isOpen = detail.style.display !== "none";
-  // Close all others first
+
+  // Close all others
   document.querySelectorAll(".match-detail").forEach((d) => {
     d.style.display = "none";
     d.closest(".team-card-wrapper")?.querySelector(".team-card")?.classList.remove("expanded");
   });
+
   if (!isOpen) {
     detail.style.display = "block";
     cardEl.classList.add("expanded");
+
+    // Load team data on demand
+    if (detail.querySelector(".detail-loading")) {
+      const teamData = await loadTeamDetail(teamId);
+      if (teamData) {
+        detail.innerHTML = renderGrowthStrip(teamData) + renderMatchTable(teamData);
+        // Auto-scroll to streak
+        const streakEl = detail.querySelector('[data-streak-start="true"]');
+        if (streakEl) {
+          const strip = detail.querySelector(".growth-strip");
+          if (strip) {
+            strip.scrollLeft = streakEl.offsetLeft - strip.offsetWidth / 2;
+          }
+        }
+      } else {
+        detail.innerHTML = `<p class="no-matches">Kon wedstrijddata niet laden.</p>`;
+      }
+    }
   }
 }
 

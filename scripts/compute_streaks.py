@@ -140,6 +140,8 @@ def find_last_streak(
             "competitions_in_streak": [],
             "search_depth": results[-1]["date"],
             "current_form": current_form,
+            "streak_start_index": None,
+            "streak_end_index": None,
         }
 
     # Extract streak details
@@ -166,6 +168,8 @@ def find_last_streak(
         "competitions_in_streak": sorted(streak_competitions),
         "search_depth": results[-1]["date"],
         "current_form": current_form,
+        "streak_start_index": best_streak["end_idx"],    # most recent win (index 0 = newest match)
+        "streak_end_index": best_streak["start_idx"],     # oldest win in streak
     }
 
 
@@ -259,8 +263,19 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
             "total_matches": match_count,
             "has_cup_data": has_cup_data,
             "data_complete": has_cup_data and match_count > 0,
-            # Recent matches for detail view
-            "recent_matches": recent_matches,
+        }
+        # Store per-team match data separately (not in index)
+        entry["_team_detail"] = {
+            "team_id": team["id"],
+            "team": team["name"],
+            "short_name": team["short_name"],
+            "matches": _build_recent_matches(matches, team["id"], conn, limit=len(matches)),
+            "streak": {
+                "found": streak_90["found"],
+                "start_index": streak_90.get("streak_start_index"),
+                "end_index": streak_90.get("streak_end_index"),
+                "length": streak_90["streak_length"],
+            },
         }
         index.append(entry)
 
@@ -275,18 +290,33 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
 
 
 def export_json(index: list[dict], output_path: Path | None = None) -> Path:
-    """Export the index as JSON."""
+    """Export the index and per-team match files as JSON."""
     if output_path is None:
         output_path = DATA_DIR / "hair-index.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Export per-team match files
+    teams_dir = output_path.parent / "teams"
+    teams_dir.mkdir(parents=True, exist_ok=True)
+    for entry in index:
+        detail = entry.get("_team_detail")
+        if detail:
+            team_path = teams_dir / f"{detail['team_id']}.json"
+            team_path.write_text(json.dumps(detail, indent=2, ensure_ascii=False))
+
+    # Strip internal _team_detail from index before writing
+    clean_index = []
+    for entry in index:
+        clean = {k: v for k, v in entry.items() if not k.startswith("_")}
+        clean_index.append(clean)
+
     output = {
         "generated_at": datetime.now().isoformat(),
         "threshold": STREAK_THRESHOLD,
-        "teams": index,
+        "teams": clean_index,
     }
     output_path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    log.info(f"Exported index to {output_path}")
+    log.info(f"Exported index to {output_path} + {len(index)} team files to {teams_dir}/")
     return output_path
 
 

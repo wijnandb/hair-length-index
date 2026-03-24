@@ -333,7 +333,111 @@ main {
   border-top: none;
   border-radius: 0 0 var(--radius) var(--radius);
   padding: 0.75rem 1rem;
+}
+
+.detail-loading {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 1rem;
+}
+
+/* === Hair Growth Strip === */
+.strip-legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.strip-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.strip-streak-label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.strip-hint {
+  font-size: 0.65rem;
+  color: #b0b4bc;
+  margin-bottom: 0.4rem;
+}
+
+.growth-strip {
+  display: flex;
+  gap: 2px;
   overflow-x: auto;
+  padding: 0.5rem 0;
+  scroll-behavior: smooth;
+}
+
+.strip-block {
+  min-width: 14px;
+  height: 28px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  cursor: default;
+  flex-shrink: 0;
+  transition: transform 0.1s;
+}
+
+.strip-block:hover {
+  transform: scaleY(1.4);
+  z-index: 1;
+  font-size: 0.5rem;
+  font-weight: 800;
+}
+
+.strip-block.W { background: #bbf7d0; border: 1px solid #86efac; color: #15803d; }
+.strip-block.D { background: #e5e7eb; border: 1px solid #d1d5db; color: #6b7280; }
+.strip-block.L { background: #fecaca; border: 1px solid #fca5a5; color: #dc2626; }
+
+.strip-block.streak-highlight {
+  background: #fef08a;
+  border: 2px solid #eab308;
+  color: #a16207;
+  height: 34px;
+  min-width: 16px;
+  box-shadow: 0 0 6px rgba(234, 179, 8, 0.4);
+}
+
+.strip-block.streak-highlight:hover {
+  font-size: 0.55rem;
+}
+
+/* Match table toggle */
+.match-table-toggle {
+  margin-top: 0.75rem;
+}
+
+.match-table-toggle summary {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.3rem 0;
+}
+
+.match-table-toggle summary:hover {
+  color: var(--text);
+}
+
+/* Streak row highlight in table */
+.streak-row {
+  background: #fefce8 !important;
+}
+
+.streak-row td {
+  border-bottom-color: #fef08a;
 }
 
 .match-table {
