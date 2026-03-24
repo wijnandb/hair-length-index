@@ -39,7 +39,9 @@ Match {
   away_team_id: int
   home_goals: int
   away_goals: int
-  result: enum [HOME_WIN, AWAY_WIN, DRAW]  # derived, but store for convenience
+  result_strict: enum [HOME_WIN, AWAY_WIN, DRAW]   # based on score after 90 min (AET/pens = DRAW)
+  result_lenient: enum [HOME_WIN, AWAY_WIN, DRAW]  # AET/penalty win counts as WIN
+  decided_in: enum [REGULAR, EXTRA_TIME, PENALTIES] # how the match was decided
   competition: enum [LEAGUE, DOMESTIC_CUP, CHAMPIONS_LEAGUE, EUROPA_LEAGUE, CONFERENCE_LEAGUE, SUPER_CUP, FRIENDLY]
   round: string (optional — e.g. "Matchday 14", "Round of 16")
   season: string (e.g. "2025-26")
@@ -230,8 +232,9 @@ Tiers (canonical — used for both display and portrait generation):
 - **Summer break gap**: The wins must be consecutive competitive matches — a 2-month gap between seasons is fine as long as no competitive match broke the streak
 - **Mid-week matches**: A team playing Wed + Sat builds/breaks streaks faster
 - **European teams** get more chances to build streaks but also more chances to break them
-- **Extra time wins**: A win in extra time (AET) counts as a Win — the team won the match within regulation play
-- **Penalty shootout results**: Count as a Draw — the match ended level after 90/120 min. The API's `score.fullTime` reflects the score at end of regular/extra time; if equal, it's a draw for streak purposes regardless of who advances
+- **Extra time & penalty shootout results**: These are treated as special cases rather than plain W or D. Strictly speaking, a match decided in extra time or on penalties is not a regulation win. However, fans absolutely experience these as wins. We compute streaks **both ways** (strict: AET/penalties = Draw; lenient: AET = Win, penalties = Win) and compare. If a team's 5-streak only exists under the lenient interpretation, we highlight that — e.g. *"Feyenoord heeft 5 op een rij* gewonnen, maar alleen als je verlenging meetelt*"*. This makes for a great talking point and lets fans argue about it, which is exactly what we want.
+  - **Implementation**: Store a `result_strict` (90 min only; AET/pens = Draw) and `result_lenient` (AET win = Win, penalty win = Win) per match. Compute two streak values. Display the strict one by default with a toggle or footnote for the lenient version.
+  - **API mapping**: Use `score.fullTime` for the strict result. If `score.fullTime` is a draw but the match has a `score.penalties` field, the lenient result is a Win for the advancing team.
 - **Walkovers/forfeits**: Count as W or L per official result
 - **Promoted teams**: Search continues into lower division data (Eerste Divisie etc.)
 - **Relegated teams**: Their Eredivisie streak history still counts — search stops at the last 5-streak regardless of division
