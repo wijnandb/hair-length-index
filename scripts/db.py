@@ -114,6 +114,48 @@ def upsert_team(conn: sqlite3.Connection, **kwargs) -> int:
     return cursor.lastrowid
 
 
+def find_team_by_name(conn: sqlite3.Connection, name: str) -> sqlite3.Row | None:
+    """Find a team by exact name or short_name."""
+    row = conn.execute(
+        "SELECT * FROM teams WHERE name = ? OR short_name = ?", (name, name)
+    ).fetchone()
+    return row
+
+
+def find_team_by_api_football_id(conn: sqlite3.Connection, api_id: int) -> sqlite3.Row | None:
+    """Find a team by its API-Football ID."""
+    return conn.execute(
+        "SELECT * FROM teams WHERE api_football_id = ?", (api_id,)
+    ).fetchone()
+
+
+def set_api_football_id(conn: sqlite3.Connection, team_id: int, api_football_id: int) -> None:
+    """Set the API-Football ID for a team."""
+    conn.execute(
+        "UPDATE teams SET api_football_id = ? WHERE id = ?",
+        (api_football_id, team_id),
+    )
+    conn.commit()
+
+
+def get_teams_missing_cup_data(conn: sqlite3.Connection, league: str, season: str) -> list[sqlite3.Row]:
+    """Get teams that don't have cup match data for a given season."""
+    return conn.execute(
+        """
+        SELECT t.* FROM teams t
+        WHERE t.current_league = ?
+        AND NOT EXISTS (
+            SELECT 1 FROM matches m
+            WHERE (m.home_team_id = t.id OR m.away_team_id = t.id)
+            AND m.competition_type IN ('DOMESTIC_CUP', 'SUPER_CUP')
+            AND m.season = ?
+        )
+        ORDER BY t.name
+        """,
+        (league, season),
+    ).fetchall()
+
+
 def upsert_match(conn: sqlite3.Connection, **kwargs) -> int | None:
     """Insert a match, ignoring duplicates (same source + source_match_id)."""
     cols = [k for k in kwargs if kwargs[k] is not None]

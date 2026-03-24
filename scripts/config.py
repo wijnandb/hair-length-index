@@ -15,6 +15,23 @@ FOOTBALL_DATA_API_KEY = os.environ.get("FOOTBALL_DATA_API_KEY", "")
 # Rate limiting: 10 req/min on free tier → 6s between requests
 FOOTBALL_DATA_RATE_LIMIT_SECONDS = 6.0
 
+# API-Football (api-sports.io / RapidAPI)
+API_FOOTBALL_BASE_URL = "https://v3.football.api-sports.io"
+API_FOOTBALL_API_KEY = os.environ.get("API_FOOTBALL_API_KEY", "")
+
+# Rate limiting: free tier = 100 req/day, no per-minute documented limit
+# Be conservative: 1 req/sec
+API_FOOTBALL_RATE_LIMIT_SECONDS = 1.0
+
+# API-Football league IDs for competitions not on football-data.org free tier
+API_FOOTBALL_LEAGUES = {
+    "KNVB": {"api_id": 90, "name": "KNVB Beker", "type": "DOMESTIC_CUP", "country": "NL"},
+    "EL": {"api_id": 3, "name": "Europa League", "type": "CONTINENTAL", "country": "EU"},
+    "ECL": {"api_id": 848, "name": "Conference League", "type": "CONTINENTAL", "country": "EU"},
+    "JE": {"api_id": 89, "name": "Eerste Divisie", "type": "LEAGUE", "country": "NL"},
+    "SC_NL": {"api_id": 91, "name": "Johan Cruijff Schaal", "type": "SUPER_CUP", "country": "NL"},
+}
+
 # Competition codes (football-data.org free tier)
 COMPETITIONS = {
     "DED": {"name": "Eredivisie", "type": "LEAGUE", "country": "NL"},
