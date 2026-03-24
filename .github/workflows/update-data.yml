@@ -22,11 +22,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
@@ -73,7 +82,7 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short
 
-      # --- Commit whatever we got ---
+      # --- Commit updated data ---
 
       - name: Check for changes
         id: changes
@@ -92,3 +101,20 @@ jobs:
           git add data/hair-index.json
           git commit -m "Update Hair Length Index data $(date -u +%Y-%m-%d)"
           git push
+
+      # --- Deploy to GitHub Pages (same job, avoids GITHUB_TOKEN trigger limitation) ---
+
+      - name: Prepare site
+        run: |
+          mkdir -p _site/data
+          cp frontend/* _site/
+          cp data/hair-index.json _site/data/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
