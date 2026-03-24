@@ -105,7 +105,11 @@ def import_team(
     for offset in range(max_seasons):
         year = current_year - offset
 
-        matches = fetch_season(slug, wf_id, year)
+        try:
+            matches = fetch_season(slug, wf_id, year)
+        except Exception as e:
+            log.warning(f"  Error fetching {year}-{year+1}: {e}")
+            continue
         if not matches:
             if offset >= min_seasons:
                 log.info(f"  No data for {year}-{year+1}, stopping")
@@ -139,7 +143,11 @@ def import_team(
                     if offset + 2 < max_seasons:
                         for extra in range(1, 3):
                             extra_year = year - extra
-                            extra_matches = fetch_season(slug, wf_id, extra_year)
+                            try:
+                                extra_matches = fetch_season(slug, wf_id, extra_year)
+                            except Exception as e:
+                                log.warning(f"  Error fetching context {extra_year}: {e}")
+                                continue
                             if extra_matches:
                                 extra_comp = [m for m in extra_matches if not is_friendly(m.get("competition_name", ""))]
                                 extra_new = import_matches(conn, extra_comp, team_name)
@@ -155,26 +163,46 @@ def import_team(
     }
 
 
-def rebuild(min_seasons: int = 5, max_seasons: int = 25):
+def rebuild(min_seasons: int = 5, max_seasons: int = 25, resume: bool = False):
     """Rebuild the entire database from worldfootball.net."""
 
-    # Backup existing DB
-    if DB_PATH.exists():
-        backup = DB_PATH.with_suffix(".db.bak")
-        shutil.copy2(DB_PATH, backup)
-        log.info(f"Backed up existing DB to {backup}")
-        DB_PATH.unlink()
-        log.info("Removed old database")
+    if not resume:
+        # Backup existing DB
+        if DB_PATH.exists():
+            backup = DB_PATH.with_suffix(".db.bak")
+            shutil.copy2(DB_PATH, backup)
+            log.info(f"Backed up existing DB to {backup}")
+            DB_PATH.unlink()
+            log.info("Removed old database")
 
-    # Create fresh DB
+    # Create/open DB
     conn = get_connection()
     init_db(conn)
-    log.info("Created fresh database")
+    if resume:
+        log.info("Resuming — skipping teams already in DB")
+    else:
+        log.info("Created fresh database")
 
     # Import Eredivisie teams
     results = []
+    def _should_skip(team_name):
+        if not resume:
+            return False
+        row = conn.execute("SELECT id FROM teams WHERE name = ?", (team_name,)).fetchone()
+        if not row:
+            return False
+        cnt = conn.execute("SELECT COUNT(*) FROM matches WHERE home_team_id=? OR away_team_id=?",
+                          (row["id"], row["id"])).fetchone()[0]
+        if cnt > 20:
+            log.info(f"  Skipping {team_name} — already has {cnt} matches")
+            return True
+        return False
+
     log.info(f"\n--- EREDIVISIE ({len(EREDIVISIE_2526)} teams) ---")
     for team_name, (wf_id, slug) in EREDIVISIE_2526.items():
+        if _should_skip(team_name):
+            results.append({"team": team_name, "matches_imported": 0, "streak_found": True, "seasons_searched": 0})
+            continue
         result = import_team(conn, team_name, wf_id, slug,
                             min_seasons=min_seasons, max_seasons=max_seasons)
         results.append(result)
@@ -186,6 +214,9 @@ def rebuild(min_seasons: int = 5, max_seasons: int = 25):
     # Import Eerste Divisie teams
     log.info(f"\n--- EERSTE DIVISIE ({len(EERSTE_DIVISIE_2526)} teams) ---")
     for team_name, (wf_id, slug) in EERSTE_DIVISIE_2526.items():
+        if _should_skip(team_name):
+            results.append({"team": team_name, "matches_imported": 0, "streak_found": True, "seasons_searched": 0})
+            continue
         result = import_team(conn, team_name, wf_id, slug,
                             min_seasons=min_seasons, max_seasons=max_seasons)
         results.append(result)
@@ -231,9 +262,11 @@ def main():
                         help="Minimum seasons to import per team (default: 5)")
     parser.add_argument("--max-seasons", type=int, default=25,
                         help="Maximum seasons to search for streak (default: 25)")
+    parser.add_argument("--resume", action="store_true",
+                        help="Resume: skip teams already in DB with >20 matches")
     args = parser.parse_args()
 
-    rebuild(min_seasons=args.min_seasons, max_seasons=args.max_seasons)
+    rebuild(min_seasons=args.min_seasons, max_seasons=args.max_seasons, resume=args.resume)
 
 
 if __name__ == "__main__":
