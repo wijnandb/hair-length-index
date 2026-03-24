@@ -116,7 +116,7 @@ The goal is **complete match data for all competitions** a team plays in. No sin
 | Priority | Source | What it gives us | Cost | Rate Limit |
 |----------|--------|-----------------|------|------------|
 | 1 | **football-data.org** (v4) | Top leagues, CL, EL. The `/teams/{id}/matches` endpoint returns all competitions per team in one call. | Free tier available | 10 req/min |
-| 2 | **API-Football** (via RapidAPI) | 1,200+ leagues incl. KNVB Beker, Eerste Divisie, Conference League, domestic cups for all countries. Much broader coverage. | Free: 100 req/day. Basic ~$10/mo: 7,500 req/day | Varies by plan |
+| 2 | **API-Football** (via RapidAPI) | 1,200+ leagues incl. KNVB Beker, Eerste Divisie, Conference League, domestic cups for all countries. All competitions on all plans. | Free: 100 req/day. Pro $19/mo: 7,500 req/day | Varies by plan |
 | 3 | **RSSSF.org** | Historical lower-league data (pre-2020 Eerste Divisie, old cup results). Published after season ends. Plain text, semi-structured. | Free (scrape/manual) | N/A |
 | 4 | **Manual import** | For edge cases: Wikipedia season pages, official KNVB results. Last resort. | Free | N/A |
 
@@ -151,11 +151,20 @@ The goal is **complete match data for all competitions** a team plays in. No sin
 |`CL`  |Champions League  |Yes       |
 |`EC`  |European Champ.   |Yes       |
 
-**Free tier gaps (need verification):**
-- Domestic cups (KNVB Beker, FA Cup, DFB-Pokal, Copa del Rey) — **likely NOT on free tier**
-- Europa League, Conference League — **may require paid tier**
-- Eerste Divisie (KKD) — **NOT available**
+**Free tier gaps (CONFIRMED):**
+- Domestic cups (KNVB Beker, FA Cup, DFB-Pokal, Copa del Rey) — **NOT on free tier** (requires paid: Standard €49/mo)
+- Europa League, Conference League — **NOT on free tier** (requires paid)
+- Eerste Divisie (KKD) — **NOT available** (even on paid tiers)
 - Lower leagues — **NOT available**
+- Paid tiers: Standard (25 competitions, €49/mo), Advanced (50, €99/mo), Pro (144, €249/mo)
+
+**Extra time / penalty scoring (CONFIRMED):**
+football-data.org v4 uses **incremental** scoring (not cumulative) — see [docs](https://docs.football-data.org/general/v4/overtime.html):
+- `score.regularTime` = goals in 90 minutes only
+- `score.extraTime` = goals scored *only* during extra time (not cumulative with 90 min)
+- `score.penalties` = penalty shootout goals only
+- `score.fullTime` = 90 min + extra time goals (cumulative)
+- These fields appear when match `duration` is `EXTRA_TIME` or `PENALTY_SHOOTOUT`
 
 **Match response includes:**
 ```json
@@ -174,13 +183,13 @@ The goal is **complete match data for all competitions** a team plays in. No sin
 }
 ```
 
-**Mapping to our model:**
-- `home_goals_90min` / `away_goals_90min` = `score.regularTime` if present, else `score.fullTime` (league matches have no AET)
-- `home_goals_final` / `away_goals_final` = `score.fullTime` (includes AET)
-- `home_goals_penalties` / `away_goals_penalties` = `score.penalties` (NULL if absent)
-- `decided_in` = `PENALTIES` if penalties present, `EXTRA_TIME` if fullTime ≠ regularTime, else `REGULAR`
-- `result_90min` = derived from 90-min scores
-- `result_final` = if penalties: winner of penalties. else: derived from fullTime scores
+**Mapping to our model (CONFIRMED — scores are incremental):**
+- `home_goals_90min` / `away_goals_90min` = `score.regularTime` (always present for cup matches with AET). For league matches: `score.fullTime` (no AET possible)
+- `home_goals_final` / `away_goals_final` = `score.fullTime` (= 90 min + extra time, cumulative)
+- `home_goals_penalties` / `away_goals_penalties` = `score.penalties` (NULL if no shootout)
+- `decided_in` = based on match `duration` field: `REGULAR` / `EXTRA_TIME` / `PENALTY_SHOOTOUT`
+- `result_90min` = compare `regularTime` home vs away. This is what we need for the official index.
+- `result_final` = if penalties: winner of penalty shootout. else: compare `fullTime` scores.
 
 ### 3.3 Source 2: API-Football (via RapidAPI) — Cups & Lower Leagues
 
@@ -206,7 +215,8 @@ The goal is **complete match data for all competitions** a team plays in. No sin
 - **Don't duplicate**: Only fetch from API-Football what football-data.org doesn't have
 - **fill_gaps.py** queries `data_sources` table for competitions with status = PENDING, then fetches only those from API-Football
 - **Team ID mapping**: Store both `football_data_id` and `api_football_id` in the teams table. Build mapping once, reuse forever.
-- **Free tier (100 req/day)** is enough for gap-filling (we only need cup matches, ~2-4 per team per season). If we scale to all European leagues, the Basic plan at ~$10/mo covers it.
+- **Free tier (100 req/day)**: All competitions available, but limited to recent seasons only. Enough for Eredivisie MVP gap-filling (~36 cup requests for 18 teams). For all European leagues: Pro plan ($19/mo, 7,500 req/day) or Mega ($39/mo, 150K req/day).
+- **Score format**: `fulltime` = 90 min score, `extratime` and `penalty` are separate fields (NULL when not applicable). Maps cleanly to our model.
 
 ### 3.4 Source 3: RSSSF.org — Historical Lower Leagues
 
@@ -226,6 +236,12 @@ Cambuur           2-1  De Graafschap
 - Only used for backfilling historical data that APIs don't cover
 - Results imported with `source = “rsssf”` so we know the provenance
 - **Not needed for MVP** — only kicks in when a team's streak can't be found via APIs
+
+### 3.5 Bonus Source: football-data.co.uk — Bulk Historical CSV
+
+Free CSV downloads for major European leagues (including Eredivisie) going back to the 1990s. English leagues down to Conference level. Updated weekly. No API — just download CSVs. Includes betting odds data.
+
+**Good for**: Quickly bootstrapping historical league-only data for many seasons. Doesn't include cups or lower Dutch leagues, but useful as a validation source and for seeding the database with older league results.
 
 ### 3.5 Fetch Strategy: First Run vs Daily Updates
 
@@ -640,8 +656,8 @@ These are Eredivisie-only. For the full Hair Length Index (all competitions), we
 1. **Update frequency**: Real-time during match days, or daily batch? (Daily is fine for the hair metaphor — hair doesn’t grow by the minute)
 1. **Relegated teams appearing in index**: If we show Eredivisie, do we include teams that got relegated mid-history? Or only current members?
 1. **The “barber visit” moment**: Should we send notifications / post on social when a team completes a 5-streak? “🎉 Ajax finally got a haircut!”
-1. **API-Football free tier**: 100 req/day — is that enough for gap-filling, or do we need the Basic plan (~$10/mo)?
-1. **football-data.org `regularTime` field**: Does the API actually return this for cup matches? If not, we can’t derive `result_90min` for AET matches from this source alone. Need to verify.
+1. **API-Football free tier**: 100 req/day — enough for Eredivisie MVP gap-filling. Pro plan ($19/mo) needed when scaling to all European leagues.
+1. ~~**football-data.org `regularTime` field**~~: RESOLVED — Confirmed via [docs](https://docs.football-data.org/general/v4/overtime.html). The API uses incremental scoring: `regularTime` = 90 min, `extraTime` = AET only, `penalties` = shootout only, `fullTime` = 90 min + AET cumulative. Both sources (football-data.org and API-Football) give us what we need for `result_90min` and `result_final`.
 
 -----
 
