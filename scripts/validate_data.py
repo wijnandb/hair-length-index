@@ -134,12 +134,12 @@ def check_match_counts(conn, league: str, result: ValidationResult):
             if season == current_season:
                 continue
 
-            # COVID-affected season
-            if season in ("2019-20",):
-                expected_adj = int(expected * 0.75)  # ~25 matches
-                if cnt < expected_adj:
+            # COVID-affected seasons: 2019-20 Eredivisie stopped at matchday 26
+            # Some competitions had even fewer matches
+            if season in ("2019-20", "2019-2020"):
+                if cnt < 20:
                     result.warn(f"{team['name']} {season}: only {cnt} league matches "
-                                f"(expected ~{expected_adj} COVID-adjusted)")
+                                f"(expected 25-26, COVID-shortened season)")
                 continue
 
             if cnt < expected - 2:
