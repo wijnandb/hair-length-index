@@ -31,7 +31,6 @@ log = logging.getLogger(__name__)
 FRIENDLY_KEYWORDS = [
     "friendly", "friendl", "testspiel", "oefenwedstrijd",
     "pre-season", "preseason", "winter cup",
-    "trophy", "trofee",  # pre-season trophies
 ]
 
 # Current Eredivisie 2025-26 teams with verified worldfootball.net IDs
