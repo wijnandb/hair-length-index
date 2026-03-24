@@ -16,6 +16,29 @@ const TIER_EMOJI = {
   "Lost in time": "\u2753",
 };
 
+const TIER_AVATAR = {
+  "Fresh cut":      { top: "shortFlat",           facialHair: "" },
+  "Growing back":   { top: "shortCurly",          facialHair: "" },
+  "Getting shaggy": { top: "shaggyMullet",        facialHair: "beardLight" },
+  "Long & wild":    { top: "longButNotTooLong",   facialHair: "beardMedium" },
+  "Caveman":        { top: "bigHair",             facialHair: "beardMajestic" },
+  "Sasquatch":      { top: "dreads",              facialHair: "beardMajestic" },
+  "Lost in time":   { top: "",                    facialHair: "" },
+};
+
+function avatarUrl(tier, seed) {
+  const config = TIER_AVATAR[tier] || TIER_AVATAR["Lost in time"];
+  const params = new URLSearchParams({
+    seed: seed || "default",
+    backgroundColor: "transparent",
+    clotheColor: "262e33",
+    skinColor: "d08b5b",
+  });
+  if (config.top) params.set("top", config.top);
+  if (config.facialHair) params.set("facialHair", config.facialHair);
+  return `https://api.dicebear.com/9.x/avataaars/svg?${params.toString()}`;
+}
+
 const TIER_CLASS = {
   "Fresh cut": "fresh",
   "Growing back": "growing",
@@ -70,6 +93,7 @@ function renderTeamCard(team, rank) {
   const tc = tierClass(team.hair_tier);
   const emoji = TIER_EMOJI[team.hair_tier] || "";
   const daysStr = formatDays(team.days_since);
+  const avatar = avatarUrl(team.hair_tier, team.short_name || team.team);
 
   let streakDetail = "";
   if (team.streak_found) {
@@ -93,6 +117,10 @@ function renderTeamCard(team, rank) {
   return `
     <div class="team-card">
       <div class="rank">${rank}</div>
+
+      <div class="avatar">
+        <img src="${avatar}" alt="${escapeHtml(team.hair_tier)}" class="avatar-img" loading="lazy">
+      </div>
 
       <div class="team-info">
         <span class="team-name">${escapeHtml(team.team)}</span>
