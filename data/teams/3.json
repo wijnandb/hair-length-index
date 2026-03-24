@@ -424,16 +424,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2025-02-27",
-      "opponent": "AZ",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "L",
-      "competition": "KNVB Beker",
-      "decided_in": "PENALTIES",
-      "source": "api-football"
-    },
-    {
       "date": "2025-02-16",
       "opponent": "Ajax",
       "home_away": "A",
@@ -492,16 +482,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-01-16",
-      "opponent": "Twente",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2025-01-11",
@@ -674,10 +654,10 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-08-02",
-      "opponent": "Groningen",
-      "home_away": "A",
-      "score": "0-2",
+      "date": "2024-07-26",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-2",
       "result": "L",
       "competition": "Friendlies Clubs",
       "decided_in": "REGULAR",
@@ -1029,6 +1009,16 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-07-28",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
       "competition": "Friendlies Clubs",
       "decided_in": "REGULAR",
       "source": "api-football"
@@ -6736,8 +6726,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 327,
-    "end_index": 331,
+    "start_index": 326,
+    "end_index": 330,
     "length": 5
   }
 }

@@ -334,36 +334,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2025-05-09",
-      "opponent": "Den Bosch",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-05-02",
-      "opponent": "FC OSS",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-04-25",
-      "opponent": "Cambuur",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2025-04-25",
       "opponent": "RKC Waalwijk",
       "home_away": "A",
@@ -382,26 +352,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-04-19",
-      "opponent": "Roda",
-      "home_away": "H",
-      "score": "3-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-04-14",
-      "opponent": "Jong Ajax",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2025-04-13",
@@ -424,16 +374,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2025-04-04",
-      "opponent": "Jong AZ",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2025-03-30",
       "opponent": "Heerenveen",
       "home_away": "H",
@@ -442,16 +382,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-03-28",
-      "opponent": "Telstar",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2025-03-15",
@@ -464,26 +394,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2025-03-14",
-      "opponent": "ADO Den Haag",
-      "home_away": "H",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-03-10",
-      "opponent": "Jong Utrecht",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2025-03-09",
       "opponent": "Willem II",
       "home_away": "A",
@@ -492,26 +402,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-03-07",
-      "opponent": "FC Eindhoven",
-      "home_away": "A",
-      "score": "3-3",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-03-01",
-      "opponent": "MVV",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2025-03-01",
@@ -524,16 +414,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2025-02-21",
-      "opponent": "Helmond Sport",
-      "home_away": "A",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2025-02-15",
       "opponent": "PSV",
       "home_away": "A",
@@ -542,16 +422,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-02-10",
-      "opponent": "Emmen",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2025-02-09",
@@ -565,16 +435,6 @@
     },
     {
       "date": "2025-02-01",
-      "opponent": "Excelsior",
-      "home_away": "A",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-02-01",
       "opponent": "Zwolle",
       "home_away": "A",
       "score": "3-3",
@@ -582,16 +442,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-01-24",
-      "opponent": "Dordrecht",
-      "home_away": "H",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2025-01-24",
@@ -614,26 +464,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2025-01-17",
-      "opponent": "Volendam",
-      "home_away": "A",
-      "score": "0-4",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-01-12",
-      "opponent": "VVV Venlo",
-      "home_away": "H",
-      "score": "1-4",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2025-01-12",
       "opponent": "Feyenoord",
       "home_away": "A",
@@ -654,16 +484,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-12-20",
-      "opponent": "Jong PSV U21",
-      "home_away": "A",
-      "score": "4-6",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-12-15",
       "opponent": "Go Ahead",
       "home_away": "H",
@@ -674,16 +494,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-12-13",
-      "opponent": "Jong Utrecht",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-12-08",
       "opponent": "Almere City FC",
       "home_away": "A",
@@ -692,16 +502,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-12-06",
-      "opponent": "MVV",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-12-04",
@@ -724,26 +524,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-11-29",
-      "opponent": "Helmond Sport",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-11-26",
-      "opponent": "Roda",
-      "home_away": "A",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-11-24",
       "opponent": "NEC",
       "home_away": "A",
@@ -752,26 +532,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-11-22",
-      "opponent": "Cambuur",
-      "home_away": "H",
-      "score": "0-6",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-11-08",
-      "opponent": "ADO Den Haag",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-11-08",
@@ -794,26 +554,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-11-02",
-      "opponent": "FC OSS",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-10-30",
-      "opponent": "Waalwijk",
-      "home_away": "A",
-      "score": "1-3",
-      "result": "L",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-10-27",
       "opponent": "Feyenoord",
       "home_away": "H",
@@ -822,26 +562,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-10-25",
-      "opponent": "Jong PSV U21",
-      "home_away": "H",
-      "score": "1-3",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-10-22",
-      "opponent": "Dordrecht",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-10-20",
@@ -854,16 +574,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-10-18",
-      "opponent": "Den Bosch",
-      "home_away": "A",
-      "score": "2-4",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-10-05",
       "opponent": "RKC Waalwijk",
       "home_away": "H",
@@ -872,16 +582,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-10-04",
-      "opponent": "Volendam",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-09-29",
@@ -895,16 +595,6 @@
     },
     {
       "date": "2024-09-21",
-      "opponent": "Jong Ajax",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-09-21",
       "opponent": "Willem II",
       "home_away": "H",
       "score": "3-2",
@@ -912,26 +602,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-09-16",
-      "opponent": "Emmen",
-      "home_away": "A",
-      "score": "3-3",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-09-13",
-      "opponent": "Jong AZ",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-09-01",
@@ -942,26 +612,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-08-30",
-      "opponent": "FC Eindhoven",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-08-25",
-      "opponent": "Excelsior",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-08-24",
@@ -984,16 +634,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-08-16",
-      "opponent": "VVV Venlo",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-08-11",
       "opponent": "Zwolle",
       "home_away": "H",
@@ -1002,26 +642,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-08-09",
-      "opponent": "Telstar",
-      "home_away": "H",
-      "score": "2-3",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-07-23",
-      "opponent": "Ashdod",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2024-05-19",
@@ -1164,16 +784,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-02-07",
-      "opponent": "Cambuur",
-      "home_away": "A",
-      "score": "1-3",
-      "result": "L",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-02-04",
       "opponent": "Volendam",
       "home_away": "H",
@@ -1204,16 +814,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-01-18",
-      "opponent": "AFC Amsterdam",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2024-01-14",
       "opponent": "SBV Vitesse",
       "home_away": "A",
@@ -1222,36 +822,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2024-01-07",
-      "opponent": "VfL Bochum",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-12-21",
-      "opponent": "Heerenveen",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-12-20",
-      "opponent": "Feyenoord",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2023-12-16",
@@ -1312,16 +882,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2023-10-31",
-      "opponent": "Groene Ster",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2023-10-28",
@@ -1424,66 +984,6 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2023-08-05",
-      "opponent": "Getafe",
-      "home_away": "A",
-      "score": "1-4",
-      "result": "L",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-08-01",
-      "opponent": "Patro Eisden",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-07-28",
-      "opponent": "Eintracht Frankfurt",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-07-28",
-      "opponent": "Eintracht Frankfurt",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-07-22",
-      "opponent": "VfB Stuttgart",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-07-08",
-      "opponent": "DUNO",
-      "home_away": "A",
-      "score": "9-0",
-      "result": "W",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2023-05-28",
       "opponent": "FC Emmen",
       "home_away": "H",
@@ -1562,16 +1062,6 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2023-03-22",
-      "opponent": "Heerenveen",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Friendlies Clubs",
-      "decided_in": "REGULAR",
-      "source": "api-football"
     },
     {
       "date": "2023-03-18",
@@ -8206,8 +7696,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 342,
-    "end_index": 346,
-    "length": 5
+    "start_index": 56,
+    "end_index": 61,
+    "length": 6
   }
 }

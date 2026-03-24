@@ -334,26 +334,6 @@
       "source": "football-data.org"
     },
     {
-      "date": "2025-05-02",
-      "opponent": "Twente",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2025-03-28",
-      "opponent": "Utrecht",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
       "date": "2025-03-11",
       "opponent": "Volendam",
       "home_away": "A",
@@ -364,12 +344,12 @@
       "source": "api-football"
     },
     {
-      "date": "2024-12-19",
-      "opponent": "Ajax",
-      "home_away": "A",
-      "score": "0-2",
+      "date": "2025-02-21",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-3",
       "result": "L",
-      "competition": "KNVB Beker",
+      "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "api-football"
     },
@@ -384,60 +364,10 @@
       "source": "api-football"
     },
     {
-      "date": "2024-10-12",
-      "opponent": "Twente",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-08-09",
-      "opponent": "Utrecht",
+      "date": "2024-09-13",
+      "opponent": "Excelsior",
       "home_away": "A",
-      "score": "3-2",
-      "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-05-03",
-      "opponent": "Groningen",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2024-04-12",
-      "opponent": "Twente",
-      "home_away": "A",
-      "score": "1-5",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-12-08",
-      "opponent": "Groningen",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "api-football"
-    },
-    {
-      "date": "2023-11-10",
-      "opponent": "Twente",
-      "home_away": "H",
-      "score": "1-2",
+      "score": "2-3",
       "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",

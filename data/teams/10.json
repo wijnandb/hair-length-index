@@ -534,6 +534,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2024-10-30",
+      "opponent": "Barendrecht",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
       "date": "2024-10-26",
       "opponent": "RKC Waalwijk",
       "home_away": "H",
@@ -552,6 +562,16 @@
       "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2024-10-10",
+      "opponent": "ADO Den Haag",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-10-05",
@@ -594,6 +614,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2024-09-04",
+      "opponent": "FC Schalke 04",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
       "date": "2024-08-31",
       "opponent": "Heerenveen",
       "home_away": "A",
@@ -634,42 +664,72 @@
       "source": "football-data-uk"
     },
     {
-      "date": "2024-04-07",
-      "opponent": "Groningen",
+      "date": "2024-08-03",
+      "opponent": "Sparta",
       "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eerste Divisie",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Friendlies Clubs",
       "decided_in": "REGULAR",
       "source": "api-football"
     },
     {
-      "date": "2024-02-02",
-      "opponent": "Twente",
+      "date": "2024-07-30",
+      "opponent": "Aris Thessalonikis",
       "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Eerste Divisie",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Friendlies Clubs",
       "decided_in": "REGULAR",
       "source": "api-football"
     },
     {
-      "date": "2023-11-03",
-      "opponent": "Twente",
-      "home_away": "A",
+      "date": "2024-07-26",
+      "opponent": "K. Lierse S.K.",
+      "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "Eerste Divisie",
+      "competition": "Friendlies Clubs",
       "decided_in": "REGULAR",
       "source": "api-football"
     },
     {
-      "date": "2023-10-06",
-      "opponent": "Groningen",
+      "date": "2024-07-24",
+      "opponent": "OFI",
       "home_away": "H",
-      "score": "3-2",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-20",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-17",
+      "opponent": "FC Eindhoven",
+      "home_away": "H",
+      "score": "3-0",
       "result": "W",
-      "competition": "Eerste Divisie",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-07-22",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
       "decided_in": "REGULAR",
       "source": "api-football"
     },
@@ -5436,8 +5496,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 382,
-    "end_index": 388,
+    "start_index": 388,
+    "end_index": 394,
     "length": 7
   }
 }
