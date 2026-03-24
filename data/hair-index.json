@@ -1,42 +1,7 @@
 {
-  "generated_at": "2026-03-24T16:30:37.399447",
+  "generated_at": "2026-03-24T16:34:31.517662",
   "threshold": 5,
   "teams": [
-    {
-      "team": "Willem II",
-      "team_id": 98,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": false,
-      "streak_length": 0,
-      "streak_end_date": null,
-      "streak_start_date": null,
-      "days_since": null,
-      "matches_since": 638,
-      "competitions_in_streak": [],
-      "current_form": [
-        "L",
-        "W",
-        "D",
-        "L",
-        "L",
-        "D",
-        "L",
-        "L",
-        "L",
-        "L"
-      ],
-      "search_depth": "2003-08-16",
-      "hair_tier": "Lost in time",
-      "hair_description": "Need deeper historical data",
-      "strict_streak_found": false,
-      "strict_streak_end_date": null,
-      "strict_days_since": null,
-      "includes_aet_pens": false,
-      "total_matches": 638,
-      "has_cup_data": true,
-      "data_complete": true
-    },
     {
       "team": "RKC Waalwijk",
       "team_id": 91,
@@ -47,7 +12,7 @@
       "streak_end_date": "2011-04-01",
       "streak_start_date": "2010-09-21",
       "days_since": 5471,
-      "matches_since": 356,
+      "matches_since": 357,
       "competitions_in_streak": [
         "Eerste Divisie",
         "KNVB Beker"
@@ -71,7 +36,7 @@
       "strict_streak_end_date": "2011-04-01",
       "strict_days_since": 5471,
       "includes_aet_pens": false,
-      "total_matches": 533,
+      "total_matches": 534,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -85,7 +50,7 @@
       "streak_end_date": "2013-08-24",
       "streak_start_date": "2013-05-12",
       "days_since": 4595,
-      "matches_since": 408,
+      "matches_since": 410,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -108,7 +73,7 @@
       "strict_streak_end_date": "2013-08-24",
       "strict_days_since": 4595,
       "includes_aet_pens": false,
-      "total_matches": 492,
+      "total_matches": 494,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -159,7 +124,7 @@
       "streak_end_date": "2015-09-19",
       "streak_start_date": "2015-08-16",
       "days_since": 3839,
-      "matches_since": 339,
+      "matches_since": 341,
       "competitions_in_streak": [
         "Eredivisie"
       ],
@@ -182,7 +147,7 @@
       "strict_streak_end_date": "2015-09-19",
       "strict_days_since": 3839,
       "includes_aet_pens": false,
-      "total_matches": 688,
+      "total_matches": 690,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -347,7 +312,7 @@
       "streak_end_date": "2022-03-14",
       "streak_start_date": "2022-02-13",
       "days_since": 1471,
-      "matches_since": 186,
+      "matches_since": 190,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -370,7 +335,7 @@
       "strict_streak_end_date": "2022-03-14",
       "strict_days_since": 1471,
       "includes_aet_pens": false,
-      "total_matches": 851,
+      "total_matches": 855,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -384,7 +349,7 @@
       "streak_end_date": "2023-07-22",
       "streak_start_date": "2023-06-03",
       "days_since": 976,
-      "matches_since": 103,
+      "matches_since": 104,
       "competitions_in_streak": [
         "Eredivisie",
         "KNVB Beker"
@@ -408,7 +373,7 @@
       "strict_streak_end_date": "2022-04-01",
       "strict_days_since": 1453,
       "includes_aet_pens": true,
-      "total_matches": 738,
+      "total_matches": 741,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -451,6 +416,44 @@
       "data_complete": true
     },
     {
+      "team": "Willem II",
+      "team_id": 98,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 5,
+      "streak_end_date": "2024-03-29",
+      "streak_start_date": "2024-03-08",
+      "days_since": 725,
+      "matches_since": 43,
+      "competitions_in_streak": [
+        "Eerste Divisie",
+        "KNVB Beker"
+      ],
+      "current_form": [
+        "L",
+        "W",
+        "D",
+        "L",
+        "L",
+        "D",
+        "L",
+        "L",
+        "L",
+        "L"
+      ],
+      "search_depth": "2003-08-16",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2024-03-29",
+      "strict_days_since": 725,
+      "includes_aet_pens": false,
+      "total_matches": 760,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
       "team": "FC Utrecht",
       "team_id": 108,
       "short_name": null,
@@ -483,7 +486,7 @@
       "strict_streak_end_date": "2024-10-20",
       "strict_days_since": 520,
       "includes_aet_pens": false,
-      "total_matches": 780,
+      "total_matches": 781,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -594,7 +597,7 @@
       "strict_streak_end_date": "2025-09-17",
       "strict_days_since": 188,
       "includes_aet_pens": false,
-      "total_matches": 778,
+      "total_matches": 780,
       "has_cup_data": true,
       "data_complete": true
     },

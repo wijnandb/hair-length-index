@@ -1304,6 +1304,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2021-10-28",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2021-10-23",
       "opponent": "Sparta Rotterdam",
       "home_away": "H",
@@ -5336,8 +5346,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 356,
-    "end_index": 360,
+    "start_index": 357,
+    "end_index": 361,
     "length": 5
   }
 }

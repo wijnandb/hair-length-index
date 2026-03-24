@@ -1034,10 +1034,30 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2023-02-17",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2022-11-11",
       "opponent": "NAC Breda",
       "home_away": "H",
       "score": "5-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-04",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "2-1",
       "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -6886,8 +6906,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 339,
-    "end_index": 343,
+    "start_index": 341,
+    "end_index": 345,
     "length": 5
   }
 }

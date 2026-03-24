@@ -38,7 +38,7 @@ KNOWN_TEAMS = {
     "SBV Excelsior": ("te577", "sbv-excelsior"),
     "Telstar 1963": ("te1831", "telstar"),
     "Almere City FC": ("te681", "almere-city-fc"),
-    "Willem II": ("te381", "willem-ii-tilburg"),
+    "Willem II": ("te2146", "willem-ii"),
     "NAC Breda": ("te1331", "nac-breda"),
     "NEC": ("te384", "nec-nijmegen"),
     "FC Groningen": ("te631", "fc-groningen"),

@@ -1044,6 +1044,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2023-03-10",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-01-06",
       "opponent": "Almere City FC",
       "home_away": "H",
@@ -1059,6 +1069,16 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-09",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4926,8 +4946,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 408,
-    "end_index": 412,
+    "start_index": 410,
+    "end_index": 414,
     "length": 5
   }
 }

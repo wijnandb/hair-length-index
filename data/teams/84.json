@@ -1024,6 +1024,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2023-08-01",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-07-29",
       "opponent": "Vikt. Köln",
       "home_away": "A",
@@ -1314,6 +1324,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2023-01-15",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-01-11",
       "opponent": "NEC",
       "home_away": "H",
@@ -1429,6 +1449,16 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-21",
+      "opponent": "Willem II",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -7386,8 +7416,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 103,
-    "end_index": 107,
+    "start_index": 104,
+    "end_index": 108,
     "length": 5
   }
 }

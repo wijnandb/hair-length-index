@@ -954,6 +954,16 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2023-08-22",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-08-20",
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
@@ -1282,6 +1292,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2022-08-24",
+      "opponent": "Willem II",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
     },
     {
       "date": "2022-08-21",
