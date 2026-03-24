@@ -4,6 +4,126 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-03-22",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "FC Twente '65",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-02-22",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-01-25",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "H",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2026-01-11",
+      "opponent": "sc Heerenveen",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "FC Twente '65",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
       "date": "2025-12-17",
       "opponent": "sc Heerenveen",
       "home_away": "H",
@@ -14,12 +134,172 @@
       "source": "knvb-beker-nl"
     },
     {
+      "date": "2025-12-14",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "PEC Zwolle",
+      "home_away": "H",
+      "score": "6-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-11-30",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-11-23",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-11-09",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-11-01",
+      "opponent": "Volendam",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-10-26",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-10-19",
+      "opponent": "Heracles Almelo",
+      "home_away": "A",
+      "score": "7-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-10-05",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-09-28",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-09-21",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-09-17",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-09-13",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-08-31",
+      "opponent": "Sparta Rotterdam",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-08-16",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-08-09",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
       "date": "2025-05-18",
       "opponent": "sc Heerenveen",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -29,7 +309,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -39,7 +319,7 @@
       "home_away": "H",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -49,7 +329,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -59,7 +339,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -69,7 +349,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -79,7 +359,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -89,7 +369,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -99,7 +379,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -109,7 +389,7 @@
       "home_away": "A",
       "score": "6-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -119,7 +399,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -130,16 +410,6 @@
       "score": "2-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-02-22",
-      "opponent": "Almere City FC",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -149,7 +419,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -159,7 +429,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -169,7 +439,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -179,7 +449,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -189,7 +459,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -199,7 +469,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -209,7 +479,7 @@
       "home_away": "H",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -219,7 +489,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -229,7 +499,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -239,7 +509,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -250,16 +520,6 @@
       "score": "4-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-11-10",
-      "opponent": "Almere City FC",
-      "home_away": "A",
-      "score": "4-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -269,7 +529,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -279,7 +539,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -289,7 +549,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -299,7 +559,7 @@
       "home_away": "A",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -309,7 +569,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -319,7 +579,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -329,7 +589,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -339,7 +599,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -349,7 +609,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -359,7 +619,7 @@
       "home_away": "A",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -369,7 +629,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -379,7 +639,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -389,7 +649,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -399,7 +659,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -409,7 +669,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -419,7 +679,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -429,7 +689,7 @@
       "home_away": "H",
       "score": "6-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -439,7 +699,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -449,7 +709,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -459,7 +719,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -469,7 +729,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -479,7 +739,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -490,16 +750,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-02-25",
-      "opponent": "Almere City FC",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -509,7 +759,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -519,7 +769,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -529,7 +779,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -540,16 +790,6 @@
       "score": "0-0",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-01-28",
-      "opponent": "FC Twente",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -559,7 +799,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -569,7 +809,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -579,7 +819,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -589,7 +829,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -599,7 +839,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -609,7 +849,7 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -619,7 +859,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -629,7 +869,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -640,16 +880,6 @@
       "score": "1-2",
       "result": "L",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2023-10-29",
-      "opponent": "FC Twente",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -659,7 +889,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -669,7 +899,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -679,7 +909,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -689,7 +919,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -699,7 +929,7 @@
       "home_away": "H",
       "score": "6-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -709,7 +939,7 @@
       "home_away": "A",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -720,16 +950,6 @@
       "score": "6-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2023-08-27",
-      "opponent": "Almere City FC",
-      "home_away": "H",
-      "score": "6-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -739,7 +959,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -749,7 +969,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -759,7 +979,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -769,7 +989,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -779,7 +999,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -789,7 +1009,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -799,7 +1019,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -809,7 +1029,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -819,7 +1039,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -829,7 +1049,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -839,7 +1059,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -849,7 +1069,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -859,7 +1079,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -869,7 +1089,7 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -879,7 +1099,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -889,7 +1109,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -899,7 +1119,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -910,16 +1130,6 @@
       "score": "1-1",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2023-01-29",
-      "opponent": "FC Twente",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -929,7 +1139,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -939,7 +1149,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -949,7 +1159,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -959,7 +1169,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -969,7 +1179,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -979,7 +1189,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -989,7 +1199,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -999,7 +1209,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1009,7 +1219,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1020,16 +1230,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2022-10-09",
-      "opponent": "FC Twente",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1039,7 +1239,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1049,7 +1249,7 @@
       "home_away": "A",
       "score": "3-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1059,7 +1259,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1069,7 +1269,7 @@
       "home_away": "A",
       "score": "4-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1079,7 +1279,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1089,7 +1289,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1099,7 +1299,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1109,7 +1309,7 @@
       "home_away": "A",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1119,7 +1319,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1130,16 +1330,6 @@
       "score": "1-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2022-05-11",
-      "opponent": "Go Ahead Eagles",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1149,7 +1339,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1159,7 +1349,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1169,7 +1359,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1179,7 +1369,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1189,7 +1379,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1199,7 +1389,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1209,7 +1399,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1219,7 +1409,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1229,7 +1419,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1239,7 +1429,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1249,7 +1439,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1259,7 +1449,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1269,7 +1459,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1279,7 +1469,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1289,7 +1479,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1299,7 +1489,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1309,7 +1499,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1319,7 +1509,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1329,7 +1519,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1339,7 +1529,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1349,7 +1539,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1359,7 +1549,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1369,7 +1559,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1379,7 +1569,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1389,7 +1579,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1399,7 +1589,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1409,7 +1599,7 @@
       "home_away": "H",
       "score": "5-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1419,7 +1609,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1429,7 +1619,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1439,7 +1629,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1451,16 +1641,6 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-08-22",
-      "opponent": "Go Ahead Eagles",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -1469,7 +1649,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1489,7 +1669,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1499,7 +1679,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1509,7 +1689,7 @@
       "home_away": "H",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1519,7 +1699,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1529,7 +1709,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1539,7 +1719,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1549,7 +1729,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1559,7 +1739,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1569,7 +1749,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1579,7 +1759,7 @@
       "home_away": "H",
       "score": "6-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1589,7 +1769,7 @@
       "home_away": "A",
       "score": "2-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1600,16 +1780,6 @@
       "score": "0-0",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-02-24",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1619,7 +1789,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1629,7 +1799,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1639,7 +1809,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1649,7 +1819,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1659,7 +1829,7 @@
       "home_away": "H",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1669,7 +1839,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1679,7 +1849,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1690,16 +1860,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-01-10",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1709,7 +1869,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1719,7 +1879,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1729,7 +1889,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1739,7 +1899,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1749,7 +1909,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1759,7 +1919,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1770,16 +1930,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2020-11-08",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1789,7 +1939,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1799,7 +1949,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1811,16 +1961,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2020-10-18",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -1829,7 +1969,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1839,7 +1979,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1849,7 +1989,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1859,7 +1999,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1879,7 +2019,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1889,7 +2029,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1909,7 +2049,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1919,7 +2059,7 @@
       "home_away": "A",
       "score": "4-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1929,7 +2069,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1949,7 +2089,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1959,7 +2099,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1969,7 +2109,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1979,7 +2119,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1989,7 +2129,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -1999,7 +2139,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2010,16 +2150,6 @@
       "score": "1-1",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-11-24",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2029,7 +2159,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2039,7 +2169,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2049,7 +2179,7 @@
       "home_away": "A",
       "score": "0-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2059,7 +2189,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2079,7 +2209,7 @@
       "home_away": "A",
       "score": "2-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2089,7 +2219,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2099,7 +2229,7 @@
       "home_away": "H",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2109,7 +2239,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2119,7 +2249,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2129,7 +2259,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2139,7 +2269,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2149,7 +2279,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2160,16 +2290,6 @@
       "score": "2-2",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-08-04",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2189,7 +2309,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2199,7 +2319,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2219,7 +2339,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2229,7 +2349,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2239,7 +2359,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2249,7 +2369,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2259,7 +2379,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2269,7 +2389,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2279,7 +2399,7 @@
       "home_away": "H",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2289,7 +2409,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2299,7 +2419,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2309,7 +2429,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2321,16 +2441,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-02-17",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -2339,7 +2449,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2359,7 +2469,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2369,7 +2479,7 @@
       "home_away": "H",
       "score": "6-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2389,7 +2499,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2399,7 +2509,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2419,7 +2529,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2429,7 +2539,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2439,7 +2549,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2449,7 +2559,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2460,16 +2570,6 @@
       "score": "1-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-11-25",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2479,7 +2579,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2489,7 +2589,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2499,7 +2599,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2509,7 +2609,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2519,7 +2619,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2529,7 +2629,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2539,7 +2639,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2549,7 +2649,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2559,7 +2659,7 @@
       "home_away": "A",
       "score": "5-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2579,7 +2679,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2589,7 +2689,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2599,7 +2699,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2610,16 +2710,6 @@
       "score": "3-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-04-29",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2629,7 +2719,7 @@
       "home_away": "A",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2639,7 +2729,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2649,7 +2739,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2669,7 +2759,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2679,7 +2769,7 @@
       "home_away": "A",
       "score": "4-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2689,7 +2779,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2699,7 +2789,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2709,7 +2799,7 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2719,7 +2809,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2729,7 +2819,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2740,16 +2830,6 @@
       "score": "3-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-02-08",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "3-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2759,7 +2839,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2769,7 +2849,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2779,7 +2859,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2789,7 +2869,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2799,7 +2879,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2810,16 +2890,6 @@
       "score": "7-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-12-17",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "A",
-      "score": "7-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2829,7 +2899,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2839,7 +2909,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2850,16 +2920,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-11-25",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2869,7 +2929,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2879,7 +2939,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2889,7 +2949,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2899,7 +2959,7 @@
       "home_away": "H",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2909,7 +2969,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2919,7 +2979,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2929,7 +2989,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2939,7 +2999,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2949,7 +3009,7 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2959,7 +3019,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2979,7 +3039,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2989,7 +3049,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -2999,7 +3059,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3019,7 +3079,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3029,7 +3089,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3039,7 +3099,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3049,7 +3109,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3060,16 +3120,6 @@
       "score": "8-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-04-05",
-      "opponent": "Go Ahead Eagles",
-      "home_away": "H",
-      "score": "8-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3079,7 +3129,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3089,7 +3139,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3099,7 +3149,7 @@
       "home_away": "H",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3110,16 +3160,6 @@
       "score": "0-1",
       "result": "L",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-03-05",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3129,7 +3169,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3139,7 +3179,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3150,16 +3190,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-02-11",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3169,7 +3199,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3179,7 +3209,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3189,7 +3219,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3199,7 +3229,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3209,7 +3239,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3219,7 +3249,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3230,16 +3260,6 @@
       "score": "6-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-12-04",
-      "opponent": "Sparta Rotterdam",
-      "home_away": "H",
-      "score": "6-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3249,7 +3269,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3259,7 +3279,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3271,16 +3291,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-11-06",
-      "opponent": "Go Ahead Eagles",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -3289,7 +3299,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3309,7 +3319,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3319,7 +3329,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3329,7 +3339,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3339,7 +3349,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3349,7 +3359,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3359,7 +3369,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3379,7 +3389,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3389,7 +3399,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3399,7 +3409,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3410,16 +3420,6 @@
       "score": "5-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-08-07",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "5-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3429,7 +3429,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3439,7 +3439,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3449,7 +3449,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3461,16 +3461,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-04-16",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -3479,7 +3469,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3499,7 +3489,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3519,7 +3509,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3529,7 +3519,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3539,7 +3529,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3549,7 +3539,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3559,7 +3549,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3569,7 +3559,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3579,7 +3569,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3589,7 +3579,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3599,7 +3589,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3609,7 +3599,7 @@
       "home_away": "A",
       "score": "2-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3619,7 +3609,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3629,7 +3619,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3640,16 +3630,6 @@
       "score": "1-1",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2015-12-13",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3659,7 +3639,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3679,7 +3659,7 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3689,7 +3669,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3699,7 +3679,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3709,7 +3689,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3719,7 +3699,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3729,7 +3709,7 @@
       "home_away": "A",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3739,7 +3719,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3749,7 +3729,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3759,7 +3739,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3769,7 +3749,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3779,7 +3759,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3789,7 +3769,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3799,7 +3779,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3809,7 +3789,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3819,7 +3799,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3829,7 +3809,7 @@
       "home_away": "H",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3840,16 +3820,6 @@
       "score": "1-1",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2015-04-26",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3859,7 +3829,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3869,7 +3839,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3879,7 +3849,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3889,7 +3859,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3899,7 +3869,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3909,7 +3879,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3919,7 +3889,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3939,7 +3909,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3949,7 +3919,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3959,7 +3929,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3969,7 +3939,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3979,7 +3949,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3989,7 +3959,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -3999,7 +3969,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4009,7 +3979,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4019,7 +3989,7 @@
       "home_away": "A",
       "score": "3-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4029,7 +3999,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4049,7 +4019,7 @@
       "home_away": "A",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4059,7 +4029,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4069,7 +4039,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4079,7 +4049,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4089,7 +4059,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4099,7 +4069,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4110,16 +4080,6 @@
       "score": "4-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2014-10-05",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "4-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4129,7 +4089,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4139,7 +4099,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4149,7 +4109,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4159,7 +4119,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4169,7 +4129,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4179,7 +4139,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4189,7 +4149,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4199,7 +4159,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4209,7 +4169,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4219,7 +4179,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4229,7 +4189,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4239,7 +4199,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4249,7 +4209,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4259,7 +4219,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4270,16 +4230,6 @@
       "score": "2-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2014-03-09",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4289,7 +4239,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4299,7 +4249,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4309,7 +4259,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4319,7 +4269,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4329,7 +4279,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4339,7 +4289,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4349,7 +4299,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4359,7 +4309,7 @@
       "home_away": "A",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4369,7 +4319,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4381,16 +4331,6 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2013-12-15",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -4399,7 +4339,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4409,7 +4349,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4419,7 +4359,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4429,7 +4369,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4439,7 +4379,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4449,7 +4389,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4459,7 +4399,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4479,7 +4419,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4489,7 +4429,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4499,7 +4439,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4509,7 +4449,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4519,7 +4459,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4529,7 +4469,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4539,7 +4479,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4549,7 +4489,7 @@
       "home_away": "H",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4559,7 +4499,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4569,7 +4509,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4579,7 +4519,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4589,7 +4529,7 @@
       "home_away": "H",
       "score": "6-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4599,7 +4539,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4609,7 +4549,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4619,7 +4559,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4629,7 +4569,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4639,7 +4579,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4649,7 +4589,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4659,7 +4599,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4669,7 +4609,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4679,7 +4619,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4689,7 +4629,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4699,7 +4639,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4709,7 +4649,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4719,7 +4659,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4730,16 +4670,6 @@
       "score": "2-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2012-12-23",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4749,7 +4679,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4759,7 +4689,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4769,7 +4699,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4779,7 +4709,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4789,7 +4719,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4799,7 +4729,7 @@
       "home_away": "H",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4809,7 +4739,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4819,7 +4749,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4829,7 +4759,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4840,16 +4770,6 @@
       "score": "2-2",
       "result": "D",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2012-10-07",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4859,7 +4779,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4869,7 +4789,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4879,7 +4799,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4889,7 +4809,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4899,7 +4819,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4909,7 +4829,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4919,7 +4839,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4929,7 +4849,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4939,7 +4859,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4949,7 +4869,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4959,7 +4879,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4979,7 +4899,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4989,7 +4909,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -4999,7 +4919,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5009,7 +4929,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5019,7 +4939,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5029,7 +4949,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5040,16 +4960,6 @@
       "score": "1-0",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2012-03-04",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5059,7 +4969,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5069,7 +4979,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5079,7 +4989,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5089,7 +4999,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5099,7 +5009,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5109,7 +5019,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5119,7 +5029,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5129,7 +5039,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5139,7 +5049,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5149,7 +5059,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5159,7 +5069,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5169,7 +5079,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5180,16 +5090,6 @@
       "score": "0-6",
       "result": "L",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2011-10-30",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "0-6",
-      "result": "L",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5199,7 +5099,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5209,7 +5109,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5219,7 +5119,7 @@
       "home_away": "H",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5229,7 +5129,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5239,7 +5139,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5249,7 +5149,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5259,7 +5159,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5269,7 +5169,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5279,7 +5179,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5299,7 +5199,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5309,7 +5209,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5319,7 +5219,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5329,7 +5229,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5339,7 +5239,7 @@
       "home_away": "H",
       "score": "6-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5349,7 +5249,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5359,7 +5259,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5369,7 +5269,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5379,7 +5279,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5389,7 +5289,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5400,16 +5300,6 @@
       "score": "5-1",
       "result": "W",
       "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2011-02-27",
-      "opponent": "FC Groningen",
-      "home_away": "H",
-      "score": "5-1",
-      "result": "W",
-      "competition": "N1",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5419,7 +5309,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5429,7 +5319,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5439,7 +5329,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5449,7 +5339,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5459,7 +5349,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5469,7 +5359,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5489,7 +5379,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5499,7 +5389,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5509,7 +5399,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5521,16 +5411,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2010-11-21",
-      "opponent": "FC Groningen",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "N1",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -5539,7 +5419,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5549,7 +5429,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5559,7 +5439,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5569,7 +5449,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5579,7 +5459,7 @@
       "home_away": "A",
       "score": "0-10",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5589,7 +5469,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5599,7 +5479,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5609,7 +5489,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5619,7 +5499,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5629,7 +5509,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5639,7 +5519,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5649,7 +5529,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5669,7 +5549,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5679,7 +5559,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5689,7 +5569,7 @@
       "home_away": "H",
       "score": "6-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5699,7 +5579,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5709,7 +5589,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5719,7 +5599,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5729,7 +5609,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5739,7 +5619,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5749,7 +5629,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5759,7 +5639,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5769,7 +5649,7 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5779,7 +5659,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5789,7 +5669,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5799,7 +5679,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5809,7 +5689,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5819,7 +5699,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5829,7 +5709,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5839,7 +5719,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5849,7 +5729,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5859,7 +5739,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5869,7 +5749,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5879,7 +5759,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5889,7 +5769,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5899,7 +5779,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5909,7 +5789,7 @@
       "home_away": "A",
       "score": "1-5",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5919,7 +5799,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5929,7 +5809,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5939,7 +5819,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5949,7 +5829,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5959,7 +5839,7 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5969,7 +5849,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5979,7 +5859,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5989,7 +5869,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -5999,7 +5879,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6009,7 +5889,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6019,7 +5899,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6029,7 +5909,7 @@
       "home_away": "H",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6039,7 +5919,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6049,7 +5929,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6059,7 +5939,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6069,7 +5949,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6079,7 +5959,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6089,7 +5969,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6099,7 +5979,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6109,7 +5989,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6119,7 +5999,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6129,7 +6009,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6139,7 +6019,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6149,7 +6029,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6159,7 +6039,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6169,7 +6049,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6179,7 +6059,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6189,7 +6069,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6199,7 +6079,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6209,7 +6089,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6219,7 +6099,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6229,7 +6109,7 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6239,7 +6119,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6249,7 +6129,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6259,7 +6139,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6269,7 +6149,7 @@
       "home_away": "H",
       "score": "5-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6279,7 +6159,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6289,7 +6169,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6299,7 +6179,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6309,7 +6189,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6319,7 +6199,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6329,7 +6209,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6339,7 +6219,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6349,7 +6229,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6359,7 +6239,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6369,7 +6249,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6379,7 +6259,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6389,7 +6269,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6399,7 +6279,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6409,7 +6289,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6419,7 +6299,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6429,7 +6309,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6439,7 +6319,7 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6449,7 +6329,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6459,7 +6339,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6469,7 +6349,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6479,7 +6359,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6489,7 +6369,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6499,7 +6379,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6509,7 +6389,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6519,7 +6399,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6529,7 +6409,7 @@
       "home_away": "H",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6539,7 +6419,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6549,7 +6429,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6559,7 +6439,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6569,7 +6449,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6579,7 +6459,7 @@
       "home_away": "H",
       "score": "6-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6589,7 +6469,7 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6599,7 +6479,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6609,7 +6489,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6619,7 +6499,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6629,7 +6509,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6639,7 +6519,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6649,7 +6529,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6659,7 +6539,7 @@
       "home_away": "A",
       "score": "0-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6669,7 +6549,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6679,7 +6559,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6689,7 +6569,7 @@
       "home_away": "H",
       "score": "5-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6699,7 +6579,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6709,7 +6589,7 @@
       "home_away": "A",
       "score": "1-5",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6719,7 +6599,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6729,7 +6609,7 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6739,7 +6619,7 @@
       "home_away": "H",
       "score": "0-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6749,7 +6629,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6759,7 +6639,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6769,7 +6649,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6779,7 +6659,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6789,7 +6669,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6799,7 +6679,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6809,7 +6689,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6819,7 +6699,7 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6829,7 +6709,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6839,7 +6719,7 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6849,7 +6729,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6859,7 +6739,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6869,7 +6749,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6879,7 +6759,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6889,7 +6769,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6899,7 +6779,7 @@
       "home_away": "H",
       "score": "4-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6909,7 +6789,7 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6919,7 +6799,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6929,7 +6809,7 @@
       "home_away": "A",
       "score": "5-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6939,7 +6819,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6949,7 +6829,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6959,7 +6839,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6969,7 +6849,7 @@
       "home_away": "H",
       "score": "0-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6979,7 +6859,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6989,7 +6869,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -6999,7 +6879,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7009,7 +6889,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7019,7 +6899,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7029,7 +6909,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7039,7 +6919,7 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7049,7 +6929,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7059,7 +6939,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7069,7 +6949,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7079,7 +6959,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7089,7 +6969,7 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7099,7 +6979,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7109,7 +6989,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7119,7 +6999,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7129,7 +7009,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7139,7 +7019,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7149,7 +7029,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7159,7 +7039,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7169,7 +7049,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7179,7 +7059,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7189,7 +7069,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7199,7 +7079,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7209,7 +7089,7 @@
       "home_away": "H",
       "score": "6-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7219,7 +7099,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7229,7 +7109,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7239,7 +7119,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7249,7 +7129,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7259,7 +7139,7 @@
       "home_away": "H",
       "score": "7-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7269,7 +7149,7 @@
       "home_away": "A",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7279,7 +7159,7 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7289,7 +7169,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7299,7 +7179,7 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7309,7 +7189,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7319,7 +7199,7 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7329,7 +7209,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7339,7 +7219,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7349,7 +7229,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7359,7 +7239,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7369,7 +7249,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7379,7 +7259,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7389,7 +7269,7 @@
       "home_away": "H",
       "score": "6-3",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7399,7 +7279,7 @@
       "home_away": "A",
       "score": "2-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7409,7 +7289,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7419,7 +7299,7 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7429,7 +7309,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7439,7 +7319,7 @@
       "home_away": "H",
       "score": "2-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7449,7 +7329,7 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7459,7 +7339,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7469,7 +7349,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7479,7 +7359,7 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7489,7 +7369,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7499,7 +7379,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7509,7 +7389,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7519,7 +7399,7 @@
       "home_away": "H",
       "score": "7-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7529,7 +7409,7 @@
       "home_away": "A",
       "score": "7-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7539,7 +7419,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7549,7 +7429,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7559,7 +7439,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7569,7 +7449,7 @@
       "home_away": "H",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7579,7 +7459,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7589,7 +7469,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7599,7 +7479,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7609,7 +7489,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7619,7 +7499,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7629,7 +7509,7 @@
       "home_away": "A",
       "score": "1-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7639,7 +7519,7 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7649,7 +7529,7 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7659,7 +7539,7 @@
       "home_away": "H",
       "score": "4-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7669,7 +7549,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7679,7 +7559,7 @@
       "home_away": "H",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7689,7 +7569,7 @@
       "home_away": "H",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7699,7 +7579,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7709,7 +7589,7 @@
       "home_away": "A",
       "score": "4-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7719,7 +7599,7 @@
       "home_away": "H",
       "score": "6-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7729,7 +7609,7 @@
       "home_away": "H",
       "score": "7-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7739,7 +7619,7 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7749,7 +7629,7 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7759,7 +7639,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7769,7 +7649,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7779,7 +7659,7 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7789,7 +7669,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7799,7 +7679,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7809,7 +7689,7 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7819,7 +7699,7 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7829,7 +7709,7 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7839,7 +7719,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7849,7 +7729,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7859,7 +7739,7 @@
       "home_away": "H",
       "score": "0-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7869,7 +7749,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7879,7 +7759,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7889,7 +7769,7 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7899,7 +7779,7 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7909,7 +7789,7 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7919,7 +7799,7 @@
       "home_away": "A",
       "score": "2-4",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7929,7 +7809,7 @@
       "home_away": "H",
       "score": "4-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7939,7 +7819,7 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7949,7 +7829,7 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7959,7 +7839,7 @@
       "home_away": "A",
       "score": "3-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7969,7 +7849,7 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7979,7 +7859,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7989,7 +7869,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -7999,7 +7879,7 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -8009,7 +7889,7 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -8019,7 +7899,7 @@
       "home_away": "H",
       "score": "1-3",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -8029,7 +7909,7 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -8039,7 +7919,7 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -8049,7 +7929,7 @@
       "home_away": "A",
       "score": "0-1",
       "result": "L",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
@@ -8059,15 +7939,15 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "N1",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
     }
   ],
   "streak": {
     "found": true,
-    "start_index": 4,
-    "end_index": 10,
-    "length": 7
+    "start_index": 24,
+    "end_index": 28,
+    "length": 5
   }
 }

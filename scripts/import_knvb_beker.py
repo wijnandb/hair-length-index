@@ -32,7 +32,8 @@ BASE_URL = "https://www.eurojackpotknvbbeker.nl/wedstrijden"
 # Map KNVB Beker site team names to football-data.org canonical names.
 # Only needed where the names differ between sources.
 TEAM_ALIASES = {
-    "FC Twente": "FC Twente '65",
+    "FC Twente": "FC Twente",
+    "N.E.C.": "NEC",
     "Excelsior M": "SBV Excelsior",
     "SC Cambuur": "SC Cambuur Leeuwarden",
     "Vitesse": "SBV Vitesse",

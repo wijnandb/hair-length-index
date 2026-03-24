@@ -212,7 +212,7 @@ def import_csv_data(conn, csv_text: str, league: str, year: int) -> int:
             result_90min=result,
             result_final=result,
             competition_id=league,
-            competition_name=LEAGUE_CODES.get(league, league),
+            competition_name={"DED": "Eredivisie", "PL": "Premier League", "BL1": "Bundesliga", "SA": "Serie A", "PD": "La Liga", "FL1": "Ligue 1"}.get(league, league),
             competition_type="LEAGUE",
             season=sl,
         )
