@@ -299,6 +299,63 @@ def check_partial_seasons(conn, league: str, result: ValidationResult):
                             f"from {row['source']} — likely from opponent import, not team data")
 
 
+def check_same_day_matches(conn, league: str, result: ValidationResult):
+    """Check that no team plays twice on the same day."""
+    teams = get_all_teams(conn, league=league)
+    for team in teams:
+        from datetime import date as date_type
+        matches = conn.execute("""
+            SELECT id, date, competition_name FROM matches
+            WHERE home_team_id = ? OR away_team_id = ?
+            ORDER BY date
+        """, (team["id"], team["id"])).fetchall()
+        for i in range(1, len(matches)):
+            if matches[i]["date"] == matches[i-1]["date"]:
+                result.error(f"{team['name']}: plays twice on {matches[i]['date']} "
+                             f"({matches[i-1]['competition_name']} + {matches[i]['competition_name']}) "
+                             f"— likely mistagged friendly")
+
+
+def check_minimum_gap(conn, league: str, result: ValidationResult):
+    """Check 72-hour rule: minimum 2 days between matches."""
+    teams = get_all_teams(conn, league=league)
+    for team in teams:
+        from datetime import date as date_type
+        matches = conn.execute("""
+            SELECT date, competition_name FROM matches
+            WHERE home_team_id = ? OR away_team_id = ?
+            ORDER BY date
+        """, (team["id"], team["id"])).fetchall()
+        for i in range(1, len(matches)):
+            d1 = date_type.fromisoformat(matches[i-1]["date"])
+            d2 = date_type.fromisoformat(matches[i]["date"])
+            gap = (d2 - d1).days
+            if gap == 1:
+                result.warn(f"{team['name']}: only 1 day between {matches[i-1]['date']} "
+                            f"({matches[i-1]['competition_name']}) and {matches[i]['date']} "
+                            f"({matches[i]['competition_name']}) — possible mistagged friendly")
+
+
+def check_duplicate_matches(conn, result: ValidationResult):
+    """Check for exact duplicate matches (same date + same teams)."""
+    dupes = conn.execute("""
+        SELECT m1.date, t1.name as home, t2.name as away, COUNT(*) as cnt
+        FROM matches m1
+        JOIN matches m2 ON m1.date = m2.date
+            AND m1.home_team_id = m2.home_team_id
+            AND m1.away_team_id = m2.away_team_id
+            AND m1.id < m2.id
+        JOIN teams t1 ON m1.home_team_id = t1.id
+        JOIN teams t2 ON m1.away_team_id = t2.id
+        GROUP BY m1.date, m1.home_team_id, m1.away_team_id
+        LIMIT 20
+    """).fetchall()
+    if dupes:
+        result.error(f"Found {len(dupes)}+ duplicate match entries")
+        for d in dupes[:5]:
+            result.error(f"  {d['date']} {d['home']} vs {d['away']} appears {d['cnt']+1} times")
+
+
 def check_season_format_consistency(conn, result: ValidationResult):
     """Check for inconsistent season label formats (e.g. '2021-22' vs '2021-2022')."""
     formats = conn.execute("""
@@ -343,10 +400,19 @@ def run_validation(league: str = MVP_LEAGUE) -> ValidationResult:
     log.info("6. Checking for partial/stray seasons...")
     check_partial_seasons(conn, league, result)
 
-    log.info("7. Checking season format consistency...")
+    log.info("7. Checking for duplicate matches...")
+    check_duplicate_matches(conn, result)
+
+    log.info("8. Checking same-day matches...")
+    check_same_day_matches(conn, league, result)
+
+    log.info("9. Checking minimum gap between matches (72h rule)...")
+    check_minimum_gap(conn, league, result)
+
+    log.info("10. Checking season format consistency...")
     check_season_format_consistency(conn, result)
 
-    log.info("8. Checking chronological gaps...")
+    log.info("11. Checking chronological gaps...")
     check_chronological_gaps(conn, league, result)
 
     log.info("=" * 60)
