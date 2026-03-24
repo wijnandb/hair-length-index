@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T09:00:27.699362",
+  "generated_at": "2026-03-24T09:13:13.227919",
   "threshold": 5,
   "teams": [
     {
@@ -35,7 +35,209 @@
       "penalty_footnote": false,
       "total_matches": 121,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "4-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "5-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-03",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "EXTRA_TIME",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-30",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-13",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-18",
+          "opponent": "Spakenburg",
+          "home_away": "A",
+          "score": "6-3",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-07",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "FC Utrecht",
@@ -70,7 +272,209 @@
       "penalty_footnote": false,
       "total_matches": 80,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-06",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-11",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-13",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-17",
+          "opponent": "TOP Oss",
+          "home_away": "A",
+          "score": "2-0",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-09",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-02",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "FC Volendam",
@@ -105,7 +509,209 @@
       "penalty_footnote": false,
       "total_matches": 36,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "3-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-13",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-04",
+          "opponent": "N.E.C.",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-15",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-18",
+          "opponent": "Genemuiden SC",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "EXTRA_TIME",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "Fortuna Sittard",
@@ -140,7 +746,209 @@
       "penalty_footnote": false,
       "total_matches": 32,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "1-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "3-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-20",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "1-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "4-3",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-17",
+          "opponent": "Almere City FC",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-29",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-31",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "2-5",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-28",
+          "opponent": "Gemert",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        }
+      ]
     },
     {
       "team": "Go Ahead Eagles",
@@ -175,7 +983,209 @@
       "penalty_footnote": false,
       "total_matches": 31,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "6-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "4-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-11",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-05",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "PENALTIES",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-17",
+          "opponent": "Roda JC",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "PENALTIES",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "2-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-09",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "Heracles Almelo",
@@ -210,7 +1220,209 @@
       "penalty_footnote": false,
       "total_matches": 34,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-20",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "0-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-06",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "0-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "1-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "2-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "PENALTIES",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-16",
+          "opponent": "Hoogeveen",
+          "home_away": "H",
+          "score": "4-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "3-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-29",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "4-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-02",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "8-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "NAC Breda",
@@ -245,7 +1457,209 @@
       "penalty_footnote": false,
       "total_matches": 33,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "0-6",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "3-3",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-27",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-06",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-30",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "3-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-29",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-01",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-29",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "1-4",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-10-24",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "3-3",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "NEC",
@@ -280,7 +1694,209 @@
       "penalty_footnote": false,
       "total_matches": 28,
       "has_cup_data": false,
-      "data_complete": false
+      "data_complete": false,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "3-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-17",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-11",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "4-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "4-3",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "3-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-29",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "4-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-09",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-02",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-25",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-18",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "3-3",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "PEC Zwolle",
@@ -315,7 +1931,209 @@
       "penalty_footnote": false,
       "total_matches": 33,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-13",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "2-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "4-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "1-6",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-03",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "1-3",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-11-28",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-02",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "2-8",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-28",
+          "opponent": "Helmond Sport",
+          "home_away": "A",
+          "score": "4-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        }
+      ]
     },
     {
       "team": "SBV Excelsior",
@@ -350,7 +2168,209 @@
       "penalty_footnote": false,
       "total_matches": 37,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-20",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-20",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-06",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-21",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "1-5",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-17",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "2-7",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-05",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-29",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-01",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-29",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "EXTRA_TIME",
+          "source": "knvb-beker-nl"
+        }
+      ]
     },
     {
       "team": "SC Heerenveen",
@@ -385,7 +2405,209 @@
       "penalty_footnote": false,
       "total_matches": 30,
       "has_cup_data": false,
-      "data_complete": false
+      "data_complete": false,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "4-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-11",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "0-5",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-28",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-01",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-24",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "3-3",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-19",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "3-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "Sparta Rotterdam",
@@ -420,7 +2642,209 @@
       "penalty_footnote": false,
       "total_matches": 31,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "0-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-17",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "4-3",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-15",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-18",
+          "opponent": "Willem II",
+          "home_away": "A",
+          "score": "5-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-29",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-22",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-08",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-02",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "Telstar 1963",
@@ -455,7 +2879,209 @@
       "penalty_footnote": false,
       "total_matches": 42,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "4-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-04",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-02-27",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-05",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "1-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "Almere City FC",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-16",
+          "opponent": "Hoek",
+          "home_away": "A",
+          "score": "4-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "AZ",
@@ -493,7 +3119,209 @@
       "penalty_footnote": false,
       "total_matches": 75,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "4-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-04",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-03",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "D",
+          "competition": "KNVB Beker",
+          "decided_in": "EXTRA_TIME",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-21",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "6-0",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "3-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-03",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "0-1",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "FC Groningen",
@@ -530,7 +3358,209 @@
       "penalty_footnote": false,
       "total_matches": 87,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-13",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "2-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "Utrecht",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-05",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-02",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-09",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-02",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-30",
+          "opponent": "Sparta",
+          "home_away": "A",
+          "score": "2-5",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-10-25",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "Feyenoord Rotterdam",
@@ -568,7 +3598,209 @@
       "penalty_footnote": false,
       "total_matches": 31,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Ajax",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-08",
+          "opponent": "NAC",
+          "home_away": "A",
+          "score": "3-3",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Twente",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-22",
+          "opponent": "Telstar",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "1-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "PSV",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-25",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "4-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "3-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Heerenveen",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Twente",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-17",
+          "opponent": "sc Heerenveen",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Ajax",
+          "home_away": "A",
+          "score": "0-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Zwolle",
+          "home_away": "H",
+          "score": "6-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-30",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-23",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "2-4",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-09",
+          "opponent": "Go Ahead",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-11-01",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-10-26",
+          "opponent": "PSV",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "AFC Ajax",
@@ -607,7 +3839,209 @@
       "penalty_footnote": false,
       "total_matches": 83,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Feyenoord",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Sparta",
+          "home_away": "H",
+          "score": "4-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "Zwolle",
+          "home_away": "A",
+          "score": "0-0",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "Sittard",
+          "home_away": "H",
+          "score": "4-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "1-1",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-28",
+          "opponent": "Olympiakos",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "UEFA Champions League",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "Volendam",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-20",
+          "opponent": "Villarreal",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "UEFA Champions League",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Go Ahead",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "AZ",
+          "home_away": "A",
+          "score": "0-6",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-11",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "3-2",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-20",
+          "opponent": "NEC",
+          "home_away": "A",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-17",
+          "opponent": "Excelsior",
+          "home_away": "A",
+          "score": "7-2",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-14",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-10",
+          "opponent": "Qarabağ Ağdam",
+          "home_away": "A",
+          "score": "4-2",
+          "result": "W",
+          "competition": "UEFA Champions League",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-02",
+          "opponent": "Groningen",
+          "home_away": "H",
+          "score": "2-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     },
     {
       "team": "PSV",
@@ -645,7 +4079,209 @@
       "penalty_footnote": false,
       "total_matches": 40,
       "has_cup_data": true,
-      "data_complete": true
+      "data_complete": true,
+      "recent_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Telstar",
+          "home_away": "A",
+          "score": "1-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "NEC",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "AZ",
+          "home_away": "H",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-03-03",
+          "opponent": "N.E.C.",
+          "home_away": "A",
+          "score": "2-3",
+          "result": "L",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "Heracles",
+          "home_away": "A",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "Heerenveen",
+          "home_away": "H",
+          "score": "3-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-13",
+          "opponent": "Volendam",
+          "home_away": "A",
+          "score": "1-2",
+          "result": "L",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "Groningen",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-02-04",
+          "opponent": "sc Heerenveen",
+          "home_away": "H",
+          "score": "4-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-02-01",
+          "opponent": "Feyenoord",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-28",
+          "opponent": "Bayern",
+          "home_away": "H",
+          "score": "1-2",
+          "result": "L",
+          "competition": "UEFA Champions League",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-24",
+          "opponent": "NAC",
+          "home_away": "H",
+          "score": "2-2",
+          "result": "D",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-21",
+          "opponent": "Newcastle",
+          "home_away": "A",
+          "score": "0-3",
+          "result": "L",
+          "competition": "UEFA Champions League",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Sittard",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "FC Den Bosch",
+          "home_away": "A",
+          "score": "4-1",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Excelsior",
+          "home_away": "H",
+          "score": "5-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-21",
+          "opponent": "Utrecht",
+          "home_away": "A",
+          "score": "2-1",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-16",
+          "opponent": "GVVV",
+          "home_away": "H",
+          "score": "3-0",
+          "result": "W",
+          "competition": "KNVB Beker",
+          "decided_in": "REGULAR",
+          "source": "knvb-beker-nl"
+        },
+        {
+          "date": "2025-12-13",
+          "opponent": "Heracles",
+          "home_away": "H",
+          "score": "4-3",
+          "result": "W",
+          "competition": "Eredivisie",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        },
+        {
+          "date": "2025-12-09",
+          "opponent": "Atleti",
+          "home_away": "H",
+          "score": "2-3",
+          "result": "L",
+          "competition": "UEFA Champions League",
+          "decided_in": "REGULAR",
+          "source": "football-data.org"
+        }
+      ]
     }
   ]
 }
