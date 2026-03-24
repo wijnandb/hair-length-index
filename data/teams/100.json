@@ -5,7 +5,7 @@
   "matches": [
     {
       "date": "2026-03-21",
-      "opponent": "Volendam",
+      "opponent": "FC Volendam",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-02-07",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-01-31",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -85,7 +85,7 @@
     },
     {
       "date": "2026-01-25",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -125,7 +125,7 @@
     },
     {
       "date": "2025-12-21",
-      "opponent": "Volendam",
+      "opponent": "FC Volendam",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -175,7 +175,7 @@
     },
     {
       "date": "2025-11-22",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -225,7 +225,7 @@
     },
     {
       "date": "2025-10-19",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -255,7 +255,7 @@
     },
     {
       "date": "2025-09-19",
-      "opponent": "FC Twente '65",
+      "opponent": "FC Twente",
       "home_away": "H",
       "score": "1-5",
       "result": "L",
@@ -295,7 +295,7 @@
     },
     {
       "date": "2025-08-17",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -325,7 +325,7 @@
     },
     {
       "date": "2025-05-14",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -385,7 +385,7 @@
     },
     {
       "date": "2025-03-29",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -545,7 +545,7 @@
     },
     {
       "date": "2024-11-03",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "1-4",
       "result": "L",
@@ -585,7 +585,7 @@
     },
     {
       "date": "2024-09-28",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -665,7 +665,7 @@
     },
     {
       "date": "2024-05-12",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -685,7 +685,7 @@
     },
     {
       "date": "2024-04-28",
-      "opponent": "Volendam",
+      "opponent": "FC Volendam",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -725,7 +725,7 @@
     },
     {
       "date": "2024-03-30",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -775,7 +775,7 @@
     },
     {
       "date": "2024-02-17",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "4-2",
       "result": "W",
@@ -825,7 +825,7 @@
     },
     {
       "date": "2024-01-13",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -865,7 +865,7 @@
     },
     {
       "date": "2023-11-26",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -875,7 +875,7 @@
     },
     {
       "date": "2023-11-12",
-      "opponent": "Volendam",
+      "opponent": "FC Volendam",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -925,7 +925,7 @@
     },
     {
       "date": "2023-10-01",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -994,6 +994,26 @@
       "source": "football-data-uk"
     },
     {
+      "date": "2023-06-11",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-06-08",
+      "opponent": "FC Twente",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-05-28",
       "opponent": "FC Groningen",
       "home_away": "A",
@@ -1015,7 +1035,7 @@
     },
     {
       "date": "2023-05-13",
-      "opponent": "Volendam",
+      "opponent": "FC Volendam",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1095,7 +1115,7 @@
     },
     {
       "date": "2023-03-05",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -1105,7 +1125,7 @@
     },
     {
       "date": "2023-02-24",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -1135,7 +1155,7 @@
     },
     {
       "date": "2023-02-03",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1175,7 +1195,7 @@
     },
     {
       "date": "2023-01-14",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1192,6 +1212,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2022-12-10",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
     },
     {
       "date": "2022-11-11",
@@ -1215,7 +1245,7 @@
     },
     {
       "date": "2022-10-29",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1225,7 +1255,7 @@
     },
     {
       "date": "2022-10-23",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -1285,7 +1315,7 @@
     },
     {
       "date": "2022-09-03",
-      "opponent": "Volendam",
+      "opponent": "FC Volendam",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -1395,7 +1425,7 @@
     },
     {
       "date": "2022-04-16",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1475,7 +1505,7 @@
     },
     {
       "date": "2022-01-23",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -1635,7 +1665,7 @@
     },
     {
       "date": "2021-09-12",
-      "opponent": "For Sittard",
+      "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1665,13 +1695,23 @@
     },
     {
       "date": "2021-08-15",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
+    },
+    {
+      "date": "2021-07-23",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
     },
     {
       "date": "2021-05-19",
@@ -1701,16 +1741,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-05-13",
-      "opponent": "Utrecht",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -1732,16 +1762,6 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2021-04-24",
-      "opponent": "VVV",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
     },
     {
       "date": "2021-04-24",
@@ -1805,16 +1825,6 @@
     },
     {
       "date": "2021-03-09",
-      "opponent": "VVV",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-03-09",
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-0",
@@ -1861,16 +1871,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-02-13",
-      "opponent": "For Sittard",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -1901,16 +1901,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-01-24",
-      "opponent": "Utrecht",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -1926,16 +1916,6 @@
     {
       "date": "2021-01-13",
       "opponent": "Fortuna Sittard",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2021-01-13",
-      "opponent": "For Sittard",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2144,8 +2124,28 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2020-08-22",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2020-08-18",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-18",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -2176,16 +2176,6 @@
     {
       "date": "2020-03-08",
       "opponent": "FC Utrecht",
-      "home_away": "A",
-      "score": "1-5",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2020-03-08",
-      "opponent": "Utrecht",
       "home_away": "A",
       "score": "1-5",
       "result": "L",
@@ -2246,16 +2236,6 @@
     {
       "date": "2020-01-25",
       "opponent": "Fortuna Sittard",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2020-01-25",
-      "opponent": "For Sittard",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2381,16 +2361,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-10-27",
-      "opponent": "Utrecht",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -2416,16 +2386,6 @@
     {
       "date": "2019-09-28",
       "opponent": "Fortuna Sittard",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-09-28",
-      "opponent": "For Sittard",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -2485,16 +2445,6 @@
     },
     {
       "date": "2019-08-09",
-      "opponent": "VVV",
-      "home_away": "H",
-      "score": "4-1",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-08-09",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "4-1",
@@ -2524,12 +2474,32 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-07-27",
+      "opponent": "FC Groningen",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-07-24",
       "opponent": "FC Den Bosch",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
       "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-20",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -2595,7 +2565,7 @@
     },
     {
       "date": "2019-05-28",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2605,7 +2575,7 @@
     },
     {
       "date": "2019-05-25",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2734,6 +2704,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-03-15",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-03-08",
       "opponent": "FC Eindhoven",
       "home_away": "A",
@@ -2748,6 +2728,16 @@
       "opponent": "RKC Waalwijk",
       "home_away": "H",
       "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-24",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "6-1",
       "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -2795,7 +2785,17 @@
     },
     {
       "date": "2019-01-25",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-25",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2805,7 +2805,7 @@
     },
     {
       "date": "2019-01-18",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -2815,7 +2815,7 @@
     },
     {
       "date": "2019-01-13",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "3-3",
       "result": "D",
@@ -2838,6 +2838,16 @@
       "opponent": "AZ (J)",
       "home_away": "H",
       "score": "5-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-07",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "6-1",
       "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -2905,7 +2915,17 @@
     },
     {
       "date": "2018-10-26",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-26",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -2915,7 +2935,7 @@
     },
     {
       "date": "2018-10-19",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2925,10 +2945,20 @@
     },
     {
       "date": "2018-10-14",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-05",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3034,8 +3064,18 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2018-08-10",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2018-08-04",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -3070,6 +3110,16 @@
       "score": "1-1",
       "result": "D",
       "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-14",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -3185,16 +3235,6 @@
     },
     {
       "date": "2018-04-07",
-      "opponent": "VVV",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-04-07",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "3-2",
@@ -3222,16 +3262,6 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2018-03-10",
-      "opponent": "Roda JC",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
     },
     {
       "date": "2018-03-10",
@@ -3291,16 +3321,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-02-07",
-      "opponent": "Utrecht",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -3325,7 +3345,7 @@
     },
     {
       "date": "2018-01-21",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -3355,7 +3375,17 @@
     },
     {
       "date": "2018-01-06",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-06",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -3411,16 +3441,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-11-26",
-      "opponent": "Utrecht",
-      "home_away": "H",
-      "score": "1-3",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -3465,7 +3485,7 @@
     },
     {
       "date": "2017-10-21",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3482,16 +3502,6 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2017-10-01",
-      "opponent": "Roda JC",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
     },
     {
       "date": "2017-10-01",
@@ -3575,16 +3585,6 @@
     },
     {
       "date": "2017-08-12",
-      "opponent": "VVV",
-      "home_away": "A",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-08-12",
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "0-3",
@@ -3605,7 +3605,7 @@
     },
     {
       "date": "2017-07-21",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3655,16 +3655,6 @@
     },
     {
       "date": "2017-04-15",
-      "opponent": "Roda JC",
-      "home_away": "A",
-      "score": "1-3",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-04-15",
       "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "1-3",
@@ -3675,7 +3665,7 @@
     },
     {
       "date": "2017-04-07",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -3821,16 +3811,6 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-01-14",
-      "opponent": "Utrecht",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -3875,16 +3855,6 @@
     },
     {
       "date": "2016-11-27",
-      "opponent": "Roda JC",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-11-27",
       "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "2-2",
@@ -3895,7 +3865,7 @@
     },
     {
       "date": "2016-11-19",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -3966,16 +3936,6 @@
     {
       "date": "2016-09-25",
       "opponent": "FC Utrecht",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-09-25",
-      "opponent": "Utrecht",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -4134,6 +4094,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-03-18",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-03-14",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-03-14",
       "opponent": "Almere City FC",
       "home_away": "A",
@@ -4174,8 +4154,28 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-02-28",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-02-19",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-19",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -4205,7 +4205,7 @@
     },
     {
       "date": "2016-02-07",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -4304,6 +4304,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-11-20",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-06",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-11-06",
       "opponent": "Almere City FC",
       "home_away": "H",
@@ -4364,8 +4384,28 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-10-02",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-09-25",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-25",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -4415,7 +4455,7 @@
     },
     {
       "date": "2015-08-24",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -4445,7 +4485,7 @@
     },
     {
       "date": "2015-05-08",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -4465,7 +4505,7 @@
     },
     {
       "date": "2015-04-24",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -4475,7 +4515,17 @@
     },
     {
       "date": "2015-04-19",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-19",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -4494,8 +4544,18 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-04-11",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-04-06",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "6-0",
       "result": "W",
@@ -4529,6 +4589,16 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-13",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4674,6 +4744,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2014-12-01",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2014-11-28",
       "opponent": "RKC Waalwijk",
       "home_away": "H",
@@ -4695,7 +4775,7 @@
     },
     {
       "date": "2014-11-08",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -4715,7 +4795,7 @@
     },
     {
       "date": "2014-10-30",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "2-4",
       "result": "L",
@@ -4725,7 +4805,7 @@
     },
     {
       "date": "2014-10-26",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -4735,7 +4815,7 @@
     },
     {
       "date": "2014-10-19",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -4745,10 +4825,30 @@
     },
     {
       "date": "2014-10-03",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-4",
       "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-03",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-09-27",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4925,7 +5025,7 @@
     },
     {
       "date": "2014-04-18",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -4935,9 +5035,29 @@
     },
     {
       "date": "2014-04-11",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-11",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-05",
+      "opponent": "Fortuna Sittard",
+      "home_away": "H",
+      "score": "2-3",
       "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -4969,6 +5089,16 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-15",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -5065,7 +5195,7 @@
     },
     {
       "date": "2013-12-20",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -5085,7 +5215,17 @@
     },
     {
       "date": "2013-12-08",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-08",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -5175,7 +5315,7 @@
     },
     {
       "date": "2013-10-05",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -5185,7 +5325,17 @@
     },
     {
       "date": "2013-09-29",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-29",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -5201,6 +5351,16 @@
       "result": "L",
       "competition": "KNVB Beker",
       "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-20",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -5234,8 +5394,28 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2013-09-07",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2013-09-02",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-02",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -5265,7 +5445,7 @@
     },
     {
       "date": "2013-08-17",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -5295,7 +5475,7 @@
     },
     {
       "date": "2013-05-26",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -5305,7 +5485,7 @@
     },
     {
       "date": "2013-05-23",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -5335,7 +5515,17 @@
     },
     {
       "date": "2013-05-03",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-05-03",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -5345,7 +5535,17 @@
     },
     {
       "date": "2013-04-26",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-04-26",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -5425,7 +5625,7 @@
     },
     {
       "date": "2013-03-01",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -5474,6 +5674,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2013-02-08",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2012-12-21",
       "opponent": "SC Veendam",
       "home_away": "A",
@@ -5485,7 +5695,17 @@
     },
     {
       "date": "2012-12-14",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-12-14",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -5495,7 +5715,17 @@
     },
     {
       "date": "2012-12-07",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-12-07",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -5585,10 +5815,20 @@
     },
     {
       "date": "2012-10-05",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-09-28",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "4-3",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -5615,7 +5855,7 @@
     },
     {
       "date": "2012-09-21",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -5734,6 +5974,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2012-04-13",
+      "opponent": "Almere City FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2012-04-09",
       "opponent": "SC Veendam",
       "home_away": "H",
@@ -5755,7 +6005,17 @@
     },
     {
       "date": "2012-04-01",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-04-01",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -5835,7 +6095,7 @@
     },
     {
       "date": "2012-02-18",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -5905,7 +6165,17 @@
     },
     {
       "date": "2011-12-02",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-12-02",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -5945,7 +6215,7 @@
     },
     {
       "date": "2011-10-30",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -5989,6 +6259,16 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-09-26",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -6175,7 +6455,17 @@
     },
     {
       "date": "2011-02-18",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-02-18",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -6195,8 +6485,18 @@
     },
     {
       "date": "2011-02-06",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-01-31",
+      "opponent": "Almere City FC",
+      "home_away": "A",
       "score": "1-3",
       "result": "L",
       "competition": "Eerste Divisie",
@@ -6265,7 +6565,17 @@
     },
     {
       "date": "2010-11-26",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-11-26",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -6285,7 +6595,7 @@
     },
     {
       "date": "2010-11-12",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -6414,6 +6724,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2010-08-20",
+      "opponent": "Almere City FC",
+      "home_away": "H",
+      "score": "12-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2010-08-16",
       "opponent": "Go Ahead Eagles",
       "home_away": "A",
@@ -6436,8 +6756,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 171,
-    "end_index": 175,
-    "length": 5
+    "start_index": 246,
+    "end_index": 251,
+    "length": 6
   }
 }

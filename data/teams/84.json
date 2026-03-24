@@ -5,7 +5,7 @@
   "matches": [
     {
       "date": "2026-01-14",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -61,27 +61,7 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-05-14",
-      "opponent": "For Sittard",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
-    },
-    {
-      "date": "2025-05-10",
-      "opponent": "Sp. Rotterdam",
-      "home_away": "H",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
     },
     {
       "date": "2025-05-10",
@@ -155,7 +135,7 @@
     },
     {
       "date": "2025-03-19",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -231,16 +211,6 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-02-09",
-      "opponent": "Utrecht",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -285,21 +255,11 @@
     },
     {
       "date": "2025-01-14",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
       "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-01-12",
-      "opponent": "Groningen",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -346,16 +306,6 @@
     {
       "date": "2024-12-08",
       "opponent": "FC Utrecht",
-      "home_away": "H",
-      "score": "1-3",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-12-08",
-      "opponent": "Utrecht",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -425,16 +375,6 @@
     },
     {
       "date": "2024-10-19",
-      "opponent": "Sp. Rotterdam",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-10-19",
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "2-2",
@@ -495,16 +435,6 @@
     },
     {
       "date": "2024-08-31",
-      "opponent": "Groningen",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-08-31",
       "opponent": "FC Groningen",
       "home_away": "H",
       "score": "1-1",
@@ -526,16 +456,6 @@
     {
       "date": "2024-08-16",
       "opponent": "Fortuna Sittard",
-      "home_away": "A",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-08-16",
-      "opponent": "For Sittard",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -675,21 +595,11 @@
     },
     {
       "date": "2024-04-15",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
       "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-04-13",
-      "opponent": "Sp. Rotterdam",
-      "home_away": "H",
-      "score": "2-3",
-      "result": "L",
-      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -731,16 +641,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-03-31",
-      "opponent": "Volendam",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -766,16 +666,6 @@
     {
       "date": "2024-03-09",
       "opponent": "FC Utrecht",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-03-09",
-      "opponent": "Utrecht",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -825,7 +715,7 @@
     },
     {
       "date": "2024-02-02",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -851,16 +741,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-01-24",
-      "opponent": "For Sittard",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -876,16 +756,6 @@
     {
       "date": "2024-01-14",
       "opponent": "FC Volendam",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2024-01-14",
-      "opponent": "Volendam",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -965,16 +835,6 @@
     },
     {
       "date": "2023-11-05",
-      "opponent": "Sp. Rotterdam",
-      "home_away": "A",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2023-11-05",
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "2-1",
@@ -1015,7 +875,7 @@
     },
     {
       "date": "2023-10-11",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1051,16 +911,6 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2023-09-30",
-      "opponent": "Utrecht",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "football-data-uk"
     },
     {
@@ -1075,7 +925,7 @@
     },
     {
       "date": "2023-09-18",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "4-2",
       "result": "W",
@@ -1085,7 +935,7 @@
     },
     {
       "date": "2023-09-17",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1126,16 +976,6 @@
     {
       "date": "2023-08-19",
       "opponent": "Fortuna Sittard",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2023-08-19",
-      "opponent": "For Sittard",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1235,7 +1075,7 @@
     },
     {
       "date": "2023-06-03",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1245,7 +1085,7 @@
     },
     {
       "date": "2023-05-30",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1385,7 +1225,7 @@
     },
     {
       "date": "2023-03-13",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -1405,7 +1245,7 @@
     },
     {
       "date": "2023-02-24",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1445,7 +1285,7 @@
     },
     {
       "date": "2023-01-27",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1455,7 +1295,7 @@
     },
     {
       "date": "2023-01-20",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1495,7 +1335,7 @@
     },
     {
       "date": "2022-12-30",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1635,7 +1475,7 @@
     },
     {
       "date": "2022-09-30",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1645,7 +1485,7 @@
     },
     {
       "date": "2022-09-22",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "2-5",
       "result": "L",
@@ -1655,7 +1495,7 @@
     },
     {
       "date": "2022-09-16",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1675,7 +1515,7 @@
     },
     {
       "date": "2022-09-09",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1725,7 +1565,7 @@
     },
     {
       "date": "2022-08-05",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1775,7 +1615,7 @@
     },
     {
       "date": "2022-07-12",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1865,7 +1705,7 @@
     },
     {
       "date": "2022-04-01",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1915,7 +1755,7 @@
     },
     {
       "date": "2022-02-25",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1955,7 +1795,7 @@
     },
     {
       "date": "2022-01-30",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -1965,7 +1805,7 @@
     },
     {
       "date": "2022-01-21",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1975,7 +1815,7 @@
     },
     {
       "date": "2022-01-14",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "0-4",
       "result": "L",
@@ -2055,7 +1895,7 @@
     },
     {
       "date": "2021-11-14",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "4-4",
       "result": "D",
@@ -2125,7 +1965,7 @@
     },
     {
       "date": "2021-10-10",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2165,7 +2005,7 @@
     },
     {
       "date": "2021-09-10",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2185,7 +2025,7 @@
     },
     {
       "date": "2021-08-27",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "4-3",
       "result": "W",
@@ -2195,7 +2035,7 @@
     },
     {
       "date": "2021-08-21",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2355,7 +2195,7 @@
     },
     {
       "date": "2021-04-23",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -2385,7 +2225,7 @@
     },
     {
       "date": "2021-04-12",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2405,7 +2245,7 @@
     },
     {
       "date": "2021-04-05",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -2455,7 +2295,7 @@
     },
     {
       "date": "2021-03-06",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "4-1",
       "result": "W",
@@ -2485,7 +2325,7 @@
     },
     {
       "date": "2021-02-28",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -2565,7 +2405,7 @@
     },
     {
       "date": "2021-01-02",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2585,7 +2425,7 @@
     },
     {
       "date": "2020-12-11",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -2645,7 +2485,7 @@
     },
     {
       "date": "2020-11-15",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "2-7",
       "result": "L",
@@ -2715,7 +2555,7 @@
     },
     {
       "date": "2020-10-10",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2755,7 +2595,7 @@
     },
     {
       "date": "2020-09-06",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "6-4",
       "result": "W",
@@ -2785,7 +2625,7 @@
     },
     {
       "date": "2020-08-22",
-      "opponent": "Groningen",
+      "opponent": "FC Groningen",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2915,7 +2755,7 @@
     },
     {
       "date": "2020-02-14",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -2935,7 +2775,7 @@
     },
     {
       "date": "2020-01-31",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "4-2",
       "result": "W",
@@ -2955,7 +2795,7 @@
     },
     {
       "date": "2020-01-17",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -2985,7 +2825,7 @@
     },
     {
       "date": "2019-12-20",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3035,7 +2875,7 @@
     },
     {
       "date": "2019-11-17",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -3105,7 +2945,7 @@
     },
     {
       "date": "2019-10-18",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -3145,7 +2985,7 @@
     },
     {
       "date": "2019-10-04",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -3175,7 +3015,7 @@
     },
     {
       "date": "2019-09-13",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "2-4",
       "result": "L",
@@ -3235,7 +3075,7 @@
     },
     {
       "date": "2019-08-09",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3315,7 +3155,7 @@
     },
     {
       "date": "2019-05-14",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -3325,7 +3165,7 @@
     },
     {
       "date": "2019-05-10",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -3365,7 +3205,7 @@
     },
     {
       "date": "2019-04-19",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3415,7 +3255,7 @@
     },
     {
       "date": "2019-03-29",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3435,7 +3275,7 @@
     },
     {
       "date": "2019-03-15",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -3505,7 +3345,7 @@
     },
     {
       "date": "2019-02-01",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -3575,7 +3415,7 @@
     },
     {
       "date": "2018-12-07",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "1-6",
       "result": "L",
@@ -3595,7 +3435,7 @@
     },
     {
       "date": "2018-11-30",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3635,7 +3475,7 @@
     },
     {
       "date": "2018-11-09",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3775,7 +3615,7 @@
     },
     {
       "date": "2018-08-24",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -3865,7 +3705,7 @@
     },
     {
       "date": "2018-07-14",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -3905,7 +3745,7 @@
     },
     {
       "date": "2018-05-20",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -3915,7 +3755,7 @@
     },
     {
       "date": "2018-05-17",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3925,7 +3765,7 @@
     },
     {
       "date": "2018-05-13",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -3935,7 +3775,7 @@
     },
     {
       "date": "2018-05-10",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -3995,7 +3835,7 @@
     },
     {
       "date": "2018-04-09",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "2-4",
       "result": "L",
@@ -4065,7 +3905,7 @@
     },
     {
       "date": "2018-03-12",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -4085,7 +3925,7 @@
     },
     {
       "date": "2018-03-09",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -4205,7 +4045,7 @@
     },
     {
       "date": "2017-12-08",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -4265,7 +4105,7 @@
     },
     {
       "date": "2017-10-29",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -4295,7 +4135,7 @@
     },
     {
       "date": "2017-10-20",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -4425,7 +4265,7 @@
     },
     {
       "date": "2017-07-25",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -4485,7 +4325,7 @@
     },
     {
       "date": "2017-04-21",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -4515,7 +4355,7 @@
     },
     {
       "date": "2017-04-07",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -4525,7 +4365,7 @@
     },
     {
       "date": "2017-03-31",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -4595,7 +4435,7 @@
     },
     {
       "date": "2017-02-17",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -4675,7 +4515,7 @@
     },
     {
       "date": "2016-12-16",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "1-4",
       "result": "L",
@@ -4715,7 +4555,7 @@
     },
     {
       "date": "2016-11-25",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -4725,7 +4565,7 @@
     },
     {
       "date": "2016-11-18",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "6-3",
       "result": "W",
@@ -4835,7 +4675,7 @@
     },
     {
       "date": "2016-09-09",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "1-4",
       "result": "L",
@@ -5025,7 +4865,7 @@
     },
     {
       "date": "2016-03-14",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -5135,7 +4975,7 @@
     },
     {
       "date": "2016-01-22",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -5155,7 +4995,7 @@
     },
     {
       "date": "2016-01-15",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -5225,7 +5065,7 @@
     },
     {
       "date": "2015-11-06",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -5375,7 +5215,7 @@
     },
     {
       "date": "2015-08-21",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -5395,7 +5235,7 @@
     },
     {
       "date": "2015-08-07",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -5405,7 +5245,7 @@
     },
     {
       "date": "2015-07-11",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -5415,7 +5255,7 @@
     },
     {
       "date": "2015-05-15",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -5425,7 +5265,7 @@
     },
     {
       "date": "2015-05-11",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -5445,7 +5285,7 @@
     },
     {
       "date": "2015-05-01",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -5475,7 +5315,7 @@
     },
     {
       "date": "2015-04-11",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -5525,7 +5365,7 @@
     },
     {
       "date": "2015-03-16",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -5585,7 +5425,7 @@
     },
     {
       "date": "2015-02-13",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -5615,7 +5455,7 @@
     },
     {
       "date": "2015-02-03",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -5715,7 +5555,7 @@
     },
     {
       "date": "2014-11-21",
-      "opponent": "Roda JC",
+      "opponent": "Roda JC Kerkrade",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -5785,7 +5625,7 @@
     },
     {
       "date": "2014-09-27",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -5815,7 +5655,7 @@
     },
     {
       "date": "2014-09-19",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -5835,7 +5675,7 @@
     },
     {
       "date": "2014-08-29",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -5875,7 +5715,7 @@
     },
     {
       "date": "2014-08-16",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -5925,7 +5765,7 @@
     },
     {
       "date": "2014-04-18",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "3-3",
       "result": "D",
@@ -5955,7 +5795,7 @@
     },
     {
       "date": "2014-03-31",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -5985,7 +5825,7 @@
     },
     {
       "date": "2014-03-15",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -6065,7 +5905,7 @@
     },
     {
       "date": "2014-01-24",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -6095,7 +5935,7 @@
     },
     {
       "date": "2013-12-13",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -6205,7 +6045,7 @@
     },
     {
       "date": "2013-10-12",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -6225,7 +6065,7 @@
     },
     {
       "date": "2013-10-04",
-      "opponent": "VVV",
+      "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -6275,7 +6115,7 @@
     },
     {
       "date": "2013-09-07",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "2-4",
       "result": "L",
@@ -6305,7 +6145,7 @@
     },
     {
       "date": "2013-08-30",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -6345,7 +6185,7 @@
     },
     {
       "date": "2013-08-10",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -6405,7 +6245,7 @@
     },
     {
       "date": "2013-03-29",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -6415,7 +6255,7 @@
     },
     {
       "date": "2013-03-15",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -6435,7 +6275,7 @@
     },
     {
       "date": "2013-03-08",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "A",
       "score": "0-5",
       "result": "L",
@@ -6485,7 +6325,7 @@
     },
     {
       "date": "2013-02-08",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -6505,7 +6345,7 @@
     },
     {
       "date": "2013-02-01",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "A",
       "score": "1-5",
       "result": "L",
@@ -6565,7 +6405,7 @@
     },
     {
       "date": "2012-11-30",
-      "opponent": "Excelsior",
+      "opponent": "SBV Excelsior",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -6615,7 +6455,7 @@
     },
     {
       "date": "2012-11-02",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -6665,7 +6505,7 @@
     },
     {
       "date": "2012-09-28",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "3-4",
       "result": "L",
@@ -6695,7 +6535,7 @@
     },
     {
       "date": "2012-09-21",
-      "opponent": "De Graafs.",
+      "opponent": "De Graafschap",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -6705,7 +6545,7 @@
     },
     {
       "date": "2012-09-14",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "2-5",
       "result": "L",
@@ -6775,7 +6615,7 @@
     },
     {
       "date": "2012-04-13",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -6865,7 +6705,7 @@
     },
     {
       "date": "2012-03-02",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -6905,7 +6745,7 @@
     },
     {
       "date": "2012-02-10",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -6975,7 +6815,7 @@
     },
     {
       "date": "2011-11-28",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -7055,7 +6895,7 @@
     },
     {
       "date": "2011-09-26",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -7095,7 +6935,7 @@
     },
     {
       "date": "2011-09-09",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -7225,7 +7065,7 @@
     },
     {
       "date": "2011-03-11",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -7245,7 +7085,7 @@
     },
     {
       "date": "2011-02-25",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -7295,7 +7135,7 @@
     },
     {
       "date": "2011-01-31",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -7395,7 +7235,7 @@
     },
     {
       "date": "2010-11-05",
-      "opponent": "Telstar",
+      "opponent": "Telstar 1963",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -7495,7 +7335,7 @@
     },
     {
       "date": "2010-09-03",
-      "opponent": "SC Cambuur",
+      "opponent": "SC Cambuur Leeuwarden",
       "home_away": "H",
       "score": "0-4",
       "result": "L",
@@ -7515,7 +7355,7 @@
     },
     {
       "date": "2010-08-20",
-      "opponent": "Sp. Rotterdam",
+      "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "1-12",
       "result": "L",
@@ -7546,8 +7386,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 87,
-    "end_index": 91,
+    "start_index": 103,
+    "end_index": 107,
     "length": 5
   }
 }
