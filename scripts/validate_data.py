@@ -175,43 +175,54 @@ def check_chronological_gaps(conn, league: str, result: ValidationResult):
 
 
 def check_cup_elimination(conn, league: str, result: ValidationResult):
-    """Check that each team's last cup match per season is a loss (unless cup winner)."""
+    """Check cup data integrity:
+    1. A team can only LOSE once per cup per season (knockout tournament)
+    2. Last cup match should be a loss (unless cup winner)
+    """
     teams = get_all_teams(conn, league=league)
 
     for team in teams:
         cup_matches = conn.execute("""
-            SELECT date, home_team_id, away_team_id, result_final, season, competition_name
+            SELECT date, home_team_id, away_team_id, result_final, season,
+                   competition_name, source, id
             FROM matches
             WHERE (home_team_id = ? OR away_team_id = ?)
             AND competition_type = 'DOMESTIC_CUP'
             ORDER BY season, date
         """, (team["id"], team["id"])).fetchall()
 
-        # Group by season
-        seasons = defaultdict(list)
-        for m in cup_matches:
-            seasons[m["season"]].append(m)
+        # Group by season + competition
+        from itertools import groupby
+        key_fn = lambda m: (m["season"], m["competition_name"])
+        sorted_matches = sorted(cup_matches, key=key_fn)
 
-        for season, matches in seasons.items():
+        for (season, comp), group in groupby(sorted_matches, key=key_fn):
+            matches = list(group)
             if not matches:
                 continue
+
+            # Rule 1: Count losses — max 1 per cup per season (knockout)
+            losses = []
+            for m in matches:
+                is_home = m["home_team_id"] == team["id"]
+                lost = (is_home and m["result_final"] == "A") or (not is_home and m["result_final"] == "H")
+                if lost:
+                    losses.append(m["date"])
+
+            if len(losses) > 1:
+                result.error(f"{team['name']} {season} {comp}: {len(losses)} cup losses "
+                             f"({', '.join(losses)}) — knockout tournament allows max 1 loss. "
+                             f"Likely misattributed matches from different seasons.")
+
+            # Rule 2: Last match should be a loss (unless cup winner)
             last_match = matches[-1]
             is_home = last_match["home_team_id"] == team["id"]
-            result_code = last_match["result_final"]
-
-            # Did team win their last cup match? (would mean they won the cup or data is incomplete)
-            if is_home and result_code == "H":
-                team_won_last = True
-            elif not is_home and result_code == "A":
-                team_won_last = True
-            else:
-                team_won_last = False
+            team_won_last = (is_home and last_match["result_final"] == "H") or \
+                            (not is_home and last_match["result_final"] == "A")
 
             if team_won_last and len(matches) < 6:
-                # Winning last cup match with < 6 matches is suspicious
-                # (cup winner typically plays 6-7 rounds)
-                result.warn(f"{team['name']} {season}: won last cup match "
-                            f"({last_match['date']}) with only {len(matches)} cup matches "
+                result.warn(f"{team['name']} {season} {comp}: won last cup match "
+                            f"({last_match['date']}) with only {len(matches)} matches "
                             f"— may be missing later rounds")
 
 

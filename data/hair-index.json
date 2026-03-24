@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T16:50:05.859447",
+  "generated_at": "2026-03-24T16:54:39.570091",
   "threshold": 5,
   "teams": [
     {
@@ -73,44 +73,6 @@
       "strict_days_since": 4336,
       "includes_aet_pens": false,
       "total_matches": 839,
-      "has_cup_data": true,
-      "data_complete": true
-    },
-    {
-      "team": "SBV Excelsior",
-      "team_id": 181,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": true,
-      "streak_length": 6,
-      "streak_end_date": "2014-05-15",
-      "streak_start_date": "2014-04-18",
-      "days_since": 4331,
-      "matches_since": 460,
-      "competitions_in_streak": [
-        "Eerste Divisie",
-        "Eredivisie"
-      ],
-      "current_form": [
-        "D",
-        "L",
-        "L",
-        "L",
-        "L",
-        "L",
-        "W",
-        "D",
-        "D",
-        "D"
-      ],
-      "search_depth": "2006-08-19",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2014-05-15",
-      "strict_days_since": 4331,
-      "includes_aet_pens": false,
-      "total_matches": 698,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -563,6 +525,43 @@
       "data_complete": true
     },
     {
+      "team": "SBV Excelsior",
+      "team_id": 181,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 8,
+      "streak_end_date": "2025-05-02",
+      "streak_start_date": "2025-03-10",
+      "days_since": 326,
+      "matches_since": 30,
+      "competitions_in_streak": [
+        "Eerste Divisie"
+      ],
+      "current_form": [
+        "D",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "W",
+        "D",
+        "D",
+        "D"
+      ],
+      "search_depth": "2006-08-19",
+      "hair_tier": "Caveman",
+      "hair_description": "Very long tangled hair, huge bushy beard",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2025-05-02",
+      "strict_days_since": 326,
+      "includes_aet_pens": false,
+      "total_matches": 696,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
       "team": "Feyenoord",
       "team_id": 110,
       "short_name": null,
@@ -595,7 +594,7 @@
       "strict_streak_end_date": "2025-09-17",
       "strict_days_since": 188,
       "includes_aet_pens": false,
-      "total_matches": 781,
+      "total_matches": 780,
       "has_cup_data": true,
       "data_complete": true
     },

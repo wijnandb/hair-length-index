@@ -334,16 +334,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2025-04-15",
-      "opponent": "Telstar",
-      "home_away": "H",
-      "score": "1-4",
-      "result": "L",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2025-04-11",
       "opponent": "TOP Oss",
       "home_away": "H",
@@ -370,16 +360,6 @@
       "score": "3-0",
       "result": "W",
       "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-03-20",
-      "opponent": "Feyenoord",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -6986,8 +6966,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 460,
-    "end_index": 465,
-    "length": 6
+    "start_index": 30,
+    "end_index": 37,
+    "length": 8
   }
 }
