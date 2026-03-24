@@ -579,7 +579,7 @@
       "home_away": "H",
       "score": "1-4",
       "result": "L",
-      "competition": "KNVB Beker",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -2509,7 +2509,7 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "KNVB Beker",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -4244,6 +4244,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-04-03",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-03-09",
       "opponent": "VVV-Venlo",
       "home_away": "A",
@@ -4274,12 +4284,32 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2018-08-25",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2018-08-11",
       "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
       "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-28",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },

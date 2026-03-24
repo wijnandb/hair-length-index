@@ -3574,6 +3574,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2020-08-01",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2020-03-07",
       "opponent": "Ajax",
       "home_away": "H",
@@ -3744,6 +3754,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-07-13",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-12",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-04-23",
       "opponent": "VVV-Venlo",
       "home_away": "H",
@@ -3759,6 +3789,16 @@
       "home_away": "A",
       "score": "4-2",
       "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-22",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3800,6 +3840,16 @@
       "score": "2-2",
       "result": "D",
       "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-07-18",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     }

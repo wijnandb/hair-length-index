@@ -2559,7 +2559,7 @@
       "home_away": "H",
       "score": "5-1",
       "result": "W",
-      "competition": "Europa League",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -2569,7 +2569,7 @@
       "home_away": "H",
       "score": "5-4",
       "result": "W",
-      "competition": "Europa League",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -4659,7 +4659,7 @@
       "home_away": "A",
       "score": "4-3",
       "result": "W",
-      "competition": "KNVB Beker",
+      "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -5084,10 +5084,30 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-02-17",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-02-02",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "6-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-24",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "3-0",
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",

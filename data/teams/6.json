@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-03-21",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2026-03-13",
       "opponent": "FC Groningen",
       "home_away": "H",
@@ -39,6 +49,26 @@
       "home_away": "A",
       "score": "2-4",
       "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-31",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -134,12 +164,32 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2025-10-18",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2025-10-09",
       "opponent": "Heerenveen",
       "home_away": "A",
       "score": "1-4",
       "result": "L",
       "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-27",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -174,6 +224,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2025-08-15",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2025-07-29",
       "opponent": "Heracles Almelo",
       "home_away": "A",
@@ -199,6 +259,16 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -354,6 +424,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2024-10-20",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2024-10-06",
       "opponent": "Heerenveen",
       "home_away": "A",
@@ -474,6 +554,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2024-03-10",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2024-03-03",
       "opponent": "Heerenveen",
       "home_away": "A",
@@ -539,6 +629,16 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-02",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -674,6 +774,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2023-04-14",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-17",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2023-03-13",
       "opponent": "De Graafschap",
       "home_away": "A",
@@ -724,6 +844,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2022-11-19",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2022-10-14",
       "opponent": "Heracles Almelo",
       "home_away": "H",
@@ -748,6 +878,16 @@
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-12",
+      "opponent": "Telstar",
+      "home_away": "A",
+      "score": "5-0",
       "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -894,6 +1034,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2022-01-19",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2021-12-11",
       "opponent": "Fortuna Sittard",
       "home_away": "H",
@@ -1010,6 +1160,16 @@
       "score": "0-2",
       "result": "L",
       "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-08",
+      "opponent": "FC Volendam",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -1354,6 +1514,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-05-15",
+      "opponent": "NAC Breda",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-05-12",
       "opponent": "VVV-Venlo",
       "home_away": "H",
@@ -1379,6 +1549,16 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-15",
+      "opponent": "NAC Breda",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -1414,6 +1594,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2017-07-28",
+      "opponent": "FC Volendam",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-10-27",
       "opponent": "VVV-Venlo",
       "home_away": "H",
@@ -1426,8 +1616,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 65,
-    "end_index": 70,
-    "length": 6
+    "start_index": 75,
+    "end_index": 82,
+    "length": 8
   }
 }
