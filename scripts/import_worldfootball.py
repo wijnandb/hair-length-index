@@ -167,11 +167,15 @@ def _parse_page(html: str, season_label: str) -> list[dict]:
     while i < len(lines):
         line = lines[i]
 
-        # Detect competition headers (e.g. "Eerste Divisie 2015/2016")
-        if re.match(r".+\d{4}/\d{4}", line) and i + 1 < len(lines) and lines[i + 1] == "Date":
-            current_comp = line
-            i += 6  # Skip header row: Date, Round, Round, H/A, Res.
-            continue
+        # Detect competition headers (e.g. "Eerste Divisie 2015/2016" or "Friendlies Clubs 2024")
+        if i + 1 < len(lines) and lines[i + 1] == "Date":
+            if re.match(r".+\d{4}/\d{4}", line) or re.match(r".+\d{4}$", line):
+                # Stop parsing at friendly sections — everything after is non-competitive
+                if "friendl" in line.lower():
+                    break
+                current_comp = line
+                i += 6  # Skip header row: Date, Round, Round, H/A, Res.
+                continue
 
         # Detect match data: starts with a date DD.MM.YYYY
         date_match = re.match(r"(\d{2}\.\d{2}\.\d{4})", line)
