@@ -214,6 +214,13 @@ def check_cup_elimination(conn, league: str, result: ValidationResult):
                              f"({', '.join(losses)}) — knockout tournament allows max 1 loss. "
                              f"Likely misattributed matches from different seasons.")
 
+            # Rule 1b: No draws in knockout cups (result_final should be H or A, never D)
+            # A draw means the match wasn't decided — but cups always have a winner
+            draws = [m["date"] for m in matches if m["result_final"] == "D"]
+            if draws:
+                result.warn(f"{team['name']} {season} {comp}: {len(draws)} draw(s) "
+                            f"({', '.join(draws)}) — cup matches should have a winner (AET/pens)")
+
             # Rule 2: Last match should be a loss (unless cup winner)
             last_match = matches[-1]
             is_home = last_match["home_team_id"] == team["id"]
