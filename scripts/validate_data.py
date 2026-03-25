@@ -356,6 +356,69 @@ def check_duplicate_matches(conn, result: ValidationResult):
             result.error(f"  {d['date']} {d['home']} vs {d['away']} appears {d['cnt']+1} times")
 
 
+def check_competition_limits(conn, league: str, result: ValidationResult):
+    """Check that per-team match counts per competition are within realistic limits.
+
+    Hard limits based on competition structure:
+    - KNVB Beker: max 7 (7 rounds for amateur, 5 for pro teams)
+    - Champions League: max 15 (8 league + 7 knockout)
+    - Europa League: max 15
+    - Conference League: max 15
+    - Eredivisie Playoffs: max 6 (3 rounds × 2 legs)
+    - Johan Cruijff Schaal: max 1
+    - Eredivisie: exactly 34 (18 teams × 2)
+    - Eerste Divisie: exactly 38 (20 teams × 2)
+    """
+    LIMITS = {
+        "KNVB": 7,       # knockout cup, 7 rounds max
+        "CL": 21,        # qualifying (up to 8) + league phase (8) + knockout (7) — very generous
+        "EL": 21,        # same structure as CL
+        "ECL": 21,       # same structure
+        "DED-PO": 6,     # playoffs: max 3 rounds × 2 legs
+        "SC_NL": 1,      # Johan Cruijff Schaal: 1 match
+    }
+
+    teams = get_all_teams(conn, league=league)
+    for team in teams:
+        rows = conn.execute("""
+            SELECT season, competition_id, COUNT(*) as cnt
+            FROM matches
+            WHERE (home_team_id = ? OR away_team_id = ?)
+            GROUP BY season, competition_id
+        """, (team["id"], team["id"])).fetchall()
+
+        for row in rows:
+            comp = row["competition_id"]
+            cnt = row["cnt"]
+            limit = LIMITS.get(comp)
+
+            if limit and cnt > limit:
+                result.error(
+                    f"{team['name']} {row['season']}: {cnt} {comp} matches "
+                    f"(max {limit}) — likely friendlies leaking in"
+                )
+
+    # Also check total matches per team per season are realistic
+    # Eredivisie team: 35-65 (league + cup + maybe deep European run)
+    # Eerste Divisie team: 39-50 (league + cup + maybe playoffs)
+    for team in teams:
+        rows = conn.execute("""
+            SELECT season, COUNT(*) as cnt
+            FROM matches
+            WHERE (home_team_id = ? OR away_team_id = ?)
+            AND season != '2025-26'
+            GROUP BY season
+        """, (team["id"], team["id"])).fetchall()
+
+        for row in rows:
+            cnt = row["cnt"]
+            if cnt > 65:
+                result.error(
+                    f"{team['name']} {row['season']}: {cnt} total matches "
+                    f"(max ~65) — likely friendlies or duplicates"
+                )
+
+
 def check_season_format_consistency(conn, result: ValidationResult):
     """Check for inconsistent season label formats (e.g. '2021-22' vs '2021-2022')."""
     formats = conn.execute("""
@@ -400,19 +463,22 @@ def run_validation(league: str = MVP_LEAGUE) -> ValidationResult:
     log.info("6. Checking for partial/stray seasons...")
     check_partial_seasons(conn, league, result)
 
-    log.info("7. Checking for duplicate matches...")
+    log.info("7. Checking competition match limits (cup max 7, CL max 15, etc)...")
+    check_competition_limits(conn, league, result)
+
+    log.info("8. Checking for duplicate matches...")
     check_duplicate_matches(conn, result)
 
-    log.info("8. Checking same-day matches...")
+    log.info("9. Checking same-day matches...")
     check_same_day_matches(conn, league, result)
 
-    log.info("9. Checking minimum gap between matches (72h rule)...")
+    log.info("10. Checking minimum gap between matches (72h rule)...")
     check_minimum_gap(conn, league, result)
 
-    log.info("10. Checking season format consistency...")
+    log.info("11. Checking season format consistency...")
     check_season_format_consistency(conn, result)
 
-    log.info("11. Checking chronological gaps...")
+    log.info("12. Checking chronological gaps...")
     check_chronological_gaps(conn, league, result)
 
     log.info("=" * 60)
