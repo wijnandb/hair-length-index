@@ -198,6 +198,13 @@ def _parse_page(html: str, season_label: str) -> list[dict]:
             opponent = lines[j] if j < len(lines) else ""
             j += 1
             result_wdl = lines[j] if j < len(lines) else ""
+
+            # Skip unplayed matches early — before consuming score lines
+            # that might actually be the next section header
+            if result_wdl not in ("W", "D", "L"):
+                i = j + 1
+                continue
+
             j += 1
             score_str = lines[j] if j < len(lines) else ""
             j += 1
