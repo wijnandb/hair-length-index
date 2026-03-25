@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T07:59:48.223585",
+  "generated_at": "2026-03-25T08:05:47.024752",
   "threshold": 5,
   "teams": [
     {
@@ -25,8 +25,8 @@
         "L",
         "D",
         "L",
-        "W",
-        "L"
+        "L",
+        "W"
       ],
       "search_depth": "2010-08-06",
       "hair_tier": "Sasquatch",
@@ -35,7 +35,7 @@
       "strict_streak_end_date": "2018-04-06",
       "strict_days_since": 2910,
       "includes_aet_pens": false,
-      "total_matches": 456,
+      "total_matches": 460,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -54,15 +54,15 @@
         "Eerste Divisie"
       ],
       "current_form": [
-        "L",
-        "W",
-        "L",
-        "W",
-        "W",
-        "L",
-        "L",
         "D",
         "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "W",
+        "D",
+        "D",
         "D"
       ],
       "search_depth": "2011-05-26",
@@ -72,15 +72,15 @@
       "strict_streak_end_date": "2022-03-11",
       "strict_days_since": 1475,
       "includes_aet_pens": false,
-      "total_matches": 331,
+      "total_matches": 333,
       "has_cup_data": true,
       "data_complete": true
     },
     {
       "team": "NAC Breda",
-      "team_id": 10,
-      "short_name": "NAC",
-      "crest_url": "https://crests.football-data.org/681.png",
+      "team_id": 14,
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 6,
       "streak_end_date": "2022-03-14",
@@ -88,36 +88,36 @@
       "days_since": 1472,
       "matches_since": 217,
       "competitions_in_streak": [
-        "Eredivisie"
+        "Eerste Divisie"
       ],
       "current_form": [
         "L",
         "L",
         "D",
         "L",
-        "W",
-        "W",
         "L",
+        "W",
+        "W",
         "D",
-        "D",
-        "L"
+        "L",
+        "D"
       ],
-      "search_depth": "2003-08-17",
+      "search_depth": "2015-08-28",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-03-14",
       "strict_days_since": 1472,
       "includes_aet_pens": false,
-      "total_matches": 364,
+      "total_matches": 368,
       "has_cup_data": true,
       "data_complete": true
     },
     {
-      "team": "SC Heerenveen",
-      "team_id": 4,
-      "short_name": "Heerenveen",
-      "crest_url": "https://crests.football-data.org/673.png",
+      "team": "PEC Zwolle",
+      "team_id": 15,
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 5,
       "streak_end_date": "2023-03-31",
@@ -125,58 +125,21 @@
       "days_since": 1090,
       "matches_since": 148,
       "competitions_in_streak": [
-        "Eredivisie"
+        "Eerste Divisie"
       ],
       "current_form": [
+        "W",
         "D",
-        "W",
-        "W",
-        "W",
+        "D",
+        "D",
+        "D",
+        "L",
+        "L",
         "L",
         "W",
-        "W",
-        "L",
-        "D",
         "L"
       ],
-      "search_depth": "2003-08-17",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2013-03-30",
-      "strict_days_since": 4743,
-      "includes_aet_pens": false,
-      "total_matches": 768,
-      "has_cup_data": false,
-      "data_complete": false
-    },
-    {
-      "team": "PEC Zwolle",
-      "team_id": 12,
-      "short_name": "Zwolle",
-      "crest_url": "https://crests.football-data.org/684.png",
-      "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2013-08-24",
-      "streak_start_date": "2013-05-12",
-      "days_since": 4596,
-      "matches_since": 392,
-      "competitions_in_streak": [
-        "Eredivisie"
-      ],
-      "current_form": [
-        "W",
-        "D",
-        "D",
-        "D",
-        "D",
-        "L",
-        "L",
-        "W",
-        "L",
-        "W"
-      ],
-      "search_depth": "2003-08-17",
+      "search_depth": "2010-09-27",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
@@ -259,7 +222,7 @@
       "strict_streak_end_date": "2023-08-09",
       "strict_days_since": 959,
       "includes_aet_pens": false,
-      "total_matches": 367,
+      "total_matches": 592,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -275,6 +238,7 @@
       "days_since": 896,
       "matches_since": 139,
       "competitions_in_streak": [
+        "Conference League Kwalificatie",
         "Eredivisie"
       ],
       "current_form": [
@@ -283,11 +247,11 @@
         "W",
         "W",
         "W",
-        "D",
         "W",
         "D",
-        "D",
-        "W"
+        "W",
+        "L",
+        "D"
       ],
       "search_depth": "2018-07-27",
       "hair_tier": "Sasquatch",
@@ -296,15 +260,15 @@
       "strict_streak_end_date": "2023-10-11",
       "strict_days_since": 896,
       "includes_aet_pens": false,
-      "total_matches": 352,
+      "total_matches": 354,
       "has_cup_data": true,
       "data_complete": true
     },
     {
-      "team": "FC Utrecht",
-      "team_id": 7,
-      "short_name": "Utrecht",
-      "crest_url": "https://crests.football-data.org/676.png",
+      "team": "Go Ahead Eagles",
+      "team_id": 10,
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 6,
       "streak_end_date": "2024-07-07",
@@ -312,36 +276,38 @@
       "days_since": 626,
       "matches_since": 95,
       "competitions_in_streak": [
-        "Eredivisie"
+        "Conference League Kwalificatie",
+        "Eredivisie",
+        "Eredivisie Playoffs"
       ],
       "current_form": [
+        "L",
         "W",
-        "W",
-        "D",
-        "W",
-        "D",
+        "L",
         "W",
         "W",
         "L",
+        "L",
         "D",
-        "L"
+        "L",
+        "D"
       ],
-      "search_depth": "2003-08-17",
+      "search_depth": "2010-09-03",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-05-12",
       "strict_days_since": 1778,
       "includes_aet_pens": true,
-      "total_matches": 367,
+      "total_matches": 373,
       "has_cup_data": true,
       "data_complete": true
     },
     {
-      "team": "AZ",
+      "team": "Heerenveen",
       "team_id": 11,
-      "short_name": "AZ",
-      "crest_url": "https://crests.football-data.org/682.png",
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 7,
       "streak_end_date": "2024-07-27",
@@ -349,23 +315,23 @@
       "days_since": 606,
       "matches_since": 85,
       "competitions_in_streak": [
-        "Eredivisie"
+        "Eredivisie Playoffs"
       ],
       "current_form": [
-        "L",
-        "W",
-        "L",
-        "W",
-        "L",
-        "W",
-        "W",
         "D",
         "W",
-        "L"
+        "W",
+        "W",
+        "L",
+        "W",
+        "W",
+        "L",
+        "L",
+        "D"
       ],
-      "search_depth": "2003-08-16",
-      "hair_tier": "Caveman",
-      "hair_description": "Very long tangled hair, huge bushy beard",
+      "search_depth": "2015-10-29",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-07-27",
       "strict_days_since": 606,
@@ -376,9 +342,9 @@
     },
     {
       "team": "FC Volendam",
-      "team_id": 16,
-      "short_name": "Volendam",
-      "crest_url": "https://crests.football-data.org/1919.png",
+      "team_id": 7,
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 9,
       "streak_end_date": "2025-04-14",
@@ -400,14 +366,14 @@
         "D",
         "L"
       ],
-      "search_depth": "2003-08-17",
+      "search_depth": "2010-11-01",
       "hair_tier": "Caveman",
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-04-14",
       "strict_days_since": 345,
       "includes_aet_pens": false,
-      "total_matches": 223,
+      "total_matches": 344,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -461,19 +427,20 @@
       "days_since": 326,
       "matches_since": 50,
       "competitions_in_streak": [
-        "Eerste Divisie"
+        "Eredivisie",
+        "KNVB Beker"
       ],
       "current_form": [
         "D",
+        "W",
         "L",
-        "L",
-        "L",
-        "L",
+        "D",
         "L",
         "W",
-        "D",
-        "D",
-        "D"
+        "W",
+        "W",
+        "W",
+        "L"
       ],
       "search_depth": "2019-01-23",
       "hair_tier": "Caveman",
@@ -526,8 +493,8 @@
     {
       "team": "FC Utrecht",
       "team_id": 6,
-      "short_name": "Feyenoord",
-      "crest_url": "https://crests.football-data.org/675.png",
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 5,
       "streak_end_date": "2025-08-14",
@@ -535,21 +502,22 @@
       "days_since": 223,
       "matches_since": 41,
       "competitions_in_streak": [
-        "Eredivisie"
+        "Eredivisie",
+        "Europa League Kwalificatie"
       ],
       "current_form": [
+        "W",
+        "W",
         "D",
         "W",
         "D",
-        "L",
-        "W",
         "W",
         "W",
         "L",
-        "W",
+        "D",
         "L"
       ],
-      "search_depth": "2003-08-17",
+      "search_depth": "2017-10-25",
       "hair_tier": "Long & wild",
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
@@ -595,7 +563,7 @@
       "strict_streak_end_date": "2025-11-02",
       "strict_days_since": 143,
       "includes_aet_pens": false,
-      "total_matches": 410,
+      "total_matches": 413,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -611,21 +579,21 @@
       "days_since": 98,
       "matches_since": 18,
       "competitions_in_streak": [
+        "Champions League",
         "Eredivisie",
-        "KNVB Beker",
-        "UEFA Champions League"
+        "KNVB Beker"
       ],
       "current_form": [
         "D",
         "W",
         "L",
-        "D",
-        "D",
         "W",
         "D",
         "D",
-        "L",
-        "W"
+        "W",
+        "W",
+        "D",
+        "D"
       ],
       "search_depth": "2019-07-06",
       "hair_tier": "Getting shaggy",
@@ -639,10 +607,10 @@
       "data_complete": true
     },
     {
-      "team": "PSV",
-      "team_id": 5,
-      "short_name": "PSV",
-      "crest_url": "https://crests.football-data.org/674.png",
+      "team": "PSV Eindhoven",
+      "team_id": 16,
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 6,
       "streak_end_date": "2026-01-17",
@@ -665,22 +633,22 @@
         "W",
         "W"
       ],
-      "search_depth": "2017-12-20",
+      "search_depth": "2013-09-25",
       "hair_tier": "Getting shaggy",
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-01-17",
       "strict_days_since": 67,
       "includes_aet_pens": false,
-      "total_matches": 390,
+      "total_matches": 391,
       "has_cup_data": true,
       "data_complete": true
     },
     {
-      "team": "NEC",
-      "team_id": 15,
-      "short_name": "NEC",
-      "crest_url": "https://crests.football-data.org/1915.png",
+      "team": "N.E.C.",
+      "team_id": 13,
+      "short_name": null,
+      "crest_url": null,
       "streak_found": true,
       "streak_length": 6,
       "streak_end_date": "2026-02-07",
@@ -703,14 +671,14 @@
         "W",
         "W"
       ],
-      "search_depth": "2003-08-17",
+      "search_depth": "2014-08-29",
       "hair_tier": "Growing back",
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-07",
       "strict_days_since": 46,
       "includes_aet_pens": false,
-      "total_matches": 611,
+      "total_matches": 345,
       "has_cup_data": true,
       "data_complete": true
     }
