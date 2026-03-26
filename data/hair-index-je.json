@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T20:57:08.557580",
+  "generated_at": "2026-03-26T21:03:17.692620",
   "threshold": 5,
   "teams": [
     {
@@ -12,7 +12,7 @@
       "streak_end_date": "2012-09-14",
       "streak_start_date": "2012-08-10",
       "days_since": 4941,
-      "matches_since": 542,
+      "matches_since": 526,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -35,7 +35,7 @@
       "strict_streak_end_date": "2012-09-14",
       "strict_days_since": 4941,
       "includes_aet_pens": false,
-      "total_matches": 713,
+      "total_matches": 691,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -45,7 +45,7 @@
       "short_name": null,
       "crest_url": null,
       "streak_found": true,
-      "streak_length": 6,
+      "streak_length": 7,
       "streak_end_date": "2017-08-12",
       "streak_start_date": "2017-01-22",
       "days_since": 3148,
@@ -73,7 +73,7 @@
       "strict_streak_end_date": "2017-08-12",
       "strict_days_since": 3148,
       "includes_aet_pens": false,
-      "total_matches": 297,
+      "total_matches": 307,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -296,7 +296,7 @@
       "strict_streak_end_date": "2021-02-21",
       "strict_days_since": 1859,
       "includes_aet_pens": false,
-      "total_matches": 347,
+      "total_matches": 357,
       "has_cup_data": true,
       "data_complete": true
     },

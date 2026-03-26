@@ -2754,6 +2754,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2017-02-10",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "7-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2017-01-22",
       "opponent": "MVV",
       "home_away": "H",
@@ -2804,6 +2814,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-09-16",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-08-12",
       "opponent": "MVV",
       "home_away": "A",
@@ -2829,6 +2849,16 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-19",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2864,6 +2894,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-09-27",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-08-24",
       "opponent": "Sparta Rotterdam",
       "home_away": "H",
@@ -2879,6 +2919,16 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-17",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2904,6 +2954,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2014-10-03",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2014-08-29",
       "opponent": "FC Emmen",
       "home_away": "H",
@@ -2917,6 +2977,16 @@
       "date": "2014-04-04",
       "opponent": "FC Emmen",
       "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-01-17",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
       "score": "2-1",
       "result": "W",
       "competition": "Eerste Divisie",
@@ -2944,12 +3014,42 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2013-08-23",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2013-08-17",
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
       "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-05-20",
+      "opponent": "Helmond Sport",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie Playoffs",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-05-17",
+      "opponent": "Helmond Sport",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie Playoffs",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -2977,7 +3077,7 @@
   "streak": {
     "found": true,
     "start_index": 270,
-    "end_index": 275,
-    "length": 6
+    "end_index": 276,
+    "length": 7
   }
 }

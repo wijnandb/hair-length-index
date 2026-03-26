@@ -116,38 +116,42 @@ def check_match_counts(conn, league: str, result: ValidationResult):
     current_season = "2025-26"
 
     for team in teams:
-        # Get league matches grouped by season
+        # Get league matches grouped by season AND competition
         rows = conn.execute("""
-            SELECT season, COUNT(*) as cnt
+            SELECT season, competition_id, COUNT(*) as cnt
             FROM matches
             WHERE (home_team_id = ? OR away_team_id = ?)
             AND competition_type = 'LEAGUE'
-            GROUP BY season
+            AND competition_id IN ('DED', 'JE')
+            GROUP BY season, competition_id
             ORDER BY season
         """, (team["id"], team["id"])).fetchall()
 
         for row in rows:
             season = row["season"]
+            comp = row["competition_id"]
             cnt = row["cnt"]
 
             # Skip current (incomplete) season
             if season == current_season:
                 continue
 
-            # COVID-affected seasons: 2019-20 Eredivisie stopped at matchday 26
-            # Some competitions had even fewer matches
+            # COVID-affected seasons
             if season in ("2019-20", "2019-2020"):
                 if cnt < 20:
-                    result.warn(f"{team['name']} {season}: only {cnt} league matches "
-                                f"(expected 25-26, COVID-shortened season)")
+                    result.warn(f"{team['name']} {season}: only {cnt} {comp} matches "
+                                f"(expected 25-28, COVID-shortened)")
                 continue
 
-            if cnt < expected - 2:
-                result.warn(f"{team['name']} {season}: only {cnt} league matches "
-                            f"(expected {expected})")
-            elif cnt > expected + 2:
-                result.error(f"{team['name']} {season}: {cnt} league matches "
-                             f"(expected {expected}) — possible duplicates")
+            # Expected count depends on which league they were in that season
+            exp = 34 if comp == "DED" else 38
+
+            if cnt < exp - 2:
+                result.warn(f"{team['name']} {season}: only {cnt} {comp} matches "
+                            f"(expected {exp})")
+            elif cnt > exp + 2:
+                result.error(f"{team['name']} {season}: {cnt} {comp} matches "
+                             f"(expected {exp}) — possible duplicates or misclassified")
 
 
 def check_chronological_gaps(conn, league: str, result: ValidationResult):
