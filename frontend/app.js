@@ -437,10 +437,19 @@ async function shareTeam(event, teamName, days, emoji) {
   const text = `${emoji} ${teamName} heeft al ${daysStr} dagen geen 5x op rij gewonnen! #HairLengthIndex #Eredivisie`;
   const url = "https://wijnandb.github.io/hair-length-index/";
 
+  // Try native share first, then WhatsApp, then clipboard
   if (navigator.share) {
-    try { await navigator.share({ title: "Hair Length Index", text, url }); }
-    catch (e) { /* user cancelled */ }
-  } else {
+    try { await navigator.share({ title: "Hair Length Index", text, url }); return; }
+    catch (e) { /* user cancelled — fall through to WhatsApp */ }
+  }
+  // WhatsApp deep link as primary fallback
+  const waUrl = `https://wa.me/?text=${encodeURIComponent(text + "\n" + url)}`;
+  if (/Android|iPhone|iPad/i.test(navigator.userAgent)) {
+    window.open(waUrl, "_blank");
+    return;
+  }
+  // Desktop: clipboard fallback
+  {
     try {
       await navigator.clipboard.writeText(`${text}\n${url}`);
       const btn = event.currentTarget;
