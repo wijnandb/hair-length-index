@@ -5,7 +5,11 @@
  * Clicking a team loads per-team match data and shows the "hair growth strip."
  */
 
-const DATA_URL = "data/hair-index.json";
+const LEAGUES = {
+  DED: { name: "Eredivisie", file: "data/hair-index.json" },
+  JE: { name: "Eerste Divisie", file: "data/hair-index-je.json" },
+};
+let currentLeague = "DED";
 const TEAMS_DIR = "data/teams";
 
 const TIER_EMOJI = {
@@ -280,17 +284,26 @@ function renderIndex(data) {
 
 // === Data Loading ===
 
-async function loadData() {
+async function loadData(league) {
+  if (league) currentLeague = league;
+  const config = LEAGUES[currentLeague];
   try {
-    const resp = await fetch(DATA_URL);
+    const resp = await fetch(config.file);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     renderIndex(data);
+    // Update league selector active state
+    document.querySelectorAll(".league-tab").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.league === currentLeague);
+    });
+    // Update badge
+    const badge = document.querySelector(".league-badge");
+    if (badge) badge.textContent = `${config.name} 2025-26`;
   } catch (err) {
     console.error("Failed to load data:", err);
     document.getElementById("index-table").innerHTML = `
       <div class="error">
-        Kon data niet laden. Zorg dat <code>data/hair-index.json</code> bestaat.<br>
+        Kon data niet laden. Zorg dat <code>${config.file}</code> bestaat.<br>
         <small>${escapeHtml(err.message)}</small>
       </div>
     `;

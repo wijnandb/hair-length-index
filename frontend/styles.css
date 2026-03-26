@@ -114,6 +114,33 @@ main {
   gap: 0.5rem;
 }
 
+.league-tabs {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.league-tab {
+  background: #f3f4f6;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.league-tab:hover {
+  background: #e5e7eb;
+}
+
+.league-tab.active {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+  color: var(--accent-dark);
+}
+
 .league-badge {
   background: #f0fdf4;
   border: 1px solid #bbf7d0;

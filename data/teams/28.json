@@ -134,6 +134,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2025-11-25",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2025-11-21",
       "opponent": "TOP Oss",
       "home_away": "A",
@@ -2384,26 +2394,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2019-05-14",
-      "opponent": "N.E.C.",
-      "home_away": "H",
-      "score": "3-0",
-      "result": "W",
-      "competition": "Eredivisie Playoffs",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-05-10",
-      "opponent": "N.E.C.",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Eredivisie Playoffs",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2019-05-03",
       "opponent": "FC Eindhoven",
       "home_away": "H",
@@ -2419,16 +2409,6 @@
       "home_away": "A",
       "score": "4-1",
       "result": "W",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2019-04-22",
-      "opponent": "N.E.C.",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2639,16 +2619,6 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-11-23",
-      "opponent": "N.E.C.",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2924,16 +2894,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2018-03-02",
-      "opponent": "N.E.C.",
-      "home_away": "H",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2018-02-23",
       "opponent": "FC Den Bosch",
       "home_away": "A",
@@ -3118,16 +3078,6 @@
       "opponent": "Jong PSV",
       "home_away": "A",
       "score": "2-3",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-10-13",
-      "opponent": "N.E.C.",
-      "home_away": "A",
-      "score": "0-2",
       "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
@@ -3766,8 +3716,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 254,
-    "end_index": 258,
+    "start_index": 252,
+    "end_index": 256,
     "length": 5
   }
 }

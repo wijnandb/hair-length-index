@@ -2774,16 +2774,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2019-03-15",
-      "opponent": "N.E.C.",
-      "home_away": "A",
-      "score": "0-5",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2019-03-08",
       "opponent": "Helmond Sport",
       "home_away": "H",
@@ -2889,16 +2879,6 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-12-07",
-      "opponent": "N.E.C.",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3234,16 +3214,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2018-01-26",
-      "opponent": "N.E.C.",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2018-01-22",
       "opponent": "AZ (J)",
       "home_away": "A",
@@ -3429,16 +3399,6 @@
       "home_away": "A",
       "score": "2-3",
       "result": "L",
-      "competition": "Eerste Divisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2017-09-08",
-      "opponent": "N.E.C.",
-      "home_away": "H",
-      "score": "3-0",
-      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4086,8 +4046,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 292,
-    "end_index": 299,
+    "start_index": 290,
+    "end_index": 297,
     "length": 8
   }
 }

@@ -34,7 +34,7 @@ jobs:
         run: |
           mkdir -p _site/data/teams
           cp frontend/* _site/
-          cp data/hair-index.json _site/data/
+          cp data/hair-index.json data/hair-index-je.json _site/data/ 2>/dev/null || true
           cp data/teams/*.json _site/data/teams/ 2>/dev/null || true
 
       - name: Upload artifact

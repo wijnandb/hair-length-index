@@ -2754,6 +2754,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2017-01-22",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-12-02",
       "opponent": "Telstar",
       "home_away": "H",
@@ -2789,6 +2799,16 @@
       "home_away": "A",
       "score": "0-2",
       "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-12",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2957,7 +2977,7 @@
   "streak": {
     "found": true,
     "start_index": 270,
-    "end_index": 274,
-    "length": 5
+    "end_index": 275,
+    "length": 6
   }
 }

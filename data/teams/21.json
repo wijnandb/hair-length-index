@@ -2814,16 +2814,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2019-04-06",
-      "opponent": "AZ Alkmaar",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2019-04-02",
       "opponent": "FC Groningen",
       "home_away": "A",
@@ -2988,16 +2978,6 @@
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "1-4",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2018-11-03",
-      "opponent": "AZ Alkmaar",
-      "home_away": "A",
-      "score": "0-1",
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
@@ -3184,6 +3164,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2018-01-26",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2017-12-22",
       "opponent": "Telstar",
       "home_away": "A",
@@ -3214,11 +3204,31 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2017-09-08",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2017-09-02",
       "opponent": "RKC Waalwijk",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-17",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3258,6 +3268,16 @@
       "opponent": "FC Den Bosch",
       "home_away": "H",
       "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-09",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "0-2",
       "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",

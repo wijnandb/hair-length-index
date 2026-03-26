@@ -2724,6 +2724,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2019-03-24",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2019-01-18",
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
@@ -2759,6 +2769,16 @@
       "home_away": "H",
       "score": "3-0",
       "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-18",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -2820,6 +2840,26 @@
       "score": "2-1",
       "result": "W",
       "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-28",
+      "opponent": "MVV",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie Playoffs",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-25",
+      "opponent": "MVV",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie Playoffs",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
