@@ -532,6 +532,47 @@ main {
   padding: 0.5rem;
 }
 
+/* === Teams to Watch === */
+.watch-section { display: none; }
+.watch-heading {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.4rem; font-weight: 700; color: #92400e;
+  margin-bottom: 0.75rem;
+}
+.watch-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+.watch-card {
+  background: linear-gradient(135deg, #fffbeb, #fef3c7);
+  border: 1px solid #f59e0b; border-radius: var(--radius);
+  padding: 1rem; transition: transform 0.2s;
+}
+.watch-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.watch-team-name { font-weight: 700; font-size: 0.95rem; color: #78350f; }
+.watch-streak { font-size: 0.8rem; color: #92400e; font-weight: 600; margin: 0.25rem 0; }
+.watch-form { display: flex; gap: 3px; margin: 0.25rem 0; }
+.watch-remaining { font-size: 0.75rem; color: #a16207; }
+
+/* === Share Button === */
+.team-card { position: relative; }
+.share-btn {
+  position: absolute; bottom: 0.5rem; right: 0.5rem;
+  width: 28px; height: 28px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--bg);
+  font-size: 0.75rem; cursor: pointer; opacity: 0.3;
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity 0.2s, background 0.2s;
+}
+.share-btn:hover { opacity: 0.8; background: #f0fdf4; }
+.share-btn.share-copied { opacity: 1; background: #dcfce7; color: var(--accent); border-color: var(--accent); }
+
+/* === YouTube Link === */
+.match-yt { width: 24px; text-align: center; }
+.yt-link { text-decoration: none; opacity: 0.35; transition: opacity 0.2s; font-size: 0.8rem; }
+.yt-link:hover { opacity: 0.85; }
+
+/* === Avatar Hover === */
+.avatar-img { transition: transform 0.2s ease; }
+.avatar:hover .avatar-img { transform: scale(1.05); }
+
 /* === Footer === */
 footer {
   margin-top: 3rem;

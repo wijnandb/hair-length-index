@@ -5,7 +5,7 @@ from datetime import date, timedelta
 
 import pytest
 
-from scripts.compute_streaks import find_last_streak
+from scripts.compute_streaks import _team_result, find_last_streak
 from scripts.config import get_hair_tier
 from scripts.db import get_connection, init_db, upsert_match, upsert_team
 
@@ -184,6 +184,103 @@ class TestFindLastStreak:
         result = find_last_streak(matches, team_id)
         assert result["found"] is True
         assert result["streak_length"] == 5
+
+    def test_five_wins_then_draw(self, db, team_id, opponent_id):
+        """W,W,W,W,W,D (most recent first) should find a 5x streak."""
+        _make_matches(db, team_id, opponent_id, "WWWWWD")
+        matches = _get_matches_desc(db, team_id)
+        result = find_last_streak(matches, team_id)
+        assert result["found"] is True
+        assert result["streak_length"] == 5
+        assert result["matches_since"] == 0  # streak is ongoing/most recent
+
+    def test_no_five_streak_in_mixed(self, db, team_id, opponent_id):
+        """W,W,W,D,W,W (most recent first) has no 5x streak."""
+        _make_matches(db, team_id, opponent_id, "WWWDWW")
+        matches = _get_matches_desc(db, team_id)
+        result = find_last_streak(matches, team_id)
+        assert result["found"] is False
+
+    def test_cross_season_streak(self, db, team_id, opponent_id):
+        """A streak that spans across two seasons should still be found."""
+        # Create 6 wins spanning two seasons using _make_match which handles home/away correctly
+        base = date(2025, 7, 15)  # mid-summer, season boundary
+        for i in range(6):
+            match_date = base - timedelta(days=i * 4)
+            season = "2025-26" if match_date >= date(2025, 7, 1) else "2024-25"
+            is_home = (i % 2 == 0)
+            h_id = team_id if is_home else opponent_id
+            a_id = opponent_id if is_home else team_id
+            # Team always wins: if home, result=H; if away, result=A
+            result_code = "H" if is_home else "A"
+            h_goals = 2 if is_home else 0
+            a_goals = 0 if is_home else 2
+            upsert_match(
+                db, source="test", source_match_id=f"xseason-{i}",
+                date=str(match_date), home_team_id=h_id, away_team_id=a_id,
+                home_goals_90min=h_goals, away_goals_90min=a_goals,
+                home_goals_final=h_goals, away_goals_final=a_goals,
+                decided_in="REGULAR", result_90min=result_code, result_final=result_code,
+                competition_id="DED", competition_name="Eredivisie",
+                competition_type="LEAGUE", season=season,
+            )
+        matches = _get_matches_desc(db, team_id)
+        result = find_last_streak(matches, team_id)
+        assert result["found"] is True
+        assert result["streak_length"] == 6
+
+
+# === _team_result tests ===
+
+class TestTeamResult:
+    def test_home_win(self, db, team_id, opponent_id):
+        """Home win: result H, team is home -> W."""
+        _make_match(db, team_id, opponent_id, date(2026, 1, 1), 3, 0, is_home=True)
+        match = _get_matches_desc(db, team_id)[0]
+        assert _team_result(match, team_id) == "W"
+
+    def test_home_loss(self, db, team_id, opponent_id):
+        """Home loss: result A, team is home -> L."""
+        _make_match(db, team_id, opponent_id, date(2026, 1, 1), 0, 2, is_home=True)
+        match = _get_matches_desc(db, team_id)[0]
+        assert _team_result(match, team_id) == "L"
+
+    def test_away_win(self, db, team_id, opponent_id):
+        """Away win: result A, team is away -> W."""
+        _make_match(db, team_id, opponent_id, date(2026, 1, 1), 2, 0, is_home=False)
+        match = _get_matches_desc(db, team_id)[0]
+        assert _team_result(match, team_id) == "W"
+
+    def test_away_loss(self, db, team_id, opponent_id):
+        """Away loss: result H, team is away -> L."""
+        _make_match(db, team_id, opponent_id, date(2026, 1, 1), 0, 1, is_home=False)
+        match = _get_matches_desc(db, team_id)[0]
+        assert _team_result(match, team_id) == "L"
+
+    def test_draw(self, db, team_id, opponent_id):
+        """Draw: result D -> D regardless of home/away."""
+        _make_match(db, team_id, opponent_id, date(2026, 1, 1), 1, 1, is_home=True)
+        match = _get_matches_desc(db, team_id)[0]
+        assert _team_result(match, team_id) == "D"
+        assert _team_result(match, opponent_id) == "D"
+
+    def test_result_final_field(self, db, team_id, opponent_id):
+        """Can use result_final instead of result_90min."""
+        pen_date = date(2026, 1, 1)
+        upsert_match(
+            db, source="test", source_match_id="pen-test",
+            date=str(pen_date), home_team_id=team_id, away_team_id=opponent_id,
+            home_goals_90min=1, away_goals_90min=1,
+            home_goals_final=1, away_goals_final=1,
+            home_goals_penalties=4, away_goals_penalties=3,
+            decided_in="PENALTIES",
+            result_90min="D", result_final="H",
+            competition_id="KNVB", competition_name="KNVB Beker",
+            competition_type="DOMESTIC_CUP", season="2025-26",
+        )
+        match = _get_matches_desc(db, team_id)[0]
+        assert _team_result(match, team_id, "result_90min") == "D"
+        assert _team_result(match, team_id, "result_final") == "W"
 
 
 # === Cross-competition tests ===

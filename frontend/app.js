@@ -23,13 +23,13 @@ const TIER_EMOJI = {
 };
 
 const TIER_AVATAR = {
-  "Fresh cut":      { top: "shortFlat",           facialHair: "" },
-  "Growing back":   { top: "shortCurly",          facialHair: "" },
-  "Getting shaggy": { top: "shaggyMullet",        facialHair: "beardLight" },
-  "Long & wild":    { top: "longButNotTooLong",   facialHair: "beardMedium" },
-  "Caveman":        { top: "bigHair",             facialHair: "beardMajestic" },
-  "Sasquatch":      { top: "dreads",              facialHair: "beardMajestic" },
-  "Lost in time":   { top: "",                    facialHair: "" },
+  "Fresh cut":      { top: "shortFlat",           facialHair: "",              mouth: "smile",      eyes: "happy" },
+  "Growing back":   { top: "shortCurly",          facialHair: "beardLight",    mouth: "default",    eyes: "default" },
+  "Getting shaggy": { top: "shaggyMullet",        facialHair: "beardMedium",   mouth: "serious",    eyes: "squint" },
+  "Long & wild":    { top: "longButNotTooLong",   facialHair: "beardMajestic", mouth: "serious",    eyes: "side" },
+  "Caveman":        { top: "bigHair",             facialHair: "beardMajestic", mouth: "grimace",    eyes: "xDizzy" },
+  "Sasquatch":      { top: "dreads",              facialHair: "beardMajestic", mouth: "screamOpen", eyes: "surprised", accessories: "prescription02" },
+  "Lost in time":   { top: "hat",                  facialHair: "",              mouth: "concerned",  eyes: "closed" },
 };
 
 function avatarUrl(tier, seed) {
@@ -42,6 +42,9 @@ function avatarUrl(tier, seed) {
   });
   if (config.top) params.set("top", config.top);
   if (config.facialHair) params.set("facialHair", config.facialHair);
+  if (config.mouth) params.set("mouth", config.mouth);
+  if (config.eyes) params.set("eyes", config.eyes);
+  if (config.accessories) params.set("accessories", config.accessories);
   return `https://api.dicebear.com/9.x/avataaars/svg?${params.toString()}`;
 }
 
@@ -151,8 +154,16 @@ function renderGrowthStrip(teamData) {
   `;
 }
 
+function youtubeSearchUrl(teamName, opponent, homeAway, date) {
+  const home = homeAway === "H" ? teamName : opponent;
+  const away = homeAway === "H" ? opponent : teamName;
+  const query = `${home} ${away} samenvatting ${date}`;
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+}
+
 function renderMatchTable(teamData) {
   const matches = teamData.matches;
+  const teamName = teamData.team;
   if (!matches || matches.length === 0) return "";
   const streak = teamData.streak;
   const startIdx = streak.found ? streak.start_index : -1;
@@ -165,6 +176,7 @@ function renderMatchTable(teamData) {
                   m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
     const rowClass = isStreak ? "streak-row" : "";
+    const ytUrl = youtubeSearchUrl(teamName, m.opponent, m.home_away, m.date);
     return `
       <tr class="match-row ${r} ${rowClass}">
         <td class="match-date">${m.date}</td>
@@ -172,6 +184,7 @@ function renderMatchTable(teamData) {
         <td class="match-opponent">${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
         <td class="match-score">${m.score}${extra}</td>
         <td class="match-comp">${escapeHtml(m.competition)}</td>
+        <td class="match-yt"><a href="${ytUrl}" target="_blank" rel="noopener" class="yt-link" title="Zoek samenvatting">&#x1F3AC;</a></td>
         <td class="match-source">${escapeHtml(m.source)}</td>
       </tr>`;
   }).join("");
@@ -181,7 +194,7 @@ function renderMatchTable(teamData) {
       <summary>Alle wedstrijden als tabel</summary>
       <table class="match-table">
         <thead>
-          <tr><th>Datum</th><th></th><th>Tegenstander</th><th>Score</th><th>Competitie</th><th>Bron</th></tr>
+          <tr><th>Datum</th><th></th><th>Tegenstander</th><th>Score</th><th>Competitie</th><th></th><th>Bron</th></tr>
         </thead>
         <tbody>${rows}</tbody>
       </table>
@@ -244,6 +257,8 @@ function renderTeamCard(team, rank) {
         <div class="matches-since">
           ${team.matches_since > 0 ? team.matches_since + " wedstrijden" : "Actieve reeks!"}
         </div>
+
+        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}')" title="Delen">&#8599;</button>
       </div>
       <div class="match-detail" style="display:none">
         <div class="detail-loading">Laden...</div>
@@ -280,6 +295,8 @@ function renderIndex(data) {
   document.getElementById("updated").textContent = `Bijgewerkt: ${genDate}`;
   const footerDate = document.getElementById("footer-date");
   if (footerDate) footerDate.textContent = genDate;
+
+  renderWatchCards(teams);
 }
 
 // === Data Loading ===
@@ -356,6 +373,76 @@ async function toggleDetail(cardEl) {
         detail.innerHTML = `<p class="no-matches">Kon wedstrijddata niet laden.</p>`;
       }
     }
+  }
+}
+
+// === Teams to Watch ===
+
+function getConsecutiveWins(form) {
+  let count = 0;
+  for (const r of form) {
+    if (r === "W") count++;
+    else break;
+  }
+  return count;
+}
+
+function renderWatchCards(teams) {
+  const section = document.getElementById("watch-section");
+  const container = document.getElementById("watch-cards");
+  if (!section || !container) return;
+
+  const watchTeams = teams.filter((t) => {
+    if (!t.current_form || t.current_form.length === 0) return false;
+    if (t.days_since === null || t.days_since === undefined) return false;
+    if (t.days_since <= 120) return false;
+    return getConsecutiveWins(t.current_form) >= 3;
+  });
+
+  if (watchTeams.length === 0) {
+    section.style.display = "none";
+    return;
+  }
+
+  section.style.display = "block";
+  container.innerHTML = watchTeams
+    .map((t) => {
+      const streak = getConsecutiveWins(t.current_form);
+      const toGo = 5 - streak;
+      const dots = t.current_form.slice(0, 5)
+        .map((r) => `<span class="form-dot ${r}">${r}</span>`).join("");
+      const label = toGo > 0
+        ? `nog <strong>${toGo}</strong> te gaan`
+        : `<strong>Klaar voor de schaar!</strong>`;
+      return `
+        <div class="watch-card">
+          <div class="watch-team-name">${escapeHtml(t.team)}</div>
+          <div class="watch-streak">${streak}x winst op rij</div>
+          <div class="watch-form">${dots}</div>
+          <div class="watch-remaining">${label}</div>
+        </div>`;
+    }).join("");
+}
+
+// === Social Sharing ===
+
+async function shareTeam(event, teamName, days, emoji) {
+  event.stopPropagation();
+  const daysStr = days !== null && days !== undefined ? days.toLocaleString("nl-NL") : "???";
+  const text = `${emoji} ${teamName} heeft al ${daysStr} dagen geen 5x op rij gewonnen! #HairLengthIndex #Eredivisie`;
+  const url = "https://wijnandb.github.io/hair-length-index/";
+
+  if (navigator.share) {
+    try { await navigator.share({ title: "Hair Length Index", text, url }); }
+    catch (e) { /* user cancelled */ }
+  } else {
+    try {
+      await navigator.clipboard.writeText(`${text}\n${url}`);
+      const btn = event.currentTarget;
+      btn.classList.add("share-copied");
+      btn.textContent = "\u2713";
+      setTimeout(() => { btn.classList.remove("share-copied"); btn.innerHTML = "&#8599;"; }, 1500);
+    } catch (e) { /* clipboard not available */ }
   }
 }
 
