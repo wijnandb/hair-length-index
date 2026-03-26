@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T20:45:34.562467",
+  "generated_at": "2026-03-26T20:57:08.557580",
   "threshold": 5,
   "teams": [
     {
@@ -7,13 +7,15 @@
       "team_id": 26,
       "short_name": null,
       "crest_url": null,
-      "streak_found": false,
-      "streak_length": 0,
-      "streak_end_date": null,
-      "streak_start_date": null,
-      "days_since": null,
-      "matches_since": 363,
-      "competitions_in_streak": [],
+      "streak_found": true,
+      "streak_length": 5,
+      "streak_end_date": "2012-09-14",
+      "streak_start_date": "2012-08-10",
+      "days_since": 4941,
+      "matches_since": 542,
+      "competitions_in_streak": [
+        "Eerste Divisie"
+      ],
       "current_form": [
         "D",
         "L",
@@ -27,13 +29,13 @@
         "D"
       ],
       "search_depth": "2008-08-08",
-      "hair_tier": "Lost in time",
-      "hair_description": "Need deeper historical data",
-      "strict_streak_found": false,
-      "strict_streak_end_date": null,
-      "strict_days_since": null,
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2012-09-14",
+      "strict_days_since": 4941,
       "includes_aet_pens": false,
-      "total_matches": 363,
+      "total_matches": 713,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -108,7 +110,7 @@
       "strict_streak_end_date": "2018-11-18",
       "strict_days_since": 2685,
       "includes_aet_pens": false,
-      "total_matches": 404,
+      "total_matches": 416,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -145,7 +147,7 @@
       "strict_streak_end_date": "2019-02-08",
       "strict_days_since": 2603,
       "includes_aet_pens": false,
-      "total_matches": 371,
+      "total_matches": 378,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -175,14 +177,14 @@
         "D",
         "L"
       ],
-      "search_depth": "2016-08-05",
+      "search_depth": "2008-08-22",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2019-02-22",
       "strict_days_since": 2589,
       "includes_aet_pens": false,
-      "total_matches": 386,
+      "total_matches": 403,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -219,7 +221,7 @@
       "strict_streak_end_date": "2021-01-05",
       "strict_days_since": 1906,
       "includes_aet_pens": false,
-      "total_matches": 342,
+      "total_matches": 356,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -308,7 +310,7 @@
       "streak_end_date": "2022-02-04",
       "streak_start_date": "2021-11-29",
       "days_since": 1511,
-      "matches_since": 164,
+      "matches_since": 165,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -331,7 +333,7 @@
       "strict_streak_end_date": "2022-02-04",
       "strict_days_since": 1511,
       "includes_aet_pens": false,
-      "total_matches": 393,
+      "total_matches": 405,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -368,7 +370,7 @@
       "strict_streak_end_date": "2022-03-11",
       "strict_days_since": 1476,
       "includes_aet_pens": false,
-      "total_matches": 325,
+      "total_matches": 345,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -399,14 +401,14 @@
         "L",
         "W"
       ],
-      "search_depth": "2013-08-23",
+      "search_depth": "2011-11-27",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-11-02",
       "strict_days_since": 875,
       "includes_aet_pens": false,
-      "total_matches": 277,
+      "total_matches": 281,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -436,14 +438,14 @@
         "W",
         "D"
       ],
-      "search_depth": "2014-10-26",
+      "search_depth": "2014-09-27",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-04-12",
       "strict_days_since": 713,
       "includes_aet_pens": false,
-      "total_matches": 300,
+      "total_matches": 306,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -481,7 +483,7 @@
       "strict_streak_end_date": "2024-11-22",
       "strict_days_since": 489,
       "includes_aet_pens": false,
-      "total_matches": 308,
+      "total_matches": 321,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -519,7 +521,7 @@
       "strict_streak_end_date": "2025-12-20",
       "strict_days_since": 96,
       "includes_aet_pens": false,
-      "total_matches": 319,
+      "total_matches": 339,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -556,7 +558,7 @@
       "strict_streak_end_date": "2026-02-13",
       "strict_days_since": 41,
       "includes_aet_pens": false,
-      "total_matches": 320,
+      "total_matches": 336,
       "has_cup_data": true,
       "data_complete": true
     },
