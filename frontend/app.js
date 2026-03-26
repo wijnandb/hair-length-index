@@ -8,6 +8,11 @@
 const LEAGUES = {
   DED: { name: "Eredivisie", file: "data/hair-index.json" },
   JE: { name: "Eerste Divisie", file: "data/hair-index-je.json" },
+  PL: { name: "Premier League", file: "data/hair-index-pl.json" },
+  BL: { name: "Bundesliga", file: "data/hair-index-bl.json" },
+  LL: { name: "La Liga", file: "data/hair-index-ll.json" },
+  SA: { name: "Serie A", file: "data/hair-index-sa.json" },
+  L1: { name: "Ligue 1", file: "data/hair-index-l1.json" },
 };
 let currentLeague = "DED";
 const TEAMS_DIR = "data/teams";

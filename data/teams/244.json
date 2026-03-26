@@ -1,0 +1,3383 @@
+{
+  "team_id": 244,
+  "team": "Everton FC",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2026-03-21",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-03",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-23",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-10",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Fulham",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-31",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-26",
+      "opponent": "Leeds Utd",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Sunderland",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "FA Cup 2025/2026",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-07",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Brentford",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "Nott'm Forest",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-27",
+      "opponent": "Burnley",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Nott'm Forest",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-02",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-29",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-24",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-03",
+      "opponent": "Sunderland",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-26",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-18",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-05",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-29",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-23",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "League Cup 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-20",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-13",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-30",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-27",
+      "opponent": "Mansfield Town",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "League Cup 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-24",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-18",
+      "opponent": "Leeds Utd",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-25",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-18",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "Fulham",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-03",
+      "opponent": "Ipswich",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-26",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-19",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-12",
+      "opponent": "Nott'm Forest",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-05",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-02",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-15",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-08",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-26",
+      "opponent": "Brentford",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-22",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-15",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-12",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-08",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "FA Cup 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-01",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-25",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-19",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-15",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-09",
+      "opponent": "Peterb. Utd",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "FA Cup 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-04",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-29",
+      "opponent": "Nott'm Forest",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-26",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-22",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-14",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-04",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-01",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-23",
+      "opponent": "Brentford",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-09",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-02",
+      "opponent": "Southampton",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-26",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-19",
+      "opponent": "Ipswich",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-05",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-28",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-21",
+      "opponent": "Leicester",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-17",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "5-6",
+      "result": "L",
+      "competition": "League Cup 2024/2025",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-14",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-31",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-27",
+      "opponent": "Doncaster",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "League Cup 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-24",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-17",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-19",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-11",
+      "opponent": "Sheffield Utd",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-03",
+      "opponent": "Luton Town",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-27",
+      "opponent": "Brentford",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-24",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-21",
+      "opponent": "Nott'm Forest",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-15",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-06",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-02",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-30",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-09",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-02",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-24",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-19",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-10",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-03",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-30",
+      "opponent": "Fulham",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-27",
+      "opponent": "Luton Town",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "FA Cup 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-17",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "FA Cup 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-14",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-04",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "FA Cup 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-30",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-27",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-23",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-19",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "6-7",
+      "result": "L",
+      "competition": "League Cup 2023/2024",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-16",
+      "opponent": "Burnley",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-10",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-07",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-02",
+      "opponent": "Nott'm Forest",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-26",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-11",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-04",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-01",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "League Cup 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-29",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-21",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-07",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-30",
+      "opponent": "Luton Town",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-27",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "League Cup 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-23",
+      "opponent": "Brentford",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-17",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-02",
+      "opponent": "Sheffield Utd",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-30",
+      "opponent": "Doncaster",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "League Cup 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-26",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-20",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-12",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-28",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-20",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-14",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-08",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-01",
+      "opponent": "Leicester",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-27",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-22",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-15",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-08",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-03",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-18",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-11",
+      "opponent": "Brentford",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-05",
+      "opponent": "Nott'm Forest",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-01",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-25",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-18",
+      "opponent": "Leeds Utd",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-13",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-04",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-21",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-14",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-06",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "FA Cup 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-03",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-31",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-26",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-12",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-08",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "League Cup 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-05",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-29",
+      "opponent": "Fulham",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-22",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-19",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-15",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-09",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-01",
+      "opponent": "Southampton",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-18",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-30",
+      "opponent": "Leeds Utd",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-27",
+      "opponent": "Brentford",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-23",
+      "opponent": "Fleetwood Town",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "League Cup 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-20",
+      "opponent": "Nott'm Forest",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-13",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-06",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-22",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-19",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-15",
+      "opponent": "Brentford",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-11",
+      "opponent": "Watford",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-08",
+      "opponent": "Leicester",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-01",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-24",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-20",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-09",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-06",
+      "opponent": "Burnley",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-03",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-20",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "FA Cup 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-17",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-13",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-07",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-03",
+      "opponent": "Boreham Wood",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "FA Cup 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-26",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-19",
+      "opponent": "Southampton",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-12",
+      "opponent": "Leeds Utd",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-08",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-05",
+      "opponent": "Brentford",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "FA Cup 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-22",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-15",
+      "opponent": "Norwich City",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-08",
+      "opponent": "Hull City",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "FA Cup 2021/2022",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-02",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-16",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-12",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-06",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-01",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-28",
+      "opponent": "Brentford",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-21",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-07",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-01",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-23",
+      "opponent": "Watford",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-17",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-02",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-25",
+      "opponent": "Norwich City",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-21",
+      "opponent": "QPR",
+      "home_away": "A",
+      "score": "7-8",
+      "result": "L",
+      "competition": "League Cup 2021/2022",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-18",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-13",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-28",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-24",
+      "opponent": "Huddersfield",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "League Cup 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-21",
+      "opponent": "Leeds Utd",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-14",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-23",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-19",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-16",
+      "opponent": "Sheffield Utd",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-13",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-09",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-01",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-23",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-16",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-12",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-05",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-20",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "FA Cup 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-13",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-08",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-04",
+      "opponent": "West Brom",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-01",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-20",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-17",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-14",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-10",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "5-4",
+      "result": "W",
+      "competition": "FA Cup 2020/2021",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-06",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-03",
+      "opponent": "Leeds Utd",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-30",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-27",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-24",
+      "opponent": "Sheffield Wed.",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "FA Cup 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-12",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-09",
+      "opponent": "Rotherham Utd",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "FA Cup 2020/2021",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-01",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-26",
+      "opponent": "Sheffield Utd",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-23",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "League Cup 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-19",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-16",
+      "opponent": "Leicester",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-12",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-05",
+      "opponent": "Burnley",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-28",
+      "opponent": "Leeds Utd",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-22",
+      "opponent": "Fulham",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-07",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-01",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-25",
+      "opponent": "Southampton",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-17",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-03",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-30",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "League Cup 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-26",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-23",
+      "opponent": "Fleetwood Town",
+      "home_away": "A",
+      "score": "5-2",
+      "result": "W",
+      "competition": "League Cup 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-19",
+      "opponent": "West Brom",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-16",
+      "opponent": "Salford",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "League Cup 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-13",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-26",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-20",
+      "opponent": "Sheffield Utd",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-16",
+      "opponent": "Aston Villa",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-12",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-09",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-06",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-01",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-24",
+      "opponent": "Norwich City",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-21",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-08",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-01",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-23",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-08",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-01",
+      "opponent": "Watford",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-21",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-18",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-11",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-05",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "FA Cup 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-01",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-28",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-26",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-21",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-18",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "League Cup 2019/2020",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-15",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-07",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-04",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-01",
+      "opponent": "Leicester",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-23",
+      "opponent": "Norwich City",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-09",
+      "opponent": "Southampton",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-03",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-29",
+      "opponent": "Watford",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "League Cup 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-26",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-19",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-05",
+      "opponent": "Burnley",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-28",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-24",
+      "opponent": "Sheffield Wed.",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "League Cup 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-21",
+      "opponent": "Sheffield Utd",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-15",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-01",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-28",
+      "opponent": "Lincoln City",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "League Cup 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-23",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-17",
+      "opponent": "Watford",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-10",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-12",
+      "opponent": "Tottenham",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-03",
+      "opponent": "Burnley",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-27",
+      "opponent": "Cr. Palace",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-21",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-13",
+      "opponent": "Fulham",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-07",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-30",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-17",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-09",
+      "opponent": "Newcastle",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-03",
+      "opponent": "Liverpool",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-26",
+      "opponent": "Cardiff",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-09",
+      "opponent": "Watford",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-06",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-02",
+      "opponent": "Wolverhampton",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-29",
+      "opponent": "Huddersfield",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-26",
+      "opponent": "Millwall",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "FA Cup 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-19",
+      "opponent": "Southampton",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-13",
+      "opponent": "Bournemouth",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-05",
+      "opponent": "Lincoln City",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "FA Cup 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-01",
+      "opponent": "Leicester",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-29",
+      "opponent": "Brighton & Hove",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-26",
+      "opponent": "Burnley",
+      "home_away": "A",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-23",
+      "opponent": "Tottenham",
+      "home_away": "H",
+      "score": "2-6",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-15",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-10",
+      "opponent": "Watford",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-05",
+      "opponent": "Newcastle",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-02",
+      "opponent": "Liverpool",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-24",
+      "opponent": "Cardiff",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-11",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-03",
+      "opponent": "Brighton & Hove",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-28",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-21",
+      "opponent": "Cr. Palace",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-06",
+      "opponent": "Leicester",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-02",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "3-4",
+      "result": "L",
+      "competition": "League Cup 2018/2019",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-29",
+      "opponent": "Fulham",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-23",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-01",
+      "opponent": "Huddersfield",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-29",
+      "opponent": "Rotherham Utd",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "League Cup 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-25",
+      "opponent": "Bournemouth",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-18",
+      "opponent": "Southampton",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-11",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 245,
+    "end_index": 251,
+    "length": 7
+  }
+}
