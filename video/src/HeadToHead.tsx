@@ -112,8 +112,9 @@ const WinStack: React.FC<{
   wins: number;
   recentMatches: MatchFrame[];
 }> = ({ wins, recentMatches }) => {
-  // Get the last N wins from recent matches
-  const winMatches = recentMatches.filter(m => m.result === "W").slice(-wins);
+  // Show only the CURRENT consecutive wins (0 when streak is broken)
+  // Take the last N matches where N = wins, they should all be W
+  const winMatches = wins > 0 ? recentMatches.slice(-wins) : [];
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 3, minHeight: 140 }}>
