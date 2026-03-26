@@ -1,0 +1,15 @@
+{
+  "name": "hair-length-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx remotion studio",
+    "render": "npx remotion render HeadToHead ~/Downloads/hair-length-ajax-feyenoord.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.277",
+    "react": "^18",
+    "react-dom": "^18",
+    "remotion": "4.0.277"
+  }
+}
