@@ -22,6 +22,11 @@ interface MatchFrame {
   feyWins: number;
   haircut: boolean;
   haircutTeam: string | null;
+  isDirect: boolean;
+  ajaxResult?: string;
+  ajaxScore?: string;
+  feyResult?: string;
+  feyScore?: string;
   daysBetween: number;
 }
 
@@ -289,14 +294,19 @@ export const HeadToHead: React.FC<Props> = ({
         VS
       </div>
 
-      {/* Match date indicator */}
+      {/* Match date indicator + KLASSIEKER banner */}
       {!isIntro && !isOutro && cur && (
         <div style={{
           position: "absolute", top: 16, left: "50%", transform: "translateX(-50%)",
-          fontSize: 14, color: "#6b7280", fontWeight: 600,
-          backgroundColor: "rgba(0,0,0,0.4)", padding: "4px 16px", borderRadius: 20,
+          fontSize: cur?.isDirect ? 18 : 14,
+          color: cur?.isDirect ? "#f59e0b" : "#6b7280",
+          fontWeight: cur?.isDirect ? 900 : 600,
+          backgroundColor: cur?.isDirect ? "rgba(245,158,11,0.15)" : "rgba(0,0,0,0.4)",
+          border: cur?.isDirect ? "2px solid #f59e0b" : "none",
+          padding: cur?.isDirect ? "6px 24px" : "4px 16px",
+          borderRadius: 20,
         }}>
-          {cur.date}
+          {cur?.isDirect ? `DE KLASSIEKER ${cur.date}` : cur.date}
         </div>
       )}
 
@@ -309,9 +319,9 @@ export const HeadToHead: React.FC<Props> = ({
             nextDays={nxt?.ajaxDays ?? cur?.ajaxDays ?? 99}
             wins={cur?.ajaxWins ?? 0}
             matchProgress={matchProgress}
-            currentMatch={cur?.team === "Ajax" ? cur : null}
+            currentMatch={cur?.isDirect ? {...cur, result: (cur as any).ajaxResult || cur.result, score: (cur as any).ajaxScore || cur.score, opponent: "Feyenoord"} : (cur?.team === "Ajax" ? cur : null)}
             recentMatches={ajaxRecent}
-            isActive={matchFrame >= 0 && cur?.team === "Ajax"}
+            isActive={matchFrame >= 0 && (cur?.team === "Ajax" || cur?.isDirect)}
             haircut={cur?.haircutTeam === "Ajax" && matchProgress < 0.5}
           />
           <TeamColumn
@@ -320,9 +330,9 @@ export const HeadToHead: React.FC<Props> = ({
             nextDays={nxt?.feyDays ?? cur?.feyDays ?? 327}
             wins={cur?.feyWins ?? 0}
             matchProgress={matchProgress}
-            currentMatch={cur?.team === "Feyenoord" ? cur : null}
+            currentMatch={cur?.isDirect ? {...cur, result: (cur as any).feyResult || (cur.result === "W" ? "L" : cur.result === "L" ? "W" : "D"), score: (cur as any).feyScore || cur.score, opponent: "Ajax"} : (cur?.team === "Feyenoord" ? cur : null)}
             recentMatches={feyRecent}
-            isActive={matchFrame >= 0 && cur?.team === "Feyenoord"}
+            isActive={matchFrame >= 0 && (cur?.team === "Feyenoord" || cur?.isDirect)}
             haircut={cur?.haircutTeam === "Feyenoord" && matchProgress < 0.5}
           />
         </div>
