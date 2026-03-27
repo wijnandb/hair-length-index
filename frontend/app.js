@@ -20,6 +20,7 @@ let currentPage = 1;
 let allTeamsData = null;
 let currentLeague = "DED";
 const TEAMS_DIR = "data/teams";
+let fixturesData = null;
 
 const TIER_EMOJI = {
   "Fresh cut": "\u{1F487}",
@@ -342,6 +343,13 @@ async function loadData(league) {
     const resp = await fetch(config.file);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
+    // Load fixtures (once)
+    if (!fixturesData) {
+      try {
+        const fResp = await fetch("data/fixtures.json");
+        if (fResp.ok) fixturesData = await fResp.json();
+      } catch (e) { /* fixtures optional */ }
+    }
     renderIndex(data);
     // Update league selector active state
     document.querySelectorAll(".league-tab").forEach((tab) => {
@@ -531,11 +539,29 @@ async function toggleWatchDetail(cardEl, teamId) {
           </div>`;
         }).join("");
 
+        // Find fixture for this team
+        let nextMatchHtml = `<span class="watch-next-label">Volgende wedstrijd bepaalt alles!</span>`;
+        if (fixturesData && teamData.team) {
+          const fix = fixturesData[teamData.team];
+          if (fix) {
+            const fixLogo = getLogoUrl(fix.opponent);
+            const ha = fix.home_away === "H" ? "🏠" : "✈️";
+            const fixDate = formatDateShort(fix.date);
+            nextMatchHtml = `
+              <span class="watch-next-label">Volgende wedstrijd:</span>
+              <div class="watch-match watch-next-match">
+                <span class="watch-match-date">${fixDate}</span>
+                ${fixLogo ? `<img src="${fixLogo}" class="watch-match-logo" alt="" onerror="this.style.display='none'">` : ""}
+                <span class="watch-match-opp">${ha} ${escapeHtml(fix.opponent)}</span>
+              </div>`;
+          }
+        }
+
         detail.innerHTML = `
           <div class="watch-matches-title">De streak:</div>
           ${matchRows}
           <div class="watch-next">
-            <span class="watch-next-label">Volgende wedstrijd bepaalt alles!</span>
+            ${nextMatchHtml}
           </div>
         `;
       } else {
