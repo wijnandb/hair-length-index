@@ -171,6 +171,52 @@ function renderGrowthStrip(teamData) {
   `;
 }
 
+function renderStreakDetail(teamData) {
+  const matches = teamData.matches;
+  const streak = teamData.streak;
+  const teamName = teamData.team;
+  if (!streak || !streak.found || !matches) return "";
+
+  const startIdx = streak.start_index;
+  const endIdx = streak.end_index;
+  const streakMatches = matches.slice(startIdx, endIdx + 1);
+
+  // Streak matches are newest-first in the array, reverse for chronological display
+  const chronological = [...streakMatches].reverse();
+
+  const rows = chronological.map((m, i) => {
+    const oppLogo = getLogoUrl(m.opponent);
+    const ha = m.home_away === "H" ? "🏠" : "✈️";
+    const extra = m.decided_in === "PENALTIES" ? " (w.n.s.)" :
+                  m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
+    const ytUrl = youtubeSearchUrl(teamName, m.opponent, m.home_away, m.date);
+    return `
+      <div class="streak-match">
+        <span class="streak-match-num">${i + 1}</span>
+        <span class="streak-match-date">${formatDateShort(m.date)}</span>
+        <span class="streak-match-ha">${ha}</span>
+        ${oppLogo ? `<img src="${oppLogo}" class="streak-match-logo" alt="" onerror="this.style.display='none'">` : '<span class="streak-match-logo-placeholder"></span>'}
+        <span class="streak-match-opp">${escapeHtml(m.opponent)}</span>
+        <span class="streak-match-score">${m.score}${extra}</span>
+        <span class="streak-match-comp">${escapeHtml(m.competition)}</span>
+        <a href="${ytUrl}" target="_blank" rel="noopener" class="streak-match-yt" title="Zoek samenvatting">🎬</a>
+      </div>`;
+  }).join("");
+
+  // Calculate date of first and last match in streak
+  const firstDate = chronological[0]?.date;
+  const lastDate = chronological[chronological.length - 1]?.date;
+
+  return `
+    <div class="streak-detail">
+      <div class="streak-detail-header">
+        <span class="streak-detail-title">✂️ De streak: ${streak.length}x winst op rij</span>
+        <span class="streak-detail-dates">${formatDateShort(firstDate)} — ${formatDateShort(lastDate)}</span>
+      </div>
+      <div class="streak-matches">${rows}</div>
+    </div>`;
+}
+
 function youtubeSearchUrl(teamName, opponent, homeAway, date) {
   const home = homeAway === "H" ? teamName : opponent;
   const away = homeAway === "H" ? opponent : teamName;
@@ -194,11 +240,13 @@ function renderMatchTable(teamData) {
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
     const rowClass = isStreak ? "streak-row" : "";
     const ytUrl = youtubeSearchUrl(teamName, m.opponent, m.home_away, m.date);
+    const oppLogo = getLogoUrl(m.opponent);
+    const logoImg = oppLogo ? `<img src="${oppLogo}" class="match-opp-logo" alt="" onerror="this.style.display='none'">` : "";
     return `
       <tr class="match-row ${r} ${rowClass}">
         <td class="match-date">${m.date}</td>
         <td class="match-result-dot"><span class="form-dot ${r}">${r}</span></td>
-        <td class="match-opponent">${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
+        <td class="match-opponent">${logoImg}${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
         <td class="match-score">${m.score}${extra}</td>
         <td class="match-comp">${escapeHtml(m.competition)}</td>
         <td class="match-yt"><a href="${ytUrl}" target="_blank" rel="noopener" class="yt-link" title="Zoek samenvatting">&#x1F3AC;</a></td>
@@ -402,7 +450,7 @@ async function toggleDetail(cardEl) {
     if (detail.querySelector(".detail-loading")) {
       const teamData = await loadTeamDetail(teamId);
       if (teamData) {
-        detail.innerHTML = renderGrowthStrip(teamData) + renderMatchTable(teamData);
+        detail.innerHTML = renderGrowthStrip(teamData) + renderStreakDetail(teamData) + renderMatchTable(teamData);
         // Auto-scroll to streak
         const streakEl = detail.querySelector('[data-streak-start="true"]');
         if (streakEl) {
