@@ -353,12 +353,23 @@ def run_import(
     dry_run: bool = False,
 ) -> None:
     """Main entry point: fetch and import match data for a team."""
-    # Look up team info
+    # Look up team info from KNOWN_TEAMS and central registry
     team_info = None
     for name, (wf_id, slug) in KNOWN_TEAMS.items():
         if slug == team_key or name.lower() == team_key.lower():
             team_info = (name, wf_id, slug)
             break
+
+    # Also check central registry (has European teams)
+    if not team_info:
+        try:
+            from scripts.team_registry import TEAMS
+            for name, (wf_id, slug, league) in TEAMS.items():
+                if slug == team_key or name.lower() == team_key.lower():
+                    team_info = (name, wf_id, slug)
+                    break
+        except ImportError:
+            pass
 
     if not team_info:
         log.error(f"Unknown team: {team_key}. Use --list-teams to see available teams.")
