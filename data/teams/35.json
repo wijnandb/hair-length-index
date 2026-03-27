@@ -3064,6 +3064,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-04-03",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-07",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-01-10",
       "opponent": "Sassuolo Calcio",
       "home_away": "H",
@@ -3076,6 +3096,26 @@
     {
       "date": "2015-12-05",
       "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-08",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-23",
+      "opponent": "Hellas Verona",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -4600,6 +4640,166 @@
       "score": "1-0",
       "result": "W",
       "competition": "Serie A 2011/2012",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-03-06",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
+      "competition": "Serie A 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-01-12",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Coppa Italia 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-10-29",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-03-07",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2009/2010",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-10-17",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Serie A 2009/2010",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-03-07",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-02-01",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-01-13",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Coppa Italia 2008/2009",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-10-26",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-09-21",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-04-20",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-03-19",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-12-09",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-10-31",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-05-27",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2006/2007",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-01-13",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2006/2007",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     }
