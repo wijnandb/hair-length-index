@@ -386,7 +386,7 @@ export const HeadToHead: React.FC<Props> = ({
             </div>
           </div>
           <div style={{ fontSize: 22, color: "#f59e0b", marginTop: 36, fontWeight: 700 }}>
-            hairlengthindex.nl
+            wijnandb.github.io/hair-length-index
           </div>
           <div style={{ fontSize: 14, color: "#6b7280", marginTop: 8 }}>
             Check jouw club!
@@ -399,7 +399,7 @@ export const HeadToHead: React.FC<Props> = ({
         position: "absolute", bottom: 8, left: 0, right: 0,
         textAlign: "center", fontSize: 11, color: "rgba(255,255,255,0.15)",
       }}>
-        hairlengthindex.nl
+        wijnandb.github.io/hair-length-index
       </div>
     </AbsoluteFill>
   );

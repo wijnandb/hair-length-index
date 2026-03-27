@@ -105,7 +105,7 @@ export const SocialCard: React.FC<Props> = ({
         position: "absolute", bottom: 40, fontSize: 20,
         color: "#f59e0b", fontWeight: 700,
       }}>
-        hairlengthindex.nl
+        wijnandb.github.io/hair-length-index
       </div>
 
       {/* League badge */}

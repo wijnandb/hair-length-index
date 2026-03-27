@@ -10,7 +10,7 @@ Usage:
 
 import random
 
-URL = "hairlengthindex.nl"
+URL = "wijnandb.github.io/hair-length-index/"
 
 # === BARBER ALERT ===
 BARBER_ALERT_NL = [
