@@ -75,21 +75,71 @@ def item_id(item: dict) -> str:
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
 
+def build_facets(text: str):
+    """Parse hashtags and URLs in text, create Bluesky facets for clickability."""
+    import re
+    from atproto import models
+
+    facets = []
+    # Hashtags
+    for match in re.finditer(r"#(\w+)", text):
+        tag = match.group(1)
+        start = len(text[:match.start()].encode("utf-8"))
+        end = len(text[:match.end()].encode("utf-8"))
+        facets.append(models.AppBskyRichtextFacet.Main(
+            index=models.AppBskyRichtextFacet.ByteSlice(byteStart=start, byteEnd=end),
+            features=[models.AppBskyRichtextFacet.Tag(tag=tag)],
+        ))
+    # URLs (simple http/https or domain patterns)
+    for match in re.finditer(r"(https?://\S+|wijnandb\.github\.io\S*)", text):
+        url = match.group(0)
+        full_url = url if url.startswith("http") else f"https://{url}"
+        start = len(text[:match.start()].encode("utf-8"))
+        end = len(text[:match.end()].encode("utf-8"))
+        facets.append(models.AppBskyRichtextFacet.Main(
+            index=models.AppBskyRichtextFacet.ByteSlice(byteStart=start, byteEnd=end),
+            features=[models.AppBskyRichtextFacet.Link(uri=full_url)],
+        ))
+    return facets if facets else None
+
+
+def compress_image(image_data: bytes, max_size: int = 950_000) -> bytes:
+    """Compress image to fit Bluesky's 1MB limit."""
+    if len(image_data) <= max_size:
+        return image_data
+    import subprocess, tempfile
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_in:
+        tmp_in.write(image_data)
+        tmp_in_path = tmp_in.name
+    tmp_out_path = tmp_in_path.replace(".png", "-compressed.jpg")
+    subprocess.run(["convert", tmp_in_path, "-quality", "85", "-resize", "1080x1080", tmp_out_path],
+                   capture_output=True)
+    with open(tmp_out_path, "rb") as f:
+        compressed = f.read()
+    os.unlink(tmp_in_path)
+    os.unlink(tmp_out_path)
+    return compressed
+
+
 def post_with_image(client: Client, text: str, image_path: Path | None = None) -> str:
-    """Post to Bluesky, optionally with an image. Returns the post URI."""
+    """Post to Bluesky with auto-facets and image compression."""
+    from atproto import models
+
+    facets = build_facets(text)
+
     if image_path and image_path.exists():
         with open(image_path, "rb") as f:
-            image_data = f.read()
-        # Upload the image
+            image_data = compress_image(f.read())
         upload = client.upload_blob(image_data)
-        # Create post with image embed
-        post = client.send_image(
-            text=text,
-            image=image_data,
-            image_alt=f"Hair Length Index social card",
+        embed = models.AppBskyEmbedImages.Main(
+            images=[models.AppBskyEmbedImages.Image(
+                alt="Hair Length Index",
+                image=upload.blob,
+            )]
         )
+        post = client.send_post(text=text, facets=facets, embed=embed)
     else:
-        post = client.send_post(text=text)
+        post = client.send_post(text=text, facets=facets)
 
     return post.uri
 

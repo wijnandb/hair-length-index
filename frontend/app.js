@@ -113,6 +113,13 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+// Team logo lookup — loaded from logo-map.json
+let LOGO_MAP = {};
+fetch("logo-map.json").then(r => r.ok ? r.json() : {}).then(m => { LOGO_MAP = m; }).catch(() => {});
+function getLogoUrl(teamName) {
+  return LOGO_MAP[teamName] || null;
+}
+
 // === Hair Growth Strip ===
 
 function renderGrowthStrip(teamData) {
@@ -243,7 +250,8 @@ function renderTeamCard(team, rank) {
         <div class="rank">${rank}</div>
 
         <div class="avatar">
-          <img src="${avatar}" alt="${escapeHtml(team.hair_tier)}" class="avatar-img" loading="lazy">
+          <img src="${getLogoUrl(team.team) || avatar}" alt="${escapeHtml(team.team)}" class="avatar-img" loading="lazy"
+               onerror="this.src='${avatar}'">
         </div>
 
         <div class="team-info">
