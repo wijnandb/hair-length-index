@@ -15,6 +15,7 @@ from datetime import datetime
 from pathlib import Path
 
 from scripts.config import DATA_DIR
+from scripts.fan_data import get_birthday_teams, get_milestone, get_rivalry, CLUB_HASHTAGS
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -137,6 +138,86 @@ def detect_events(current: dict, previous: dict) -> list[dict]:
                 "platforms": ["bluesky", "twitter"],
                 "render_card": False,
             })
+
+        # 4. MILESTONE: days_since hits a round number (100, 365, 1000, etc.)
+        milestone = get_milestone(days) if days else None
+        if milestone:
+            events.append({
+                "type": "milestone",
+                "priority": 4,
+                "team": name,
+                "league": league,
+                "league_name": team.get("league_name", league),
+                "language": lang,
+                "days_since": days,
+                "milestone": milestone,
+                "hair_tier": team.get("hair_tier", ""),
+                "platforms": ["bluesky", "twitter"],
+                "render_card": False,
+            })
+
+        # 5. COUNTDOWN: team on 4 wins (1 away from haircut!)
+        if wins == 4 and days and days > 60:
+            events.append({
+                "type": "countdown",
+                "priority": 2,
+                "team": name,
+                "league": league,
+                "league_name": team.get("league_name", league),
+                "language": lang,
+                "days_since": days,
+                "hair_tier": team.get("hair_tier", ""),
+                "platforms": ["bluesky", "twitter", "instagram"],
+                "render_card": True,
+            })
+
+    # 6. BIRTHDAY: club founding anniversary
+    birthday_teams = get_birthday_teams()
+    team_map = {t["team"]: t for t in current.get("teams", [])}
+    for bteam in birthday_teams:
+        if bteam in team_map:
+            t = team_map[bteam]
+            league = t.get("league", "DED")
+            events.append({
+                "type": "birthday",
+                "priority": 4,
+                "team": bteam,
+                "league": league,
+                "league_name": t.get("league_name", league),
+                "language": LEAGUE_LANG.get(league, "en"),
+                "days_since": t.get("days_since"),
+                "hair_tier": t.get("hair_tier", ""),
+                "platforms": ["bluesky", "twitter"],
+                "render_card": False,
+            })
+
+    # 7. DERBY ALERT: two rivalry teams both with long drought
+    fixtures_path = DATA_DIR / "fixtures.json"
+    if fixtures_path.exists():
+        with open(fixtures_path) as ff:
+            fixtures = json.load(ff)
+        for fix_team, fix in fixtures.items():
+            rivalry = get_rivalry(fix_team, fix.get("opponent", ""))
+            if rivalry:
+                t = team_map.get(fix_team)
+                if t and t.get("days_since", 0) and t["days_since"] > 60:
+                    league = t.get("league", "DED")
+                    events.append({
+                        "type": "derby_alert",
+                        "priority": 3,
+                        "team": fix_team,
+                        "opponent": fix.get("opponent", ""),
+                        "rivalry_name": rivalry["name"],
+                        "rivalry_hashtags": rivalry.get("hashtags", []),
+                        "date": fix.get("date", ""),
+                        "home_away": fix.get("home_away", ""),
+                        "league": league,
+                        "league_name": t.get("league_name", league),
+                        "language": LEAGUE_LANG.get(league, "en"),
+                        "days_since": t["days_since"],
+                        "platforms": ["bluesky", "twitter"],
+                        "render_card": False,
+                    })
 
     # Sort by priority
     events.sort(key=lambda e: e["priority"])

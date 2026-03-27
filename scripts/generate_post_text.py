@@ -54,6 +54,46 @@ WEEKLY_EN = [
     "Hair Length Index — weekly update 📊\n\n🧔 Longest hair: {longest_team} ({longest_days} days, {longest_league})\n💇 Freshest cut: {freshest_team} ({freshest_days} days, {freshest_league})\n{almost_text}\n\n{total_teams} clubs across 7 leagues.\n{url}\n\n#HairLengthIndex",
 ]
 
+# === MILESTONE ===
+MILESTONE_NL = [
+    "📅 {team}: vandaag precies {milestone} dagen zonder 5 op rij.\n\nDat is {human_days}.\n\n{url}\n\n#HairLengthIndex #{league_tag}",
+    "{milestone} dagen! 🧔 {team} wacht al {human_days} op 5 overwinningen op rij.\n\n{url}\n\n#HairLengthIndex",
+]
+
+MILESTONE_EN = [
+    "📅 {team}: exactly {milestone} days without 5 in a row.\n\nThat's {human_days}.\n\n{url}\n\n#HairLengthIndex #{league_tag}",
+    "{milestone} days! 🧔 {team} has been waiting {human_days} for 5 wins in a row.\n\n{url}\n\n#HairLengthIndex",
+]
+
+# === COUNTDOWN (4 op rij!) ===
+COUNTDOWN_NL = [
+    "🔥 {team} heeft 4 op rij! Nog EEN wedstrijd winnen voor een kappersbezoek!\n\nAl {days_since} dagen lang haar. Dit is het moment.\n\n{url}\n\n#HairLengthIndex #BijnaBijDeKapper",
+    "NOG EENTJE! {team} staat op 4 overwinningen op rij. 🔥\n\nDe kapper staat klaar. {days_since} dagen wachten.\n\n{url}\n\n#HairLengthIndex",
+]
+
+COUNTDOWN_EN = [
+    "🔥 {team} have won 4 in a row! ONE more win for a haircut!\n\n{days_since} days of long hair. This is the moment.\n\n{url}\n\n#HairLengthIndex",
+    "ONE MORE! {team} are on 4 wins in a row. 🔥\n\nThe barber is ready. {days_since} days waiting.\n\n{url}\n\n#HairLengthIndex",
+]
+
+# === BIRTHDAY ===
+BIRTHDAY_NL = [
+    "🎂 Gefeliciteerd {team}!\n\nEn hun haar? Al {days_since} dagen geen 5 op rij.\n\nVerjaardagscadeau: een kappersbezoek?\n\n{url}\n\n#HairLengthIndex #{league_tag}",
+]
+
+BIRTHDAY_EN = [
+    "🎂 Happy birthday {team}!\n\nAnd their hair? {days_since} days without 5 in a row.\n\nBirthday wish: a trip to the barber?\n\n{url}\n\n#HairLengthIndex #{league_tag}",
+]
+
+# === DERBY ALERT ===
+DERBY_NL = [
+    "⚔️ {rivalry_name}! {team} vs {opponent}\n\n{team} wacht al {days_since} dagen op 5 op rij.\n\nKan de derby het begin zijn van een streak?\n\n{url}\n\n#HairLengthIndex {extra_tags}",
+]
+
+DERBY_EN = [
+    "⚔️ {rivalry_name}! {team} vs {opponent}\n\n{team} has waited {days_since} days for 5 in a row.\n\nCan the derby spark a streak?\n\n{url}\n\n#HairLengthIndex {extra_tags}",
+]
+
 RESULT_MAP = {"L": "verlies", "D": "gelijkspel", "W": "winst"}
 RESULT_MAP_EN = {"L": "loss", "D": "draw", "W": "win"}
 
@@ -107,5 +147,25 @@ def generate_text(item: dict) -> str:
         }
         templates = WEEKLY_NL if lang == "nl" else WEEKLY_EN
         return random.choice(templates).format(**data)
+
+    elif item_type == "milestone":
+        from scripts.fan_data import days_to_human
+        item["human_days"] = days_to_human(item.get("milestone", 0))
+        templates = MILESTONE_NL if lang == "nl" else MILESTONE_EN
+        return random.choice(templates).format(**item)
+
+    elif item_type == "countdown":
+        templates = COUNTDOWN_NL if lang == "nl" else COUNTDOWN_EN
+        return random.choice(templates).format(**item)
+
+    elif item_type == "birthday":
+        templates = BIRTHDAY_NL if lang == "nl" else BIRTHDAY_EN
+        return random.choice(templates).format(**item)
+
+    elif item_type == "derby_alert":
+        extra = " ".join(item.get("rivalry_hashtags", []))
+        item["extra_tags"] = extra
+        templates = DERBY_NL if lang == "nl" else DERBY_EN
+        return random.choice(templates).format(**item)
 
     return f"Hair Length Index update: {item.get('team', 'check it out')} — {URL}"

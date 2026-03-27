@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-27T20:41:07.776677",
-  "total_events": 7,
+  "generated_at": "2026-03-27T21:51:21.682298",
+  "total_events": 10,
   "items": [
     {
       "type": "bijna_bij_de_kapper",
@@ -90,6 +90,22 @@
         "twitter"
       ],
       "render_card": false
+    },
+    {
+      "type": "countdown",
+      "priority": 2,
+      "team": "AS Monaco",
+      "league": "L1",
+      "league_name": "Ligue 1",
+      "language": "en",
+      "days_since": 580,
+      "hair_tier": "Sasquatch",
+      "platforms": [
+        "bluesky",
+        "twitter",
+        "instagram"
+      ],
+      "render_card": true
     },
     {
       "type": "bijna_bij_de_kapper",
@@ -263,6 +279,22 @@
       "render_card": false
     },
     {
+      "type": "countdown",
+      "priority": 2,
+      "team": "SSC Napoli",
+      "league": "SA",
+      "league_name": "Serie A",
+      "language": "en",
+      "days_since": 110,
+      "hair_tier": "Getting shaggy",
+      "platforms": [
+        "bluesky",
+        "twitter",
+        "instagram"
+      ],
+      "render_card": true
+    },
+    {
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "Paris Saint-Germain",
@@ -297,6 +329,22 @@
           "home_away": "H"
         }
       ],
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "milestone",
+      "priority": 4,
+      "team": "Ajax",
+      "league": "DED",
+      "league_name": "Eredivisie",
+      "language": "nl",
+      "days_since": 100,
+      "milestone": 100,
+      "hair_tier": "Getting shaggy",
       "platforms": [
         "bluesky",
         "twitter"

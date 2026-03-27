@@ -1,0 +1,60 @@
+name: Social Media Posting
+
+on:
+  schedule:
+    # Run daily at 10:00 UTC (lunchtime in Europe — good engagement)
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (preview without posting)"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+      BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt atproto
+
+      - name: Generate social content queue
+        run: python -m scripts.generate_social_content
+
+      - name: Post to Bluesky
+        if: >-
+          github.event.inputs.dry_run != 'true'
+          && env.BLUESKY_HANDLE != ''
+        run: python -m scripts.post_bluesky
+
+      - name: Dry run preview
+        if: github.event.inputs.dry_run == 'true' || env.BLUESKY_HANDLE == ''
+        run: python -m scripts.post_bluesky --dry-run
+
+      - name: Commit tracking files
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/social-queue.json data/social-posted.json data/hair-index-global.prev.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Social post $(date -u +%Y-%m-%d)"
+          git push || true
