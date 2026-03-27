@@ -1,0 +1,2593 @@
+{
+  "team_id": 307,
+  "team": "AJ Auxerre",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2026-03-21",
+      "opponent": "Stade Brest",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "Marseille",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Strasbourg",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "Lorient",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-22",
+      "opponent": "Stade Rennais",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "Metz",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Paris FC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Toulouse",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-23",
+      "opponent": "Paris SG",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "RC Lens",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Stade Brest",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "AS Monaco",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Coupe de France 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Lille",
+      "home_away": "H",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "Metz",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-29",
+      "opponent": "Paris FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-23",
+      "opponent": "Lyonnais",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-09",
+      "opponent": "Angers",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-01",
+      "opponent": "Marseille",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-29",
+      "opponent": "Strasbourg",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-26",
+      "opponent": "HAC",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-19",
+      "opponent": "Stade Rennais",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-04",
+      "opponent": "RC Lens",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-27",
+      "opponent": "Paris SG",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-21",
+      "opponent": "Toulouse",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-13",
+      "opponent": "AS Monaco",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-30",
+      "opponent": "FC Nantes",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-23",
+      "opponent": "Nice",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-17",
+      "opponent": "Lorient",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-17",
+      "opponent": "Paris SG",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "FC Nantes",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "HAC",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-27",
+      "opponent": "RC Lens",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-20",
+      "opponent": "Lille",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-13",
+      "opponent": "Lyonnais",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-06",
+      "opponent": "Stade Rennais",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-30",
+      "opponent": "Montpellier",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-14",
+      "opponent": "Nice",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-09",
+      "opponent": "Stade Reims",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-02",
+      "opponent": "Strasbourg",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-22",
+      "opponent": "Marseille",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-14",
+      "opponent": "Stade Brest",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-09",
+      "opponent": "Toulouse",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-01",
+      "opponent": "AS Monaco",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-24",
+      "opponent": "Saint-Étienne",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-19",
+      "opponent": "Angers",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-10",
+      "opponent": "Lille",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-05",
+      "opponent": "Strasbourg",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-22",
+      "opponent": "USL Dunkerque",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Coupe de France 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-14",
+      "opponent": "RC Lens",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-06",
+      "opponent": "Paris SG",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-01",
+      "opponent": "Toulouse",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-24",
+      "opponent": "Angers",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-08",
+      "opponent": "Marseille",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-03",
+      "opponent": "Stade Rennais",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-27",
+      "opponent": "Lyonnais",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-20",
+      "opponent": "Stade Reims",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-05",
+      "opponent": "Saint-Étienne",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-27",
+      "opponent": "Stade Brest",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-22",
+      "opponent": "Montpellier",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-14",
+      "opponent": "AS Monaco",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-01",
+      "opponent": "HAC",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-25",
+      "opponent": "FC Nantes",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-18",
+      "opponent": "Nice",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 1 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-17",
+      "opponent": "Concarneau",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-10",
+      "opponent": "Amiens",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-04",
+      "opponent": "Paris FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-29",
+      "opponent": "USL Dunkerque",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-23",
+      "opponent": "Laval",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-20",
+      "opponent": "Rodez AF",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-13",
+      "opponent": "US Quevilly",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-08",
+      "opponent": "ESTAC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-01",
+      "opponent": "AC Ajaccio",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-16",
+      "opponent": "SM Caen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-09",
+      "opponent": "Saint-Étienne",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-02",
+      "opponent": "VAFC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-24",
+      "opponent": "Bastia",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-17",
+      "opponent": "FC Annecy",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-10",
+      "opponent": "Angers",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-03",
+      "opponent": "Pau FC",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-27",
+      "opponent": "Guingamp",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-23",
+      "opponent": "Grenoble",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-15",
+      "opponent": "Bordeaux",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-06",
+      "opponent": "Nice",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Coupe de France 2023/2024",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-19",
+      "opponent": "Laval",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-16",
+      "opponent": "AC Ajaccio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-09",
+      "opponent": "FC Saint-Méziéry",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Coupe de France 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-05",
+      "opponent": "Concarneau",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-02",
+      "opponent": "US Quevilly",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-25",
+      "opponent": "Bastia",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-18",
+      "opponent": "Pays de Valois",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Coupe de France 2023/2024",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-11",
+      "opponent": "Saint-Étienne",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-06",
+      "opponent": "Guingamp",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-28",
+      "opponent": "USL Dunkerque",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-21",
+      "opponent": "SM Caen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-07",
+      "opponent": "Paris FC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-30",
+      "opponent": "Rodez AF",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-26",
+      "opponent": "FC Annecy",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-23",
+      "opponent": "ESTAC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-16",
+      "opponent": "Pau FC",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-02",
+      "opponent": "Bordeaux",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-26",
+      "opponent": "Grenoble",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-19",
+      "opponent": "Angers",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-12",
+      "opponent": "Amiens",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-05",
+      "opponent": "VAFC",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-06-03",
+      "opponent": "RC Lens",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-27",
+      "opponent": "Toulouse",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-21",
+      "opponent": "Paris SG",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-14",
+      "opponent": "Stade Brest",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-07",
+      "opponent": "Clermont Foot",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-30",
+      "opponent": "Marseille",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-22",
+      "opponent": "Lille",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-16",
+      "opponent": "FC Nantes",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-09",
+      "opponent": "AC Ajaccio",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-01",
+      "opponent": "ESTAC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-19",
+      "opponent": "Strasbourg",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-11",
+      "opponent": "Stade Rennais",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-03",
+      "opponent": "Nice",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-26",
+      "opponent": "Lorient",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-17",
+      "opponent": "Lyonnais",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-12",
+      "opponent": "Angers",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-08",
+      "opponent": "Rodez AF",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Coupe de France 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-05",
+      "opponent": "Stade Reims",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-01",
+      "opponent": "AS Monaco",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-29",
+      "opponent": "Montpellier",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-22",
+      "opponent": "Niort",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coupe de France 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-14",
+      "opponent": "RC Lens",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-11",
+      "opponent": "Toulouse",
+      "home_away": "H",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-08",
+      "opponent": "USL Dunkerque",
+      "home_away": "A",
+      "score": "5-4",
+      "result": "W",
+      "competition": "Coupe de France 2022/2023",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-01",
+      "opponent": "FC Nantes",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-28",
+      "opponent": "AS Monaco",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-13",
+      "opponent": "Paris SG",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-04",
+      "opponent": "ESTAC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-30",
+      "opponent": "AC Ajaccio",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-23",
+      "opponent": "Stade Reims",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-16",
+      "opponent": "Nice",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-09",
+      "opponent": "Clermont Foot",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-02",
+      "opponent": "Stade Brest",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-16",
+      "opponent": "Lorient",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-11",
+      "opponent": "Stade Rennais",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "Marseille",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-31",
+      "opponent": "Lyonnais",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-27",
+      "opponent": "Strasbourg",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-21",
+      "opponent": "Montpellier",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-14",
+      "opponent": "Angers",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-07",
+      "opponent": "Lille",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Ligue 1 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-29",
+      "opponent": "Saint-Étienne",
+      "home_away": "A",
+      "score": "5-4",
+      "result": "W",
+      "competition": "Relegation Ligue 1 2021/2022",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-26",
+      "opponent": "Saint-Étienne",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Relegation Ligue 1 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-20",
+      "opponent": "Sochaux",
+      "home_away": "H",
+      "score": "5-4",
+      "result": "W",
+      "competition": "Relegation Ligue 1 2021/2022",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-14",
+      "opponent": "Amiens",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-07",
+      "opponent": "HAC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-30",
+      "opponent": "USL Dunkerque",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-23",
+      "opponent": "SM Caen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-19",
+      "opponent": "Dijon FCO",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-16",
+      "opponent": "Pau FC",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-09",
+      "opponent": "VAFC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-02",
+      "opponent": "Bastia",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-19",
+      "opponent": "Toulouse",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-15",
+      "opponent": "Nîmes",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-12",
+      "opponent": "Sochaux",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-05",
+      "opponent": "Rodez AF",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-26",
+      "opponent": "US Quevilly",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-19",
+      "opponent": "Niort",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-12",
+      "opponent": "AS Nancy",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-05",
+      "opponent": "Guingamp",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-01",
+      "opponent": "Paris FC",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-28",
+      "opponent": "AC Ajaccio",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-08",
+      "opponent": "Grenoble",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-21",
+      "opponent": "HAC",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-18",
+      "opponent": "Lille",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Coupe de France 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-11",
+      "opponent": "USL Dunkerque",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-04",
+      "opponent": "SM Caen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-27",
+      "opponent": "Chambéry",
+      "home_away": "A",
+      "score": "6-4",
+      "result": "W",
+      "competition": "Coupe de France 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-22",
+      "opponent": "Dijon FCO",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-13",
+      "opponent": "Limonest",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Coupe de France 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-06",
+      "opponent": "Pau FC",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-01",
+      "opponent": "VAFC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-25",
+      "opponent": "Bastia",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-16",
+      "opponent": "Toulouse",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-02",
+      "opponent": "Nîmes",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-24",
+      "opponent": "Sochaux",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-21",
+      "opponent": "Rodez AF",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-18",
+      "opponent": "US Quevilly",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-11",
+      "opponent": "Niort",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-28",
+      "opponent": "AS Nancy",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-23",
+      "opponent": "Guingamp",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-16",
+      "opponent": "Paris FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-07",
+      "opponent": "AC Ajaccio",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-02",
+      "opponent": "Grenoble",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-07-24",
+      "opponent": "Amiens",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-15",
+      "opponent": "Sochaux",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-08",
+      "opponent": "Grenoble",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-01",
+      "opponent": "SM Caen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-24",
+      "opponent": "USL Dunkerque",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-20",
+      "opponent": "Pau FC",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-17",
+      "opponent": "AS Nancy",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-10",
+      "opponent": "Niort",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-05",
+      "opponent": "HAC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-20",
+      "opponent": "VAFC",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-13",
+      "opponent": "Paris FC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-02",
+      "opponent": "Amiens",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-27",
+      "opponent": "Rodez AF",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-20",
+      "opponent": "FC Chambly",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-13",
+      "opponent": "Guingamp",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-10",
+      "opponent": "Marseille",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Coupe de France 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-05",
+      "opponent": "AC Ajaccio",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-02",
+      "opponent": "Toulouse",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-30",
+      "opponent": "ESTAC",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-23",
+      "opponent": "Clermont Foot",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-19",
+      "opponent": "ESTAC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coupe de France 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-16",
+      "opponent": "Châteauroux",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-09",
+      "opponent": "Grenoble",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-05",
+      "opponent": "SM Caen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-22",
+      "opponent": "USL Dunkerque",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-18",
+      "opponent": "Pau FC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-12",
+      "opponent": "AS Nancy",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-05",
+      "opponent": "Niort",
+      "home_away": "H",
+      "score": "6-0",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-01",
+      "opponent": "HAC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-28",
+      "opponent": "VAFC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-21",
+      "opponent": "Paris FC",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-07",
+      "opponent": "Amiens",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-31",
+      "opponent": "Rodez AF",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-24",
+      "opponent": "FC Chambly",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-19",
+      "opponent": "Guingamp",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-03",
+      "opponent": "AC Ajaccio",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-26",
+      "opponent": "Toulouse",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-21",
+      "opponent": "ESTAC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-12",
+      "opponent": "Clermont Foot",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-29",
+      "opponent": "Châteauroux",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-22",
+      "opponent": "Sochaux",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 2 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-06",
+      "opponent": "HAC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-28",
+      "opponent": "Niort",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-24",
+      "opponent": "ESTAC",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-14",
+      "opponent": "FC Chambly",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-07",
+      "opponent": "AC Ajaccio",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-04",
+      "opponent": "Clermont Foot",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-31",
+      "opponent": "Guingamp",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-24",
+      "opponent": "Sochaux",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-10",
+      "opponent": "Le Mans",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-20",
+      "opponent": "AS Nancy",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-13",
+      "opponent": "Lorient",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-03",
+      "opponent": "VAFC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-29",
+      "opponent": "US Orléans",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-22",
+      "opponent": "Paris FC",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-08",
+      "opponent": "SM Caen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-01",
+      "opponent": "Châteauroux",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-25",
+      "opponent": "Grenoble",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-21",
+      "opponent": "RC Lens",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-05",
+      "opponent": "HAC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-27",
+      "opponent": "Niort",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-20",
+      "opponent": "ESTAC",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-13",
+      "opponent": "FC Chambly",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-30",
+      "opponent": "AC Ajaccio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-23",
+      "opponent": "Clermont Foot",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-19",
+      "opponent": "Guingamp",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-13",
+      "opponent": "Béziers",
+      "home_away": "H",
+      "score": "5-6",
+      "result": "L",
+      "competition": "Coupe de la Ligue 2019/2020",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-09",
+      "opponent": "Sochaux",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-02",
+      "opponent": "Le Mans",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-07-26",
+      "opponent": "Rodez AF",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Ligue 2 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 83,
+    "end_index": 87,
+    "length": 5
+  }
+}

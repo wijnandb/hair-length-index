@@ -1,0 +1,5503 @@
+{
+  "team_id": 186,
+  "team": "Juventus",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2026-03-21",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-21",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Pisa SC",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-25",
+      "opponent": "Galatasaray",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "Como 1907",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-17",
+      "opponent": "Galatasaray",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-05",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Coppa Italia 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Parma",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-28",
+      "opponent": "AS Monaco",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-25",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-25",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "Benfica",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Cagliari",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Cagliari Calcio",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-12",
+      "opponent": "US Cremonese",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-12",
+      "opponent": "Cremonese",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Sassuolo",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "US Lecce",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-27",
+      "opponent": "Pisa SC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-10",
+      "opponent": "Pafos FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-02",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-02",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-29",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-29",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-25",
+      "opponent": "Bodø/Glimt",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-22",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-22",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-04",
+      "opponent": "Sporting",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-01",
+      "opponent": "US Cremonese",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-01",
+      "opponent": "Cremonese",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-29",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-29",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-26",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-26",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-22",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-19",
+      "opponent": "Como 1907",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-05",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-01",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-01",
+      "opponent": "Villarreal CF",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-27",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-20",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-16",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "4-4",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-16",
+      "opponent": "Borussia Dortmund",
+      "home_away": "H",
+      "score": "4-4",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-13",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-31",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-24",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-24",
+      "opponent": "Parma",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-07-01",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Club World Cup 2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-06-26",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Club World Cup 2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-06-26",
+      "opponent": "Manchester City",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Club World Cup 2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-06-22",
+      "opponent": "Wydad AC",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Club World Cup 2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-06-19",
+      "opponent": "Al Ain FC",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Club World Cup 2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-25",
+      "opponent": "Venezia FC",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-18",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-18",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-27",
+      "opponent": "AC Monza",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-23",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-23",
+      "opponent": "Parma",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-12",
+      "opponent": "US Lecce",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-12",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-06",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-29",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-16",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-16",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-09",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-03",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-26",
+      "opponent": "Empoli",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Coppa Italia 2024/2025",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-23",
+      "opponent": "Cagliari",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-23",
+      "opponent": "Cagliari Calcio",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-19",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-16",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-11",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-07",
+      "opponent": "Como 1907",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-02",
+      "opponent": "Empoli",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-29",
+      "opponent": "Benfica",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-25",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-25",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-21",
+      "opponent": "Brugge KV",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-18",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-14",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-11",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-03",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Supercoppa 2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-29",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-29",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-22",
+      "opponent": "AC Monza",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-17",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coppa Italia 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-17",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coppa Italia 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-14",
+      "opponent": "Venezia FC",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-11",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-11",
+      "opponent": "Manchester City",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-07",
+      "opponent": "Bologna",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-07",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-01",
+      "opponent": "US Lecce",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-01",
+      "opponent": "Lecce",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-27",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-23",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-09",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-05",
+      "opponent": "Lille OSC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-05",
+      "opponent": "Lille",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-02",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-02",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-30",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-30",
+      "opponent": "Parma",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-27",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "4-4",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-22",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-22",
+      "opponent": "VfB Stuttgart",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-19",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-19",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-06",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-06",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-02",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-28",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-21",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-21",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-17",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-14",
+      "opponent": "Empoli",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-01",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-26",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-19",
+      "opponent": "Como 1907",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-25",
+      "opponent": "AC Monza",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-20",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-20",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-15",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-12",
+      "opponent": "Salernitana",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-05",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-27",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-23",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-23",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-19",
+      "opponent": "Cagliari",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-19",
+      "opponent": "Cagliari Calcio",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-13",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-07",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-07",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-02",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-02",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-30",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-30",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-17",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-10",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-03",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-03",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-25",
+      "opponent": "Frosinone",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-17",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-12",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-12",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-04",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-27",
+      "opponent": "Empoli",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-21",
+      "opponent": "US Lecce",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-21",
+      "opponent": "Lecce",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-16",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-16",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-11",
+      "opponent": "Frosinone",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-07",
+      "opponent": "Salernitana",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-04",
+      "opponent": "Salernitana",
+      "home_away": "H",
+      "score": "6-1",
+      "result": "W",
+      "competition": "Coppa Italia 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-30",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-23",
+      "opponent": "Frosinone",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-15",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-08",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-08",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-01",
+      "opponent": "AC Monza",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-26",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-11",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-11",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-05",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-05",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-28",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-22",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-07",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-01",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-26",
+      "opponent": "US Lecce",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-26",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-23",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-23",
+      "opponent": "Sassuolo",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-16",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-16",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-03",
+      "opponent": "Empoli",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-27",
+      "opponent": "Bologna",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-27",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-20",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-20",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-06-04",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-06-04",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-28",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-22",
+      "opponent": "Empoli",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-18",
+      "opponent": "Sevilla",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-18",
+      "opponent": "Sevilla FC",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-14",
+      "opponent": "US Cremonese",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-14",
+      "opponent": "Cremonese",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-11",
+      "opponent": "Sevilla",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-11",
+      "opponent": "Sevilla FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-07",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-03",
+      "opponent": "US Lecce",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-03",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-30",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-30",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-26",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Coppa Italia 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-23",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-23",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-20",
+      "opponent": "Sporting",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-16",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-16",
+      "opponent": "Sassuolo",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-13",
+      "opponent": "Sporting",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-08",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-08",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-04",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Coppa Italia 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-01",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-19",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-16",
+      "opponent": "Freiburg",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-16",
+      "opponent": "SC Freiburg",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-12",
+      "opponent": "Sampdoria",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-09",
+      "opponent": "Freiburg",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-09",
+      "opponent": "SC Freiburg",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-05",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-28",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-23",
+      "opponent": "FC Nantes",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-19",
+      "opponent": "Spezia",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-16",
+      "opponent": "FC Nantes",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-12",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-12",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-07",
+      "opponent": "Salernitana",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-02",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coppa Italia 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-02",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coppa Italia 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-29",
+      "opponent": "AC Monza",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-22",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-19",
+      "opponent": "AC Monza",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Coppa Italia 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-13",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-13",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-07",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-07",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-04",
+      "opponent": "US Cremonese",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-04",
+      "opponent": "Cremonese",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-13",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-13",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-10",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-06",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-02",
+      "opponent": "Paris Saint-Germain",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-02",
+      "opponent": "Paris SG",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-29",
+      "opponent": "US Lecce",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-29",
+      "opponent": "Lecce",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-25",
+      "opponent": "Benfica",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-21",
+      "opponent": "Empoli",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-15",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-11",
+      "opponent": "M. Haifa",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-08",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-05",
+      "opponent": "M. Haifa",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-02",
+      "opponent": "Bologna",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-02",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-18",
+      "opponent": "AC Monza",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-14",
+      "opponent": "Benfica",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-11",
+      "opponent": "Salernitana",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-06",
+      "opponent": "Paris Saint-Germain",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-06",
+      "opponent": "Paris SG",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-31",
+      "opponent": "Spezia",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-27",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-22",
+      "opponent": "Sampdoria",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-15",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-15",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-21",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-21",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-16",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-16",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-11",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-06",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-01",
+      "opponent": "Venezia FC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-25",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-25",
+      "opponent": "Sassuolo",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-20",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-20",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-16",
+      "opponent": "Bologna",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-16",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-09",
+      "opponent": "Cagliari",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-09",
+      "opponent": "Cagliari Calcio",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-03",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-20",
+      "opponent": "Salernitana",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-16",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-16",
+      "opponent": "Villarreal CF",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-12",
+      "opponent": "Sampdoria",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-06",
+      "opponent": "Spezia",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-02",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-02",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-26",
+      "opponent": "Empoli",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-22",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-22",
+      "opponent": "Villarreal CF",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-18",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-13",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-10",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-10",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-06",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-23",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-18",
+      "opponent": "Sampdoria",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Coppa Italia 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-15",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-15",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-12",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Supercoppa 2021",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-09",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-06",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-06",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-21",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-21",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-18",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-18",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-11",
+      "opponent": "Venezia FC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-08",
+      "opponent": "Malmö FF",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-05",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-30",
+      "opponent": "Salernitana",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-27",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-23",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-23",
+      "opponent": "Chelsea FC",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-20",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-20",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-06",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-06",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-02",
+      "opponent": "Zenit",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-30",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-27",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-27",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-24",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-20",
+      "opponent": "Zenit",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-17",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-02",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-29",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-29",
+      "opponent": "Chelsea FC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-26",
+      "opponent": "Sampdoria",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-22",
+      "opponent": "Spezia",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-19",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-14",
+      "opponent": "Malmö FF",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-11",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-11",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-28",
+      "opponent": "Empoli",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-22",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-22",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-23",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-23",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-19",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Coppa Italia 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-15",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-12",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-12",
+      "opponent": "Sassuolo",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-09",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-02",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-02",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-25",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-25",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-21",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-21",
+      "opponent": "Parma",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-18",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-11",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-07",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-07",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-03",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-21",
+      "opponent": "Benevento",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-14",
+      "opponent": "Cagliari",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-14",
+      "opponent": "Cagliari Calcio",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-09",
+      "opponent": "FC Porto",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-06",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-06",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-02",
+      "opponent": "Spezia",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-27",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-22",
+      "opponent": "Crotone",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-17",
+      "opponent": "FC Porto",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-13",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-13",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-09",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Coppa Italia 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-06",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-02",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Coppa Italia 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-30",
+      "opponent": "Sampdoria",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-27",
+      "opponent": "SPAL",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coppa Italia 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-24",
+      "opponent": "Bologna",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-24",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-20",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Supercoppa 2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-20",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Supercoppa 2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-17",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-13",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Coppa Italia 2020/2021",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-10",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-10",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-06",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-03",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-03",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-22",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-22",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-19",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-19",
+      "opponent": "Parma",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-16",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-13",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-08",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-08",
+      "opponent": "FC Barcelona",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-05",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-02",
+      "opponent": "Dynamo Kyiv",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-28",
+      "opponent": "Benevento",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-24",
+      "opponent": "Ferencváros",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-21",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-21",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-08",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-08",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-04",
+      "opponent": "Ferencváros",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-01",
+      "opponent": "Spezia",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-28",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-28",
+      "opponent": "FC Barcelona",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-25",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-20",
+      "opponent": "Dynamo Kyiv",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-17",
+      "opponent": "Crotone",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-27",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-20",
+      "opponent": "Sampdoria",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-07",
+      "opponent": "Olympique Lyonnais",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-07",
+      "opponent": "Lyonnais",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-01",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-29",
+      "opponent": "Cagliari",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-29",
+      "opponent": "Cagliari Calcio",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-26",
+      "opponent": "Sampdoria",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-23",
+      "opponent": "Udinese Calcio",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-23",
+      "opponent": "Udinese",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-20",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-20",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-15",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-15",
+      "opponent": "Sassuolo",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-11",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-07",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-04",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-26",
+      "opponent": "US Lecce",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-26",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-22",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-22",
+      "opponent": "Bologna FC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-17",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-17",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-12",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-08",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-26",
+      "opponent": "Olympique Lyonnais",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-26",
+      "opponent": "Lyonnais",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-22",
+      "opponent": "SPAL",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-16",
+      "opponent": "Brescia",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-13",
+      "opponent": "AC Milan",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-08",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-02",
+      "opponent": "Fiorentina",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-02",
+      "opponent": "ACF Fiorentina",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-26",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-26",
+      "opponent": "Napoli",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-22",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-19",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-19",
+      "opponent": "Parma",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-15",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-15",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Coppa Italia 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-12",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-06",
+      "opponent": "Cagliari",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-06",
+      "opponent": "Cagliari Calcio",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-22",
+      "opponent": "Lazio Roma",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Supercoppa 2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-22",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Supercoppa 2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-18",
+      "opponent": "Sampdoria",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-15",
+      "opponent": "Udinese Calcio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-15",
+      "opponent": "Udinese",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-11",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-11",
+      "opponent": "Bayer Leverkusen",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-07",
+      "opponent": "Lazio Roma",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-07",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-01",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-01",
+      "opponent": "Sassuolo",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-26",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-26",
+      "opponent": "Atlético Madrid",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-23",
+      "opponent": "Atalanta",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-10",
+      "opponent": "AC Milan",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-06",
+      "opponent": "Lok Moscow",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-02",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-30",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-26",
+      "opponent": "US Lecce",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-26",
+      "opponent": "Lecce",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-22",
+      "opponent": "Lok Moscow",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-19",
+      "opponent": "Bologna",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-19",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-06",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-01",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-01",
+      "opponent": "Bayer Leverkusen",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-28",
+      "opponent": "SPAL",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-24",
+      "opponent": "Brescia",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-21",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-18",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-18",
+      "opponent": "Atlético Madrid",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-14",
+      "opponent": "Fiorentina",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-14",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-31",
+      "opponent": "SSC Napoli",
+      "home_away": "H",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-31",
+      "opponent": "Napoli",
+      "home_away": "H",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-24",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-24",
+      "opponent": "Parma",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-03",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-17",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-10",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-02",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-15",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-20",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-01",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-05-19",
+      "opponent": "Hellas Verona",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-18",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-04",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "7-0",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-22",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-03",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-30",
+      "opponent": "Hellas Verona",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-20",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Coppa Italia 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-23",
+      "opponent": "Torino FC",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-17",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-26",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Serie A 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-23",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-29",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-27",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Serie A 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-10",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-03-11",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-03",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-03",
+      "opponent": "Bor. Mönchengladbach",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-28",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-21",
+      "opponent": "Bor. Mönchengladbach",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-20",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-16",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-11",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-22",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-09",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-01-28",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Coppa Italia 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-01-06",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-11-09",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "7-0",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-29",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-18",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-28",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-16",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-02-02",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-15",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-10-27",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-14",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-03-30",
+      "opponent": "Inter",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2012/2013",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-01-26",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2012/2013",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-11-03",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Serie A 2012/2013",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-09-16",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2012/2013",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-03-11",
+      "opponent": "Genoa CFC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2011/2012",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-10-22",
+      "opponent": "Genoa CFC",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2011/2012",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 27,
+    "end_index": 31,
+    "length": 5
+  }
+}
