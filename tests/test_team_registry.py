@@ -57,7 +57,7 @@ class TestTeamsRegistry:
             assert wf_id.startswith("te"), f"{name}: wf_id '{wf_id}' should start with 'te'"
             assert isinstance(slug, str), f"{name}: slug should be str"
             assert len(slug) > 0, f"{name}: slug is empty"
-            assert league in ("DED", "JE"), f"{name}: league '{league}' not in (DED, JE)"
+            assert league in ("DED", "JE", "PL", "BL", "LL", "SA", "L1"), f"{name}: league '{league}' not recognized"
 
     def test_aliases_point_to_canonical_names(self):
         """Every alias must resolve to a name that exists in TEAMS."""
