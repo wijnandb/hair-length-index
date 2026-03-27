@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-03-27T10:11:14.755705",
+  "total_events": 7,
+  "items": [
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "1. FSV Mainz 05",
+      "league": "BL",
+      "league_name": "Bundesliga",
+      "language": "en",
+      "consecutive_wins": 3,
+      "remaining": 2,
+      "days_since": 5655,
+      "hair_tier": "Sasquatch",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "AS Monaco",
+      "league": "L1",
+      "league_name": "Ligue 1",
+      "language": "en",
+      "consecutive_wins": 4,
+      "remaining": 1,
+      "days_since": 580,
+      "hair_tier": "Sasquatch",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "Lazio Roma",
+      "league": "SA",
+      "league_name": "Serie A",
+      "language": "en",
+      "consecutive_wins": 3,
+      "remaining": 2,
+      "days_since": 488,
+      "hair_tier": "Caveman",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "Como 1907",
+      "league": "SA",
+      "league_name": "Serie A",
+      "language": "en",
+      "consecutive_wins": 3,
+      "remaining": 2,
+      "days_since": 321,
+      "hair_tier": "Caveman",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "Borussia Dortmund",
+      "league": "BL",
+      "league_name": "Bundesliga",
+      "language": "en",
+      "consecutive_wins": 3,
+      "remaining": 2,
+      "days_since": 314,
+      "hair_tier": "Caveman",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "SSC Napoli",
+      "league": "SA",
+      "league_name": "Serie A",
+      "language": "en",
+      "consecutive_wins": 4,
+      "remaining": 1,
+      "days_since": 110,
+      "hair_tier": "Getting shaggy",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    },
+    {
+      "type": "bijna_bij_de_kapper",
+      "priority": 2,
+      "team": "Paris Saint-Germain",
+      "league": "L1",
+      "league_name": "Ligue 1",
+      "language": "en",
+      "consecutive_wins": 3,
+      "remaining": 2,
+      "days_since": 78,
+      "hair_tier": "Getting shaggy",
+      "platforms": [
+        "bluesky",
+        "twitter"
+      ],
+      "render_card": false
+    }
+  ]
+}
