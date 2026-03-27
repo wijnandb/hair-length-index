@@ -87,6 +87,37 @@ COMP_MAP = {
     "champions league qual": ("CL", "Champions League Kwalificatie", "CONTINENTAL"),
     "johan cruijff schaal": ("SC_NL", "Johan Cruijff Schaal", "DOMESTIC_CUP"),
     "tweede divisie": ("TD", "Tweede Divisie", "LEAGUE"),
+    # England
+    "premier league": ("PL", "Premier League", "LEAGUE"),
+    "championship": ("ELC", "Championship", "LEAGUE"),
+    "fa cup": ("FA", "FA Cup", "DOMESTIC_CUP"),
+    "league cup": ("LC", "League Cup", "DOMESTIC_CUP"),
+    "efl trophy": ("EFL_T", "EFL Trophy", "DOMESTIC_CUP"),
+    "fa community shield": ("SC_EN", "FA Community Shield", "SUPER_CUP"),
+    # Germany
+    "bundesliga": ("BL1", "Bundesliga", "LEAGUE"),
+    "2. bundesliga": ("BL2", "2. Bundesliga", "LEAGUE"),
+    "dfb-pokal": ("DFB", "DFB-Pokal", "DOMESTIC_CUP"),
+    "dfb pokal": ("DFB", "DFB-Pokal", "DOMESTIC_CUP"),
+    "dfl-supercup": ("SC_DE", "DFL-Supercup", "SUPER_CUP"),
+    # Spain
+    "laliga": ("PD", "La Liga", "LEAGUE"),
+    "la liga": ("PD", "La Liga", "LEAGUE"),
+    "primera division": ("PD", "La Liga", "LEAGUE"),
+    "segunda division": ("SD", "Segunda División", "LEAGUE"),
+    "copa del rey": ("CDR", "Copa del Rey", "DOMESTIC_CUP"),
+    "supercopa": ("SC_ES", "Supercopa de España", "SUPER_CUP"),
+    # Italy
+    "serie a": ("SA", "Serie A", "LEAGUE"),
+    "serie b": ("SB", "Serie B", "LEAGUE"),
+    "coppa italia": ("CI", "Coppa Italia", "DOMESTIC_CUP"),
+    "supercoppa": ("SC_IT", "Supercoppa Italiana", "SUPER_CUP"),
+    # France
+    "ligue 1": ("FL1", "Ligue 1", "LEAGUE"),
+    "ligue 2": ("FL2", "Ligue 2", "LEAGUE"),
+    "coupe de france": ("CDF", "Coupe de France", "DOMESTIC_CUP"),
+    "coupe de la ligue": ("CDL", "Coupe de la Ligue", "DOMESTIC_CUP"),
+    "trophee des champions": ("SC_FR", "Trophée des Champions", "SUPER_CUP"),
 }
 
 

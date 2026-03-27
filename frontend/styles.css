@@ -38,6 +38,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* === Hero Header === */
@@ -362,6 +363,7 @@ main {
   border-top: none;
   border-radius: 0 0 var(--radius) var(--radius);
   padding: 0.75rem 1rem;
+  overflow-x: auto;
 }
 
 .detail-loading {
@@ -489,7 +491,6 @@ main {
 .match-table td {
   padding: 0.3rem 0.5rem;
   border-bottom: 1px solid #f0f0f0;
-  white-space: nowrap;
 }
 
 .match-date {
@@ -576,6 +577,7 @@ main {
 }
 .streak-match-opp {
   flex: 1; font-weight: 600; color: var(--text-dark);
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .streak-match-score {
   font-weight: 700; color: var(--accent-dark);
@@ -796,11 +798,26 @@ footer p { margin-bottom: 0.75rem; }
     font-size: 0.5rem;
   }
 
+  .team-info {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .team-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .match-table {
     font-size: 0.7rem;
   }
 
   .match-source {
+    display: none;
+  }
+
+  .match-comp {
     display: none;
   }
 }

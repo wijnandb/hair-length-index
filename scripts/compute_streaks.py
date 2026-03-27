@@ -12,6 +12,20 @@ from scripts.db import get_all_teams, get_connection, get_team_matches, init_db
 # How many recent matches to include in JSON output
 RECENT_MATCHES_LIMIT = 20
 
+# Competition names that indicate cup/super cup data (fallback when competition_type is wrong)
+_CUP_KEYWORDS = (
+    "cup", "beker", "pokal", "copa", "coppa", "coupe", "shield", "supercup",
+    "supercoppa", "supercopa", "trophee", "trophée", "trophy",
+)
+
+
+def _is_cup_by_name(comp_name: str | None) -> bool:
+    """Check if a competition name indicates a cup match (fallback for bad competition_type)."""
+    if not comp_name:
+        return False
+    lower = comp_name.lower()
+    return any(kw in lower for kw in _CUP_KEYWORDS)
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
@@ -230,7 +244,11 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
 
         # Check for data completeness
         match_count = len(matches)
-        has_cup_data = any(m["competition_type"] != "LEAGUE" for m in matches)
+        has_cup_data = any(
+            m["competition_type"] not in ("LEAGUE", None)
+            or _is_cup_by_name(m["competition_name"])
+            for m in matches
+        )
 
         entry = {
             "team": team["name"],
