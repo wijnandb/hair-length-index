@@ -1,3 +1,4 @@
 requests>=2.31.0
 pytest>=7.0.0
 atproto>=0.0.46
+praw>=7.7.0

@@ -23,6 +23,10 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
       BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+      REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+      REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
+      REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
 
     steps:
       - name: Checkout
@@ -35,7 +39,7 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt atproto
+        run: pip install -r requirements.txt atproto praw
 
       - name: Generate social content queue
         run: python -m scripts.generate_social_content
@@ -46,15 +50,23 @@ jobs:
           && env.BLUESKY_HANDLE != ''
         run: python -m scripts.post_bluesky
 
+      - name: Post to Reddit
+        if: >-
+          github.event.inputs.dry_run != 'true'
+          && env.REDDIT_CLIENT_ID != ''
+        run: python -m scripts.post_reddit
+
       - name: Dry run preview
-        if: github.event.inputs.dry_run == 'true' || env.BLUESKY_HANDLE == ''
-        run: python -m scripts.post_bluesky --dry-run
+        if: github.event.inputs.dry_run == 'true'
+        run: |
+          python -m scripts.post_bluesky --dry-run
+          python -m scripts.post_reddit --dry-run
 
       - name: Commit tracking files
         if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/social-queue.json data/social-posted.json data/hair-index-global.prev.json 2>/dev/null || true
+          git add data/social-queue.json data/social-posted.json data/reddit-posted.json data/hair-index-global.prev.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Social post $(date -u +%Y-%m-%d)"
           git push || true

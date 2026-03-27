@@ -119,7 +119,7 @@ def detect_events(current: dict, previous: dict) -> list[dict]:
                 "days_since": days,
                 "hair_tier": team.get("hair_tier", ""),
                 "streak_matches": streak_matches,
-                "platforms": ["bluesky", "twitter"],
+                "platforms": ["bluesky", "twitter", "reddit"],
                 "render_card": False,
             })
 
@@ -167,7 +167,7 @@ def detect_events(current: dict, previous: dict) -> list[dict]:
                 "language": lang,
                 "days_since": days,
                 "hair_tier": team.get("hair_tier", ""),
-                "platforms": ["bluesky", "twitter", "instagram"],
+                "platforms": ["bluesky", "twitter", "instagram", "reddit"],
                 "render_card": True,
             })
 
