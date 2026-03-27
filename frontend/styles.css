@@ -116,6 +116,7 @@ main {
 
 .league-tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.25rem;
 }
 
@@ -123,12 +124,13 @@ main {
   background: #f3f4f6;
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 0.4rem 1rem;
-  font-size: 0.85rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--text-muted);
   cursor: pointer;
   transition: all 0.2s;
+  white-space: nowrap;
 }
 
 .league-tab:hover {
@@ -668,6 +670,14 @@ footer p { margin-bottom: 0.75rem; }
 
 /* === Responsive === */
 @media (max-width: 600px) {
+  .league-tabs {
+    gap: 0.2rem;
+  }
+  .league-tab {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.7rem;
+  }
+
   .hero {
     height: 280px;
   }
