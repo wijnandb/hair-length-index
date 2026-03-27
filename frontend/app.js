@@ -457,7 +457,7 @@ function renderWatchCards(teams) {
   const watchTeams = teams.filter((t) => {
     if (!t.current_form || t.current_form.length === 0) return false;
     if (t.days_since === null || t.days_since === undefined) return false;
-    if (t.days_since <= 120) return false;
+    if (t.days_since <= 60) return false;
     return getConsecutiveWins(t.current_form) >= 3;
   });
 
@@ -471,19 +471,78 @@ function renderWatchCards(teams) {
     .map((t) => {
       const streak = getConsecutiveWins(t.current_form);
       const toGo = 5 - streak;
-      const dots = t.current_form.slice(0, 5)
-        .map((r) => `<span class="form-dot ${r}">${r}</span>`).join("");
+      const logo = getLogoUrl(t.team);
+      const leagueFlag = t.league_flag || "";
+      const daysStr = t.days_since ? t.days_since.toLocaleString("nl-NL") : "???";
       const label = toGo > 0
-        ? `nog <strong>${toGo}</strong> te gaan`
+        ? `nog <strong>${toGo}</strong> te gaan!`
         : `<strong>Klaar voor de schaar!</strong>`;
       return `
-        <div class="watch-card">
-          <div class="watch-team-name">${escapeHtml(t.team)}</div>
-          <div class="watch-streak">${streak}x winst op rij</div>
-          <div class="watch-form">${dots}</div>
+        <div class="watch-card" onclick="toggleWatchDetail(this, ${t.team_id})">
+          <div class="watch-header">
+            ${logo ? `<img src="${logo}" class="watch-logo" alt="" onerror="this.style.display='none'">` : ""}
+            <div>
+              <div class="watch-team-name">${leagueFlag} ${escapeHtml(t.team)}</div>
+              <div class="watch-days">${daysStr} dagen</div>
+            </div>
+          </div>
+          <div class="watch-streak-badge">${streak}x <span class="watch-streak-label">op rij</span></div>
           <div class="watch-remaining">${label}</div>
+          <div class="watch-detail" style="display:none">
+            <div class="watch-loading">Laden...</div>
+          </div>
         </div>`;
     }).join("");
+}
+
+async function toggleWatchDetail(cardEl, teamId) {
+  const detail = cardEl.querySelector(".watch-detail");
+  if (!detail) return;
+  const isOpen = detail.style.display !== "none";
+
+  // Close all others
+  document.querySelectorAll(".watch-detail").forEach(d => { d.style.display = "none"; });
+  document.querySelectorAll(".watch-card").forEach(c => c.classList.remove("watch-expanded"));
+
+  if (!isOpen) {
+    detail.style.display = "block";
+    cardEl.classList.add("watch-expanded");
+
+    // Load streak matches from per-team file
+    if (detail.querySelector(".watch-loading")) {
+      const teamData = await loadTeamDetail(teamId);
+      if (teamData && teamData.matches) {
+        // Get the current consecutive wins
+        let wins = [];
+        for (const m of teamData.matches) {
+          if (m.result === "W") wins.push(m);
+          else break;
+        }
+
+        const matchRows = wins.map(m => {
+          const oppLogo = getLogoUrl(m.opponent);
+          const ha = m.home_away === "H" ? "🏠" : "✈️";
+          return `<div class="watch-match">
+            <span class="watch-match-date">${m.date}</span>
+            ${oppLogo ? `<img src="${oppLogo}" class="watch-match-logo" alt="" onerror="this.style.display='none'">` : ""}
+            <span class="watch-match-opp">${ha} ${escapeHtml(m.opponent)}</span>
+            <span class="watch-match-score">${m.score}</span>
+            <span class="form-dot W">W</span>
+          </div>`;
+        }).join("");
+
+        detail.innerHTML = `
+          <div class="watch-matches-title">De streak:</div>
+          ${matchRows}
+          <div class="watch-next">
+            <span class="watch-next-label">Volgende wedstrijd bepaalt alles!</span>
+          </div>
+        `;
+      } else {
+        detail.innerHTML = `<div class="watch-no-data">Geen details beschikbaar</div>`;
+      }
+    }
+  }
 }
 
 // === Social Sharing ===

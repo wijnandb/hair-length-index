@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-03-27T10:11:14.755705",
+  "generated_at": "2026-03-27T20:41:07.776677",
   "total_events": 7,
   "items": [
     {
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "1. FSV Mainz 05",
+      "team_id": 259,
       "league": "BL",
       "league_name": "Bundesliga",
       "language": "en",
@@ -13,6 +14,29 @@
       "remaining": 2,
       "days_since": 5655,
       "hair_tier": "Sasquatch",
+      "streak_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Eintracht Frankfurt",
+          "score": "2-1",
+          "competition": "Bundesliga 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-19",
+          "opponent": "Olomouc",
+          "score": "2-0",
+          "competition": "Conference League",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "Werder Bremen",
+          "score": "2-0",
+          "competition": "Bundesliga 2025/2026",
+          "home_away": "A"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"
@@ -23,6 +47,7 @@
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "AS Monaco",
+      "team_id": 193,
       "league": "L1",
       "league_name": "Ligue 1",
       "language": "en",
@@ -30,6 +55,36 @@
       "remaining": 1,
       "days_since": 580,
       "hair_tier": "Sasquatch",
+      "streak_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Olympique Lyonnais",
+          "score": "2-1",
+          "competition": "Ligue 1 2025/2026",
+          "home_away": "A"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "Stade Brestois 29",
+          "score": "2-0",
+          "competition": "Ligue 1 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-06",
+          "opponent": "Paris Saint-Germain",
+          "score": "3-1",
+          "competition": "Ligue 1 2025/2026",
+          "home_away": "A"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "Angers SCO",
+          "score": "2-0",
+          "competition": "Ligue 1 2025/2026",
+          "home_away": "H"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"
@@ -40,6 +95,7 @@
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "Lazio Roma",
+      "team_id": 298,
       "league": "SA",
       "league_name": "Serie A",
       "language": "en",
@@ -47,6 +103,29 @@
       "remaining": 2,
       "days_since": 488,
       "hair_tier": "Caveman",
+      "streak_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Bologna FC",
+          "score": "2-0",
+          "competition": "Serie A 2025/2026",
+          "home_away": "A"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "AC Milan",
+          "score": "1-0",
+          "competition": "Serie A 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-09",
+          "opponent": "Sassuolo Calcio",
+          "score": "2-1",
+          "competition": "Serie A 2025/2026",
+          "home_away": "H"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"
@@ -57,6 +136,7 @@
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "Como 1907",
+      "team_id": 295,
       "league": "SA",
       "league_name": "Serie A",
       "language": "en",
@@ -64,6 +144,29 @@
       "remaining": 2,
       "days_since": 321,
       "hair_tier": "Caveman",
+      "streak_matches": [
+        {
+          "date": "2026-03-22",
+          "opponent": "Pisa SC",
+          "score": "5-0",
+          "competition": "Serie A 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-15",
+          "opponent": "AS Roma",
+          "score": "2-1",
+          "competition": "Serie A 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "Cagliari Calcio",
+          "score": "2-1",
+          "competition": "Serie A 2025/2026",
+          "home_away": "A"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"
@@ -74,6 +177,7 @@
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "Borussia Dortmund",
+      "team_id": 263,
       "league": "BL",
       "league_name": "Bundesliga",
       "language": "en",
@@ -81,6 +185,29 @@
       "remaining": 2,
       "days_since": 314,
       "hair_tier": "Caveman",
+      "streak_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Hamburger SV",
+          "score": "3-2",
+          "competition": "Bundesliga 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "FC Augsburg",
+          "score": "2-0",
+          "competition": "Bundesliga 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-07",
+          "opponent": "1. FC Köln",
+          "score": "2-1",
+          "competition": "Bundesliga 2025/2026",
+          "home_away": "A"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"
@@ -91,6 +218,7 @@
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "SSC Napoli",
+      "team_id": 301,
       "league": "SA",
       "league_name": "Serie A",
       "language": "en",
@@ -98,6 +226,36 @@
       "remaining": 1,
       "days_since": 110,
       "hair_tier": "Getting shaggy",
+      "streak_matches": [
+        {
+          "date": "2026-03-20",
+          "opponent": "Cagliari Calcio",
+          "score": "1-0",
+          "competition": "Serie A 2025/2026",
+          "home_away": "A"
+        },
+        {
+          "date": "2026-03-14",
+          "opponent": "US Lecce",
+          "score": "2-1",
+          "competition": "Serie A 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-03-06",
+          "opponent": "Torino FC",
+          "score": "2-1",
+          "competition": "Serie A 2025/2026",
+          "home_away": "H"
+        },
+        {
+          "date": "2026-02-28",
+          "opponent": "Hellas Verona",
+          "score": "2-1",
+          "competition": "Serie A 2025/2026",
+          "home_away": "A"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"
@@ -108,6 +266,7 @@
       "type": "bijna_bij_de_kapper",
       "priority": 2,
       "team": "Paris Saint-Germain",
+      "team_id": 318,
       "league": "L1",
       "league_name": "Ligue 1",
       "language": "en",
@@ -115,6 +274,29 @@
       "remaining": 2,
       "days_since": 78,
       "hair_tier": "Getting shaggy",
+      "streak_matches": [
+        {
+          "date": "2026-03-21",
+          "opponent": "OGC Nice",
+          "score": "4-0",
+          "competition": "Ligue 1 2025/2026",
+          "home_away": "A"
+        },
+        {
+          "date": "2026-03-17",
+          "opponent": "Chelsea FC",
+          "score": "3-0",
+          "competition": "Champions League",
+          "home_away": "A"
+        },
+        {
+          "date": "2026-03-11",
+          "opponent": "Chelsea FC",
+          "score": "5-2",
+          "competition": "Champions League",
+          "home_away": "H"
+        }
+      ],
       "platforms": [
         "bluesky",
         "twitter"

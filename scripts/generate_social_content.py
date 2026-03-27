@@ -87,10 +87,29 @@ def detect_events(current: dict, previous: dict) -> list[dict]:
 
         # 2. BIJNA BIJ DE KAPPER: on 3-4 consecutive wins with long drought
         elif wins >= 3 and days and days > 60:
+            # Get streak match details from per-team file
+            streak_matches = []
+            team_id = team.get("team_id")
+            if team_id:
+                team_file = DATA_DIR / "teams" / f"{team_id}.json"
+                if team_file.exists():
+                    with open(team_file) as tf:
+                        team_data = json.load(tf)
+                    for m in team_data.get("matches", [])[:wins]:
+                        if m.get("result") == "W":
+                            streak_matches.append({
+                                "date": m["date"],
+                                "opponent": m["opponent"],
+                                "score": m["score"],
+                                "competition": m.get("competition", ""),
+                                "home_away": m.get("home_away", ""),
+                            })
+
             events.append({
                 "type": "bijna_bij_de_kapper",
                 "priority": 2,
                 "team": name,
+                "team_id": team.get("team_id"),
                 "league": league,
                 "league_name": team.get("league_name", league),
                 "language": lang,
@@ -98,6 +117,7 @@ def detect_events(current: dict, previous: dict) -> list[dict]:
                 "remaining": 5 - wins,
                 "days_since": days,
                 "hair_tier": team.get("hair_tier", ""),
+                "streak_matches": streak_matches,
                 "platforms": ["bluesky", "twitter"],
                 "render_card": False,
             })

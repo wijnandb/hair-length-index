@@ -546,10 +546,38 @@ main {
   padding: 1rem; transition: transform 0.2s;
 }
 .watch-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.watch-card { cursor: pointer; position: relative; }
+.watch-card.watch-expanded { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.2); }
+.watch-header { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.watch-logo { width: 36px; height: 36px; border-radius: 4px; }
 .watch-team-name { font-weight: 700; font-size: 0.95rem; color: #78350f; }
-.watch-streak { font-size: 0.8rem; color: #92400e; font-weight: 600; margin: 0.25rem 0; }
-.watch-form { display: flex; gap: 3px; margin: 0.25rem 0; }
+.watch-days { font-size: 0.7rem; color: #92400e; }
+.watch-streak-badge {
+  font-size: 1.4rem; font-weight: 900; color: #d97706;
+  line-height: 1; margin: 4px 0;
+}
+.watch-streak-label { font-size: 0.7rem; font-weight: 600; color: #92400e; }
 .watch-remaining { font-size: 0.75rem; color: #a16207; }
+
+/* Expanded detail */
+.watch-detail { margin-top: 10px; border-top: 1px solid rgba(217,119,6,0.2); padding-top: 8px; }
+.watch-matches-title { font-size: 0.7rem; color: #92400e; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.watch-match {
+  display: flex; align-items: center; gap: 6px;
+  padding: 4px 0; font-size: 0.78rem;
+  border-bottom: 1px solid rgba(217,119,6,0.1);
+}
+.watch-match-date { color: #92400e; font-size: 0.7rem; min-width: 70px; }
+.watch-match-logo { width: 18px; height: 18px; border-radius: 2px; }
+.watch-match-opp { flex: 1; color: #78350f; font-weight: 500; }
+.watch-match-score { font-weight: 700; color: #78350f; font-variant-numeric: tabular-nums; }
+.watch-next {
+  margin-top: 8px; padding: 6px 10px;
+  background: rgba(217,119,6,0.1); border-radius: 6px;
+  text-align: center;
+}
+.watch-next-label { font-size: 0.75rem; font-weight: 700; color: #d97706; }
+.watch-no-data { font-size: 0.75rem; color: #a16207; text-align: center; padding: 8px; }
 
 /* === Share Button === */
 .team-card { position: relative; }
