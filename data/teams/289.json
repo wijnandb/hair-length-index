@@ -1,0 +1,4023 @@
+{
+  "team_id": 289,
+  "team": "Sevilla FC",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2026-03-21",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "Rayo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-22",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Girona",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-02",
+      "opponent": "Mallorca",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-24",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-19",
+      "opponent": "Elche CF",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-12",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Levante",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-17",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Copa del Rey 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Oviedo",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "CD Extremadura",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Copa del Rey 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-30",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-24",
+      "opponent": "RCD Espanyol",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-01",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-28",
+      "opponent": "CD Toledo",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Copa del Rey 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-24",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-18",
+      "opponent": "Mallorca",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-05",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-28",
+      "opponent": "Rayo",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-23",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-20",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-12",
+      "opponent": "Elche CF",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-30",
+      "opponent": "Girona",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-25",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-17",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-25",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-18",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-13",
+      "opponent": "UD Las Palmas",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "Leganés",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-24",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-20",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-11",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-06",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-30",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-16",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-09",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-01",
+      "opponent": "Rayo",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-24",
+      "opponent": "Mallorca",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-16",
+      "opponent": "Valladolid",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-09",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-01",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-25",
+      "opponent": "RCD Espanyol",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-18",
+      "opponent": "Girona",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-11",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-04",
+      "opponent": "Almería",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Copa del Rey 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-22",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-14",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-08",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-05",
+      "opponent": "UE Olot",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Copa del Rey 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-02",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-24",
+      "opponent": "Rayo",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-09",
+      "opponent": "Leganés",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-03",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-30",
+      "opponent": "Las Rozas CF",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Copa del Rey 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-25",
+      "opponent": "RCD Espanyol",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-20",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-06",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-29",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-24",
+      "opponent": "Valladolid",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-20",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-14",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-01",
+      "opponent": "Girona",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-27",
+      "opponent": "Mallorca",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-23",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-16",
+      "opponent": "UD Las Palmas",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-26",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-19",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-15",
+      "opponent": "Cádiz",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-11",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-05",
+      "opponent": "Granada CF",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-28",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-22",
+      "opponent": "Mallorca",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-14",
+      "opponent": "UD Las Palmas",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-30",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-17",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-11",
+      "opponent": "Almería",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-02",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-25",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-17",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-11",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-05",
+      "opponent": "Rayo",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-28",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-25",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Copa del Rey 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-21",
+      "opponent": "Girona",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-16",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Copa del Rey 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-12",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-07",
+      "opponent": "Racing Ferrol",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Copa del Rey 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-04",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-23",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-19",
+      "opponent": "Granada CF",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-16",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-12",
+      "opponent": "RC Lens",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-09",
+      "opponent": "Mallorca",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-06",
+      "opponent": "Astorga",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Copa del Rey 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-03",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-29",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-26",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-12",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-08",
+      "opponent": "Arsenal",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-04",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-01",
+      "opponent": "Quintanar",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Copa del Rey 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-28",
+      "opponent": "Cádiz",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-24",
+      "opponent": "Arsenal",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-21",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-07",
+      "opponent": "Rayo",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-03",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-29",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-26",
+      "opponent": "Almería",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-23",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-20",
+      "opponent": "RC Lens",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-17",
+      "opponent": "UD Las Palmas",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-26",
+      "opponent": "Girona",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-21",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-16",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "4-5",
+      "result": "L",
+      "competition": "UEFA Super Cup 2023",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-11",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-06-04",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-31",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-27",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-24",
+      "opponent": "Elche CF",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-21",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-18",
+      "opponent": "Juventus",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-14",
+      "opponent": "Valladolid",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-11",
+      "opponent": "Juventus",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-04",
+      "opponent": "RCD Espanyol",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-01",
+      "opponent": "Girona",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-27",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-23",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-20",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-16",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-13",
+      "opponent": "Man Utd",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-07",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-01",
+      "opponent": "Cádiz",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-19",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-16",
+      "opponent": "Fenerbahçe",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-12",
+      "opponent": "Almería",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-09",
+      "opponent": "Fenerbahçe",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-04",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-26",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-23",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-19",
+      "opponent": "Rayo",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-16",
+      "opponent": "PSV Eindhoven",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-11",
+      "opponent": "Mallorca",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-05",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-28",
+      "opponent": "Elche CF",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-25",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Copa del Rey 2022/2023",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-21",
+      "opponent": "Cádiz",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-17",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Copa del Rey 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-14",
+      "opponent": "Girona",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-08",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-04",
+      "opponent": "Linares Dep.",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Copa del Rey 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-30",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-12-21",
+      "opponent": "Juventud Torremolinos",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Copa del Rey 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-13",
+      "opponent": "Velarde CF",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Copa del Rey 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-09",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-06",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-02",
+      "opponent": "Man City",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-29",
+      "opponent": "Rayo",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-25",
+      "opponent": "FC Copenhagen",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-22",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-18",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-15",
+      "opponent": "Mallorca",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-11",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-08",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-05",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-01",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-18",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-14",
+      "opponent": "FC Copenhagen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-10",
+      "opponent": "RCD Espanyol",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-06",
+      "opponent": "Man City",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-27",
+      "opponent": "Almería",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-19",
+      "opponent": "Valladolid",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-12",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-22",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-15",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-11",
+      "opponent": "Mallorca",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-08",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-29",
+      "opponent": "Cádiz",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-21",
+      "opponent": "Levante",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-17",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-08",
+      "opponent": "Granada CF",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-03",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-20",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-17",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-13",
+      "opponent": "Rayo",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-10",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-04",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-27",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-24",
+      "opponent": "Din. Zagreb",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-20",
+      "opponent": "RCD Espanyol",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-17",
+      "opponent": "Din. Zagreb",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-11",
+      "opponent": "Elche CF",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-05",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-22",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-19",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-16",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Copa del Rey 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-09",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-06",
+      "opponent": "Zaragoza",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Copa del Rey 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-03",
+      "opponent": "Cádiz",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-21",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-18",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-15",
+      "opponent": "CE Andratx",
+      "home_away": "A",
+      "score": "6-5",
+      "result": "W",
+      "competition": "Copa del Rey 2021/2022",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-11",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-08",
+      "opponent": "RB Salzburg",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-04",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-01",
+      "opponent": "Córdoba",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Copa del Rey 2021/2022",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-28",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-23",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-20",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-07",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-02",
+      "opponent": "Lille",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-30",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-27",
+      "opponent": "Mallorca",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-24",
+      "opponent": "Levante",
+      "home_away": "H",
+      "score": "5-3",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-20",
+      "opponent": "Lille",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-17",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-03",
+      "opponent": "Granada CF",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-29",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-25",
+      "opponent": "RCD Espanyol",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-22",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-19",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-14",
+      "opponent": "RB Salzburg",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-28",
+      "opponent": "Elche CF",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-23",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-15",
+      "opponent": "Rayo",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-23",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-16",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-12",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-09",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-03",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-25",
+      "opponent": "Granada CF",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-21",
+      "opponent": "Levante",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-18",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-12",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-04",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-20",
+      "opponent": "Valladolid",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-17",
+      "opponent": "Elche CF",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-14",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-09",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-06",
+      "opponent": "Elche CF",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-03",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-27",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-22",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-17",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-13",
+      "opponent": "Huesca",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-10",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-06",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-02",
+      "opponent": "Almería",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-30",
+      "opponent": "Eibar",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-27",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-23",
+      "opponent": "Cádiz",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-19",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-16",
+      "opponent": "Leganés",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-12",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-09",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-05",
+      "opponent": "Linares Dep.",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-02",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-29",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-22",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-19",
+      "opponent": "Valladolid",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-15",
+      "opponent": "Ciudad de Lucena",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Copa del Rey 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-12",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-08",
+      "opponent": "Stade Rennais",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-05",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-02",
+      "opponent": "Chelsea",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-28",
+      "opponent": "Huesca",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-24",
+      "opponent": "FK Krasnodar",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-21",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-07",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-04",
+      "opponent": "FK Krasnodar",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-31",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-28",
+      "opponent": "Stade Rennais",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-24",
+      "opponent": "Eibar",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-20",
+      "opponent": "Chelsea",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Champions League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-17",
+      "opponent": "Granada CF",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-04",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-01",
+      "opponent": "Levante",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-27",
+      "opponent": "Cádiz",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Primera División 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-24",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "UEFA Super Cup 2020",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-21",
+      "opponent": "Inter",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-16",
+      "opponent": "Man Utd",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-11",
+      "opponent": "Wolverhampton",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-08-06",
+      "opponent": "AS Roma",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-19",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-16",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-12",
+      "opponent": "Mallorca",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-09",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-07-06",
+      "opponent": "Eibar",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-26",
+      "opponent": "Valladolid",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-22",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-19",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-15",
+      "opponent": "Levante",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-11",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-07",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-01",
+      "opponent": "Osasuna",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-27",
+      "opponent": "CFR Cluj",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-23",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-20",
+      "opponent": "CFR Cluj",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-16",
+      "opponent": "RCD Espanyol",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-09",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-02",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-30",
+      "opponent": "Mirandés",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Copa del Rey 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-25",
+      "opponent": "Granada CF",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-21",
+      "opponent": "Levante",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Copa del Rey 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-18",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-12",
+      "opponent": "UM Escobedo",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Copa del Rey 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-03",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-21",
+      "opponent": "Mallorca",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-18",
+      "opponent": "Bergantiños FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Copa del Rey 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-15",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-12",
+      "opponent": "APOEL",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-08",
+      "opponent": "Osasuna",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-01",
+      "opponent": "Leganés",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-28",
+      "opponent": "Qarabağ FK",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-24",
+      "opponent": "Valladolid",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-10",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-07",
+      "opponent": "F91 Dudelange",
+      "home_away": "A",
+      "score": "5-2",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-02",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-30",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-27",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-24",
+      "opponent": "F91 Dudelange",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-20",
+      "opponent": "Levante",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-06",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-03",
+      "opponent": "APOEL",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-29",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-26",
+      "opponent": "Eibar",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-22",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-19",
+      "opponent": "Qarabağ FK",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-15",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-30",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-23",
+      "opponent": "Granada CF",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-18",
+      "opponent": "RCD Espanyol",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-18",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-12",
+      "opponent": "Atlético",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-03",
+      "opponent": "Leganés",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-28",
+      "opponent": "Girona",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-25",
+      "opponent": "Rayo",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-21",
+      "opponent": "Getafe",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-13",
+      "opponent": "Betis",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-07",
+      "opponent": "Valladolid",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-04",
+      "opponent": "Alavés",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-31",
+      "opponent": "Valencia",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-17",
+      "opponent": "RCD Espanyol",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-14",
+      "opponent": "Slavia Praha",
+      "home_away": "A",
+      "score": "3-4",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-10",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-07",
+      "opponent": "Slavia Praha",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-02",
+      "opponent": "Huesca",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-23",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-20",
+      "opponent": "Lazio",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-17",
+      "opponent": "Villarreal",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-14",
+      "opponent": "Lazio",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-10",
+      "opponent": "Eibar",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-02",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-30",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "Copa del Rey 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-26",
+      "opponent": "Levante",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-23",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Copa del Rey 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-19",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-16",
+      "opponent": "Athletic",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Copa del Rey 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-13",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-10",
+      "opponent": "Athletic",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Copa del Rey 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-06",
+      "opponent": "Atlético",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-23",
+      "opponent": "Leganés",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-16",
+      "opponent": "Girona",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-13",
+      "opponent": "FK Krasnodar",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-08",
+      "opponent": "Valencia",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-05",
+      "opponent": "Villanovense",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Copa del Rey 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-02",
+      "opponent": "Alavés",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-29",
+      "opponent": "Standard Liège",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-25",
+      "opponent": "Valladolid",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-11",
+      "opponent": "RCD Espanyol",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-08",
+      "opponent": "Akhisar",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-04",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-01",
+      "opponent": "Villanovense",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Copa del Rey 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-28",
+      "opponent": "Huesca",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-25",
+      "opponent": "Akhisar",
+      "home_away": "H",
+      "score": "6-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-20",
+      "opponent": "Barcelona",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-07",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-04",
+      "opponent": "FK Krasnodar",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-29",
+      "opponent": "Eibar",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-26",
+      "opponent": "Real Madrid",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-23",
+      "opponent": "Levante",
+      "home_away": "A",
+      "score": "6-2",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-20",
+      "opponent": "Standard Liège",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "Getafe",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-02",
+      "opponent": "Betis",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-30",
+      "opponent": "Olomouc",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-26",
+      "opponent": "Villarreal",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-23",
+      "opponent": "Olomouc",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-19",
+      "opponent": "Rayo",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Primera División 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-16",
+      "opponent": "Žalgiris",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-12",
+      "opponent": "Barcelona",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Supercopa 2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-09",
+      "opponent": "Žalgiris",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-02",
+      "opponent": "Újpest FC",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-07-26",
+      "opponent": "Újpest FC",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 238,
+    "end_index": 242,
+    "length": 5
+  }
+}

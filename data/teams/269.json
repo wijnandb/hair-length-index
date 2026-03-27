@@ -1,0 +1,5123 @@
+{
+  "team_id": 269,
+  "team": "SC Freiburg",
+  "short_name": null,
+  "matches": [
+    {
+      "date": "2026-03-22",
+      "opponent": "St. Pauli",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-19",
+      "opponent": "KRC Genk",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-12",
+      "opponent": "KRC Genk",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-22",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-10",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "5-4",
+      "result": "W",
+      "competition": "DFB-Pokal 2025/2026",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-29",
+      "opponent": "Lille",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-25",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-22",
+      "opponent": "M. Tel Aviv",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Hamburg",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-11",
+      "opponent": "RB Salzburg",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Heidenheim",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "Darmstadt",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-30",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "Viktoria Plzeň",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-22",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "2-6",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-09",
+      "opponent": "St. Pauli",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-06",
+      "opponent": "Nice",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-01",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-29",
+      "opponent": "Düsseldorf",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-26",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-23",
+      "opponent": "FC Utrecht",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-19",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-05",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-02",
+      "opponent": "Bologna",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-28",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-24",
+      "opponent": "FC Basel",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-20",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-09-13",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-31",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-23",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-16",
+      "opponent": "SF Lotte",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2025/2026",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-17",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-10",
+      "opponent": "Holstein Kiel",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-04",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-26",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-19",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-12",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-05",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-30",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-15",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-08",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-02",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-21",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-15",
+      "opponent": "St. Pauli",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-08",
+      "opponent": "Heidenheim",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-01",
+      "opponent": "Bochum",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-25",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-18",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-14",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-11",
+      "opponent": "Holstein Kiel",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-21",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-13",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-08",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-03",
+      "opponent": "Bielefeld",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "DFB-Pokal 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-30",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-23",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-08",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-03",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-30",
+      "opponent": "Hamburg",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-26",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-19",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-05",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-28",
+      "opponent": "St. Pauli",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-21",
+      "opponent": "Heidenheim",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-14",
+      "opponent": "Bochum",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-01",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-24",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-17",
+      "opponent": "Osnabrück",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2024/2025",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-18",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-11",
+      "opponent": "Heidenheim",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-04",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-27",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-21",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-14",
+      "opponent": "Darmstadt",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-06",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-30",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-17",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-14",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-10",
+      "opponent": "Bochum",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-07",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-01",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-25",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-22",
+      "opponent": "RC Lens",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-18",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-15",
+      "opponent": "RC Lens",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-09",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-03",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-27",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-20",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-01-13",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-20",
+      "opponent": "Heidenheim",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-17",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-14",
+      "opponent": "West Ham",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-09",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-03",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-30",
+      "opponent": "Olympiacos FC",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-25",
+      "opponent": "Darmstadt",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-12",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-09",
+      "opponent": "Bačka Topola",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-04",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-01",
+      "opponent": "Paderborn",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "DFB-Pokal 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-29",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-26",
+      "opponent": "Bačka Topola",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-21",
+      "opponent": "Bochum",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-08",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-05",
+      "opponent": "West Ham",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-01",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-24",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-21",
+      "opponent": "Olympiacos FC",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-16",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-02",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-26",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-19",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-13",
+      "opponent": "SV Oberachern",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2023/2024",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-27",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-19",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-13",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-06",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-02",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "1-5",
+      "result": "L",
+      "competition": "DFB-Pokal 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-29",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-23",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-16",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-08",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-04",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-01",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-19",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-16",
+      "opponent": "Juventus",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-12",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-09",
+      "opponent": "Juventus",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-03-04",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-26",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-18",
+      "opponent": "Bochum",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-11",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-07",
+      "opponent": "Sandhausen",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-04",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-28",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-25",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-21",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-13",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-09",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-06",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-03",
+      "opponent": "Qarabağ FK",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-30",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-27",
+      "opponent": "Olympiacos FC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-22",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-19",
+      "opponent": "St. Pauli",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2022/2023",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-16",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-13",
+      "opponent": "FC Nantes",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-09",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-06",
+      "opponent": "FC Nantes",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-01",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-18",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-15",
+      "opponent": "Olympiacos FC",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-11",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-08",
+      "opponent": "Qarabağ FK",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-26",
+      "opponent": "Bochum",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-20",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-12",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-06",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Bundesliga 2022/2023",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-07-31",
+      "opponent": "K'lautern",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2022/2023",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-21",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "DFB-Pokal 2021/2022",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-14",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-05-07",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-30",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-23",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-19",
+      "opponent": "Hamburg",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-16",
+      "opponent": "Bochum",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-10",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-02",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-19",
+      "opponent": "Gr. Fürth",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-12",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-05",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-03-02",
+      "opponent": "Bochum",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2021/2022",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-26",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-19",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-12",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-05",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-22",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-19",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-14",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-08",
+      "opponent": "Bielefeld",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-19",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-15",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-11",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-12-05",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "6-0",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-27",
+      "opponent": "Bochum",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-21",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-06",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-30",
+      "opponent": "Gr. Fürth",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-26",
+      "opponent": "Osnabrück",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "DFB-Pokal 2021/2022",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-23",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-16",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-02",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-26",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-18",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-11",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-28",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-21",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-14",
+      "opponent": "Bielefeld",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-08-08",
+      "opponent": "Würzburg",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2021/2022",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-22",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-15",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-09",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-05-06",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-24",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-17",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-09",
+      "opponent": "Bielefeld",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-03",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-21",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-13",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-03-06",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-28",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-20",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-13",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-06",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-31",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-23",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-20",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-17",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-09",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-02",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-23",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "DFB-Pokal 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-20",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-16",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-12",
+      "opponent": "Bielefeld",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-05",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-28",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-22",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-07",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-01",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-24",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-17",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-03",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-27",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-19",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-09-13",
+      "opponent": "Waldhof Mannh.",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2020/2021",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-27",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-20",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-16",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-13",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-06-05",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-05-29",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-05-26",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-05-23",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-05-16",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-07",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-29",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-22",
+      "opponent": "Düsseldorf",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-15",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-08",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-02-02",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-25",
+      "opponent": "Paderborn",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-18",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-21",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-18",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-14",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-07",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-01",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-23",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-10",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-11-02",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-29",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "DFB-Pokal 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-26",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-19",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-05",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-29",
+      "opponent": "Düsseldorf",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-21",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-15",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-31",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-24",
+      "opponent": "Paderborn",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-17",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2019/2020",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-10",
+      "opponent": "Magdeburg",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2019/2020",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-18",
+      "opponent": "Nuremberg",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-11",
+      "opponent": "Hannover",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-05-05",
+      "opponent": "Düsseldorf",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-27",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-21",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-13",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-04-05",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-30",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-15",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-09",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-03-02",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-23",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-16",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-09",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-02-03",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-26",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-01-19",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-22",
+      "opponent": "Nuremberg",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-19",
+      "opponent": "Hannover",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-15",
+      "opponent": "Düsseldorf",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-08",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-12-01",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-25",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-10",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-11-03",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-31",
+      "opponent": "Holstein Kiel",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "DFB-Pokal 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-26",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-21",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-10-07",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-30",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-25",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-22",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-16",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-09-01",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-25",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2018/2019",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-08-20",
+      "opponent": "Cottbus",
+      "home_away": "A",
+      "score": "5-3",
+      "result": "W",
+      "competition": "DFB-Pokal 2018/2019",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-05-12",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-05-05",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-28",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-21",
+      "opponent": "Hamburg",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-16",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-04-07",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-31",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-16",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-10",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-03-04",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-24",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-17",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-10",
+      "opponent": "Hannover",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-03",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-27",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-20",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-01-13",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-20",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "DFB-Pokal 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-16",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-12",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-10",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-01",
+      "opponent": "Hamburg",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-25",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-18",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-04",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-29",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-25",
+      "opponent": "Dresden",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-22",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-14",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-01",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-23",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-20",
+      "opponent": "Hannover",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-17",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-09",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-27",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-20",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-12",
+      "opponent": "Halberstadt",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2017/2018",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-08-03",
+      "opponent": "NK Domžale",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-07-27",
+      "opponent": "NK Domžale",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Europa League Kwalificatie",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-20",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-13",
+      "opponent": "Ingolstadt",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-05-07",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-29",
+      "opponent": "Darmstadt",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-23",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-15",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-08",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-05",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-01",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-18",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-11",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-03-05",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-25",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-18",
+      "opponent": "Hamburg",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-12",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-04",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-29",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-20",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-21",
+      "opponent": "Ingolstadt",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-17",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-10",
+      "opponent": "Darmstadt",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-12-03",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-25",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-19",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-05",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-29",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-25",
+      "opponent": "Sandhausen",
+      "home_away": "H",
+      "score": "3-4",
+      "result": "L",
+      "competition": "DFB-Pokal 2016/2017",
+      "decided_in": "PENALTIES",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-22",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-15",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-01",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-23",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-20",
+      "opponent": "Hamburg",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-16",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-09-10",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-28",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-20",
+      "opponent": "Babelsberg",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2016/2017",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-05-15",
+      "opponent": "Union Berlin",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-05-08",
+      "opponent": "Heidenheim",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-29",
+      "opponent": "Paderborn",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-22",
+      "opponent": "Duisburg",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-18",
+      "opponent": "Braunschweig",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-10",
+      "opponent": "St. Pauli",
+      "home_away": "H",
+      "score": "4-3",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-04-04",
+      "opponent": "Gr. Fürth",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-03-21",
+      "opponent": "Karlsruhe",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-03-13",
+      "opponent": "FSV Frankf.",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-03-07",
+      "opponent": "RB Leipzig",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-03-02",
+      "opponent": "Bielefeld",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-27",
+      "opponent": "K'lautern",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-21",
+      "opponent": "Sandhausen",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-14",
+      "opponent": "Düsseldorf",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-05",
+      "opponent": "Bochum",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-12-20",
+      "opponent": "1860 Munich",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-12-13",
+      "opponent": "Nuremberg",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-12-05",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-27",
+      "opponent": "Heidenheim",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-22",
+      "opponent": "Paderborn",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-07",
+      "opponent": "Duisburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-11-01",
+      "opponent": "Braunschweig",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-28",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "DFB-Pokal 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-25",
+      "opponent": "St. Pauli",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-18",
+      "opponent": "Gr. Fürth",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-10-04",
+      "opponent": "Karlsruhe",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-27",
+      "opponent": "FSV Frankf.",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-24",
+      "opponent": "RB Leipzig",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-18",
+      "opponent": "Bielefeld",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-11",
+      "opponent": "K'lautern",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-08-28",
+      "opponent": "Sandhausen",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-08-22",
+      "opponent": "Düsseldorf",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-08-15",
+      "opponent": "Bochum",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-08-09",
+      "opponent": "BU",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-08-01",
+      "opponent": "1860 Munich",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-07-27",
+      "opponent": "Nuremberg",
+      "home_away": "H",
+      "score": "6-3",
+      "result": "W",
+      "competition": "2. Bundesliga 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-23",
+      "opponent": "Hannover",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-16",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-08",
+      "opponent": "Hamburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-05-02",
+      "opponent": "Paderborn",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-25",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-18",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-11",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-07",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "DFB-Pokal 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-04-04",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-21",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-15",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-07",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-03",
+      "opponent": "Köln",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-02-28",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-02-21",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-02-15",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-02-07",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-02-03",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-01-31",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-12-21",
+      "opponent": "Hannover",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-12-16",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-12-13",
+      "opponent": "Hamburg",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-12-06",
+      "opponent": "Paderborn",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-11-28",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-11-22",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-11-08",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-11-02",
+      "opponent": "Köln",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-29",
+      "opponent": "1860 Munich",
+      "home_away": "A",
+      "score": "5-2",
+      "result": "W",
+      "competition": "DFB-Pokal 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-25",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-18",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-04",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-09-27",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-09-23",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-09-19",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-09-13",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-08-31",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-08-23",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-08-17",
+      "opponent": "Ein. Trier",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-05-10",
+      "opponent": "Hannover",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-05-03",
+      "opponent": "Schalke",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-26",
+      "opponent": "Wolfsburg",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-19",
+      "opponent": "M'gladbach",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-12",
+      "opponent": "Braunschweig",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-05",
+      "opponent": "Stuttgart",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-29",
+      "opponent": "Nuremberg",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-26",
+      "opponent": "Hamburg",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-21",
+      "opponent": "Werder",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-16",
+      "opponent": "E. Frankfurt",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-03-09",
+      "opponent": "Dortmund",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-02-28",
+      "opponent": "Hertha BSC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-02-22",
+      "opponent": "Augsburg",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-02-15",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-02-08",
+      "opponent": "Hoffenheim",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-02-01",
+      "opponent": "Mainz 05",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-01-25",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-21",
+      "opponent": "Hannover",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-15",
+      "opponent": "Schalke",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-12",
+      "opponent": "Sevilla",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-08",
+      "opponent": "Wolfsburg",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-04",
+      "opponent": "Leverkusen",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "DFB-Pokal 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-01",
+      "opponent": "M'gladbach",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-11-28",
+      "opponent": "Sl. Liberec",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-11-23",
+      "opponent": "Braunschweig",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-11-10",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-11-07",
+      "opponent": "Estoril",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-11-02",
+      "opponent": "Nuremberg",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-10-27",
+      "opponent": "Hamburg",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-10-24",
+      "opponent": "Estoril",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-10-19",
+      "opponent": "Werder",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-10-06",
+      "opponent": "E. Frankfurt",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-10-03",
+      "opponent": "Sevilla",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-28",
+      "opponent": "Dortmund",
+      "home_away": "A",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-25",
+      "opponent": "Stuttgart",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "DFB-Pokal 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-22",
+      "opponent": "Hertha BSC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-19",
+      "opponent": "Sl. Liberec",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Europa League",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-09-14",
+      "opponent": "Augsburg",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-08-27",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-08-24",
+      "opponent": "Hoffenheim",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-08-17",
+      "opponent": "Mainz 05",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-08-10",
+      "opponent": "Leverkusen",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Bundesliga 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-08-03",
+      "opponent": "Neustrelitz",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "DFB-Pokal 2013/2014",
+      "decided_in": "EXTRA_TIME",
+      "source": "worldfootball.net"
+    }
+  ],
+  "streak": {
+    "found": true,
+    "start_index": 399,
+    "end_index": 406,
+    "length": 8
+  }
+}
