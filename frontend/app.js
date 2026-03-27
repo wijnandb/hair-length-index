@@ -6,6 +6,7 @@
  */
 
 const LEAGUES = {
+  ALL: { name: "All Leagues", file: "data/hair-index-global.json" },
   DED: { name: "Eredivisie", file: "data/hair-index.json" },
   JE: { name: "Eerste Divisie", file: "data/hair-index-je.json" },
   PL: { name: "Premier League", file: "data/hair-index-pl.json" },
@@ -14,6 +15,9 @@ const LEAGUES = {
   SA: { name: "Serie A", file: "data/hair-index-sa.json" },
   L1: { name: "Ligue 1", file: "data/hair-index-l1.json" },
 };
+let ITEMS_PER_PAGE = 25;
+let currentPage = 1;
+let allTeamsData = null;
 let currentLeague = "DED";
 const TEAMS_DIR = "data/teams";
 
@@ -244,6 +248,7 @@ function renderTeamCard(team, rank) {
 
         <div class="team-info">
           <span class="team-name">${escapeHtml(team.team)}</span>
+          ${team.league_flag ? `<span class="league-flag" title="${escapeHtml(team.league_name || '')}">${team.league_flag}</span>` : ""}
           <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(team.hair_tier)}</span>
         </div>
 
@@ -277,15 +282,31 @@ function renderTeamCard(team, rank) {
 function renderIndex(data) {
   const container = document.getElementById("index-table");
   const teams = data.teams;
+  allTeamsData = teams;
+  currentPage = 1;
 
   if (!teams || teams.length === 0) {
     container.innerHTML = `<div class="error">Geen data beschikbaar.</div>`;
     return;
   }
 
-  container.innerHTML = teams
+  // For large lists (global view), paginate
+  const pageSize = teams.length > 30 ? ITEMS_PER_PAGE : teams.length;
+  const visible = teams.slice(0, pageSize);
+
+  container.innerHTML = visible
     .map((team, i) => renderTeamCard(team, i + 1))
     .join("");
+
+  // Add "load more" button for global view
+  if (teams.length > pageSize) {
+    container.innerHTML += `
+      <div class="load-more" id="load-more">
+        <button onclick="loadMoreTeams()" class="load-more-btn">
+          Meer teams laden (${teams.length - pageSize} remaining)
+        </button>
+      </div>`;
+  }
 
   const genDate = data.generated_at
     ? new Date(data.generated_at).toLocaleDateString("nl-NL", {
@@ -378,6 +399,34 @@ async function toggleDetail(cardEl) {
         detail.innerHTML = `<p class="no-matches">Kon wedstrijddata niet laden.</p>`;
       }
     }
+  }
+}
+
+// === Load More (pagination) ===
+
+function loadMoreTeams() {
+  if (!allTeamsData) return;
+  currentPage++;
+  const start = (currentPage - 1) * ITEMS_PER_PAGE;
+  const end = start + ITEMS_PER_PAGE;
+  const nextBatch = allTeamsData.slice(start, end);
+
+  const container = document.getElementById("index-table");
+  const loadMore = document.getElementById("load-more");
+  if (loadMore) loadMore.remove();
+
+  container.innerHTML += nextBatch
+    .map((team, i) => renderTeamCard(team, start + i + 1))
+    .join("");
+
+  const remaining = allTeamsData.length - end;
+  if (remaining > 0) {
+    container.innerHTML += `
+      <div class="load-more" id="load-more">
+        <button onclick="loadMoreTeams()" class="load-more-btn">
+          Meer teams laden (${remaining} remaining)
+        </button>
+      </div>`;
   }
 }
 
