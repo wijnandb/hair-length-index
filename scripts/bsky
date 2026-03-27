@@ -1,0 +1,179 @@
+#!/usr/bin/env python3
+"""Quick Bluesky posting CLI.
+
+Usage:
+    bsky "Your post text here"              # Post text immediately
+    bsky "Text" --image card.png            # Post with image
+    bsky --team "Sparta Rotterdam"          # Auto-generate team post
+    bsky --team "Sparta Rotterdam" --nl     # Force Dutch
+    bsky --queue                            # Post all queued items
+    bsky --queue --dry-run                  # Preview queued items
+    bsky --preview "Text"                   # Preview without posting
+"""
+
+import argparse
+import json
+import os
+import sys
+from pathlib import Path
+
+# Add project root to path
+PROJECT_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from scripts.config import DATA_DIR
+
+
+def load_env():
+    """Load .env file."""
+    env_path = PROJECT_ROOT / ".env"
+    if env_path.exists():
+        for line in env_path.read_text().splitlines():
+            if "=" in line and not line.startswith("#"):
+                key, val = line.strip().split("=", 1)
+                os.environ.setdefault(key, val)
+
+
+def get_team_data(team_name: str) -> dict | None:
+    """Find a team in the global index."""
+    global_path = DATA_DIR / "hair-index-global.json"
+    if not global_path.exists():
+        return None
+    with open(global_path) as f:
+        data = json.load(f)
+    for t in data.get("teams", []):
+        if team_name.lower() in t["team"].lower():
+            return t
+    return None
+
+
+def generate_team_post(team: dict, lang: str = "auto") -> str:
+    """Generate a post about a specific team."""
+    name = team["team"]
+    days = team.get("days_since", "???")
+    streak = team.get("streak_length", 0)
+    tier = team.get("hair_tier", "")
+    league = team.get("league_name", "")
+    league_code = team.get("league", "")
+    end_date = team.get("streak_end_date", "")
+    url = "wijnandb.github.io/hair-length-index/"
+
+    # Auto-detect language: Dutch for NL leagues, English otherwise
+    if lang == "auto":
+        lang = "nl" if league_code in ("DED", "JE") else "en"
+
+    TIER_EMOJI = {
+        "Fresh cut": "💇", "Growing back": "✂️", "Getting shaggy": "💈",
+        "Long & wild": "🦁", "Caveman": "🧔", "Sasquatch": "🧌", "Lost in time": "❓",
+    }
+    emoji = TIER_EMOJI.get(tier, "🧔")
+
+    if lang == "nl":
+        days_str = f"{days:,}".replace(",", ".") if isinstance(days, int) else str(days)
+        text = f"{emoji} {name}\n\n{days_str} dagen zonder 5 op rij.\n"
+        if streak and end_date:
+            text += f"Laatst {streak}x achter elkaar gewonnen: {end_date}\n"
+        text += f"\n{league}\n{url}\n\n#HairLengthIndex"
+    else:
+        days_str = f"{days:,}" if isinstance(days, int) else str(days)
+        text = f"{emoji} {name}\n\n{days_str} days without winning 5 in a row.\n"
+        if streak and end_date:
+            text += f"Last {streak}x streak: {end_date}\n"
+        text += f"\n{league}\n{url}\n\n#HairLengthIndex"
+
+    return text
+
+
+def post_to_bluesky(text: str, image_path: Path | None = None):
+    """Post to Bluesky."""
+    from atproto import Client
+
+    handle = os.environ.get("BLUESKY_HANDLE", "")
+    password = os.environ.get("BLUESKY_APP_PASSWORD", "")
+    if not handle or not password:
+        print("Error: BLUESKY_HANDLE and BLUESKY_APP_PASSWORD must be set in .env")
+        sys.exit(1)
+
+    client = Client()
+    client.login(handle, password)
+
+    if image_path and image_path.exists():
+        with open(image_path, "rb") as f:
+            image_data = f.read()
+        post = client.send_image(text=text, image=image_data, image_alt="Hair Length Index")
+    else:
+        post = client.send_post(text=text)
+
+    print(f"✅ Posted: {post.uri}")
+    return post
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Quick Bluesky posting")
+    parser.add_argument("text", nargs="?", help="Post text (or use --team/--queue)")
+    parser.add_argument("--image", type=str, help="Attach an image")
+    parser.add_argument("--team", type=str, help="Auto-generate post for a team")
+    parser.add_argument("--nl", action="store_true", help="Force Dutch language")
+    parser.add_argument("--en", action="store_true", help="Force English language")
+    parser.add_argument("--queue", action="store_true", help="Post all queued items")
+    parser.add_argument("--dry-run", action="store_true", help="Preview without posting")
+    parser.add_argument("--preview", type=str, help="Preview text without posting")
+    args = parser.parse_args()
+
+    load_env()
+
+    # Mode: preview
+    if args.preview:
+        print(f"\n--- PREVIEW ---\n{args.preview}\n--- END ---\n")
+        return
+
+    # Mode: team post
+    if args.team:
+        team = get_team_data(args.team)
+        if not team:
+            print(f"Team not found: {args.team}")
+            print("Try a partial name like 'Sparta' or 'Bayern'")
+            sys.exit(1)
+
+        lang = "nl" if args.nl else ("en" if args.en else "auto")
+        text = generate_team_post(team, lang)
+
+        print(f"\n--- POST ---\n{text}\n--- END ---\n")
+
+        if args.dry_run:
+            return
+
+        confirm = input("Post this? [y/N] ").strip().lower()
+        if confirm == "y":
+            image_path = Path(args.image) if args.image else None
+            post_to_bluesky(text, image_path)
+        else:
+            print("Cancelled.")
+        return
+
+    # Mode: queue
+    if args.queue:
+        from scripts.post_bluesky import post_queue
+        post_queue(dry_run=args.dry_run)
+        return
+
+    # Mode: direct text
+    if args.text:
+        print(f"\n--- POST ---\n{args.text}\n--- END ---\n")
+
+        if args.dry_run:
+            return
+
+        confirm = input("Post this? [y/N] ").strip().lower()
+        if confirm == "y":
+            image_path = Path(args.image) if args.image else None
+            post_to_bluesky(args.text, image_path)
+        else:
+            print("Cancelled.")
+        return
+
+    parser.print_help()
+
+
+if __name__ == "__main__":
+    main()
