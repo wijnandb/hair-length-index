@@ -547,7 +547,7 @@ main {
 }
 .watch-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .watch-card { cursor: pointer; position: relative; }
-.watch-card.watch-expanded { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.2); }
+.watch-card.watch-expanded { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.2); grid-column: 1 / -1; }
 .watch-header { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
 .watch-logo { width: 36px; height: 36px; border-radius: 4px; }
 .watch-team-name { font-weight: 700; font-size: 0.95rem; color: #78350f; }
@@ -560,6 +560,7 @@ main {
 .watch-remaining { font-size: 0.75rem; color: #a16207; }
 
 /* Expanded detail */
+.watch-expanded .watch-header { margin-bottom: 0; }
 .watch-detail { margin-top: 10px; border-top: 1px solid rgba(217,119,6,0.2); padding-top: 8px; }
 .watch-matches-title { font-size: 0.7rem; color: #92400e; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
 .watch-match {
