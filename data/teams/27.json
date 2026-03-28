@@ -475,6 +475,16 @@
     },
     {
       "date": "2025-02-09",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-02-09",
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "0-0",
@@ -645,6 +655,16 @@
     },
     {
       "date": "2024-10-13",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-10-13",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "2-0",
@@ -742,6 +762,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-05-10",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-05-10",
@@ -1122,6 +1152,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-13",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2023-08-13",
@@ -4036,8 +4076,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 275,
-    "end_index": 279,
+    "start_index": 279,
+    "end_index": 283,
     "length": 5
   }
 }

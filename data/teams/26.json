@@ -385,6 +385,16 @@
     },
     {
       "date": "2025-04-13",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-04-13",
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-4",
@@ -695,6 +705,16 @@
     },
     {
       "date": "2024-08-30",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-08-30",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "3-0",
@@ -732,6 +752,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-06",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-05-10",
@@ -832,6 +862,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-01",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-03-01",
@@ -1042,6 +1082,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-01",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2023-10-01",
@@ -6916,8 +6966,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 526,
-    "end_index": 530,
+    "start_index": 531,
+    "end_index": 535,
     "length": 5
   }
 }

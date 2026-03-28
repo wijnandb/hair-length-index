@@ -35,6 +35,16 @@
     },
     {
       "date": "2026-03-03",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2026-03-03",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "3-2",
@@ -222,6 +232,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-30",
+      "opponent": "Rijnsburgse Boys",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
     },
     {
       "date": "2025-10-30",
@@ -2696,8 +2716,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 8,
-    "end_index": 13,
+    "start_index": 9,
+    "end_index": 14,
     "length": 6
   }
 }

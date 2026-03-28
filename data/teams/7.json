@@ -145,6 +145,16 @@
     },
     {
       "date": "2025-12-18",
+      "opponent": "Genemuiden SC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "EXTRA_TIME",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2025-12-18",
       "opponent": "SC Genemuiden",
       "home_away": "H",
       "score": "2-0",
@@ -325,6 +335,16 @@
     },
     {
       "date": "2025-05-09",
+      "opponent": "Dordrecht",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-05-09",
       "opponent": "FC Dordrecht",
       "home_away": "A",
       "score": "1-4",
@@ -335,6 +355,16 @@
     },
     {
       "date": "2025-05-02",
+      "opponent": "Roda",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-05-02",
       "opponent": "Roda JC Kerkrade",
       "home_away": "H",
       "score": "3-2",
@@ -342,6 +372,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-28",
+      "opponent": "Jong Utrecht",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2025-04-28",
@@ -365,6 +405,16 @@
     },
     {
       "date": "2025-04-14",
+      "opponent": "Jong AZ",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-04-14",
       "opponent": "AZ (J)",
       "home_away": "A",
       "score": "1-0",
@@ -372,6 +422,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-04",
+      "opponent": "Jong PSV U21",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2025-04-04",
@@ -385,6 +445,16 @@
     },
     {
       "date": "2025-03-31",
+      "opponent": "Jong Ajax",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-03-31",
       "opponent": "Ajax (J)",
       "home_away": "A",
       "score": "2-0",
@@ -392,6 +462,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-15",
+      "opponent": "Cambuur",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2025-03-15",
@@ -415,6 +495,16 @@
     },
     {
       "date": "2025-03-07",
+      "opponent": "FC OSS",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-03-07",
       "opponent": "TOP Oss",
       "home_away": "A",
       "score": "2-0",
@@ -435,6 +525,16 @@
     },
     {
       "date": "2025-02-22",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2025-02-22",
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "3-1",
@@ -442,6 +542,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-15",
+      "opponent": "Emmen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2025-02-15",
@@ -462,6 +572,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-31",
+      "opponent": "Den Bosch",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2025-01-31",
@@ -515,6 +635,16 @@
     },
     {
       "date": "2024-12-19",
+      "opponent": "Rijnsburgse Boys",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-12-19",
       "opponent": "Rijnsburgse B.",
       "home_away": "A",
       "score": "0-2",
@@ -535,6 +665,16 @@
     },
     {
       "date": "2024-12-06",
+      "opponent": "Jong AZ",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-12-06",
       "opponent": "AZ (J)",
       "home_away": "H",
       "score": "2-0",
@@ -542,6 +682,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-29",
+      "opponent": "Roda",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-11-29",
@@ -555,6 +705,16 @@
     },
     {
       "date": "2024-11-25",
+      "opponent": "Jong Ajax",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-11-25",
       "opponent": "Ajax (J)",
       "home_away": "H",
       "score": "3-0",
@@ -565,6 +725,16 @@
     },
     {
       "date": "2024-11-22",
+      "opponent": "Jong PSV U21",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-11-22",
       "opponent": "Jong PSV",
       "home_away": "A",
       "score": "4-1",
@@ -572,6 +742,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-08",
+      "opponent": "Jong Utrecht",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-11-08",
@@ -595,6 +775,16 @@
     },
     {
       "date": "2024-10-31",
+      "opponent": "Dovo",
+      "home_away": "A",
+      "score": "5-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-10-31",
       "opponent": "VV DOVO Veenendaal",
       "home_away": "A",
       "score": "5-1",
@@ -615,6 +805,16 @@
     },
     {
       "date": "2024-10-22",
+      "opponent": "Den Bosch",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-10-22",
       "opponent": "FC Den Bosch",
       "home_away": "H",
       "score": "3-2",
@@ -622,6 +822,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-10-18",
+      "opponent": "Cambuur",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-10-18",
@@ -645,6 +855,16 @@
     },
     {
       "date": "2024-09-27",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-09-27",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "2-4",
@@ -662,6 +882,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-17",
+      "opponent": "Dordrecht",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-09-17",
@@ -685,6 +915,16 @@
     },
     {
       "date": "2024-08-31",
+      "opponent": "FC OSS",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-08-31",
       "opponent": "TOP Oss",
       "home_away": "H",
       "score": "4-0",
@@ -705,6 +945,16 @@
     },
     {
       "date": "2024-08-18",
+      "opponent": "Emmen",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-08-18",
       "opponent": "FC Emmen",
       "home_away": "H",
       "score": "0-1",
@@ -722,6 +972,66 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-02",
+      "opponent": "Jong Ajax",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-27",
+      "opponent": "RKAV Volendam",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-20",
+      "opponent": "Deinze",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-17",
+      "opponent": "Al Shamal",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-12",
+      "opponent": "Noordwijk",
+      "home_away": "H",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-07-06",
+      "opponent": "MSV Duisburg",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-05-19",
@@ -904,6 +1214,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2024-01-08",
+      "opponent": "FC Winterthur",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-01-05",
+      "opponent": "Partizani",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
       "date": "2023-12-16",
       "opponent": "Heerenveen",
       "home_away": "A",
@@ -942,6 +1272,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-16",
+      "opponent": "Excelsior Maassluis",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2023-11-16",
@@ -1072,6 +1412,66 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-05",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-08-01",
+      "opponent": "Alanyaspor",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-07-29",
+      "opponent": "Lamia",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-07-22",
+      "opponent": "Kortrijk",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-07-15",
+      "opponent": "Gent",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2023-07-08",
+      "opponent": "SVZW",
+      "home_away": "A",
+      "score": "6-1",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2023-05-28",
@@ -3226,8 +3626,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 36,
-    "end_index": 44,
-    "length": 9
+    "start_index": 40,
+    "end_index": 55,
+    "length": 16
   }
 }

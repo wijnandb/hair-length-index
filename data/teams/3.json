@@ -185,6 +185,16 @@
     },
     {
       "date": "2025-10-29",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "EXTRA_TIME",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2025-10-29",
       "opponent": "Exc. Maassluis",
       "home_away": "A",
       "score": "0-1",
@@ -485,6 +495,16 @@
     },
     {
       "date": "2024-12-21",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-12-21",
       "opponent": "VVV-Venlo",
       "home_away": "A",
       "score": "1-1",
@@ -575,6 +595,16 @@
     },
     {
       "date": "2024-10-29",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-10-29",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "2-1",
@@ -645,6 +675,16 @@
     },
     {
       "date": "2024-09-16",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eerste Divisie",
+      "decided_in": "REGULAR",
+      "source": "api-football"
+    },
+    {
+      "date": "2024-09-16",
       "opponent": "VVV-Venlo",
       "home_away": "H",
       "score": "4-0",
@@ -702,6 +742,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-07-26",
+      "opponent": "Heracles",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Friendlies Clubs",
+      "decided_in": "REGULAR",
+      "source": "api-football"
     },
     {
       "date": "2024-06-02",
@@ -3016,8 +3066,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 30,
-    "end_index": 37,
+    "start_index": 31,
+    "end_index": 38,
     "length": 8
   }
 }

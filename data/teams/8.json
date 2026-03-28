@@ -145,6 +145,16 @@
     },
     {
       "date": "2025-12-17",
+      "opponent": "sc Heerenveen",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2025-12-17",
       "opponent": "Heerenveen",
       "home_away": "H",
       "score": "2-3",
@@ -3396,8 +3406,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 42,
-    "end_index": 48,
+    "start_index": 43,
+    "end_index": 49,
     "length": 7
   }
 }

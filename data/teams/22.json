@@ -125,6 +125,16 @@
     },
     {
       "date": "2026-01-14",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2026-01-14",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "1-4",
@@ -142,6 +152,16 @@
       "competition": "Eerste Divisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-16",
+      "opponent": "Katwijk",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
     },
     {
       "date": "2025-12-16",
@@ -4166,8 +4186,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 290,
-    "end_index": 297,
+    "start_index": 292,
+    "end_index": 299,
     "length": 8
   }
 }

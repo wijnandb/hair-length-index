@@ -125,6 +125,16 @@
     },
     {
       "date": "2026-01-14",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-6",
+      "result": "L",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
+    },
+    {
+      "date": "2026-01-14",
       "opponent": "AZ Alkmaar",
       "home_away": "A",
       "score": "0-6",
@@ -152,6 +162,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-17",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "7-2",
+      "result": "W",
+      "competition": "KNVB Beker",
+      "decided_in": "REGULAR",
+      "source": "knvb-beker-nl"
     },
     {
       "date": "2025-12-17",
@@ -3456,8 +3476,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 15,
-    "end_index": 19,
-    "length": 5
+    "start_index": 16,
+    "end_index": 21,
+    "length": 6
   }
 }

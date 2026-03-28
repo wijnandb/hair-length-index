@@ -315,6 +315,16 @@
     },
     {
       "date": "2025-05-18",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-05-18",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "1-3",
@@ -322,6 +332,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-05-14",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2025-05-14",
@@ -345,6 +365,16 @@
     },
     {
       "date": "2025-05-04",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-05-04",
       "opponent": "FC Twente",
       "home_away": "H",
       "score": "0-2",
@@ -352,6 +382,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-04-27",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2025-04-27",
@@ -375,6 +415,16 @@
     },
     {
       "date": "2025-04-06",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-04-06",
       "opponent": "N.E.C.",
       "home_away": "H",
       "score": "2-0",
@@ -382,6 +432,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-03-29",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2025-03-29",
@@ -441,7 +501,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2025-02-08",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-02-02",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2025-02-02",
@@ -452,6 +532,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-01-26",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2025-01-26",
@@ -491,6 +581,16 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-12-22",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -502,6 +602,16 @@
       "competition": "KNVB Beker",
       "decided_in": "PENALTIES",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-12-15",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-12-15",
@@ -535,6 +645,16 @@
     },
     {
       "date": "2024-11-24",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-11-24",
       "opponent": "AZ Alkmaar",
       "home_away": "H",
       "score": "1-2",
@@ -545,6 +665,16 @@
     },
     {
       "date": "2024-11-09",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-11-09",
       "opponent": "FC Groningen",
       "home_away": "A",
       "score": "0-1",
@@ -552,6 +682,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-11-03",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-11-03",
@@ -595,6 +735,16 @@
     },
     {
       "date": "2024-10-05",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-10-05",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
       "score": "1-2",
@@ -602,6 +752,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-09-28",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-09-28",
@@ -651,7 +811,27 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-08-25",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-08-17",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-08-17",
@@ -695,6 +875,16 @@
     },
     {
       "date": "2024-05-12",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-05-12",
       "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "1-0",
@@ -705,6 +895,16 @@
     },
     {
       "date": "2024-05-05",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-05-05",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
       "score": "2-4",
@@ -712,6 +912,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-04-28",
+      "opponent": "Volendam",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-04-28",
@@ -755,6 +965,16 @@
     },
     {
       "date": "2024-03-30",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-03-30",
       "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "4-0",
@@ -771,7 +991,27 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-03-17",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-03-09",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-03-09",
@@ -785,6 +1025,16 @@
     },
     {
       "date": "2024-03-02",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-03-02",
       "opponent": "AZ Alkmaar",
       "home_away": "H",
       "score": "1-1",
@@ -792,6 +1042,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-24",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-02-24",
@@ -811,7 +1071,27 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-02-17",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2024-02-11",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2024-02-11",
@@ -855,6 +1135,16 @@
     },
     {
       "date": "2024-01-13",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2024-01-13",
       "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "2-0",
@@ -875,6 +1165,16 @@
     },
     {
       "date": "2023-12-17",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-12-17",
       "opponent": "FC Twente",
       "home_away": "H",
       "score": "2-2",
@@ -882,6 +1182,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-12-09",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-12-09",
@@ -905,6 +1215,16 @@
     },
     {
       "date": "2023-11-26",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-11-26",
       "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "1-2",
@@ -912,6 +1232,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-11-12",
+      "opponent": "Volendam",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-11-12",
@@ -965,6 +1295,16 @@
     },
     {
       "date": "2023-10-08",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-10-08",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "0-4",
@@ -972,6 +1312,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-10-01",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-10-01",
@@ -995,6 +1345,16 @@
     },
     {
       "date": "2023-09-17",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-09-17",
       "opponent": "AZ Alkmaar",
       "home_away": "A",
       "score": "0-2",
@@ -1002,6 +1362,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-09-01",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-09-01",
@@ -1022,6 +1392,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-08-20",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-08-20",
@@ -1085,6 +1465,16 @@
     },
     {
       "date": "2023-05-28",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "5-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-05-28",
       "opponent": "FC Groningen",
       "home_away": "A",
       "score": "5-0",
@@ -1092,6 +1482,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-05-21",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-05-21",
@@ -1105,6 +1505,16 @@
     },
     {
       "date": "2023-05-13",
+      "opponent": "Volendam",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-05-13",
       "opponent": "FC Volendam",
       "home_away": "A",
       "score": "1-2",
@@ -1115,6 +1525,16 @@
     },
     {
       "date": "2023-05-06",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-05-06",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "0-1",
@@ -1122,6 +1542,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-23",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-04-23",
@@ -1145,6 +1575,16 @@
     },
     {
       "date": "2023-04-08",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-04-08",
       "opponent": "AZ Alkmaar",
       "home_away": "A",
       "score": "1-0",
@@ -1152,6 +1592,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-04-02",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-04-02",
@@ -1191,7 +1641,27 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-03-05",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-24",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-02-24",
@@ -1202,6 +1672,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-02-19",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-02-19",
@@ -1225,6 +1705,16 @@
     },
     {
       "date": "2023-02-03",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-02-03",
       "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "0-0",
@@ -1232,6 +1722,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-28",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-01-28",
@@ -1255,6 +1755,16 @@
     },
     {
       "date": "2023-01-21",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-01-21",
       "opponent": "SC Cambuur",
       "home_away": "A",
       "score": "3-0",
@@ -1262,6 +1772,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2023-01-14",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2023-01-14",
@@ -1285,6 +1805,16 @@
     },
     {
       "date": "2023-01-07",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2023-01-07",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
       "score": "0-0",
@@ -1292,6 +1822,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-11-11",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-11-11",
@@ -1315,6 +1855,16 @@
     },
     {
       "date": "2022-10-29",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-10-29",
       "opponent": "Fortuna Sittard",
       "home_away": "H",
       "score": "3-1",
@@ -1322,6 +1872,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-23",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-10-23",
@@ -1342,6 +1902,16 @@
       "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-10-16",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-10-16",
@@ -1375,6 +1945,16 @@
     },
     {
       "date": "2022-09-17",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-09-17",
       "opponent": "FC Groningen",
       "home_away": "H",
       "score": "2-1",
@@ -1391,7 +1971,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-09-11",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-09-03",
+      "opponent": "Volendam",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-09-03",
@@ -1421,7 +2021,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-08-21",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-08-14",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-08-14",
@@ -1465,6 +2085,16 @@
     },
     {
       "date": "2022-05-07",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-05-07",
       "opponent": "FC Groningen",
       "home_away": "A",
       "score": "2-1",
@@ -1475,6 +2105,16 @@
     },
     {
       "date": "2022-04-30",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-04-30",
       "opponent": "AZ Alkmaar",
       "home_away": "H",
       "score": "1-1",
@@ -1482,6 +2122,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-22",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-04-22",
@@ -1505,6 +2155,16 @@
     },
     {
       "date": "2022-04-16",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-04-16",
       "opponent": "Fortuna Sittard",
       "home_away": "A",
       "score": "0-3",
@@ -1512,6 +2172,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-04-09",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-04-09",
@@ -1535,6 +2205,16 @@
     },
     {
       "date": "2022-03-19",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-03-19",
       "opponent": "N.E.C.",
       "home_away": "A",
       "score": "0-0",
@@ -1552,6 +2232,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-02-27",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-02-27",
@@ -1581,7 +2271,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2022-02-06",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-23",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-01-23",
@@ -1592,6 +2302,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2022-01-16",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2022-01-16",
@@ -1645,6 +2365,16 @@
     },
     {
       "date": "2021-12-05",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-12-05",
       "opponent": "AZ Alkmaar",
       "home_away": "A",
       "score": "1-3",
@@ -1661,7 +2391,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-11-28",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-11-20",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-11-20",
@@ -1682,6 +2432,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-10-31",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-10-31",
@@ -1715,6 +2475,16 @@
     },
     {
       "date": "2021-10-17",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-10-17",
       "opponent": "FC Groningen",
       "home_away": "H",
       "score": "1-1",
@@ -1725,6 +2495,16 @@
     },
     {
       "date": "2021-10-03",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-10-03",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
       "score": "1-2",
@@ -1732,6 +2512,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-26",
+      "opponent": "SC Cambuur Leeuwarden",
+      "home_away": "H",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-09-26",
@@ -1755,6 +2545,16 @@
     },
     {
       "date": "2021-09-17",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-09-17",
       "opponent": "N.E.C.",
       "home_away": "H",
       "score": "1-1",
@@ -1762,6 +2562,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-09-12",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-09-12",
@@ -1795,6 +2605,16 @@
     },
     {
       "date": "2021-08-15",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-08-15",
       "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "0-4",
@@ -1825,6 +2645,16 @@
     },
     {
       "date": "2021-05-13",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-05-13",
       "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "0-0",
@@ -1845,6 +2675,16 @@
     },
     {
       "date": "2021-05-02",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-05-02",
       "opponent": "FC Groningen",
       "home_away": "A",
       "score": "2-1",
@@ -1862,6 +2702,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-04-10",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-04-10",
@@ -1941,7 +2791,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-02-21",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-02-13",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-02-13",
@@ -1965,6 +2835,16 @@
     },
     {
       "date": "2021-01-28",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-01-28",
       "opponent": "FC Twente",
       "home_away": "H",
       "score": "0-0",
@@ -1972,6 +2852,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-24",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-01-24",
@@ -1985,6 +2875,16 @@
     },
     {
       "date": "2021-01-16",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "3-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-01-16",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "3-5",
@@ -1992,6 +2892,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2021-01-13",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2021-01-13",
@@ -2011,7 +2921,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2021-01-10",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-22",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2020-12-22",
@@ -2022,6 +2952,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-12-19",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2020-12-19",
@@ -2052,6 +2992,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-11-29",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2020-11-29",
@@ -2121,7 +3071,27 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2020-10-18",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-10-04",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "4-4",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2020-10-04",
@@ -2161,7 +3131,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2020-09-13",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-03-08",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2020-03-08",
@@ -2195,6 +3185,16 @@
     },
     {
       "date": "2020-02-16",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2020-02-16",
       "opponent": "FC Groningen",
       "home_away": "H",
       "score": "1-2",
@@ -2215,6 +3215,16 @@
     },
     {
       "date": "2020-02-01",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2020-02-01",
       "opponent": "FC Twente",
       "home_away": "A",
       "score": "0-2",
@@ -2222,6 +3232,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2020-01-25",
+      "opponent": "For Sittard",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2020-01-25",
@@ -2241,7 +3261,27 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2020-01-19",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-12-21",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2019-12-21",
@@ -2315,6 +3355,16 @@
     },
     {
       "date": "2019-11-02",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-11-02",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "2-2",
@@ -2335,6 +3385,16 @@
     },
     {
       "date": "2019-10-27",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-10-27",
       "opponent": "FC Utrecht",
       "home_away": "H",
       "score": "1-2",
@@ -2342,6 +3402,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-10-20",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2019-10-20",
@@ -2355,6 +3425,16 @@
     },
     {
       "date": "2019-10-05",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-10-05",
       "opponent": "FC Twente",
       "home_away": "H",
       "score": "2-1",
@@ -2362,6 +3442,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-28",
+      "opponent": "For Sittard",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2019-09-28",
@@ -2385,6 +3475,16 @@
     },
     {
       "date": "2019-09-14",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2019-09-14",
       "opponent": "AZ Alkmaar",
       "home_away": "A",
       "score": "1-5",
@@ -2392,6 +3492,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-09-01",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2019-09-01",
@@ -2432,6 +3542,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2019-08-04",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2019-08-04",
@@ -2911,6 +4031,16 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-04-29",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -2961,6 +4091,16 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-03-18",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "2-5",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -2984,6 +4124,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2018-02-24",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-18",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
       "date": "2018-02-18",
       "opponent": "FC Twente",
       "home_away": "A",
@@ -2995,6 +4155,16 @@
     },
     {
       "date": "2018-02-10",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-02-10",
       "opponent": "PSV Eindhoven",
       "home_away": "H",
       "score": "1-2",
@@ -3002,6 +4172,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2018-02-07",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2018-02-07",
@@ -3041,6 +4221,16 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2018-01-21",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -3055,6 +4245,16 @@
     },
     {
       "date": "2017-12-24",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-24",
       "opponent": "FC Groningen",
       "home_away": "A",
       "score": "0-4",
@@ -3062,6 +4262,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-12-17",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "0-7",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-12-17",
@@ -3085,6 +4295,16 @@
     },
     {
       "date": "2017-12-03",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-12-03",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
       "score": "0-1",
@@ -3092,6 +4312,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-11-26",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-11-26",
@@ -3125,6 +4355,16 @@
     },
     {
       "date": "2017-10-29",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-10-29",
       "opponent": "FC Groningen",
       "home_away": "H",
       "score": "2-1",
@@ -3141,7 +4381,27 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-10-21",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-10-14",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-10-14",
@@ -3182,6 +4442,26 @@
       "competition": "KNVB Beker",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-09-15",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-09-10",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-09-10",
@@ -3235,6 +4515,16 @@
     },
     {
       "date": "2017-05-07",
+      "opponent": "Twente",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-05-07",
       "opponent": "FC Twente",
       "home_away": "H",
       "score": "1-0",
@@ -3271,6 +4561,16 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-04-07",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -3282,6 +4582,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-04-01",
+      "opponent": "PSV",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-04-01",
@@ -3321,6 +4631,16 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-03-05",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -3334,6 +4654,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2017-02-25",
+      "opponent": "NEC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-02-19",
+      "opponent": "Groningen",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
       "date": "2017-02-19",
       "opponent": "FC Groningen",
       "home_away": "H",
@@ -3342,6 +4682,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-02-12",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-02-12",
@@ -3382,6 +4732,26 @@
       "competition": "KNVB Beker",
       "decided_in": "PENALTIES",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2017-01-21",
+      "opponent": "AZ",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2017-01-14",
+      "opponent": "Utrecht",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2017-01-14",
@@ -3431,6 +4801,16 @@
       "result": "L",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2016-12-04",
+      "opponent": "Feyenoord",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -3442,6 +4822,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-11-19",
+      "opponent": "Excelsior",
+      "home_away": "A",
+      "score": "2-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2016-11-19",
@@ -3485,6 +4875,16 @@
     },
     {
       "date": "2016-10-22",
+      "opponent": "PSV",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2016-10-22",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
       "score": "0-1",
@@ -3502,6 +4902,26 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-10-02",
+      "opponent": "AZ",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2016-09-25",
+      "opponent": "Utrecht",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2016-09-25",
@@ -3524,6 +4944,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-09-18",
+      "opponent": "NEC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
+      "date": "2016-09-11",
+      "opponent": "Groningen",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
+    },
+    {
       "date": "2016-09-11",
       "opponent": "FC Groningen",
       "home_away": "A",
@@ -3532,6 +4972,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-27",
+      "opponent": "Twente",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2016-08-27",
@@ -3562,6 +5012,16 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-08-07",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data-uk"
     },
     {
       "date": "2016-08-07",
@@ -4806,8 +6266,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 364,
-    "end_index": 371,
-    "length": 8
+    "start_index": 40,
+    "end_index": 44,
+    "length": 5
   }
 }
