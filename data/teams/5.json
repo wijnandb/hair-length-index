@@ -75,16 +75,6 @@
     },
     {
       "date": "2026-02-03",
-      "opponent": "AZ",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "KNVB Beker",
-      "decided_in": "EXTRA_TIME",
-      "source": "knvb-beker-nl"
-    },
-    {
-      "date": "2026-02-03",
       "opponent": "AZ Alkmaar",
       "home_away": "A",
       "score": "1-2",
@@ -222,16 +212,6 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-10-30",
-      "opponent": "ROHDA Raalte",
-      "home_away": "A",
-      "score": "4-1",
-      "result": "W",
-      "competition": "KNVB Beker",
-      "decided_in": "REGULAR",
-      "source": "knvb-beker-nl"
     },
     {
       "date": "2025-10-30",
@@ -2956,8 +2936,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 127,
-    "end_index": 132,
+    "start_index": 125,
+    "end_index": 130,
     "length": 6
   }
 }
