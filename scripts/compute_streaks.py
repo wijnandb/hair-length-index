@@ -226,6 +226,18 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
         log.warning(f"No teams found for league {league}. Run fetch_matches.py first.")
         return []
 
+    # Guard: detect duplicate team names before computing anything
+    seen_names: dict[str, int] = {}
+    for team in teams:
+        name = team["name"]
+        if name in seen_names:
+            raise ValueError(
+                f"Duplicate team name '{name}' in league {league} "
+                f"(ids {seen_names[name]} and {team['id']}). "
+                f"Merge duplicates in the teams table before recomputing."
+            )
+        seen_names[name] = team["id"]
+
     index = []
     for team in teams:
         matches = get_team_matches(conn, team["id"], order="DESC")
@@ -321,6 +333,15 @@ def export_json(index: list[dict], output_path: Path | None = None) -> Path:
         if detail:
             team_path = teams_dir / f"{detail['team_id']}.json"
             team_path.write_text(json.dumps(detail, indent=2, ensure_ascii=False))
+
+    # Final safety checks before writing
+    names = [e["team"] for e in index]
+    dupes = [n for n in set(names) if names.count(n) > 1]
+    if dupes:
+        raise ValueError(f"Refusing to export: duplicate team names {dupes}")
+    null_streaks = [e["team"] for e in index if e["days_since"] is None]
+    if null_streaks:
+        log.warning(f"Teams with no streak found (will show as 'Lost in time'): {null_streaks}")
 
     # Strip internal _team_detail from index before writing
     clean_index = []

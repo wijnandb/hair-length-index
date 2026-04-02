@@ -30,6 +30,10 @@ def init_db(conn: sqlite3.Connection) -> None:
             current_league TEXT
         );
 
+        -- Prevent duplicate team names within the same league
+        CREATE UNIQUE INDEX IF NOT EXISTS idx_teams_name_league
+            ON teams(name, current_league) WHERE current_league IS NOT NULL;
+
         CREATE TABLE IF NOT EXISTS matches (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             source TEXT NOT NULL,
