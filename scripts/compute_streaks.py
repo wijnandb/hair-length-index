@@ -152,7 +152,7 @@ def find_last_streak(
             "matches_since": len(results),
             "days_since": None,
             "competitions_in_streak": [],
-            "search_depth": results[-1]["date"],
+            "search_depth": str(results[-1]["date"]),
             "current_form": current_form,
             "streak_start_index": None,
             "streak_end_index": None,
@@ -169,8 +169,12 @@ def find_last_streak(
 
     # Days since streak ended
     today = date.today()
-    end_date = date.fromisoformat(streak_end_date)
+    end_date = date.fromisoformat(str(streak_end_date)) if isinstance(streak_end_date, str) else streak_end_date
     days_since = (today - end_date).days
+
+    # Normalize dates to strings for JSON serialization
+    streak_end_date = str(streak_end_date)
+    streak_start_date = str(streak_start_date)
 
     return {
         "found": True,
@@ -180,7 +184,7 @@ def find_last_streak(
         "matches_since": best_streak["matches_since"],
         "days_since": days_since,
         "competitions_in_streak": sorted(streak_competitions),
-        "search_depth": results[-1]["date"],
+        "search_depth": str(results[-1]["date"]),
         "current_form": current_form,
         "streak_start_index": best_streak["end_idx"],    # most recent win (index 0 = newest match)
         "streak_end_index": best_streak["start_idx"],     # oldest win in streak
@@ -203,7 +207,7 @@ def _build_recent_matches(matches: list, team_id: int, conn, limit: int = RECENT
             score = f"{m['away_goals_90min']}-{m['home_goals_90min']}"
 
         entry = {
-            "date": m["date"],
+            "date": str(m["date"]),
             "opponent": opp_name,
             "home_away": "H" if is_home else "A",
             "score": score,

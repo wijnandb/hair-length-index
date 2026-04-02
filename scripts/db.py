@@ -1,13 +1,98 @@
-"""Database module — SQLite schema and helpers for the Hair Length Index."""
+"""Database module — Postgres (Neon) with SQLite fallback for the Hair Length Index."""
 
+import os
 import sqlite3
 from pathlib import Path
 
 from scripts.config import DB_PATH
 
+# Check for Postgres connection
+DATABASE_URL = os.environ.get("DATABASE_URL")
 
-def get_connection(db_path: Path = DB_PATH) -> sqlite3.Connection:
-    """Get a SQLite connection with row factory enabled."""
+
+class DictRow(dict):
+    """Dict that also supports index-based access, mimicking sqlite3.Row."""
+    def __init__(self, keys, values):
+        super().__init__(zip(keys, values))
+        self._keys = keys
+
+    def __getitem__(self, key):
+        if isinstance(key, int):
+            return list(self.values())[key]
+        return super().__getitem__(key)
+
+    def keys(self):
+        return self._keys
+
+
+class PgConnectionWrapper:
+    """Wraps psycopg2 connection to provide sqlite3-compatible interface.
+
+    Key differences handled:
+    - Returns DictRow instead of psycopg2 tuples
+    - Uses %s placeholders (auto-converted from ?)
+    - Provides execute/fetchone/fetchall on connection directly
+    """
+
+    def __init__(self, pg_conn):
+        self._conn = pg_conn
+
+    def execute(self, sql, params=None):
+        sql = _pg_sql(sql)
+        cur = self._conn.cursor()
+        cur.execute(sql, params or ())
+        return _PgCursorWrapper(cur)
+
+    def commit(self):
+        self._conn.commit()
+
+    def close(self):
+        self._conn.close()
+
+
+class _PgCursorWrapper:
+    """Wraps psycopg2 cursor to return DictRow objects."""
+
+    def __init__(self, cursor):
+        self._cursor = cursor
+
+    @property
+    def lastrowid(self):
+        return self._cursor.fetchone()[0] if self._cursor.description else None
+
+    @property
+    def rowcount(self):
+        return self._cursor.rowcount
+
+    def fetchone(self):
+        row = self._cursor.fetchone()
+        if row is None or not self._cursor.description:
+            return None
+        keys = [d[0] for d in self._cursor.description]
+        return DictRow(keys, row)
+
+    def fetchall(self):
+        rows = self._cursor.fetchall()
+        if not rows or not self._cursor.description:
+            return []
+        keys = [d[0] for d in self._cursor.description]
+        return [DictRow(keys, r) for r in rows]
+
+
+def _pg_sql(sql: str) -> str:
+    """Convert SQLite-style ? placeholders to Postgres %s."""
+    return sql.replace("?", "%s")
+
+
+def get_connection(db_path: Path = DB_PATH):
+    """Get a database connection — Postgres if DATABASE_URL is set, else SQLite."""
+    db_url = os.environ.get("DATABASE_URL")
+    if db_url:
+        import psycopg2
+        pg_conn = psycopg2.connect(db_url)
+        return PgConnectionWrapper(pg_conn)
+
+    # SQLite fallback for local dev
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
@@ -16,21 +101,22 @@ def get_connection(db_path: Path = DB_PATH) -> sqlite3.Connection:
     return conn
 
 
-def init_db(conn: sqlite3.Connection) -> None:
-    """Create all tables if they don't exist."""
+def init_db(conn) -> None:
+    """Create tables if they don't exist. No-op for Postgres (tables already exist)."""
+    if isinstance(conn, PgConnectionWrapper):
+        return  # Neon tables created via migration
+
     conn.executescript("""
         CREATE TABLE IF NOT EXISTS teams (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,
             short_name TEXT,
             country TEXT,
-            football_data_id INTEGER UNIQUE,
-            api_football_id INTEGER,
+            wf_slug TEXT UNIQUE,
             crest_url TEXT,
             current_league TEXT
         );
 
-        -- Prevent duplicate team names within the same league
         CREATE UNIQUE INDEX IF NOT EXISTS idx_teams_name_league
             ON teams(name, current_league) WHERE current_league IS NOT NULL;
 
@@ -71,28 +157,22 @@ def init_db(conn: sqlite3.Connection) -> None:
             UNIQUE(source, competition_id, season)
         );
 
-        -- Indexes for common query patterns
         CREATE INDEX IF NOT EXISTS idx_matches_home_team ON matches(home_team_id, date);
         CREATE INDEX IF NOT EXISTS idx_matches_away_team ON matches(away_team_id, date);
         CREATE INDEX IF NOT EXISTS idx_matches_date ON matches(date);
         CREATE INDEX IF NOT EXISTS idx_matches_competition ON matches(competition_id, season);
-
-        -- Cross-source dedup index
-        CREATE INDEX IF NOT EXISTS idx_matches_dedup
-            ON matches(date, home_team_id, away_team_id);
     """)
     conn.commit()
 
 
-def upsert_team(conn: sqlite3.Connection, **kwargs) -> int:
-    """Insert or update a team by football_data_id. Returns the internal team ID."""
-    fd_id = kwargs.get("football_data_id")
-    if fd_id is not None:
+def upsert_team(conn, **kwargs) -> int:
+    """Insert or update a team by wf_slug. Returns the internal team ID."""
+    wf_slug = kwargs.get("wf_slug")
+    if wf_slug is not None:
         row = conn.execute(
-            "SELECT id FROM teams WHERE football_data_id = ?", (fd_id,)
+            "SELECT id FROM teams WHERE wf_slug = ?", (wf_slug,)
         ).fetchone()
         if row:
-            # Update fields
             updates = []
             values = []
             for key in ("name", "short_name", "country", "crest_url", "current_league"):
@@ -111,74 +191,62 @@ def upsert_team(conn: sqlite3.Connection, **kwargs) -> int:
     cols = [k for k in kwargs if kwargs[k] is not None]
     placeholders = ", ".join("?" for _ in cols)
     values = [kwargs[k] for k in cols]
-    cursor = conn.execute(
-        f"INSERT INTO teams ({', '.join(cols)}) VALUES ({placeholders})", values
-    )
-    conn.commit()
-    return cursor.lastrowid
+
+    if isinstance(conn, PgConnectionWrapper):
+        col_str = ", ".join(cols)
+        cursor = conn.execute(
+            f"INSERT INTO teams ({col_str}) VALUES ({placeholders}) RETURNING id", values
+        )
+        conn.commit()
+        return cursor.fetchone()["id"]
+    else:
+        cursor = conn.execute(
+            f"INSERT INTO teams ({', '.join(cols)}) VALUES ({placeholders})", values
+        )
+        conn.commit()
+        return cursor.lastrowid
 
 
-def find_team_by_name(conn: sqlite3.Connection, name: str) -> sqlite3.Row | None:
+def find_team_by_name(conn, name: str):
     """Find a team by exact name or short_name."""
-    row = conn.execute(
+    return conn.execute(
         "SELECT * FROM teams WHERE name = ? OR short_name = ?", (name, name)
     ).fetchone()
-    return row
 
 
-def find_team_by_api_football_id(conn: sqlite3.Connection, api_id: int) -> sqlite3.Row | None:
-    """Find a team by its API-Football ID."""
-    return conn.execute(
-        "SELECT * FROM teams WHERE api_football_id = ?", (api_id,)
-    ).fetchone()
-
-
-def set_api_football_id(conn: sqlite3.Connection, team_id: int, api_football_id: int) -> None:
-    """Set the API-Football ID for a team."""
-    conn.execute(
-        "UPDATE teams SET api_football_id = ? WHERE id = ?",
-        (api_football_id, team_id),
-    )
-    conn.commit()
-
-
-def get_teams_missing_cup_data(conn: sqlite3.Connection, league: str, season: str) -> list[sqlite3.Row]:
-    """Get teams that don't have cup match data for a given season."""
-    return conn.execute(
-        """
-        SELECT t.* FROM teams t
-        WHERE t.current_league = ?
-        AND NOT EXISTS (
-            SELECT 1 FROM matches m
-            WHERE (m.home_team_id = t.id OR m.away_team_id = t.id)
-            AND m.competition_type IN ('DOMESTIC_CUP', 'SUPER_CUP')
-            AND m.season = ?
-        )
-        ORDER BY t.name
-        """,
-        (league, season),
-    ).fetchall()
-
-
-def upsert_match(conn: sqlite3.Connection, **kwargs) -> int | None:
+def upsert_match(conn, **kwargs) -> int | None:
     """Insert a match, ignoring duplicates (same date + home + away team)."""
     cols = [k for k in kwargs if kwargs[k] is not None]
     placeholders = ", ".join("?" for _ in cols)
     values = [kwargs[k] for k in cols]
-    try:
-        cursor = conn.execute(
-            f"INSERT OR IGNORE INTO matches ({', '.join(cols)}) VALUES ({placeholders})",
-            values,
-        )
-        conn.commit()
-        return cursor.lastrowid if cursor.rowcount > 0 else None
-    except sqlite3.IntegrityError:
-        return None
+
+    if isinstance(conn, PgConnectionWrapper):
+        col_str = ", ".join(cols)
+        try:
+            cursor = conn.execute(
+                f"INSERT INTO matches ({col_str}) VALUES ({placeholders}) "
+                f"ON CONFLICT (date, home_team_id, away_team_id) DO NOTHING "
+                f"RETURNING id", values
+            )
+            conn.commit()
+            row = cursor.fetchone()
+            return row["id"] if row else None
+        except Exception:
+            conn.commit()
+            return None
+    else:
+        try:
+            cursor = conn.execute(
+                f"INSERT OR IGNORE INTO matches ({', '.join(cols)}) VALUES ({placeholders})",
+                values,
+            )
+            conn.commit()
+            return cursor.lastrowid if cursor.rowcount > 0 else None
+        except sqlite3.IntegrityError:
+            return None
 
 
-def get_team_matches(
-    conn: sqlite3.Connection, team_id: int, order: str = "DESC"
-) -> list[sqlite3.Row]:
+def get_team_matches(conn, team_id: int, order: str = "DESC") -> list:
     """Get all matches for a team, ordered by date."""
     return conn.execute(
         f"""
@@ -190,7 +258,7 @@ def get_team_matches(
     ).fetchall()
 
 
-def get_all_teams(conn: sqlite3.Connection, league: str | None = None) -> list[sqlite3.Row]:
+def get_all_teams(conn, league: str | None = None) -> list:
     """Get all teams, optionally filtered by current league."""
     if league:
         return conn.execute(
@@ -199,7 +267,7 @@ def get_all_teams(conn: sqlite3.Connection, league: str | None = None) -> list[s
     return conn.execute("SELECT * FROM teams ORDER BY name").fetchall()
 
 
-def update_data_source(conn: sqlite3.Connection, source: str, competition_id: str,
+def update_data_source(conn, source: str, competition_id: str,
                        season: str, **kwargs) -> None:
     """Upsert a data source tracking record."""
     row = conn.execute(

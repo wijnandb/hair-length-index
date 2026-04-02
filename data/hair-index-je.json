@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T06:30:45.204107",
+  "generated_at": "2026-04-02T17:51:18.726359",
   "threshold": 5,
   "teams": [
     {
@@ -12,7 +12,7 @@
       "streak_end_date": "2012-09-14",
       "streak_start_date": "2012-08-10",
       "days_since": 4948,
-      "matches_since": 531,
+      "matches_since": 526,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -35,7 +35,7 @@
       "strict_streak_end_date": "2012-09-14",
       "strict_days_since": 4948,
       "includes_aet_pens": false,
-      "total_matches": 696,
+      "total_matches": 691,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -45,11 +45,11 @@
       "short_name": null,
       "crest_url": null,
       "streak_found": true,
-      "streak_length": 8,
-      "streak_end_date": "2017-08-19",
+      "streak_length": 7,
+      "streak_end_date": "2017-08-12",
       "streak_start_date": "2017-01-22",
-      "days_since": 3148,
-      "matches_since": 360,
+      "days_since": 3155,
+      "matches_since": 270,
       "competitions_in_streak": [
         "Eerste Divisie",
         "Eredivisie"
@@ -66,14 +66,14 @@
         "D",
         "D"
       ],
-      "search_depth": "2007-08-18",
+      "search_depth": "2008-11-21",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
-      "strict_streak_end_date": "2017-08-19",
-      "strict_days_since": 3148,
+      "strict_streak_end_date": "2017-08-12",
+      "strict_days_since": 3155,
       "includes_aet_pens": false,
-      "total_matches": 568,
+      "total_matches": 307,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -87,7 +87,7 @@
       "streak_end_date": "2018-11-18",
       "streak_start_date": "2018-09-28",
       "days_since": 2692,
-      "matches_since": 292,
+      "matches_since": 290,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -110,7 +110,7 @@
       "strict_streak_end_date": "2018-11-18",
       "strict_days_since": 2692,
       "includes_aet_pens": false,
-      "total_matches": 418,
+      "total_matches": 416,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -124,7 +124,7 @@
       "streak_end_date": "2019-02-08",
       "streak_start_date": "2019-01-13",
       "days_since": 2610,
-      "matches_since": 364,
+      "matches_since": 252,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -140,14 +140,14 @@
         "W",
         "D"
       ],
-      "search_depth": "2003-08-16",
+      "search_depth": "2008-12-05",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2019-02-08",
       "strict_days_since": 2610,
       "includes_aet_pens": false,
-      "total_matches": 762,
+      "total_matches": 378,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -161,7 +161,7 @@
       "streak_end_date": "2019-02-22",
       "streak_start_date": "2019-01-25",
       "days_since": 2596,
-      "matches_since": 279,
+      "matches_since": 275,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -184,7 +184,7 @@
       "strict_streak_end_date": "2019-02-22",
       "strict_days_since": 2596,
       "includes_aet_pens": false,
-      "total_matches": 407,
+      "total_matches": 403,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -226,6 +226,44 @@
       "data_complete": true
     },
     {
+      "team": "Vitesse",
+      "team_id": 33,
+      "short_name": null,
+      "crest_url": null,
+      "streak_found": true,
+      "streak_length": 5,
+      "streak_end_date": "2021-01-23",
+      "streak_start_date": "2021-01-09",
+      "days_since": 1895,
+      "matches_since": 220,
+      "competitions_in_streak": [
+        "Eredivisie",
+        "KNVB Beker"
+      ],
+      "current_form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "W",
+        "L",
+        "D",
+        "W",
+        "D",
+        "L"
+      ],
+      "search_depth": "2015-09-26",
+      "hair_tier": "Sasquatch",
+      "hair_description": "Hair and beard merge, barely human",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2021-01-23",
+      "strict_days_since": 1895,
+      "includes_aet_pens": false,
+      "total_matches": 287,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
       "team": "De Graafschap",
       "team_id": 21,
       "short_name": null,
@@ -235,7 +273,7 @@
       "streak_end_date": "2021-02-21",
       "streak_start_date": "2021-01-08",
       "days_since": 1866,
-      "matches_since": 221,
+      "matches_since": 215,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -258,7 +296,7 @@
       "strict_streak_end_date": "2021-02-21",
       "strict_days_since": 1866,
       "includes_aet_pens": false,
-      "total_matches": 363,
+      "total_matches": 357,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -272,7 +310,7 @@
       "streak_end_date": "2022-02-04",
       "streak_start_date": "2021-11-29",
       "days_since": 1518,
-      "matches_since": 190,
+      "matches_since": 165,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -295,7 +333,7 @@
       "strict_streak_end_date": "2022-02-04",
       "strict_days_since": 1518,
       "includes_aet_pens": false,
-      "total_matches": 494,
+      "total_matches": 405,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -309,7 +347,7 @@
       "streak_end_date": "2022-03-11",
       "streak_start_date": "2022-01-14",
       "days_since": 1483,
-      "matches_since": 174,
+      "matches_since": 168,
       "competitions_in_streak": [
         "Eerste Divisie"
       ],
@@ -332,44 +370,7 @@
       "strict_streak_end_date": "2022-03-11",
       "strict_days_since": 1483,
       "includes_aet_pens": false,
-      "total_matches": 351,
-      "has_cup_data": true,
-      "data_complete": true
-    },
-    {
-      "team": "Vitesse",
-      "team_id": 33,
-      "short_name": null,
-      "crest_url": null,
-      "streak_found": true,
-      "streak_length": 8,
-      "streak_end_date": "2023-08-11",
-      "streak_start_date": "2023-05-14",
-      "days_since": 965,
-      "matches_since": 132,
-      "competitions_in_streak": [
-        "Eredivisie"
-      ],
-      "current_form": [
-        "W",
-        "W",
-        "L",
-        "W",
-        "W",
-        "L",
-        "D",
-        "W",
-        "D",
-        "L"
-      ],
-      "search_depth": "2003-08-17",
-      "hair_tier": "Sasquatch",
-      "hair_description": "Hair and beard merge, barely human",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2023-08-11",
-      "strict_days_since": 965,
-      "includes_aet_pens": false,
-      "total_matches": 914,
+      "total_matches": 345,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -379,13 +380,14 @@
       "short_name": null,
       "crest_url": null,
       "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2024-03-29",
-      "streak_start_date": "2024-03-08",
-      "days_since": 734,
-      "matches_since": 98,
+      "streak_length": 7,
+      "streak_end_date": "2023-11-02",
+      "streak_start_date": "2023-09-29",
+      "days_since": 882,
+      "matches_since": 101,
       "competitions_in_streak": [
-        "Eerste Divisie"
+        "Eerste Divisie",
+        "KNVB Beker"
       ],
       "current_form": [
         "W",
@@ -399,14 +401,14 @@
         "L",
         "W"
       ],
-      "search_depth": "2003-08-16",
+      "search_depth": "2011-11-27",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
-      "strict_streak_end_date": "2024-03-29",
-      "strict_days_since": 734,
+      "strict_streak_end_date": "2023-11-02",
+      "strict_days_since": 882,
       "includes_aet_pens": false,
-      "total_matches": 815,
+      "total_matches": 281,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -436,14 +438,14 @@
         "W",
         "D"
       ],
-      "search_depth": "2003-08-15",
+      "search_depth": "2014-09-27",
       "hair_tier": "Sasquatch",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-04-12",
       "strict_days_since": 720,
       "includes_aet_pens": false,
-      "total_matches": 772,
+      "total_matches": 306,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -519,7 +521,7 @@
       "strict_streak_end_date": "2025-12-20",
       "strict_days_since": 103,
       "includes_aet_pens": false,
-      "total_matches": 377,
+      "total_matches": 339,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -556,7 +558,7 @@
       "strict_streak_end_date": "2026-02-13",
       "strict_days_since": 48,
       "includes_aet_pens": false,
-      "total_matches": 370,
+      "total_matches": 336,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -586,14 +588,14 @@
         "W",
         "L"
       ],
-      "search_depth": "2003-08-16",
+      "search_depth": "2015-12-20",
       "hair_tier": "Growing back",
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-27",
       "strict_days_since": 34,
       "includes_aet_pens": false,
-      "total_matches": 821,
+      "total_matches": 290,
       "has_cup_data": true,
       "data_complete": true
     }

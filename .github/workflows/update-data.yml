@@ -5,20 +5,6 @@ on:
     # Run daily at 06:00 UTC (after most European matches are finished)
     - cron: "0 6 * * *"
   workflow_dispatch:
-    inputs:
-      mode:
-        description: "Fetch mode"
-        required: true
-        default: "daily"
-        type: choice
-        options:
-          - daily
-          - full
-      fill_gaps:
-        description: "Also run fill_gaps (cup/European data)"
-        required: false
-        default: true
-        type: boolean
 
 permissions:
   contents: write
@@ -32,14 +18,13 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-      API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
     steps:
       - name: Checkout
@@ -54,31 +39,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # --- Data collection (each step independent, failures don't block) ---
-
-      - name: Fetch match data (football-data.org)
-        if: env.FOOTBALL_DATA_API_KEY != ''
-        continue-on-error: true
-        run: |
-          MODE="${{ github.event.inputs.mode || 'daily' }}"
-          python -m scripts.fetch_matches --mode "$MODE" --league DED
-
-      - name: Import historical CSV data (football-data.co.uk)
-        continue-on-error: true
-        run: python -m scripts.import_csv --league DED --start 2003 --end 2024
-
-      - name: Import KNVB Beker (web scrape)
-        continue-on-error: true
-        run: python -m scripts.import_knvb_beker
-
-      - name: Fill gaps (API-Football)
-        if: >-
-          github.event.inputs.fill_gaps != 'false'
-          && env.API_FOOTBALL_API_KEY != ''
-        continue-on-error: true
-        run: python -m scripts.fill_gaps --mode fill --league DED
-
-      # --- Processing (always runs with whatever data we have) ---
+      # --- Compute streaks from Neon (read-only, no data fetching) ---
 
       - name: Compute Eredivisie streaks
         run: python -m scripts.compute_streaks --league DED --json
@@ -109,7 +70,7 @@ jobs:
           git commit -m "Update Hair Length Index data $(date -u +%Y-%m-%d)"
           git push
 
-      # --- Deploy to GitHub Pages (same job, avoids GITHUB_TOKEN trigger limitation) ---
+      # --- Deploy to GitHub Pages ---
 
       - name: Prepare site
         run: |

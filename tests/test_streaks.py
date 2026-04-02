@@ -23,13 +23,13 @@ def db():
 @pytest.fixture
 def team_id(db):
     """Create a test team and return its ID."""
-    return upsert_team(db, football_data_id=1, name="Test FC", short_name="TST", country="NL")
+    return upsert_team(db, name="Test FC", short_name="TST", country="NL")
 
 
 @pytest.fixture
 def opponent_id(db):
     """Create an opponent team."""
-    return upsert_team(db, football_data_id=2, name="Opponent FC", short_name="OPP", country="NL")
+    return upsert_team(db, name="Opponent FC", short_name="OPP", country="NL")
 
 
 def _make_match(db, team_id, opponent_id, match_date, home_goals, away_goals,
@@ -384,8 +384,8 @@ class TestDatabase:
         assert "data_sources" in table_names
 
     def test_upsert_team_idempotent(self, db):
-        id1 = upsert_team(db, football_data_id=100, name="Ajax", short_name="AJX")
-        id2 = upsert_team(db, football_data_id=100, name="AFC Ajax", short_name="AJX")
+        id1 = upsert_team(db, wf_slug="afc-ajax", name="Ajax", short_name="AJX")
+        id2 = upsert_team(db, wf_slug="afc-ajax", name="AFC Ajax", short_name="AJX")
         assert id1 == id2
         # Name should be updated
         row = db.execute("SELECT name FROM teams WHERE id = ?", (id1,)).fetchone()
