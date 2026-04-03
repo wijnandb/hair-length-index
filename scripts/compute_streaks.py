@@ -191,14 +191,19 @@ def find_last_streak(
     }
 
 
-def _build_recent_matches(matches: list, team_id: int, conn, limit: int = RECENT_MATCHES_LIMIT) -> list[dict]:
+def _load_team_names(conn) -> dict[int, str]:
+    """Load all team names into a cache to avoid N+1 queries."""
+    rows = conn.execute("SELECT id, name, short_name FROM teams").fetchall()
+    return {r["id"]: (r["short_name"] or r["name"]) for r in rows}
+
+
+def _build_recent_matches(matches: list, team_id: int, team_names: dict, limit: int = RECENT_MATCHES_LIMIT) -> list[dict]:
     """Build a list of recent match details for JSON export."""
     recent = []
     for m in matches[:limit]:
         is_home = m["home_team_id"] == team_id
         opp_id = m["away_team_id"] if is_home else m["home_team_id"]
-        opp_row = conn.execute("SELECT name, short_name FROM teams WHERE id = ?", (opp_id,)).fetchone()
-        opp_name = opp_row["short_name"] or opp_row["name"] if opp_row else "?"
+        opp_name = team_names.get(opp_id, "?")
 
         result = _team_result(m, team_id, "result_final")
         if is_home:
@@ -242,6 +247,9 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
             )
         seen_names[name] = team["id"]
 
+    # Cache all team names to avoid N+1 queries (critical for Postgres performance)
+    team_names = _load_team_names(conn)
+
     index = []
     for team in teams:
         matches = get_team_matches(conn, team["id"], order="DESC")
@@ -256,7 +264,7 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
         tier_name, tier_desc = get_hair_tier(streak_final["days_since"])
 
         # Recent match details for frontend
-        recent_matches = _build_recent_matches(matches, team["id"], conn)
+        recent_matches = _build_recent_matches(matches, team["id"], team_names)
 
         # Check for data completeness
         match_count = len(matches)
@@ -303,7 +311,7 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
             "team_id": team["id"],
             "team": team["name"],
             "short_name": team["short_name"],
-            "matches": _build_recent_matches(matches, team["id"], conn, limit=len(matches)),
+            "matches": _build_recent_matches(matches, team["id"], team_names, limit=len(matches)),
             "streak": {
                 "found": streak_final["found"],
                 "start_index": streak_final.get("streak_start_index"),
