@@ -39,16 +39,6 @@
       "home_away": "A",
       "score": "2-0",
       "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-01",
-      "opponent": "US Cremonese",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -69,16 +59,6 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-18",
-      "opponent": "Lecce",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -86,16 +66,6 @@
     {
       "date": "2026-02-13",
       "opponent": "AC Pisa",
-      "home_away": "A",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-13",
-      "opponent": "Pisa SC",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -125,16 +95,6 @@
     },
     {
       "date": "2026-01-18",
-      "opponent": "Lecce",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-18",
       "opponent": "US Lecce",
       "home_away": "H",
       "score": "1-0",
@@ -146,16 +106,6 @@
     {
       "date": "2026-01-15",
       "opponent": "Como 1907",
-      "home_away": "A",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-15",
-      "opponent": "Lecce",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -299,16 +249,6 @@
       "home_away": "H",
       "score": "2-2",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-24",
-      "opponent": "Pisa SC",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -375,16 +315,6 @@
     },
     {
       "date": "2025-08-29",
-      "opponent": "Lecce",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-29",
       "opponent": "US Lecce",
       "home_away": "A",
       "score": "2-0",
@@ -396,16 +326,6 @@
     {
       "date": "2025-08-23",
       "opponent": "Cremonese",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-23",
-      "opponent": "US Cremonese",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -545,7 +465,7 @@
     },
     {
       "date": "2025-03-15",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -695,7 +615,7 @@
     },
     {
       "date": "2025-01-14",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1565,7 +1485,7 @@
     },
     {
       "date": "2023-05-03",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1815,7 +1735,7 @@
     },
     {
       "date": "2022-11-08",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -4186,8 +4106,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 33,
-    "end_index": 38,
-    "length": 6
+    "start_index": 27,
+    "end_index": 31,
+    "length": 5
   }
 }

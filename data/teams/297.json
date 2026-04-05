@@ -79,16 +79,6 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-06",
-      "opponent": "Pisa SC",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -116,16 +106,6 @@
     {
       "date": "2026-01-19",
       "opponent": "Cremonese",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-19",
-      "opponent": "US Cremonese",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -225,16 +205,6 @@
     },
     {
       "date": "2025-11-08",
-      "opponent": "Lecce",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-08",
       "opponent": "US Lecce",
       "home_away": "A",
       "score": "0-0",
@@ -259,16 +229,6 @@
       "home_away": "A",
       "score": "1-3",
       "result": "L",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-29",
-      "opponent": "Lecce",
-      "home_away": "A",
-      "score": "1-3",
-      "result": "L",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -286,16 +246,6 @@
     {
       "date": "2025-10-18",
       "opponent": "AC Pisa",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-18",
-      "opponent": "Pisa SC",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -349,16 +299,6 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-09-15",
-      "opponent": "US Cremonese",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -405,7 +345,7 @@
     },
     {
       "date": "2025-05-18",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -715,7 +655,7 @@
     },
     {
       "date": "2024-09-29",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1255,7 +1195,7 @@
     },
     {
       "date": "2023-04-30",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1405,7 +1345,7 @@
     },
     {
       "date": "2023-01-09",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -2765,7 +2705,7 @@
     },
     {
       "date": "2019-08-18",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2895,7 +2835,7 @@
     },
     {
       "date": "2019-03-29",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3075,7 +3015,7 @@
     },
     {
       "date": "2018-11-02",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3715,7 +3655,7 @@
     },
     {
       "date": "2017-03-26",
-      "opponent": "Pisa SC",
+      "opponent": "AC Pisa",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3935,7 +3875,7 @@
     },
     {
       "date": "2016-10-25",
-      "opponent": "Pisa SC",
+      "opponent": "AC Pisa",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -4079,16 +4019,6 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "Serie A 2015/2016",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2016-05-01",
-      "opponent": "Sassuolo",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
       "competition": "Serie A 2015/2016",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4279,16 +4209,6 @@
       "home_away": "A",
       "score": "0-3",
       "result": "L",
-      "competition": "Serie A 2015/2016",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2015-12-20",
-      "opponent": "Sassuolo",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
       "competition": "Serie A 2015/2016",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4514,16 +4434,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2015-05-24",
-      "opponent": "Parma",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Serie A 2014/2015",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2015-05-17",
       "opponent": "Empoli",
       "home_away": "H",
@@ -4559,16 +4469,6 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "Serie A 2014/2015",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2015-04-26",
-      "opponent": "Sassuolo",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
       "competition": "Serie A 2014/2015",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -4734,16 +4634,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2015-01-11",
-      "opponent": "Parma",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Serie A 2014/2015",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2015-01-06",
       "opponent": "Empoli",
       "home_away": "A",
@@ -4790,16 +4680,6 @@
       "score": "1-0",
       "result": "W",
       "competition": "Coppa Italia 2014/2015",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2014-11-29",
-      "opponent": "Sassuolo",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Serie A 2014/2015",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
@@ -5114,16 +4994,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2014-02-02",
-      "opponent": "Sassuolo",
-      "home_away": "A",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Serie A 2013/2014",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2014-01-26",
       "opponent": "Roma",
       "home_away": "H",
@@ -5324,16 +5194,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2013-09-15",
-      "opponent": "Sassuolo",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Serie A 2013/2014",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
       "date": "2013-09-01",
       "opponent": "Roma",
       "home_away": "A",
@@ -5439,16 +5299,6 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "Serie B 2012/2013",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2013-03-28",
-      "opponent": "Sassuolo",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
       "competition": "Serie B 2012/2013",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -5678,16 +5528,6 @@
       "opponent": "Ternana",
       "home_away": "A",
       "score": "2-0",
-      "result": "W",
-      "competition": "Serie B 2012/2013",
-      "decided_in": "REGULAR",
-      "source": "worldfootball.net"
-    },
-    {
-      "date": "2012-11-05",
-      "opponent": "Sassuolo",
-      "home_away": "H",
-      "score": "1-0",
       "result": "W",
       "competition": "Serie B 2012/2013",
       "decided_in": "REGULAR",
@@ -6495,7 +6335,7 @@
     },
     {
       "date": "2011-01-09",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -6665,7 +6505,7 @@
     },
     {
       "date": "2010-08-30",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -6945,7 +6785,7 @@
     },
     {
       "date": "2007-02-10",
-      "opponent": "Lecce",
+      "opponent": "US Lecce",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -7145,7 +6985,7 @@
     },
     {
       "date": "2006-09-16",
-      "opponent": "Lecce",
+      "opponent": "US Lecce",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -8045,7 +7885,7 @@
     },
     {
       "date": "2004-08-18",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -8055,7 +7895,7 @@
     },
     {
       "date": "2004-06-12",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -8285,7 +8125,7 @@
     },
     {
       "date": "2004-01-18",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -8526,8 +8366,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 610,
-    "end_index": 618,
+    "start_index": 594,
+    "end_index": 602,
     "length": 9
   }
 }

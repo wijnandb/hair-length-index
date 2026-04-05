@@ -115,16 +115,6 @@
     },
     {
       "date": "2026-01-24",
-      "opponent": "Lecce",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-24",
       "opponent": "US Lecce",
       "home_away": "A",
       "score": "0-0",
@@ -136,16 +126,6 @@
     {
       "date": "2026-01-19",
       "opponent": "Como 1907",
-      "home_away": "H",
-      "score": "0-3",
-      "result": "L",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-19",
-      "opponent": "Lecce",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -199,16 +179,6 @@
       "home_away": "H",
       "score": "0-0",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-12-20",
-      "opponent": "US Cremonese",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -255,16 +225,6 @@
     },
     {
       "date": "2025-11-23",
-      "opponent": "Lecce",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-23",
       "opponent": "US Lecce",
       "home_away": "H",
       "score": "2-0",
@@ -296,16 +256,6 @@
     {
       "date": "2025-10-30",
       "opponent": "AC Pisa",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-30",
-      "opponent": "Pisa SC",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -386,16 +336,6 @@
     {
       "date": "2025-08-24",
       "opponent": "Como 1907",
-      "home_away": "A",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-24",
-      "opponent": "Lecce",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -655,7 +595,7 @@
     },
     {
       "date": "2025-01-10",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -795,7 +735,7 @@
     },
     {
       "date": "2024-10-31",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "5-1",
       "result": "W",
@@ -1445,7 +1385,7 @@
     },
     {
       "date": "2023-05-28",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -1845,7 +1785,7 @@
     },
     {
       "date": "2022-09-18",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "A",
       "score": "4-0",
       "result": "W",
@@ -3095,7 +3035,7 @@
     },
     {
       "date": "2020-01-14",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -3584,11 +3524,31 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2016-03-06",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2016-02-29",
       "opponent": "Sassuolo",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2016-02-11",
+      "opponent": "Verona",
+      "home_away": "H",
+      "score": "5-2",
+      "result": "W",
       "competition": "Serie A 2015/2016",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3604,11 +3564,31 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-10-25",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-10-18",
       "opponent": "Sassuolo",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
+      "competition": "Serie A 2015/2016",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-09-27",
+      "opponent": "Verona",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
       "competition": "Serie A 2015/2016",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3644,6 +3624,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-03-22",
+      "opponent": "Verona",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2015-03-16",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2015-03-01",
       "opponent": "Sassuolo",
       "home_away": "A",
@@ -3664,6 +3664,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2015-01-14",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Coppa Italia 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2014-12-21",
       "opponent": "Inter",
       "home_away": "A",
@@ -3677,6 +3687,26 @@
       "date": "2014-12-07",
       "opponent": "Parma",
       "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-30",
+      "opponent": "Verona",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2014/2015",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-10-26",
+      "opponent": "Torino",
+      "home_away": "H",
       "score": "2-1",
       "result": "W",
       "competition": "Serie A 2014/2015",
@@ -3714,6 +3744,26 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2014-05-05",
+      "opponent": "Verona",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2014-04-19",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2014-03-26",
       "opponent": "Genoa",
       "home_away": "A",
@@ -3739,6 +3789,26 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-22",
+      "opponent": "Verona",
+      "home_away": "A",
+      "score": "1-4",
+      "result": "L",
+      "competition": "Serie A 2013/2014",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2013-12-08",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
       "competition": "Serie A 2013/2014",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3774,6 +3844,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2013-03-17",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A 2012/2013",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2013-02-03",
       "opponent": "Genoa",
       "home_away": "A",
@@ -3789,6 +3869,16 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
+      "competition": "Serie A 2012/2013",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2012-10-31",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
       "competition": "Serie A 2012/2013",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3814,6 +3904,16 @@
       "source": "worldfootball.net"
     },
     {
+      "date": "2012-01-10",
+      "opponent": "Verona",
+      "home_away": "H",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Coppa Italia 2011/2012",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
       "date": "2011-09-18",
       "opponent": "Genoa",
       "home_away": "H",
@@ -3822,12 +3922,162 @@
       "competition": "Serie A 2011/2012",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-05-14",
+      "opponent": "Genoa",
+      "home_away": "H",
+      "score": "4-2",
+      "result": "W",
+      "competition": "Serie A 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-01-06",
+      "opponent": "Genoa",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-04-25",
+      "opponent": "Genoa",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A 2009/2010",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-12-13",
+      "opponent": "Genoa",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2009/2010",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-04-18",
+      "opponent": "Genoa",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-02-14",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-01-22",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Coppa Italia 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-11-23",
+      "opponent": "Genoa",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-09-28",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A 2008/2009",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-05-11",
+      "opponent": "Genoa",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-01-27",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2008-01-13",
+      "opponent": "Genoa",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-08-25",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Serie A 2007/2008",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-02-18",
+      "opponent": "Torino",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A 2006/2007",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2006-09-30",
+      "opponent": "Torino",
+      "home_away": "A",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Serie A 2006/2007",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
     }
   ],
   "streak": {
     "found": true,
-    "start_index": 75,
-    "end_index": 81,
+    "start_index": 69,
+    "end_index": 75,
     "length": 7
   }
 }

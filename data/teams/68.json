@@ -119,16 +119,6 @@
       "home_away": "H",
       "score": "2-1",
       "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-09",
-      "opponent": "US Cremonese",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -149,29 +139,9 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-01",
-      "opponent": "Lecce",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-28",
-      "opponent": "Union SG",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-28",
@@ -206,16 +176,6 @@
     {
       "date": "2026-01-16",
       "opponent": "AC Pisa",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-16",
-      "opponent": "Pisa SC",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -389,29 +349,9 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-25",
-      "opponent": "US Cremonese",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-10-22",
-      "opponent": "Slavia Praha",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-10-22",
@@ -439,29 +379,9 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-04",
-      "opponent": "Lecce",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-09-30",
-      "opponent": "Club Brugge",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-09-30",
@@ -505,16 +425,6 @@
     },
     {
       "date": "2025-09-14",
-      "opponent": "Lecce",
-      "home_away": "H",
-      "score": "4-1",
-      "result": "W",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-09-14",
       "opponent": "US Lecce",
       "home_away": "H",
       "score": "4-1",
@@ -536,16 +446,6 @@
     {
       "date": "2025-08-24",
       "opponent": "AC Pisa",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Serie A",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-24",
-      "opponent": "Pisa SC",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -755,7 +655,7 @@
     },
     {
       "date": "2025-01-25",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1005,7 +905,7 @@
     },
     {
       "date": "2024-09-24",
-      "opponent": "Lecce",
+      "opponent": "Como 1907",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -1735,7 +1635,7 @@
     },
     {
       "date": "2023-04-01",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -1975,7 +1875,7 @@
     },
     {
       "date": "2022-09-11",
-      "opponent": "US Cremonese",
+      "opponent": "Cremonese",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -4386,8 +4286,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 86,
-    "end_index": 94,
+    "start_index": 76,
+    "end_index": 84,
     "length": 9
   }
 }
