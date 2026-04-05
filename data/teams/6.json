@@ -21,16 +21,6 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-22",
-      "opponent": "NEC",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -85,16 +75,6 @@
     },
     {
       "date": "2026-02-11",
-      "opponent": "NEC",
-      "home_away": "A",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-11",
       "opponent": "Volendam",
       "home_away": "A",
       "score": "3-1",
@@ -135,16 +115,6 @@
     },
     {
       "date": "2026-01-25",
-      "opponent": "Sparta",
-      "home_away": "H",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-25",
       "opponent": "Sparta Rotterdam",
       "home_away": "H",
       "score": "0-1",
@@ -162,16 +132,6 @@
       "competition": "Europa League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-18",
-      "opponent": "Volendam",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-18",
@@ -221,16 +181,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-12-14",
-      "opponent": "NAC Breda",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -261,16 +211,6 @@
       "result": "D",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-30",
-      "opponent": "NEC",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -282,16 +222,6 @@
       "competition": "Europa League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-23",
-      "opponent": "Telstar",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-23",
@@ -325,16 +255,6 @@
     },
     {
       "date": "2025-11-02",
-      "opponent": "NEC",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-02",
       "opponent": "Volendam",
       "home_away": "H",
       "score": "1-0",
@@ -362,16 +282,6 @@
       "competition": "Europa League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-10-18",
-      "opponent": "Volendam",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-10-18",
@@ -471,16 +381,6 @@
       "result": "W",
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-24",
-      "opponent": "Sparta",
-      "home_away": "H",
-      "score": "4-1",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
@@ -492,16 +392,6 @@
       "competition": "Europa League Kwalificatie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-08-17",
-      "opponent": "Sparta",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-08-17",
@@ -625,7 +515,7 @@
     },
     {
       "date": "2025-04-06",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -665,7 +555,7 @@
     },
     {
       "date": "2025-03-01",
-      "opponent": "NAC Breda",
+      "opponent": "NAC",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -775,7 +665,7 @@
     },
     {
       "date": "2024-12-15",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -915,7 +805,7 @@
     },
     {
       "date": "2024-08-24",
-      "opponent": "NAC Breda",
+      "opponent": "NAC",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -945,7 +835,7 @@
     },
     {
       "date": "2024-05-26",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1005,7 +895,7 @@
     },
     {
       "date": "2024-04-14",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1115,7 +1005,7 @@
     },
     {
       "date": "2024-01-27",
-      "opponent": "Sparta",
+      "opponent": "Excelsior",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1165,7 +1055,7 @@
     },
     {
       "date": "2023-12-10",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1195,7 +1085,7 @@
     },
     {
       "date": "2023-11-12",
-      "opponent": "Sparta",
+      "opponent": "Excelsior",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1425,7 +1315,7 @@
     },
     {
       "date": "2023-03-18",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1525,7 +1415,7 @@
     },
     {
       "date": "2023-01-25",
-      "opponent": "Sparta",
+      "opponent": "Excelsior",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1545,7 +1435,7 @@
     },
     {
       "date": "2023-01-15",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1645,7 +1535,7 @@
     },
     {
       "date": "2022-10-02",
-      "opponent": "Sparta",
+      "opponent": "Excelsior",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1835,7 +1725,7 @@
     },
     {
       "date": "2022-03-05",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1925,7 +1815,7 @@
     },
     {
       "date": "2021-12-14",
-      "opponent": "NAC Breda",
+      "opponent": "NAC",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1935,7 +1825,7 @@
     },
     {
       "date": "2021-12-11",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2535,7 +2425,7 @@
     },
     {
       "date": "2020-02-13",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -3016,8 +2906,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 51,
-    "end_index": 55,
+    "start_index": 40,
+    "end_index": 44,
     "length": 5
   }
 }
