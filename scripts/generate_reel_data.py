@@ -26,7 +26,7 @@ TIER_THRESHOLDS = [
     (270, 3, "Wordt slordig"),     # ~9 months
     (500, 4, "Lang & wild"),       # ~1.5 years
     (1000, 5, "Holbewoner"),       # ~2.7 years
-    (99999, 6, "Sasquatch"),       # 2.7+ years
+    (99999, 6, "Bigfoot"),       # 2.7+ years
 ]
 
 
@@ -34,7 +34,7 @@ def get_tier(days: int) -> tuple[int, str]:
     for threshold, tier, label in TIER_THRESHOLDS:
         if days <= threshold:
             return tier, label
-    return 6, "Sasquatch"
+    return 6, "Bigfoot"
 
 
 def generate_reel_data(team_id: int, max_matches: int = 40) -> dict:
