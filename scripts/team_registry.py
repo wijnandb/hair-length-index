@@ -201,14 +201,14 @@ ALIASES = {
 
 
 def init_teams(conn):
-    """Create all canonical teams in the database."""
+    """Create all canonical teams in the database with worldfootball IDs."""
     for name, (wf_id, slug, league) in TEAMS.items():
-        team = find_team_by_name(conn, name)
-        if not team:
-            upsert_team(conn, name=name, country="NL", current_league=league)
-        else:
-            conn.execute("UPDATE teams SET current_league = ? WHERE id = ?",
-                        (league, team["id"]))
+        upsert_team(
+            conn,
+            worldfootball_id=wf_id,
+            name=name,
+            current_league=league,
+        )
     conn.commit()
 
 
@@ -220,15 +220,33 @@ def resolve_team_name(name: str) -> str:
 
 
 def resolve_team_id(conn, name: str) -> int:
-    """Resolve a team name to its database ID, creating if needed."""
+    """Resolve a team name to its database ID, creating if needed.
+
+    Lookup order: worldfootball_id → canonical name → original name → create.
+    """
     canonical = resolve_team_name(name)
+
+    # If team is in the registry, look up by worldfootball_id first
+    if canonical in TEAMS:
+        wf_id = TEAMS[canonical][0]
+        row = conn.execute(
+            "SELECT id FROM teams WHERE worldfootball_id = ?", (wf_id,)
+        ).fetchone()
+        if row:
+            return row["id"]
+
+    # Fall back to name lookup
     team = find_team_by_name(conn, canonical)
     if team:
         return team["id"]
-    # Try original name
     if canonical != name:
         team = find_team_by_name(conn, name)
         if team:
             return team["id"]
-    # Create (probably a foreign opponent in European competition)
-    return upsert_team(conn, name=canonical, country="NL")
+
+    # Create — include worldfootball_id if known
+    kwargs = {"name": canonical}
+    if canonical in TEAMS:
+        kwargs["worldfootball_id"] = TEAMS[canonical][0]
+        kwargs["current_league"] = TEAMS[canonical][2]
+    return upsert_team(conn, **kwargs)

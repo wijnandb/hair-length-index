@@ -17,58 +17,16 @@ import re
 import time
 
 from scripts.db import (
-    find_team_by_name,
     get_connection,
     init_db,
     update_data_source,
     upsert_match,
-    upsert_team,
 )
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-# Known team slugs and IDs for worldfootball.net
-# Format: our_name → (wf_id, wf_slug)
-# Find more at: https://www.worldfootball.net/teams/{slug}/
-KNOWN_TEAMS = {
-    # Eredivisie 2025-26 (verified from worldfootball.net competition page)
-    "Ajax": ("te64", "afc-ajax"),
-    "AZ Alkmaar": ("te181", "az-alkmaar"),
-    "Excelsior": ("te577", "sbv-excelsior"),
-    "Feyenoord": ("te736", "feyenoord"),
-    "Fortuna Sittard": ("te828", "fortuna-sittard"),
-    "Go Ahead Eagles": ("te899", "go-ahead-eagles"),
-    "FC Groningen": ("te631", "fc-groningen"),
-    "Heerenveen": ("te1644", "sc-heerenveen"),
-    "Heracles Almelo": ("te971", "heracles-almelo"),
-    "NAC Breda": ("te1331", "nac-breda"),
-    "N.E.C.": ("te1347", "nec"),
-    "PSV Eindhoven": ("te1502", "psv-eindhoven"),
-    "Sparta Rotterdam": ("te1762", "sparta-rotterdam"),
-    "Telstar": ("te1831", "telstar"),
-    "FC Twente": ("te1965", "fc-twente"),
-    "FC Utrecht": ("te711", "fc-utrecht"),
-    "FC Volendam": ("te719", "fc-volendam"),
-    "PEC Zwolle": ("te729", "pec-zwolle"),
-    # Eerste Divisie 2025-26
-    "ADO Den Haag": ("te60", "ado-den-haag"),
-    "Almere City FC": ("te681", "almere-city-fc"),
-    "De Graafschap": ("te453", "de-graafschap"),
-    "FC Den Bosch": ("te615", "fc-den-bosch"),
-    "FC Dordrecht": ("te617", "fc-dordrecht"),
-    "FC Eindhoven": ("te620", "fc-eindhoven"),
-    "FC Emmen": ("te621", "fc-emmen"),
-    "Helmond Sport": ("te969", "helmond-sport"),
-    "MVV": ("te1327", "mvv"),
-    "RKC Waalwijk": ("te1568", "rkc-waalwijk"),
-    "Roda JC Kerkrade": ("te1574", "roda-jc-kerkrade"),
-    "SC Cambuur": ("te315", "sc-cambuur"),
-    "TOP Oss": ("te1914", "top-oss"),
-    "VVV-Venlo": ("te2122", "vvv-venlo"),
-    "Vitesse": ("te2108", "vitesse"),
-    "Willem II": ("te2146", "willem-ii"),
-}
+from scripts.team_registry import TEAMS as _REGISTRY_TEAMS
 
 # Competition name mapping from worldfootball.net to our model
 COMP_MAP = {
@@ -310,21 +268,9 @@ def _parse_page(html: str, season_label: str) -> list[dict]:
 
 
 def resolve_team(conn, name: str) -> int:
-    """Find or create a team by name."""
-    team = find_team_by_name(conn, name)
-    if team:
-        return team["id"]
-
-    # Try alias mapping from CSV importer
-    from scripts.import_csv import CSV_TEAM_ALIASES
-    canonical = CSV_TEAM_ALIASES.get(name, name)
-    if canonical != name:
-        team = find_team_by_name(conn, canonical)
-        if team:
-            return team["id"]
-
-    team_id = upsert_team(conn, name=name, country="NL")
-    return team_id
+    """Find or create a team by name, using the central team registry."""
+    from scripts.team_registry import resolve_team_id
+    return resolve_team_id(conn, name)
 
 
 def import_matches(conn, matches: list[dict], team_name: str, dry_run: bool = False) -> int:
@@ -384,23 +330,12 @@ def run_import(
     dry_run: bool = False,
 ) -> None:
     """Main entry point: fetch and import match data for a team."""
-    # Look up team info from KNOWN_TEAMS and central registry
+    # Look up team info from central registry
     team_info = None
-    for name, (wf_id, slug) in KNOWN_TEAMS.items():
+    for name, (wf_id, slug, league) in _REGISTRY_TEAMS.items():
         if slug == team_key or name.lower() == team_key.lower():
             team_info = (name, wf_id, slug)
             break
-
-    # Also check central registry (has European teams)
-    if not team_info:
-        try:
-            from scripts.team_registry import TEAMS
-            for name, (wf_id, slug, league) in TEAMS.items():
-                if slug == team_key or name.lower() == team_key.lower():
-                    team_info = (name, wf_id, slug)
-                    break
-        except ImportError:
-            pass
 
     if not team_info:
         log.error(f"Unknown team: {team_key}. Use --list-teams to see available teams.")
@@ -441,8 +376,8 @@ def main():
 
     if args.list_teams:
         print("Known teams:")
-        for name, (wf_id, slug) in sorted(KNOWN_TEAMS.items()):
-            print(f"  --team {slug:<30} # {name}")
+        for name, (wf_id, slug, league) in sorted(_REGISTRY_TEAMS.items()):
+            print(f"  --team {slug:<30} # {name} ({league})")
         return
 
     if not args.team:

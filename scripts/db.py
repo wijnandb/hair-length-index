@@ -25,6 +25,7 @@ def init_db(conn: sqlite3.Connection) -> None:
             short_name TEXT,
             country TEXT,
             football_data_id INTEGER UNIQUE,
+            worldfootball_id TEXT UNIQUE,
             api_football_id INTEGER,
             crest_url TEXT,
             current_league TEXT
@@ -77,31 +78,52 @@ def init_db(conn: sqlite3.Connection) -> None:
         CREATE INDEX IF NOT EXISTS idx_matches_dedup
             ON matches(date, home_team_id, away_team_id);
     """)
+
+    # Migration: add worldfootball_id if missing (existing databases)
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(teams)").fetchall()}
+    if "worldfootball_id" not in cols:
+        conn.execute("ALTER TABLE teams ADD COLUMN worldfootball_id TEXT UNIQUE")
+
     conn.commit()
 
 
+_TEAM_UPDATE_FIELDS = (
+    "name", "short_name", "country", "crest_url", "current_league",
+    "football_data_id", "worldfootball_id", "api_football_id",
+)
+
+
 def upsert_team(conn: sqlite3.Connection, **kwargs) -> int:
-    """Insert or update a team by football_data_id. Returns the internal team ID."""
-    fd_id = kwargs.get("football_data_id")
-    if fd_id is not None:
-        row = conn.execute(
-            "SELECT id FROM teams WHERE football_data_id = ?", (fd_id,)
-        ).fetchone()
-        if row:
-            # Update fields
-            updates = []
-            values = []
-            for key in ("name", "short_name", "country", "crest_url", "current_league"):
-                if key in kwargs and kwargs[key] is not None:
-                    updates.append(f"{key} = ?")
-                    values.append(kwargs[key])
-            if updates:
-                values.append(row["id"])
-                conn.execute(
-                    f"UPDATE teams SET {', '.join(updates)} WHERE id = ?", values
-                )
-                conn.commit()
-            return row["id"]
+    """Insert or update a team. Matches on football_data_id or worldfootball_id.
+
+    Returns the internal team ID.
+    """
+    # Try to find existing team by external IDs
+    row = None
+    for id_col in ("football_data_id", "worldfootball_id"):
+        ext_id = kwargs.get(id_col)
+        if ext_id is not None:
+            row = conn.execute(
+                f"SELECT id FROM teams WHERE {id_col} = ?", (ext_id,)
+            ).fetchone()
+            if row:
+                break
+
+    if row:
+        # Update fields (including cross-linking IDs from the other source)
+        updates = []
+        values = []
+        for key in _TEAM_UPDATE_FIELDS:
+            if key in kwargs and kwargs[key] is not None:
+                updates.append(f"{key} = ?")
+                values.append(kwargs[key])
+        if updates:
+            values.append(row["id"])
+            conn.execute(
+                f"UPDATE teams SET {', '.join(updates)} WHERE id = ?", values
+            )
+            conn.commit()
+        return row["id"]
 
     # Insert new team
     cols = [k for k in kwargs if kwargs[k] is not None]
