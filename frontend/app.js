@@ -821,7 +821,12 @@ function applyLanguage(leagueCode) {
 
 function handleRoute(route) {
   const leagueCode = route.league || 'DED';
-  applyLanguage(leagueCode);
+  // URL language takes priority over auto-detect
+  if (route.lang && typeof setLang === 'function') {
+    setLang(route.lang);
+  } else {
+    applyLanguage(leagueCode);
+  }
 
   if (route.view === 'team') {
     renderTeamPage(route.league, route.teamSlug);
@@ -843,10 +848,16 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll('.lang-link').forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      if (typeof I18N !== 'undefined') {
-        I18N.setLang(link.dataset.lang);
-        // Re-trigger current route to re-render with new language
-        handleRoute(parseHash());
+      const lang = link.dataset.lang;
+      // Navigate to URL with language prefix
+      const route = parseHash();
+      const leagueSlug = route.leagueSlug || CODE_TO_SLUG[currentLeague] || 'eredivisie';
+      if (route.view === 'team') {
+        navigateTo(`#/${lang}/${leagueSlug}/${route.teamSlug}`);
+      } else if (route.view === 'league') {
+        navigateTo(`#/${lang}/${leagueSlug}`);
+      } else {
+        navigateTo(`#/${lang}/${leagueSlug}`);
       }
     });
   });

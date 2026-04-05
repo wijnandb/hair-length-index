@@ -2,9 +2,11 @@
  * Hash Router for Hair Length Index
  *
  * Routes:
- *   #/                      → Home (league grid)
- *   #/{league-slug}         → League page
- *   #/{league-slug}/{team}  → Team detail page
+ *   #/                              → Home
+ *   #/{league-slug}                 → League page (auto-language)
+ *   #/{league-slug}/{team}          → Team detail (auto-language)
+ *   #/{lang}/{league-slug}          → League page (explicit language)
+ *   #/{lang}/{league-slug}/{team}   → Team detail (explicit language)
  */
 
 const LEAGUE_SLUGS = {
@@ -21,32 +23,50 @@ const CODE_TO_SLUG = Object.fromEntries(
   Object.entries(LEAGUE_SLUGS).map(([slug, code]) => [code, slug])
 );
 
+const VALID_LANGS = new Set(['nl', 'en', 'de', 'es', 'it', 'fr']);
+
 function parseHash() {
   const hash = location.hash.replace(/^#\/?/, '');
   if (!hash) return { view: 'home' };
 
   const parts = hash.split('/');
-  const leagueSlug = parts[0];
-  const leagueCode = LEAGUE_SLUGS[leagueSlug];
+  let lang = null;
+  let offset = 0;
 
-  if (!leagueCode) return { view: 'home' };
-
-  if (parts.length >= 2 && parts[1]) {
-    return { view: 'team', league: leagueCode, leagueSlug, teamSlug: parts[1] };
+  // Check if first segment is a language code
+  if (VALID_LANGS.has(parts[0]) && !LEAGUE_SLUGS[parts[0]]) {
+    lang = parts[0];
+    offset = 1;
   }
-  return { view: 'league', league: leagueCode, leagueSlug };
+
+  const leagueSlug = parts[offset];
+  if (!leagueSlug) return { view: 'home', lang };
+
+  const leagueCode = LEAGUE_SLUGS[leagueSlug];
+  if (!leagueCode) return { view: 'home', lang };
+
+  const teamSlug = parts[offset + 1];
+  if (teamSlug) {
+    return { view: 'team', league: leagueCode, leagueSlug, teamSlug, lang };
+  }
+  return { view: 'league', league: leagueCode, leagueSlug, lang };
 }
 
 function navigateTo(hash) {
   location.hash = hash;
 }
 
+// Current explicit language from URL (null = auto-detect from league)
+let _urlLang = null;
+
 function leagueUrl(code) {
-  return `#/${CODE_TO_SLUG[code] || code.toLowerCase()}`;
+  const slug = CODE_TO_SLUG[code] || code.toLowerCase();
+  return _urlLang ? `#/${_urlLang}/${slug}` : `#/${slug}`;
 }
 
 function teamUrl(leagueCode, teamSlug) {
-  return `#/${CODE_TO_SLUG[leagueCode] || leagueCode.toLowerCase()}/${teamSlug}`;
+  const slug = CODE_TO_SLUG[leagueCode] || leagueCode.toLowerCase();
+  return _urlLang ? `#/${_urlLang}/${slug}/${teamSlug}` : `#/${slug}/${teamSlug}`;
 }
 
 function updateMeta(title, description) {
@@ -59,9 +79,14 @@ function updateMeta(title, description) {
 
 let onRouteChange = null;
 
+function _handleRoute() {
+  const route = parseHash();
+  _urlLang = route.lang || null;
+  onRouteChange(route);
+}
+
 function initRouter(callback) {
   onRouteChange = callback;
-  window.addEventListener('hashchange', () => onRouteChange(parseHash()));
-  // Initial route
-  onRouteChange(parseHash());
+  window.addEventListener('hashchange', _handleRoute);
+  _handleRoute();
 }
