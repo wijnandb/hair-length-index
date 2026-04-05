@@ -217,10 +217,13 @@ def _build_recent_matches(matches: list, team_id: int, team_names: dict, limit: 
         opp_name = team_names.get(opp_id, "?")
 
         result = _team_result(m, team_id, "result_final")
+        # Use final score (includes extra time goals) for display
+        h_goals = m['home_goals_final'] if m['home_goals_final'] is not None else m['home_goals_90min']
+        a_goals = m['away_goals_final'] if m['away_goals_final'] is not None else m['away_goals_90min']
         if is_home:
-            score = f"{m['home_goals_90min']}-{m['away_goals_90min']}"
+            score = f"{h_goals}-{a_goals}"
         else:
-            score = f"{m['away_goals_90min']}-{m['home_goals_90min']}"
+            score = f"{a_goals}-{h_goals}"
 
         entry = {
             "date": str(m["date"]),
