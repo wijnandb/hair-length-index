@@ -65,7 +65,7 @@ class FootballDataClient:
         self._last = time.time()
         url = f"{self.base_url}{endpoint}"
         for attempt in range(3):
-            resp = self.session.get(url, params=params)
+            resp = self.session.get(url, params=params, timeout=30)
             if resp.status_code == 200:
                 return resp.json()
             elif resp.status_code == 429:
@@ -231,7 +231,7 @@ class APIFootballClient:
         self._last = time.time()
         self.requests_used += 1
         url = f"{self.base_url}/{endpoint}"
-        resp = self.session.get(url, params=params)
+        resp = self.session.get(url, params=params, timeout=30)
         resp.raise_for_status()
         data = resp.json()
         errors = data.get("errors")
@@ -416,10 +416,11 @@ def run_daily_update(dry_run: bool = False):
                 except Exception:
                     pass
 
-        # Per-team fetch for CL/EL matches (teams in FD-covered leagues)
+        # Per-team fetch for CL/EL matches — only DED teams need this
+        # (other leagues' CL/EL matches are covered by the CL league fetch)
         date_from = f"{season}-07-01"
         date_to = f"{season + 1}-06-30"
-        for league in ["DED", "PL", "BL1", "SA", "PD", "FL1"]:
+        for league in ["DED"]:
             teams = get_all_teams(conn, league=league)
             for t in teams:
                 fd_id = t["football_data_id"]
