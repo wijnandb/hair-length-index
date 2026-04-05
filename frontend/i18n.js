@@ -322,10 +322,12 @@ const I18N = (() => {
 
   let currentLang = 'nl';
 
-  function setLang(lang) {
+  function setLang(lang, persist) {
     if (LOCALES[lang]) {
       currentLang = lang;
-      localStorage.setItem('hli-lang', lang);
+      if (persist !== false) {
+        localStorage.setItem('hli-lang', lang);
+      }
     }
   }
 
