@@ -214,9 +214,53 @@ def download_kit_image(article_url: str, team_slug: str, session: requests.Sessi
             log.warning(f"  No images found in article")
             return None
 
-        # Use the first or second image (first is often the header/hero shot)
-        # Skip very small thumbnails by picking image index 1-2
-        img_url = images[min(1, len(images) - 1)]
+        # Find the clean product shot: square image with "home-kit" in filename
+        # Square/portrait images (ratio ≤ 1.2) are product shots
+        # Landscape images (ratio > 1.2) are promo/stadium photos
+        img_url = None
+
+        def is_square_image(url):
+            """Check if image is square/portrait by fetching a tiny version."""
+            try:
+                small = re.sub(r'/[sw]\d+(-[hc]\d+)?(-[a-z]+)?/', '/s50/', url)
+                r = session.get(small, headers=HEADERS, timeout=5)
+                from PIL import Image as PILImage
+                from io import BytesIO
+                img = PILImage.open(BytesIO(r.content))
+                return img.size[0] / img.size[1] <= 1.2
+            except Exception:
+                return False
+
+        # Priority 1: first SQUARE image with "home-kit" in filename
+        for url in images:
+            fname = url.split("/")[-1].lower()
+            if "home-kit" in fname or "home%20kit" in fname or "home%2520kit" in fname:
+                if is_square_image(url):
+                    img_url = url
+                    log.info(f"  Found square product shot (home-kit)")
+                    break
+
+        # Priority 2: first SQUARE image with "home" in filename
+        if not img_url:
+            for url in images:
+                fname = url.split("/")[-1].lower()
+                if "home" in fname and is_square_image(url):
+                    img_url = url
+                    log.info(f"  Found square image with 'home'")
+                    break
+
+        # Priority 3: first SQUARE image overall
+        if not img_url:
+            for url in images[:10]:
+                if is_square_image(url):
+                    img_url = url
+                    log.info(f"  Found first square image")
+                    break
+
+        # Fallback: first image
+        if not img_url:
+            img_url = images[0]
+            log.info(f"  Using first image (fallback)")
 
         # Replace size parameter for higher quality (s1600 → s800 for reasonable size)
         img_url = re.sub(r'/s\d+/', '/s800/', img_url)
