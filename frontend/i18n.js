@@ -269,6 +269,33 @@ const I18N = (() => {
     extra_time_short: {
       nl: 'n.v.', en: 'AET', de: 'n.V.', es: 'pró.', it: 'suppl.', fr: 'prol.',
     },
+    standings: {
+      nl: 'Competitiestand', en: 'League standings', de: 'Tabelle', es: 'Clasificación', it: 'Classifica', fr: 'Classement',
+    },
+    matchday: {
+      nl: 'speelronde', en: 'matchday', de: 'Spieltag', es: 'jornada', it: 'giornata', fr: 'journée',
+    },
+    team: {
+      nl: 'Club', en: 'Team', de: 'Verein', es: 'Equipo', it: 'Squadra', fr: 'Équipe',
+    },
+    played: {
+      nl: 'GS', en: 'P', de: 'Sp', es: 'PJ', it: 'PG', fr: 'MJ',
+    },
+    won_short: {
+      nl: 'W', en: 'W', de: 'S', es: 'G', it: 'V', fr: 'V',
+    },
+    drawn_short: {
+      nl: 'G', en: 'D', de: 'U', es: 'E', it: 'N', fr: 'N',
+    },
+    lost_short: {
+      nl: 'V', en: 'L', de: 'N', es: 'P', it: 'P', fr: 'D',
+    },
+    goals: {
+      nl: 'DV:DT', en: 'GF:GA', de: 'T:GT', es: 'GF:GC', it: 'GF:GS', fr: 'BP:BC',
+    },
+    points: {
+      nl: 'Ptn', en: 'Pts', de: 'Pkt', es: 'Pts', it: 'Pti', fr: 'Pts',
+    },
     // Hair tier names
     tier_fresh_cut: {
       nl: 'Vers geknipt', en: 'Fresh cut', de: 'Frisch geschnitten', es: 'Recién cortado', it: 'Appena tagliato', fr: 'Fraîchement coupé',

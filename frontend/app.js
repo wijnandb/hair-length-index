@@ -60,6 +60,41 @@ function getPositionZone(league, position) {
   return "";
 }
 
+function renderStandingsTable(league) {
+  const standings = standingsData[league];
+  if (!standings || !standings.table || standings.table.length === 0) return "";
+
+  const rows = standings.table.map(row => {
+    const zone = getPositionZone(row.position, league);
+    const zoneClass = zone ? ` class="${zone}"` : "";
+    return `
+      <tr${zoneClass}>
+        <td>${row.position}</td>
+        <td>${escapeHtml(row.team)}</td>
+        <td>${row.played}</td>
+        <td>${row.won}</td>
+        <td>${row.drawn}</td>
+        <td>${row.lost}</td>
+        <td>${row.goals_for}:${row.goals_against}</td>
+        <td>${row.goal_difference > 0 ? '+' : ''}${row.goal_difference}</td>
+        <td><strong>${row.points}</strong></td>
+      </tr>`;
+  }).join("");
+
+  const matchday = standings.matchday ? ` (${t('matchday')} ${standings.matchday})` : "";
+
+  return `
+    <details class="standings-toggle">
+      <summary>${t('standings')}${matchday}</summary>
+      <table class="standings-table">
+        <thead>
+          <tr><th>#</th><th>${t('team')}</th><th>${t('played')}</th><th>${t('won_short')}</th><th>${t('drawn_short')}</th><th>${t('lost_short')}</th><th>${t('goals')}</th><th>+/-</th><th>${t('points')}</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </details>`;
+}
+
 function getStandingsPosition(team, league) {
   const standings = standingsData[league];
   if (!standings || !standings.table) return null;
@@ -464,6 +499,12 @@ function renderIndex(data) {
   if (footerInspiration) footerInspiration.textContent = t('footer_inspiration');
   const footerNotes = document.getElementById("footer-notes");
   if (footerNotes) footerNotes.innerHTML = `${t('footer_note')}<br>${t('data_source_updated')} ${genDate}.`;
+
+  // Add standings table after team cards
+  const standingsHtml = renderStandingsTable(currentLeague);
+  if (standingsHtml) {
+    container.innerHTML += standingsHtml;
+  }
 
   renderWatchCards(teams);
 }

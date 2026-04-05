@@ -760,6 +760,52 @@ a.team-name:hover {
   border-color: #fca5a5;
 }
 
+/* === Standings Table === */
+.standings-toggle {
+  margin: 2rem 0;
+}
+.standings-toggle summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text);
+  padding: 0.75rem 0;
+}
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+.standings-table th {
+  background: var(--bg);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 2px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.standings-table td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.standings-table tr:hover {
+  background: var(--bg);
+}
+.standings-table tr.zone-cl td:first-child {
+  border-left: 3px solid #22c55e;
+}
+.standings-table tr.zone-el td:first-child {
+  border-left: 3px solid #3b82f6;
+}
+.standings-table tr.zone-rel-playoff td:first-child {
+  border-left: 3px solid #f97316;
+}
+.standings-table tr.zone-rel td:first-child {
+  border-left: 3px solid #ef4444;
+}
+
 /* === Load More === */
 .load-more {
   text-align: center;
