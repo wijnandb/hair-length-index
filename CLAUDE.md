@@ -13,7 +13,7 @@ Match data comes from three sources, each serving a specific purpose:
 
 1. **worldfootball.net** (Playwright scraper, local only) — historical backfill. Has everything: league, cup, European, playoffs. Cannot run in CI (Cloudflare blocks headless browsers).
 2. **football-data.org** (REST API, free tier) — daily CI updates for: DED, PL, BL1, SA, PD, FL1, CL. Key: `FOOTBALL_DATA_API_KEY`. Rate limit: 10 req/min.
-3. **API-Football** (api-sports.io) — daily CI updates for: JE (Eerste Divisie), KNVB Beker, EL, ECL, per-team cups. Key: `API_FOOTBALL_API_KEY`. Rate limit: 100 req/day.
+3. **API-Football** (api-sports.io) — intended for JE, KNVB Beker, EL, ECL. Key: `API_FOOTBALL_API_KEY`. Rate limit: 100 req/day. **Note: free tier only covers seasons 2022-2024.** Current-season JE data comes from worldfootball.net local rebuilds only.
 
 ### Team ID Mapping
 
