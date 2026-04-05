@@ -31,6 +31,7 @@ from scripts.db import (
     upsert_match,
     upsert_team,
 )
+from scripts.team_registry import TEAMS as _REGISTRY_TEAMS, resolve_team_id
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -166,20 +167,33 @@ KNOWN_TEAM_MAPPINGS = {
 
 
 def resolve_api_football_id(
-    conn, client: APIFootballClient, team_name: str, team_id: int
+    conn, client: APIFootballClient | None, team_name: str, team_id: int
 ) -> int | None:
-    """Resolve a team's API-Football ID, using cache/DB first, then API search."""
+    """Resolve a team's API-Football ID.
+
+    Lookup order: DB → team registry → API search (if client provided).
+    """
     # Check if already stored in DB
     team = conn.execute("SELECT api_football_id FROM teams WHERE id = ?", (team_id,)).fetchone()
     if team and team["api_football_id"]:
         return team["api_football_id"]
 
-    # Check known mappings
+    # Check central team registry
+    for canon_name, (wf_id, slug, league, af_id) in _REGISTRY_TEAMS.items():
+        if af_id is not None and (canon_name == team_name or canon_name.lower() == team_name.lower()):
+            set_api_football_id(conn, team_id, af_id)
+            log.info(f"  Mapped {team_name} → API-Football ID {af_id} (registry)")
+            return af_id
+
+    # Check legacy known mappings (for names that differ from canonical)
     if team_name in KNOWN_TEAM_MAPPINGS:
         api_id = KNOWN_TEAM_MAPPINGS[team_name]
         set_api_football_id(conn, team_id, api_id)
         log.info(f"  Mapped {team_name} → API-Football ID {api_id} (known)")
         return api_id
+
+    if client is None:
+        return None
 
     # Fall back to API search
     log.info(f"  Searching API-Football for '{team_name}'...")
@@ -242,6 +256,26 @@ def _season_label(season_year: int) -> str:
     return f"{season_year}-{str(season_year + 1)[-2:]}"
 
 
+def _resolve_af_team(conn, api_football_id: int | None, name: str, country: str | None = None) -> int:
+    """Resolve an API-Football team to our internal ID.
+
+    Lookup: api_football_id in DB → registry by name → create with api_football_id.
+    """
+    if api_football_id is not None:
+        team = find_team_by_api_football_id(conn, api_football_id)
+        if team:
+            return team["id"]
+
+    # Try registry (resolves aliases, looks up by worldfootball_id)
+    try:
+        return resolve_team_id(conn, name)
+    except Exception:
+        pass
+
+    # Create new team with api_football_id
+    return upsert_team(conn, name=name, api_football_id=api_football_id, country=country)
+
+
 def import_api_football_fixture(conn, fixture: dict) -> int | None:
     """Import a single API-Football fixture into the database."""
     fixture_info = fixture.get("fixture", {})
@@ -255,43 +289,14 @@ def import_api_football_fixture(conn, fixture: dict) -> int | None:
     if status not in ("FT", "AET", "PEN"):
         return None
 
-    # Resolve teams — need internal IDs
+    # Resolve teams — try api_football_id first, then registry, then create
     home_api_id = teams.get("home", {}).get("id")
     away_api_id = teams.get("away", {}).get("id")
     home_name = teams.get("home", {}).get("name", "Unknown")
     away_name = teams.get("away", {}).get("name", "Unknown")
 
-    # Look up or create teams
-    home_team = find_team_by_api_football_id(conn, home_api_id)
-    if home_team:
-        home_id = home_team["id"]
-    else:
-        # Try name match, otherwise create
-        home_team = find_team_by_name(conn, home_name)
-        if home_team:
-            home_id = home_team["id"]
-            if not home_team["api_football_id"]:
-                set_api_football_id(conn, home_id, home_api_id)
-        else:
-            home_id = upsert_team(
-                conn, name=home_name, api_football_id=home_api_id,
-                country=league.get("country"),
-            )
-
-    away_team = find_team_by_api_football_id(conn, away_api_id)
-    if away_team:
-        away_id = away_team["id"]
-    else:
-        away_team = find_team_by_name(conn, away_name)
-        if away_team:
-            away_id = away_team["id"]
-            if not away_team["api_football_id"]:
-                set_api_football_id(conn, away_id, away_api_id)
-        else:
-            away_id = upsert_team(
-                conn, name=away_name, api_football_id=away_api_id,
-                country=league.get("country"),
-            )
+    home_id = _resolve_af_team(conn, home_api_id, home_name, league.get("country"))
+    away_id = _resolve_af_team(conn, away_api_id, away_name, league.get("country"))
 
     # Scores
     # goals.home / goals.away = final score (after AET if applicable, before pens)

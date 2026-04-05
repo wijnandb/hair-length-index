@@ -34,6 +34,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
 
     steps:
       - name: Checkout
@@ -59,6 +60,11 @@ jobs:
             echo "--- Fetching $LEAGUE ---"
             python -m scripts.fetch_matches --mode "$MODE" --league "$LEAGUE"
           done
+
+      - name: Fetch Eerste Divisie (API-Football)
+        if: env.API_FOOTBALL_API_KEY != ''
+        continue-on-error: true
+        run: python -m scripts.fill_gaps --mode fill --league JE --seasons 1
 
       # --- Processing (always runs with whatever data we have) ---
 

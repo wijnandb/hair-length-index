@@ -332,7 +332,7 @@ def run_import(
     """Main entry point: fetch and import match data for a team."""
     # Look up team info from central registry
     team_info = None
-    for name, (wf_id, slug, league) in _REGISTRY_TEAMS.items():
+    for name, (wf_id, slug, league, af_id) in _REGISTRY_TEAMS.items():
         if slug == team_key or name.lower() == team_key.lower():
             team_info = (name, wf_id, slug)
             break
@@ -376,7 +376,7 @@ def main():
 
     if args.list_teams:
         print("Known teams:")
-        for name, (wf_id, slug, league) in sorted(_REGISTRY_TEAMS.items()):
+        for name, (wf_id, slug, league, af_id) in sorted(_REGISTRY_TEAMS.items()):
             print(f"  --team {slug:<30} # {name} ({league})")
         return
 
