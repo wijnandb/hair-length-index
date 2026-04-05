@@ -113,6 +113,9 @@ def init_db(conn) -> None:
             short_name TEXT,
             country TEXT,
             wf_slug TEXT UNIQUE,
+            wf_id TEXT,
+            football_data_id INTEGER,
+            api_football_id INTEGER,
             crest_url TEXT,
             current_league TEXT
         );
@@ -166,26 +169,38 @@ def init_db(conn) -> None:
 
 
 def upsert_team(conn, **kwargs) -> int:
-    """Insert or update a team by wf_slug. Returns the internal team ID."""
-    wf_slug = kwargs.get("wf_slug")
-    if wf_slug is not None:
-        row = conn.execute(
-            "SELECT id FROM teams WHERE wf_slug = ?", (wf_slug,)
-        ).fetchone()
-        if row:
-            updates = []
-            values = []
-            for key in ("name", "short_name", "country", "crest_url", "current_league"):
-                if key in kwargs and kwargs[key] is not None:
-                    updates.append(f"{key} = ?")
-                    values.append(kwargs[key])
-            if updates:
-                values.append(row["id"])
-                conn.execute(
-                    f"UPDATE teams SET {', '.join(updates)} WHERE id = ?", values
-                )
-                conn.commit()
-            return row["id"]
+    """Insert or update a team. Looks up by football_data_id, api_football_id,
+    wf_slug, or name (in that order). Returns the internal team ID."""
+    updatable = (
+        "name", "short_name", "country", "crest_url", "current_league",
+        "wf_slug", "wf_id", "football_data_id", "api_football_id",
+    )
+
+    # Try to find existing team by external IDs (most specific first)
+    row = None
+    for lookup_key in ("football_data_id", "api_football_id", "wf_slug"):
+        val = kwargs.get(lookup_key)
+        if val is not None:
+            row = conn.execute(
+                f"SELECT id FROM teams WHERE {lookup_key} = ?", (val,)
+            ).fetchone()
+            if row:
+                break
+
+    if row:
+        updates = []
+        values = []
+        for key in updatable:
+            if key in kwargs and kwargs[key] is not None:
+                updates.append(f"{key} = ?")
+                values.append(kwargs[key])
+        if updates:
+            values.append(row["id"])
+            conn.execute(
+                f"UPDATE teams SET {', '.join(updates)} WHERE id = ?", values
+            )
+            conn.commit()
+        return row["id"]
 
     # Insert new team
     cols = [k for k in kwargs if kwargs[k] is not None]
@@ -212,6 +227,32 @@ def find_team_by_name(conn, name: str):
     return conn.execute(
         "SELECT * FROM teams WHERE name = ? OR short_name = ?", (name, name)
     ).fetchone()
+
+
+def find_team_by_football_data_id(conn, fd_id: int):
+    """Find a team by football-data.org ID."""
+    return conn.execute(
+        "SELECT * FROM teams WHERE football_data_id = ?", (fd_id,)
+    ).fetchone()
+
+
+def find_team_by_api_football_id(conn, af_id: int):
+    """Find a team by API-Football ID."""
+    return conn.execute(
+        "SELECT * FROM teams WHERE api_football_id = ?", (af_id,)
+    ).fetchone()
+
+
+def set_football_data_id(conn, team_id: int, fd_id: int) -> None:
+    """Set the football-data.org ID for a team."""
+    conn.execute("UPDATE teams SET football_data_id = ? WHERE id = ?", (fd_id, team_id))
+    conn.commit()
+
+
+def set_api_football_id(conn, team_id: int, af_id: int) -> None:
+    """Set the API-Football ID for a team."""
+    conn.execute("UPDATE teams SET api_football_id = ? WHERE id = ?", (af_id, team_id))
+    conn.commit()
 
 
 def upsert_match(conn, **kwargs) -> int | None:

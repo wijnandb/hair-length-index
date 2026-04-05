@@ -25,6 +25,8 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
 
     steps:
       - name: Checkout
@@ -39,13 +41,33 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # --- Compute streaks from Neon (read-only, no data fetching) ---
+      # --- Fetch new matches from APIs into Neon ---
+
+      - name: Fetch new match data
+        run: python -m scripts.daily_update
+
+      # --- Compute streaks from Neon ---
 
       - name: Compute Eredivisie streaks
         run: python -m scripts.compute_streaks --league DED --json
 
       - name: Compute Eerste Divisie streaks
         run: python -m scripts.compute_streaks --league JE --json --output data/hair-index-je.json
+
+      - name: Compute Premier League streaks
+        run: python -m scripts.compute_streaks --league PL --json --output data/hair-index-pl.json
+
+      - name: Compute Bundesliga streaks
+        run: python -m scripts.compute_streaks --league BL --json --output data/hair-index-bl.json
+
+      - name: Compute La Liga streaks
+        run: python -m scripts.compute_streaks --league LL --json --output data/hair-index-ll.json
+
+      - name: Compute Serie A streaks
+        run: python -m scripts.compute_streaks --league SA --json --output data/hair-index-sa.json
+
+      - name: Compute Ligue 1 streaks
+        run: python -m scripts.compute_streaks --league L1 --json --output data/hair-index-l1.json
 
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short
