@@ -362,9 +362,9 @@ class TestHairTiers:
         name, _ = get_hair_tier(400)
         assert name == "Caveman"
 
-    def test_sasquatch(self):
+    def test_bigfoot(self):
         name, _ = get_hair_tier(600)
-        assert name == "Sasquatch"
+        assert name == "Bigfoot"
 
     def test_lost_in_time(self):
         name, _ = get_hair_tier(None)

@@ -61,7 +61,7 @@ HAIR_TIERS = [
     (120, "Getting shaggy", "Messy medium-length hair, visible beard"),
     (270, "Long & wild", "Long unkempt hair past shoulders, full beard"),
     (500, "Caveman", "Very long tangled hair, huge bushy beard"),
-    (float("inf"), "Sasquatch", "Hair and beard merge, barely human"),
+    (float("inf"), "Bigfoot", "Hair and beard merge, barely human"),
 ]
 
 
@@ -72,4 +72,4 @@ def get_hair_tier(days_since: int | None) -> tuple[str, str]:
     for threshold, name, desc in HAIR_TIERS:
         if days_since <= threshold:
             return (name, desc)
-    return ("Sasquatch", "Hair and beard merge, barely human")
+    return ("Bigfoot", "Hair and beard merge, barely human")

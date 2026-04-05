@@ -269,6 +269,28 @@ const I18N = (() => {
     extra_time_short: {
       nl: 'n.v.', en: 'AET', de: 'n.V.', es: 'pró.', it: 'suppl.', fr: 'prol.',
     },
+    // Hair tier names
+    tier_fresh_cut: {
+      nl: 'Vers geknipt', en: 'Fresh cut', de: 'Frisch geschnitten', es: 'Recién cortado', it: 'Appena tagliato', fr: 'Fraîchement coupé',
+    },
+    tier_growing_back: {
+      nl: 'Groeit weer', en: 'Growing back', de: 'Wächst nach', es: 'Creciendo', it: 'Ricrescita', fr: 'Repousse',
+    },
+    tier_getting_shaggy: {
+      nl: 'Wordt ruig', en: 'Getting shaggy', de: 'Wird struppig', es: 'Cada vez más largo', it: 'Sempre più lungo', fr: 'De plus en plus long',
+    },
+    tier_long_wild: {
+      nl: 'Lang & wild', en: 'Long & wild', de: 'Lang & wild', es: 'Largo y salvaje', it: 'Lungo e selvaggio', fr: 'Long & sauvage',
+    },
+    tier_caveman: {
+      nl: 'Holbewoner', en: 'Caveman', de: 'Höhlenmensch', es: 'Cavernícola', it: 'Uomo delle caverne', fr: 'Homme des cavernes',
+    },
+    tier_bigfoot: {
+      nl: 'Bigfoot', en: 'Bigfoot', de: 'Bigfoot', es: 'Bigfoot', it: 'Bigfoot', fr: 'Bigfoot',
+    },
+    tier_lost_in_time: {
+      nl: 'Verloren in de tijd', en: 'Lost in time', de: 'In der Zeit verloren', es: 'Perdido en el tiempo', it: 'Perso nel tempo', fr: 'Perdu dans le temps',
+    },
   };
 
   let currentLang = 'nl';
@@ -280,6 +302,11 @@ const I18N = (() => {
     }
   }
 
+  function detectBrowserLang() {
+    const nav = (navigator.language || '').slice(0, 2).toLowerCase();
+    return LOCALES[nav] ? nav : 'en';
+  }
+
   function setLangForLeague(leagueCode) {
     // Manual override takes precedence
     const override = localStorage.getItem('hli-lang');
@@ -287,7 +314,12 @@ const I18N = (() => {
       currentLang = override;
       return;
     }
-    currentLang = LEAGUE_LANG[leagueCode] || 'en';
+    // League-based auto-detect, or browser language for home/unknown
+    if (leagueCode && LEAGUE_LANG[leagueCode]) {
+      currentLang = LEAGUE_LANG[leagueCode];
+    } else {
+      currentLang = detectBrowserLang();
+    }
   }
 
   function getLang() {
@@ -314,5 +346,5 @@ const I18N = (() => {
     localStorage.removeItem('hli-lang');
   }
 
-  return { setLang, setLangForLeague, getLang, getLocale, t, clearOverride, LOCALES };
+  return { setLang, setLangForLeague, getLang, getLocale, t, clearOverride, detectBrowserLang, LOCALES };
 })();

@@ -80,7 +80,7 @@ const TIER_EMOJI = {
   "Getting shaggy": "\u{1F488}",
   "Long & wild": "\u{1F981}",
   "Caveman": "\u{1F9D4}",
-  "Sasquatch": "\u{1F9CC}",
+  "Bigfoot": "\u{1F9CC}",
   "Lost in time": "\u2753",
 };
 
@@ -90,7 +90,7 @@ const TIER_AVATAR = {
   "Getting shaggy": { top: "shaggyMullet",        facialHair: "beardMedium",   mouth: "serious",    eyes: "squint" },
   "Long & wild":    { top: "longButNotTooLong",   facialHair: "beardMajestic", mouth: "serious",    eyes: "side" },
   "Caveman":        { top: "bigHair",             facialHair: "beardMajestic", mouth: "grimace",    eyes: "xDizzy" },
-  "Sasquatch":      { top: "dreads",              facialHair: "beardMajestic", mouth: "screamOpen", eyes: "surprised", accessories: "prescription02" },
+  "Bigfoot":      { top: "dreads",              facialHair: "beardMajestic", mouth: "screamOpen", eyes: "surprised", accessories: "prescription02" },
   "Lost in time":   { top: "hat",                  facialHair: "",              mouth: "concerned",  eyes: "closed" },
 };
 
@@ -116,12 +116,27 @@ const TIER_CLASS = {
   "Getting shaggy": "shaggy",
   "Long & wild": "wild",
   "Caveman": "caveman",
-  "Sasquatch": "sasquatch",
+  "Bigfoot": "bigfoot",
   "Lost in time": "lost",
 };
 
 function tierClass(tier) {
   return TIER_CLASS[tier] || "lost";
+}
+
+const TIER_I18N_KEY = {
+  "Fresh cut": "tier_fresh_cut",
+  "Growing back": "tier_growing_back",
+  "Getting shaggy": "tier_getting_shaggy",
+  "Long & wild": "tier_long_wild",
+  "Caveman": "tier_caveman",
+  "Bigfoot": "tier_bigfoot",
+  "Lost in time": "tier_lost_in_time",
+};
+
+function translateTier(tier) {
+  const key = TIER_I18N_KEY[tier];
+  return key ? t(key) : tier;
 }
 
 // Helper: get t() safely — falls back to key if i18n not loaded
@@ -373,7 +388,7 @@ function renderTeamCard(team, rank) {
         <div class="team-info">
           <a class="team-name" href="${teamUrl(currentLeague, team.slug || slugify(team.team))}" onclick="event.stopPropagation()">${escapeHtml(team.team)}</a>
           ${team.league_flag ? `<span class="league-flag" title="${escapeHtml(team.league_name || '')}">${team.league_flag}</span>` : ""}
-          <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(team.hair_tier)}</span>
+          <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(translateTier(team.hair_tier))}</span>
         </div>
 
         <div class="hair-metric">

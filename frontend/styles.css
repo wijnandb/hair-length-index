@@ -28,7 +28,7 @@
   --tier-shaggy: #ca8a04;
   --tier-wild: #ea580c;
   --tier-caveman: #dc2626;
-  --tier-sasquatch: #9333ea;
+  --tier-bigfoot: #9333ea;
   --tier-lost: #6b7280;
 }
 
@@ -357,7 +357,7 @@ a.team-name:hover {
 /* Notes / footnotes */
 .note {
   font-size: 0.7rem;
-  color: var(--tier-sasquatch);
+  color: var(--tier-bigfoot);
   font-style: italic;
 }
 
@@ -372,7 +372,7 @@ a.team-name:hover {
 .tier-shaggy     { background: #fef9c3; color: #854d0e; }
 .tier-wild       { background: #ffedd5; color: #9a3412; }
 .tier-caveman    { background: #fef2f2; color: #b91c1c; }
-.tier-sasquatch  { background: #f3e8ff; color: #7e22ce; }
+.tier-bigfoot  { background: #f3e8ff; color: #7e22ce; }
 .tier-lost       { background: #f3f4f6; color: #4b5563; }
 
 /* Days number colors — slightly bolder for contrast on white */
@@ -381,7 +381,7 @@ a.team-name:hover {
 .days-shaggy     { color: var(--tier-shaggy); }
 .days-wild       { color: var(--tier-wild); }
 .days-caveman    { color: var(--tier-caveman); }
-.days-sasquatch  { color: var(--tier-sasquatch); }
+.days-bigfoot  { color: var(--tier-bigfoot); }
 .days-lost       { color: var(--tier-lost); }
 
 /* === Match Detail Panel === */
