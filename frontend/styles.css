@@ -812,6 +812,293 @@ a.team-name:hover {
   border-left: 3px solid #ef4444;
 }
 
+/* === Team Profile Page === */
+.team-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.team-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.team-hero-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #f9fafb;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.team-hero-info {
+  flex: 1;
+  min-width: 180px;
+}
+
+.team-hero-info h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 0.3rem;
+}
+
+.team-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.team-hero-league {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.team-hero-founded {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.team-hero-hashtags {
+  font-size: 0.8rem;
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+.team-hero-tier {
+  margin-top: 0.4rem;
+}
+
+/* Stat cards row */
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-card-value {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.stat-card-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.stat-card-sub {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+/* Form section on team page */
+.team-form-section {
+  margin-bottom: 1.5rem;
+}
+
+.team-form-section h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.team-form-dots {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+/* Rivalries section */
+.rivalries-section {
+  margin: 1.5rem 0;
+}
+
+.rivalries-section h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.rivalry-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.6rem;
+}
+
+.rivalry-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: box-shadow 0.2s;
+}
+
+.rivalry-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.rivalry-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.rivalry-info {
+  min-width: 0;
+}
+
+.rivalry-name-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.rivalry-name-link:hover {
+  text-decoration: underline;
+}
+
+.rivalry-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.rivalry-hashtags {
+  font-size: 0.7rem;
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+/* Standings snippet on team page */
+.standings-snippet {
+  margin: 1.5rem 0;
+}
+
+.standings-snippet h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.standings-snippet .standings-table tr.highlight-row {
+  background: #f0fdf4;
+  font-weight: 700;
+}
+
+.standings-snippet .standings-table tr.highlight-row td {
+  border-bottom-color: #bbf7d0;
+}
+
+/* Share section on team page */
+.team-share-section {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.team-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 999px;
+  border: 2px solid var(--accent);
+  background: #f0fdf4;
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.team-share-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.team-share-btn.copied {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Back link */
+.team-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.team-back-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .stat-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .team-hero {
+    gap: 1rem;
+  }
+
+  .team-hero-logo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .team-hero-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .stat-card-value {
+    font-size: 1.5rem;
+  }
+
+  .rivalry-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* === Load More === */
 .load-more {
   text-align: center;

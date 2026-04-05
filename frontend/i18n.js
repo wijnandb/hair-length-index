@@ -269,6 +269,21 @@ const I18N = (() => {
     extra_time_short: {
       nl: 'n.v.', en: 'AET', de: 'n.V.', es: 'pró.', it: 'suppl.', fr: 'prol.',
     },
+    rivals: {
+      nl: 'Rivalen', en: 'Rivals', de: 'Rivalen', es: 'Rivales', it: 'Rivali', fr: 'Rivaux',
+    },
+    founded: {
+      nl: 'Opgericht', en: 'Founded', de: 'Gegründet', es: 'Fundado', it: 'Fondato', fr: 'Fondé',
+    },
+    league_position: {
+      nl: 'in competitie', en: 'in league', de: 'in der Liga', es: 'en liga', it: 'in classifica', fr: 'au classement',
+    },
+    no_streak: {
+      nl: 'Geen streak gevonden', en: 'No streak found', de: 'Keine Serie gefunden', es: 'Sin racha', it: 'Nessuna serie', fr: 'Aucune série',
+    },
+    current_form: {
+      nl: 'Huidige vorm', en: 'Current form', de: 'Aktuelle Form', es: 'Forma actual', it: 'Forma attuale', fr: 'Forme actuelle',
+    },
     standings: {
       nl: 'Competitiestand', en: 'League standings', de: 'Tabelle', es: 'Clasificación', it: 'Classifica', fr: 'Classement',
     },

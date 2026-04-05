@@ -38,6 +38,7 @@ let currentLeague = "DED";
 const TEAMS_DIR = "data/teams";
 let fixturesData = null;
 let standingsData = {};  // keyed by internal league code
+let fanData = null;      // lazy-loaded from data/fan-data.json
 
 // Map internal league codes to standings file names
 // JE is not on football-data.org — no standings available
@@ -799,28 +800,96 @@ async function shareTeam(event, teamName, days, emoji, teamSlug) {
   }
 }
 
+// === Fan Data (lazy-loaded) ===
+
+async function loadFanData() {
+  if (fanData) return fanData;
+  try {
+    const resp = await fetch("data/fan-data.json");
+    if (resp.ok) {
+      fanData = await resp.json();
+    }
+  } catch (e) { /* fan data optional */ }
+  return fanData;
+}
+
+// === Standings Snippet (team context: 2 above + 2 below) ===
+
+function renderStandingsSnippet(teamName, league) {
+  const standings = standingsData[league];
+  if (!standings || !standings.table || standings.table.length === 0) return "";
+
+  const table = standings.table;
+  const teamIdx = table.findIndex(r => r.team.toLowerCase() === teamName.toLowerCase());
+  if (teamIdx === -1) return "";
+
+  const startIdx = Math.max(0, teamIdx - 2);
+  const endIdx = Math.min(table.length - 1, teamIdx + 2);
+  const slice = table.slice(startIdx, endIdx + 1);
+
+  const rows = slice.map(row => {
+    const zone = getPositionZone(league, row.position);
+    const zoneClass = zone ? ` ${zone}` : "";
+    const isHighlight = row.team.toLowerCase() === teamName.toLowerCase();
+    const highlightClass = isHighlight ? " highlight-row" : "";
+    return `
+      <tr class="${zoneClass}${highlightClass}">
+        <td>${row.position}</td>
+        <td>${escapeHtml(row.team)}</td>
+        <td>${row.played}</td>
+        <td>${row.won}</td>
+        <td>${row.drawn}</td>
+        <td>${row.lost}</td>
+        <td>${row.goals_for}:${row.goals_against}</td>
+        <td>${row.goal_difference > 0 ? '+' : ''}${row.goal_difference}</td>
+        <td><strong>${row.points}</strong></td>
+      </tr>`;
+  }).join("");
+
+  const matchday = standings.matchday ? ` (${t('matchday')} ${standings.matchday})` : "";
+
+  return `
+    <div class="standings-snippet">
+      <h3>&#x1F4CA; ${t('standings')}${matchday}</h3>
+      <table class="standings-table">
+        <thead>
+          <tr><th>#</th><th>${t('team')}</th><th>${t('played')}</th><th>${t('won_short')}</th><th>${t('drawn_short')}</th><th>${t('lost_short')}</th><th>${t('goals')}</th><th>+/-</th><th>${t('points')}</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
 // === Team Page (full page for #/{league}/{team}) ===
 
 async function renderTeamPage(leagueCode, teamSlug) {
-  // First load league data to find the team
   const config = LEAGUES[leagueCode];
   if (!config) return;
   currentLeague = leagueCode;
+  const container = document.getElementById("index-table");
+
   try {
-    const resp = await fetch(config.file);
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    // Load standings for this league
-    const standingsFile = STANDINGS_FILES[leagueCode];
-    if (standingsFile && !standingsData[leagueCode]) {
-      try {
-        const sResp = await fetch(standingsFile);
-        if (sResp.ok) standingsData[leagueCode] = await sResp.json();
-      } catch (e) { /* standings optional */ }
-    }
+    // Load league data, standings, fan data in parallel
+    const [leagueResp] = await Promise.all([
+      fetch(config.file),
+      (async () => {
+        const standingsFile = STANDINGS_FILES[leagueCode];
+        if (standingsFile && !standingsData[leagueCode]) {
+          try {
+            const sResp = await fetch(standingsFile);
+            if (sResp.ok) standingsData[leagueCode] = await sResp.json();
+          } catch (e) { /* optional */ }
+        }
+      })(),
+      loadFanData(),
+    ]);
+
+    if (!leagueResp.ok) throw new Error(`HTTP ${leagueResp.status}`);
+    const data = await leagueResp.json();
+
     const team = data.teams.find(t => (t.slug || slugify(t.team)) === teamSlug);
     if (!team) {
-      document.getElementById("index-table").innerHTML = `<div class="error">${t('team_not_found')}</div>`;
+      container.innerHTML = `<div class="error">${t('team_not_found')}</div>`;
       return;
     }
 
@@ -830,7 +899,7 @@ async function renderTeamPage(leagueCode, teamSlug) {
       `${team.team}: ${team.days_since ?? '???'} ${t('days_since_no_5_wins')}`
     );
 
-    // Update badge and tabs
+    // Update tabs
     document.querySelectorAll(".league-tab").forEach(tab =>
       tab.classList.toggle("active", tab.dataset.league === leagueCode)
     );
@@ -841,29 +910,202 @@ async function renderTeamPage(leagueCode, teamSlug) {
     const watchSection = document.getElementById("watch-section");
     if (watchSection) watchSection.style.display = "none";
 
-    // Render team card + auto-expand detail
-    const container = document.getElementById("index-table");
-    const rank = data.teams.indexOf(team) + 1;
-    container.innerHTML = renderTeamCard(team, rank);
-
-    // Auto-load detail
+    // Load team detail data
     const teamData = await loadTeamDetail(team.team_id);
-    const detail = container.querySelector(".match-detail");
-    if (detail && teamData) {
-      detail.style.display = "block";
-      detail.innerHTML = renderGrowthStrip(teamData) + renderStreakDetail(teamData) + renderMatchTable(teamData);
-      container.querySelector(".team-card")?.classList.add("expanded");
-      // Scroll to streak
-      const streakEl = detail.querySelector('[data-streak-start="true"]');
-      if (streakEl) {
-        const strip = detail.querySelector(".growth-strip");
-        if (strip) strip.scrollLeft = streakEl.offsetLeft - strip.offsetWidth / 2;
-      }
+
+    // --- Build team profile page ---
+    const tc = tierClass(team.hair_tier);
+    const emoji = TIER_EMOJI[team.hair_tier] || "";
+    const logoUrl = getLogoUrl(team.team);
+    const avatar = avatarUrl(team.hair_tier, team.short_name || team.team);
+    const teamSlugForUrl = team.slug || slugify(team.team);
+
+    // Fan data lookups (safe if fanData is null)
+    const teamRivalries = fanData?.rivalries?.[team.team] || [];
+    const teamHashtags = fanData?.hashtags?.[team.team] || [];
+    const teamBirthday = fanData?.birthdays?.[team.team] || null;
+    const teamFounded = teamBirthday?.year || null;
+
+    // League flag + name
+    const leagueFlag = team.league_flag || "";
+    const leagueName = team.league_name || config.name;
+
+    // --- 1. Hero header ---
+    let heroHtml = `
+      <a class="team-back-link" href="${leagueUrl(leagueCode)}">&larr; ${escapeHtml(config.name)}</a>
+      <div class="team-hero">
+        <img src="${logoUrl || avatar}" alt="${escapeHtml(team.team)}" class="team-hero-logo"
+             onerror="this.src='${avatar}'">
+        <div class="team-hero-info">
+          <h1>${escapeHtml(team.team)}</h1>
+          <div class="team-hero-meta">
+            <span class="team-hero-league">${leagueFlag} ${escapeHtml(leagueName)}</span>
+            ${teamFounded ? `<span class="team-hero-founded">${t('founded')} ${teamFounded}</span>` : ""}
+          </div>
+          ${teamHashtags.length > 0 ? `<div class="team-hero-hashtags">${teamHashtags.map(h => escapeHtml(h)).join(" ")}</div>` : ""}
+          <div class="team-hero-tier">
+            <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(translateTier(team.hair_tier))}</span>
+          </div>
+        </div>
+      </div>`;
+
+    // --- 2. Stat cards ---
+    const daysStr = formatDays(team.days_since);
+    const humanDuration = daysToHuman(team.days_since);
+    const position = getStandingsPosition(team, leagueCode);
+    const zoneClass = position ? getPositionZone(leagueCode, position) : "";
+
+    let streakCardContent;
+    if (team.streak_found) {
+      const endDate = formatDate(team.streak_end_date);
+      streakCardContent = `
+        <div class="stat-card-value" style="color: var(--accent)">${team.streak_length}x</div>
+        <div class="stat-card-label">${t('wins_in_a_row')}</div>
+        <div class="stat-card-sub">${t('last_on')} ${endDate}</div>`;
+    } else {
+      streakCardContent = `
+        <div class="stat-card-value" style="color: var(--text-muted)">--</div>
+        <div class="stat-card-label">${t('no_streak')}</div>`;
+    }
+
+    let statCardsHtml = `
+      <div class="stat-cards">
+        <div class="stat-card">
+          <div class="stat-card-value days-${tc}">${daysStr}</div>
+          <div class="stat-card-label">${t('days')}</div>
+          ${humanDuration ? `<div class="stat-card-sub">${humanDuration}</div>` : ""}
+        </div>
+        <div class="stat-card">
+          ${position
+            ? `<div class="stat-card-value"><span class="position-badge ${zoneClass}" style="font-size:1.5rem;display:inline-block">#${position}</span></div>
+               <div class="stat-card-label">${t('league_position')}</div>`
+            : `<div class="stat-card-value" style="color: var(--text-muted)">--</div>
+               <div class="stat-card-label">${t('league_position')}</div>`
+          }
+        </div>
+        <div class="stat-card">
+          ${streakCardContent}
+        </div>
+      </div>`;
+
+    // --- 3. Current form + growth strip ---
+    let formHtml = "";
+    if (team.current_form && team.current_form.length > 0) {
+      const formDots = team.current_form.slice(0, 10)
+        .map(r => `<span class="form-dot ${r}" title="${r}">${r}</span>`)
+        .join("");
+      formHtml = `
+        <div class="team-form-section">
+          <h3>${t('current_form')}</h3>
+          <div class="team-form-dots">${formDots}</div>
+        </div>`;
+    }
+
+    let growthStripHtml = "";
+    if (teamData) {
+      growthStripHtml = renderGrowthStrip(teamData);
+    }
+
+    // --- 4. Streak detail ---
+    let streakDetailHtml = "";
+    if (teamData) {
+      streakDetailHtml = renderStreakDetail(teamData);
+    }
+
+    // --- 5. Rivalries section ---
+    let rivalriesHtml = "";
+    if (teamRivalries.length > 0) {
+      const rivalryCards = teamRivalries.map(riv => {
+        const oppLogo = getLogoUrl(riv.opponent);
+        const oppSlug = slugify(riv.opponent);
+        const oppUrl = teamUrl(leagueCode, oppSlug);
+        const rivHashtags = riv.hashtags ? riv.hashtags.map(h => escapeHtml(h)).join(" ") : "";
+        return `
+          <div class="rivalry-card">
+            ${oppLogo ? `<img src="${oppLogo}" class="rivalry-logo" alt="" onerror="this.style.display='none'">` : ""}
+            <div class="rivalry-info">
+              <a class="rivalry-name-link" href="${oppUrl}">${escapeHtml(riv.opponent)}</a>
+              ${riv.name ? `<div class="rivalry-label">${escapeHtml(riv.name)}</div>` : ""}
+              ${rivHashtags ? `<div class="rivalry-hashtags">${rivHashtags}</div>` : ""}
+            </div>
+          </div>`;
+      }).join("");
+
+      rivalriesHtml = `
+        <div class="rivalries-section">
+          <h3>&#x2694;&#xFE0F; ${t('rivals')}</h3>
+          <div class="rivalry-cards">${rivalryCards}</div>
+        </div>`;
+    }
+
+    // --- 6. Standings snippet ---
+    let standingsSnippetHtml = renderStandingsSnippet(team.team, leagueCode);
+
+    // --- 7. Match table ---
+    let matchTableHtml = "";
+    if (teamData) {
+      matchTableHtml = renderMatchTable(teamData);
+    }
+
+    // --- 8. Share section ---
+    const shareTeamSlug = teamSlugForUrl;
+    let shareHtml = `
+      <div class="team-share-section">
+        <button class="team-share-btn" onclick="shareTeamFromPage(this, '${escapeHtml(team.team)}', ${team.days_since ?? 'null'}, '${emoji}', '${shareTeamSlug}')">
+          &#8599; ${t('share')}
+        </button>
+      </div>`;
+
+    // --- Assemble ---
+    container.innerHTML = `
+      <div class="team-page">
+        ${heroHtml}
+        ${statCardsHtml}
+        ${formHtml}
+        ${growthStripHtml}
+        ${streakDetailHtml}
+        ${rivalriesHtml}
+        ${standingsSnippetHtml}
+        ${matchTableHtml}
+        ${shareHtml}
+      </div>`;
+
+    // Auto-scroll growth strip to streak
+    const streakEl = container.querySelector('[data-streak-start="true"]');
+    if (streakEl) {
+      const strip = container.querySelector(".growth-strip");
+      if (strip) strip.scrollLeft = streakEl.offsetLeft - strip.offsetWidth / 2;
     }
   } catch (err) {
     console.error("Failed to load team page:", err);
-    document.getElementById("index-table").innerHTML = `<div class="error">${t('could_not_load_team_page')}</div>`;
+    container.innerHTML = `<div class="error">${t('could_not_load_team_page')}</div>`;
   }
+}
+
+// Share handler for team page share button
+async function shareTeamFromPage(btn, teamName, days, emoji, teamSlug) {
+  const daysStr = days !== null && days !== undefined ? days.toLocaleString(currentLocale()) : "???";
+  const leagueSlug = CODE_TO_SLUG[currentLeague] || 'eredivisie';
+  const leagueName = LEAGUES[currentLeague]?.name || 'Eredivisie';
+  const text = `${emoji} ${t('share_text', { team: teamName, days: daysStr })} #HairLengthIndex #${leagueName.replace(/\s+/g, '')}`;
+  const url = `https://wijnandb.github.io/hair-length-index/#/${leagueSlug}/${teamSlug || ''}`;
+
+  if (navigator.share) {
+    try { await navigator.share({ title: "Hair Length Index", text, url }); return; }
+    catch (e) { /* user cancelled */ }
+  }
+  if (/Android|iPhone|iPad/i.test(navigator.userAgent)) {
+    const waUrl = `https://wa.me/?text=${encodeURIComponent(text + "\n" + url)}`;
+    window.open(waUrl, "_blank");
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(`${text}\n${url}`);
+    btn.classList.add("copied");
+    const orig = btn.innerHTML;
+    btn.innerHTML = "&#x2713; Copied!";
+    setTimeout(() => { btn.classList.remove("copied"); btn.innerHTML = orig; }, 1500);
+  } catch (e) { /* clipboard not available */ }
 }
 
 // === Route Handler ===
