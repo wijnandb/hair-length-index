@@ -19,16 +19,6 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-21",
-      "opponent": "FC Lorient",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
       "competition": "Ligue 1 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -86,16 +76,6 @@
     {
       "date": "2026-02-15",
       "opponent": "Le Havre",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-15",
-      "opponent": "Havre AC",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -229,16 +209,6 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-09",
-      "opponent": "FC Lorient",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
       "competition": "Ligue 1 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -246,16 +216,6 @@
     {
       "date": "2025-11-02",
       "opponent": "Le Havre",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-02",
-      "opponent": "Havre AC",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -475,7 +435,7 @@
     },
     {
       "date": "2025-02-23",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -695,7 +655,7 @@
     },
     {
       "date": "2024-09-15",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -765,7 +725,7 @@
     },
     {
       "date": "2024-04-28",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -825,7 +785,7 @@
     },
     {
       "date": "2024-03-10",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -995,7 +955,7 @@
     },
     {
       "date": "2023-12-03",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1045,7 +1005,7 @@
     },
     {
       "date": "2023-11-05",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1255,7 +1215,7 @@
     },
     {
       "date": "2023-04-23",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1595,7 +1555,7 @@
     },
     {
       "date": "2022-08-21",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1755,7 +1715,7 @@
     },
     {
       "date": "2022-02-21",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -1985,7 +1945,7 @@
     },
     {
       "date": "2021-09-13",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2115,7 +2075,7 @@
     },
     {
       "date": "2021-05-04",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2355,7 +2315,7 @@
     },
     {
       "date": "2020-12-19",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "H",
       "score": "4-3",
       "result": "W",
@@ -2896,8 +2856,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 167,
-    "end_index": 171,
+    "start_index": 163,
+    "end_index": 167,
     "length": 5
   }
 }

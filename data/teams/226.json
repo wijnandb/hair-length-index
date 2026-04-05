@@ -109,16 +109,6 @@
       "home_away": "H",
       "score": "0-2",
       "result": "L",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-24",
-      "opponent": "FC Lorient",
-      "home_away": "H",
-      "score": "0-2",
-      "result": "L",
       "competition": "Ligue 1 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -126,16 +116,6 @@
     {
       "date": "2026-01-18",
       "opponent": "Le Havre",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-18",
-      "opponent": "Havre AC",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -269,16 +249,6 @@
       "home_away": "A",
       "score": "2-2",
       "result": "D",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-05",
-      "opponent": "Havre AC",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
       "competition": "Ligue 1 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -326,16 +296,6 @@
     {
       "date": "2025-08-24",
       "opponent": "Lorient",
-      "home_away": "A",
-      "score": "0-4",
-      "result": "L",
-      "competition": "Ligue 1",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-24",
-      "opponent": "FC Lorient",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -405,7 +365,7 @@
     },
     {
       "date": "2025-04-13",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "A",
       "score": "5-1",
       "result": "W",
@@ -625,7 +585,7 @@
     },
     {
       "date": "2024-10-25",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -825,7 +785,7 @@
     },
     {
       "date": "2024-03-03",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -885,7 +845,7 @@
     },
     {
       "date": "2024-02-11",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1075,7 +1035,7 @@
     },
     {
       "date": "2023-10-22",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1155,7 +1115,7 @@
     },
     {
       "date": "2023-08-27",
-      "opponent": "Havre AC",
+      "opponent": "Le Havre",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1385,7 +1345,7 @@
     },
     {
       "date": "2023-01-27",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1655,7 +1615,7 @@
     },
     {
       "date": "2022-08-07",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1705,7 +1665,7 @@
     },
     {
       "date": "2022-04-24",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "5-0",
       "result": "W",
@@ -1895,7 +1855,7 @@
     },
     {
       "date": "2021-12-18",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1945,7 +1905,7 @@
     },
     {
       "date": "2021-11-28",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2335,7 +2295,7 @@
     },
     {
       "date": "2021-02-03",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2395,7 +2355,7 @@
     },
     {
       "date": "2020-12-20",
-      "opponent": "FC Lorient",
+      "opponent": "Lorient",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -3096,8 +3056,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 88,
-    "end_index": 95,
+    "start_index": 84,
+    "end_index": 91,
     "length": 5
   }
 }
