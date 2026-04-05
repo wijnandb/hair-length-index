@@ -1032,6 +1032,117 @@ a.team-name:hover {
   border-bottom-color: #bbf7d0;
 }
 
+/* Full standings on team page */
+.standings-full {
+  margin: 1.5rem 0;
+}
+
+.standings-full h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.standings-table .highlight-row td {
+  background: #f0fdf4;
+  font-weight: 700;
+}
+
+.standings-table .highlight-row td:first-child {
+  border-left: 3px solid var(--accent) !important;
+}
+
+/* === Strip Tooltip === */
+.strip-tooltip {
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  max-width: 200px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  pointer-events: none;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.strip-tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.strip-tooltip-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.strip-tooltip-score {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.strip-tooltip-meta {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+/* === Season Stats === */
+.season-stats {
+  margin: 1.25rem 0;
+}
+
+.season-stats h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.season-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.stat-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  text-align: center;
+}
+
+.stat-item-value {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.stat-item-label {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 0.15rem;
+}
+
+@media (max-width: 600px) {
+  .season-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* Share section on team page */
 .team-share-section {
   margin: 1.5rem 0;

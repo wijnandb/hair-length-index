@@ -224,6 +224,24 @@ const I18N = (() => {
       nl: 'samenvatting', en: 'highlights', de: 'Highlights',
       es: 'resumen', it: 'highlights', fr: 'résumé',
     },
+    season_stats: {
+      nl: 'Seizoen', en: 'Season', de: 'Saison', es: 'Temporada', it: 'Stagione', fr: 'Saison',
+    },
+    played_full: {
+      nl: 'Gespeeld', en: 'Played', de: 'Gespielt', es: 'Jugados', it: 'Giocate', fr: 'Joués',
+    },
+    goals_for_against: {
+      nl: 'Doelpunten', en: 'Goals', de: 'Tore', es: 'Goles', it: 'Gol', fr: 'Buts',
+    },
+    home_record: {
+      nl: 'Thuis', en: 'Home', de: 'Heim', es: 'Casa', it: 'Casa', fr: 'Domicile',
+    },
+    away_record: {
+      nl: 'Uit', en: 'Away', de: 'Auswärts', es: 'Fuera', it: 'Trasferta', fr: 'Extérieur',
+    },
+    upcoming: {
+      nl: 'Programma', en: 'Upcoming', de: 'Nächste Spiele', es: 'Próximos', it: 'Prossime', fr: 'Prochains',
+    },
     date_header: {
       nl: 'Datum', en: 'Date', de: 'Datum', es: 'Fecha', it: 'Data', fr: 'Date',
     },

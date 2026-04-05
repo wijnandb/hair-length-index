@@ -72,15 +72,17 @@ function getPositionZone(league, position) {
   return "";
 }
 
-function renderStandingsTable(league) {
+function renderStandingsTable(league, highlightTeam) {
   const standings = standingsData[league];
   if (!standings || !standings.table || standings.table.length === 0) return "";
 
   const rows = standings.table.map(row => {
     const zone = getPositionZone(row.position, league);
-    const zoneClass = zone ? ` class="${zone}"` : "";
+    const isHighlight = highlightTeam && row.team.toLowerCase() === highlightTeam.toLowerCase();
+    const classes = [zone, isHighlight ? 'highlight-row' : ''].filter(Boolean).join(' ');
+    const classAttr = classes ? ` class="${classes}"` : "";
     return `
-      <tr${zoneClass}>
+      <tr${classAttr}>
         <td>${row.position}</td>
         <td>${escapeHtml(row.team)}</td>
         <td>${row.played}</td>
@@ -94,6 +96,20 @@ function renderStandingsTable(league) {
   }).join("");
 
   const matchday = standings.matchday ? ` (${t('matchday')} ${standings.matchday})` : "";
+
+  if (highlightTeam) {
+    // On team page: open by default, no <details> wrapper
+    return `
+      <div class="standings-full">
+        <h3>&#x1F4CA; ${t('standings')}${matchday}</h3>
+        <table class="standings-table">
+          <thead>
+            <tr><th>#</th><th>${t('team')}</th><th>${t('played')}</th><th>${t('won_short')}</th><th>${t('drawn_short')}</th><th>${t('lost_short')}</th><th>${t('goals')}</th><th>+/-</th><th>${t('points')}</th></tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
 
   return `
     <details class="standings-toggle">
@@ -265,13 +281,11 @@ function renderGrowthStrip(teamData) {
   const blocks = matches.map((m, i) => {
     const r = m.result || "?";
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
-    const ha = m.home_away === "H" ? t('home').charAt(0).toUpperCase() : t('away').charAt(0).toUpperCase();
     const extra = m.decided_in === "PENALTIES" ? ` (${t('penalties_short')})` :
                   m.decided_in === "EXTRA_TIME" ? ` (${t('extra_time_short')})` : "";
-    const tip = `${m.date} | ${m.opponent} (${ha}) ${m.score}${extra} | ${m.competition} | ${m.source}`;
     const streakClass = isStreak ? " streak-highlight" : "";
     const markerAttr = isStreak && i === startIdx ? ' data-streak-start="true"' : "";
-    return `<div class="strip-block ${r}${streakClass}" title="${escapeHtml(tip)}"${markerAttr}>${r}</div>`;
+    return `<div class="strip-block ${r}${streakClass}"${markerAttr} data-opponent="${escapeHtml(m.opponent)}" data-score="${escapeHtml(m.score)}${escapeHtml(extra)}" data-date="${escapeHtml(m.date)}" data-competition="${escapeHtml(m.competition)}" data-home-away="${m.home_away || ''}">${r}</div>`;
   }).join("");
 
   // Legend
@@ -297,6 +311,155 @@ function renderGrowthStrip(teamData) {
     <div class="strip-hint">${t('newest_left_oldest_right')}</div>
     <div class="growth-strip">${blocks}</div>
   `;
+}
+
+// === Strip Tooltip ===
+
+function ensureStripTooltip() {
+  if (!document.getElementById('strip-tooltip')) {
+    const tip = document.createElement('div');
+    tip.id = 'strip-tooltip';
+    tip.className = 'strip-tooltip';
+    tip.style.display = 'none';
+    document.body.appendChild(tip);
+  }
+  return document.getElementById('strip-tooltip');
+}
+
+function initStripTooltips(container) {
+  const tooltip = ensureStripTooltip();
+  const blocks = container.querySelectorAll('.strip-block');
+
+  function showTooltip(block, e) {
+    const opponent = block.dataset.opponent || '';
+    const score = block.dataset.score || '';
+    const date = block.dataset.date || '';
+    const comp = block.dataset.competition || '';
+    const ha = block.dataset.homeAway === 'H' ? t('home') : t('away');
+    const oppLogo = getLogoUrl(opponent);
+
+    tooltip.innerHTML = `
+      <div class="strip-tooltip-row">
+        ${oppLogo ? `<img src="${oppLogo}" class="strip-tooltip-logo" alt="" onerror="this.style.display='none'">` : ''}
+        <strong>${opponent}</strong>
+      </div>
+      <div class="strip-tooltip-score">${score} (${ha})</div>
+      <div class="strip-tooltip-meta">${formatDateShort(date)}</div>
+      <div class="strip-tooltip-meta">${comp}</div>
+    `;
+    tooltip.style.display = 'block';
+
+    const blockRect = block.getBoundingClientRect();
+    const tipRect = tooltip.getBoundingClientRect();
+    let left = blockRect.left + blockRect.width / 2 - tipRect.width / 2;
+    let top = blockRect.top - tipRect.height - 8 + window.scrollY;
+
+    // Keep within viewport horizontally
+    if (left < 4) left = 4;
+    if (left + tipRect.width > window.innerWidth - 4) left = window.innerWidth - tipRect.width - 4;
+    // If above viewport, show below
+    if (top < window.scrollY) top = blockRect.bottom + 8 + window.scrollY;
+
+    tooltip.style.left = left + 'px';
+    tooltip.style.top = top + 'px';
+  }
+
+  function hideTooltip() {
+    tooltip.style.display = 'none';
+  }
+
+  blocks.forEach(block => {
+    block.addEventListener('mouseenter', (e) => showTooltip(block, e));
+    block.addEventListener('mouseleave', hideTooltip);
+    block.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      showTooltip(block, e);
+    }, { passive: false });
+  });
+
+  document.addEventListener('touchstart', (e) => {
+    if (!e.target.closest('.strip-block')) {
+      hideTooltip();
+    }
+  });
+}
+
+// === Season Stats ===
+
+function renderSeasonStats(teamData) {
+  const matches = teamData.matches;
+  if (!matches || matches.length === 0) return "";
+
+  // Filter current season (2025-26): matches from July 2025 onward
+  const seasonMatches = matches.filter(m => {
+    if (!m.date) return false;
+    const d = new Date(m.date + "T00:00:00");
+    return (d.getFullYear() === 2025 && d.getMonth() >= 6) || d.getFullYear() === 2026;
+  });
+
+  if (seasonMatches.length === 0) return "";
+
+  const total = seasonMatches.length;
+  const wins = seasonMatches.filter(m => m.result === "W").length;
+  const draws = seasonMatches.filter(m => m.result === "D").length;
+  const losses = seasonMatches.filter(m => m.result === "L").length;
+
+  // Goals: parse "2-1" format from score
+  let goalsFor = 0, goalsAgainst = 0;
+  seasonMatches.forEach(m => {
+    if (!m.score) return;
+    const parts = m.score.replace(/[^0-9-]/g, '').split('-');
+    if (parts.length === 2) {
+      const a = parseInt(parts[0], 10);
+      const b = parseInt(parts[1], 10);
+      if (!isNaN(a) && !isNaN(b)) {
+        if (m.home_away === "H") {
+          goalsFor += a;
+          goalsAgainst += b;
+        } else {
+          goalsFor += b;
+          goalsAgainst += a;
+        }
+      }
+    }
+  });
+
+  // Home/away records
+  const homeMatches = seasonMatches.filter(m => m.home_away === "H");
+  const awayMatches = seasonMatches.filter(m => m.home_away === "A");
+  const homeW = homeMatches.filter(m => m.result === "W").length;
+  const homeD = homeMatches.filter(m => m.result === "D").length;
+  const homeL = homeMatches.filter(m => m.result === "L").length;
+  const awayW = awayMatches.filter(m => m.result === "W").length;
+  const awayD = awayMatches.filter(m => m.result === "D").length;
+  const awayL = awayMatches.filter(m => m.result === "L").length;
+
+  return `
+    <div class="season-stats">
+      <h3>${t('season_stats')} 2025-26</h3>
+      <div class="season-stats-grid">
+        <div class="stat-item">
+          <div class="stat-item-value">${total}</div>
+          <div class="stat-item-label">${t('played_full')}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-value">${wins}W ${draws}D ${losses}L</div>
+          <div class="stat-item-label">${t('won_short')}/${t('drawn_short')}/${t('lost_short')}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-value">${goalsFor}:${goalsAgainst}</div>
+          <div class="stat-item-label">${t('goals_for_against')}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-value">${homeW}W ${homeD}D ${homeL}L</div>
+          <div class="stat-item-label">${t('home_record')}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-value">${awayW}W ${awayD}D ${awayL}L</div>
+          <div class="stat-item-label">${t('away_record')}</div>
+        </div>
+      </div>
+    </div>`;
 }
 
 function renderStreakDetail(teamData) {
@@ -605,6 +768,8 @@ async function toggleDetail(cardEl) {
       const teamData = await loadTeamDetail(teamId);
       if (teamData) {
         detail.innerHTML = renderGrowthStrip(teamData) + renderStreakDetail(teamData) + renderMatchTable(teamData);
+        // Init strip tooltips
+        initStripTooltips(detail);
         // Auto-scroll to streak
         const streakEl = detail.querySelector('[data-streak-start="true"]');
         if (streakEl) {
@@ -947,7 +1112,16 @@ async function renderTeamPage(leagueCode, teamSlug) {
           <h1>${escapeHtml(team.team)}</h1>
           <div class="team-hero-meta">
             <span class="team-hero-league">${leagueFlag} ${escapeHtml(leagueName)}</span>
-            ${teamFounded ? `<span class="team-hero-founded">${t('founded')} ${teamFounded}</span>` : ""}
+            ${teamBirthday ? `<span class="team-hero-founded">${t('founded')} ${(() => {
+              const bd = teamBirthday;
+              if (bd.day && bd.month && bd.year) {
+                const dateStr = new Date(bd.year, bd.month - 1, bd.day).toLocaleDateString(currentLocale(), { day: 'numeric', month: 'long', year: 'numeric' });
+                const today = new Date();
+                const isBirthday = today.getDate() === bd.day && (today.getMonth() + 1) === bd.month;
+                return dateStr + (isBirthday ? ' \u{1F382}' : '');
+              }
+              return bd.year || '';
+            })()}</span>` : (teamFounded ? `<span class="team-hero-founded">${t('founded')} ${teamFounded}</span>` : "")}
           </div>
           ${teamHashtags.length > 0 ? `<div class="team-hero-hashtags">${teamHashtags.map(h => escapeHtml(h)).join(" ")}</div>` : ""}
           <div class="team-hero-tier">
@@ -1046,8 +1220,14 @@ async function renderTeamPage(leagueCode, teamSlug) {
         </div>`;
     }
 
-    // --- 6. Standings snippet ---
-    let standingsSnippetHtml = renderStandingsSnippet(team.team, leagueCode);
+    // --- 5b. Season stats ---
+    let seasonStatsHtml = "";
+    if (teamData) {
+      seasonStatsHtml = renderSeasonStats(teamData);
+    }
+
+    // --- 6. Full standings table ---
+    let standingsSnippetHtml = renderStandingsTable(leagueCode, team.team);
 
     // --- 7. Match table ---
     let matchTableHtml = "";
@@ -1071,6 +1251,7 @@ async function renderTeamPage(leagueCode, teamSlug) {
         ${statCardsHtml}
         ${formHtml}
         ${growthStripHtml}
+        ${seasonStatsHtml}
         ${streakDetailHtml}
         ${rivalriesHtml}
         ${standingsSnippetHtml}
@@ -1083,6 +1264,18 @@ async function renderTeamPage(leagueCode, teamSlug) {
     if (streakEl) {
       const strip = container.querySelector(".growth-strip");
       if (strip) strip.scrollLeft = streakEl.offsetLeft - strip.offsetWidth / 2;
+    }
+
+    // Init strip tooltips
+    const stripContainer = container.querySelector('.growth-strip');
+    if (stripContainer) {
+      initStripTooltips(stripContainer.parentElement);
+    }
+
+    // Auto-scroll standings to highlighted row
+    const highlightRow = container.querySelector('.standings-full .highlight-row');
+    if (highlightRow) {
+      setTimeout(() => highlightRow.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
     }
   } catch (err) {
     console.error("Failed to load team page:", err);
