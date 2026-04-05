@@ -71,6 +71,29 @@ jobs:
       - name: Compute Ligue 1 streaks
         run: python -m scripts.compute_streaks --league L1 --json --output data/hair-index-l1.json
 
+      - name: Generate global index
+        run: |
+          python -c "
+          import json, glob
+          from datetime import datetime
+          teams = []
+          league_names = {'DED':'Eredivisie','JE':'Eerste Divisie','PL':'Premier League','BL':'Bundesliga','LL':'La Liga','SA':'Serie A','L1':'Ligue 1'}
+          league_flags = {'DED':'🇳🇱','JE':'🇳🇱','PL':'🏴󠁧󠁢󠁥󠁮󠁧󠁿','BL':'🇩🇪','LL':'🇪🇸','SA':'🇮🇹','L1':'🇫🇷'}
+          for f in sorted(glob.glob('data/hair-index*.json')):
+              if 'global' in f or 'prev' in f: continue
+              d = json.load(open(f))
+              code = f.replace('data/hair-index-','').replace('data/hair-index','DED').replace('.json','').upper()
+              if code == 'DED' and 'hair-index.json' in f: code = 'DED'
+              for t in d.get('teams',[]):
+                  t['league'] = code
+                  t['league_name'] = league_names.get(code, code)
+                  t['league_flag'] = league_flags.get(code, '')
+                  teams.append(t)
+          teams.sort(key=lambda x: (0 if not x.get('streak_found') else 1, -(x.get('days_since') or 0)))
+          json.dump({'generated_at': datetime.now().isoformat(), 'threshold': 5, 'teams': teams}, open('data/hair-index-global.json','w'), indent=2, ensure_ascii=False)
+          print(f'Global index: {len(teams)} teams')
+          "
+
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short
 
