@@ -37,6 +37,7 @@ from scripts.db import (
     upsert_match,
     upsert_team,
 )
+from scripts.team_registry import resolve_team_name
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -96,17 +97,20 @@ def _fd_import_match(conn, m: dict) -> int | None:
     at = m["awayTeam"]
     comp = m.get("competition", {})
 
+    home_name = resolve_team_name(ht.get("name", f"Team {ht['id']}"))
+    away_name = resolve_team_name(at.get("name", f"Team {at['id']}"))
+
     home_id = upsert_team(
         conn,
         football_data_id=ht["id"],
-        name=ht.get("name", f"Team {ht['id']}"),
+        name=home_name,
         short_name=ht.get("shortName") or ht.get("tla"),
         crest_url=ht.get("crest"),
     )
     away_id = upsert_team(
         conn,
         football_data_id=at["id"],
-        name=at.get("name", f"Team {at['id']}"),
+        name=away_name,
         short_name=at.get("shortName") or at.get("tla"),
         crest_url=at.get("crest"),
     )
@@ -359,8 +363,11 @@ def _resolve_af_team(conn, api_id: int, name: str, country: str | None) -> int:
     team = find_team_by_api_football_id(conn, api_id)
     if team:
         return team["id"]
-    # Try name match
-    team = find_team_by_name(conn, name)
+    # Try name match (with alias resolution)
+    canonical = resolve_team_name(name)
+    team = find_team_by_name(conn, canonical)
+    if not team and canonical != name:
+        team = find_team_by_name(conn, name)
     if team:
         set_api_football_id(conn, team["id"], api_id)
         return team["id"]

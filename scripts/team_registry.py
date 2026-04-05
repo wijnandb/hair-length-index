@@ -197,6 +197,13 @@ ALIASES = {
     "VVV Venlo": "VVV-Venlo",
     "SBV Vitesse": "Vitesse",
     "Willem II Tilburg": "Willem II",
+    # football-data.org name variants
+    "Le Havre AC": "Havre AC",
+    "AC Pisa 1909": "Pisa SC",
+    "Sassuolo": "Sassuolo Calcio",
+    "HSV": "Hamburger SV",
+    "Hamburg": "Hamburger SV",
+    "SC Heerenveen": "Heerenveen",
 }
 
 
