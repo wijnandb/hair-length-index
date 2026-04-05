@@ -1,0 +1,1021 @@
+{
+  "rivalries": {
+    "Ajax": [
+      {
+        "opponent": "Feyenoord",
+        "name": "De Klassieker",
+        "hashtags": [
+          "#klassieker",
+          "#ajafey"
+        ]
+      },
+      {
+        "opponent": "PSV Eindhoven",
+        "name": "De Topper",
+        "hashtags": [
+          "#topper"
+        ]
+      }
+    ],
+    "Feyenoord": [
+      {
+        "opponent": "Ajax",
+        "name": "De Klassieker",
+        "hashtags": [
+          "#klassieker",
+          "#ajafey"
+        ]
+      },
+      {
+        "opponent": "PSV Eindhoven",
+        "name": "PSV-Feyenoord",
+        "hashtags": []
+      },
+      {
+        "opponent": "Sparta Rotterdam",
+        "name": "Rotterdamse Derby",
+        "hashtags": [
+          "#rotterdamsederby"
+        ]
+      },
+      {
+        "opponent": "Excelsior",
+        "name": "Rotterdamse Derby",
+        "hashtags": [
+          "#rotterdamsederby"
+        ]
+      }
+    ],
+    "PSV Eindhoven": [
+      {
+        "opponent": "Ajax",
+        "name": "De Topper",
+        "hashtags": [
+          "#topper"
+        ]
+      },
+      {
+        "opponent": "Feyenoord",
+        "name": "PSV-Feyenoord",
+        "hashtags": []
+      }
+    ],
+    "Sparta Rotterdam": [
+      {
+        "opponent": "Feyenoord",
+        "name": "Rotterdamse Derby",
+        "hashtags": [
+          "#rotterdamsederby"
+        ]
+      }
+    ],
+    "Excelsior": [
+      {
+        "opponent": "Feyenoord",
+        "name": "Rotterdamse Derby",
+        "hashtags": [
+          "#rotterdamsederby"
+        ]
+      }
+    ],
+    "N.E.C.": [
+      {
+        "opponent": "Vitesse",
+        "name": "Gelderse Derby",
+        "hashtags": [
+          "#geldsederby"
+        ]
+      }
+    ],
+    "Vitesse": [
+      {
+        "opponent": "N.E.C.",
+        "name": "Gelderse Derby",
+        "hashtags": [
+          "#geldsederby"
+        ]
+      }
+    ],
+    "FC Twente": [
+      {
+        "opponent": "Heracles Almelo",
+        "name": "Twentse Derby",
+        "hashtags": [
+          "#twentsederby"
+        ]
+      }
+    ],
+    "Heracles Almelo": [
+      {
+        "opponent": "FC Twente",
+        "name": "Twentse Derby",
+        "hashtags": [
+          "#twentsederby"
+        ]
+      }
+    ],
+    "Go Ahead Eagles": [
+      {
+        "opponent": "PEC Zwolle",
+        "name": "IJsselderby",
+        "hashtags": [
+          "#ijsselderby"
+        ]
+      }
+    ],
+    "PEC Zwolle": [
+      {
+        "opponent": "Go Ahead Eagles",
+        "name": "IJsselderby",
+        "hashtags": [
+          "#ijsselderby"
+        ]
+      }
+    ],
+    "Willem II": [
+      {
+        "opponent": "NAC Breda",
+        "name": "Brabantse Derby",
+        "hashtags": [
+          "#brabantsederby"
+        ]
+      }
+    ],
+    "NAC Breda": [
+      {
+        "opponent": "Willem II",
+        "name": "Brabantse Derby",
+        "hashtags": [
+          "#brabantsederby"
+        ]
+      }
+    ],
+    "FC Groningen": [
+      {
+        "opponent": "Heerenveen",
+        "name": "Derby van het Noorden",
+        "hashtags": [
+          "#derbyvanhetnoorden"
+        ]
+      }
+    ],
+    "Heerenveen": [
+      {
+        "opponent": "FC Groningen",
+        "name": "Derby van het Noorden",
+        "hashtags": [
+          "#derbyvanhetnoorden"
+        ]
+      }
+    ],
+    "Liverpool FC": [
+      {
+        "opponent": "Manchester United",
+        "name": "Northwest Derby",
+        "hashtags": [
+          "#nwderby",
+          "#livmun"
+        ]
+      },
+      {
+        "opponent": "Everton FC",
+        "name": "Merseyside Derby",
+        "hashtags": [
+          "#merseysidederby"
+        ]
+      }
+    ],
+    "Manchester United": [
+      {
+        "opponent": "Liverpool FC",
+        "name": "Northwest Derby",
+        "hashtags": [
+          "#nwderby",
+          "#livmun"
+        ]
+      },
+      {
+        "opponent": "Manchester City",
+        "name": "Manchester Derby",
+        "hashtags": [
+          "#manchesterderby"
+        ]
+      }
+    ],
+    "Arsenal FC": [
+      {
+        "opponent": "Tottenham Hotspur",
+        "name": "North London Derby",
+        "hashtags": [
+          "#nld",
+          "#northlondonderby"
+        ]
+      }
+    ],
+    "Tottenham Hotspur": [
+      {
+        "opponent": "Arsenal FC",
+        "name": "North London Derby",
+        "hashtags": [
+          "#nld",
+          "#northlondonderby"
+        ]
+      },
+      {
+        "opponent": "Chelsea FC",
+        "name": "London Derby",
+        "hashtags": []
+      }
+    ],
+    "Everton FC": [
+      {
+        "opponent": "Liverpool FC",
+        "name": "Merseyside Derby",
+        "hashtags": [
+          "#merseysidederby"
+        ]
+      }
+    ],
+    "Manchester City": [
+      {
+        "opponent": "Manchester United",
+        "name": "Manchester Derby",
+        "hashtags": [
+          "#manchesterderby"
+        ]
+      }
+    ],
+    "Chelsea FC": [
+      {
+        "opponent": "Tottenham Hotspur",
+        "name": "London Derby",
+        "hashtags": []
+      }
+    ],
+    "Newcastle United": [
+      {
+        "opponent": "Sunderland AFC",
+        "name": "Tyne-Wear Derby",
+        "hashtags": [
+          "#tynewearderby"
+        ]
+      }
+    ],
+    "Sunderland AFC": [
+      {
+        "opponent": "Newcastle United",
+        "name": "Tyne-Wear Derby",
+        "hashtags": [
+          "#tynewearderby"
+        ]
+      }
+    ],
+    "Borussia Dortmund": [
+      {
+        "opponent": "Bayern Munich",
+        "name": "Der Klassiker",
+        "hashtags": [
+          "#derklassiker"
+        ]
+      },
+      {
+        "opponent": "1. FC Köln",
+        "name": "Rhein-Ruhr Derby",
+        "hashtags": []
+      }
+    ],
+    "Bayern Munich": [
+      {
+        "opponent": "Borussia Dortmund",
+        "name": "Der Klassiker",
+        "hashtags": [
+          "#derklassiker"
+        ]
+      }
+    ],
+    "1. FC Köln": [
+      {
+        "opponent": "Borussia Dortmund",
+        "name": "Rhein-Ruhr Derby",
+        "hashtags": []
+      },
+      {
+        "opponent": "Bor. Mönchengladbach",
+        "name": "Rheinderby",
+        "hashtags": [
+          "#rheinderby"
+        ]
+      }
+    ],
+    "Bor. Mönchengladbach": [
+      {
+        "opponent": "1. FC Köln",
+        "name": "Rheinderby",
+        "hashtags": [
+          "#rheinderby"
+        ]
+      }
+    ],
+    "Hamburger SV": [
+      {
+        "opponent": "Werder Bremen",
+        "name": "Nordderby",
+        "hashtags": [
+          "#nordderby"
+        ]
+      }
+    ],
+    "Werder Bremen": [
+      {
+        "opponent": "Hamburger SV",
+        "name": "Nordderby",
+        "hashtags": [
+          "#nordderby"
+        ]
+      }
+    ],
+    "FC Barcelona": [
+      {
+        "opponent": "Real Madrid",
+        "name": "El Clásico",
+        "hashtags": [
+          "#elclasico"
+        ]
+      },
+      {
+        "opponent": "RCD Espanyol",
+        "name": "Derbi Barceloní",
+        "hashtags": [
+          "#derbibarceloni"
+        ]
+      }
+    ],
+    "Real Madrid": [
+      {
+        "opponent": "FC Barcelona",
+        "name": "El Clásico",
+        "hashtags": [
+          "#elclasico"
+        ]
+      },
+      {
+        "opponent": "Atlético Madrid",
+        "name": "Derbi Madrileño",
+        "hashtags": [
+          "#derbimadrileno"
+        ]
+      }
+    ],
+    "Atlético Madrid": [
+      {
+        "opponent": "Real Madrid",
+        "name": "Derbi Madrileño",
+        "hashtags": [
+          "#derbimadrileno"
+        ]
+      }
+    ],
+    "Athletic Club": [
+      {
+        "opponent": "Real Sociedad",
+        "name": "Derbi Vasco",
+        "hashtags": [
+          "#derbivasco"
+        ]
+      }
+    ],
+    "Real Sociedad": [
+      {
+        "opponent": "Athletic Club",
+        "name": "Derbi Vasco",
+        "hashtags": [
+          "#derbivasco"
+        ]
+      }
+    ],
+    "RCD Espanyol": [
+      {
+        "opponent": "FC Barcelona",
+        "name": "Derbi Barceloní",
+        "hashtags": [
+          "#derbibarceloni"
+        ]
+      }
+    ],
+    "Sevilla FC": [
+      {
+        "opponent": "Real Betis",
+        "name": "Derbi Sevillano",
+        "hashtags": [
+          "#derbisevillano"
+        ]
+      }
+    ],
+    "Real Betis": [
+      {
+        "opponent": "Sevilla FC",
+        "name": "Derbi Sevillano",
+        "hashtags": [
+          "#derbisevillano"
+        ]
+      }
+    ],
+    "Inter": [
+      {
+        "opponent": "AC Milan",
+        "name": "Derby della Madonnina",
+        "hashtags": [
+          "#derbymilano"
+        ]
+      },
+      {
+        "opponent": "Juventus",
+        "name": "Derby d'Italia",
+        "hashtags": [
+          "#derbyditalia"
+        ]
+      }
+    ],
+    "AC Milan": [
+      {
+        "opponent": "Inter",
+        "name": "Derby della Madonnina",
+        "hashtags": [
+          "#derbymilano"
+        ]
+      }
+    ],
+    "AS Roma": [
+      {
+        "opponent": "Lazio Roma",
+        "name": "Derby della Capitale",
+        "hashtags": [
+          "#derbycapitale"
+        ]
+      }
+    ],
+    "Lazio Roma": [
+      {
+        "opponent": "AS Roma",
+        "name": "Derby della Capitale",
+        "hashtags": [
+          "#derbycapitale"
+        ]
+      }
+    ],
+    "Juventus": [
+      {
+        "opponent": "Inter",
+        "name": "Derby d'Italia",
+        "hashtags": [
+          "#derbyditalia"
+        ]
+      },
+      {
+        "opponent": "Torino FC",
+        "name": "Derby della Mole",
+        "hashtags": [
+          "#derbymole"
+        ]
+      }
+    ],
+    "Torino FC": [
+      {
+        "opponent": "Juventus",
+        "name": "Derby della Mole",
+        "hashtags": [
+          "#derbymole"
+        ]
+      }
+    ],
+    "Genoa CFC": [
+      {
+        "opponent": "Sampdoria",
+        "name": "Derby della Lanterna",
+        "hashtags": []
+      }
+    ],
+    "Sampdoria": [
+      {
+        "opponent": "Genoa CFC",
+        "name": "Derby della Lanterna",
+        "hashtags": []
+      }
+    ],
+    "Paris Saint-Germain": [
+      {
+        "opponent": "Olympique Marseille",
+        "name": "Le Classique",
+        "hashtags": [
+          "#leclassique"
+        ]
+      }
+    ],
+    "Olympique Marseille": [
+      {
+        "opponent": "Paris Saint-Germain",
+        "name": "Le Classique",
+        "hashtags": [
+          "#leclassique"
+        ]
+      }
+    ],
+    "Olympique Lyonnais": [
+      {
+        "opponent": "AS Monaco",
+        "name": "Choc des Olympiques",
+        "hashtags": []
+      },
+      {
+        "opponent": "Stade Rennais",
+        "name": "Derby",
+        "hashtags": []
+      }
+    ],
+    "AS Monaco": [
+      {
+        "opponent": "Olympique Lyonnais",
+        "name": "Choc des Olympiques",
+        "hashtags": []
+      }
+    ],
+    "Stade Rennais": [
+      {
+        "opponent": "Olympique Lyonnais",
+        "name": "Derby",
+        "hashtags": []
+      }
+    ]
+  },
+  "hashtags": {
+    "Ajax": [
+      "#wijzijnajax",
+      "#ajax"
+    ],
+    "Feyenoord": [
+      "#hetlegioen",
+      "#feyenoord"
+    ],
+    "PSV Eindhoven": [
+      "#psv",
+      "#psveindhoven"
+    ],
+    "AZ Alkmaar": [
+      "#azalkmaar",
+      "#az"
+    ],
+    "FC Twente": [
+      "#fctwente",
+      "#twente"
+    ],
+    "FC Utrecht": [
+      "#fcutrecht"
+    ],
+    "Heerenveen": [
+      "#senteravee",
+      "#heerenveen"
+    ],
+    "Go Ahead Eagles": [
+      "#kowet",
+      "#goaheadeagles"
+    ],
+    "N.E.C.": [
+      "#eniesee",
+      "#nec"
+    ],
+    "Heracles Almelo": [
+      "#heracles"
+    ],
+    "Sparta Rotterdam": [
+      "#spartarotterdam",
+      "#sparta"
+    ],
+    "NAC Breda": [
+      "#nacbreda",
+      "#nac"
+    ],
+    "PEC Zwolle": [
+      "#peczwolle"
+    ],
+    "FC Groningen": [
+      "#fcgroningen"
+    ],
+    "Fortuna Sittard": [
+      "#fortunasittard"
+    ],
+    "FC Volendam": [
+      "#fcvolendam"
+    ],
+    "Telstar": [
+      "#telstar"
+    ],
+    "Excelsior": [
+      "#excelsior"
+    ],
+    "Vitesse": [
+      "#vitesse"
+    ],
+    "Willem II": [
+      "#willemii"
+    ],
+    "RKC Waalwijk": [
+      "#rkc"
+    ],
+    "Almere City FC": [
+      "#almerecity"
+    ],
+    "ADO Den Haag": [
+      "#adodenhaag",
+      "#ado"
+    ],
+    "Arsenal FC": [
+      "#gunners",
+      "#afc",
+      "#arsenal"
+    ],
+    "Liverpool FC": [
+      "#lfc",
+      "#ynwa",
+      "#liverpool"
+    ],
+    "Manchester United": [
+      "#mufc",
+      "#redevils"
+    ],
+    "Manchester City": [
+      "#mancity",
+      "#cityzens"
+    ],
+    "Chelsea FC": [
+      "#cfc",
+      "#chelsea"
+    ],
+    "Tottenham Hotspur": [
+      "#thfc",
+      "#spurs",
+      "#coys"
+    ],
+    "Newcastle United": [
+      "#nufc",
+      "#magpies"
+    ],
+    "West Ham United": [
+      "#whufc",
+      "#irons"
+    ],
+    "Everton FC": [
+      "#efc",
+      "#toffees"
+    ],
+    "Aston Villa": [
+      "#avfc",
+      "#utv"
+    ],
+    "Brighton & Hove Albion": [
+      "#bhafc",
+      "#seagulls"
+    ],
+    "Nottingham Forest": [
+      "#nffc",
+      "#forest"
+    ],
+    "Crystal Palace": [
+      "#cpfc",
+      "#eagles"
+    ],
+    "Fulham FC": [
+      "#ffc",
+      "#fulham"
+    ],
+    "Brentford FC": [
+      "#brentford",
+      "#bees"
+    ],
+    "Wolverhampton Wanderers": [
+      "#wwfc",
+      "#wolves"
+    ],
+    "AFC Bournemouth": [
+      "#afcb",
+      "#bournemouth"
+    ],
+    "Leeds United": [
+      "#lufc",
+      "#leeds",
+      "#mot"
+    ],
+    "Burnley FC": [
+      "#burnley",
+      "#clarets"
+    ],
+    "Sunderland AFC": [
+      "#safc",
+      "#sunderland"
+    ],
+    "Bayern Munich": [
+      "#fcbayern",
+      "#miasanmia"
+    ],
+    "Borussia Dortmund": [
+      "#bvb",
+      "#echteliebe"
+    ],
+    "Bayer Leverkusen": [
+      "#b04",
+      "#werkself"
+    ],
+    "RB Leipzig": [
+      "#rbleipzig",
+      "#dierotenbullen"
+    ],
+    "Eintracht Frankfurt": [
+      "#sge",
+      "#eintracht"
+    ],
+    "VfB Stuttgart": [
+      "#vfb",
+      "#stuttgart"
+    ],
+    "SC Freiburg": [
+      "#scf",
+      "#freiburg"
+    ],
+    "VfL Wolfsburg": [
+      "#vfl",
+      "#wolfsburg"
+    ],
+    "1. FC Union Berlin": [
+      "#fcunion",
+      "#eisern"
+    ],
+    "Werder Bremen": [
+      "#werder",
+      "#svw"
+    ],
+    "1. FC Köln": [
+      "#effzeh",
+      "#koeln"
+    ],
+    "Bor. Mönchengladbach": [
+      "#bmg",
+      "#fohlenelf"
+    ],
+    "Real Madrid": [
+      "#halamadrid",
+      "#realmadrid"
+    ],
+    "FC Barcelona": [
+      "#fcblive",
+      "#barca",
+      "#visca"
+    ],
+    "Atlético Madrid": [
+      "#atletico",
+      "#aupaatleti"
+    ],
+    "Athletic Club": [
+      "#athleticclub",
+      "#aurreraathletic"
+    ],
+    "Real Sociedad": [
+      "#realsociedad",
+      "#aurrera"
+    ],
+    "Sevilla FC": [
+      "#sevillafc",
+      "#vamosmisevilla"
+    ],
+    "Villarreal CF": [
+      "#villarreal",
+      "#submarino"
+    ],
+    "Real Betis": [
+      "#realbetis",
+      "#vivobetis"
+    ],
+    "Juventus": [
+      "#juventus",
+      "#finoallafine"
+    ],
+    "Inter": [
+      "#inter",
+      "#forzainter",
+      "#amala"
+    ],
+    "AC Milan": [
+      "#acmilan",
+      "#sempremilan"
+    ],
+    "SSC Napoli": [
+      "#napoli",
+      "#forzanapolisempre"
+    ],
+    "AS Roma": [
+      "#asroma",
+      "#forzaroma"
+    ],
+    "Lazio Roma": [
+      "#lazio",
+      "#forzalazio"
+    ],
+    "Atalanta": [
+      "#atalanta",
+      "#goanta"
+    ],
+    "ACF Fiorentina": [
+      "#fiorentina",
+      "#forzaviola"
+    ],
+    "Paris Saint-Germain": [
+      "#psg",
+      "#icicestparis"
+    ],
+    "Olympique Marseille": [
+      "#om",
+      "#teamom"
+    ],
+    "Olympique Lyonnais": [
+      "#ol",
+      "#teamol"
+    ],
+    "AS Monaco": [
+      "#asmonaco",
+      "#daghe"
+    ],
+    "Lille OSC": [
+      "#losc",
+      "#lille"
+    ],
+    "Stade Rennais": [
+      "#srfc",
+      "#rennes"
+    ]
+  },
+  "birthdays": {
+    "Ajax": {
+      "month": 3,
+      "day": 18,
+      "year": 1900
+    },
+    "Sparta Rotterdam": {
+      "month": 4,
+      "day": 1,
+      "year": 1888
+    },
+    "Vitesse": {
+      "month": 5,
+      "day": 14,
+      "year": 1892
+    },
+    "N.E.C.": {
+      "month": 11,
+      "day": 15,
+      "year": 1900
+    },
+    "Excelsior": {
+      "month": 7,
+      "day": 23,
+      "year": 1902
+    },
+    "Heracles Almelo": {
+      "month": 5,
+      "day": 3,
+      "year": 1903
+    },
+    "NAC Breda": {
+      "month": 9,
+      "day": 19,
+      "year": 1912
+    },
+    "Heerenveen": {
+      "month": 7,
+      "day": 20,
+      "year": 1920
+    },
+    "FC Volendam": {
+      "month": 6,
+      "day": 1,
+      "year": 1920
+    },
+    "Telstar": {
+      "month": 7,
+      "day": 17,
+      "year": 1963
+    },
+    "AZ Alkmaar": {
+      "month": 5,
+      "day": 10,
+      "year": 1967
+    },
+    "Bayer Leverkusen": {
+      "month": 7,
+      "day": 1,
+      "year": 1904
+    },
+    "FC Groningen": {
+      "month": 6,
+      "day": 16,
+      "year": 1971
+    },
+    "Liverpool FC": {
+      "month": 10,
+      "day": 26,
+      "year": 1892
+    },
+    "Arsenal FC": {
+      "month": 12,
+      "day": 21,
+      "year": 1886
+    },
+    "Tottenham Hotspur": {
+      "month": 3,
+      "day": 5,
+      "year": 1882
+    },
+    "Chelsea FC": {
+      "month": 3,
+      "day": 10,
+      "year": 1905
+    },
+    "Manchester City": {
+      "month": 4,
+      "day": 16,
+      "year": 1880
+    },
+    "Lazio Roma": {
+      "month": 1,
+      "day": 9,
+      "year": 1900
+    },
+    "Newcastle United": {
+      "month": 12,
+      "day": 9,
+      "year": 1892
+    },
+    "Everton FC": {
+      "month": 3,
+      "day": 29,
+      "year": 1878
+    },
+    "Bayern Munich": {
+      "month": 2,
+      "day": 27,
+      "year": 1900
+    },
+    "Borussia Dortmund": {
+      "month": 12,
+      "day": 19,
+      "year": 1909
+    },
+    "Real Madrid": {
+      "month": 3,
+      "day": 6,
+      "year": 1902
+    },
+    "FC Barcelona": {
+      "month": 11,
+      "day": 29,
+      "year": 1899
+    },
+    "Atlético Madrid": {
+      "month": 4,
+      "day": 26,
+      "year": 1903
+    },
+    "Inter": {
+      "month": 3,
+      "day": 9,
+      "year": 1908
+    },
+    "AC Milan": {
+      "month": 12,
+      "day": 16,
+      "year": 1899
+    },
+    "Juventus": {
+      "month": 11,
+      "day": 1,
+      "year": 1897
+    },
+    "SSC Napoli": {
+      "month": 8,
+      "day": 1,
+      "year": 1926
+    },
+    "AS Roma": {
+      "month": 6,
+      "day": 7,
+      "year": 1927
+    },
+    "Paris Saint-Germain": {
+      "month": 8,
+      "day": 12,
+      "year": 1970
+    },
+    "Olympique Marseille": {
+      "month": 8,
+      "day": 31,
+      "year": 1899
+    }
+  }
+}

@@ -94,6 +94,9 @@ jobs:
           print(f'Global index: {len(teams)} teams')
           "
 
+      - name: Export fan data
+        run: python -m scripts.export_fan_data
+
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short
 
@@ -113,7 +116,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hair-index*.json data/standings-*.json data/teams/
+          git add data/hair-index*.json data/standings-*.json data/fan-data.json data/teams/
           git commit -m "Update Hair Length Index data $(date -u +%Y-%m-%d)"
           git push
 
@@ -124,7 +127,7 @@ jobs:
           mkdir -p _site/data/teams _site/logos
           cp frontend/*.html frontend/*.js frontend/*.css frontend/*.json _site/ 2>/dev/null || true
           cp frontend/logos/*.png _site/logos/ 2>/dev/null || true
-          cp data/hair-index*.json _site/data/
+          cp data/hair-index*.json data/fan-data.json _site/data/
           cp data/standings-*.json _site/data/ 2>/dev/null || true
           cp data/fixtures.json _site/data/ 2>/dev/null || true
           cp data/teams/*.json _site/data/teams/ 2>/dev/null || true
