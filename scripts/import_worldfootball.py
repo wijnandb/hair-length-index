@@ -425,6 +425,7 @@ def run_import(
         season_label = f"{year}-{str(year+1)[-2:]}"
         log.info(f"  {season_label}: {len(matches)} matches parsed, {new} new imported")
 
+    conn.commit()
     action = "Would import" if dry_run else "Imported"
     log.info(f"{action} {total_new} total new matches for {team_name}")
     conn.close()

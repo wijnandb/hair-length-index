@@ -169,6 +169,7 @@ def rebuild(max_seasons: int = 20, min_seasons: int = 5):
         r = import_team_clean(conn, name, wf_id, slug,
                               min_seasons=min_seasons, max_seasons=max_seasons)
         results.append(r)
+        conn.commit()
 
     conn.close()
 

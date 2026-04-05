@@ -204,7 +204,6 @@ def upsert_team(conn, **kwargs) -> int:
             conn.execute(
                 f"UPDATE teams SET {', '.join(updates)} WHERE id = ?", values
             )
-            conn.commit()
         return row["id"]
 
     # Insert new team
@@ -218,7 +217,6 @@ def upsert_team(conn, **kwargs) -> int:
             cursor = conn.execute(
                 f"INSERT INTO teams ({col_str}) VALUES ({placeholders}) RETURNING id", values
             )
-            conn.commit()
             return cursor.fetchone()["id"]
         except Exception:
             conn.rollback()
@@ -233,7 +231,6 @@ def upsert_team(conn, **kwargs) -> int:
         cursor = conn.execute(
             f"INSERT INTO teams ({', '.join(cols)}) VALUES ({placeholders})", values
         )
-        conn.commit()
         return cursor.lastrowid
 
 
@@ -261,13 +258,11 @@ def find_team_by_api_football_id(conn, af_id: int):
 def set_football_data_id(conn, team_id: int, fd_id: int) -> None:
     """Set the football-data.org ID for a team."""
     conn.execute("UPDATE teams SET football_data_id = ? WHERE id = ?", (fd_id, team_id))
-    conn.commit()
 
 
 def set_api_football_id(conn, team_id: int, af_id: int) -> None:
     """Set the API-Football ID for a team."""
     conn.execute("UPDATE teams SET api_football_id = ? WHERE id = ?", (af_id, team_id))
-    conn.commit()
 
 
 def upsert_match(conn, **kwargs) -> int | None:
@@ -284,7 +279,6 @@ def upsert_match(conn, **kwargs) -> int | None:
                 f"ON CONFLICT (date, home_team_id, away_team_id) DO NOTHING "
                 f"RETURNING id", values
             )
-            conn.commit()
             row = cursor.fetchone()
             return row["id"] if row else None
         except Exception:
@@ -296,7 +290,6 @@ def upsert_match(conn, **kwargs) -> int | None:
                 f"INSERT OR IGNORE INTO matches ({', '.join(cols)}) VALUES ({placeholders})",
                 values,
             )
-            conn.commit()
             return cursor.lastrowid if cursor.rowcount > 0 else None
         except sqlite3.IntegrityError:
             return None
@@ -349,4 +342,3 @@ def update_data_source(conn, source: str, competition_id: str,
             f"INSERT INTO data_sources ({', '.join(cols)}) VALUES ({placeholders})",
             values,
         )
-    conn.commit()

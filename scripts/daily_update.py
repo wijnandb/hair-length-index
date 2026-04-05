@@ -191,6 +191,7 @@ def fetch_fd_league(client: FootballDataClient, conn, league: str, season: int) 
     for m in matches:
         if _fd_import_match(conn, m) is not None:
             new += 1
+    conn.commit()
     log.info(f"  {league}: {len(matches)} matches, {new} new")
     return new
 
@@ -380,6 +381,7 @@ def fetch_af_league(client: APIFootballClient, conn, league_code: str, season: i
     for f in fixtures:
         if _af_import_fixture(conn, f) is not None:
             new += 1
+    conn.commit()
     log.info(f"  {league_code}: {len(fixtures)} fixtures, {new} new")
     return new
 
@@ -460,6 +462,7 @@ def run_daily_update(dry_run: bool = False):
                         conn.rollback()
                     except Exception:
                         pass
+        conn.commit()
         log.info(f"[FD] Per-team: skipped {fd_skipped} teams (already seen as opponents)")
     else:
         log.warning("FOOTBALL_DATA_API_KEY not set — skipping football-data.org leagues")
@@ -504,6 +507,7 @@ def run_daily_update(dry_run: bool = False):
                         conn.rollback()
                     except Exception:
                         pass
+        conn.commit()
         log.info(f"[AF] Per-team: skipped {af_skipped} teams (already seen as opponents)")
 
         log.info(f"API-Football requests used: {af_client.requests_used}")

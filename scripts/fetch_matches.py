@@ -325,6 +325,7 @@ def run_full_fetch(league: str = MVP_LEAGUE, seasons_back: int = MAX_SEASONS_BAC
     team_count = conn.execute(
         "SELECT COUNT(*) FROM teams WHERE current_league = ?", (league,)
     ).fetchone()[0]
+    conn.commit()
     log.info(f"Done! {team_count} teams, {total} total matches in database.")
     conn.close()
 
@@ -351,6 +352,7 @@ def run_daily_update(league: str = MVP_LEAGUE) -> None:
             date_from="2025-07-01", date_to="2026-06-30",
         )
 
+    conn.commit()
     log.info(f"Daily update done. {new} new league matches.")
     conn.close()
 
