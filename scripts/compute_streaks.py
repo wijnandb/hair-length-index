@@ -288,6 +288,7 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
         entry = {
             "team": team["name"],
             "team_id": team["id"],
+            "football_data_id": team.get("football_data_id"),
             "slug": slugify(team["name"]),
             "short_name": team["short_name"],
             "crest_url": team["crest_url"],

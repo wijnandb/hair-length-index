@@ -697,6 +697,41 @@ a.team-name:hover {
   margin-left: -2px;
 }
 
+/* === League Position Badge === */
+.position-badge {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 0.2rem;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  text-align: center;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+.position-badge.zone-cl {
+  color: #166534;
+  background: #dcfce7;
+  border-color: #86efac;
+}
+.position-badge.zone-el {
+  color: #1e40af;
+  background: #dbeafe;
+  border-color: #93c5fd;
+}
+.position-badge.zone-rel-playoff {
+  color: #9a3412;
+  background: #fff7ed;
+  border-color: #fdba74;
+}
+.position-badge.zone-rel {
+  color: #991b1b;
+  background: #fef2f2;
+  border-color: #fca5a5;
+}
+
 /* === Load More === */
 .load-more {
   text-align: center;

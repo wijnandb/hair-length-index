@@ -21,6 +21,53 @@ let allTeamsData = null;
 let currentLeague = "DED";
 const TEAMS_DIR = "data/teams";
 let fixturesData = null;
+let standingsData = {};  // keyed by internal league code
+
+// Map internal league codes to standings file names
+// JE is not on football-data.org — no standings available
+const STANDINGS_FILES = {
+  DED: "data/standings-DED.json",
+  PL:  "data/standings-PL.json",
+  BL:  "data/standings-BL.json",
+  SA:  "data/standings-SA.json",
+  LL:  "data/standings-LL.json",
+  L1:  "data/standings-L1.json",
+};
+
+// Zone thresholds per league: [position] → zone class
+// green = CL, blue = EL/ECL, orange = relegation playoff, red = direct relegation
+const ZONE_CONFIG = {
+  DED: { cl: [1], el: [2, 3], relPlayoff: [15, 16], rel: [17, 18] },
+  PL:  { cl: [1, 2, 3, 4], el: [5], relPlayoff: [], rel: [18, 19, 20] },
+  BL:  { cl: [1, 2, 3, 4], el: [5, 6], relPlayoff: [16], rel: [17, 18] },
+  SA:  { cl: [1, 2, 3, 4], el: [5, 6], relPlayoff: [], rel: [18, 19, 20] },
+  LL:  { cl: [1, 2, 3, 4], el: [5, 6], relPlayoff: [], rel: [18, 19, 20] },
+  L1:  { cl: [1, 2, 3], el: [4], relPlayoff: [16], rel: [17, 18] },
+};
+
+function getPositionZone(league, position) {
+  const config = ZONE_CONFIG[league];
+  if (!config || !position) return "";
+  if (config.cl.includes(position)) return "zone-cl";
+  if (config.el.includes(position)) return "zone-el";
+  if (config.relPlayoff.includes(position)) return "zone-rel-playoff";
+  if (config.rel.includes(position)) return "zone-rel";
+  return "";
+}
+
+function getStandingsPosition(team, league) {
+  const standings = standingsData[league];
+  if (!standings || !standings.table) return null;
+  // Match by football_data_id first, then by team name
+  if (team.football_data_id) {
+    const row = standings.table.find(r => r.team_id === team.football_data_id);
+    if (row) return row.position;
+  }
+  // Fallback: name match (loose)
+  const teamLower = team.team.toLowerCase();
+  const row = standings.table.find(r => r.team.toLowerCase() === teamLower);
+  return row ? row.position : null;
+}
 
 const TIER_EMOJI = {
   "Fresh cut": "\u{1F487}",
@@ -274,6 +321,13 @@ function renderTeamCard(team, rank) {
   const daysStr = formatDays(team.days_since);
   const avatar = avatarUrl(team.hair_tier, team.short_name || team.team);
 
+  // League position badge
+  const position = getStandingsPosition(team, currentLeague);
+  const zoneClass = position ? getPositionZone(currentLeague, position) : "";
+  const positionBadge = position
+    ? `<span class="position-badge ${zoneClass}" title="Competitiepositie">#${position}</span>`
+    : "";
+
   let streakDetail = "";
   if (team.streak_found) {
     const endDate = formatDate(team.streak_end_date);
@@ -296,7 +350,7 @@ function renderTeamCard(team, rank) {
   return `
     <div class="team-card-wrapper" data-team-id="${team.team_id}">
       <div class="team-card" onclick="toggleDetail(this)">
-        <div class="rank">${rank}</div>
+        <div class="rank">${rank}${positionBadge}</div>
 
         <div class="avatar">
           <img src="${getLogoUrl(team.team) || avatar}" alt="${escapeHtml(team.team)}" class="avatar-img" loading="lazy"
@@ -397,6 +451,14 @@ async function loadData(league) {
         const fResp = await fetch("data/fixtures.json");
         if (fResp.ok) fixturesData = await fResp.json();
       } catch (e) { /* fixtures optional */ }
+    }
+    // Load standings for current league
+    const standingsFile = STANDINGS_FILES[currentLeague];
+    if (standingsFile && !standingsData[currentLeague]) {
+      try {
+        const sResp = await fetch(standingsFile);
+        if (sResp.ok) standingsData[currentLeague] = await sResp.json();
+      } catch (e) { /* standings optional */ }
     }
     renderIndex(data);
     // Update league selector active state
@@ -658,10 +720,19 @@ async function renderTeamPage(leagueCode, teamSlug) {
   // First load league data to find the team
   const config = LEAGUES[leagueCode];
   if (!config) return;
+  currentLeague = leagueCode;
   try {
     const resp = await fetch(config.file);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
+    // Load standings for this league
+    const standingsFile = STANDINGS_FILES[leagueCode];
+    if (standingsFile && !standingsData[leagueCode]) {
+      try {
+        const sResp = await fetch(standingsFile);
+        if (sResp.ok) standingsData[leagueCode] = await sResp.json();
+      } catch (e) { /* standings optional */ }
+    }
     const team = data.teams.find(t => t.slug === teamSlug);
     if (!team) {
       document.getElementById("index-table").innerHTML = `<div class="error">Team niet gevonden.</div>`;
