@@ -203,9 +203,10 @@ def find_last_streak(
 
 
 def _load_team_names(conn) -> dict[int, str]:
-    """Load all team names into a cache to avoid N+1 queries."""
-    rows = conn.execute("SELECT id, name, short_name FROM teams").fetchall()
-    return {r["id"]: (r["short_name"] or r["name"]) for r in rows}
+    """Load all team names into a cache to avoid N+1 queries.
+    Uses canonical name (not short_name) so logos match via logo-map.json."""
+    rows = conn.execute("SELECT id, name FROM teams").fetchall()
+    return {r["id"]: r["name"] for r in rows}
 
 
 def _build_recent_matches(matches: list, team_id: int, team_names: dict, limit: int = RECENT_MATCHES_LIMIT) -> list[dict]:

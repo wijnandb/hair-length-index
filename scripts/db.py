@@ -186,7 +186,7 @@ def upsert_team(conn, **kwargs) -> int:
     # When updating an existing team found by external ID, skip name/current_league
     # to avoid UNIQUE(name, current_league) conflicts from differing API names.
     update_safe = (
-        "short_name", "country", "crest_url",
+        "country", "crest_url",
         "wf_slug", "wf_id", "football_data_id", "api_football_id",
     )
 
