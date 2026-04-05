@@ -1,11 +1,11 @@
 {
   "team_id": 316,
   "team": "Olympique Marseille",
-  "short_name": null,
+  "short_name": "Marseille",
   "matches": [
     {
       "date": "2026-03-22",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -15,7 +15,7 @@
     },
     {
       "date": "2026-03-13",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -25,7 +25,7 @@
     },
     {
       "date": "2026-03-07",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -35,7 +35,7 @@
     },
     {
       "date": "2026-03-04",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "H",
       "score": "3-4",
       "result": "L",
@@ -45,7 +45,7 @@
     },
     {
       "date": "2026-03-01",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-02-20",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-02-14",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-02-08",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "0-5",
       "result": "L",
@@ -105,6 +105,16 @@
     },
     {
       "date": "2026-01-28",
+      "opponent": "Club Brugge",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-01-28",
       "opponent": "Brugge KV",
       "home_away": "A",
       "score": "0-3",
@@ -125,7 +135,7 @@
     },
     {
       "date": "2026-01-21",
-      "opponent": "Liverpool FC",
+      "opponent": "Liverpool",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -155,7 +165,7 @@
     },
     {
       "date": "2026-01-08",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "1-4",
       "result": "L",
@@ -165,7 +175,7 @@
     },
     {
       "date": "2026-01-04",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -185,13 +195,23 @@
     },
     {
       "date": "2025-12-14",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
       "competition": "Ligue 1 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-09",
+      "opponent": "Union SG",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-12-09",
@@ -205,7 +225,7 @@
     },
     {
       "date": "2025-12-05",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -215,7 +235,7 @@
     },
     {
       "date": "2025-11-29",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -225,7 +245,7 @@
     },
     {
       "date": "2025-11-25",
-      "opponent": "Newcastle United",
+      "opponent": "Newcastle",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -235,7 +255,7 @@
     },
     {
       "date": "2025-11-21",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "5-1",
       "result": "W",
@@ -245,7 +265,7 @@
     },
     {
       "date": "2025-11-08",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -265,7 +285,7 @@
     },
     {
       "date": "2025-11-01",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -295,6 +315,16 @@
     },
     {
       "date": "2025-10-22",
+      "opponent": "Sporting CP",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2025-10-22",
       "opponent": "Sporting",
       "home_away": "A",
       "score": "1-2",
@@ -302,6 +332,16 @@
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-10-18",
+      "opponent": "Le Havre",
+      "home_away": "H",
+      "score": "6-2",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-10-18",
@@ -335,7 +375,7 @@
     },
     {
       "date": "2025-09-26",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -345,7 +385,7 @@
     },
     {
       "date": "2025-09-22",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -365,6 +405,16 @@
     },
     {
       "date": "2025-09-12",
+      "opponent": "Lorient",
+      "home_away": "H",
+      "score": "4-0",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2025-09-12",
       "opponent": "FC Lorient",
       "home_away": "H",
       "score": "4-0",
@@ -375,7 +425,7 @@
     },
     {
       "date": "2025-08-31",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -425,7 +475,7 @@
     },
     {
       "date": "2025-05-04",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -435,7 +485,7 @@
     },
     {
       "date": "2025-04-27",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "4-1",
       "result": "W",
@@ -455,7 +505,7 @@
     },
     {
       "date": "2025-04-12",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -465,7 +515,7 @@
     },
     {
       "date": "2025-04-06",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -485,7 +535,7 @@
     },
     {
       "date": "2025-03-16",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -505,7 +555,7 @@
     },
     {
       "date": "2025-03-02",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -515,7 +565,7 @@
     },
     {
       "date": "2025-02-22",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -545,7 +595,7 @@
     },
     {
       "date": "2025-02-02",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -555,7 +605,7 @@
     },
     {
       "date": "2025-01-26",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -565,7 +615,7 @@
     },
     {
       "date": "2025-01-19",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -575,7 +625,7 @@
     },
     {
       "date": "2025-01-14",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "3-4",
       "result": "L",
@@ -615,7 +665,7 @@
     },
     {
       "date": "2024-12-14",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -635,7 +685,7 @@
     },
     {
       "date": "2024-12-01",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -655,7 +705,7 @@
     },
     {
       "date": "2024-11-08",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -665,7 +715,7 @@
     },
     {
       "date": "2024-11-03",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -675,7 +725,7 @@
     },
     {
       "date": "2024-10-27",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -705,7 +755,7 @@
     },
     {
       "date": "2024-09-29",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -715,7 +765,7 @@
     },
     {
       "date": "2024-09-22",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -725,7 +775,7 @@
     },
     {
       "date": "2024-09-14",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -735,7 +785,7 @@
     },
     {
       "date": "2024-08-31",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -755,7 +805,7 @@
     },
     {
       "date": "2024-08-17",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "A",
       "score": "5-1",
       "result": "W",
@@ -825,7 +875,7 @@
     },
     {
       "date": "2024-04-24",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -835,7 +885,7 @@
     },
     {
       "date": "2024-04-21",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -865,7 +915,7 @@
     },
     {
       "date": "2024-04-05",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -875,7 +925,7 @@
     },
     {
       "date": "2024-03-31",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -895,7 +945,7 @@
     },
     {
       "date": "2024-03-14",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -905,7 +955,7 @@
     },
     {
       "date": "2024-03-10",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -915,7 +965,7 @@
     },
     {
       "date": "2024-03-07",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -955,7 +1005,7 @@
     },
     {
       "date": "2024-02-18",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -985,7 +1035,7 @@
     },
     {
       "date": "2024-02-04",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -995,7 +1045,7 @@
     },
     {
       "date": "2024-01-27",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1015,7 +1065,7 @@
     },
     {
       "date": "2024-01-12",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1055,7 +1105,7 @@
     },
     {
       "date": "2023-12-14",
-      "opponent": "Brighton & Hove Albion",
+      "opponent": "Brighton Hove",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1075,7 +1125,7 @@
     },
     {
       "date": "2023-12-06",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1105,7 +1155,7 @@
     },
     {
       "date": "2023-11-25",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1135,7 +1185,7 @@
     },
     {
       "date": "2023-11-04",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -1155,7 +1205,7 @@
     },
     {
       "date": "2023-10-21",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1175,7 +1225,7 @@
     },
     {
       "date": "2023-10-05",
-      "opponent": "Brighton & Hove Albion",
+      "opponent": "Brighton Hove",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1185,7 +1235,7 @@
     },
     {
       "date": "2023-09-30",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1195,7 +1245,7 @@
     },
     {
       "date": "2023-09-24",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -1215,7 +1265,7 @@
     },
     {
       "date": "2023-09-17",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -1225,7 +1275,7 @@
     },
     {
       "date": "2023-09-01",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1235,7 +1285,7 @@
     },
     {
       "date": "2023-08-26",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1295,7 +1345,7 @@
     },
     {
       "date": "2023-05-27",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1305,7 +1355,7 @@
     },
     {
       "date": "2023-05-20",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1335,7 +1385,7 @@
     },
     {
       "date": "2023-04-30",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1345,7 +1395,7 @@
     },
     {
       "date": "2023-04-23",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1395,7 +1445,7 @@
     },
     {
       "date": "2023-03-12",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1425,7 +1475,7 @@
     },
     {
       "date": "2023-02-26",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -1435,7 +1485,7 @@
     },
     {
       "date": "2023-02-19",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -1455,7 +1505,7 @@
     },
     {
       "date": "2023-02-08",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1465,7 +1515,7 @@
     },
     {
       "date": "2023-02-05",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -1475,7 +1525,7 @@
     },
     {
       "date": "2023-02-01",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1485,7 +1535,7 @@
     },
     {
       "date": "2023-01-28",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1545,7 +1595,7 @@
     },
     {
       "date": "2022-12-29",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "H",
       "score": "6-1",
       "result": "W",
@@ -1555,7 +1605,7 @@
     },
     {
       "date": "2022-11-13",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -1565,7 +1615,7 @@
     },
     {
       "date": "2022-11-06",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1575,7 +1625,7 @@
     },
     {
       "date": "2022-11-01",
-      "opponent": "Tottenham Hotspur",
+      "opponent": "Tottenham",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1585,7 +1635,7 @@
     },
     {
       "date": "2022-10-29",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1595,7 +1645,7 @@
     },
     {
       "date": "2022-10-26",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1615,7 +1665,7 @@
     },
     {
       "date": "2022-10-16",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1675,7 +1725,7 @@
     },
     {
       "date": "2022-09-13",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1685,7 +1735,7 @@
     },
     {
       "date": "2022-09-10",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1695,7 +1745,7 @@
     },
     {
       "date": "2022-09-07",
-      "opponent": "Tottenham Hotspur",
+      "opponent": "Tottenham",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1705,7 +1755,7 @@
     },
     {
       "date": "2022-09-03",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1725,7 +1775,7 @@
     },
     {
       "date": "2022-08-28",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -1735,7 +1785,7 @@
     },
     {
       "date": "2022-08-20",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1745,7 +1795,7 @@
     },
     {
       "date": "2022-08-14",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1765,7 +1815,7 @@
     },
     {
       "date": "2022-05-21",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -1805,7 +1855,7 @@
     },
     {
       "date": "2022-05-01",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -1835,7 +1885,7 @@
     },
     {
       "date": "2022-04-20",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -1845,7 +1895,7 @@
     },
     {
       "date": "2022-04-17",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1895,7 +1945,7 @@
     },
     {
       "date": "2022-03-20",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1915,7 +1965,7 @@
     },
     {
       "date": "2022-03-13",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -1935,7 +1985,7 @@
     },
     {
       "date": "2022-03-06",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1995,7 +2045,7 @@
     },
     {
       "date": "2022-02-09",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "1-4",
       "result": "L",
@@ -2015,7 +2065,7 @@
     },
     {
       "date": "2022-02-01",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2045,7 +2095,7 @@
     },
     {
       "date": "2022-01-16",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2095,7 +2145,7 @@
     },
     {
       "date": "2021-12-12",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2115,7 +2165,7 @@
     },
     {
       "date": "2021-12-04",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2125,7 +2175,7 @@
     },
     {
       "date": "2021-12-01",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2165,7 +2215,7 @@
     },
     {
       "date": "2021-11-04",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -2185,7 +2235,7 @@
     },
     {
       "date": "2021-10-27",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2195,7 +2245,7 @@
     },
     {
       "date": "2021-10-24",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2205,7 +2255,7 @@
     },
     {
       "date": "2021-10-21",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -2225,7 +2275,7 @@
     },
     {
       "date": "2021-10-03",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2285,7 +2335,7 @@
     },
     {
       "date": "2021-09-11",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2355,7 +2405,7 @@
     },
     {
       "date": "2021-04-30",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2405,7 +2455,7 @@
     },
     {
       "date": "2021-03-20",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -2415,7 +2465,7 @@
     },
     {
       "date": "2021-03-13",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2445,7 +2495,7 @@
     },
     {
       "date": "2021-03-03",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2455,7 +2505,7 @@
     },
     {
       "date": "2021-02-28",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2465,7 +2515,7 @@
     },
     {
       "date": "2021-02-20",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2475,7 +2525,7 @@
     },
     {
       "date": "2021-02-17",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -2495,7 +2545,7 @@
     },
     {
       "date": "2021-02-10",
-      "opponent": "AJ Auxerre",
+      "opponent": "Auxerre",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2505,7 +2555,7 @@
     },
     {
       "date": "2021-02-07",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -2525,7 +2575,7 @@
     },
     {
       "date": "2021-01-23",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -2555,7 +2605,7 @@
     },
     {
       "date": "2021-01-13",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2615,7 +2665,7 @@
     },
     {
       "date": "2020-12-12",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2625,7 +2675,7 @@
     },
     {
       "date": "2020-12-09",
-      "opponent": "Manchester City",
+      "opponent": "Man City",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -2655,7 +2705,7 @@
     },
     {
       "date": "2020-11-28",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2675,7 +2725,7 @@
     },
     {
       "date": "2020-11-06",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2695,7 +2745,7 @@
     },
     {
       "date": "2020-10-27",
-      "opponent": "Manchester City",
+      "opponent": "Man City",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -2735,7 +2785,7 @@
     },
     {
       "date": "2020-10-04",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2755,7 +2805,7 @@
     },
     {
       "date": "2020-09-20",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2775,7 +2825,7 @@
     },
     {
       "date": "2020-09-13",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2785,7 +2835,7 @@
     },
     {
       "date": "2020-08-30",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -2815,7 +2865,7 @@
     },
     {
       "date": "2020-02-22",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -2825,7 +2875,7 @@
     },
     {
       "date": "2020-02-16",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2835,7 +2885,7 @@
     },
     {
       "date": "2020-02-12",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -2845,7 +2895,7 @@
     },
     {
       "date": "2020-02-08",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2875,7 +2925,7 @@
     },
     {
       "date": "2020-01-29",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2965,7 +3015,7 @@
     },
     {
       "date": "2019-11-29",
-      "opponent": "Stade Brestois 29",
+      "opponent": "Brest",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2975,7 +3025,7 @@
     },
     {
       "date": "2019-11-24",
-      "opponent": "Toulouse FC",
+      "opponent": "Toulouse",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2985,7 +3035,7 @@
     },
     {
       "date": "2019-11-10",
-      "opponent": "Olympique Lyonnais",
+      "opponent": "Olympique Lyon",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2995,7 +3045,7 @@
     },
     {
       "date": "2019-11-02",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3005,7 +3055,7 @@
     },
     {
       "date": "2019-10-30",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -3015,7 +3065,7 @@
     },
     {
       "date": "2019-10-27",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -3025,7 +3075,7 @@
     },
     {
       "date": "2019-10-20",
-      "opponent": "RC Strasbourg",
+      "opponent": "Strasbourg",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3075,7 +3125,7 @@
     },
     {
       "date": "2019-09-15",
-      "opponent": "AS Monaco",
+      "opponent": "Monaco",
       "home_away": "A",
       "score": "4-3",
       "result": "W",
@@ -3095,7 +3145,7 @@
     },
     {
       "date": "2019-08-28",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -3105,7 +3155,7 @@
     },
     {
       "date": "2019-08-17",
-      "opponent": "FC Nantes",
+      "opponent": "Nantes",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -3125,7 +3175,7 @@
     },
     {
       "date": "2019-01-25",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -3135,7 +3185,7 @@
     },
     {
       "date": "2018-09-30",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -3186,8 +3236,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 30,
-    "end_index": 34,
-    "length": 5
+    "start_index": 33,
+    "end_index": 38,
+    "length": 6
   }
 }

@@ -1,8 +1,18 @@
 {
   "team_id": 274,
   "team": "Atlético Madrid",
-  "short_name": null,
+  "short_name": "Atleti",
   "matches": [
+    {
+      "date": "2026-04-04",
+      "opponent": "Barça",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
     {
       "date": "2026-03-22",
       "opponent": "Real Madrid",
@@ -15,7 +25,7 @@
     },
     {
       "date": "2026-03-18",
-      "opponent": "Tottenham Hotspur",
+      "opponent": "Tottenham",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -25,7 +35,7 @@
     },
     {
       "date": "2026-03-14",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -35,7 +45,7 @@
     },
     {
       "date": "2026-03-10",
-      "opponent": "Tottenham Hotspur",
+      "opponent": "Tottenham",
       "home_away": "H",
       "score": "5-2",
       "result": "W",
@@ -55,7 +65,7 @@
     },
     {
       "date": "2026-03-03",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -69,9 +79,29 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "Real Oviedo",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-24",
+      "opponent": "Club Brugge",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2026-02-24",
@@ -85,13 +115,23 @@
     },
     {
       "date": "2026-02-21",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "H",
       "score": "4-2",
       "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-02-18",
+      "opponent": "Club Brugge",
+      "home_away": "A",
+      "score": "3-3",
+      "result": "D",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2026-02-18",
@@ -115,7 +155,7 @@
     },
     {
       "date": "2026-02-12",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -145,7 +185,7 @@
     },
     {
       "date": "2026-01-31",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -159,13 +199,23 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-01-28",
+      "opponent": "Bodø/Glimt",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
       "date": "2026-01-25",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -179,13 +229,23 @@
       "home_away": "A",
       "score": "1-1",
       "result": "D",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "Galatasaray",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
       "date": "2026-01-18",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -225,7 +285,7 @@
     },
     {
       "date": "2025-12-21",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -245,7 +305,7 @@
     },
     {
       "date": "2025-12-13",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -255,7 +315,7 @@
     },
     {
       "date": "2025-12-09",
-      "opponent": "PSV Eindhoven",
+      "opponent": "PSV",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -265,7 +325,7 @@
     },
     {
       "date": "2025-12-06",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -275,13 +335,23 @@
     },
     {
       "date": "2025-12-02",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-29",
+      "opponent": "Real Oviedo",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-11-29",
@@ -305,7 +375,7 @@
     },
     {
       "date": "2025-11-23",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -315,13 +385,23 @@
     },
     {
       "date": "2025-11-08",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-11-04",
+      "opponent": "Union SG",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-11-04",
@@ -355,7 +435,7 @@
     },
     {
       "date": "2025-10-21",
-      "opponent": "Arsenal FC",
+      "opponent": "Arsenal",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -365,7 +445,7 @@
     },
     {
       "date": "2025-10-18",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -375,7 +455,7 @@
     },
     {
       "date": "2025-10-05",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -385,7 +465,7 @@
     },
     {
       "date": "2025-09-30",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "H",
       "score": "5-1",
       "result": "W",
@@ -415,7 +495,7 @@
     },
     {
       "date": "2025-09-21",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -425,7 +505,7 @@
     },
     {
       "date": "2025-09-17",
-      "opponent": "Liverpool FC",
+      "opponent": "Liverpool",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -435,7 +515,7 @@
     },
     {
       "date": "2025-09-13",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -445,7 +525,7 @@
     },
     {
       "date": "2025-08-30",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -455,7 +535,7 @@
     },
     {
       "date": "2025-08-23",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -465,7 +545,7 @@
     },
     {
       "date": "2025-08-17",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -495,7 +575,7 @@
     },
     {
       "date": "2025-06-15",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -505,7 +585,7 @@
     },
     {
       "date": "2025-05-25",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "A",
       "score": "4-0",
       "result": "W",
@@ -525,7 +605,7 @@
     },
     {
       "date": "2025-05-15",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -545,7 +625,7 @@
     },
     {
       "date": "2025-05-03",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -595,7 +675,7 @@
     },
     {
       "date": "2025-04-02",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -605,7 +685,7 @@
     },
     {
       "date": "2025-03-29",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -615,7 +695,7 @@
     },
     {
       "date": "2025-03-16",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "2-4",
       "result": "L",
@@ -635,7 +715,7 @@
     },
     {
       "date": "2025-03-09",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -655,7 +735,7 @@
     },
     {
       "date": "2025-03-01",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -665,7 +745,7 @@
     },
     {
       "date": "2025-02-25",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "4-4",
       "result": "D",
@@ -675,7 +755,7 @@
     },
     {
       "date": "2025-02-22",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -685,7 +765,7 @@
     },
     {
       "date": "2025-02-15",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -705,7 +785,7 @@
     },
     {
       "date": "2025-02-04",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "5-0",
       "result": "W",
@@ -715,7 +795,7 @@
     },
     {
       "date": "2025-02-01",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -735,7 +815,7 @@
     },
     {
       "date": "2025-01-25",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -745,7 +825,7 @@
     },
     {
       "date": "2025-01-21",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -765,7 +845,7 @@
     },
     {
       "date": "2025-01-15",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "4-0",
       "result": "W",
@@ -775,7 +855,7 @@
     },
     {
       "date": "2025-01-12",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -795,7 +875,7 @@
     },
     {
       "date": "2024-12-21",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -805,7 +885,7 @@
     },
     {
       "date": "2024-12-15",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -865,7 +945,7 @@
     },
     {
       "date": "2024-11-23",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -875,7 +955,7 @@
     },
     {
       "date": "2024-11-10",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -885,7 +965,7 @@
     },
     {
       "date": "2024-11-06",
-      "opponent": "Paris Saint-Germain",
+      "opponent": "PSG",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -925,7 +1005,7 @@
     },
     {
       "date": "2024-10-23",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -975,7 +1055,7 @@
     },
     {
       "date": "2024-09-26",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1005,7 +1085,7 @@
     },
     {
       "date": "2024-09-15",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1015,7 +1095,7 @@
     },
     {
       "date": "2024-08-31",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1025,7 +1105,7 @@
     },
     {
       "date": "2024-08-28",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -1035,7 +1115,7 @@
     },
     {
       "date": "2024-08-25",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1045,7 +1125,7 @@
     },
     {
       "date": "2024-08-19",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1065,7 +1145,7 @@
     },
     {
       "date": "2024-05-19",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "1-4",
       "result": "L",
@@ -1075,7 +1155,7 @@
     },
     {
       "date": "2024-05-15",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -1085,7 +1165,7 @@
     },
     {
       "date": "2024-05-12",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1095,7 +1175,7 @@
     },
     {
       "date": "2024-05-04",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1105,7 +1185,7 @@
     },
     {
       "date": "2024-04-27",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1115,7 +1195,7 @@
     },
     {
       "date": "2024-04-21",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1125,7 +1205,7 @@
     },
     {
       "date": "2024-04-16",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "A",
       "score": "2-4",
       "result": "L",
@@ -1135,7 +1215,7 @@
     },
     {
       "date": "2024-04-13",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1145,7 +1225,7 @@
     },
     {
       "date": "2024-04-10",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1155,7 +1235,7 @@
     },
     {
       "date": "2024-04-01",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1165,7 +1245,7 @@
     },
     {
       "date": "2024-03-17",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -1205,7 +1285,7 @@
     },
     {
       "date": "2024-02-29",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1255,7 +1335,7 @@
     },
     {
       "date": "2024-02-07",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1285,7 +1365,7 @@
     },
     {
       "date": "2024-01-28",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1345,7 +1425,7 @@
     },
     {
       "date": "2024-01-03",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "A",
       "score": "3-4",
       "result": "L",
@@ -1365,7 +1445,7 @@
     },
     {
       "date": "2023-12-19",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -1375,7 +1455,7 @@
     },
     {
       "date": "2023-12-16",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1385,7 +1465,7 @@
     },
     {
       "date": "2023-12-13",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1405,7 +1485,7 @@
     },
     {
       "date": "2023-12-03",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1425,7 +1505,7 @@
     },
     {
       "date": "2023-11-25",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1435,7 +1515,7 @@
     },
     {
       "date": "2023-11-12",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1465,7 +1545,7 @@
     },
     {
       "date": "2023-10-29",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1485,7 +1565,7 @@
     },
     {
       "date": "2023-10-21",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -1525,7 +1605,7 @@
     },
     {
       "date": "2023-09-28",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1545,7 +1625,7 @@
     },
     {
       "date": "2023-09-19",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1555,7 +1635,7 @@
     },
     {
       "date": "2023-09-16",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1595,7 +1675,7 @@
     },
     {
       "date": "2023-06-04",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1615,7 +1695,7 @@
     },
     {
       "date": "2023-05-24",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "A",
       "score": "3-3",
       "result": "D",
@@ -1625,7 +1705,7 @@
     },
     {
       "date": "2023-05-21",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1635,7 +1715,7 @@
     },
     {
       "date": "2023-05-14",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1665,7 +1745,7 @@
     },
     {
       "date": "2023-04-26",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1675,7 +1755,7 @@
     },
     {
       "date": "2023-04-23",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1715,7 +1795,7 @@
     },
     {
       "date": "2023-03-18",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1725,7 +1805,7 @@
     },
     {
       "date": "2023-03-13",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1755,7 +1835,7 @@
     },
     {
       "date": "2023-02-19",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1765,7 +1845,7 @@
     },
     {
       "date": "2023-02-12",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1775,7 +1855,7 @@
     },
     {
       "date": "2023-02-04",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1785,7 +1865,7 @@
     },
     {
       "date": "2023-01-29",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1815,7 +1895,7 @@
     },
     {
       "date": "2023-01-18",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -1835,7 +1915,7 @@
     },
     {
       "date": "2023-01-08",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1855,7 +1935,7 @@
     },
     {
       "date": "2022-12-29",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1885,7 +1965,7 @@
     },
     {
       "date": "2022-11-09",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1895,7 +1975,7 @@
     },
     {
       "date": "2022-11-06",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1925,7 +2005,7 @@
     },
     {
       "date": "2022-10-26",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1955,7 +2035,7 @@
     },
     {
       "date": "2022-10-15",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1975,7 +2055,7 @@
     },
     {
       "date": "2022-10-08",
-      "opponent": "Girona FC",
+      "opponent": "Girona",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2015,7 +2095,7 @@
     },
     {
       "date": "2022-09-13",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2025,7 +2105,7 @@
     },
     {
       "date": "2022-09-10",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "H",
       "score": "4-1",
       "result": "W",
@@ -2055,7 +2135,7 @@
     },
     {
       "date": "2022-08-29",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2065,7 +2145,7 @@
     },
     {
       "date": "2022-08-21",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -2075,7 +2155,7 @@
     },
     {
       "date": "2022-08-15",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -2105,7 +2185,7 @@
     },
     {
       "date": "2022-05-11",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2125,7 +2205,7 @@
     },
     {
       "date": "2022-04-30",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2145,7 +2225,7 @@
     },
     {
       "date": "2022-04-17",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2155,7 +2235,7 @@
     },
     {
       "date": "2022-04-13",
-      "opponent": "Manchester City",
+      "opponent": "Man City",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2165,7 +2245,7 @@
     },
     {
       "date": "2022-04-09",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -2175,7 +2255,7 @@
     },
     {
       "date": "2022-04-05",
-      "opponent": "Manchester City",
+      "opponent": "Man City",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -2185,7 +2265,7 @@
     },
     {
       "date": "2022-04-02",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "H",
       "score": "4-1",
       "result": "W",
@@ -2205,7 +2285,7 @@
     },
     {
       "date": "2022-03-15",
-      "opponent": "Manchester United",
+      "opponent": "Man United",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2235,7 +2315,7 @@
     },
     {
       "date": "2022-02-26",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -2245,7 +2325,7 @@
     },
     {
       "date": "2022-02-23",
-      "opponent": "Manchester United",
+      "opponent": "Man United",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2255,7 +2335,7 @@
     },
     {
       "date": "2022-02-19",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -2265,7 +2345,7 @@
     },
     {
       "date": "2022-02-16",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -2275,7 +2355,7 @@
     },
     {
       "date": "2022-02-12",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "4-3",
       "result": "W",
@@ -2285,7 +2365,7 @@
     },
     {
       "date": "2022-02-06",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "2-4",
       "result": "L",
@@ -2295,7 +2375,7 @@
     },
     {
       "date": "2022-01-22",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -2315,7 +2395,7 @@
     },
     {
       "date": "2022-01-13",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2325,7 +2405,7 @@
     },
     {
       "date": "2022-01-09",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -2395,7 +2475,7 @@
     },
     {
       "date": "2021-12-04",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2415,7 +2495,7 @@
     },
     {
       "date": "2021-11-24",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -2425,7 +2505,7 @@
     },
     {
       "date": "2021-11-20",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2435,7 +2515,7 @@
     },
     {
       "date": "2021-11-07",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "A",
       "score": "3-3",
       "result": "D",
@@ -2445,7 +2525,7 @@
     },
     {
       "date": "2021-11-03",
-      "opponent": "Liverpool FC",
+      "opponent": "Liverpool",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2465,7 +2545,7 @@
     },
     {
       "date": "2021-10-28",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -2485,7 +2565,7 @@
     },
     {
       "date": "2021-10-19",
-      "opponent": "Liverpool FC",
+      "opponent": "Liverpool",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -2495,7 +2575,7 @@
     },
     {
       "date": "2021-10-02",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -2505,7 +2585,7 @@
     },
     {
       "date": "2021-09-28",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2515,7 +2595,7 @@
     },
     {
       "date": "2021-09-25",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -2525,7 +2605,7 @@
     },
     {
       "date": "2021-09-21",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2535,7 +2615,7 @@
     },
     {
       "date": "2021-09-18",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2555,7 +2635,7 @@
     },
     {
       "date": "2021-09-12",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2565,7 +2645,7 @@
     },
     {
       "date": "2021-08-29",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -2575,7 +2655,7 @@
     },
     {
       "date": "2021-08-22",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2585,7 +2665,7 @@
     },
     {
       "date": "2021-08-15",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2605,7 +2685,7 @@
     },
     {
       "date": "2021-05-16",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2625,7 +2705,7 @@
     },
     {
       "date": "2021-05-08",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -2635,7 +2715,7 @@
     },
     {
       "date": "2021-05-01",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2645,7 +2725,7 @@
     },
     {
       "date": "2021-04-25",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2695,7 +2775,7 @@
     },
     {
       "date": "2021-03-21",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2705,7 +2785,7 @@
     },
     {
       "date": "2021-03-17",
-      "opponent": "Chelsea FC",
+      "opponent": "Chelsea",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2715,7 +2795,7 @@
     },
     {
       "date": "2021-03-13",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -2725,7 +2805,7 @@
     },
     {
       "date": "2021-03-10",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2745,7 +2825,7 @@
     },
     {
       "date": "2021-02-28",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2755,7 +2835,7 @@
     },
     {
       "date": "2021-02-23",
-      "opponent": "Chelsea FC",
+      "opponent": "Chelsea",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -2765,7 +2845,7 @@
     },
     {
       "date": "2021-02-20",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -2775,7 +2855,7 @@
     },
     {
       "date": "2021-02-17",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2795,7 +2875,7 @@
     },
     {
       "date": "2021-02-08",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -2815,7 +2895,7 @@
     },
     {
       "date": "2021-01-24",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2855,7 +2935,7 @@
     },
     {
       "date": "2021-01-03",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2865,7 +2945,7 @@
     },
     {
       "date": "2020-12-30",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2885,7 +2965,7 @@
     },
     {
       "date": "2020-12-19",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2935,7 +3015,7 @@
     },
     {
       "date": "2020-12-01",
-      "opponent": "Bayern Munich",
+      "opponent": "Bayern",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2945,7 +3025,7 @@
     },
     {
       "date": "2020-11-28",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -2965,7 +3045,7 @@
     },
     {
       "date": "2020-11-21",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2995,7 +3075,7 @@
     },
     {
       "date": "2020-10-31",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -3025,7 +3105,7 @@
     },
     {
       "date": "2020-10-21",
-      "opponent": "Bayern Munich",
+      "opponent": "Bayern",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -3035,7 +3115,7 @@
     },
     {
       "date": "2020-10-17",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3045,7 +3125,7 @@
     },
     {
       "date": "2020-10-03",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -3095,7 +3175,7 @@
     },
     {
       "date": "2020-07-16",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3115,7 +3195,7 @@
     },
     {
       "date": "2020-07-07",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3125,7 +3205,7 @@
     },
     {
       "date": "2020-07-03",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3135,7 +3215,7 @@
     },
     {
       "date": "2020-06-27",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3145,7 +3225,7 @@
     },
     {
       "date": "2020-06-23",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3165,7 +3245,7 @@
     },
     {
       "date": "2020-06-17",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "5-0",
       "result": "W",
@@ -3175,7 +3255,7 @@
     },
     {
       "date": "2020-06-14",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3185,7 +3265,7 @@
     },
     {
       "date": "2020-03-11",
-      "opponent": "Liverpool FC",
+      "opponent": "Liverpool",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -3205,7 +3285,7 @@
     },
     {
       "date": "2020-03-01",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3215,7 +3295,7 @@
     },
     {
       "date": "2020-02-23",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -3225,7 +3305,7 @@
     },
     {
       "date": "2020-02-18",
-      "opponent": "Liverpool FC",
+      "opponent": "Liverpool",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -3235,7 +3315,7 @@
     },
     {
       "date": "2020-02-14",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -3305,7 +3385,7 @@
     },
     {
       "date": "2020-01-09",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -3315,7 +3395,7 @@
     },
     {
       "date": "2020-01-04",
-      "opponent": "Levante UD",
+      "opponent": "Levante",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3335,7 +3415,7 @@
     },
     {
       "date": "2019-12-14",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3355,7 +3435,7 @@
     },
     {
       "date": "2019-12-06",
-      "opponent": "Villarreal CF",
+      "opponent": "Villarreal",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -3365,7 +3445,7 @@
     },
     {
       "date": "2019-12-01",
-      "opponent": "FC Barcelona",
+      "opponent": "Barça",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -3395,7 +3475,7 @@
     },
     {
       "date": "2019-11-10",
-      "opponent": "RCD Espanyol",
+      "opponent": "Espanyol",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -3405,7 +3485,7 @@
     },
     {
       "date": "2019-11-06",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -3425,7 +3505,7 @@
     },
     {
       "date": "2019-10-29",
-      "opponent": "CD Alavés",
+      "opponent": "Alavés",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3435,7 +3515,7 @@
     },
     {
       "date": "2019-10-26",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3445,7 +3525,7 @@
     },
     {
       "date": "2019-10-22",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -3455,7 +3535,7 @@
     },
     {
       "date": "2019-10-19",
-      "opponent": "Valencia CF",
+      "opponent": "Valencia",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3495,7 +3575,7 @@
     },
     {
       "date": "2019-09-25",
-      "opponent": "RCD Mallorca",
+      "opponent": "Mallorca",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3505,7 +3585,7 @@
     },
     {
       "date": "2019-09-21",
-      "opponent": "Celta de Vigo",
+      "opponent": "Celta",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -3555,7 +3635,7 @@
     },
     {
       "date": "2019-08-18",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -3585,7 +3665,7 @@
     },
     {
       "date": "2019-01-26",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3605,7 +3685,7 @@
     },
     {
       "date": "2018-09-22",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3625,7 +3705,7 @@
     },
     {
       "date": "2018-05-12",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3635,7 +3715,7 @@
     },
     {
       "date": "2018-01-06",
-      "opponent": "Getafe CF",
+      "opponent": "Getafe",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3645,7 +3725,7 @@
     },
     {
       "date": "2017-11-29",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3655,7 +3735,7 @@
     },
     {
       "date": "2017-10-25",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3665,7 +3745,7 @@
     },
     {
       "date": "2017-04-15",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3675,7 +3755,7 @@
     },
     {
       "date": "2016-11-27",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -3685,7 +3765,7 @@
     },
     {
       "date": "2015-04-25",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3695,7 +3775,7 @@
     },
     {
       "date": "2014-12-06",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3705,7 +3785,7 @@
     },
     {
       "date": "2014-04-18",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3715,7 +3795,7 @@
     },
     {
       "date": "2014-02-23",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -3725,7 +3805,7 @@
     },
     {
       "date": "2013-11-30",
-      "opponent": "Elche CF",
+      "opponent": "Elche",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3735,7 +3815,7 @@
     },
     {
       "date": "2013-09-24",
-      "opponent": "CA Osasuna",
+      "opponent": "Osasuna",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3746,8 +3826,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 28,
-    "end_index": 34,
-    "length": 7
+    "start_index": 7,
+    "end_index": 11,
+    "length": 5
   }
 }

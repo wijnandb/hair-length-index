@@ -1,11 +1,11 @@
 {
   "team_id": 266,
   "team": "FC St. Pauli",
-  "short_name": null,
+  "short_name": "St. Pauli",
   "matches": [
     {
       "date": "2026-03-22",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -15,7 +15,7 @@
     },
     {
       "date": "2026-03-13",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -25,7 +25,7 @@
     },
     {
       "date": "2026-03-08",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -35,7 +35,7 @@
     },
     {
       "date": "2026-02-28",
-      "opponent": "1899 Hoffenheim",
+      "opponent": "Hoffenheim",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -45,7 +45,7 @@
     },
     {
       "date": "2026-02-22",
-      "opponent": "Werder Bremen",
+      "opponent": "Bremen",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-02-14",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-02-07",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-02-03",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -85,7 +85,7 @@
     },
     {
       "date": "2026-01-31",
-      "opponent": "FC Augsburg",
+      "opponent": "Augsburg",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -105,6 +105,16 @@
     },
     {
       "date": "2026-01-23",
+      "opponent": "HSV",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-01-23",
       "opponent": "Hamburger SV",
       "home_away": "H",
       "score": "0-0",
@@ -115,7 +125,7 @@
     },
     {
       "date": "2026-01-17",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -125,7 +135,7 @@
     },
     {
       "date": "2026-01-14",
-      "opponent": "VfL Wolfsburg",
+      "opponent": "Wolfsburg",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -135,13 +145,23 @@
     },
     {
       "date": "2025-12-21",
-      "opponent": "1. FSV Mainz 05",
+      "opponent": "Mainz",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "Heidenheim",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-12-13",
@@ -165,7 +185,7 @@
     },
     {
       "date": "2025-12-02",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -175,7 +195,7 @@
     },
     {
       "date": "2025-11-29",
-      "opponent": "Bayern Munich",
+      "opponent": "Bayern",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -185,7 +205,17 @@
     },
     {
       "date": "2025-11-23",
-      "opponent": "1. FC Union Berlin",
+      "opponent": "Union Berlin",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2025-11-23",
+      "opponent": "HSV",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -195,7 +225,7 @@
     },
     {
       "date": "2025-11-09",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -205,7 +235,7 @@
     },
     {
       "date": "2025-11-01",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "H",
       "score": "0-4",
       "result": "L",
@@ -215,7 +245,7 @@
     },
     {
       "date": "2025-10-28",
-      "opponent": "1899 Hoffenheim",
+      "opponent": "Hoffenheim",
       "home_away": "H",
       "score": "8-7",
       "result": "W",
@@ -225,7 +255,7 @@
     },
     {
       "date": "2025-10-25",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -235,7 +265,7 @@
     },
     {
       "date": "2025-10-19",
-      "opponent": "1899 Hoffenheim",
+      "opponent": "Hoffenheim",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -245,7 +275,7 @@
     },
     {
       "date": "2025-10-04",
-      "opponent": "Werder Bremen",
+      "opponent": "Bremen",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -255,7 +285,7 @@
     },
     {
       "date": "2025-09-27",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -265,7 +295,7 @@
     },
     {
       "date": "2025-09-19",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -275,13 +305,23 @@
     },
     {
       "date": "2025-09-14",
-      "opponent": "FC Augsburg",
+      "opponent": "Augsburg",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-29",
+      "opponent": "HSV",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-08-29",
@@ -295,7 +335,7 @@
     },
     {
       "date": "2025-08-23",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -325,7 +365,7 @@
     },
     {
       "date": "2025-05-11",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -335,7 +375,7 @@
     },
     {
       "date": "2025-05-03",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -345,7 +385,7 @@
     },
     {
       "date": "2025-04-27",
-      "opponent": "Werder Bremen",
+      "opponent": "Bremen",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -355,7 +395,7 @@
     },
     {
       "date": "2025-04-20",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -375,7 +415,7 @@
     },
     {
       "date": "2025-04-06",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -385,7 +425,7 @@
     },
     {
       "date": "2025-03-29",
-      "opponent": "Bayern Munich",
+      "opponent": "Bayern",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -395,7 +435,7 @@
     },
     {
       "date": "2025-03-14",
-      "opponent": "1899 Hoffenheim",
+      "opponent": "Hoffenheim",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -405,7 +445,7 @@
     },
     {
       "date": "2025-03-08",
-      "opponent": "VfL Wolfsburg",
+      "opponent": "Wolfsburg",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -415,7 +455,7 @@
     },
     {
       "date": "2025-03-01",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -425,7 +465,7 @@
     },
     {
       "date": "2025-02-22",
-      "opponent": "1. FSV Mainz 05",
+      "opponent": "Mainz",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -435,7 +475,7 @@
     },
     {
       "date": "2025-02-15",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -455,7 +495,7 @@
     },
     {
       "date": "2025-02-01",
-      "opponent": "FC Augsburg",
+      "opponent": "Augsburg",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -465,7 +505,7 @@
     },
     {
       "date": "2025-01-26",
-      "opponent": "1. FC Union Berlin",
+      "opponent": "HSV",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -495,7 +535,7 @@
     },
     {
       "date": "2025-01-11",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -505,7 +545,7 @@
     },
     {
       "date": "2024-12-21",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -515,7 +555,7 @@
     },
     {
       "date": "2024-12-14",
-      "opponent": "Werder Bremen",
+      "opponent": "Bremen",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -525,7 +565,7 @@
     },
     {
       "date": "2024-12-07",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -545,7 +585,7 @@
     },
     {
       "date": "2024-11-24",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -555,7 +595,7 @@
     },
     {
       "date": "2024-11-09",
-      "opponent": "Bayern Munich",
+      "opponent": "Bayern",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -565,7 +605,7 @@
     },
     {
       "date": "2024-11-02",
-      "opponent": "1899 Hoffenheim",
+      "opponent": "Hoffenheim",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -585,7 +625,7 @@
     },
     {
       "date": "2024-10-26",
-      "opponent": "VfL Wolfsburg",
+      "opponent": "Wolfsburg",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -595,7 +635,7 @@
     },
     {
       "date": "2024-10-18",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -605,7 +645,7 @@
     },
     {
       "date": "2024-10-05",
-      "opponent": "1. FSV Mainz 05",
+      "opponent": "Mainz",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -615,7 +655,7 @@
     },
     {
       "date": "2024-09-28",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -635,7 +675,7 @@
     },
     {
       "date": "2024-09-15",
-      "opponent": "FC Augsburg",
+      "opponent": "Augsburg",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -645,7 +685,7 @@
     },
     {
       "date": "2024-08-30",
-      "opponent": "1. FC Union Berlin",
+      "opponent": "HSV",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1275,7 +1315,7 @@
     },
     {
       "date": "2022-10-19",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1465,7 +1505,7 @@
     },
     {
       "date": "2022-04-09",
-      "opponent": "Werder Bremen",
+      "opponent": "Bremen",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1515,7 +1555,7 @@
     },
     {
       "date": "2022-03-01",
-      "opponent": "1. FC Union Berlin",
+      "opponent": "HSV",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1575,7 +1615,7 @@
     },
     {
       "date": "2022-01-18",
-      "opponent": "Borussia Dortmund",
+      "opponent": "Dortmund",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1655,7 +1695,7 @@
     },
     {
       "date": "2021-10-30",
-      "opponent": "Werder Bremen",
+      "opponent": "Bremen",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2285,7 +2325,7 @@
     },
     {
       "date": "2020-02-01",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2375,7 +2415,7 @@
     },
     {
       "date": "2019-10-30",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2465,7 +2505,7 @@
     },
     {
       "date": "2019-08-17",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2505,7 +2545,7 @@
     },
     {
       "date": "2016-04-10",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "A",
       "score": "3-4",
       "result": "L",
@@ -2515,7 +2555,7 @@
     },
     {
       "date": "2015-10-25",
-      "opponent": "SC Freiburg",
+      "opponent": "Freiburg",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2525,7 +2565,7 @@
     },
     {
       "date": "2015-08-10",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "H",
       "score": "1-4",
       "result": "L",
@@ -2536,8 +2576,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 112,
-    "end_index": 121,
+    "start_index": 116,
+    "end_index": 125,
     "length": 10
   }
 }

@@ -1,8 +1,18 @@
 {
   "team_id": 72,
   "team": "AS Roma",
-  "short_name": null,
+  "short_name": "Roma",
   "matches": [
+    {
+      "date": "2026-03-22",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
     {
       "date": "2026-03-22",
       "opponent": "US Lecce",
@@ -15,7 +25,7 @@
     },
     {
       "date": "2026-03-19",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "3-4",
       "result": "L",
@@ -29,13 +39,23 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "Lecce",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
       "date": "2026-03-12",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -45,7 +65,7 @@
     },
     {
       "date": "2026-03-08",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -65,6 +85,16 @@
     },
     {
       "date": "2026-02-22",
+      "opponent": "Cremonese",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2026-02-22",
       "opponent": "US Cremonese",
       "home_away": "H",
       "score": "3-0",
@@ -75,7 +105,7 @@
     },
     {
       "date": "2026-02-15",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -85,7 +115,7 @@
     },
     {
       "date": "2026-02-09",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -95,7 +125,7 @@
     },
     {
       "date": "2026-02-02",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -115,7 +145,7 @@
     },
     {
       "date": "2026-01-25",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -125,7 +155,7 @@
     },
     {
       "date": "2026-01-22",
-      "opponent": "VfB Stuttgart",
+      "opponent": "Stuttgart",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -135,7 +165,7 @@
     },
     {
       "date": "2026-01-18",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -145,7 +175,7 @@
     },
     {
       "date": "2026-01-13",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -155,13 +185,23 @@
     },
     {
       "date": "2026-01-10",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Lecce",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2026-01-06",
@@ -185,7 +225,7 @@
     },
     {
       "date": "2025-12-29",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -209,6 +249,16 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2025-12-15",
+      "opponent": "Lecce",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -225,7 +275,7 @@
     },
     {
       "date": "2025-12-07",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -235,7 +285,7 @@
     },
     {
       "date": "2025-11-30",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -255,6 +305,16 @@
     },
     {
       "date": "2025-11-23",
+      "opponent": "Cremonese",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
+      "date": "2025-11-23",
       "opponent": "US Cremonese",
       "home_away": "A",
       "score": "3-1",
@@ -265,7 +325,7 @@
     },
     {
       "date": "2025-11-09",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -285,7 +345,7 @@
     },
     {
       "date": "2025-11-02",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -295,7 +355,7 @@
     },
     {
       "date": "2025-10-29",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -305,7 +365,7 @@
     },
     {
       "date": "2025-10-26",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -335,7 +395,7 @@
     },
     {
       "date": "2025-10-05",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -345,7 +405,7 @@
     },
     {
       "date": "2025-10-02",
-      "opponent": "Lille OSC",
+      "opponent": "Lille",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -355,7 +415,7 @@
     },
     {
       "date": "2025-09-28",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -365,7 +425,7 @@
     },
     {
       "date": "2025-09-24",
-      "opponent": "OGC Nice",
+      "opponent": "Nice",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -375,7 +435,7 @@
     },
     {
       "date": "2025-09-21",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -385,13 +445,23 @@
     },
     {
       "date": "2025-09-14",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
       "competition": "Serie A 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
+    },
+    {
+      "date": "2025-08-30",
+      "opponent": "AC Pisa",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
     },
     {
       "date": "2025-08-30",
@@ -405,7 +475,7 @@
     },
     {
       "date": "2025-08-23",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -415,7 +485,7 @@
     },
     {
       "date": "2025-05-25",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -425,7 +495,7 @@
     },
     {
       "date": "2025-05-18",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -445,7 +515,7 @@
     },
     {
       "date": "2025-05-04",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -465,7 +535,7 @@
     },
     {
       "date": "2025-04-19",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -475,7 +545,7 @@
     },
     {
       "date": "2025-04-13",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -505,7 +575,7 @@
     },
     {
       "date": "2025-03-16",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -515,7 +585,7 @@
     },
     {
       "date": "2025-03-13",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -535,7 +605,7 @@
     },
     {
       "date": "2025-03-06",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -545,7 +615,7 @@
     },
     {
       "date": "2025-03-02",
-      "opponent": "Como 1907",
+      "opponent": "Lecce",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -575,7 +645,7 @@
     },
     {
       "date": "2025-02-16",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -605,7 +675,7 @@
     },
     {
       "date": "2025-02-05",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -615,7 +685,7 @@
     },
     {
       "date": "2025-02-02",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -625,7 +695,7 @@
     },
     {
       "date": "2025-01-30",
-      "opponent": "Eintracht Frankfurt",
+      "opponent": "Frankfurt",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -635,7 +705,7 @@
     },
     {
       "date": "2025-01-26",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -645,7 +715,7 @@
     },
     {
       "date": "2025-01-23",
-      "opponent": "AZ Alkmaar",
+      "opponent": "AZ",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -655,7 +725,7 @@
     },
     {
       "date": "2025-01-17",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -665,7 +735,7 @@
     },
     {
       "date": "2025-01-12",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -675,7 +745,7 @@
     },
     {
       "date": "2025-01-05",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -685,7 +755,7 @@
     },
     {
       "date": "2024-12-29",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -695,7 +765,7 @@
     },
     {
       "date": "2024-12-22",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "H",
       "score": "5-0",
       "result": "W",
@@ -715,7 +785,7 @@
     },
     {
       "date": "2024-12-15",
-      "opponent": "Como 1907",
+      "opponent": "Lecce",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -755,7 +825,7 @@
     },
     {
       "date": "2024-11-28",
-      "opponent": "Tottenham Hotspur",
+      "opponent": "Tottenham",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -765,7 +835,7 @@
     },
     {
       "date": "2024-11-24",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -775,7 +845,7 @@
     },
     {
       "date": "2024-11-10",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -795,7 +865,7 @@
     },
     {
       "date": "2024-11-03",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -805,7 +875,7 @@
     },
     {
       "date": "2024-10-31",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -815,7 +885,7 @@
     },
     {
       "date": "2024-10-27",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "1-5",
       "result": "L",
@@ -875,7 +945,7 @@
     },
     {
       "date": "2024-09-26",
-      "opponent": "Athletic Club",
+      "opponent": "Athletic",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -885,7 +955,7 @@
     },
     {
       "date": "2024-09-22",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -895,7 +965,7 @@
     },
     {
       "date": "2024-09-15",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -925,7 +995,7 @@
     },
     {
       "date": "2024-08-18",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -945,7 +1015,7 @@
     },
     {
       "date": "2024-05-19",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -965,7 +1035,7 @@
     },
     {
       "date": "2024-05-09",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -985,7 +1055,7 @@
     },
     {
       "date": "2024-05-02",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -995,7 +1065,7 @@
     },
     {
       "date": "2024-04-28",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1005,7 +1075,7 @@
     },
     {
       "date": "2024-04-25",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1015,7 +1085,7 @@
     },
     {
       "date": "2024-04-22",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -1025,7 +1095,7 @@
     },
     {
       "date": "2024-04-18",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1035,7 +1105,7 @@
     },
     {
       "date": "2024-04-11",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1045,7 +1115,7 @@
     },
     {
       "date": "2024-04-06",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1065,7 +1135,7 @@
     },
     {
       "date": "2024-03-17",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1075,7 +1145,7 @@
     },
     {
       "date": "2024-03-14",
-      "opponent": "Brighton & Hove Albion",
+      "opponent": "Brighton Hove",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1085,7 +1155,7 @@
     },
     {
       "date": "2024-03-10",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1095,7 +1165,7 @@
     },
     {
       "date": "2024-03-07",
-      "opponent": "Brighton & Hove Albion",
+      "opponent": "Brighton Hove",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -1115,7 +1185,7 @@
     },
     {
       "date": "2024-02-26",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -1165,7 +1235,7 @@
     },
     {
       "date": "2024-02-05",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -1185,7 +1255,7 @@
     },
     {
       "date": "2024-01-20",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1195,7 +1265,7 @@
     },
     {
       "date": "2024-01-14",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -1205,7 +1275,7 @@
     },
     {
       "date": "2024-01-10",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1245,7 +1315,7 @@
     },
     {
       "date": "2023-12-23",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1255,7 +1325,7 @@
     },
     {
       "date": "2023-12-17",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1275,7 +1345,7 @@
     },
     {
       "date": "2023-12-10",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1285,7 +1355,7 @@
     },
     {
       "date": "2023-12-03",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -1305,7 +1375,7 @@
     },
     {
       "date": "2023-11-26",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1315,7 +1385,7 @@
     },
     {
       "date": "2023-11-12",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1375,7 +1445,7 @@
     },
     {
       "date": "2023-10-08",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -1405,7 +1475,7 @@
     },
     {
       "date": "2023-09-28",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-4",
       "result": "L",
@@ -1415,7 +1485,7 @@
     },
     {
       "date": "2023-09-24",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1445,7 +1515,7 @@
     },
     {
       "date": "2023-09-01",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1455,7 +1525,7 @@
     },
     {
       "date": "2023-08-26",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1495,7 +1565,7 @@
     },
     {
       "date": "2023-05-27",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1515,7 +1585,7 @@
     },
     {
       "date": "2023-05-18",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1525,7 +1595,7 @@
     },
     {
       "date": "2023-05-14",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1535,7 +1605,7 @@
     },
     {
       "date": "2023-05-11",
-      "opponent": "Bayer Leverkusen",
+      "opponent": "Leverkusen",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1565,7 +1635,7 @@
     },
     {
       "date": "2023-04-29",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1595,7 +1665,7 @@
     },
     {
       "date": "2023-04-16",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1615,7 +1685,7 @@
     },
     {
       "date": "2023-04-08",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1635,7 +1705,7 @@
     },
     {
       "date": "2023-03-19",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1655,7 +1725,7 @@
     },
     {
       "date": "2023-03-12",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "3-4",
       "result": "L",
@@ -1705,7 +1775,7 @@
     },
     {
       "date": "2023-02-19",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1755,7 +1825,7 @@
     },
     {
       "date": "2023-01-29",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1775,7 +1845,7 @@
     },
     {
       "date": "2023-01-15",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1785,7 +1855,7 @@
     },
     {
       "date": "2023-01-12",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1795,7 +1865,7 @@
     },
     {
       "date": "2023-01-08",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1805,7 +1875,7 @@
     },
     {
       "date": "2023-01-04",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1815,7 +1885,7 @@
     },
     {
       "date": "2022-11-13",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1825,7 +1895,7 @@
     },
     {
       "date": "2022-11-09",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1835,7 +1905,7 @@
     },
     {
       "date": "2022-11-06",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1855,7 +1925,7 @@
     },
     {
       "date": "2022-10-31",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -1875,7 +1945,7 @@
     },
     {
       "date": "2022-10-23",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1975,7 +2045,7 @@
     },
     {
       "date": "2022-09-04",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -2035,7 +2105,7 @@
     },
     {
       "date": "2022-05-20",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -2055,7 +2125,7 @@
     },
     {
       "date": "2022-05-09",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2075,7 +2145,7 @@
     },
     {
       "date": "2022-05-01",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2105,7 +2175,7 @@
     },
     {
       "date": "2022-04-18",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2155,7 +2225,7 @@
     },
     {
       "date": "2022-03-20",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -2175,7 +2245,7 @@
     },
     {
       "date": "2022-03-13",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2215,7 +2285,7 @@
     },
     {
       "date": "2022-02-19",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -2225,7 +2295,7 @@
     },
     {
       "date": "2022-02-13",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -2245,7 +2315,7 @@
     },
     {
       "date": "2022-02-05",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2275,7 +2345,7 @@
     },
     {
       "date": "2022-01-16",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2295,7 +2365,7 @@
     },
     {
       "date": "2022-01-06",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -2355,7 +2425,7 @@
     },
     {
       "date": "2021-12-01",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -2365,7 +2435,7 @@
     },
     {
       "date": "2021-11-28",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2385,7 +2455,7 @@
     },
     {
       "date": "2021-11-21",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -2415,7 +2485,7 @@
     },
     {
       "date": "2021-10-31",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2425,7 +2495,7 @@
     },
     {
       "date": "2021-10-27",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2435,7 +2505,7 @@
     },
     {
       "date": "2021-10-24",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2485,7 +2555,7 @@
     },
     {
       "date": "2021-09-26",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -2495,7 +2565,7 @@
     },
     {
       "date": "2021-09-23",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2505,7 +2575,7 @@
     },
     {
       "date": "2021-09-19",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -2525,7 +2595,7 @@
     },
     {
       "date": "2021-09-12",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -2555,7 +2625,7 @@
     },
     {
       "date": "2021-08-22",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2585,7 +2655,7 @@
     },
     {
       "date": "2021-05-15",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -2615,7 +2685,7 @@
     },
     {
       "date": "2021-05-06",
-      "opponent": "Manchester United",
+      "opponent": "Man United",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -2635,7 +2705,7 @@
     },
     {
       "date": "2021-04-29",
-      "opponent": "Manchester United",
+      "opponent": "Man United",
       "home_away": "A",
       "score": "2-6",
       "result": "L",
@@ -2645,7 +2715,7 @@
     },
     {
       "date": "2021-04-25",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -2665,7 +2735,7 @@
     },
     {
       "date": "2021-04-18",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -2685,7 +2755,7 @@
     },
     {
       "date": "2021-04-11",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2705,7 +2775,7 @@
     },
     {
       "date": "2021-04-03",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -2715,7 +2785,7 @@
     },
     {
       "date": "2021-03-21",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -2735,7 +2805,7 @@
     },
     {
       "date": "2021-03-14",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2755,7 +2825,7 @@
     },
     {
       "date": "2021-03-07",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2765,7 +2835,7 @@
     },
     {
       "date": "2021-03-03",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2775,7 +2845,7 @@
     },
     {
       "date": "2021-02-28",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2815,7 +2885,7 @@
     },
     {
       "date": "2021-02-14",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -2835,7 +2905,7 @@
     },
     {
       "date": "2021-01-31",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2865,7 +2935,7 @@
     },
     {
       "date": "2021-01-15",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -2905,7 +2975,7 @@
     },
     {
       "date": "2020-12-23",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -2925,7 +2995,7 @@
     },
     {
       "date": "2020-12-17",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -2935,7 +3005,7 @@
     },
     {
       "date": "2020-12-13",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "5-1",
       "result": "W",
@@ -2955,7 +3025,7 @@
     },
     {
       "date": "2020-12-06",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2975,7 +3045,7 @@
     },
     {
       "date": "2020-11-29",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -2995,7 +3065,7 @@
     },
     {
       "date": "2020-11-22",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3005,7 +3075,7 @@
     },
     {
       "date": "2020-11-08",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -3025,7 +3095,7 @@
     },
     {
       "date": "2020-11-01",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3045,7 +3115,7 @@
     },
     {
       "date": "2020-10-26",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "3-3",
       "result": "D",
@@ -3075,7 +3145,7 @@
     },
     {
       "date": "2020-10-03",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3095,7 +3165,7 @@
     },
     {
       "date": "2020-09-19",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -3125,7 +3195,7 @@
     },
     {
       "date": "2020-07-29",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -3135,7 +3205,7 @@
     },
     {
       "date": "2020-07-26",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3165,7 +3235,7 @@
     },
     {
       "date": "2020-07-15",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3185,7 +3255,7 @@
     },
     {
       "date": "2020-07-08",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3195,7 +3265,7 @@
     },
     {
       "date": "2020-07-05",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -3205,7 +3275,7 @@
     },
     {
       "date": "2020-07-02",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -3215,7 +3285,7 @@
     },
     {
       "date": "2020-06-28",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -3235,7 +3305,7 @@
     },
     {
       "date": "2020-03-01",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "A",
       "score": "4-3",
       "result": "W",
@@ -3285,7 +3355,7 @@
     },
     {
       "date": "2020-02-07",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -3295,7 +3365,7 @@
     },
     {
       "date": "2020-02-01",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "2-4",
       "result": "L",
@@ -3305,7 +3375,7 @@
     },
     {
       "date": "2020-01-26",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3325,7 +3395,7 @@
     },
     {
       "date": "2020-01-19",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -3335,7 +3405,7 @@
     },
     {
       "date": "2020-01-16",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3355,7 +3425,7 @@
     },
     {
       "date": "2020-01-05",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -3365,7 +3435,7 @@
     },
     {
       "date": "2019-12-20",
-      "opponent": "ACF Fiorentina",
+      "opponent": "Fiorentina",
       "home_away": "A",
       "score": "4-1",
       "result": "W",
@@ -3405,7 +3475,7 @@
     },
     {
       "date": "2019-12-01",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -3435,7 +3505,7 @@
     },
     {
       "date": "2019-11-10",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -3445,7 +3515,7 @@
     },
     {
       "date": "2019-11-07",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -3455,7 +3525,7 @@
     },
     {
       "date": "2019-11-02",
-      "opponent": "SSC Napoli",
+      "opponent": "Napoli",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3465,7 +3535,7 @@
     },
     {
       "date": "2019-10-30",
-      "opponent": "Udinese Calcio",
+      "opponent": "Udinese",
       "home_away": "A",
       "score": "4-0",
       "result": "W",
@@ -3475,7 +3545,7 @@
     },
     {
       "date": "2019-10-27",
-      "opponent": "AC Milan",
+      "opponent": "Milan",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3485,7 +3555,7 @@
     },
     {
       "date": "2019-10-24",
-      "opponent": "Bor. Mönchengladbach",
+      "opponent": "M'gladbach",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3505,7 +3575,7 @@
     },
     {
       "date": "2019-10-06",
-      "opponent": "Cagliari Calcio",
+      "opponent": "Cagliari",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3545,7 +3615,7 @@
     },
     {
       "date": "2019-09-22",
-      "opponent": "Bologna FC",
+      "opponent": "Bologna",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -3565,7 +3635,7 @@
     },
     {
       "date": "2019-09-15",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "4-2",
       "result": "W",
@@ -3575,7 +3645,7 @@
     },
     {
       "date": "2019-09-01",
-      "opponent": "Lazio Roma",
+      "opponent": "Lazio",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3585,7 +3655,7 @@
     },
     {
       "date": "2019-08-25",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -3595,7 +3665,7 @@
     },
     {
       "date": "2019-05-26",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3605,7 +3675,7 @@
     },
     {
       "date": "2019-05-18",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -3615,7 +3685,7 @@
     },
     {
       "date": "2019-05-05",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3625,7 +3695,7 @@
     },
     {
       "date": "2019-01-19",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -3635,7 +3705,7 @@
     },
     {
       "date": "2018-12-29",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3645,7 +3715,7 @@
     },
     {
       "date": "2018-12-26",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -3655,7 +3725,7 @@
     },
     {
       "date": "2018-12-16",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -3665,7 +3735,7 @@
     },
     {
       "date": "2018-08-19",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3675,7 +3745,7 @@
     },
     {
       "date": "2018-05-20",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3685,7 +3755,7 @@
     },
     {
       "date": "2018-04-18",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3695,7 +3765,7 @@
     },
     {
       "date": "2018-03-09",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3705,7 +3775,7 @@
     },
     {
       "date": "2018-02-04",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3715,7 +3785,7 @@
     },
     {
       "date": "2017-12-30",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3725,7 +3795,7 @@
     },
     {
       "date": "2017-12-20",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -3735,7 +3805,7 @@
     },
     {
       "date": "2017-11-26",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3745,7 +3815,7 @@
     },
     {
       "date": "2017-10-22",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3755,7 +3825,7 @@
     },
     {
       "date": "2017-09-16",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3765,7 +3835,7 @@
     },
     {
       "date": "2017-05-28",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -3775,7 +3845,7 @@
     },
     {
       "date": "2017-03-19",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -3785,7 +3855,7 @@
     },
     {
       "date": "2017-01-08",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3795,7 +3865,7 @@
     },
     {
       "date": "2016-10-26",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -3805,7 +3875,7 @@
     },
     {
       "date": "2016-05-02",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -3815,7 +3885,7 @@
     },
     {
       "date": "2016-04-20",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -3825,7 +3895,7 @@
     },
     {
       "date": "2016-02-02",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3835,7 +3905,7 @@
     },
     {
       "date": "2016-01-17",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -3845,7 +3915,7 @@
     },
     {
       "date": "2015-12-20",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3855,7 +3925,7 @@
     },
     {
       "date": "2015-12-05",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3865,7 +3935,7 @@
     },
     {
       "date": "2015-09-20",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -3875,7 +3945,7 @@
     },
     {
       "date": "2015-08-22",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3885,7 +3955,7 @@
     },
     {
       "date": "2015-05-03",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3895,7 +3965,7 @@
     },
     {
       "date": "2015-04-29",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -3915,7 +3985,7 @@
     },
     {
       "date": "2015-04-12",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3925,7 +3995,7 @@
     },
     {
       "date": "2015-02-22",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -3935,7 +4005,7 @@
     },
     {
       "date": "2015-02-15",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -3945,7 +4015,7 @@
     },
     {
       "date": "2014-12-14",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3955,7 +4025,7 @@
     },
     {
       "date": "2014-12-06",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -3975,7 +4045,7 @@
     },
     {
       "date": "2014-11-09",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -3985,7 +4055,7 @@
     },
     {
       "date": "2014-09-27",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3995,7 +4065,7 @@
     },
     {
       "date": "2014-09-24",
-      "opponent": "Parma Calcio 1913",
+      "opponent": "Parma",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -4005,7 +4075,7 @@
     },
     {
       "date": "2014-05-18",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -4015,7 +4085,7 @@
     },
     {
       "date": "2014-03-30",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -4025,7 +4095,7 @@
     },
     {
       "date": "2014-03-25",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -4045,7 +4115,7 @@
     },
     {
       "date": "2014-01-26",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -4055,7 +4125,7 @@
     },
     {
       "date": "2014-01-12",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -4065,7 +4135,7 @@
     },
     {
       "date": "2013-11-10",
-      "opponent": "Sassuolo Calcio",
+      "opponent": "Sassuolo",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -4075,7 +4145,7 @@
     },
     {
       "date": "2013-11-03",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -4095,7 +4165,7 @@
     },
     {
       "date": "2013-09-01",
-      "opponent": "Hellas Verona",
+      "opponent": "Verona",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -4115,7 +4185,7 @@
     },
     {
       "date": "2013-04-14",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -4125,7 +4195,7 @@
     },
     {
       "date": "2013-03-03",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -4155,7 +4225,7 @@
     },
     {
       "date": "2012-11-19",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -4165,7 +4235,7 @@
     },
     {
       "date": "2012-10-21",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "4-2",
       "result": "W",
@@ -4185,7 +4255,7 @@
     },
     {
       "date": "2012-03-19",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -4195,7 +4265,7 @@
     },
     {
       "date": "2011-10-26",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -4205,7 +4275,7 @@
     },
     {
       "date": "2011-02-20",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "3-4",
       "result": "L",
@@ -4215,7 +4285,7 @@
     },
     {
       "date": "2010-10-16",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -4225,7 +4295,7 @@
     },
     {
       "date": "2010-01-17",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -4235,7 +4305,7 @@
     },
     {
       "date": "2009-08-23",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -4245,7 +4315,7 @@
     },
     {
       "date": "2009-05-31",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -4255,7 +4325,7 @@
     },
     {
       "date": "2009-02-08",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -4265,7 +4335,7 @@
     },
     {
       "date": "2009-01-18",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -4275,7 +4345,7 @@
     },
     {
       "date": "2008-09-24",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -4285,7 +4355,7 @@
     },
     {
       "date": "2008-04-27",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "4-1",
       "result": "W",
@@ -4295,7 +4365,7 @@
     },
     {
       "date": "2008-04-05",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -4305,7 +4375,7 @@
     },
     {
       "date": "2008-01-16",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "4-0",
       "result": "W",
@@ -4315,7 +4385,7 @@
     },
     {
       "date": "2007-12-19",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -4325,7 +4395,7 @@
     },
     {
       "date": "2007-12-16",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -4335,7 +4405,7 @@
     },
     {
       "date": "2007-11-24",
-      "opponent": "Genoa CFC",
+      "opponent": "Genoa",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -4345,7 +4415,7 @@
     },
     {
       "date": "2007-05-13",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -4355,7 +4425,7 @@
     },
     {
       "date": "2006-12-20",
-      "opponent": "Torino FC",
+      "opponent": "Torino",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -4366,8 +4436,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 52,
-    "end_index": 57,
-    "length": 6
+    "start_index": 29,
+    "end_index": 33,
+    "length": 5
   }
 }
