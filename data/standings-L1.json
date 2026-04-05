@@ -1,7 +1,7 @@
 {
   "league": "L1",
   "season": "2025-26",
-  "generated_at": "2026-04-05T11:15:05.041470+00:00",
+  "generated_at": "2026-04-05T13:16:39.822313+00:00",
   "table": [
     {
       "position": 1,
@@ -59,14 +59,14 @@
       "position": 5,
       "team": "Olympique Lyonnais",
       "team_id": 523,
-      "played": 27,
+      "played": 28,
       "won": 14,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 8,
       "goals_for": 41,
       "goals_against": 29,
       "goal_difference": 12,
-      "points": 47
+      "points": 48
     },
     {
       "position": 6,
@@ -150,14 +150,14 @@
       "position": 12,
       "team": "Angers SCO",
       "team_id": 532,
-      "played": 27,
+      "played": 28,
       "won": 9,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 13,
       "goals_for": 24,
       "goals_against": 37,
       "goal_difference": -13,
-      "points": 32
+      "points": 33
     },
     {
       "position": 13,
