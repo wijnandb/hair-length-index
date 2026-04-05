@@ -1,7 +1,7 @@
 {
   "team_id": 267,
   "team": "Hamburger SV",
-  "short_name": null,
+  "short_name": "HSV",
   "matches": [
     {
       "date": "2026-03-21",
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-02-14",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-02-07",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -205,7 +205,7 @@
     },
     {
       "date": "2025-10-28",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -245,7 +245,7 @@
     },
     {
       "date": "2025-09-28",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -255,7 +255,7 @@
     },
     {
       "date": "2025-09-20",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1195,7 +1195,7 @@
     },
     {
       "date": "2023-02-11",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "3-3",
       "result": "D",
@@ -1375,7 +1375,7 @@
     },
     {
       "date": "2022-08-06",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1575,7 +1575,7 @@
     },
     {
       "date": "2022-02-12",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1765,7 +1765,7 @@
     },
     {
       "date": "2021-08-28",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1905,7 +1905,7 @@
     },
     {
       "date": "2021-03-20",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -2075,7 +2075,7 @@
     },
     {
       "date": "2020-11-29",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -2185,7 +2185,7 @@
     },
     {
       "date": "2020-06-21",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2355,7 +2355,7 @@
     },
     {
       "date": "2019-12-06",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -3000,6 +3000,106 @@
       "score": "0-0",
       "result": "D",
       "competition": "Bundesliga 2011/2012",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2011-03-06",
+      "opponent": "Mainz",
+      "home_away": "H",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-10-16",
+      "opponent": "Mainz",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2010/2011",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2010-04-17",
+      "opponent": "Mainz",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga 2009/2010",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2009-11-28",
+      "opponent": "Mainz",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga 2009/2010",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2007-04-22",
+      "opponent": "Mainz",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Bundesliga 2006/2007",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2006-11-18",
+      "opponent": "Mainz",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Bundesliga 2006/2007",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2006-02-11",
+      "opponent": "Mainz",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga 2005/2006",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2005-09-10",
+      "opponent": "Mainz",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga 2005/2006",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2005-01-29",
+      "opponent": "Mainz",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Bundesliga 2004/2005",
+      "decided_in": "REGULAR",
+      "source": "worldfootball.net"
+    },
+    {
+      "date": "2004-08-14",
+      "opponent": "Mainz",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga 2004/2005",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     }

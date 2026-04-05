@@ -89,16 +89,6 @@
       "home_away": "A",
       "score": "3-3",
       "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-22",
-      "opponent": "1. FC Heidenheim 1846",
-      "home_away": "A",
-      "score": "3-3",
-      "result": "D",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -189,16 +179,6 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-18",
-      "opponent": "HSV",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -279,23 +259,13 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-30",
-      "opponent": "Hamburger SV",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
     },
     {
       "date": "2025-11-27",
-      "opponent": "NEC",
+      "opponent": "Go Ahead",
       "home_away": "A",
       "score": "4-0",
       "result": "W",
@@ -389,16 +359,6 @@
       "home_away": "H",
       "score": "1-0",
       "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-10-05",
-      "opponent": "1. FC Heidenheim 1846",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -479,16 +439,6 @@
       "home_away": "A",
       "score": "1-2",
       "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-23",
-      "opponent": "HSV",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -545,7 +495,7 @@
     },
     {
       "date": "2025-04-25",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -555,7 +505,7 @@
     },
     {
       "date": "2025-04-19",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "A",
       "score": "4-4",
       "result": "D",
@@ -755,7 +705,7 @@
     },
     {
       "date": "2024-12-15",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -775,7 +725,7 @@
     },
     {
       "date": "2024-12-06",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -1065,7 +1015,7 @@
     },
     {
       "date": "2024-03-31",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "3-3",
       "result": "D",
@@ -1085,7 +1035,7 @@
     },
     {
       "date": "2024-03-08",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1255,7 +1205,7 @@
     },
     {
       "date": "2023-11-05",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1265,7 +1215,7 @@
     },
     {
       "date": "2023-10-31",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1285,7 +1235,7 @@
     },
     {
       "date": "2023-10-21",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -1375,7 +1325,7 @@
     },
     {
       "date": "2023-06-05",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -1385,7 +1335,7 @@
     },
     {
       "date": "2023-06-01",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -1495,7 +1445,7 @@
     },
     {
       "date": "2023-04-01",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1685,7 +1635,7 @@
     },
     {
       "date": "2022-10-09",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1865,7 +1815,7 @@
     },
     {
       "date": "2022-03-12",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2045,7 +1995,7 @@
     },
     {
       "date": "2021-10-24",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -2195,7 +2145,7 @@
     },
     {
       "date": "2021-04-17",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -2385,7 +2335,7 @@
     },
     {
       "date": "2020-12-15",
-      "opponent": "HSV",
+      "opponent": "Union Berlin",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -2575,7 +2525,7 @@
     },
     {
       "date": "2020-05-28",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "H",
       "score": "3-2",
       "result": "W",
@@ -2675,7 +2625,7 @@
     },
     {
       "date": "2020-01-29",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -2755,7 +2705,7 @@
     },
     {
       "date": "2019-10-29",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -2765,7 +2715,7 @@
     },
     {
       "date": "2019-10-26",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "A",
       "score": "2-6",
       "result": "L",
@@ -2865,7 +2815,7 @@
     },
     {
       "date": "2019-08-04",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -3376,8 +3326,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 128,
-    "end_index": 133,
+    "start_index": 123,
+    "end_index": 128,
     "length": 6
   }
 }

@@ -1,7 +1,7 @@
 {
   "team_id": 258,
   "team": "1. FC Union Berlin",
-  "short_name": "HSV",
+  "short_name": "Union Berlin",
   "matches": [
     {
       "date": "2026-04-04",
@@ -9,16 +9,6 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-21",
-      "opponent": "Dortmund",
-      "home_away": "A",
-      "score": "2-3",
-      "result": "L",
       "competition": "Bundesliga",
       "decided_in": "REGULAR",
       "source": "football-data.org"
@@ -44,16 +34,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2026-03-14",
-      "opponent": "1. FC Köln",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2026-03-08",
       "opponent": "Bremen",
       "home_away": "H",
@@ -62,36 +42,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-03-07",
-      "opponent": "Wolfsburg",
-      "home_away": "A",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-04",
-      "opponent": "Leverkusen",
-      "home_away": "H",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-01",
-      "opponent": "RB Leipzig",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-02-28",
@@ -114,44 +64,14 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2026-02-20",
-      "opponent": "Mainz",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2026-02-14",
-      "opponent": "Union Berlin",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-14",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-02-07",
-      "opponent": "Heidenheim",
-      "home_away": "A",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-02-06",
@@ -162,16 +82,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-31",
-      "opponent": "Bayern",
-      "home_away": "H",
-      "score": "2-2",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-31",
@@ -194,16 +104,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2026-01-23",
-      "opponent": "St. Pauli",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2026-01-18",
       "opponent": "Stuttgart",
       "home_away": "A",
@@ -212,16 +112,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-17",
-      "opponent": "M'gladbach",
-      "home_away": "H",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-15",
@@ -235,16 +125,6 @@
     },
     {
       "date": "2026-01-10",
-      "opponent": "Freiburg",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-10",
       "opponent": "Mainz",
       "home_away": "H",
       "score": "2-2",
@@ -252,16 +132,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-12-20",
-      "opponent": "Frankfurt",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-12-20",
@@ -274,16 +144,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2025-12-13",
-      "opponent": "Hoffenheim",
-      "home_away": "A",
-      "score": "1-4",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2025-12-12",
       "opponent": "RB Leipzig",
       "home_away": "H",
@@ -292,16 +152,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-12-07",
-      "opponent": "Bremen",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-12-06",
@@ -324,18 +174,8 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2025-11-30",
-      "opponent": "Stuttgart",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2025-11-29",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -354,26 +194,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2025-11-22",
-      "opponent": "Augsburg",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-08",
-      "opponent": "Dortmund",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2025-11-08",
       "opponent": "Bayern",
       "home_away": "H",
@@ -382,16 +202,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-02",
-      "opponent": "1. FC Köln",
-      "home_away": "A",
-      "score": "1-4",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-01",
@@ -414,16 +224,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2025-10-25",
-      "opponent": "Wolfsburg",
-      "home_away": "H",
-      "score": "0-1",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2025-10-24",
       "opponent": "Bremen",
       "home_away": "A",
@@ -434,16 +234,6 @@
       "source": "worldfootball.net"
     },
     {
-      "date": "2025-10-18",
-      "opponent": "RB Leipzig",
-      "home_away": "A",
-      "score": "1-2",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
       "date": "2025-10-17",
       "opponent": "M'gladbach",
       "home_away": "H",
@@ -452,16 +242,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-10-05",
-      "opponent": "Mainz",
-      "home_away": "H",
-      "score": "4-0",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-10-04",
@@ -475,17 +255,7 @@
     },
     {
       "date": "2025-09-28",
-      "opponent": "Union Berlin",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-09-28",
-      "opponent": "Hamburger SV",
+      "opponent": "HSV",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -502,26 +272,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-09-20",
-      "opponent": "Heidenheim",
-      "home_away": "H",
-      "score": "2-1",
-      "result": "W",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-09-13",
-      "opponent": "Bayern",
-      "home_away": "A",
-      "score": "0-5",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-09-13",
@@ -542,26 +292,6 @@
       "competition": "Bundesliga 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-08-29",
-      "opponent": "St. Pauli",
-      "home_away": "H",
-      "score": "0-2",
-      "result": "L",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-08-24",
-      "opponent": "M'gladbach",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Bundesliga",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-08-23",
@@ -595,7 +325,7 @@
     },
     {
       "date": "2025-05-10",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -765,7 +495,7 @@
     },
     {
       "date": "2025-01-11",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1055,7 +785,7 @@
     },
     {
       "date": "2024-02-24",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1285,7 +1015,7 @@
     },
     {
       "date": "2023-09-30",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1685,7 +1415,7 @@
     },
     {
       "date": "2022-10-19",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -3076,8 +2806,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 155,
-    "end_index": 160,
+    "start_index": 128,
+    "end_index": 133,
     "length": 6
   }
 }
