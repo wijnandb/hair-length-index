@@ -149,16 +149,6 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-28",
-      "opponent": "FK Kairat",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -285,16 +275,6 @@
     },
     {
       "date": "2025-12-10",
-      "opponent": "Club Brugge",
-      "home_away": "A",
-      "score": "3-0",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-12-10",
       "opponent": "Brugge KV",
       "home_away": "A",
       "score": "3-0",
@@ -369,16 +349,6 @@
       "home_away": "A",
       "score": "3-0",
       "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-04",
-      "opponent": "Slavia Praha",
-      "home_away": "A",
-      "score": "3-0",
-      "result": "W",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -442,16 +412,6 @@
       "competition": "Premier League 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-10-01",
-      "opponent": "Olympiakos",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-10-01",
@@ -3736,8 +3696,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 11,
-    "end_index": 15,
-    "length": 5
+    "start_index": 21,
+    "end_index": 27,
+    "length": 10
   }
 }

@@ -155,16 +155,6 @@
     },
     {
       "date": "2026-01-21",
-      "opponent": "Paphos FC",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-21",
       "opponent": "Pafos FC",
       "home_away": "H",
       "score": "1-0",
@@ -345,16 +335,6 @@
     },
     {
       "date": "2025-11-05",
-      "opponent": "Qarabağ Ağdam",
-      "home_away": "A",
-      "score": "2-2",
-      "result": "D",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-05",
       "opponent": "Qarabağ FK",
       "home_away": "A",
       "score": "2-2",
@@ -422,16 +402,6 @@
       "competition": "Premier League 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-09-30",
-      "opponent": "SL Benfica",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-09-30",
@@ -965,7 +935,7 @@
     },
     {
       "date": "2024-11-28",
-      "opponent": "1. FC Heidenheim 1846",
+      "opponent": "Heidenheim",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -3967,7 +3937,7 @@
   "streak": {
     "found": true,
     "start_index": 12,
-    "end_index": 17,
-    "length": 6
+    "end_index": 16,
+    "length": 5
   }
 }

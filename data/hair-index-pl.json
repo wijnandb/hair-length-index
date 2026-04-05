@@ -1,10 +1,12 @@
 {
-  "generated_at": "2026-04-05T08:22:08.143751",
+  "generated_at": "2026-04-05T13:18:48.708187",
   "threshold": 5,
   "teams": [
     {
       "team": "Brentford FC",
       "team_id": 239,
+      "football_data_id": 402,
+      "slug": "brentford-fc",
       "short_name": "Brentford",
       "crest_url": "https://crests.football-data.org/402.png",
       "streak_found": true,
@@ -29,7 +31,7 @@
         "W"
       ],
       "search_depth": "2017-08-05",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2020-07-15",
@@ -42,6 +44,8 @@
     {
       "team": "Everton FC",
       "team_id": 244,
+      "football_data_id": 62,
+      "slug": "everton-fc",
       "short_name": "Everton",
       "crest_url": "https://crests.football-data.org/62.png",
       "streak_found": true,
@@ -67,7 +71,7 @@
         "W"
       ],
       "search_depth": "2018-08-11",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2020-10-03",
@@ -80,6 +84,8 @@
     {
       "team": "Sunderland AFC",
       "team_id": 252,
+      "football_data_id": 71,
+      "slug": "sunderland-afc",
       "short_name": "Sunderland",
       "crest_url": "https://crests.football-data.org/71.png",
       "streak_found": true,
@@ -105,7 +111,7 @@
         "W"
       ],
       "search_depth": "2017-10-21",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-03-17",
@@ -118,6 +124,8 @@
     {
       "team": "AFC Bournemouth",
       "team_id": 238,
+      "football_data_id": 1044,
+      "slug": "afc-bournemouth",
       "short_name": "Bournemouth",
       "crest_url": "https://crests.football-data.org/bournemouth.png",
       "streak_found": true,
@@ -142,7 +150,7 @@
         "D"
       ],
       "search_depth": "2018-08-25",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-10-30",
@@ -155,6 +163,8 @@
     {
       "team": "West Ham United",
       "team_id": 254,
+      "football_data_id": 563,
+      "slug": "west-ham-united",
       "short_name": "West Ham",
       "crest_url": "https://crests.football-data.org/563.png",
       "streak_found": true,
@@ -181,7 +191,7 @@
         "L"
       ],
       "search_depth": "2018-09-16",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-01-26",
@@ -194,6 +204,8 @@
     {
       "team": "Fulham FC",
       "team_id": 245,
+      "football_data_id": 63,
+      "slug": "fulham-fc",
       "short_name": "Fulham",
       "crest_url": "https://crests.football-data.org/63.png",
       "streak_found": true,
@@ -219,7 +231,7 @@
         "L"
       ],
       "search_depth": "2017-12-02",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-01-12",
@@ -232,6 +244,8 @@
     {
       "team": "Manchester United",
       "team_id": 249,
+      "football_data_id": 66,
+      "slug": "manchester-united",
       "short_name": "Man United",
       "crest_url": "https://crests.football-data.org/66.png",
       "streak_found": true,
@@ -257,7 +271,7 @@
         "W"
       ],
       "search_depth": "2018-10-28",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-02-18",
@@ -270,6 +284,8 @@
     {
       "team": "Tottenham Hotspur",
       "team_id": 253,
+      "football_data_id": 73,
+      "slug": "tottenham-hotspur",
       "short_name": "Tottenham",
       "crest_url": "https://crests.football-data.org/73.png",
       "streak_found": true,
@@ -277,7 +293,7 @@
       "streak_end_date": "2024-10-03",
       "streak_start_date": "2024-09-18",
       "days_since": 549,
-      "matches_since": 99,
+      "matches_since": 96,
       "competitions_in_streak": [
         "Europa League",
         "League Cup 2024/2025",
@@ -296,19 +312,21 @@
         "D"
       ],
       "search_depth": "2013-03-07",
-      "hair_tier": "Sasquatch",
+      "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-10-03",
       "strict_days_since": 549,
       "includes_aet_pens": false,
-      "total_matches": 368,
+      "total_matches": 365,
       "has_cup_data": true,
       "data_complete": true
     },
     {
       "team": "Brighton & Hove Albion",
       "team_id": 240,
+      "football_data_id": 397,
+      "slug": "brighton-hove-albion",
       "short_name": "Brighton Hove",
       "crest_url": "https://crests.football-data.org/397.png",
       "streak_found": true,
@@ -347,6 +365,8 @@
     {
       "team": "Crystal Palace",
       "team_id": 243,
+      "football_data_id": 354,
+      "slug": "crystal-palace",
       "short_name": "Crystal Palace",
       "crest_url": "https://crests.football-data.org/354.png",
       "streak_found": true,
@@ -385,6 +405,8 @@
     {
       "team": "Nottingham Forest",
       "team_id": 251,
+      "football_data_id": 351,
+      "slug": "nottingham-forest",
       "short_name": "Nottingham",
       "crest_url": "https://crests.football-data.org/351.png",
       "streak_found": true,
@@ -423,6 +445,8 @@
     {
       "team": "Newcastle United",
       "team_id": 250,
+      "football_data_id": 67,
+      "slug": "newcastle-united",
       "short_name": "Newcastle",
       "crest_url": "https://crests.football-data.org/67.png",
       "streak_found": true,
@@ -430,7 +454,7 @@
       "streak_end_date": "2025-04-16",
       "streak_start_date": "2025-03-10",
       "days_since": 354,
-      "matches_since": 61,
+      "matches_since": 57,
       "competitions_in_streak": [
         "League Cup 2024/2025",
         "Premier League 2024/2025"
@@ -444,8 +468,8 @@
         "W",
         "L",
         "W",
-        "W",
-        "L"
+        "L",
+        "W"
       ],
       "search_depth": "2018-12-05",
       "hair_tier": "Caveman",
@@ -454,13 +478,15 @@
       "strict_streak_end_date": "2025-04-16",
       "strict_days_since": 354,
       "includes_aet_pens": false,
-      "total_matches": 330,
+      "total_matches": 326,
       "has_cup_data": true,
       "data_complete": true
     },
     {
       "team": "Wolverhampton Wanderers",
       "team_id": 255,
+      "football_data_id": 76,
+      "slug": "wolverhampton-wanderers",
       "short_name": "Wolverhampton",
       "crest_url": "https://crests.football-data.org/76.png",
       "streak_found": true,
@@ -498,6 +524,8 @@
     {
       "team": "Burnley FC",
       "team_id": 241,
+      "football_data_id": 328,
+      "slug": "burnley-fc",
       "short_name": "Burnley",
       "crest_url": "https://crests.football-data.org/328.png",
       "streak_found": true,
@@ -535,6 +563,8 @@
     {
       "team": "Leeds United",
       "team_id": 246,
+      "football_data_id": 341,
+      "slug": "leeds-united",
       "short_name": "Leeds United",
       "crest_url": "https://crests.football-data.org/341.png",
       "streak_found": true,
@@ -573,6 +603,8 @@
     {
       "team": "Liverpool FC",
       "team_id": 247,
+      "football_data_id": 64,
+      "slug": "liverpool-fc",
       "short_name": "Liverpool",
       "crest_url": "https://crests.football-data.org/64.png",
       "streak_found": true,
@@ -580,7 +612,7 @@
       "streak_end_date": "2025-09-23",
       "streak_start_date": "2025-08-15",
       "days_since": 194,
-      "matches_since": 43,
+      "matches_since": 39,
       "competitions_in_streak": [
         "Champions League",
         "League Cup 2025/2026",
@@ -589,12 +621,12 @@
       "current_form": [
         "L",
         "W",
-        "W",
         "D",
         "L",
-        "L",
         "W",
         "L",
+        "W",
+        "W",
         "W",
         "W"
       ],
@@ -605,13 +637,15 @@
       "strict_streak_end_date": "2025-09-23",
       "strict_days_since": 194,
       "includes_aet_pens": false,
-      "total_matches": 394,
+      "total_matches": 390,
       "has_cup_data": true,
       "data_complete": true
     },
     {
       "team": "Aston Villa",
       "team_id": 60,
+      "football_data_id": 58,
+      "slug": "aston-villa",
       "short_name": "Aston Villa",
       "crest_url": "https://crests.football-data.org/58.png",
       "streak_found": true,
@@ -648,20 +682,62 @@
       "data_complete": true
     },
     {
+      "team": "Arsenal FC",
+      "team_id": 237,
+      "football_data_id": 57,
+      "slug": "arsenal-fc",
+      "short_name": "Arsenal",
+      "crest_url": "https://crests.football-data.org/57.png",
+      "streak_found": true,
+      "streak_length": 7,
+      "streak_end_date": "2026-01-03",
+      "streak_start_date": "2025-12-10",
+      "days_since": 92,
+      "matches_since": 21,
+      "competitions_in_streak": [
+        "Champions League",
+        "League Cup 2025/2026",
+        "Premier League 2025/2026"
+      ],
+      "current_form": [
+        "L",
+        "W",
+        "W",
+        "D",
+        "W",
+        "W",
+        "W",
+        "W",
+        "D",
+        "W"
+      ],
+      "search_depth": "2018-09-23",
+      "hair_tier": "Getting shaggy",
+      "hair_description": "Messy medium-length hair, visible beard",
+      "strict_streak_found": true,
+      "strict_streak_end_date": "2025-11-04",
+      "strict_days_since": 152,
+      "includes_aet_pens": true,
+      "total_matches": 369,
+      "has_cup_data": true,
+      "data_complete": true
+    },
+    {
       "team": "Chelsea FC",
       "team_id": 242,
+      "football_data_id": 61,
+      "slug": "chelsea-fc",
       "short_name": "Chelsea",
       "crest_url": "https://crests.football-data.org/61.png",
       "streak_found": true,
-      "streak_length": 6,
+      "streak_length": 5,
       "streak_end_date": "2026-01-31",
       "streak_start_date": "2026-01-17",
       "days_since": 64,
       "matches_since": 12,
       "competitions_in_streak": [
         "Champions League",
-        "Premier League 2025/2026",
-        "UEFA Champions League"
+        "Premier League 2025/2026"
       ],
       "current_form": [
         "L",
@@ -682,53 +758,15 @@
       "strict_streak_end_date": "2026-01-31",
       "strict_days_since": 64,
       "includes_aet_pens": false,
-      "total_matches": 396,
-      "has_cup_data": true,
-      "data_complete": true
-    },
-    {
-      "team": "Arsenal FC",
-      "team_id": 237,
-      "short_name": "Arsenal",
-      "crest_url": "https://crests.football-data.org/57.png",
-      "streak_found": true,
-      "streak_length": 5,
-      "streak_end_date": "2026-02-07",
-      "streak_start_date": "2026-01-28",
-      "days_since": 57,
-      "matches_since": 11,
-      "competitions_in_streak": [
-        "Champions League",
-        "League Cup 2025/2026",
-        "Premier League 2025/2026",
-        "UEFA Champions League"
-      ],
-      "current_form": [
-        "L",
-        "W",
-        "W",
-        "D",
-        "W",
-        "W",
-        "W",
-        "W",
-        "D",
-        "W"
-      ],
-      "search_depth": "2018-09-23",
-      "hair_tier": "Growing back",
-      "hair_description": "Short neat hair, hint of stubble",
-      "strict_streak_found": true,
-      "strict_streak_end_date": "2026-02-07",
-      "strict_days_since": 57,
-      "includes_aet_pens": false,
-      "total_matches": 373,
+      "total_matches": 393,
       "has_cup_data": true,
       "data_complete": true
     },
     {
       "team": "Manchester City",
       "team_id": 248,
+      "football_data_id": 65,
+      "slug": "manchester-city",
       "short_name": "Man City",
       "crest_url": "https://crests.football-data.org/65.png",
       "streak_found": true,
@@ -761,7 +799,7 @@
       "strict_streak_end_date": "2026-02-28",
       "strict_days_since": 36,
       "includes_aet_pens": false,
-      "total_matches": 416,
+      "total_matches": 414,
       "has_cup_data": true,
       "data_complete": true
     }

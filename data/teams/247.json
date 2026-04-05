@@ -19,16 +19,6 @@
       "home_away": "H",
       "score": "4-0",
       "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-03-18",
-      "opponent": "Galatasaray",
-      "home_away": "H",
-      "score": "4-0",
-      "result": "W",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -42,16 +32,6 @@
       "competition": "Premier League 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-03-10",
-      "opponent": "Galatasaray",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-03-10",
@@ -142,16 +122,6 @@
       "competition": "Premier League 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-28",
-      "opponent": "Qarabağ Ağdam",
-      "home_away": "H",
-      "score": "6-0",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-28",
@@ -402,16 +372,6 @@
       "competition": "Premier League 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-09-30",
-      "opponent": "Galatasaray",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-09-30",
@@ -3946,8 +3906,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 43,
-    "end_index": 49,
+    "start_index": 39,
+    "end_index": 45,
     "length": 7
   }
 }
