@@ -33,8 +33,11 @@ jobs:
           mkdir -p _site/data/teams _site/logos
           cp frontend/*.html frontend/*.js frontend/*.css frontend/*.json _site/ 2>/dev/null || true
           cp frontend/logos/*.png _site/logos/ 2>/dev/null || true
+          cp -r frontend/jerseys _site/jerseys 2>/dev/null || true
           cp data/hair-index*.json _site/data/ 2>/dev/null || true
-          cp data/fixtures.json _site/data/ 2>/dev/null || true
+          cp data/standings-*.json _site/data/ 2>/dev/null || true
+          cp data/fixtures.json data/fixtures-*.json _site/data/ 2>/dev/null || true
+          cp data/fan-data.json _site/data/ 2>/dev/null || true
           cp data/teams/*.json _site/data/teams/ 2>/dev/null || true
 
       - name: Upload artifact

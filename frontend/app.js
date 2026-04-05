@@ -943,7 +943,6 @@ async function renderTeamPage(leagueCode, teamSlug) {
       <div class="team-hero">
         <img src="${logoUrl || avatar}" alt="${escapeHtml(team.team)}" class="team-hero-logo"
              onerror="this.src='${avatar}'">
-        ${jerseyUrl ? `<img src="${jerseyUrl}" alt="${escapeHtml(team.team)} shirt" class="team-hero-jersey">` : ''}
         <div class="team-hero-info">
           <h1>${escapeHtml(team.team)}</h1>
           <div class="team-hero-meta">
@@ -955,6 +954,7 @@ async function renderTeamPage(leagueCode, teamSlug) {
             <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(translateTier(team.hair_tier))}</span>
           </div>
         </div>
+        ${jerseyUrl ? `<img src="${jerseyUrl}" alt="${escapeHtml(team.team)} shirt" class="team-hero-jersey">` : ''}
       </div>`;
 
     // --- 2. Stat cards ---

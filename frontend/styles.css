@@ -836,10 +836,11 @@ a.team-name:hover {
   flex-shrink: 0;
 }
 .team-hero-jersey {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .team-hero-info {

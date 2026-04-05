@@ -117,7 +117,9 @@ jobs:
           cp data/hair-index*.json data/fan-data.json _site/data/
           cp data/standings-*.json _site/data/ 2>/dev/null || true
           cp data/fixtures.json _site/data/ 2>/dev/null || true
+          cp data/fixtures-*.json _site/data/ 2>/dev/null || true
           cp data/teams/*.json _site/data/teams/ 2>/dev/null || true
+          cp -r frontend/jerseys _site/jerseys 2>/dev/null || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
