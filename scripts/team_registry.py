@@ -232,7 +232,7 @@ EXTERNAL_IDS = {
     "FC Volendam": {"fd": 1914, "af": 1910},
     "Feyenoord": {"fd": 675, "af": 198},
     "Fortuna Sittard": {"fd": 1920, "af": 205},
-    "Go Ahead Eagles": {"fd": 1915, "af": 1909},
+    "Go Ahead Eagles": {"fd": 718, "af": 1909},
     "Heerenveen": {"fd": 673, "af": 202},
     "Heracles Almelo": {"fd": 671, "af": 206},
     "N.E.C.": {"fd": 1919, "af": 208},
