@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T11:18:33.578308",
+  "generated_at": "2026-04-05T13:17:51.081127",
   "threshold": 5,
   "teams": [
     {
@@ -685,7 +685,7 @@
       "streak_end_date": "2026-02-07",
       "streak_start_date": "2026-01-17",
       "days_since": 57,
-      "matches_since": 10,
+      "matches_since": 9,
       "competitions_in_streak": [
         "Eredivisie",
         "KNVB Beker"
@@ -699,8 +699,8 @@
         "L",
         "D",
         "D",
-        "D",
-        "L"
+        "L",
+        "W"
       ],
       "search_depth": "2014-08-29",
       "hair_tier": "Growing back",
@@ -709,7 +709,7 @@
       "strict_streak_end_date": "2026-02-07",
       "strict_days_since": 57,
       "includes_aet_pens": false,
-      "total_matches": 273,
+      "total_matches": 271,
       "has_cup_data": true,
       "data_complete": true
     }

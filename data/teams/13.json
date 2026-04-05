@@ -75,16 +75,6 @@
     },
     {
       "date": "2026-02-17",
-      "opponent": "Sparta",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-17",
       "opponent": "Sparta Rotterdam",
       "home_away": "A",
       "score": "1-1",
@@ -212,16 +202,6 @@
       "competition": "Eredivisie",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-29",
-      "opponent": "Sparta",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "Eredivisie",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-29",
@@ -2736,8 +2716,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 10,
-    "end_index": 15,
+    "start_index": 9,
+    "end_index": 14,
     "length": 6
   }
 }

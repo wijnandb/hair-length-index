@@ -1,7 +1,7 @@
 {
   "league": "DED",
   "season": "2025-26",
-  "generated_at": "2026-04-05T11:18:30.379095+00:00",
+  "generated_at": "2026-04-05T13:17:47.371790+00:00",
   "table": [
     {
       "position": 1,
@@ -18,6 +18,19 @@
     },
     {
       "position": 2,
+      "team": "Feyenoord Rotterdam",
+      "team_id": 675,
+      "played": 29,
+      "won": 16,
+      "drawn": 6,
+      "lost": 7,
+      "goals_for": 61,
+      "goals_against": 40,
+      "goal_difference": 21,
+      "points": 54
+    },
+    {
+      "position": 3,
       "team": "NEC",
       "team_id": 1915,
       "played": 29,
@@ -27,19 +40,6 @@
       "goals_for": 71,
       "goals_against": 47,
       "goal_difference": 24,
-      "points": 53
-    },
-    {
-      "position": 3,
-      "team": "Feyenoord Rotterdam",
-      "team_id": 675,
-      "played": 28,
-      "won": 16,
-      "drawn": 5,
-      "lost": 7,
-      "goals_for": 61,
-      "goals_against": 40,
-      "goal_difference": 21,
       "points": 53
     },
     {
@@ -111,13 +111,13 @@
       "position": 9,
       "team": "SC Heerenveen",
       "team_id": 673,
-      "played": 28,
+      "played": 29,
       "won": 11,
       "drawn": 8,
-      "lost": 9,
+      "lost": 10,
       "goals_for": 49,
-      "goals_against": 46,
-      "goal_difference": 3,
+      "goals_against": 47,
+      "goal_difference": 2,
       "points": 41
     },
     {
@@ -135,6 +135,19 @@
     },
     {
       "position": 11,
+      "team": "Go Ahead Eagles",
+      "team_id": 718,
+      "played": 29,
+      "won": 8,
+      "drawn": 11,
+      "lost": 10,
+      "goals_for": 48,
+      "goals_against": 45,
+      "goal_difference": 3,
+      "points": 35
+    },
+    {
+      "position": 12,
       "team": "Fortuna Sittard",
       "team_id": 1920,
       "played": 29,
@@ -147,33 +160,33 @@
       "points": 35
     },
     {
-      "position": 12,
+      "position": 13,
       "team": "PEC Zwolle",
       "team_id": 684,
       "played": 29,
       "won": 8,
-      "drawn": 10,
-      "lost": 11,
+      "drawn": 9,
+      "lost": 12,
       "goals_for": 38,
-      "goals_against": 53,
-      "goal_difference": -15,
-      "points": 34
-    },
-    {
-      "position": 13,
-      "team": "Go Ahead Eagles",
-      "team_id": 718,
-      "played": 29,
-      "won": 7,
-      "drawn": 12,
-      "lost": 10,
-      "goals_for": 45,
-      "goals_against": 45,
-      "goal_difference": 0,
+      "goals_against": 56,
+      "goal_difference": -18,
       "points": 33
     },
     {
       "position": 14,
+      "team": "FC Volendam",
+      "team_id": 1919,
+      "played": 29,
+      "won": 7,
+      "drawn": 7,
+      "lost": 15,
+      "goals_for": 30,
+      "goals_against": 48,
+      "goal_difference": -18,
+      "points": 28
+    },
+    {
+      "position": 15,
       "team": "Telstar 1963",
       "team_id": 1912,
       "played": 29,
@@ -183,19 +196,6 @@
       "goals_for": 38,
       "goals_against": 48,
       "goal_difference": -10,
-      "points": 27
-    },
-    {
-      "position": 15,
-      "team": "FC Volendam",
-      "team_id": 1919,
-      "played": 28,
-      "won": 7,
-      "drawn": 6,
-      "lost": 15,
-      "goals_for": 30,
-      "goals_against": 48,
-      "goal_difference": -18,
       "points": 27
     },
     {
@@ -228,14 +228,14 @@
       "position": 18,
       "team": "Heracles Almelo",
       "team_id": 671,
-      "played": 28,
-      "won": 5,
+      "played": 29,
+      "won": 6,
       "drawn": 4,
       "lost": 19,
-      "goals_for": 33,
+      "goals_for": 34,
       "goals_against": 70,
-      "goal_difference": -37,
-      "points": 19
+      "goal_difference": -36,
+      "points": 22
     }
   ]
 }
