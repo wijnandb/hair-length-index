@@ -14,11 +14,6 @@ on:
         options:
           - daily
           - full
-      fill_gaps:
-        description: "Also run fill_gaps (cup/European data)"
-        required: false
-        default: true
-        type: boolean
 
 permissions:
   contents: write
@@ -39,7 +34,6 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-      API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
 
     steps:
       - name: Checkout
@@ -64,25 +58,6 @@ jobs:
           for LEAGUE in DED PL BL1 SA PD FL1; do
             echo "--- Fetching $LEAGUE ---"
             python -m scripts.fetch_matches --mode "$MODE" --league "$LEAGUE"
-          done
-
-      - name: Import historical CSV data (football-data.co.uk)
-        continue-on-error: true
-        run: python -m scripts.import_csv --league DED --start 2003 --end 2024
-
-      - name: Import KNVB Beker (web scrape)
-        continue-on-error: true
-        run: python -m scripts.import_knvb_beker
-
-      - name: Fill gaps (API-Football)
-        if: >-
-          github.event.inputs.fill_gaps != 'false'
-          && env.API_FOOTBALL_API_KEY != ''
-        continue-on-error: true
-        run: |
-          for LEAGUE in DED PL BL1 SA PD FL1; do
-            echo "--- Filling gaps for $LEAGUE ---"
-            python -m scripts.fill_gaps --mode fill --league "$LEAGUE"
           done
 
       # --- Processing (always runs with whatever data we have) ---
