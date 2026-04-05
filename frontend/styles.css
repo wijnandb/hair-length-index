@@ -159,6 +159,34 @@ main {
   color: var(--text-muted);
 }
 
+/* === Language Picker === */
+.lang-picker {
+  display: flex;
+  gap: 0.15rem;
+  align-items: center;
+}
+
+.lang-link {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.2rem 0.35rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.lang-link:hover {
+  background: #e5e7eb;
+  color: var(--text);
+}
+
+.lang-link.active {
+  background: #f0fdf4;
+  color: var(--accent-dark);
+  border: 1px solid #bbf7d0;
+}
+
 /* === Team Cards === */
 .team-card {
   background: var(--bg-card);

@@ -38,11 +38,19 @@
         <a class="league-tab" data-league="L1" href="#/ligue-1">Ligue 1</a>
       </nav>
       <div class="league-badge" id="league-badge"></div>
+      <div class="lang-picker" id="lang-picker">
+        <a class="lang-link" data-lang="nl" href="#">NL</a>
+        <a class="lang-link" data-lang="en" href="#">EN</a>
+        <a class="lang-link" data-lang="de" href="#">DE</a>
+        <a class="lang-link" data-lang="es" href="#">ES</a>
+        <a class="lang-link" data-lang="it" href="#">IT</a>
+        <a class="lang-link" data-lang="fr" href="#">FR</a>
+      </div>
       <div class="updated" id="updated"></div>
     </div>
 
     <section id="watch-section" style="display:none">
-      <h2 class="watch-heading">Bijna bij de kapper!</h2>
+      <h2 class="watch-heading" id="watch-heading">Bijna bij de kapper!</h2>
       <div id="watch-cards" class="watch-cards"></div>
     </section>
 
@@ -51,17 +59,12 @@
     </div>
 
     <footer>
-      <p>
-        Ge&iuml;nspireerd door de Manchester United-fan die zijn haar niet knipt
-        totdat United 5x op een rij wint.
-      </p>
-      <p class="footnotes">
-        Officieel: resultaat na 90 minuten. Verlenging/strafschoppen = gelijkspel.<br>
-        Data: football-data.org &amp; API-Football. Bijgewerkt op <span id="footer-date"></span>.
-      </p>
+      <p id="footer-inspiration"></p>
+      <p class="footnotes" id="footer-notes"></p>
     </footer>
   </main>
 
+  <script src="i18n.js"></script>
   <script src="router.js"></script>
   <script src="app.js"></script>
   <script src="https://analytics.perceptum.nl/liveview.js?key=lv_live__lZ1WQQ3gRJ6UK_2jPfyzxUmm4tMkJHk" defer></script>

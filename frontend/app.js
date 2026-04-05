@@ -119,10 +119,18 @@ function tierClass(tier) {
   return TIER_CLASS[tier] || "lost";
 }
 
+// Helper: get t() safely — falls back to key if i18n not loaded
+function t(key, vars) {
+  return typeof I18N !== 'undefined' ? I18N.t(key, vars) : key;
+}
+function currentLocale() {
+  return typeof I18N !== 'undefined' ? I18N.getLocale() : 'nl-NL';
+}
+
 function formatDate(dateStr) {
-  if (!dateStr) return "niet gevonden";
+  if (!dateStr) return t('not_found');
   const d = new Date(dateStr + "T00:00:00");
-  return d.toLocaleDateString("nl-NL", {
+  return d.toLocaleDateString(currentLocale(), {
     day: "numeric",
     month: "long",
     year: "numeric",
@@ -132,12 +140,12 @@ function formatDate(dateStr) {
 function formatDateShort(dateStr) {
   if (!dateStr) return "";
   const d = new Date(dateStr + "T00:00:00");
-  return d.toLocaleDateString("nl-NL", { day: "numeric", month: "short", year: "2-digit" });
+  return d.toLocaleDateString(currentLocale(), { day: "numeric", month: "short", year: "2-digit" });
 }
 
 function formatDays(days) {
   if (days === null || days === undefined) return "???";
-  return days.toLocaleString("nl-NL");
+  return days.toLocaleString(currentLocale());
 }
 
 function renderFormDots(form) {
@@ -174,7 +182,7 @@ function renderGrowthStrip(teamData) {
   const matches = teamData.matches;
   const streak = teamData.streak;
   if (!matches || matches.length === 0) {
-    return `<p class="no-matches">Geen wedstrijddata beschikbaar</p>`;
+    return `<p class="no-matches">${t('no_match_data')}</p>`;
   }
 
   const startIdx = streak.found ? streak.start_index : -1;
@@ -184,9 +192,9 @@ function renderGrowthStrip(teamData) {
   const blocks = matches.map((m, i) => {
     const r = m.result || "?";
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
-    const ha = m.home_away === "H" ? "T" : "U";
-    const extra = m.decided_in === "PENALTIES" ? " (w.n.s.)" :
-                  m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
+    const ha = m.home_away === "H" ? t('home').charAt(0).toUpperCase() : t('away').charAt(0).toUpperCase();
+    const extra = m.decided_in === "PENALTIES" ? ` (${t('penalties_short')})` :
+                  m.decided_in === "EXTRA_TIME" ? ` (${t('extra_time_short')})` : "";
     const tip = `${m.date} | ${m.opponent} (${ha}) ${m.score}${extra} | ${m.competition} | ${m.source}`;
     const streakClass = isStreak ? " streak-highlight" : "";
     const markerAttr = isStreak && i === startIdx ? ' data-streak-start="true"' : "";
@@ -200,12 +208,12 @@ function renderGrowthStrip(teamData) {
   const losses = matches.filter(m => m.result === "L").length;
   const oldest = matches[matches.length - 1]?.date || "";
   const streakLabel = streak.found
-    ? `Streak van ${streak.length}x gemarkeerd`
-    : "Geen 5x winst op rij gevonden";
+    ? t('streak_of_x_marked', { n: streak.length })
+    : t('no_streak_found');
 
   return `
     <div class="strip-legend">
-      <span>${total} wedstrijden sinds ${formatDateShort(oldest)}</span>
+      <span>${total} ${t('matches_since')} ${formatDateShort(oldest)}</span>
       <span class="strip-stats">
         <span class="form-dot W">W</span>${wins}
         <span class="form-dot D">D</span>${draws}
@@ -213,7 +221,7 @@ function renderGrowthStrip(teamData) {
       </span>
       <span class="strip-streak-label">${streakLabel}</span>
     </div>
-    <div class="strip-hint">Nieuwste links, oudste rechts. Hover voor details.</div>
+    <div class="strip-hint">${t('newest_left_oldest_right')}</div>
     <div class="growth-strip">${blocks}</div>
   `;
 }
@@ -234,8 +242,8 @@ function renderStreakDetail(teamData) {
   const rows = chronological.map((m, i) => {
     const oppLogo = getLogoUrl(m.opponent);
     const ha = m.home_away === "H" ? "🏠" : "✈️";
-    const extra = m.decided_in === "PENALTIES" ? " (w.n.s.)" :
-                  m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
+    const extra = m.decided_in === "PENALTIES" ? ` (${t('penalties_short')})` :
+                  m.decided_in === "EXTRA_TIME" ? ` (${t('extra_time_short')})` : "";
     const ytUrl = youtubeSearchUrl(teamName, m.opponent, m.home_away, m.date);
     return `
       <div class="streak-match">
@@ -246,7 +254,7 @@ function renderStreakDetail(teamData) {
         <span class="streak-match-opp">${escapeHtml(m.opponent)}</span>
         <span class="streak-match-score">${m.score}${extra}</span>
         <span class="streak-match-comp">${escapeHtml(m.competition)}</span>
-        <a href="${ytUrl}" target="_blank" rel="noopener" class="streak-match-yt" title="Zoek samenvatting">🎬</a>
+        <a href="${ytUrl}" target="_blank" rel="noopener" class="streak-match-yt" title="${t('search_highlights')}">🎬</a>
       </div>`;
   }).join("");
 
@@ -257,7 +265,7 @@ function renderStreakDetail(teamData) {
   return `
     <div class="streak-detail">
       <div class="streak-detail-header">
-        <span class="streak-detail-title">✂️ De streak: ${streak.length}x winst op rij</span>
+        <span class="streak-detail-title">✂️ ${t('the_streak', { n: streak.length })}</span>
         <span class="streak-detail-dates">${formatDateShort(firstDate)} — ${formatDateShort(lastDate)}</span>
       </div>
       <div class="streak-matches">${rows}</div>
@@ -267,7 +275,7 @@ function renderStreakDetail(teamData) {
 function youtubeSearchUrl(teamName, opponent, homeAway, date) {
   const home = homeAway === "H" ? teamName : opponent;
   const away = homeAway === "H" ? opponent : teamName;
-  const query = `${home} ${away} samenvatting ${date}`;
+  const query = `${home} ${away} ${t('highlights')} ${date}`;
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
 }
 
@@ -281,9 +289,9 @@ function renderMatchTable(teamData) {
 
   const rows = matches.map((m, i) => {
     const r = m.result || "";
-    const ha = m.home_away === "H" ? "thuis" : "uit";
-    const extra = m.decided_in === "PENALTIES" ? " (w.n.s.)" :
-                  m.decided_in === "EXTRA_TIME" ? " (n.v.)" : "";
+    const ha = m.home_away === "H" ? t('home') : t('away');
+    const extra = m.decided_in === "PENALTIES" ? ` (${t('penalties_short')})` :
+                  m.decided_in === "EXTRA_TIME" ? ` (${t('extra_time_short')})` : "";
     const isStreak = streak.found && i >= startIdx && i <= endIdx;
     const rowClass = isStreak ? "streak-row" : "";
     const ytUrl = youtubeSearchUrl(teamName, m.opponent, m.home_away, m.date);
@@ -296,17 +304,17 @@ function renderMatchTable(teamData) {
         <td class="match-opponent">${logoImg}${escapeHtml(m.opponent)} <span class="match-ha">(${ha})</span></td>
         <td class="match-score">${m.score}${extra}</td>
         <td class="match-comp">${escapeHtml(m.competition)}</td>
-        <td class="match-yt"><a href="${ytUrl}" target="_blank" rel="noopener" class="yt-link" title="Zoek samenvatting">&#x1F3AC;</a></td>
+        <td class="match-yt"><a href="${ytUrl}" target="_blank" rel="noopener" class="yt-link" title="${t('search_highlights')}">&#x1F3AC;</a></td>
         <td class="match-source">${escapeHtml(m.source)}</td>
       </tr>`;
   }).join("");
 
   return `
     <details class="match-table-toggle">
-      <summary>Alle wedstrijden als tabel</summary>
+      <summary>${t('all_matches_table')}</summary>
       <table class="match-table">
         <thead>
-          <tr><th>Datum</th><th></th><th>Tegenstander</th><th>Score</th><th>Competitie</th><th></th><th>Bron</th></tr>
+          <tr><th>${t('date_header')}</th><th></th><th>${t('opponent_header')}</th><th>${t('score_header')}</th><th>${t('competition_header')}</th><th></th><th>${t('source_header')}</th></tr>
         </thead>
         <tbody>${rows}</tbody>
       </table>
@@ -331,20 +339,20 @@ function renderTeamCard(team, rank) {
   let streakDetail = "";
   if (team.streak_found) {
     const endDate = formatDate(team.streak_end_date);
-    streakDetail = `<strong>${team.streak_length}x</strong> winst op rij \u2014 laatst op ${endDate}`;
+    streakDetail = `<strong>${team.streak_length}x</strong> ${t('wins_in_a_row')} \u2014 ${t('last_on')} ${endDate}`;
   } else {
     const depth = team.search_depth
-      ? `Gezocht tot ${formatDate(team.search_depth)}`
-      : "Geen data";
-    streakDetail = `Geen 5x winst op rij gevonden. ${depth}`;
+      ? `${t('searched_until')} ${formatDate(team.search_depth)}`
+      : t('no_data');
+    streakDetail = `${t('no_streak_found')}. ${depth}`;
   }
 
   let notes = [];
   if (team.includes_aet_pens) {
-    notes.push(`<span class="note">* incl. winst n.v./w.n.s.</span>`);
+    notes.push(`<span class="note">${t('incl_aet_pens')}</span>`);
   }
   if (!team.data_complete) {
-    notes.push(`<span class="data-warning">Bekerdata ontbreekt</span>`);
+    notes.push(`<span class="data-warning">${t('cup_data_missing')}</span>`);
   }
 
   return `
@@ -365,7 +373,7 @@ function renderTeamCard(team, rank) {
 
         <div class="hair-metric">
           <div class="days-number days-${tc}">${daysStr}</div>
-          <div class="days-label">dagen</div>
+          <div class="days-label">${t('days')}</div>
         </div>
 
         <div class="team-details">
@@ -376,13 +384,13 @@ function renderTeamCard(team, rank) {
         </div>
 
         <div class="matches-since">
-          ${team.matches_since > 0 ? team.matches_since + " wedstrijden" : "Actieve reeks!"}
+          ${team.matches_since > 0 ? team.matches_since + " " + t('matches') : t('active_streak')}
         </div>
 
-        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}', '${team.slug || ''}')" title="Delen">&#8599;</button>
+        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}', '${team.slug || ''}')" title="${t('share')}">&#8599;</button>
       </div>
       <div class="match-detail" style="display:none">
-        <div class="detail-loading">Laden...</div>
+        <div class="detail-loading">${t('loading')}</div>
       </div>
     </div>
   `;
@@ -397,7 +405,7 @@ function renderIndex(data) {
   currentPage = 1;
 
   if (!teams || teams.length === 0) {
-    container.innerHTML = `<div class="error">Geen data beschikbaar.</div>`;
+    container.innerHTML = `<div class="error">${t('no_data_available')}</div>`;
     return;
   }
 
@@ -414,24 +422,28 @@ function renderIndex(data) {
     container.innerHTML += `
       <div class="load-more" id="load-more">
         <button onclick="loadMoreTeams()" class="load-more-btn">
-          Meer teams laden (${teams.length - pageSize} remaining)
+          ${t('load_more_teams')} (${teams.length - pageSize} ${t('remaining')})
         </button>
       </div>`;
   }
 
   const genDate = data.generated_at
-    ? new Date(data.generated_at).toLocaleDateString("nl-NL", {
+    ? new Date(data.generated_at).toLocaleDateString(currentLocale(), {
         day: "numeric",
         month: "long",
         year: "numeric",
         hour: "2-digit",
         minute: "2-digit",
       })
-    : "onbekend";
+    : t('unknown');
 
-  document.getElementById("updated").textContent = `Bijgewerkt: ${genDate}`;
-  const footerDate = document.getElementById("footer-date");
-  if (footerDate) footerDate.textContent = genDate;
+  document.getElementById("updated").textContent = `${t('updated')} ${genDate}`;
+
+  // Update footer with translated text
+  const footerInspiration = document.getElementById("footer-inspiration");
+  if (footerInspiration) footerInspiration.textContent = t('footer_inspiration');
+  const footerNotes = document.getElementById("footer-notes");
+  if (footerNotes) footerNotes.innerHTML = `${t('footer_note')}<br>${t('data_source_updated')} ${genDate}.`;
 
   renderWatchCards(teams);
 }
@@ -472,7 +484,7 @@ async function loadData(league) {
     console.error("Failed to load data:", err);
     document.getElementById("index-table").innerHTML = `
       <div class="error">
-        Kon data niet laden. Zorg dat <code>${config.file}</code> bestaat.<br>
+        ${t('could_not_load')}. ${t('ensure_file_exists')} <code>${config.file}</code> ${t('exists')}<br>
         <small>${escapeHtml(err.message)}</small>
       </div>
     `;
@@ -522,7 +534,7 @@ async function toggleDetail(cardEl) {
           }
         }
       } else {
-        detail.innerHTML = `<p class="no-matches">Kon wedstrijddata niet laden.</p>`;
+        detail.innerHTML = `<p class="no-matches">${t('could_not_load_team')}</p>`;
       }
     }
   }
@@ -550,7 +562,7 @@ function loadMoreTeams() {
     container.innerHTML += `
       <div class="load-more" id="load-more">
         <button onclick="loadMoreTeams()" class="load-more-btn">
-          Meer teams laden (${remaining} remaining)
+          ${t('load_more_teams')} (${remaining} ${t('remaining')})
         </button>
       </div>`;
   }
@@ -572,11 +584,11 @@ function renderWatchCards(teams) {
   const container = document.getElementById("watch-cards");
   if (!section || !container) return;
 
-  const watchTeams = teams.filter((t) => {
-    if (!t.current_form || t.current_form.length === 0) return false;
-    if (t.days_since === null || t.days_since === undefined) return false;
-    if (t.days_since <= 60) return false;
-    return getConsecutiveWins(t.current_form) >= 3;
+  const watchTeams = teams.filter((tm) => {
+    if (!tm.current_form || tm.current_form.length === 0) return false;
+    if (tm.days_since === null || tm.days_since === undefined) return false;
+    if (tm.days_since <= 60) return false;
+    return getConsecutiveWins(tm.current_form) >= 3;
   });
 
   if (watchTeams.length === 0) {
@@ -586,28 +598,28 @@ function renderWatchCards(teams) {
 
   section.style.display = "block";
   container.innerHTML = watchTeams
-    .map((t) => {
-      const streak = getConsecutiveWins(t.current_form);
+    .map((tm) => {
+      const streak = getConsecutiveWins(tm.current_form);
       const toGo = 5 - streak;
-      const logo = getLogoUrl(t.team);
-      const leagueFlag = t.league_flag || "";
-      const daysStr = t.days_since ? t.days_since.toLocaleString("nl-NL") : "???";
+      const logo = getLogoUrl(tm.team);
+      const leagueFlag = tm.league_flag || "";
+      const daysStr = tm.days_since ? tm.days_since.toLocaleString(currentLocale()) : "???";
       const label = toGo > 0
-        ? `nog <strong>${toGo}</strong> te gaan!`
-        : `<strong>Klaar voor de schaar!</strong>`;
+        ? t('x_more_to_go', { n: `<strong>${toGo}</strong>` })
+        : `<strong>${t('ready_for_scissors')}</strong>`;
       return `
-        <div class="watch-card" onclick="toggleWatchDetail(this, ${t.team_id})">
+        <div class="watch-card" onclick="toggleWatchDetail(this, ${tm.team_id})">
           <div class="watch-header">
             ${logo ? `<img src="${logo}" class="watch-logo" alt="" onerror="this.style.display='none'">` : ""}
             <div>
-              <div class="watch-team-name">${leagueFlag} ${escapeHtml(t.team)}</div>
-              <div class="watch-days">${daysStr} dagen</div>
+              <div class="watch-team-name">${leagueFlag} ${escapeHtml(tm.team)}</div>
+              <div class="watch-days">${daysStr} ${t('days')}</div>
             </div>
           </div>
-          <div class="watch-streak-badge">${streak}x <span class="watch-streak-label">op rij</span></div>
+          <div class="watch-streak-badge">${streak}x <span class="watch-streak-label">${t('in_a_row')}</span></div>
           <div class="watch-remaining">${label}</div>
           <div class="watch-detail" style="display:none">
-            <div class="watch-loading">Laden...</div>
+            <div class="watch-loading">${t('loading')}</div>
           </div>
         </div>`;
     }).join("");
@@ -650,7 +662,7 @@ async function toggleWatchDetail(cardEl, teamId) {
         }).join("");
 
         // Find fixture for this team
-        let nextMatchHtml = `<span class="watch-next-label">Volgende wedstrijd bepaalt alles!</span>`;
+        let nextMatchHtml = `<span class="watch-next-label">${t('next_match')}</span>`;
         if (fixturesData && teamData.team) {
           const fix = fixturesData[teamData.team];
           if (fix) {
@@ -658,7 +670,7 @@ async function toggleWatchDetail(cardEl, teamId) {
             const ha = fix.home_away === "H" ? "🏠" : "✈️";
             const fixDate = formatDateShort(fix.date);
             nextMatchHtml = `
-              <span class="watch-next-label">Volgende wedstrijd:</span>
+              <span class="watch-next-label">${t('next_match_label')}</span>
               <div class="watch-match watch-next-match">
                 <span class="watch-match-date">${fixDate}</span>
                 ${fixLogo ? `<img src="${fixLogo}" class="watch-match-logo" alt="" onerror="this.style.display='none'">` : ""}
@@ -668,14 +680,14 @@ async function toggleWatchDetail(cardEl, teamId) {
         }
 
         detail.innerHTML = `
-          <div class="watch-matches-title">De streak:</div>
+          <div class="watch-matches-title">${t('the_streak_label')}</div>
           ${matchRows}
           <div class="watch-next">
             ${nextMatchHtml}
           </div>
         `;
       } else {
-        detail.innerHTML = `<div class="watch-no-data">Geen details beschikbaar</div>`;
+        detail.innerHTML = `<div class="watch-no-data">${t('no_details')}</div>`;
       }
     }
   }
@@ -685,10 +697,10 @@ async function toggleWatchDetail(cardEl, teamId) {
 
 async function shareTeam(event, teamName, days, emoji, teamSlug) {
   event.stopPropagation();
-  const daysStr = days !== null && days !== undefined ? days.toLocaleString("nl-NL") : "???";
+  const daysStr = days !== null && days !== undefined ? days.toLocaleString(currentLocale()) : "???";
   const leagueSlug = CODE_TO_SLUG[currentLeague] || 'eredivisie';
   const leagueName = LEAGUES[currentLeague]?.name || 'Eredivisie';
-  const text = `${emoji} ${teamName} heeft al ${daysStr} dagen geen 5x op rij gewonnen! #HairLengthIndex #${leagueName.replace(/\s+/g, '')}`;
+  const text = `${emoji} ${t('share_text', { team: teamName, days: daysStr })} #HairLengthIndex #${leagueName.replace(/\s+/g, '')}`;
   const url = `https://wijnandb.github.io/hair-length-index/#/${leagueSlug}/${teamSlug || ''}`;
 
   // Try native share first, then WhatsApp, then clipboard
@@ -735,14 +747,14 @@ async function renderTeamPage(leagueCode, teamSlug) {
     }
     const team = data.teams.find(t => t.slug === teamSlug);
     if (!team) {
-      document.getElementById("index-table").innerHTML = `<div class="error">Team niet gevonden.</div>`;
+      document.getElementById("index-table").innerHTML = `<div class="error">${t('team_not_found')}</div>`;
       return;
     }
 
     // Update meta
     updateMeta(
       `${team.team} — Hair Length Index`,
-      `${team.team}: ${team.days_since ?? '???'} dagen sinds 5x winst op rij`
+      `${team.team}: ${team.days_since ?? '???'} ${t('days_since_no_5_wins')}`
     );
 
     // Update badge and tabs
@@ -777,26 +789,62 @@ async function renderTeamPage(leagueCode, teamSlug) {
     }
   } catch (err) {
     console.error("Failed to load team page:", err);
-    document.getElementById("index-table").innerHTML = `<div class="error">Kon team niet laden.</div>`;
+    document.getElementById("index-table").innerHTML = `<div class="error">${t('could_not_load_team_page')}</div>`;
   }
 }
 
 // === Route Handler ===
 
+function applyLanguage(leagueCode) {
+  if (typeof I18N !== 'undefined') {
+    I18N.setLangForLeague(leagueCode);
+  }
+  // Update subtitle
+  const subtitle = document.querySelector('.subtitle');
+  if (subtitle) subtitle.textContent = t('subtitle');
+  // Update watch heading
+  const watchHeading = document.getElementById('watch-heading');
+  if (watchHeading) watchHeading.textContent = t('almost_haircut');
+  // Update html lang attribute
+  const html = document.documentElement;
+  if (html && typeof I18N !== 'undefined') html.lang = I18N.getLang();
+  // Update language picker active state
+  document.querySelectorAll('.lang-link').forEach(link => {
+    link.classList.toggle('active', typeof I18N !== 'undefined' && link.dataset.lang === I18N.getLang());
+  });
+}
+
 function handleRoute(route) {
+  const leagueCode = route.league || 'DED';
+  applyLanguage(leagueCode);
+
   if (route.view === 'team') {
     renderTeamPage(route.league, route.teamSlug);
   } else if (route.view === 'league') {
     loadData(route.league);
     updateMeta(
       `Hair Length Index — ${LEAGUES[route.league]?.name || route.league}`,
-      `Hoelang geleden won jouw club 5x op een rij? ${LEAGUES[route.league]?.name || ''}`
+      `${t('subtitle')} ${LEAGUES[route.league]?.name || ''}`
     );
   } else {
     // Home — default to Eredivisie
     loadData('DED');
-    updateMeta("Hair Length Index", "Hoelang geleden won jouw club 5x op een rij?");
+    updateMeta("Hair Length Index", t('subtitle'));
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => initRouter(handleRoute));
+document.addEventListener("DOMContentLoaded", () => {
+  // Language picker click handler
+  document.querySelectorAll('.lang-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (typeof I18N !== 'undefined') {
+        I18N.setLang(link.dataset.lang);
+        // Re-trigger current route to re-render with new language
+        handleRoute(parseHash());
+      }
+    });
+  });
+
+  initRouter(handleRoute);
+});
