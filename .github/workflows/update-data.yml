@@ -61,7 +61,10 @@ jobs:
         continue-on-error: true
         run: |
           MODE="${{ github.event.inputs.mode || 'daily' }}"
-          python -m scripts.fetch_matches --mode "$MODE" --league DED
+          for LEAGUE in DED PL BL1 SA PD FL1; do
+            echo "--- Fetching $LEAGUE ---"
+            python -m scripts.fetch_matches --mode "$MODE" --league "$LEAGUE"
+          done
 
       - name: Import historical CSV data (football-data.co.uk)
         continue-on-error: true
@@ -76,15 +79,23 @@ jobs:
           github.event.inputs.fill_gaps != 'false'
           && env.API_FOOTBALL_API_KEY != ''
         continue-on-error: true
-        run: python -m scripts.fill_gaps --mode fill --league DED
+        run: |
+          for LEAGUE in DED PL BL1 SA PD FL1; do
+            echo "--- Filling gaps for $LEAGUE ---"
+            python -m scripts.fill_gaps --mode fill --league "$LEAGUE"
+          done
 
       # --- Processing (always runs with whatever data we have) ---
 
-      - name: Compute Eredivisie streaks
-        run: python -m scripts.compute_streaks --league DED --json
-
-      - name: Compute Eerste Divisie streaks
-        run: python -m scripts.compute_streaks --league JE --json --output data/hair-index-je.json
+      - name: Compute streaks (all leagues)
+        run: |
+          python -m scripts.compute_streaks --league DED --json
+          python -m scripts.compute_streaks --league JE --json --output data/hair-index-je.json
+          python -m scripts.compute_streaks --league PL --json --output data/hair-index-pl.json
+          python -m scripts.compute_streaks --league BL1 --json --output data/hair-index-bl.json
+          python -m scripts.compute_streaks --league PD --json --output data/hair-index-ll.json
+          python -m scripts.compute_streaks --league SA --json --output data/hair-index-sa.json
+          python -m scripts.compute_streaks --league FL1 --json --output data/hair-index-l1.json
 
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short
