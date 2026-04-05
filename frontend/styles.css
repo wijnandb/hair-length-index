@@ -226,6 +226,14 @@ main {
   min-width: 0;
 }
 
+a.team-name {
+  text-decoration: none;
+  color: inherit;
+}
+a.team-name:hover {
+  text-decoration: underline;
+}
+
 .tier-badge {
   font-size: 0.65rem;
   font-weight: 700;

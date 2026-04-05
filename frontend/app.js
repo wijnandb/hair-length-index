@@ -304,7 +304,7 @@ function renderTeamCard(team, rank) {
         </div>
 
         <div class="team-info">
-          <span class="team-name">${escapeHtml(team.team)}</span>
+          <a class="team-name" href="${teamUrl(currentLeague, team.slug || '')}" onclick="event.stopPropagation()">${escapeHtml(team.team)}</a>
           ${team.league_flag ? `<span class="league-flag" title="${escapeHtml(team.league_name || '')}">${team.league_flag}</span>` : ""}
           <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(team.hair_tier)}</span>
         </div>
@@ -325,7 +325,7 @@ function renderTeamCard(team, rank) {
           ${team.matches_since > 0 ? team.matches_since + " wedstrijden" : "Actieve reeks!"}
         </div>
 
-        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}')" title="Delen">&#8599;</button>
+        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}', '${team.slug || ''}')" title="Delen">&#8599;</button>
       </div>
       <div class="match-detail" style="display:none">
         <div class="detail-loading">Laden...</div>
@@ -404,7 +404,7 @@ async function loadData(league) {
       tab.classList.toggle("active", tab.dataset.league === currentLeague);
     });
     // Update badge
-    const badge = document.querySelector(".league-badge");
+    const badge = document.getElementById("league-badge");
     if (badge) badge.textContent = `${config.name} 2025-26`;
   } catch (err) {
     console.error("Failed to load data:", err);
@@ -621,11 +621,13 @@ async function toggleWatchDetail(cardEl, teamId) {
 
 // === Social Sharing ===
 
-async function shareTeam(event, teamName, days, emoji) {
+async function shareTeam(event, teamName, days, emoji, teamSlug) {
   event.stopPropagation();
   const daysStr = days !== null && days !== undefined ? days.toLocaleString("nl-NL") : "???";
-  const text = `${emoji} ${teamName} heeft al ${daysStr} dagen geen 5x op rij gewonnen! #HairLengthIndex #Eredivisie`;
-  const url = "https://wijnandb.github.io/hair-length-index/";
+  const leagueSlug = CODE_TO_SLUG[currentLeague] || 'eredivisie';
+  const leagueName = LEAGUES[currentLeague]?.name || 'Eredivisie';
+  const text = `${emoji} ${teamName} heeft al ${daysStr} dagen geen 5x op rij gewonnen! #HairLengthIndex #${leagueName.replace(/\s+/g, '')}`;
+  const url = `https://wijnandb.github.io/hair-length-index/#/${leagueSlug}/${teamSlug || ''}`;
 
   // Try native share first, then WhatsApp, then clipboard
   if (navigator.share) {
@@ -650,4 +652,80 @@ async function shareTeam(event, teamName, days, emoji) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", loadData);
+// === Team Page (full page for #/{league}/{team}) ===
+
+async function renderTeamPage(leagueCode, teamSlug) {
+  // First load league data to find the team
+  const config = LEAGUES[leagueCode];
+  if (!config) return;
+  try {
+    const resp = await fetch(config.file);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    const team = data.teams.find(t => t.slug === teamSlug);
+    if (!team) {
+      document.getElementById("index-table").innerHTML = `<div class="error">Team niet gevonden.</div>`;
+      return;
+    }
+
+    // Update meta
+    updateMeta(
+      `${team.team} — Hair Length Index`,
+      `${team.team}: ${team.days_since ?? '???'} dagen sinds 5x winst op rij`
+    );
+
+    // Update badge and tabs
+    document.querySelectorAll(".league-tab").forEach(tab =>
+      tab.classList.toggle("active", tab.dataset.league === leagueCode)
+    );
+    const badge = document.getElementById("league-badge");
+    if (badge) badge.innerHTML = `<a href="${leagueUrl(leagueCode)}" style="color:inherit;text-decoration:none">&larr; ${config.name}</a>`;
+
+    // Hide watch section
+    const watchSection = document.getElementById("watch-section");
+    if (watchSection) watchSection.style.display = "none";
+
+    // Render team card + auto-expand detail
+    const container = document.getElementById("index-table");
+    const rank = data.teams.indexOf(team) + 1;
+    container.innerHTML = renderTeamCard(team, rank);
+
+    // Auto-load detail
+    const teamData = await loadTeamDetail(team.team_id);
+    const detail = container.querySelector(".match-detail");
+    if (detail && teamData) {
+      detail.style.display = "block";
+      detail.innerHTML = renderGrowthStrip(teamData) + renderStreakDetail(teamData) + renderMatchTable(teamData);
+      container.querySelector(".team-card")?.classList.add("expanded");
+      // Scroll to streak
+      const streakEl = detail.querySelector('[data-streak-start="true"]');
+      if (streakEl) {
+        const strip = detail.querySelector(".growth-strip");
+        if (strip) strip.scrollLeft = streakEl.offsetLeft - strip.offsetWidth / 2;
+      }
+    }
+  } catch (err) {
+    console.error("Failed to load team page:", err);
+    document.getElementById("index-table").innerHTML = `<div class="error">Kon team niet laden.</div>`;
+  }
+}
+
+// === Route Handler ===
+
+function handleRoute(route) {
+  if (route.view === 'team') {
+    renderTeamPage(route.league, route.teamSlug);
+  } else if (route.view === 'league') {
+    loadData(route.league);
+    updateMeta(
+      `Hair Length Index — ${LEAGUES[route.league]?.name || route.league}`,
+      `Hoelang geleden won jouw club 5x op een rij? ${LEAGUES[route.league]?.name || ''}`
+    );
+  } else {
+    // Home — default to Eredivisie
+    loadData('DED');
+    updateMeta("Hair Length Index", "Hoelang geleden won jouw club 5x op een rij?");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => initRouter(handleRoute));

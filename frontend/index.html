@@ -28,17 +28,16 @@
 
   <main>
     <div class="controls">
-      <div class="league-tabs">
-        <button class="league-tab" data-league="ALL" onclick="loadData('ALL')">All Leagues</button>
-        <button class="league-tab active" data-league="DED" onclick="loadData('DED')">Eredivisie</button>
-        <button class="league-tab" data-league="JE" onclick="loadData('JE')">Eerste Divisie</button>
-        <button class="league-tab" data-league="PL" onclick="loadData('PL')">Premier League</button>
-        <button class="league-tab" data-league="BL" onclick="loadData('BL')">Bundesliga</button>
-        <button class="league-tab" data-league="LL" onclick="loadData('LL')">La Liga</button>
-        <button class="league-tab" data-league="SA" onclick="loadData('SA')">Serie A</button>
-        <button class="league-tab" data-league="L1" onclick="loadData('L1')">Ligue 1</button>
-      </div>
-      <div class="league-badge">Eredivisie 2025-26</div>
+      <nav class="league-tabs">
+        <a class="league-tab" data-league="DED" href="#/eredivisie">Eredivisie</a>
+        <a class="league-tab" data-league="JE" href="#/eerste-divisie">Eerste Divisie</a>
+        <a class="league-tab" data-league="PL" href="#/premier-league">Premier League</a>
+        <a class="league-tab" data-league="BL" href="#/bundesliga">Bundesliga</a>
+        <a class="league-tab" data-league="LL" href="#/la-liga">La Liga</a>
+        <a class="league-tab" data-league="SA" href="#/serie-a">Serie A</a>
+        <a class="league-tab" data-league="L1" href="#/ligue-1">Ligue 1</a>
+      </nav>
+      <div class="league-badge" id="league-badge"></div>
       <div class="updated" id="updated"></div>
     </div>
 
@@ -63,6 +62,7 @@
     </footer>
   </main>
 
+  <script src="router.js"></script>
   <script src="app.js"></script>
   <script src="https://analytics.perceptum.nl/liveview.js?key=lv_live__lZ1WQQ3gRJ6UK_2jPfyzxUmm4tMkJHk" defer></script>
 </body>

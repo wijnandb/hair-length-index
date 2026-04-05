@@ -3,6 +3,8 @@
 import argparse
 import json
 import logging
+import re
+import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 
@@ -28,6 +30,15 @@ def _is_cup_by_name(comp_name: str | None) -> bool:
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
+
+
+def slugify(name: str) -> str:
+    """Convert team name to URL-friendly slug."""
+    # Normalize unicode (ö→o, é→e, etc.)
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return s.strip("-")
 
 
 def _team_result(match, team_id: int, result_field: str = "result_90min") -> str | None:
@@ -277,6 +288,7 @@ def compute_index(league: str = MVP_LEAGUE, threshold: int = STREAK_THRESHOLD) -
         entry = {
             "team": team["name"],
             "team_id": team["id"],
+            "slug": slugify(team["name"]),
             "short_name": team["short_name"],
             "crest_url": team["crest_url"],
             # Primary index (final results — winning is winning)
