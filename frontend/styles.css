@@ -289,6 +289,12 @@ a.team-name:hover {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+.days-human {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 0.1rem;
+  font-style: italic;
+}
 
 /* Details row (below team info) */
 .team-details {

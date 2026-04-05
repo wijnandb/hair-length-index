@@ -5,6 +5,17 @@
  * Clicking a team loads per-team match data and shows the "hair growth strip."
  */
 
+function daysToHuman(days) {
+  if (!days || days <= 365) return '';
+  const years = Math.floor(days / 365);
+  const months = Math.floor((days % 365) / 30);
+  if (years >= 1 && months > 0) {
+    return `${years} ${t(years === 1 ? 'year' : 'years')} ${t('and')} ${months} ${t(months === 1 ? 'month' : 'months')}`;
+  }
+  if (years >= 1) return `${years} ${t(years === 1 ? 'year' : 'years')}`;
+  return `${months} ${t(months === 1 ? 'month' : 'months')}`;
+}
+
 function slugify(name) {
   return name.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
     .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -429,6 +440,7 @@ function renderTeamCard(team, rank) {
         <div class="hair-metric">
           <div class="days-number days-${tc}">${daysStr}</div>
           <div class="days-label">${t('days')}</div>
+          ${team.days_since > 365 ? `<div class="days-human">${daysToHuman(team.days_since)}</div>` : ''}
         </div>
 
         <div class="team-details">

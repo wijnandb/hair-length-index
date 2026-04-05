@@ -296,6 +296,12 @@ const I18N = (() => {
     points: {
       nl: 'Ptn', en: 'Pts', de: 'Pkt', es: 'Pts', it: 'Pti', fr: 'Pts',
     },
+    // Duration
+    year: { nl: 'jaar', en: 'year', de: 'Jahr', es: 'año', it: 'anno', fr: 'an' },
+    years: { nl: 'jaar', en: 'years', de: 'Jahre', es: 'años', it: 'anni', fr: 'ans' },
+    month: { nl: 'maand', en: 'month', de: 'Monat', es: 'mes', it: 'mese', fr: 'mois' },
+    months: { nl: 'maanden', en: 'months', de: 'Monate', es: 'meses', it: 'mesi', fr: 'mois' },
+    and: { nl: 'en', en: 'and', de: 'und', es: 'y', it: 'e', fr: 'et' },
     // Hair tier names
     tier_fresh_cut: {
       nl: 'Vers geknipt', en: 'Fresh cut', de: 'Frisch geschnitten', es: 'Recién cortado', it: 'Appena tagliato', fr: 'Fraîchement coupé',
