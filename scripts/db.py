@@ -167,6 +167,15 @@ def init_db(conn) -> None:
         CREATE INDEX IF NOT EXISTS idx_matches_away_team ON matches(away_team_id, date);
         CREATE INDEX IF NOT EXISTS idx_matches_date ON matches(date);
         CREATE INDEX IF NOT EXISTS idx_matches_competition ON matches(competition_id, season);
+
+        CREATE TABLE IF NOT EXISTS team_id_map (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            team_id INTEGER NOT NULL REFERENCES teams(id),
+            source TEXT NOT NULL,
+            source_team_id TEXT NOT NULL,
+            source_team_name TEXT,
+            UNIQUE(source, source_team_id)
+        );
     """)
     conn.commit()
 
@@ -263,6 +272,80 @@ def set_football_data_id(conn, team_id: int, fd_id: int) -> None:
 def set_api_football_id(conn, team_id: int, af_id: int) -> None:
     """Set the API-Football ID for a team."""
     conn.execute("UPDATE teams SET api_football_id = ? WHERE id = ?", (af_id, team_id))
+
+
+def add_team_mapping(conn, team_id: int, source: str, source_team_id, source_team_name: str = None) -> None:
+    """Add a source ID mapping for a team. Silently skips if already exists."""
+    try:
+        if isinstance(conn, PgConnectionWrapper):
+            conn.execute(
+                "INSERT INTO team_id_map (team_id, source, source_team_id, source_team_name) "
+                "VALUES (?, ?, ?, ?) ON CONFLICT (source, source_team_id) DO NOTHING",
+                (team_id, source, str(source_team_id), source_team_name)
+            )
+        else:
+            conn.execute(
+                "INSERT OR IGNORE INTO team_id_map (team_id, source, source_team_id, source_team_name) "
+                "VALUES (?, ?, ?, ?)",
+                (team_id, source, str(source_team_id), source_team_name)
+            )
+    except Exception:
+        pass
+
+
+def resolve_team_from_source(conn, source: str, source_id, name: str, resolve_name_fn=None) -> int:
+    """Resolve a team from a source ID. The single entry point for team resolution.
+
+    1. Check team_id_map for (source, source_id)
+    2. Check name aliases via resolve_name_fn
+    3. Create new team if not found (foreign opponent)
+
+    Always adds the mapping to team_id_map for future lookups.
+    """
+    # 1. Mapping table lookup
+    row = conn.execute(
+        "SELECT team_id FROM team_id_map WHERE source = ? AND source_team_id = ?",
+        (source, str(source_id))
+    ).fetchone()
+    if row:
+        return row["team_id"]
+
+    # 2. Name-based lookup (with alias resolution)
+    canonical = resolve_name_fn(name) if resolve_name_fn else name
+    team = find_team_by_name(conn, canonical)
+    if not team and canonical != name:
+        team = find_team_by_name(conn, name)
+    if team:
+        add_team_mapping(conn, team["id"], source, source_id, name)
+        return team["id"]
+
+    # 3. Create new team (foreign opponent in CL/EL etc.)
+    new_id = upsert_team(conn, name=canonical)
+    add_team_mapping(conn, new_id, source, source_id, name)
+    return new_id
+
+
+def auto_discover_mapping(conn, source: str, date: str, known_team_id: int,
+                          unknown_source_id, unknown_name: str) -> int | None:
+    """If a match already exists from another source, map the unknown opponent.
+
+    When team A is known and plays team B on a given date, and we already have
+    a match for team A on that date, the opponent in that existing match must be
+    team B — even if the name differs across sources.
+    """
+    existing = conn.execute(
+        "SELECT home_team_id, away_team_id FROM matches "
+        "WHERE date = ? AND (home_team_id = ? OR away_team_id = ?)",
+        (date, known_team_id, known_team_id)
+    ).fetchone()
+
+    if existing:
+        other_id = (existing["away_team_id"]
+                    if existing["home_team_id"] == known_team_id
+                    else existing["home_team_id"])
+        add_team_mapping(conn, other_id, source, unknown_source_id, unknown_name)
+        return other_id
+    return None
 
 
 def upsert_match(conn, **kwargs) -> int | None:

@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       league:
-        description: "League code (DED, PL, BL, SA, LL, L1, JE)"
+        description: "League code (DED, PL, BL, SA, LL, L1)"
         required: true
         type: choice
-        options: [DED, PL, BL, SA, LL, L1, JE]
+        options: [DED, PL, BL, SA, LL, L1]
   workflow_call:
     inputs:
       league:
@@ -27,7 +27,6 @@ jobs:
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-      API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
 
     steps:
       - uses: actions/checkout@v5
