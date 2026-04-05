@@ -69,16 +69,6 @@
       "home_away": "A",
       "score": "2-1",
       "result": "W",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-15",
-      "opponent": "Real Oviedo",
-      "home_away": "A",
-      "score": "2-1",
-      "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -122,16 +112,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-28",
-      "opponent": "Sporting CP",
-      "home_away": "H",
-      "score": "2-3",
-      "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-28",
@@ -279,16 +259,6 @@
       "home_away": "A",
       "score": "0-0",
       "result": "D",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-25",
-      "opponent": "Slavia Praha",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -302,16 +272,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-09",
-      "opponent": "Real Oviedo",
-      "home_away": "H",
-      "score": "1-0",
-      "result": "W",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-09",
@@ -352,16 +312,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-10-22",
-      "opponent": "Qarabağ Ağdam",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-10-22",
@@ -3536,8 +3486,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 80,
-    "end_index": 85,
+    "start_index": 75,
+    "end_index": 80,
     "length": 6
   }
 }

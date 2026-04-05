@@ -139,16 +139,6 @@
       "home_away": "H",
       "score": "1-1",
       "result": "D",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-04",
-      "opponent": "Real Oviedo",
-      "home_away": "H",
-      "score": "1-1",
-      "result": "D",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -3066,8 +3056,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 135,
-    "end_index": 139,
+    "start_index": 134,
+    "end_index": 138,
     "length": 5
   }
 }

@@ -99,16 +99,6 @@
       "home_away": "H",
       "score": "3-2",
       "result": "W",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-17",
-      "opponent": "Real Oviedo",
-      "home_away": "H",
-      "score": "3-2",
-      "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -222,16 +212,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-03",
-      "opponent": "Real Oviedo",
-      "home_away": "A",
-      "score": "0-0",
-      "result": "D",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-03",
@@ -5536,8 +5516,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 421,
-    "end_index": 425,
+    "start_index": 419,
+    "end_index": 423,
     "length": 5
   }
 }

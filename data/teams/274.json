@@ -79,29 +79,9 @@
       "home_away": "A",
       "score": "1-0",
       "result": "W",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-02-28",
-      "opponent": "Real Oviedo",
-      "home_away": "A",
-      "score": "1-0",
-      "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-02-24",
-      "opponent": "Club Brugge",
-      "home_away": "H",
-      "score": "4-1",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-02-24",
@@ -122,16 +102,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-02-18",
-      "opponent": "Club Brugge",
-      "home_away": "A",
-      "score": "3-3",
-      "result": "D",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-02-18",
@@ -199,16 +169,6 @@
       "home_away": "H",
       "score": "1-2",
       "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2026-01-28",
-      "opponent": "Bodø/Glimt",
-      "home_away": "H",
-      "score": "1-2",
-      "result": "L",
       "competition": "Champions League",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -222,16 +182,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2026-01-21",
-      "opponent": "Galatasaray",
-      "home_away": "A",
-      "score": "1-1",
-      "result": "D",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2026-01-21",
@@ -349,16 +299,6 @@
       "home_away": "H",
       "score": "2-0",
       "result": "W",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-11-29",
-      "opponent": "Real Oviedo",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
@@ -392,16 +332,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-04",
-      "opponent": "Union SG",
-      "home_away": "H",
-      "score": "3-1",
-      "result": "W",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-04",
@@ -3826,8 +3756,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 7,
-    "end_index": 11,
-    "length": 5
+    "start_index": 29,
+    "end_index": 35,
+    "length": 7
   }
 }

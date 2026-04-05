@@ -175,16 +175,6 @@
     },
     {
       "date": "2025-12-10",
-      "opponent": "København",
-      "home_away": "H",
-      "score": "2-3",
-      "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
-    },
-    {
-      "date": "2025-12-10",
       "opponent": "FC Copenhagen",
       "home_away": "H",
       "score": "2-3",
@@ -252,16 +242,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-11-05",
-      "opponent": "Paphos FC",
-      "home_away": "A",
-      "score": "0-1",
-      "result": "L",
-      "competition": "UEFA Champions League",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-11-05",
@@ -412,16 +392,6 @@
       "competition": "Primera División 2025/2026",
       "decided_in": "REGULAR",
       "source": "worldfootball.net"
-    },
-    {
-      "date": "2025-08-15",
-      "opponent": "Real Oviedo",
-      "home_away": "H",
-      "score": "2-0",
-      "result": "W",
-      "competition": "Primera Division",
-      "decided_in": "REGULAR",
-      "source": "football-data.org"
     },
     {
       "date": "2025-08-15",
@@ -3616,8 +3586,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 40,
-    "end_index": 48,
-    "length": 9
+    "start_index": 38,
+    "end_index": 45,
+    "length": 8
   }
 }
