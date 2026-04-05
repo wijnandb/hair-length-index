@@ -1,4 +1,4 @@
-name: Update Hair Length Index
+name: Update All Leagues
 
 on:
   schedule:
@@ -11,65 +11,67 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "update-data"
-  cancel-in-progress: false
-
 jobs:
-  update:
+  # --- Fetch + compute per league (parallel) ---
+  update-ded:
+    uses: ./.github/workflows/update-league.yml
+    with:
+      league: DED
+    secrets: inherit
+
+  update-pl:
+    uses: ./.github/workflows/update-league.yml
+    with:
+      league: PL
+    secrets: inherit
+
+  update-bl:
+    uses: ./.github/workflows/update-league.yml
+    with:
+      league: BL
+    secrets: inherit
+
+  update-sa:
+    uses: ./.github/workflows/update-league.yml
+    with:
+      league: SA
+    secrets: inherit
+
+  update-ll:
+    uses: ./.github/workflows/update-league.yml
+    with:
+      league: LL
+    secrets: inherit
+
+  update-l1:
+    uses: ./.github/workflows/update-league.yml
+    with:
+      league: L1
+    secrets: inherit
+
+  # --- Generate global index + deploy (after all leagues) ---
+  deploy:
+    needs: [update-ded, update-pl, update-bl, update-sa, update-ll, update-l1]
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
+    concurrency:
+      group: "pages"
+      cancel-in-progress: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    env:
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-      API_FOOTBALL_API_KEY: ${{ secrets.API_FOOTBALL_API_KEY }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          ref: main  # Get latest (after league commits)
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      # --- Fetch new matches from APIs into Neon ---
-
-      - name: Fetch new match data
-        run: python -m scripts.daily_update
-
-      - name: Fetch league standings
-        run: python -m scripts.fetch_standings
-
-      # --- Compute streaks from Neon ---
-
-      - name: Compute Eredivisie streaks
-        run: python -m scripts.compute_streaks --league DED --json
-
-      - name: Compute Eerste Divisie streaks
-        run: python -m scripts.compute_streaks --league JE --json --output data/hair-index-je.json
-
-      - name: Compute Premier League streaks
-        run: python -m scripts.compute_streaks --league PL --json --output data/hair-index-pl.json
-
-      - name: Compute Bundesliga streaks
-        run: python -m scripts.compute_streaks --league BL --json --output data/hair-index-bl.json
-
-      - name: Compute La Liga streaks
-        run: python -m scripts.compute_streaks --league LL --json --output data/hair-index-ll.json
-
-      - name: Compute Serie A streaks
-        run: python -m scripts.compute_streaks --league SA --json --output data/hair-index-sa.json
-
-      - name: Compute Ligue 1 streaks
-        run: python -m scripts.compute_streaks --league L1 --json --output data/hair-index-l1.json
+      - run: pip install -r requirements.txt
 
       - name: Generate global index
         run: |
@@ -100,28 +102,12 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short
 
-      # --- Commit updated data ---
-
-      - name: Check for changes
-        id: changes
-        run: |
-          if git diff --quiet data/ 2>/dev/null; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit and push updated data
-        if: steps.changes.outputs.changed == 'true'
+      - name: Commit global data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hair-index*.json data/standings-*.json data/fan-data.json data/teams/
-          git commit -m "Update Hair Length Index data $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main
-          git push
-
-      # --- Deploy to GitHub Pages ---
+          git add data/hair-index-global.json data/fan-data.json
+          git diff --cached --quiet && echo "No changes" || (git commit -m "Update global index $(date -u +%Y-%m-%d)" && git pull --rebase origin main && git push)
 
       - name: Prepare site
         run: |

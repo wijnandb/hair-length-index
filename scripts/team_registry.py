@@ -204,6 +204,17 @@ ALIASES = {
     "HSV": "Hamburger SV",
     "Hamburg": "Hamburger SV",
     "SC Heerenveen": "Heerenveen",
+    # Italian name variants (worldfootball.net short names)
+    "Sassuolo": "Sassuolo Calcio",
+    "Bologna": "Bologna FC",
+    "Napoli": "SSC Napoli",
+    "Lazio": "Lazio Roma",
+    "Udinese": "Udinese Calcio",
+    "Fiorentina": "ACF Fiorentina",
+    "Roma": "AS Roma",
+    "Lecce": "US Lecce",
+    "Parma": "Parma Calcio 1913",
+    "Cagliari": "Cagliari Calcio",
 }
 
 
