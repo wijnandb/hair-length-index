@@ -46,6 +46,9 @@ class PgConnectionWrapper:
     def commit(self):
         self._conn.commit()
 
+    def rollback(self):
+        self._conn.rollback()
+
     def close(self):
         self._conn.close()
 
@@ -171,8 +174,10 @@ def init_db(conn) -> None:
 def upsert_team(conn, **kwargs) -> int:
     """Insert or update a team. Looks up by football_data_id, api_football_id,
     wf_slug, or name (in that order). Returns the internal team ID."""
-    updatable = (
-        "name", "short_name", "country", "crest_url", "current_league",
+    # When updating an existing team found by external ID, skip name/current_league
+    # to avoid UNIQUE(name, current_league) conflicts from differing API names.
+    update_safe = (
+        "short_name", "country", "crest_url",
         "wf_slug", "wf_id", "football_data_id", "api_football_id",
     )
 
@@ -190,7 +195,7 @@ def upsert_team(conn, **kwargs) -> int:
     if row:
         updates = []
         values = []
-        for key in updatable:
+        for key in update_safe:
             if key in kwargs and kwargs[key] is not None:
                 updates.append(f"{key} = ?")
                 values.append(kwargs[key])
@@ -209,11 +214,21 @@ def upsert_team(conn, **kwargs) -> int:
 
     if isinstance(conn, PgConnectionWrapper):
         col_str = ", ".join(cols)
-        cursor = conn.execute(
-            f"INSERT INTO teams ({col_str}) VALUES ({placeholders}) RETURNING id", values
-        )
-        conn.commit()
-        return cursor.fetchone()["id"]
+        try:
+            cursor = conn.execute(
+                f"INSERT INTO teams ({col_str}) VALUES ({placeholders}) RETURNING id", values
+            )
+            conn.commit()
+            return cursor.fetchone()["id"]
+        except Exception:
+            conn.rollback()
+            # Name collision — try to find by name instead
+            name = kwargs.get("name")
+            if name:
+                existing = find_team_by_name(conn, name)
+                if existing:
+                    return existing["id"]
+            raise
     else:
         cursor = conn.execute(
             f"INSERT INTO teams ({', '.join(cols)}) VALUES ({placeholders})", values
@@ -273,7 +288,7 @@ def upsert_match(conn, **kwargs) -> int | None:
             row = cursor.fetchone()
             return row["id"] if row else None
         except Exception:
-            conn.commit()
+            conn.rollback()
             return None
     else:
         try:

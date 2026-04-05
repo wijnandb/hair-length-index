@@ -21,12 +21,12 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger(__name__)
 
 TIER_THRESHOLDS = [
-    (14, 1, "Vers geknipt"),
-    (60, 2, "Groeit terug"),
-    (120, 3, "Wordt slordig"),
-    (270, 4, "Lang & wild"),
-    (500, 5, "Holbewoner"),
-    (99999, 6, "Sasquatch"),
+    (45, 1, "Vers geknipt"),       # ~6 weeks, realistic post-streak glow
+    (120, 2, "Groeit terug"),      # ~4 months
+    (270, 3, "Wordt slordig"),     # ~9 months
+    (500, 4, "Lang & wild"),       # ~1.5 years
+    (1000, 5, "Holbewoner"),       # ~2.7 years
+    (99999, 6, "Sasquatch"),       # 2.7+ years
 ]
 
 

@@ -411,6 +411,10 @@ def run_daily_update(dry_run: bool = False):
                                    status="COMPLETE")
             except Exception as e:
                 log.error(f"Error fetching {league} from FD: {e}")
+                try:
+                    conn.rollback()
+                except Exception:
+                    pass
 
         # Per-team fetch for CL/EL matches (teams in FD-covered leagues)
         date_from = f"{season}-07-01"
@@ -418,13 +422,7 @@ def run_daily_update(dry_run: bool = False):
         for league in ["DED", "PL", "BL1", "SA", "PD", "FL1"]:
             teams = get_all_teams(conn, league=league)
             for t in teams:
-                fd_id = t.get("football_data_id") if hasattr(t, "get") else None
-                if not fd_id:
-                    # Try column access
-                    try:
-                        fd_id = t["football_data_id"]
-                    except (KeyError, TypeError):
-                        continue
+                fd_id = t["football_data_id"]
                 if not fd_id:
                     continue
                 try:
@@ -432,6 +430,10 @@ def run_daily_update(dry_run: bool = False):
                     total_new += new
                 except Exception as e:
                     log.warning(f"Error fetching team {t['name']} (fd={fd_id}): {e}")
+                    try:
+                        conn.rollback()
+                    except Exception:
+                        pass
     else:
         log.warning("FOOTBALL_DATA_API_KEY not set — skipping football-data.org leagues")
 
@@ -447,14 +449,15 @@ def run_daily_update(dry_run: bool = False):
                 total_new += new
             except Exception as e:
                 log.error(f"Error fetching {league} from AF: {e}")
+                try:
+                    conn.rollback()
+                except Exception:
+                    pass
 
         # Per-team fetch for JE teams (cup matches)
         je_teams = get_all_teams(conn, league="JE")
         for t in je_teams:
-            try:
-                af_id = t["api_football_id"]
-            except (KeyError, TypeError):
-                continue
+            af_id = t["api_football_id"]
             if not af_id:
                 continue
             try:
@@ -462,14 +465,15 @@ def run_daily_update(dry_run: bool = False):
                 total_new += new
             except Exception as e:
                 log.warning(f"Error fetching JE team {t['name']} (af={af_id}): {e}")
+                try:
+                    conn.rollback()
+                except Exception:
+                    pass
 
         # Also fetch Dutch cup matches for Eredivisie teams via AF
         ded_teams = get_all_teams(conn, league="DED")
         for t in ded_teams:
-            try:
-                af_id = t["api_football_id"]
-            except (KeyError, TypeError):
-                continue
+            af_id = t["api_football_id"]
             if not af_id:
                 continue
             try:
@@ -477,6 +481,10 @@ def run_daily_update(dry_run: bool = False):
                 total_new += new
             except Exception as e:
                 log.warning(f"Error fetching DED team {t['name']} cups (af={af_id}): {e}")
+                try:
+                    conn.rollback()
+                except Exception:
+                    pass
 
         log.info(f"API-Football requests used: {af_client.requests_used}")
     else:

@@ -41,8 +41,8 @@ interface ReelData {
 interface Props {
   data: ReelData;
   framesPerMatch: number;
-  hookDuration: number; // frames for opening hook
-  punchlineDuration: number; // frames for closing punchline
+  hookDuration: number;
+  punchlineDuration: number;
 }
 
 // === Constants ===
@@ -56,16 +56,9 @@ const TIER_IMAGES: Record<number, string> = {
   6: staticFile("supporters/hli-tier6.png"),
 };
 
-const TIER_LABELS: Record<number, string> = {
-  1: "Vers geknipt",
-  2: "Groeit terug",
-  3: "Wordt slordig",
-  4: "Lang & wild",
-  5: "Holbewoner",
-  6: "Sasquatch",
-};
+const MONTHS_NL = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"];
+const MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-// Punchlines — the absurdity of tracking something this mundane
 const PUNCHLINES_NL = [
   "Gewoon 5 keer winnen.\nHoe moeilijk kan het zijn?",
   "5 op rij.\nNiemand die het lukt.",
@@ -80,7 +73,7 @@ const PUNCHLINES_EN = [
   "Every week you think:\nthis is the one.\nEvery week: no.",
 ];
 
-// Logo mapping (same as HeadToHead)
+// Logo mapping
 const LOGO_FILES: Record<string, string> = {
   "Ajax": "ajax.png", "AZ Alkmaar": "az-alkmaar.png",
   "Feyenoord": "feyenoord.png", "PSV Eindhoven": "psv-eindhoven.png",
@@ -111,106 +104,75 @@ function formatDaysNL(days: number): string {
   return days.toLocaleString("nl-NL");
 }
 
+function parseDate(dateStr: string): { month: number; year: number } {
+  const [y, m] = dateStr.split("-").map(Number);
+  return { month: m - 1, year: y };
+}
+
 // === Components ===
 
-// The BIG day counter — hero element
-const DayCounter: React.FC<{
-  days: number;
-  frame: number;
-  fps: number;
-}> = ({ days, frame, fps }) => {
-  const scale = spring({ frame, fps, config: { damping: 15, stiffness: 80 } });
+// Rolling calendar — shows month + year, always same position
+const RollingCalendar: React.FC<{
+  date: string;
+  nextDate: string | null;
+  progress: number;
+  isNL: boolean;
+}> = ({ date, nextDate, progress, isNL }) => {
+  const cur = parseDate(date);
+  const nxt = nextDate ? parseDate(nextDate) : cur;
+  const months = isNL ? MONTHS_NL : MONTHS_EN;
+
+  const sameMonth = cur.month === nxt.month && cur.year === nxt.year;
+  const slideY = sameMonth ? 0 : interpolate(progress, [0.7, 1], [0, -30], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const nextSlideY = sameMonth ? 30 : interpolate(progress, [0.7, 1], [30, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const curOpacity = sameMonth ? 1 : interpolate(progress, [0.7, 1], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const nextOpacity = sameMonth ? 0 : interpolate(progress, [0.7, 1], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
 
   return (
     <div style={{
+      height: 28,
+      overflow: "hidden",
+      position: "relative",
+      minWidth: 120,
       textAlign: "center",
-      transform: `scale(${interpolate(scale, [0, 1], [0.8, 1])})`,
     }}>
-      <div style={{
-        fontSize: 96,
-        fontWeight: 900,
-        color: "#f59e0b",
-        lineHeight: 1,
-        textShadow: "0 4px 24px rgba(245,158,11,0.4), 0 0 80px rgba(245,158,11,0.15)",
-        fontVariantNumeric: "tabular-nums",
-        letterSpacing: -2,
-      }}>
-        {formatDaysNL(days)}
-      </div>
       <div style={{
         fontSize: 18,
+        fontWeight: 600,
         color: "#6b7280",
-        textTransform: "uppercase",
-        letterSpacing: 6,
-        marginTop: 4,
+        transform: `translateY(${slideY}px)`,
+        opacity: curOpacity,
+        position: "absolute",
+        width: "100%",
       }}>
-        dagen
+        {months[cur.month]} {cur.year}
       </div>
-    </div>
-  );
-};
-
-// Win streak progress boxes (0-5)
-const WinProgress: React.FC<{
-  wins: number;
-  frame: number;
-  fps: number;
-  haircut: boolean;
-}> = ({ wins, frame, fps, haircut }) => {
-  return (
-    <div style={{
-      display: "flex",
-      gap: 8,
-      justifyContent: "center",
-      alignItems: "center",
-    }}>
-      {[0, 1, 2, 3, 4].map((i) => {
-        const filled = i < wins;
-        const scale = filled
-          ? spring({ frame: frame + i * 2, fps, config: { damping: 12, stiffness: 200 } })
-          : 1;
-        return (
-          <div key={i} style={{
-            width: 44,
-            height: 44,
-            borderRadius: 10,
-            backgroundColor: filled ? "#166534" : "rgba(255,255,255,0.06)",
-            border: filled ? "2px solid #22c55e" : "2px solid rgba(255,255,255,0.1)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            transform: `scale(${scale})`,
-            boxShadow: filled ? "0 2px 12px rgba(34,197,94,0.3)" : "none",
-          }}>
-            <span style={{
-              fontSize: 22,
-              fontWeight: 900,
-              color: filled ? "#22c55e" : "rgba(255,255,255,0.15)",
-            }}>
-              W
-            </span>
-          </div>
-        );
-      })}
-      {haircut && (
-        <div style={{ fontSize: 36, marginLeft: 8 }}>✂️</div>
+      {!sameMonth && (
+        <div style={{
+          fontSize: 18,
+          fontWeight: 600,
+          color: "#6b7280",
+          transform: `translateY(${nextSlideY}px)`,
+          opacity: nextOpacity,
+          position: "absolute",
+          width: "100%",
+        }}>
+          {months[nxt.month]} {nxt.year}
+        </div>
       )}
     </div>
   );
 };
 
-// Match result flash — slides in from right
+// Match result flash — compact, centered
 const MatchFlash: React.FC<{
   match: MatchFrame;
-  progress: number; // 0-1 within match duration
-  frame: number;
-  fps: number;
-}> = ({ match, progress, frame, fps }) => {
-  const slideIn = interpolate(progress, [0, 0.15], [200, 0], { extrapolateRight: "clamp" });
-  const opacity = interpolate(progress, [0, 0.1, 0.75, 1], [0, 1, 1, 0]);
+  progress: number;
+}> = ({ match, progress }) => {
+  const opacity = interpolate(progress, [0, 0.08, 0.65, 0.85], [0, 1, 1, 0]);
+  const scale = interpolate(progress, [0, 0.08, 0.12], [0.85, 1.05, 1], { extrapolateRight: "clamp" });
   const bgColor = match.result === "W" ? "#166534" : match.result === "L" ? "#991b1b" : "#374151";
   const oppLogo = getLogo(match.opponent);
-  const ha = match.homeAway === "H" ? "🏠" : "✈️";
   const extra = match.decidedIn === "PENALTIES" ? " (pen)" :
                 match.decidedIn === "EXTRA_TIME" ? " (n.v.)" : "";
 
@@ -218,36 +180,181 @@ const MatchFlash: React.FC<{
     <div style={{
       display: "flex",
       alignItems: "center",
-      gap: 10,
+      justifyContent: "center",
+      gap: 8,
       backgroundColor: bgColor,
-      borderRadius: 16,
-      padding: "10px 20px",
+      borderRadius: 14,
+      padding: "8px 16px",
       opacity,
-      transform: `translateX(${slideIn}px)`,
-      boxShadow: `0 4px 20px ${match.result === "W" ? "rgba(34,197,94,0.3)" : match.result === "L" ? "rgba(239,68,68,0.3)" : "rgba(0,0,0,0.3)"}`,
+      transform: `scale(${scale})`,
+      boxShadow: `0 4px 16px ${match.result === "W" ? "rgba(34,197,94,0.25)" : match.result === "L" ? "rgba(239,68,68,0.25)" : "rgba(0,0,0,0.2)"}`,
+      maxWidth: 420,
+      margin: "0 auto",
     }}>
-      <span style={{ fontSize: 16 }}>{ha}</span>
       {oppLogo ? (
-        <Img src={oppLogo} style={{ width: 28, height: 28, borderRadius: 4 }} />
+        <Img src={oppLogo} style={{ width: 24, height: 24, borderRadius: 3 }} />
       ) : (
-        <div style={{ width: 28, height: 28, borderRadius: 14, backgroundColor: "#555" }} />
+        <div style={{ width: 24, height: 24, borderRadius: 12, backgroundColor: "#555" }} />
       )}
-      <span style={{ color: "white", fontSize: 18, fontWeight: 600, flex: 1 }}>
+      <span style={{ color: "rgba(255,255,255,0.7)", fontSize: 14, fontWeight: 500, maxWidth: 160, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
         {match.opponent}
       </span>
-      <span style={{ color: "white", fontSize: 22, fontWeight: 900 }}>
+      <span style={{ color: "white", fontSize: 18, fontWeight: 900 }}>
         {match.score}{extra}
       </span>
       <span style={{
         color: "white",
-        fontSize: 24,
+        fontSize: 20,
         fontWeight: 900,
         backgroundColor: "rgba(255,255,255,0.15)",
-        borderRadius: 8,
-        padding: "2px 10px",
+        borderRadius: 6,
+        padding: "1px 8px",
       }}>
         {match.result}
       </span>
+    </div>
+  );
+};
+
+// Win streak progress boxes (0-5)
+const WinProgress: React.FC<{
+  wins: number;
+  haircut: boolean;
+}> = ({ wins, haircut }) => {
+  return (
+    <div style={{
+      display: "flex",
+      gap: 6,
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
+      {[0, 1, 2, 3, 4].map((i) => {
+        const filled = i < wins;
+        return (
+          <div key={i} style={{
+            width: 38,
+            height: 38,
+            borderRadius: 8,
+            backgroundColor: filled ? "#166534" : "rgba(255,255,255,0.04)",
+            border: filled ? "2px solid #22c55e" : "2px solid rgba(255,255,255,0.08)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: filled ? "0 2px 8px rgba(34,197,94,0.25)" : "none",
+          }}>
+            <span style={{
+              fontSize: 18,
+              fontWeight: 900,
+              color: filled ? "#22c55e" : "rgba(255,255,255,0.1)",
+            }}>
+              W
+            </span>
+          </div>
+        );
+      })}
+      {haircut && (
+        <div style={{ fontSize: 32, marginLeft: 6 }}>✂️</div>
+      )}
+    </div>
+  );
+};
+
+// Supporter image with crossfade + pulse on tier transition
+const SupporterImage: React.FC<{
+  currentTier: number;
+  prevTier: number;
+  transitionProgress: number; // 0 = fully prev, 1 = fully current
+  tierLabel: string;
+  haircut: boolean;
+  haircutProgress: number;
+}> = ({ currentTier, prevTier, transitionProgress, tierLabel, haircut, haircutProgress }) => {
+  const isTierChange = currentTier !== prevTier;
+
+  // Pulse on tier change: scale up then back
+  const pulseScale = isTierChange
+    ? interpolate(transitionProgress, [0, 0.3, 0.6, 1], [1, 1.08, 1.04, 1])
+    : 1;
+
+  // Glow intensity on tier change
+  const glowIntensity = isTierChange
+    ? interpolate(transitionProgress, [0, 0.3, 1], [0, 0.6, 0])
+    : 0;
+
+  return (
+    <div style={{
+      width: 440,
+      height: 440,
+      borderRadius: 24,
+      overflow: "hidden",
+      position: "relative",
+      transform: `scale(${pulseScale})`,
+      boxShadow: isTierChange
+        ? `0 0 ${40 + glowIntensity * 40}px rgba(245,158,11,${0.2 + glowIntensity * 0.4}), 0 8px 32px rgba(0,0,0,0.4)`
+        : "0 8px 32px rgba(0,0,0,0.4)",
+      border: isTierChange
+        ? `3px solid rgba(245,158,11,${0.3 + glowIntensity * 0.7})`
+        : "3px solid rgba(255,255,255,0.08)",
+    }}>
+      {/* Previous tier (fading out) */}
+      {isTierChange && (
+        <Img
+          src={TIER_IMAGES[prevTier] || TIER_IMAGES[1]}
+          style={{
+            width: "100%",
+            height: "100%",
+            position: "absolute",
+            inset: 0,
+            opacity: 1 - transitionProgress,
+          }}
+        />
+      )}
+      {/* Current tier (fading in or full) */}
+      <Img
+        src={TIER_IMAGES[currentTier] || TIER_IMAGES[1]}
+        style={{
+          width: "100%",
+          height: "100%",
+          position: "absolute",
+          inset: 0,
+          opacity: isTierChange ? transitionProgress : 1,
+        }}
+      />
+      {/* Tier label overlay */}
+      <div style={{
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        right: 0,
+        background: "linear-gradient(transparent, rgba(0,0,0,0.8))",
+        padding: "24px 16px 14px",
+        textAlign: "center",
+        zIndex: 2,
+      }}>
+        <span style={{
+          fontSize: 15,
+          fontWeight: 700,
+          color: isTierChange ? "#f59e0b" : "rgba(255,255,255,0.7)",
+          textTransform: "uppercase",
+          letterSpacing: 3,
+        }}>
+          {tierLabel}
+        </span>
+      </div>
+      {/* Haircut overlay */}
+      {haircut && haircutProgress < 0.7 && (
+        <div style={{
+          position: "absolute",
+          inset: 0,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          background: "rgba(34,197,94,0.35)",
+          fontSize: 110,
+          zIndex: 3,
+        }}>
+          ✂️
+        </div>
+      )}
     </div>
   );
 };
@@ -273,40 +380,38 @@ export const HairGrowthReel: React.FC<Props> = ({
   const matchProgress = rawIdx - Math.floor(rawIdx);
 
   const currentMatch = data.sequence[currentIdx];
+  const prevMatch = currentIdx > 0 ? data.sequence[currentIdx - 1] : currentMatch;
+  const nextMatch = currentIdx < data.sequence.length - 1 ? data.sequence[currentIdx + 1] : null;
   const isNL = data.league === "DED" || data.league === "JE";
   const punchlines = isNL ? PUNCHLINES_NL : PUNCHLINES_EN;
   const punchline = punchlines[data.teamId % punchlines.length];
 
-  // Current state for interpolation
-  const displayDays = isMain && currentMatch
-    ? currentMatch.daysSince
-    : data.currentDays;
-
-  const displayTier = isMain && currentMatch
-    ? currentMatch.tier
-    : data.currentTier;
-
-  const displayWins = isMain && currentMatch
-    ? currentMatch.consecutiveWins
-    : 0;
-
+  const displayDays = isMain && currentMatch ? currentMatch.daysSince : data.currentDays;
+  const displayTier = isMain && currentMatch ? currentMatch.tier : data.currentTier;
+  const prevTier = prevMatch ? prevMatch.tier : displayTier;
+  const displayWins = isMain && currentMatch ? currentMatch.consecutiveWins : 0;
   const teamLogo = getLogo(data.team);
 
-  // Tier transition: crossfade between tier images
-  const prevTier = currentIdx > 0 ? data.sequence[Math.max(0, currentIdx - 1)].tier : displayTier;
-  const tierChanged = isMain && currentMatch && prevTier !== displayTier;
+  // Tier transition progress: crossfade over the first part of a match frame
+  const tierTransitionProgress = displayTier !== prevTier
+    ? interpolate(matchProgress, [0, 0.5], [0, 1], { extrapolateRight: "clamp" })
+    : 1;
 
-  // Hook animation
-  const hookTitleOpacity = interpolate(frame, [0, 15], [0, 1], { extrapolateRight: "clamp" });
-  const hookNumberScale = spring({ frame: Math.max(0, frame - 10), fps, config: { damping: 10, stiffness: 60 } });
-  const hookShake = isHook && frame > 30
-    ? Math.sin(frame * 0.8) * interpolate(frame, [30, hookDuration], [0, 3], { extrapolateRight: "clamp" })
+  // Hook animations
+  const hookOpacity = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
+  const hookNumberScale = spring({ frame: Math.max(0, frame - 8), fps, config: { damping: 10, stiffness: 60 } });
+  const hookShake = isHook && frame > 25
+    ? Math.sin(frame * 0.7) * interpolate(frame, [25, hookDuration], [0, 2.5], { extrapolateRight: "clamp" })
     : 0;
 
-  // Punchline animation
+  // Punchline
   const punchlineFrame = frame - (durationInFrames - punchlineDuration);
-  const punchlineOpacity = interpolate(punchlineFrame, [0, 20], [0, 1], { extrapolateRight: "clamp" });
+  const punchlineOpacity = interpolate(punchlineFrame, [0, 15], [0, 1], { extrapolateRight: "clamp" });
   const punchlineLines = punchline.split("\n");
+
+  // Day counter interpolation between matches
+  const nextDays = nextMatch ? nextMatch.daysSince : displayDays;
+  const smoothDays = Math.round(interpolate(matchProgress, [0, 1], [displayDays, nextDays]));
 
   return (
     <AbsoluteFill style={{
@@ -314,19 +419,18 @@ export const HairGrowthReel: React.FC<Props> = ({
       fontFamily: "'Inter', -apple-system, sans-serif",
     }}>
 
-      {/* ====== HOOK: Start with the extreme (current state) ====== */}
+      {/* ====== HOOK ====== */}
       {isHook && (
         <AbsoluteFill style={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          opacity: hookTitleOpacity,
+          opacity: hookOpacity,
         }}>
-          {/* Supporter at worst state */}
           <div style={{
-            width: 400,
-            height: 400,
+            width: 380,
+            height: 380,
             borderRadius: 24,
             overflow: "hidden",
             border: "3px solid rgba(255,255,255,0.1)",
@@ -336,246 +440,177 @@ export const HairGrowthReel: React.FC<Props> = ({
             <Img src={TIER_IMAGES[data.currentTier] || TIER_IMAGES[6]} style={{ width: "100%", height: "100%" }} />
           </div>
 
-          {/* Team name + logo */}
           <div style={{
-            display: "flex", alignItems: "center", gap: 14,
-            marginTop: 24,
+            display: "flex", alignItems: "center", gap: 12, marginTop: 20,
           }}>
-            {teamLogo && <Img src={teamLogo} style={{ width: 40, height: 40 }} />}
-            <span style={{ fontSize: 32, fontWeight: 800, color: "white" }}>{data.team}</span>
+            {teamLogo && <Img src={teamLogo} style={{ width: 36, height: 36 }} />}
+            <span style={{ fontSize: 28, fontWeight: 800, color: "white" }}>{data.team}</span>
           </div>
 
-          {/* THE number */}
           <div style={{
-            fontSize: 140,
+            fontSize: 130,
             fontWeight: 900,
             color: "#f59e0b",
             lineHeight: 1,
-            marginTop: 16,
+            marginTop: 12,
             transform: `scale(${hookNumberScale})`,
             textShadow: "0 6px 30px rgba(245,158,11,0.4)",
           }}>
             {formatDaysNL(data.currentDays)}
           </div>
           <div style={{
-            fontSize: 22,
+            fontSize: 20,
             color: "#6b7280",
             textTransform: "uppercase",
-            letterSpacing: 8,
+            letterSpacing: 6,
           }}>
             dagen zonder 5 op rij
           </div>
         </AbsoluteFill>
       )}
 
-      {/* ====== MAIN: Match sequence with hair growth ====== */}
+      {/* ====== MAIN: Centered layout ====== */}
       {isMain && currentMatch && (
         <AbsoluteFill style={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          padding: "60px 40px 80px",
+          justifyContent: "flex-start",
+          padding: "50px 30px 60px",
         }}>
-          {/* Top bar: team + league + date */}
+          {/* Team bar — compact top */}
+          <div style={{
+            display: "flex", alignItems: "center", gap: 10, marginBottom: 12,
+          }}>
+            {teamLogo && <Img src={teamLogo} style={{ width: 28, height: 28 }} />}
+            <span style={{ fontSize: 18, fontWeight: 700, color: "rgba(255,255,255,0.6)" }}>{data.team}</span>
+          </div>
+
+          {/* Supporter image with crossfade + pulse */}
+          <SupporterImage
+            currentTier={displayTier}
+            prevTier={prevTier}
+            transitionProgress={tierTransitionProgress}
+            tierLabel={currentMatch.tierLabel}
+            haircut={currentMatch.haircut}
+            haircutProgress={matchProgress}
+          />
+
+          {/* === Everything below photo, centered === */}
           <div style={{
             display: "flex",
+            flexDirection: "column",
             alignItems: "center",
-            justifyContent: "space-between",
-            width: "100%",
-            marginBottom: 16,
+            gap: 10,
+            marginTop: 16,
           }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-              {teamLogo && <Img src={teamLogo} style={{ width: 32, height: 32 }} />}
-              <span style={{ fontSize: 20, fontWeight: 700, color: "white" }}>{data.team}</span>
+            {/* Match result flash */}
+            <div style={{ minHeight: 44, width: "100%" }}>
+              <MatchFlash match={currentMatch} progress={matchProgress} />
             </div>
-            <div style={{
-              fontSize: 16,
-              color: "#6b7280",
-              backgroundColor: "rgba(255,255,255,0.06)",
-              padding: "4px 14px",
-              borderRadius: 12,
-            }}>
-              {currentMatch.date}
-            </div>
-          </div>
 
-          {/* Supporter image — THE visual center */}
-          <div style={{
-            width: 420,
-            height: 420,
-            borderRadius: 24,
-            overflow: "hidden",
-            border: tierChanged
-              ? "3px solid #f59e0b"
-              : "3px solid rgba(255,255,255,0.08)",
-            boxShadow: tierChanged
-              ? "0 0 40px rgba(245,158,11,0.3)"
-              : "0 8px 32px rgba(0,0,0,0.4)",
-            position: "relative",
-            transition: "border-color 0.3s",
-          }}>
-            <Img
-              src={TIER_IMAGES[displayTier] || TIER_IMAGES[1]}
-              style={{ width: "100%", height: "100%" }}
-            />
-            {/* Tier label overlay */}
-            <div style={{
-              position: "absolute",
-              bottom: 0,
-              left: 0,
-              right: 0,
-              background: "linear-gradient(transparent, rgba(0,0,0,0.8))",
-              padding: "20px 16px 12px",
-              textAlign: "center",
-            }}>
-              <span style={{
-                fontSize: 16,
-                fontWeight: 700,
-                color: "rgba(255,255,255,0.8)",
-                textTransform: "uppercase",
-                letterSpacing: 3,
-              }}>
-                {currentMatch.tierLabel}
-              </span>
-            </div>
-            {/* Haircut overlay */}
-            {currentMatch.haircut && matchProgress < 0.6 && (
+            {/* Day counter — big gold number */}
+            <div style={{ textAlign: "center" }}>
               <div style={{
-                position: "absolute",
-                inset: 0,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                background: "rgba(34,197,94,0.3)",
-                fontSize: 100,
+                fontSize: 80,
+                fontWeight: 900,
+                color: "#f59e0b",
+                lineHeight: 1,
+                textShadow: "0 4px 20px rgba(245,158,11,0.35)",
+                fontVariantNumeric: "tabular-nums",
+                letterSpacing: -2,
               }}>
-                ✂️
+                {formatDaysNL(smoothDays)}
               </div>
-            )}
-          </div>
+              <div style={{
+                fontSize: 14,
+                color: "#6b7280",
+                textTransform: "uppercase",
+                letterSpacing: 5,
+                marginTop: 2,
+              }}>
+                dagen
+              </div>
+            </div>
 
-          {/* Match result flash */}
-          <div style={{ marginTop: 20, width: "100%", minHeight: 56 }}>
-            <MatchFlash
-              match={currentMatch}
+            {/* Rolling calendar */}
+            <RollingCalendar
+              date={currentMatch.date}
+              nextDate={nextMatch?.date || null}
               progress={matchProgress}
-              frame={mainFrame}
-              fps={fps}
+              isNL={isNL}
             />
-          </div>
 
-          {/* Day counter */}
-          <div style={{ marginTop: 16 }}>
-            <DayCounter days={displayDays} frame={mainFrame} fps={fps} />
-          </div>
-
-          {/* Win streak progress */}
-          <div style={{ marginTop: 16 }}>
-            <WinProgress
-              wins={displayWins}
-              frame={mainFrame}
-              fps={fps}
-              haircut={currentMatch.haircut}
-            />
-          </div>
-
-          {/* Competition badge */}
-          <div style={{
-            marginTop: 12,
-            fontSize: 13,
-            color: "#4b5563",
-            fontWeight: 600,
-          }}>
-            {currentMatch.competition}
+            {/* Win streak progress */}
+            <WinProgress wins={displayWins} haircut={currentMatch.haircut} />
           </div>
         </AbsoluteFill>
       )}
 
-      {/* ====== PUNCHLINE: The absurdist payoff ====== */}
+      {/* ====== PUNCHLINE ====== */}
       {isPunchline && (
         <AbsoluteFill style={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "rgba(0,0,0,0.9)",
+          background: "rgba(0,0,0,0.92)",
           opacity: punchlineOpacity,
-          padding: 60,
+          padding: 50,
         }}>
-          {/* The punchline text — line by line */}
           <div style={{ textAlign: "center", maxWidth: 800 }}>
             {punchlineLines.map((line, i) => {
-              const lineDelay = i * 20;
+              const lineDelay = i * 18;
               const lineOpacity = interpolate(
-                punchlineFrame,
-                [lineDelay, lineDelay + 15],
-                [0, 1],
+                punchlineFrame, [lineDelay, lineDelay + 12], [0, 1],
                 { extrapolateRight: "clamp", extrapolateLeft: "clamp" }
               );
               const lineY = interpolate(
-                punchlineFrame,
-                [lineDelay, lineDelay + 15],
-                [20, 0],
+                punchlineFrame, [lineDelay, lineDelay + 12], [16, 0],
                 { extrapolateRight: "clamp", extrapolateLeft: "clamp" }
               );
               const isLast = i === punchlineLines.length - 1;
               return (
-                <div
-                  key={i}
-                  style={{
-                    fontSize: isLast ? 44 : 36,
-                    fontWeight: isLast ? 900 : 600,
-                    color: isLast ? "#f59e0b" : "white",
-                    opacity: lineOpacity,
-                    transform: `translateY(${lineY}px)`,
-                    marginBottom: 12,
-                    lineHeight: 1.3,
-                  }}
-                >
+                <div key={i} style={{
+                  fontSize: isLast ? 42 : 34,
+                  fontWeight: isLast ? 900 : 600,
+                  color: isLast ? "#f59e0b" : "white",
+                  opacity: lineOpacity,
+                  transform: `translateY(${lineY}px)`,
+                  marginBottom: 10,
+                  lineHeight: 1.3,
+                }}>
                   {line}
                 </div>
               );
             })}
           </div>
 
-          {/* Team + days small reminder */}
           <div style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 12,
-            marginTop: 40,
-            opacity: interpolate(punchlineFrame, [60, 80], [0, 1], { extrapolateRight: "clamp" }),
+            display: "flex", alignItems: "center", gap: 10, marginTop: 36,
+            opacity: interpolate(punchlineFrame, [50, 70], [0, 1], { extrapolateRight: "clamp" }),
           }}>
-            {teamLogo && <Img src={teamLogo} style={{ width: 28, height: 28 }} />}
-            <span style={{ fontSize: 18, color: "#6b7280" }}>
+            {teamLogo && <Img src={teamLogo} style={{ width: 24, height: 24 }} />}
+            <span style={{ fontSize: 16, color: "#6b7280" }}>
               {data.team} — {formatDaysNL(data.currentDays)} dagen
             </span>
           </div>
 
-          {/* Branding */}
           <div style={{
-            position: "absolute",
-            bottom: 60,
-            fontSize: 18,
-            color: "#f59e0b",
-            fontWeight: 700,
-            opacity: interpolate(punchlineFrame, [80, 100], [0, 1], { extrapolateRight: "clamp" }),
+            position: "absolute", bottom: 50,
+            fontSize: 16, color: "#f59e0b", fontWeight: 700,
+            opacity: interpolate(punchlineFrame, [70, 90], [0, 1], { extrapolateRight: "clamp" }),
           }}>
             Hair Length Index
           </div>
         </AbsoluteFill>
       )}
 
-      {/* Subtle branding watermark during main */}
+      {/* Watermark */}
       {isMain && (
         <div style={{
-          position: "absolute",
-          bottom: 20,
-          left: 0,
-          right: 0,
-          textAlign: "center",
-          fontSize: 11,
-          color: "rgba(255,255,255,0.12)",
+          position: "absolute", bottom: 16, left: 0, right: 0,
+          textAlign: "center", fontSize: 10, color: "rgba(255,255,255,0.1)",
         }}>
           hairlengthindex
         </div>

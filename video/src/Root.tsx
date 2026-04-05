@@ -12,7 +12,7 @@ export const RemotionRoot: React.FC = () => {
   const totalFrames = introDuration + matchData.length * framesPerMatch + outroDuration;
 
   // Reel timing
-  const reelFramesPerMatch = 24; // 0.8s per match — fast paced
+  const reelFramesPerMatch = 15; // 0.5s per match — rapid fire
   const hookDuration = 75; // 2.5s hook
   const punchlineDuration = 120; // 4s punchline
   const reelTotalFrames = hookDuration + spartaReel.sequence.length * reelFramesPerMatch + punchlineDuration;

@@ -387,9 +387,9 @@ class TestDatabase:
         id1 = upsert_team(db, wf_slug="afc-ajax", name="Ajax", short_name="AJX")
         id2 = upsert_team(db, wf_slug="afc-ajax", name="AFC Ajax", short_name="AJX")
         assert id1 == id2
-        # Name should be updated
+        # Name is NOT updated (prevents UNIQUE constraint conflicts from API name variants)
         row = db.execute("SELECT name FROM teams WHERE id = ?", (id1,)).fetchone()
-        assert row["name"] == "AFC Ajax"
+        assert row["name"] == "Ajax"
 
     def test_upsert_match_dedup(self, db, team_id, opponent_id):
         kwargs = dict(
