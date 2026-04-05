@@ -835,6 +835,12 @@ a.team-name:hover {
   border: 1px solid var(--border);
   flex-shrink: 0;
 }
+.team-hero-jersey {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
 
 .team-hero-info {
   flex: 1;

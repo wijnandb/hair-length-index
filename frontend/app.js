@@ -243,6 +243,12 @@ function getLogoUrl(teamName) {
   return LOGO_MAP[teamName] || null;
 }
 
+let JERSEY_MAP = {};
+fetch("jersey-map.json").then(r => r.ok ? r.json() : {}).then(m => { JERSEY_MAP = m; }).catch(() => {});
+function getJerseyUrl(teamName) {
+  return JERSEY_MAP[teamName] || null;
+}
+
 // === Hair Growth Strip ===
 
 function renderGrowthStrip(teamData) {
@@ -931,11 +937,13 @@ async function renderTeamPage(leagueCode, teamSlug) {
     const leagueName = team.league_name || config.name;
 
     // --- 1. Hero header ---
+    const jerseyUrl = getJerseyUrl(team.team);
     let heroHtml = `
       <a class="team-back-link" href="${leagueUrl(leagueCode)}">&larr; ${escapeHtml(config.name)}</a>
       <div class="team-hero">
         <img src="${logoUrl || avatar}" alt="${escapeHtml(team.team)}" class="team-hero-logo"
              onerror="this.src='${avatar}'">
+        ${jerseyUrl ? `<img src="${jerseyUrl}" alt="${escapeHtml(team.team)} shirt" class="team-hero-jersey">` : ''}
         <div class="team-hero-info">
           <h1>${escapeHtml(team.team)}</h1>
           <div class="team-hero-meta">
