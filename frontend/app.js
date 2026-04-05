@@ -5,6 +5,11 @@
  * Clicking a team loads per-team match data and shows the "hair growth strip."
  */
 
+function slugify(name) {
+  return name.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
 const LEAGUES = {
   ALL: { name: "All Leagues", file: "data/hair-index-global.json" },
   DED: { name: "Eredivisie", file: "data/hair-index.json" },
@@ -366,7 +371,7 @@ function renderTeamCard(team, rank) {
         </div>
 
         <div class="team-info">
-          <a class="team-name" href="${teamUrl(currentLeague, team.slug || '')}" onclick="event.stopPropagation()">${escapeHtml(team.team)}</a>
+          <a class="team-name" href="${teamUrl(currentLeague, team.slug || slugify(team.team))}" onclick="event.stopPropagation()">${escapeHtml(team.team)}</a>
           ${team.league_flag ? `<span class="league-flag" title="${escapeHtml(team.league_name || '')}">${team.league_flag}</span>` : ""}
           <span class="tier-badge tier-${tc}">${emoji} ${escapeHtml(team.hair_tier)}</span>
         </div>
@@ -387,7 +392,7 @@ function renderTeamCard(team, rank) {
           ${team.matches_since > 0 ? team.matches_since + " " + t('matches') : t('active_streak')}
         </div>
 
-        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}', '${team.slug || ''}')" title="${t('share')}">&#8599;</button>
+        <button class="share-btn" onclick="shareTeam(event, '${escapeHtml(team.team)}', ${team.days_since}, '${emoji}', '${team.slug || slugify(team.team)}')" title="${t('share')}">&#8599;</button>
       </div>
       <div class="match-detail" style="display:none">
         <div class="detail-loading">${t('loading')}</div>
@@ -745,7 +750,7 @@ async function renderTeamPage(leagueCode, teamSlug) {
         if (sResp.ok) standingsData[leagueCode] = await sResp.json();
       } catch (e) { /* standings optional */ }
     }
-    const team = data.teams.find(t => t.slug === teamSlug);
+    const team = data.teams.find(t => (t.slug || slugify(t.team)) === teamSlug);
     if (!team) {
       document.getElementById("index-table").innerHTML = `<div class="error">${t('team_not_found')}</div>`;
       return;
