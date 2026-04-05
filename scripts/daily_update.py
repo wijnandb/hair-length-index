@@ -195,8 +195,9 @@ def fetch_fd_league(client: FootballDataClient, conn, league: str, season: int) 
     return new
 
 
-def fetch_fd_team(client: FootballDataClient, conn, fd_id: int, date_from: str, date_to: str) -> int:
-    """Fetch all matches for a team (captures CL/EL)."""
+def fetch_fd_team(client: FootballDataClient, conn, fd_id: int, date_from: str, date_to: str) -> tuple[int, set[int]]:
+    """Fetch all matches for a team (captures CL/EL).
+    Returns (new_match_count, set_of_opponent_football_data_ids)."""
     data = client._get(f"/teams/{fd_id}/matches", {
         "status": "FINISHED",
         "dateFrom": date_from,
@@ -204,10 +205,18 @@ def fetch_fd_team(client: FootballDataClient, conn, fd_id: int, date_from: str, 
     })
     matches = data.get("matches", [])
     new = 0
+    opponent_fd_ids: set[int] = set()
     for m in matches:
+        # Track opponents
+        home_fd = m.get("homeTeam", {}).get("id")
+        away_fd = m.get("awayTeam", {}).get("id")
+        if home_fd == fd_id:
+            opponent_fd_ids.add(away_fd)
+        else:
+            opponent_fd_ids.add(home_fd)
         if _fd_import_match(conn, m) is not None:
             new += 1
-    return new
+    return new, opponent_fd_ids
 
 
 # ═══════════════════════════════════════════════════════════════════
@@ -375,14 +384,24 @@ def fetch_af_league(client: APIFootballClient, conn, league_code: str, season: i
     return new
 
 
-def fetch_af_team(client: APIFootballClient, conn, af_id: int, season: int) -> int:
-    """Fetch all fixtures for a team via API-Football (cups, European)."""
+def fetch_af_team(client: APIFootballClient, conn, af_id: int, season: int) -> tuple[int, set[int]]:
+    """Fetch all fixtures for a team via API-Football (cups, European).
+    Returns (new_match_count, set_of_opponent_api_football_ids)."""
     fixtures = client.get_team_fixtures(af_id, season)
     new = 0
+    opponent_af_ids: set[int] = set()
     for f in fixtures:
+        # Track opponents
+        teams = f.get("teams", {})
+        home_af = teams.get("home", {}).get("id")
+        away_af = teams.get("away", {}).get("id")
+        if home_af == af_id:
+            opponent_af_ids.add(away_af)
+        else:
+            opponent_af_ids.add(home_af)
         if _af_import_fixture(conn, f) is not None:
             new += 1
-    return new
+    return new, opponent_af_ids
 
 
 # ═══════════════════════════════════════════════════════════════════
@@ -416,25 +435,32 @@ def run_daily_update(dry_run: bool = False):
                 except Exception:
                     pass
 
-        # Per-team fetch for CL/EL matches — only DED teams need this
-        # (other leagues' CL/EL matches are covered by the CL league fetch)
+        # Per-team fetch for cup/European matches across all FD leagues.
+        # Skip teams already seen as opponents (they share matches).
+        seen_fd_ids: set[int] = set()
+        fd_skipped = 0
         date_from = f"{season}-07-01"
         date_to = f"{season + 1}-06-30"
-        for league in ["DED"]:
+        for league in ["DED", "PL", "BL1", "SA", "PD", "FL1"]:
             teams = get_all_teams(conn, league=league)
             for t in teams:
                 fd_id = t["football_data_id"]
                 if not fd_id:
                     continue
+                if fd_id in seen_fd_ids:
+                    fd_skipped += 1
+                    continue
                 try:
-                    new = fetch_fd_team(fd_client, conn, fd_id, date_from, date_to)
+                    new, opp_ids = fetch_fd_team(fd_client, conn, fd_id, date_from, date_to)
                     total_new += new
+                    seen_fd_ids.update(opp_ids)
                 except Exception as e:
                     log.warning(f"Error fetching team {t['name']} (fd={fd_id}): {e}")
                     try:
                         conn.rollback()
                     except Exception:
                         pass
+        log.info(f"[FD] Per-team: skipped {fd_skipped} teams (already seen as opponents)")
     else:
         log.warning("FOOTBALL_DATA_API_KEY not set — skipping football-data.org leagues")
 
@@ -455,37 +481,30 @@ def run_daily_update(dry_run: bool = False):
                 except Exception:
                     pass
 
-        # Per-team fetch for JE teams (cup matches)
-        je_teams = get_all_teams(conn, league="JE")
-        for t in je_teams:
-            af_id = t["api_football_id"]
-            if not af_id:
-                continue
-            try:
-                new = fetch_af_team(af_client, conn, af_id, season)
-                total_new += new
-            except Exception as e:
-                log.warning(f"Error fetching JE team {t['name']} (af={af_id}): {e}")
+        # Per-team fetch for cup matches (JE + DED).
+        # Skip teams already seen as opponents.
+        seen_af_ids: set[int] = set()
+        af_skipped = 0
+        for league in ["JE", "DED"]:
+            teams = get_all_teams(conn, league=league)
+            for t in teams:
+                af_id = t["api_football_id"]
+                if not af_id:
+                    continue
+                if af_id in seen_af_ids:
+                    af_skipped += 1
+                    continue
                 try:
-                    conn.rollback()
-                except Exception:
-                    pass
-
-        # Also fetch Dutch cup matches for Eredivisie teams via AF
-        ded_teams = get_all_teams(conn, league="DED")
-        for t in ded_teams:
-            af_id = t["api_football_id"]
-            if not af_id:
-                continue
-            try:
-                new = fetch_af_team(af_client, conn, af_id, season)
-                total_new += new
-            except Exception as e:
-                log.warning(f"Error fetching DED team {t['name']} cups (af={af_id}): {e}")
-                try:
-                    conn.rollback()
-                except Exception:
-                    pass
+                    new, opp_ids = fetch_af_team(af_client, conn, af_id, season)
+                    total_new += new
+                    seen_af_ids.update(opp_ids)
+                except Exception as e:
+                    log.warning(f"Error fetching {league} team {t['name']} (af={af_id}): {e}")
+                    try:
+                        conn.rollback()
+                    except Exception:
+                        pass
+        log.info(f"[AF] Per-team: skipped {af_skipped} teams (already seen as opponents)")
 
         log.info(f"API-Football requests used: {af_client.requests_used}")
     else:
