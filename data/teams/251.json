@@ -1,11 +1,11 @@
 {
   "team_id": 251,
   "team": "Nottingham Forest",
-  "short_name": "Nottingham",
+  "short_name": null,
   "matches": [
     {
       "date": "2026-03-22",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -25,7 +25,7 @@
     },
     {
       "date": "2026-03-15",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -45,7 +45,7 @@
     },
     {
       "date": "2026-03-04",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-03-01",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-02-22",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-02-11",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -135,7 +135,7 @@
     },
     {
       "date": "2026-01-25",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -155,7 +155,7 @@
     },
     {
       "date": "2026-01-17",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -175,7 +175,7 @@
     },
     {
       "date": "2026-01-06",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -195,7 +195,7 @@
     },
     {
       "date": "2025-12-30",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -205,7 +205,7 @@
     },
     {
       "date": "2025-12-27",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -215,7 +215,7 @@
     },
     {
       "date": "2025-12-22",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -225,7 +225,7 @@
     },
     {
       "date": "2025-12-14",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -235,7 +235,7 @@
     },
     {
       "date": "2025-12-11",
-      "opponent": "Utrecht",
+      "opponent": "FC Utrecht",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -245,7 +245,7 @@
     },
     {
       "date": "2025-12-06",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -255,7 +255,7 @@
     },
     {
       "date": "2025-12-03",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -265,7 +265,7 @@
     },
     {
       "date": "2025-11-30",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -285,7 +285,7 @@
     },
     {
       "date": "2025-11-22",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -315,7 +315,7 @@
     },
     {
       "date": "2025-11-01",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -325,7 +325,7 @@
     },
     {
       "date": "2025-10-26",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -345,7 +345,7 @@
     },
     {
       "date": "2025-10-18",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -355,7 +355,7 @@
     },
     {
       "date": "2025-10-05",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -375,7 +375,7 @@
     },
     {
       "date": "2025-09-27",
-      "opponent": "Sunderland",
+      "opponent": "Sunderland AFC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -395,7 +395,7 @@
     },
     {
       "date": "2025-09-20",
-      "opponent": "Burnley",
+      "opponent": "Burnley FC",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -415,7 +415,7 @@
     },
     {
       "date": "2025-09-13",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -425,7 +425,7 @@
     },
     {
       "date": "2025-08-31",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -445,7 +445,7 @@
     },
     {
       "date": "2025-08-17",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -455,7 +455,7 @@
     },
     {
       "date": "2025-05-25",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -465,7 +465,7 @@
     },
     {
       "date": "2025-05-18",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -495,7 +495,7 @@
     },
     {
       "date": "2025-05-01",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -505,7 +505,7 @@
     },
     {
       "date": "2025-04-27",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -515,7 +515,7 @@
     },
     {
       "date": "2025-04-21",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -525,7 +525,7 @@
     },
     {
       "date": "2025-04-12",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -545,7 +545,7 @@
     },
     {
       "date": "2025-04-01",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -555,7 +555,7 @@
     },
     {
       "date": "2025-03-29",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "A",
       "score": "4-3",
       "result": "W",
@@ -575,7 +575,7 @@
     },
     {
       "date": "2025-03-08",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -595,7 +595,7 @@
     },
     {
       "date": "2025-02-26",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -605,7 +605,7 @@
     },
     {
       "date": "2025-02-23",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "A",
       "score": "3-4",
       "result": "L",
@@ -615,7 +615,7 @@
     },
     {
       "date": "2025-02-15",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -635,7 +635,7 @@
     },
     {
       "date": "2025-02-01",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "H",
       "score": "7-0",
       "result": "W",
@@ -645,7 +645,7 @@
     },
     {
       "date": "2025-01-25",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "A",
       "score": "0-5",
       "result": "L",
@@ -665,7 +665,7 @@
     },
     {
       "date": "2025-01-14",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -685,7 +685,7 @@
     },
     {
       "date": "2025-01-06",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "A",
       "score": "3-0",
       "result": "W",
@@ -695,7 +695,7 @@
     },
     {
       "date": "2024-12-29",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -705,7 +705,7 @@
     },
     {
       "date": "2024-12-26",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -715,7 +715,7 @@
     },
     {
       "date": "2024-12-21",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "2-0",
       "result": "W",
@@ -735,7 +735,7 @@
     },
     {
       "date": "2024-12-07",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "A",
       "score": "3-2",
       "result": "W",
@@ -745,7 +745,7 @@
     },
     {
       "date": "2024-12-04",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -765,7 +765,7 @@
     },
     {
       "date": "2024-11-23",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -775,7 +775,7 @@
     },
     {
       "date": "2024-11-10",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -785,7 +785,7 @@
     },
     {
       "date": "2024-11-02",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "H",
       "score": "3-0",
       "result": "W",
@@ -815,7 +815,7 @@
     },
     {
       "date": "2024-10-06",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -825,7 +825,7 @@
     },
     {
       "date": "2024-09-28",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -835,7 +835,7 @@
     },
     {
       "date": "2024-09-22",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -845,7 +845,7 @@
     },
     {
       "date": "2024-09-14",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -855,7 +855,7 @@
     },
     {
       "date": "2024-08-31",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -865,7 +865,7 @@
     },
     {
       "date": "2024-08-28",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "H",
       "score": "3-4",
       "result": "L",
@@ -885,7 +885,7 @@
     },
     {
       "date": "2024-08-17",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -895,7 +895,7 @@
     },
     {
       "date": "2024-05-19",
-      "opponent": "Burnley",
+      "opponent": "Burnley FC",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -905,7 +905,7 @@
     },
     {
       "date": "2024-05-11",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -925,7 +925,7 @@
     },
     {
       "date": "2024-04-28",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -935,7 +935,7 @@
     },
     {
       "date": "2024-04-21",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -945,7 +945,7 @@
     },
     {
       "date": "2024-04-13",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -955,7 +955,7 @@
     },
     {
       "date": "2024-04-07",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -965,7 +965,7 @@
     },
     {
       "date": "2024-04-02",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -995,7 +995,7 @@
     },
     {
       "date": "2024-03-10",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1005,7 +1005,7 @@
     },
     {
       "date": "2024-03-02",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1015,7 +1015,7 @@
     },
     {
       "date": "2024-02-28",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1035,7 +1035,7 @@
     },
     {
       "date": "2024-02-17",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1045,7 +1045,7 @@
     },
     {
       "date": "2024-02-10",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -1065,7 +1065,7 @@
     },
     {
       "date": "2024-02-04",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1075,7 +1075,7 @@
     },
     {
       "date": "2024-01-30",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1095,7 +1095,7 @@
     },
     {
       "date": "2024-01-20",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1125,7 +1125,7 @@
     },
     {
       "date": "2023-12-30",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -1135,7 +1135,7 @@
     },
     {
       "date": "2023-12-26",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "A",
       "score": "3-1",
       "result": "W",
@@ -1145,7 +1145,7 @@
     },
     {
       "date": "2023-12-23",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -1155,7 +1155,7 @@
     },
     {
       "date": "2023-12-15",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -1165,7 +1165,7 @@
     },
     {
       "date": "2023-12-09",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1175,7 +1175,7 @@
     },
     {
       "date": "2023-12-06",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "A",
       "score": "0-5",
       "result": "L",
@@ -1185,7 +1185,7 @@
     },
     {
       "date": "2023-12-02",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1195,7 +1195,7 @@
     },
     {
       "date": "2023-11-25",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -1205,7 +1205,7 @@
     },
     {
       "date": "2023-11-12",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1225,7 +1225,7 @@
     },
     {
       "date": "2023-10-29",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1255,7 +1255,7 @@
     },
     {
       "date": "2023-10-01",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1265,7 +1265,7 @@
     },
     {
       "date": "2023-09-23",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1275,7 +1275,7 @@
     },
     {
       "date": "2023-09-18",
-      "opponent": "Burnley",
+      "opponent": "Burnley FC",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1285,7 +1285,7 @@
     },
     {
       "date": "2023-09-02",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1295,7 +1295,7 @@
     },
     {
       "date": "2023-08-30",
-      "opponent": "Burnley",
+      "opponent": "Burnley FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -1305,7 +1305,7 @@
     },
     {
       "date": "2023-08-26",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1325,7 +1325,7 @@
     },
     {
       "date": "2023-08-12",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1345,7 +1345,7 @@
     },
     {
       "date": "2023-05-20",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1355,7 +1355,7 @@
     },
     {
       "date": "2023-05-13",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "A",
       "score": "2-2",
       "result": "D",
@@ -1375,7 +1375,7 @@
     },
     {
       "date": "2023-04-29",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -1385,7 +1385,7 @@
     },
     {
       "date": "2023-04-26",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "H",
       "score": "3-1",
       "result": "W",
@@ -1395,7 +1395,7 @@
     },
     {
       "date": "2023-04-22",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "A",
       "score": "2-3",
       "result": "L",
@@ -1405,7 +1405,7 @@
     },
     {
       "date": "2023-04-16",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -1435,7 +1435,7 @@
     },
     {
       "date": "2023-04-01",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1445,7 +1445,7 @@
     },
     {
       "date": "2023-03-17",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -1455,7 +1455,7 @@
     },
     {
       "date": "2023-03-11",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "A",
       "score": "1-3",
       "result": "L",
@@ -1465,7 +1465,7 @@
     },
     {
       "date": "2023-03-05",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1475,7 +1475,7 @@
     },
     {
       "date": "2023-02-25",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "A",
       "score": "0-4",
       "result": "L",
@@ -1485,7 +1485,7 @@
     },
     {
       "date": "2023-02-18",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1495,7 +1495,7 @@
     },
     {
       "date": "2023-02-11",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1515,7 +1515,7 @@
     },
     {
       "date": "2023-02-01",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1525,7 +1525,7 @@
     },
     {
       "date": "2023-01-25",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "H",
       "score": "0-3",
       "result": "L",
@@ -1535,7 +1535,7 @@
     },
     {
       "date": "2023-01-21",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1555,7 +1555,7 @@
     },
     {
       "date": "2023-01-11",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
       "score": "4-3",
       "result": "W",
@@ -1585,7 +1585,7 @@
     },
     {
       "date": "2023-01-01",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "H",
       "score": "1-1",
       "result": "D",
@@ -1595,7 +1595,7 @@
     },
     {
       "date": "2022-12-27",
-      "opponent": "Man United",
+      "opponent": "Manchester United",
       "home_away": "A",
       "score": "0-3",
       "result": "L",
@@ -1625,7 +1625,7 @@
     },
     {
       "date": "2022-11-09",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "H",
       "score": "2-0",
       "result": "W",
@@ -1635,7 +1635,7 @@
     },
     {
       "date": "2022-11-05",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "2-2",
       "result": "D",
@@ -1645,7 +1645,7 @@
     },
     {
       "date": "2022-10-30",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "A",
       "score": "0-5",
       "result": "L",
@@ -1655,7 +1655,7 @@
     },
     {
       "date": "2022-10-22",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1665,7 +1665,7 @@
     },
     {
       "date": "2022-10-18",
-      "opponent": "Brighton Hove",
+      "opponent": "Brighton & Hove Albion",
       "home_away": "A",
       "score": "0-0",
       "result": "D",
@@ -1675,7 +1675,7 @@
     },
     {
       "date": "2022-10-15",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1705,7 +1705,7 @@
     },
     {
       "date": "2022-09-16",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -1715,7 +1715,7 @@
     },
     {
       "date": "2022-09-03",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "H",
       "score": "2-3",
       "result": "L",
@@ -1725,7 +1725,7 @@
     },
     {
       "date": "2022-08-31",
-      "opponent": "Man City",
+      "opponent": "Manchester City",
       "home_away": "A",
       "score": "0-6",
       "result": "L",
@@ -1735,7 +1735,7 @@
     },
     {
       "date": "2022-08-28",
-      "opponent": "Tottenham",
+      "opponent": "Tottenham Hotspur",
       "home_away": "H",
       "score": "0-2",
       "result": "L",
@@ -1755,7 +1755,7 @@
     },
     {
       "date": "2022-08-20",
-      "opponent": "Everton",
+      "opponent": "Everton FC",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -1765,7 +1765,7 @@
     },
     {
       "date": "2022-08-14",
-      "opponent": "West Ham",
+      "opponent": "West Ham United",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -1775,7 +1775,7 @@
     },
     {
       "date": "2022-08-06",
-      "opponent": "Newcastle",
+      "opponent": "Newcastle United",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -1825,7 +1825,7 @@
     },
     {
       "date": "2022-05-03",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "A",
       "score": "0-1",
       "result": "L",
@@ -1845,7 +1845,7 @@
     },
     {
       "date": "2022-04-26",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -1915,7 +1915,7 @@
     },
     {
       "date": "2022-03-20",
-      "opponent": "Liverpool",
+      "opponent": "Liverpool FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -2055,7 +2055,7 @@
     },
     {
       "date": "2022-01-09",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -2175,7 +2175,7 @@
     },
     {
       "date": "2021-10-24",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "H",
       "score": "0-4",
       "result": "L",
@@ -2275,7 +2275,7 @@
     },
     {
       "date": "2021-08-24",
-      "opponent": "Wolverhampton",
+      "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
       "score": "0-4",
       "result": "L",
@@ -2305,7 +2305,7 @@
     },
     {
       "date": "2021-08-14",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "H",
       "score": "1-2",
       "result": "L",
@@ -2415,7 +2415,7 @@
     },
     {
       "date": "2021-03-20",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "1-1",
       "result": "D",
@@ -2505,7 +2505,7 @@
     },
     {
       "date": "2021-02-13",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "H",
       "score": "0-0",
       "result": "D",
@@ -2635,7 +2635,7 @@
     },
     {
       "date": "2020-12-12",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "1-3",
       "result": "L",
@@ -2685,7 +2685,7 @@
     },
     {
       "date": "2020-11-24",
-      "opponent": "Bournemouth",
+      "opponent": "AFC Bournemouth",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -2865,7 +2865,7 @@
     },
     {
       "date": "2020-07-07",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -2995,7 +2995,7 @@
     },
     {
       "date": "2020-01-28",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "1-0",
       "result": "W",
@@ -3035,7 +3035,7 @@
     },
     {
       "date": "2020-01-05",
-      "opponent": "Chelsea",
+      "opponent": "Chelsea FC",
       "home_away": "A",
       "score": "0-2",
       "result": "L",
@@ -3185,7 +3185,7 @@
     },
     {
       "date": "2019-10-05",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "1-0",
       "result": "W",
@@ -3215,7 +3215,7 @@
     },
     {
       "date": "2019-09-24",
-      "opponent": "Arsenal",
+      "opponent": "Arsenal FC",
       "home_away": "A",
       "score": "0-5",
       "result": "L",
@@ -3265,7 +3265,7 @@
     },
     {
       "date": "2019-08-24",
-      "opponent": "Fulham",
+      "opponent": "Fulham FC",
       "home_away": "A",
       "score": "2-1",
       "result": "W",
@@ -3325,7 +3325,7 @@
     },
     {
       "date": "2019-02-09",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "2-1",
       "result": "W",
@@ -3335,7 +3335,7 @@
     },
     {
       "date": "2018-09-01",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "1-2",
       "result": "L",
@@ -3345,7 +3345,7 @@
     },
     {
       "date": "2018-04-10",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "H",
       "score": "0-1",
       "result": "L",
@@ -3355,7 +3355,7 @@
     },
     {
       "date": "2017-08-12",
-      "opponent": "Brentford",
+      "opponent": "Brentford FC",
       "home_away": "A",
       "score": "4-3",
       "result": "W",
