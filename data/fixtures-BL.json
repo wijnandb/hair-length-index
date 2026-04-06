@@ -1,0 +1,546 @@
+{
+  "league": "BL",
+  "generated_at": "2026-04-06T06:53:15.193844+00:00",
+  "matches": [
+    {
+      "date": "2026-04-10",
+      "time": "18:30",
+      "home_team": "FC Augsburg",
+      "home_team_id": 265,
+      "away_team": "1899 Hoffenheim",
+      "away_team_id": 260,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-11",
+      "time": "13:30",
+      "home_team": "Borussia Dortmund",
+      "home_team_id": 263,
+      "away_team": "Bayer Leverkusen",
+      "away_team_id": 261,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-11",
+      "time": "13:30",
+      "home_team": "VfL Wolfsburg",
+      "home_team_id": 271,
+      "away_team": "Eintracht Frankfurt",
+      "away_team_id": 264,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-11",
+      "time": "13:30",
+      "home_team": "RB Leipzig",
+      "home_team_id": 268,
+      "away_team": "Bor. Mönchengladbach",
+      "away_team_id": 262,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-11",
+      "time": "13:30",
+      "home_team": "1. FC Heidenheim 1846",
+      "home_team_id": 256,
+      "away_team": "1. FC Union Berlin",
+      "away_team_id": 258,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-11",
+      "time": "16:30",
+      "home_team": "FC St. Pauli",
+      "home_team_id": 266,
+      "away_team": "Bayern Munich",
+      "away_team_id": 163,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-12",
+      "time": "13:30",
+      "home_team": "1. FC Köln",
+      "home_team_id": 257,
+      "away_team": "Werder Bremen",
+      "away_team_id": 272,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-12",
+      "time": "15:30",
+      "home_team": "VfB Stuttgart",
+      "home_team_id": 270,
+      "away_team": "Hamburger SV",
+      "away_team_id": 1129,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-12",
+      "time": "17:30",
+      "home_team": "1. FSV Mainz 05",
+      "home_team_id": 259,
+      "away_team": "SC Freiburg",
+      "away_team_id": 269,
+      "competition": "Bundesliga",
+      "matchday": 29
+    },
+    {
+      "date": "2026-04-17",
+      "time": "18:30",
+      "home_team": "FC St. Pauli",
+      "home_team_id": 266,
+      "away_team": "1. FC Köln",
+      "away_team_id": 257,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-18",
+      "time": "13:30",
+      "home_team": "Werder Bremen",
+      "home_team_id": 272,
+      "away_team": "Hamburger SV",
+      "away_team_id": 1129,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-18",
+      "time": "13:30",
+      "home_team": "Bayer Leverkusen",
+      "home_team_id": 261,
+      "away_team": "FC Augsburg",
+      "away_team_id": 265,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-18",
+      "time": "13:30",
+      "home_team": "1899 Hoffenheim",
+      "home_team_id": 260,
+      "away_team": "Borussia Dortmund",
+      "away_team_id": 263,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-18",
+      "time": "13:30",
+      "home_team": "1. FC Union Berlin",
+      "home_team_id": 258,
+      "away_team": "VfL Wolfsburg",
+      "away_team_id": 271,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-18",
+      "time": "16:30",
+      "home_team": "Eintracht Frankfurt",
+      "home_team_id": 264,
+      "away_team": "RB Leipzig",
+      "away_team_id": 268,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-19",
+      "time": "13:30",
+      "home_team": "SC Freiburg",
+      "home_team_id": 269,
+      "away_team": "1. FC Heidenheim 1846",
+      "away_team_id": 256,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-19",
+      "time": "15:30",
+      "home_team": "Bayern Munich",
+      "home_team_id": 163,
+      "away_team": "VfB Stuttgart",
+      "away_team_id": 270,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-19",
+      "time": "17:30",
+      "home_team": "Bor. Mönchengladbach",
+      "home_team_id": 262,
+      "away_team": "1. FSV Mainz 05",
+      "away_team_id": 259,
+      "competition": "Bundesliga",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-24",
+      "time": "18:30",
+      "home_team": "RB Leipzig",
+      "home_team_id": 268,
+      "away_team": "1. FC Union Berlin",
+      "away_team_id": 258,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "13:30",
+      "home_team": "1. FSV Mainz 05",
+      "home_team_id": 259,
+      "away_team": "Bayern Munich",
+      "away_team_id": 163,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "13:30",
+      "home_team": "1. FC Köln",
+      "home_team_id": 257,
+      "away_team": "Bayer Leverkusen",
+      "away_team_id": 261,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "13:30",
+      "home_team": "FC Augsburg",
+      "home_team_id": 265,
+      "away_team": "Eintracht Frankfurt",
+      "away_team_id": 264,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "13:30",
+      "home_team": "VfL Wolfsburg",
+      "home_team_id": 271,
+      "away_team": "Bor. Mönchengladbach",
+      "away_team_id": 262,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "13:30",
+      "home_team": "1. FC Heidenheim 1846",
+      "home_team_id": 256,
+      "away_team": "FC St. Pauli",
+      "away_team_id": 266,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "16:30",
+      "home_team": "Hamburger SV",
+      "home_team_id": 1129,
+      "away_team": "1899 Hoffenheim",
+      "away_team_id": 260,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-26",
+      "time": "13:30",
+      "home_team": "VfB Stuttgart",
+      "home_team_id": 270,
+      "away_team": "Werder Bremen",
+      "away_team_id": 272,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-26",
+      "time": "15:30",
+      "home_team": "Borussia Dortmund",
+      "home_team_id": 263,
+      "away_team": "SC Freiburg",
+      "away_team_id": 269,
+      "competition": "Bundesliga",
+      "matchday": 31
+    },
+    {
+      "date": "2026-05-02",
+      "time": "13:30",
+      "home_team": "1899 Hoffenheim",
+      "home_team_id": 260,
+      "away_team": "VfB Stuttgart",
+      "away_team_id": 270,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "13:30",
+      "home_team": "Werder Bremen",
+      "home_team_id": 272,
+      "away_team": "FC Augsburg",
+      "away_team_id": 265,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "13:30",
+      "home_team": "Bayern Munich",
+      "home_team_id": 163,
+      "away_team": "1. FC Heidenheim 1846",
+      "away_team_id": 256,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "13:30",
+      "home_team": "1. FC Union Berlin",
+      "home_team_id": 258,
+      "away_team": "1. FC Köln",
+      "away_team_id": 257,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "13:30",
+      "home_team": "Eintracht Frankfurt",
+      "home_team_id": 264,
+      "away_team": "Hamburger SV",
+      "away_team_id": 1129,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "16:30",
+      "home_team": "Bayer Leverkusen",
+      "home_team_id": 261,
+      "away_team": "RB Leipzig",
+      "away_team_id": 268,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "13:30",
+      "home_team": "FC St. Pauli",
+      "home_team_id": 266,
+      "away_team": "1. FSV Mainz 05",
+      "away_team_id": 259,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "15:30",
+      "home_team": "Bor. Mönchengladbach",
+      "home_team_id": 262,
+      "away_team": "Borussia Dortmund",
+      "away_team_id": 263,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "17:30",
+      "home_team": "SC Freiburg",
+      "home_team_id": 269,
+      "away_team": "VfL Wolfsburg",
+      "away_team_id": 271,
+      "competition": "Bundesliga",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-08",
+      "time": "18:30",
+      "home_team": "Borussia Dortmund",
+      "home_team_id": 263,
+      "away_team": "Eintracht Frankfurt",
+      "away_team_id": 264,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-09",
+      "time": "13:30",
+      "home_team": "VfB Stuttgart",
+      "home_team_id": 270,
+      "away_team": "Bayer Leverkusen",
+      "away_team_id": 261,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-09",
+      "time": "13:30",
+      "home_team": "1899 Hoffenheim",
+      "home_team_id": 260,
+      "away_team": "Werder Bremen",
+      "away_team_id": 272,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-09",
+      "time": "13:30",
+      "home_team": "FC Augsburg",
+      "home_team_id": 265,
+      "away_team": "Bor. Mönchengladbach",
+      "away_team_id": 262,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-09",
+      "time": "13:30",
+      "home_team": "RB Leipzig",
+      "home_team_id": 268,
+      "away_team": "FC St. Pauli",
+      "away_team_id": 266,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-09",
+      "time": "16:30",
+      "home_team": "VfL Wolfsburg",
+      "home_team_id": 271,
+      "away_team": "Bayern Munich",
+      "away_team_id": 163,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "13:30",
+      "home_team": "Hamburger SV",
+      "home_team_id": 1129,
+      "away_team": "SC Freiburg",
+      "away_team_id": 269,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "15:30",
+      "home_team": "1. FC Köln",
+      "home_team_id": 257,
+      "away_team": "1. FC Heidenheim 1846",
+      "away_team_id": 256,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "17:30",
+      "home_team": "1. FSV Mainz 05",
+      "home_team_id": 259,
+      "away_team": "1. FC Union Berlin",
+      "away_team_id": 258,
+      "competition": "Bundesliga",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "Werder Bremen",
+      "home_team_id": 272,
+      "away_team": "Borussia Dortmund",
+      "away_team_id": 263,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "1. FC Heidenheim 1846",
+      "home_team_id": 256,
+      "away_team": "1. FSV Mainz 05",
+      "away_team_id": 259,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "SC Freiburg",
+      "home_team_id": 269,
+      "away_team": "RB Leipzig",
+      "away_team_id": 268,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "Eintracht Frankfurt",
+      "home_team_id": 264,
+      "away_team": "VfB Stuttgart",
+      "away_team_id": 270,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "FC St. Pauli",
+      "home_team_id": 266,
+      "away_team": "VfL Wolfsburg",
+      "away_team_id": 271,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "1. FC Union Berlin",
+      "home_team_id": 258,
+      "away_team": "FC Augsburg",
+      "away_team_id": 265,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "Bor. Mönchengladbach",
+      "home_team_id": 262,
+      "away_team": "1899 Hoffenheim",
+      "away_team_id": 260,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "Bayern Munich",
+      "home_team_id": 163,
+      "away_team": "1. FC Köln",
+      "away_team_id": 257,
+      "competition": "Bundesliga",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-16",
+      "time": "13:30",
+      "home_team": "Bayer Leverkusen",
+      "home_team_id": 261,
+      "away_team": "Hamburger SV",
+      "away_team_id": 1129,
+      "competition": "Bundesliga",
+      "matchday": 34
+    }
+  ]
+}
