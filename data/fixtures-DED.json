@@ -1,0 +1,456 @@
+{
+  "league": "DED",
+  "generated_at": "2026-04-06T06:51:09.149219+00:00",
+  "matches": [
+    {
+      "date": "2026-04-10",
+      "time": "18:00",
+      "home_team": "FC Twente",
+      "home_team_id": 5,
+      "away_team": "N.E.C.",
+      "away_team_id": 13,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-11",
+      "time": "14:30",
+      "home_team": "FC Utrecht",
+      "home_team_id": 6,
+      "away_team": "Telstar",
+      "away_team_id": 18,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-11",
+      "time": "16:45",
+      "home_team": "Sparta Rotterdam",
+      "home_team_id": 1128,
+      "away_team": "PSV Eindhoven",
+      "away_team_id": 16,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-11",
+      "time": "18:00",
+      "home_team": "FC Groningen",
+      "home_team_id": 4,
+      "away_team": "Go Ahead Eagles",
+      "away_team_id": 10,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-11",
+      "time": "19:00",
+      "home_team": "Heracles Almelo",
+      "home_team_id": 12,
+      "away_team": "Ajax",
+      "away_team_id": 1,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-12",
+      "time": "10:15",
+      "home_team": "Fortuna Sittard",
+      "home_team_id": 9,
+      "away_team": "NAC Breda",
+      "away_team_id": 14,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-12",
+      "time": "12:30",
+      "home_team": "N.E.C.",
+      "home_team_id": 1131,
+      "away_team": "Feyenoord",
+      "away_team_id": 8,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-12",
+      "time": "12:30",
+      "home_team": "PEC Zwolle",
+      "home_team_id": 15,
+      "away_team": "Excelsior",
+      "away_team_id": 3,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-12",
+      "time": "14:45",
+      "home_team": "AZ Alkmaar",
+      "home_team_id": 2,
+      "away_team": "Heerenveen",
+      "away_team_id": 11,
+      "competition": "Eredivisie",
+      "matchday": 30
+    },
+    {
+      "date": "2026-04-22",
+      "time": "18:00",
+      "home_team": "Telstar",
+      "home_team_id": 18,
+      "away_team": "Sparta Rotterdam",
+      "away_team_id": 1128,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-23",
+      "time": "16:45",
+      "home_team": "Go Ahead Eagles",
+      "home_team_id": 10,
+      "away_team": "AZ Alkmaar",
+      "away_team_id": 2,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-23",
+      "time": "19:00",
+      "home_team": "PSV Eindhoven",
+      "home_team_id": 16,
+      "away_team": "PEC Zwolle",
+      "away_team_id": 15,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "14:30",
+      "home_team": "Feyenoord",
+      "home_team_id": 8,
+      "away_team": "FC Groningen",
+      "away_team_id": 4,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "16:45",
+      "home_team": "Heerenveen",
+      "home_team_id": 11,
+      "away_team": "Fortuna Sittard",
+      "away_team_id": 9,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "18:00",
+      "home_team": "NAC Breda",
+      "home_team_id": 14,
+      "away_team": "Ajax",
+      "away_team_id": 1,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-25",
+      "time": "19:00",
+      "home_team": "FC Twente",
+      "home_team_id": 5,
+      "away_team": "N.E.C.",
+      "away_team_id": 1131,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-26",
+      "time": "10:15",
+      "home_team": "Excelsior",
+      "home_team_id": 3,
+      "away_team": "FC Utrecht",
+      "away_team_id": 6,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-04-26",
+      "time": "12:30",
+      "home_team": "Heracles Almelo",
+      "home_team_id": 12,
+      "away_team": "N.E.C.",
+      "away_team_id": 13,
+      "competition": "Eredivisie",
+      "matchday": 31
+    },
+    {
+      "date": "2026-05-02",
+      "time": "14:30",
+      "home_team": "FC Utrecht",
+      "home_team_id": 6,
+      "away_team": "NAC Breda",
+      "away_team_id": 14,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "16:45",
+      "home_team": "FC Groningen",
+      "home_team_id": 4,
+      "away_team": "Excelsior",
+      "away_team_id": 3,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "18:00",
+      "home_team": "Ajax",
+      "home_team_id": 1,
+      "away_team": "PSV Eindhoven",
+      "away_team_id": 16,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "19:00",
+      "home_team": "N.E.C.",
+      "home_team_id": 1131,
+      "away_team": "Telstar",
+      "away_team_id": 18,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "10:15",
+      "home_team": "N.E.C.",
+      "home_team_id": 13,
+      "away_team": "Heerenveen",
+      "away_team_id": 11,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "12:30",
+      "home_team": "Fortuna Sittard",
+      "home_team_id": 9,
+      "away_team": "Feyenoord",
+      "away_team_id": 8,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "12:30",
+      "home_team": "PEC Zwolle",
+      "home_team_id": 15,
+      "away_team": "Heracles Almelo",
+      "away_team_id": 12,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "14:45",
+      "home_team": "AZ Alkmaar",
+      "home_team_id": 2,
+      "away_team": "FC Twente",
+      "away_team_id": 5,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "14:45",
+      "home_team": "Sparta Rotterdam",
+      "home_team_id": 1128,
+      "away_team": "Go Ahead Eagles",
+      "away_team_id": 10,
+      "competition": "Eredivisie",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "Ajax",
+      "home_team_id": 1,
+      "away_team": "FC Utrecht",
+      "away_team_id": 6,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "Excelsior",
+      "home_team_id": 3,
+      "away_team": "N.E.C.",
+      "away_team_id": 13,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "FC Groningen",
+      "home_team_id": 4,
+      "away_team": "N.E.C.",
+      "away_team_id": 1131,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "Feyenoord",
+      "home_team_id": 8,
+      "away_team": "AZ Alkmaar",
+      "away_team_id": 2,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "Fortuna Sittard",
+      "home_team_id": 9,
+      "away_team": "PEC Zwolle",
+      "away_team_id": 15,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "Go Ahead Eagles",
+      "home_team_id": 10,
+      "away_team": "PSV Eindhoven",
+      "away_team_id": 16,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "NAC Breda",
+      "home_team_id": 14,
+      "away_team": "Heerenveen",
+      "away_team_id": 11,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "Telstar",
+      "home_team_id": 18,
+      "away_team": "Heracles Almelo",
+      "away_team_id": 12,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-10",
+      "time": "14:45",
+      "home_team": "FC Twente",
+      "home_team_id": 5,
+      "away_team": "Sparta Rotterdam",
+      "away_team_id": 1128,
+      "competition": "Eredivisie",
+      "matchday": 33
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "AZ Alkmaar",
+      "home_team_id": 2,
+      "away_team": "NAC Breda",
+      "away_team_id": 14,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "FC Utrecht",
+      "home_team_id": 6,
+      "away_team": "Fortuna Sittard",
+      "away_team_id": 9,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "N.E.C.",
+      "home_team_id": 13,
+      "away_team": "Telstar",
+      "away_team_id": 18,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "Heracles Almelo",
+      "home_team_id": 12,
+      "away_team": "FC Groningen",
+      "away_team_id": 4,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "N.E.C.",
+      "home_team_id": 1131,
+      "away_team": "Go Ahead Eagles",
+      "away_team_id": 10,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "PEC Zwolle",
+      "home_team_id": 15,
+      "away_team": "Feyenoord",
+      "away_team_id": 8,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "PSV Eindhoven",
+      "home_team_id": 16,
+      "away_team": "FC Twente",
+      "away_team_id": 5,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "Heerenveen",
+      "home_team_id": 11,
+      "away_team": "Ajax",
+      "away_team_id": 1,
+      "competition": "Eredivisie",
+      "matchday": 34
+    },
+    {
+      "date": "2026-05-17",
+      "time": "12:30",
+      "home_team": "Sparta Rotterdam",
+      "home_team_id": 1128,
+      "away_team": "Excelsior",
+      "away_team_id": 3,
+      "competition": "Eredivisie",
+      "matchday": 34
+    }
+  ]
+}
