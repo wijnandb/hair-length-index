@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-06",
+      "opponent": "Villarreal CF",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-21",
       "opponent": "CA Osasuna",
       "home_away": "A",
@@ -3376,8 +3386,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 108,
-    "end_index": 113,
+    "start_index": 109,
+    "end_index": 114,
     "length": 6
   }
 }

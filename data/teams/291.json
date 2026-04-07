@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-06",
+      "opponent": "Girona FC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-20",
       "opponent": "Real Sociedad",
       "home_away": "H",
@@ -3586,8 +3596,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 38,
-    "end_index": 45,
+    "start_index": 39,
+    "end_index": 46,
     "length": 8
   }
 }
