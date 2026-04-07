@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-06",
+      "opponent": "US Lecce",
+      "home_away": "A",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-22",
       "opponent": "Hellas Verona",
       "home_away": "H",
@@ -4286,8 +4296,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 76,
-    "end_index": 84,
+    "start_index": 77,
+    "end_index": 85,
     "length": 9
   }
 }

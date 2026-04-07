@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-06",
+      "opponent": "Como 1907",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-20",
       "opponent": "Genoa CFC",
       "home_away": "A",
@@ -3496,8 +3506,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 145,
-    "end_index": 150,
+    "start_index": 146,
+    "end_index": 151,
     "length": 6
   }
 }

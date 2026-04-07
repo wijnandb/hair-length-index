@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-06",
+      "opponent": "SSC Napoli",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-21",
       "opponent": "Torino FC",
       "home_away": "H",
@@ -4106,8 +4116,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 27,
-    "end_index": 31,
+    "start_index": 28,
+    "end_index": 32,
     "length": 5
   }
 }
