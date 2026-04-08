@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-07",
+      "opponent": "Real Madrid",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "SC Freiburg",
       "home_away": "A",
@@ -4146,8 +4156,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 4,
-    "end_index": 10,
+    "start_index": 5,
+    "end_index": 11,
     "length": 7
   }
 }
