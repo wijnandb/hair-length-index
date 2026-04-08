@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-07",
+      "opponent": "Sporting Clube de Portugal",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-22",
       "opponent": "Manchester City",
       "home_away": "H",
@@ -3696,8 +3706,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 21,
-    "end_index": 27,
+    "start_index": 22,
+    "end_index": 28,
     "length": 10
   }
 }

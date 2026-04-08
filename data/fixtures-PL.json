@@ -1,6 +1,6 @@
 {
   "league": "PL",
-  "generated_at": "2026-04-07T06:44:04.786566+00:00",
+  "generated_at": "2026-04-08T06:46:47.325399+00:00",
   "matches": [
     {
       "date": "2026-04-10",
@@ -201,6 +201,36 @@
       "away_team_id": 254,
       "competition": "Premier League",
       "matchday": 33
+    },
+    {
+      "date": "2026-04-21",
+      "time": "19:00",
+      "home_team": "Brighton & Hove Albion",
+      "home_team_id": 240,
+      "away_team": "Chelsea FC",
+      "away_team_id": 242,
+      "competition": "Premier League",
+      "matchday": 34
+    },
+    {
+      "date": "2026-04-22",
+      "time": "19:00",
+      "home_team": "AFC Bournemouth",
+      "home_team_id": 238,
+      "away_team": "Leeds United",
+      "away_team_id": 246,
+      "competition": "Premier League",
+      "matchday": 34
+    },
+    {
+      "date": "2026-04-22",
+      "time": "19:00",
+      "home_team": "Burnley FC",
+      "home_team_id": 241,
+      "away_team": "Manchester City",
+      "away_team_id": 248,
+      "competition": "Premier League",
+      "matchday": 34
     },
     {
       "date": "2026-04-24",
