@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-07",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "RCD Mallorca",
       "home_away": "A",
@@ -4066,8 +4076,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 1,
-    "end_index": 5,
+    "start_index": 2,
+    "end_index": 6,
     "length": 5
   }
 }
