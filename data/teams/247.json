@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-08",
+      "opponent": "Paris Saint-Germain",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-21",
       "opponent": "Brighton & Hove Albion",
       "home_away": "A",
@@ -3906,8 +3916,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 39,
-    "end_index": 45,
+    "start_index": 40,
+    "end_index": 46,
     "length": 7
   }
 }
