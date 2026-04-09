@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-08",
+      "opponent": "Atlético Madrid",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "Atlético Madrid",
       "home_away": "A",
@@ -3936,8 +3946,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 11,
-    "end_index": 16,
+    "start_index": 12,
+    "end_index": 17,
     "length": 6
   }
 }
