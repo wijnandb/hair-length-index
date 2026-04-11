@@ -1,7 +1,7 @@
 {
   "league": "BL",
   "season": "2025-26",
-  "generated_at": "2026-04-10T06:49:59.504750+00:00",
+  "generated_at": "2026-04-11T06:32:14.889708+00:00",
   "table": [
     {
       "position": 1,
@@ -59,14 +59,14 @@
       "position": 5,
       "team": "TSG 1899 Hoffenheim",
       "team_id": 2,
-      "played": 28,
+      "played": 29,
       "won": 15,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 8,
-      "goals_for": 55,
-      "goals_against": 41,
+      "goals_for": 57,
+      "goals_against": 43,
       "goal_difference": 14,
-      "points": 50
+      "points": 51
     },
     {
       "position": 6,
@@ -122,6 +122,19 @@
     },
     {
       "position": 10,
+      "team": "FC Augsburg",
+      "team_id": 16,
+      "played": 29,
+      "won": 9,
+      "drawn": 6,
+      "lost": 14,
+      "goals_for": 36,
+      "goals_against": 53,
+      "goal_difference": -17,
+      "points": 33
+    },
+    {
+      "position": 11,
       "team": "1. FC Union Berlin",
       "team_id": 28,
       "played": 28,
@@ -131,19 +144,6 @@
       "goals_for": 32,
       "goals_against": 47,
       "goal_difference": -15,
-      "points": 32
-    },
-    {
-      "position": 11,
-      "team": "FC Augsburg",
-      "team_id": 16,
-      "played": 28,
-      "won": 9,
-      "drawn": 5,
-      "lost": 14,
-      "goals_for": 34,
-      "goals_against": 51,
-      "goal_difference": -17,
       "points": 32
     },
     {
