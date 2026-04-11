@@ -1,27 +1,7 @@
 {
   "league": "L1",
-  "generated_at": "2026-04-10T06:50:42.972325+00:00",
+  "generated_at": "2026-04-11T06:34:50.835142+00:00",
   "matches": [
-    {
-      "date": "2026-04-10",
-      "time": "17:00",
-      "home_team": "Paris FC",
-      "home_team_id": 317,
-      "away_team": "AS Monaco",
-      "away_team_id": 193,
-      "competition": "Ligue 1",
-      "matchday": 29
-    },
-    {
-      "date": "2026-04-10",
-      "time": "19:05",
-      "home_team": "Olympique Marseille",
-      "home_team_id": 316,
-      "away_team": "FC Metz",
-      "away_team_id": 310,
-      "competition": "Ligue 1",
-      "matchday": 29
-    },
     {
       "date": "2026-04-11",
       "time": "17:00",
@@ -263,28 +243,8 @@
       "matchday": 31
     },
     {
-      "date": "2026-05-03",
-      "time": "00:00",
-      "home_team": "AJ Auxerre",
-      "home_team_id": 307,
-      "away_team": "Angers SCO",
-      "away_team_id": 308,
-      "competition": "Ligue 1",
-      "matchday": 32
-    },
-    {
-      "date": "2026-05-03",
-      "time": "00:00",
-      "home_team": "FC Metz",
-      "home_team_id": 310,
-      "away_team": "AS Monaco",
-      "away_team_id": 193,
-      "competition": "Ligue 1",
-      "matchday": 32
-    },
-    {
-      "date": "2026-05-03",
-      "time": "00:00",
+      "date": "2026-05-01",
+      "time": "18:45",
       "home_team": "FC Nantes",
       "home_team_id": 311,
       "away_team": "Olympique Marseille",
@@ -293,18 +253,28 @@
       "matchday": 32
     },
     {
-      "date": "2026-05-03",
-      "time": "00:00",
-      "home_team": "Paris FC",
-      "home_team_id": 317,
-      "away_team": "Stade Brestois 29",
-      "away_team_id": 320,
+      "date": "2026-05-02",
+      "time": "15:00",
+      "home_team": "Paris Saint-Germain",
+      "home_team_id": 318,
+      "away_team": "FC Lorient",
+      "away_team_id": 309,
       "competition": "Ligue 1",
       "matchday": 32
     },
     {
-      "date": "2026-05-03",
-      "time": "00:00",
+      "date": "2026-05-02",
+      "time": "17:00",
+      "home_team": "FC Metz",
+      "home_team_id": 310,
+      "away_team": "AS Monaco",
+      "away_team_id": 193,
+      "competition": "Ligue 1",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-02",
+      "time": "19:05",
       "home_team": "OGC Nice",
       "home_team_id": 314,
       "away_team": "RC Lens",
@@ -314,17 +284,7 @@
     },
     {
       "date": "2026-05-03",
-      "time": "00:00",
-      "home_team": "Olympique Lyonnais",
-      "home_team_id": 315,
-      "away_team": "Stade Rennais",
-      "away_team_id": 226,
-      "competition": "Ligue 1",
-      "matchday": 32
-    },
-    {
-      "date": "2026-05-03",
-      "time": "00:00",
+      "time": "13:00",
       "home_team": "Lille OSC",
       "home_team_id": 313,
       "away_team": "Havre AC",
@@ -334,21 +294,41 @@
     },
     {
       "date": "2026-05-03",
-      "time": "00:00",
-      "home_team": "Paris Saint-Germain",
-      "home_team_id": 318,
-      "away_team": "FC Lorient",
-      "away_team_id": 309,
+      "time": "15:15",
+      "home_team": "AJ Auxerre",
+      "home_team_id": 307,
+      "away_team": "Angers SCO",
+      "away_team_id": 308,
       "competition": "Ligue 1",
       "matchday": 32
     },
     {
       "date": "2026-05-03",
-      "time": "00:00",
+      "time": "15:15",
+      "home_team": "Paris FC",
+      "home_team_id": 317,
+      "away_team": "Stade Brestois 29",
+      "away_team_id": 320,
+      "competition": "Ligue 1",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "15:15",
       "home_team": "RC Strasbourg",
       "home_team_id": 319,
       "away_team": "Toulouse FC",
       "away_team_id": 321,
+      "competition": "Ligue 1",
+      "matchday": 32
+    },
+    {
+      "date": "2026-05-03",
+      "time": "18:45",
+      "home_team": "Olympique Lyonnais",
+      "home_team_id": 315,
+      "away_team": "Stade Rennais",
+      "away_team_id": 226,
       "competition": "Ligue 1",
       "matchday": 32
     },
@@ -454,7 +434,7 @@
     },
     {
       "date": "2026-05-13",
-      "time": "00:00",
+      "time": "18:00",
       "home_team": "Stade Brestois 29",
       "home_team_id": 320,
       "away_team": "RC Strasbourg",

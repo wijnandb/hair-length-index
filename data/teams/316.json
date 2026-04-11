@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-10",
+      "opponent": "FC Metz",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "AS Monaco",
       "home_away": "A",
@@ -3196,8 +3206,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 31,
-    "end_index": 35,
+    "start_index": 32,
+    "end_index": 36,
     "length": 5
   }
 }
