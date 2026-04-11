@@ -1,7 +1,7 @@
 {
   "league": "LL",
   "season": "2025-26",
-  "generated_at": "2026-04-10T06:48:58.646402+00:00",
+  "generated_at": "2026-04-11T06:35:39.956383+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Real Madrid CF",
       "team_id": 86,
-      "played": 30,
+      "played": 31,
       "won": 22,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 5,
-      "goals_for": 64,
-      "goals_against": 28,
+      "goals_for": 65,
+      "goals_against": 29,
       "goal_difference": 36,
-      "points": 69
+      "points": 70
     },
     {
       "position": 3,
@@ -150,14 +150,14 @@
       "position": 12,
       "team": "Girona FC",
       "team_id": 298,
-      "played": 30,
+      "played": 31,
       "won": 9,
-      "drawn": 10,
+      "drawn": 11,
       "lost": 11,
-      "goals_for": 32,
-      "goals_against": 44,
+      "goals_for": 33,
+      "goals_against": 45,
       "goal_difference": -12,
-      "points": 37
+      "points": 38
     },
     {
       "position": 13,
