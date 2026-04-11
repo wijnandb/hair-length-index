@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-04-10T06:48:59.750381+00:00",
+  "generated_at": "2026-04-11T06:35:38.707323+00:00",
   "table": [
     {
       "position": 1,
@@ -72,14 +72,14 @@
       "position": 6,
       "team": "AS Roma",
       "team_id": 100,
-      "played": 31,
-      "won": 17,
+      "played": 32,
+      "won": 18,
       "drawn": 3,
       "lost": 11,
-      "goals_for": 42,
+      "goals_for": 45,
       "goals_against": 28,
-      "goal_difference": 14,
-      "points": 54
+      "goal_difference": 17,
+      "points": 57
     },
     {
       "position": 7,
@@ -254,13 +254,13 @@
       "position": 20,
       "team": "AC Pisa 1909",
       "team_id": 487,
-      "played": 31,
+      "played": 32,
       "won": 2,
       "drawn": 12,
-      "lost": 17,
+      "lost": 18,
       "goals_for": 23,
-      "goals_against": 55,
-      "goal_difference": -32,
+      "goals_against": 58,
+      "goal_difference": -35,
       "points": 18
     }
   ]

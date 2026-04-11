@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-10",
+      "opponent": "AS Roma",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "Torino FC",
       "home_away": "H",
@@ -2776,8 +2786,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 66,
-    "end_index": 70,
+    "start_index": 67,
+    "end_index": 71,
     "length": 5
   }
 }
