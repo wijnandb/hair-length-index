@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-10",
+      "opponent": "FC Twente",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "Feyenoord",
       "home_away": "H",
@@ -2726,8 +2736,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 10,
-    "end_index": 15,
+    "start_index": 11,
+    "end_index": 16,
     "length": 6
   }
 }

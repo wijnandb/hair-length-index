@@ -1,7 +1,7 @@
 {
   "league": "DED",
   "season": "2025-26",
-  "generated_at": "2026-04-10T06:47:56.730086+00:00",
+  "generated_at": "2026-04-11T06:36:44.788461+00:00",
   "table": [
     {
       "position": 1,
@@ -46,14 +46,14 @@
       "position": 4,
       "team": "FC Twente '65",
       "team_id": 666,
-      "played": 29,
-      "won": 13,
+      "played": 30,
+      "won": 14,
       "drawn": 11,
       "lost": 5,
-      "goals_for": 49,
-      "goals_against": 31,
-      "goal_difference": 18,
-      "points": 50
+      "goals_for": 51,
+      "goals_against": 32,
+      "goal_difference": 19,
+      "points": 53
     },
     {
       "position": 5,
@@ -176,13 +176,13 @@
       "position": 14,
       "team": "FC Volendam",
       "team_id": 1919,
-      "played": 29,
+      "played": 30,
       "won": 7,
       "drawn": 7,
-      "lost": 15,
-      "goals_for": 30,
-      "goals_against": 48,
-      "goal_difference": -18,
+      "lost": 16,
+      "goals_for": 31,
+      "goals_against": 50,
+      "goal_difference": -19,
       "points": 28
     },
     {

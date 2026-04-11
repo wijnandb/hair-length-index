@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T06:48:23.499144",
+  "generated_at": "2026-04-11T06:37:23.882711",
   "threshold": 5,
   "teams": [
     {
@@ -13,7 +13,7 @@
       "streak_length": 8,
       "streak_end_date": "2016-03-11",
       "streak_start_date": "2016-01-31",
-      "days_since": 3682,
+      "days_since": 3683,
       "matches_since": 364,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -35,7 +35,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2016-03-11",
-      "strict_days_since": 3682,
+      "strict_days_since": 3683,
       "includes_aet_pens": false,
       "total_matches": 480,
       "has_cup_data": true,
@@ -52,7 +52,7 @@
       "streak_length": 5,
       "streak_end_date": "2017-09-23",
       "streak_start_date": "2017-08-26",
-      "days_since": 3121,
+      "days_since": 3122,
       "matches_since": 319,
       "competitions_in_streak": [
         "Eredivisie",
@@ -75,7 +75,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2017-09-23",
-      "strict_days_since": 3121,
+      "strict_days_since": 3122,
       "includes_aet_pens": false,
       "total_matches": 394,
       "has_cup_data": true,
@@ -92,7 +92,7 @@
       "streak_length": 5,
       "streak_end_date": "2017-11-03",
       "streak_start_date": "2017-10-06",
-      "days_since": 3080,
+      "days_since": 3081,
       "matches_since": 333,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -114,7 +114,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2017-11-03",
-      "strict_days_since": 3080,
+      "strict_days_since": 3081,
       "includes_aet_pens": false,
       "total_matches": 445,
       "has_cup_data": true,
@@ -131,7 +131,7 @@
       "streak_length": 5,
       "streak_end_date": "2018-04-06",
       "streak_start_date": "2018-03-16",
-      "days_since": 2926,
+      "days_since": 2927,
       "matches_since": 280,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -153,7 +153,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2018-04-06",
-      "strict_days_since": 2926,
+      "strict_days_since": 2927,
       "includes_aet_pens": false,
       "total_matches": 412,
       "has_cup_data": true,
@@ -170,7 +170,7 @@
       "streak_length": 6,
       "streak_end_date": "2022-03-14",
       "streak_start_date": "2022-02-13",
-      "days_since": 1488,
+      "days_since": 1489,
       "matches_since": 165,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -192,7 +192,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-03-14",
-      "strict_days_since": 1488,
+      "strict_days_since": 1489,
       "includes_aet_pens": false,
       "total_matches": 307,
       "has_cup_data": true,
@@ -209,7 +209,7 @@
       "streak_length": 5,
       "streak_end_date": "2023-03-31",
       "streak_start_date": "2023-03-03",
-      "days_since": 1106,
+      "days_since": 1107,
       "matches_since": 108,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -231,7 +231,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-03-31",
-      "strict_days_since": 1106,
+      "strict_days_since": 1107,
       "includes_aet_pens": false,
       "total_matches": 266,
       "has_cup_data": true,
@@ -248,7 +248,7 @@
       "streak_length": 6,
       "streak_end_date": "2023-05-19",
       "streak_start_date": "2023-04-14",
-      "days_since": 1057,
+      "days_since": 1058,
       "matches_since": 106,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -270,7 +270,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-05-19",
-      "strict_days_since": 1057,
+      "strict_days_since": 1058,
       "includes_aet_pens": false,
       "total_matches": 264,
       "has_cup_data": true,
@@ -287,13 +287,14 @@
       "streak_length": 6,
       "streak_end_date": "2023-06-04",
       "streak_start_date": "2023-05-07",
-      "days_since": 1041,
-      "matches_since": 126,
+      "days_since": 1042,
+      "matches_since": 127,
       "competitions_in_streak": [
         "Eredivisie",
         "Eredivisie Playoffs"
       ],
       "current_form": [
+        "W",
         "W",
         "W",
         "L",
@@ -302,17 +303,16 @@
         "W",
         "D",
         "W",
-        "L",
-        "D"
+        "L"
       ],
       "search_depth": "2009-12-23",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-06-04",
-      "strict_days_since": 1041,
+      "strict_days_since": 1042,
       "includes_aet_pens": false,
-      "total_matches": 294,
+      "total_matches": 295,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -327,7 +327,7 @@
       "streak_length": 6,
       "streak_end_date": "2024-04-01",
       "streak_start_date": "2024-03-04",
-      "days_since": 739,
+      "days_since": 740,
       "matches_since": 72,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -349,7 +349,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-04-01",
-      "strict_days_since": 739,
+      "strict_days_since": 740,
       "includes_aet_pens": false,
       "total_matches": 261,
       "has_cup_data": true,
@@ -366,7 +366,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-01-18",
       "streak_start_date": "2024-12-18",
-      "days_since": 447,
+      "days_since": 448,
       "matches_since": 61,
       "competitions_in_streak": [
         "Eredivisie",
@@ -389,7 +389,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-05-12",
-      "strict_days_since": 1794,
+      "strict_days_since": 1795,
       "includes_aet_pens": true,
       "total_matches": 329,
       "has_cup_data": true,
@@ -406,7 +406,7 @@
       "streak_length": 9,
       "streak_end_date": "2025-04-14",
       "streak_start_date": "2025-02-15",
-      "days_since": 361,
+      "days_since": 362,
       "matches_since": 36,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -428,7 +428,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-04-14",
-      "strict_days_since": 361,
+      "strict_days_since": 362,
       "includes_aet_pens": false,
       "total_matches": 322,
       "has_cup_data": true,
@@ -445,7 +445,7 @@
       "streak_length": 8,
       "streak_end_date": "2025-05-02",
       "streak_start_date": "2025-03-10",
-      "days_since": 343,
+      "days_since": 344,
       "matches_since": 34,
       "competitions_in_streak": [
         "Eerste Divisie"
@@ -467,7 +467,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-05-02",
-      "strict_days_since": 343,
+      "strict_days_since": 344,
       "includes_aet_pens": false,
       "total_matches": 305,
       "has_cup_data": true,
@@ -484,7 +484,7 @@
       "streak_length": 7,
       "streak_end_date": "2025-05-03",
       "streak_start_date": "2025-03-16",
-      "days_since": 342,
+      "days_since": 343,
       "matches_since": 43,
       "competitions_in_streak": [
         "Eredivisie"
@@ -506,7 +506,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-05-03",
-      "strict_days_since": 342,
+      "strict_days_since": 343,
       "includes_aet_pens": false,
       "total_matches": 340,
       "has_cup_data": true,
@@ -523,7 +523,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-08-14",
       "streak_start_date": "2025-07-24",
-      "days_since": 239,
+      "days_since": 240,
       "matches_since": 40,
       "competitions_in_streak": [
         "Eredivisie",
@@ -546,7 +546,7 @@
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-08-14",
-      "strict_days_since": 239,
+      "strict_days_since": 240,
       "includes_aet_pens": false,
       "total_matches": 290,
       "has_cup_data": true,
@@ -563,7 +563,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-11-02",
       "streak_start_date": "2025-10-05",
-      "days_since": 159,
+      "days_since": 160,
       "matches_since": 30,
       "competitions_in_streak": [
         "Conference League",
@@ -586,7 +586,7 @@
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-11-02",
-      "strict_days_since": 159,
+      "strict_days_since": 160,
       "includes_aet_pens": false,
       "total_matches": 343,
       "has_cup_data": true,
@@ -603,7 +603,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-12-17",
       "streak_start_date": "2025-12-02",
-      "days_since": 114,
+      "days_since": 115,
       "matches_since": 16,
       "competitions_in_streak": [
         "Champions League",
@@ -627,7 +627,7 @@
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-12-17",
-      "strict_days_since": 114,
+      "strict_days_since": 115,
       "includes_aet_pens": false,
       "total_matches": 346,
       "has_cup_data": true,
@@ -644,7 +644,7 @@
       "streak_length": 6,
       "streak_end_date": "2026-01-17",
       "streak_start_date": "2025-12-13",
-      "days_since": 83,
+      "days_since": 84,
       "matches_since": 14,
       "competitions_in_streak": [
         "Eredivisie",
@@ -667,7 +667,7 @@
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-01-17",
-      "strict_days_since": 83,
+      "strict_days_since": 84,
       "includes_aet_pens": false,
       "total_matches": 358,
       "has_cup_data": true,
@@ -684,13 +684,14 @@
       "streak_length": 6,
       "streak_end_date": "2026-02-07",
       "streak_start_date": "2026-01-17",
-      "days_since": 62,
-      "matches_since": 10,
+      "days_since": 63,
+      "matches_since": 11,
       "competitions_in_streak": [
         "Eredivisie",
         "KNVB Beker"
       ],
       "current_form": [
+        "L",
         "D",
         "D",
         "L",
@@ -699,17 +700,16 @@
         "W",
         "L",
         "D",
-        "D",
-        "L"
+        "D"
       ],
       "search_depth": "2014-08-29",
       "hair_tier": "Getting shaggy",
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-07",
-      "strict_days_since": 62,
+      "strict_days_since": 63,
       "includes_aet_pens": false,
-      "total_matches": 272,
+      "total_matches": 273,
       "has_cup_data": true,
       "data_complete": true
     }
