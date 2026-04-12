@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Borussia Dortmund",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "VfL Wolfsburg",
       "home_away": "H",
@@ -3936,8 +3946,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 66,
-    "end_index": 76,
+    "start_index": 67,
+    "end_index": 77,
     "length": 11
   }
 }

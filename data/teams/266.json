@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Bayern Munich",
+      "home_away": "H",
+      "score": "0-5",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "1. FC Union Berlin",
       "home_away": "A",
@@ -2546,8 +2556,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 113,
-    "end_index": 122,
+    "start_index": 114,
+    "end_index": 123,
     "length": 10
   }
 }
