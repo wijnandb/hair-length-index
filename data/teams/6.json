@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Telstar",
+      "home_away": "H",
+      "score": "4-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
@@ -2906,8 +2916,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 40,
-    "end_index": 44,
+    "start_index": 41,
+    "end_index": 45,
     "length": 5
   }
 }

@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "FC Groningen",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "PEC Zwolle",
       "home_away": "H",
@@ -3296,8 +3306,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 61,
-    "end_index": 65,
+    "start_index": 62,
+    "end_index": 66,
     "length": 5
   }
 }

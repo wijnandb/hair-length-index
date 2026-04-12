@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Go Ahead Eagles",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "Telstar",
       "home_away": "A",
@@ -2616,8 +2626,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 72,
-    "end_index": 77,
+    "start_index": 73,
+    "end_index": 78,
     "length": 6
   }
 }
