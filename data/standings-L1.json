@@ -1,7 +1,7 @@
 {
   "league": "L1",
   "season": "2025-26",
-  "generated_at": "2026-04-11T06:34:19.578454+00:00",
+  "generated_at": "2026-04-12T06:47:12.060413+00:00",
   "table": [
     {
       "position": 1,
@@ -57,6 +57,19 @@
     },
     {
       "position": 5,
+      "team": "Stade Rennais FC 1901",
+      "team_id": 529,
+      "played": 29,
+      "won": 14,
+      "drawn": 8,
+      "lost": 7,
+      "goals_for": 49,
+      "goals_against": 41,
+      "goal_difference": 8,
+      "points": 50
+    },
+    {
+      "position": 6,
       "team": "AS Monaco FC",
       "team_id": 548,
       "played": 29,
@@ -69,7 +82,7 @@
       "points": 49
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "Olympique Lyonnais",
       "team_id": 523,
       "played": 28,
@@ -80,19 +93,6 @@
       "goals_against": 29,
       "goal_difference": 12,
       "points": 48
-    },
-    {
-      "position": 7,
-      "team": "Stade Rennais FC 1901",
-      "team_id": 529,
-      "played": 28,
-      "won": 13,
-      "drawn": 8,
-      "lost": 7,
-      "goals_for": 47,
-      "goals_against": 40,
-      "goal_difference": 7,
-      "points": 47
     },
     {
       "position": 8,
@@ -163,13 +163,13 @@
       "position": 13,
       "team": "Angers SCO",
       "team_id": 532,
-      "played": 28,
+      "played": 29,
       "won": 9,
       "drawn": 6,
-      "lost": 13,
-      "goals_for": 24,
-      "goals_against": 37,
-      "goal_difference": -13,
+      "lost": 14,
+      "goals_for": 25,
+      "goals_against": 39,
+      "goal_difference": -14,
       "points": 33
     },
     {
@@ -202,27 +202,27 @@
       "position": 16,
       "team": "AJ Auxerre",
       "team_id": 519,
-      "played": 28,
+      "played": 29,
       "won": 5,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 15,
       "goals_for": 23,
       "goals_against": 37,
       "goal_difference": -14,
-      "points": 23
+      "points": 24
     },
     {
       "position": 17,
       "team": "FC Nantes",
       "team_id": 543,
-      "played": 27,
+      "played": 28,
       "won": 4,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 17,
       "goals_for": 24,
       "goals_against": 45,
       "goal_difference": -21,
-      "points": 18
+      "points": 19
     },
     {
       "position": 18,
