@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "CD Alavés",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "Levante UD",
       "home_away": "H",
@@ -3626,8 +3636,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 70,
-    "end_index": 74,
+    "start_index": 71,
+    "end_index": 75,
     "length": 9
   }
 }

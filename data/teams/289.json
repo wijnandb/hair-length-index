@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Atlético Madrid",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "Real Oviedo",
       "home_away": "A",
@@ -4186,8 +4196,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 239,
-    "end_index": 243,
+    "start_index": 240,
+    "end_index": 244,
     "length": 5
   }
 }

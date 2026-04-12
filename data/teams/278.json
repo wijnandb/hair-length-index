@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Valencia CF",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-03",
       "opponent": "Rayo Vallecano",
       "home_away": "A",
@@ -6936,8 +6946,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 554,
-    "end_index": 558,
+    "start_index": 555,
+    "end_index": 559,
     "length": 5
   }
 }
