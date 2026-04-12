@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Arsenal FC",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-20",
       "opponent": "Manchester United",
       "home_away": "H",
@@ -3106,8 +3116,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 195,
-    "end_index": 199,
+    "start_index": 196,
+    "end_index": 200,
     "length": 5
   }
 }

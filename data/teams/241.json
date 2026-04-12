@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "Brighton & Hove Albion",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-21",
       "opponent": "Fulham FC",
       "home_away": "A",
@@ -3106,8 +3116,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 35,
-    "end_index": 39,
+    "start_index": 36,
+    "end_index": 40,
     "length": 5
   }
 }
