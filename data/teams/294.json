@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-11",
+      "opponent": "US Cremonese",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "Sassuolo Calcio",
       "home_away": "A",
@@ -3566,8 +3576,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 119,
-    "end_index": 124,
+    "start_index": 120,
+    "end_index": 125,
     "length": 6
   }
 }

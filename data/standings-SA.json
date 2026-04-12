@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-04-11T06:35:38.707323+00:00",
+  "generated_at": "2026-04-12T06:44:52.604140+00:00",
   "table": [
     {
       "position": 1,
@@ -33,17 +33,30 @@
       "position": 3,
       "team": "AC Milan",
       "team_id": 98,
-      "played": 31,
+      "played": 32,
       "won": 18,
       "drawn": 9,
-      "lost": 4,
+      "lost": 5,
       "goals_for": 47,
-      "goals_against": 24,
-      "goal_difference": 23,
+      "goals_against": 27,
+      "goal_difference": 20,
       "points": 63
     },
     {
       "position": 4,
+      "team": "Juventus FC",
+      "team_id": 109,
+      "played": 32,
+      "won": 17,
+      "drawn": 9,
+      "lost": 6,
+      "goals_for": 55,
+      "goals_against": 29,
+      "goal_difference": 26,
+      "points": 60
+    },
+    {
+      "position": 5,
       "team": "Como 1907",
       "team_id": 7397,
       "played": 31,
@@ -54,19 +67,6 @@
       "goals_against": 22,
       "goal_difference": 31,
       "points": 58
-    },
-    {
-      "position": 5,
-      "team": "Juventus FC",
-      "team_id": 109,
-      "played": 31,
-      "won": 16,
-      "drawn": 9,
-      "lost": 6,
-      "goals_for": 54,
-      "goals_against": 29,
-      "goal_difference": 25,
-      "points": 57
     },
     {
       "position": 6,
@@ -85,13 +85,13 @@
       "position": 7,
       "team": "Atalanta BC",
       "team_id": 102,
-      "played": 31,
+      "played": 32,
       "won": 14,
       "drawn": 11,
-      "lost": 6,
+      "lost": 7,
       "goals_for": 44,
-      "goals_against": 27,
-      "goal_difference": 17,
+      "goals_against": 28,
+      "goal_difference": 16,
       "points": 53
     },
     {
@@ -122,6 +122,19 @@
     },
     {
       "position": 10,
+      "team": "Udinese Calcio",
+      "team_id": 115,
+      "played": 32,
+      "won": 12,
+      "drawn": 7,
+      "lost": 13,
+      "goals_for": 38,
+      "goals_against": 42,
+      "goal_difference": -4,
+      "points": 43
+    },
+    {
+      "position": 11,
       "team": "US Sassuolo Calcio",
       "team_id": 471,
       "played": 31,
@@ -134,30 +147,17 @@
       "points": 42
     },
     {
-      "position": 11,
-      "team": "Udinese Calcio",
-      "team_id": 115,
-      "played": 31,
-      "won": 11,
-      "drawn": 7,
-      "lost": 13,
-      "goals_for": 35,
-      "goals_against": 42,
-      "goal_difference": -7,
-      "points": 40
-    },
-    {
       "position": 12,
       "team": "Torino FC",
       "team_id": 586,
-      "played": 31,
-      "won": 10,
+      "played": 32,
+      "won": 11,
       "drawn": 6,
       "lost": 15,
-      "goals_for": 35,
-      "goals_against": 53,
-      "goal_difference": -18,
-      "points": 36
+      "goals_for": 37,
+      "goals_against": 54,
+      "goal_difference": -17,
+      "points": 39
     },
     {
       "position": 13,
@@ -187,6 +187,19 @@
     },
     {
       "position": 15,
+      "team": "Cagliari Calcio",
+      "team_id": 104,
+      "played": 32,
+      "won": 8,
+      "drawn": 9,
+      "lost": 15,
+      "goals_for": 33,
+      "goals_against": 44,
+      "goal_difference": -11,
+      "points": 33
+    },
+    {
+      "position": 16,
       "team": "ACF Fiorentina",
       "team_id": 99,
       "played": 31,
@@ -199,29 +212,16 @@
       "points": 32
     },
     {
-      "position": 16,
-      "team": "Cagliari Calcio",
-      "team_id": 104,
-      "played": 31,
-      "won": 7,
-      "drawn": 9,
-      "lost": 15,
-      "goals_for": 32,
-      "goals_against": 44,
-      "goal_difference": -12,
-      "points": 30
-    },
-    {
       "position": 17,
       "team": "US Cremonese",
       "team_id": 457,
-      "played": 31,
+      "played": 32,
       "won": 6,
       "drawn": 9,
-      "lost": 16,
+      "lost": 17,
       "goals_for": 26,
-      "goals_against": 46,
-      "goal_difference": -20,
+      "goals_against": 47,
+      "goal_difference": -21,
       "points": 27
     },
     {
@@ -241,13 +241,13 @@
       "position": 19,
       "team": "Hellas Verona FC",
       "team_id": 450,
-      "played": 31,
+      "played": 32,
       "won": 3,
       "drawn": 9,
-      "lost": 19,
-      "goals_for": 22,
-      "goals_against": 53,
-      "goal_difference": -31,
+      "lost": 20,
+      "goals_for": 23,
+      "goals_against": 55,
+      "goal_difference": -32,
       "points": 18
     },
     {
