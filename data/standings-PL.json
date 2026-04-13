@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-12T06:48:30.164441+00:00",
+  "generated_at": "2026-04-13T06:58:32.583480+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Manchester City FC",
       "team_id": 65,
-      "played": 30,
-      "won": 18,
+      "played": 31,
+      "won": 19,
       "drawn": 7,
       "lost": 5,
-      "goals_for": 60,
+      "goals_for": 63,
       "goals_against": 28,
-      "goal_difference": 32,
-      "points": 61
+      "goal_difference": 35,
+      "points": 64
     },
     {
       "position": 3,
@@ -46,14 +46,14 @@
       "position": 4,
       "team": "Aston Villa FC",
       "team_id": 58,
-      "played": 31,
+      "played": 32,
       "won": 16,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 9,
-      "goals_for": 42,
-      "goals_against": 37,
+      "goals_for": 43,
+      "goals_against": 38,
       "goal_difference": 5,
-      "points": 54
+      "points": 55
     },
     {
       "position": 5,
@@ -72,13 +72,13 @@
       "position": 6,
       "team": "Chelsea FC",
       "team_id": 61,
-      "played": 31,
+      "played": 32,
       "won": 13,
       "drawn": 9,
-      "lost": 9,
+      "lost": 10,
       "goals_for": 53,
-      "goals_against": 38,
-      "goal_difference": 15,
+      "goals_against": 41,
+      "goal_difference": 12,
       "points": 48
     },
     {
@@ -122,6 +122,19 @@
     },
     {
       "position": 10,
+      "team": "Sunderland AFC",
+      "team_id": 71,
+      "played": 32,
+      "won": 12,
+      "drawn": 10,
+      "lost": 10,
+      "goals_for": 33,
+      "goals_against": 36,
+      "goal_difference": -3,
+      "points": 46
+    },
+    {
+      "position": 11,
       "team": "AFC Bournemouth",
       "team_id": 1044,
       "played": 32,
@@ -134,7 +147,7 @@
       "points": 45
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Fulham FC",
       "team_id": 63,
       "played": 32,
@@ -147,43 +160,30 @@
       "points": 44
     },
     {
-      "position": 12,
-      "team": "Sunderland AFC",
-      "team_id": 71,
+      "position": 13,
+      "team": "Crystal Palace FC",
+      "team_id": 354,
       "played": 31,
       "won": 11,
-      "drawn": 10,
-      "lost": 10,
-      "goals_for": 32,
+      "drawn": 9,
+      "lost": 11,
+      "goals_for": 35,
       "goals_against": 36,
-      "goal_difference": -4,
-      "points": 43
-    },
-    {
-      "position": 13,
-      "team": "Newcastle United FC",
-      "team_id": 67,
-      "played": 31,
-      "won": 12,
-      "drawn": 6,
-      "lost": 13,
-      "goals_for": 44,
-      "goals_against": 45,
       "goal_difference": -1,
       "points": 42
     },
     {
       "position": 14,
-      "team": "Crystal Palace FC",
-      "team_id": 354,
-      "played": 30,
-      "won": 10,
-      "drawn": 9,
-      "lost": 11,
-      "goals_for": 33,
-      "goals_against": 35,
+      "team": "Newcastle United FC",
+      "team_id": 67,
+      "played": 32,
+      "won": 12,
+      "drawn": 6,
+      "lost": 14,
+      "goals_for": 45,
+      "goals_against": 47,
       "goal_difference": -2,
-      "points": 39
+      "points": 42
     },
     {
       "position": 15,
@@ -202,14 +202,14 @@
       "position": 16,
       "team": "Nottingham Forest FC",
       "team_id": 351,
-      "played": 31,
+      "played": 32,
       "won": 8,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 15,
-      "goals_for": 31,
-      "goals_against": 43,
+      "goals_for": 32,
+      "goals_against": 44,
       "goal_difference": -12,
-      "points": 32
+      "points": 33
     },
     {
       "position": 17,
@@ -228,13 +228,13 @@
       "position": 18,
       "team": "Tottenham Hotspur FC",
       "team_id": 73,
-      "played": 31,
+      "played": 32,
       "won": 7,
       "drawn": 9,
-      "lost": 15,
+      "lost": 16,
       "goals_for": 40,
-      "goals_against": 50,
-      "goal_difference": -10,
+      "goals_against": 51,
+      "goal_difference": -11,
       "points": 30
     },
     {

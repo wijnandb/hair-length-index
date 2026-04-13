@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "Newcastle United",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-19",
       "opponent": "AEK Larnaca",
       "home_away": "A",
@@ -3046,8 +3056,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 59,
-    "end_index": 63,
+    "start_index": 60,
+    "end_index": 64,
     "length": 5
   }
 }
