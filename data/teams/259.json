@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "SC Freiburg",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-04",
       "opponent": "1899 Hoffenheim",
       "home_away": "A",
@@ -8556,8 +8566,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 587,
-    "end_index": 594,
+    "start_index": 588,
+    "end_index": 595,
     "length": 8
   }
 }
