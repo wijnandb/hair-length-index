@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "AZ Alkmaar",
+      "home_away": "A",
+      "score": "0-3",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "Heracles Almelo",
       "home_away": "H",
@@ -3946,8 +3956,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 319,
-    "end_index": 323,
+    "start_index": 320,
+    "end_index": 324,
     "length": 5
   }
 }

@@ -1,7 +1,7 @@
 {
   "league": "DED",
   "season": "2025-26",
-  "generated_at": "2026-04-12T06:43:50.122465+00:00",
+  "generated_at": "2026-04-13T06:55:52.619109+00:00",
   "table": [
     {
       "position": 1,
@@ -20,27 +20,27 @@
       "position": 2,
       "team": "Feyenoord Rotterdam",
       "team_id": 675,
-      "played": 29,
+      "played": 30,
       "won": 16,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 7,
-      "goals_for": 61,
-      "goals_against": 40,
+      "goals_for": 62,
+      "goals_against": 41,
       "goal_difference": 21,
-      "points": 54
+      "points": 55
     },
     {
       "position": 3,
       "team": "NEC",
       "team_id": 1915,
-      "played": 29,
+      "played": 30,
       "won": 15,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 6,
-      "goals_for": 71,
-      "goals_against": 47,
+      "goals_for": 72,
+      "goals_against": 48,
       "goal_difference": 24,
-      "points": 53
+      "points": 54
     },
     {
       "position": 4,
@@ -72,14 +72,14 @@
       "position": 6,
       "team": "AZ",
       "team_id": 682,
-      "played": 29,
-      "won": 13,
+      "played": 30,
+      "won": 14,
       "drawn": 6,
       "lost": 10,
-      "goals_for": 49,
+      "goals_for": 52,
       "goals_against": 45,
-      "goal_difference": 4,
-      "points": 45
+      "goal_difference": 7,
+      "points": 48
     },
     {
       "position": 7,
@@ -98,13 +98,13 @@
       "position": 8,
       "team": "SC Heerenveen",
       "team_id": 673,
-      "played": 29,
+      "played": 30,
       "won": 12,
       "drawn": 8,
-      "lost": 9,
+      "lost": 10,
       "goals_for": 53,
-      "goals_against": 47,
-      "goal_difference": 6,
+      "goals_against": 50,
+      "goal_difference": 3,
       "points": 44
     },
     {
@@ -150,27 +150,27 @@
       "position": 12,
       "team": "Fortuna Sittard",
       "team_id": 1920,
-      "played": 29,
+      "played": 30,
       "won": 10,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 14,
-      "goals_for": 43,
-      "goals_against": 54,
+      "goals_for": 44,
+      "goals_against": 55,
       "goal_difference": -11,
-      "points": 35
+      "points": 36
     },
     {
       "position": 13,
       "team": "PEC Zwolle",
       "team_id": 684,
-      "played": 29,
+      "played": 30,
       "won": 8,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 12,
-      "goals_for": 38,
-      "goals_against": 58,
+      "goals_for": 40,
+      "goals_against": 60,
       "goal_difference": -20,
-      "points": 33
+      "points": 34
     },
     {
       "position": 14,
@@ -187,6 +187,19 @@
     },
     {
       "position": 15,
+      "team": "SBV Excelsior",
+      "team_id": 670,
+      "played": 30,
+      "won": 7,
+      "drawn": 7,
+      "lost": 16,
+      "goals_for": 31,
+      "goals_against": 51,
+      "goal_difference": -20,
+      "points": 28
+    },
+    {
+      "position": 16,
       "team": "Telstar 1963",
       "team_id": 1912,
       "played": 30,
@@ -199,30 +212,17 @@
       "points": 27
     },
     {
-      "position": 16,
-      "team": "SBV Excelsior",
-      "team_id": 670,
-      "played": 29,
-      "won": 7,
-      "drawn": 6,
-      "lost": 16,
-      "goals_for": 29,
-      "goals_against": 49,
-      "goal_difference": -20,
-      "points": 27
-    },
-    {
       "position": 17,
       "team": "NAC Breda",
       "team_id": 681,
-      "played": 29,
+      "played": 30,
       "won": 5,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 15,
-      "goals_for": 29,
-      "goals_against": 50,
+      "goals_for": 30,
+      "goals_against": 51,
       "goal_difference": -21,
-      "points": 24
+      "points": 25
     },
     {
       "position": 18,

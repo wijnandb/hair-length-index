@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "Excelsior",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "Go Ahead Eagles",
       "home_away": "A",
@@ -2666,8 +2676,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 108,
-    "end_index": 112,
+    "start_index": 109,
+    "end_index": 113,
     "length": 5
   }
 }
