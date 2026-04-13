@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "Real Betis",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "CD Alavés",
       "home_away": "A",
@@ -5526,8 +5536,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 420,
-    "end_index": 424,
+    "start_index": 421,
+    "end_index": 425,
     "length": 5
   }
 }
