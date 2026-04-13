@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "Como 1907",
+      "home_away": "A",
+      "score": "4-3",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "AS Roma",
       "home_away": "H",
@@ -4866,8 +4876,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 9,
-    "end_index": 14,
+    "start_index": 10,
+    "end_index": 15,
     "length": 6
   }
 }
