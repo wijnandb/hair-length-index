@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-12",
+      "opponent": "OGC Nice",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-05",
       "opponent": "AJ Auxerre",
       "home_away": "H",
@@ -4156,8 +4166,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 294,
-    "end_index": 299,
+    "start_index": 295,
+    "end_index": 300,
     "length": 6
   }
 }

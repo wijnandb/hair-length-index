@@ -1,7 +1,7 @@
 {
   "league": "L1",
   "season": "2025-26",
-  "generated_at": "2026-04-12T06:47:12.060413+00:00",
+  "generated_at": "2026-04-13T06:56:55.694210+00:00",
   "table": [
     {
       "position": 1,
@@ -31,6 +31,19 @@
     },
     {
       "position": 3,
+      "team": "Lille OSC",
+      "team_id": 521,
+      "played": 29,
+      "won": 16,
+      "drawn": 5,
+      "lost": 8,
+      "goals_for": 49,
+      "goals_against": 34,
+      "goal_difference": 15,
+      "points": 53
+    },
+    {
+      "position": 4,
       "team": "Olympique de Marseille",
       "team_id": 516,
       "played": 29,
@@ -43,20 +56,20 @@
       "points": 52
     },
     {
-      "position": 4,
-      "team": "Lille OSC",
-      "team_id": 521,
-      "played": 28,
+      "position": 5,
+      "team": "Olympique Lyonnais",
+      "team_id": 523,
+      "played": 29,
       "won": 15,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 8,
-      "goals_for": 45,
-      "goals_against": 34,
-      "goal_difference": 11,
-      "points": 50
+      "goals_for": 43,
+      "goals_against": 29,
+      "goal_difference": 14,
+      "points": 51
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "Stade Rennais FC 1901",
       "team_id": 529,
       "played": 29,
@@ -69,7 +82,7 @@
       "points": 50
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "AS Monaco FC",
       "team_id": 548,
       "played": 29,
@@ -80,19 +93,6 @@
       "goals_against": 43,
       "goal_difference": 7,
       "points": 49
-    },
-    {
-      "position": 7,
-      "team": "Olympique Lyonnais",
-      "team_id": 523,
-      "played": 28,
-      "won": 14,
-      "drawn": 6,
-      "lost": 8,
-      "goals_for": 41,
-      "goals_against": 29,
-      "goal_difference": 12,
-      "points": 48
     },
     {
       "position": 8,
@@ -111,26 +111,26 @@
       "position": 9,
       "team": "FC Lorient",
       "team_id": 525,
-      "played": 28,
+      "played": 29,
       "won": 9,
       "drawn": 11,
-      "lost": 8,
+      "lost": 9,
       "goals_for": 38,
-      "goals_against": 42,
-      "goal_difference": -4,
+      "goals_against": 44,
+      "goal_difference": -6,
       "points": 38
     },
     {
       "position": 10,
       "team": "Toulouse FC",
       "team_id": 511,
-      "played": 28,
+      "played": 29,
       "won": 10,
       "drawn": 7,
-      "lost": 11,
+      "lost": 12,
       "goals_for": 39,
-      "goals_against": 35,
-      "goal_difference": 4,
+      "goals_against": 39,
+      "goal_difference": 0,
       "points": 37
     },
     {
@@ -176,27 +176,27 @@
       "position": 14,
       "team": "Le Havre AC",
       "team_id": 533,
-      "played": 28,
+      "played": 29,
       "won": 6,
-      "drawn": 10,
+      "drawn": 11,
       "lost": 12,
-      "goals_for": 23,
-      "goals_against": 36,
+      "goals_for": 24,
+      "goals_against": 37,
       "goal_difference": -13,
-      "points": 28
+      "points": 29
     },
     {
       "position": 15,
       "team": "OGC Nice",
       "team_id": 522,
-      "played": 28,
+      "played": 29,
       "won": 7,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 15,
-      "goals_for": 33,
-      "goals_against": 55,
+      "goals_for": 34,
+      "goals_against": 56,
       "goal_difference": -22,
-      "points": 27
+      "points": 28
     },
     {
       "position": 16,

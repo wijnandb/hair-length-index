@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T06:47:55.269970",
+  "generated_at": "2026-04-13T06:57:27.552148",
   "threshold": 5,
   "teams": [
     {
@@ -13,14 +13,15 @@
       "streak_length": 6,
       "streak_end_date": "2018-05-15",
       "streak_start_date": "2018-04-24",
-      "days_since": 2889,
-      "matches_since": 294,
+      "days_since": 2890,
+      "matches_since": 295,
       "competitions_in_streak": [
         "Ligue 2 2017/2018",
         "Relegation Ligue 1 2017/2018"
       ],
       "current_form": [
         "D",
+        "D",
         "L",
         "D",
         "L",
@@ -28,17 +29,16 @@
         "L",
         "W",
         "W",
-        "L",
-        "D"
+        "L"
       ],
       "search_depth": "2015-07-31",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2018-05-15",
-      "strict_days_since": 2889,
+      "strict_days_since": 2890,
       "includes_aet_pens": false,
-      "total_matches": 415,
+      "total_matches": 416,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -53,7 +53,7 @@
       "streak_length": 9,
       "streak_end_date": "2018-09-17",
       "streak_start_date": "2018-07-30",
-      "days_since": 2764,
+      "days_since": 2765,
       "matches_since": 294,
       "competitions_in_streak": [
         "Coupe de la Ligue 2018/2019",
@@ -76,7 +76,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2018-08-24",
-      "strict_days_since": 2788,
+      "strict_days_since": 2789,
       "includes_aet_pens": true,
       "total_matches": 390,
       "has_cup_data": true,
@@ -93,13 +93,14 @@
       "streak_length": 7,
       "streak_end_date": "2021-02-10",
       "streak_start_date": "2021-01-09",
-      "days_since": 1887,
-      "matches_since": 250,
+      "days_since": 1888,
+      "matches_since": 251,
       "competitions_in_streak": [
         "Coupe de France 2020/2021",
         "Ligue 1 2020/2021"
       ],
       "current_form": [
+        "W",
         "W",
         "W",
         "L",
@@ -108,17 +109,16 @@
         "D",
         "W",
         "W",
-        "W",
-        "L"
+        "W"
       ],
       "search_depth": "2016-08-13",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-02-10",
-      "strict_days_since": 1887,
+      "strict_days_since": 1888,
       "includes_aet_pens": false,
-      "total_matches": 367,
+      "total_matches": 368,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -133,7 +133,7 @@
       "streak_length": 5,
       "streak_end_date": "2022-01-02",
       "streak_start_date": "2021-12-05",
-      "days_since": 1561,
+      "days_since": 1562,
       "matches_since": 178,
       "competitions_in_streak": [
         "Coupe de France 2021/2022",
@@ -173,13 +173,14 @@
       "streak_length": 7,
       "streak_end_date": "2022-01-31",
       "streak_start_date": "2021-12-12",
-      "days_since": 1532,
-      "matches_since": 195,
+      "days_since": 1533,
+      "matches_since": 196,
       "competitions_in_streak": [
         "Coupe de France 2021/2022",
         "Ligue 1 2021/2022"
       ],
       "current_form": [
+        "D",
         "L",
         "L",
         "W",
@@ -188,17 +189,16 @@
         "L",
         "D",
         "L",
-        "D",
-        "W"
+        "D"
       ],
       "search_depth": "2016-10-23",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-01-23",
-      "strict_days_since": 1540,
+      "strict_days_since": 1541,
       "includes_aet_pens": true,
-      "total_matches": 303,
+      "total_matches": 304,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -213,12 +213,13 @@
       "streak_length": 5,
       "streak_end_date": "2022-04-16",
       "streak_start_date": "2022-03-15",
-      "days_since": 1457,
-      "matches_since": 163,
+      "days_since": 1458,
+      "matches_since": 164,
       "competitions_in_streak": [
         "Ligue 2 2021/2022"
       ],
       "current_form": [
+        "L",
         "L",
         "W",
         "W",
@@ -227,17 +228,16 @@
         "L",
         "D",
         "L",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2016-11-19",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-04-16",
-      "strict_days_since": 1457,
+      "strict_days_since": 1458,
       "includes_aet_pens": false,
-      "total_matches": 285,
+      "total_matches": 286,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -252,7 +252,7 @@
       "streak_length": 5,
       "streak_end_date": "2023-12-19",
       "streak_start_date": "2023-12-02",
-      "days_since": 845,
+      "days_since": 846,
       "matches_since": 85,
       "competitions_in_streak": [
         "Coupe de France 2023/2024",
@@ -275,7 +275,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-12-19",
-      "strict_days_since": 845,
+      "strict_days_since": 846,
       "includes_aet_pens": false,
       "total_matches": 270,
       "has_cup_data": true,
@@ -292,7 +292,7 @@
       "streak_length": 6,
       "streak_end_date": "2024-01-20",
       "streak_start_date": "2023-12-10",
-      "days_since": 813,
+      "days_since": 814,
       "matches_since": 94,
       "competitions_in_streak": [
         "Coupe de France 2023/2024",
@@ -315,7 +315,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-01-20",
-      "strict_days_since": 813,
+      "strict_days_since": 814,
       "includes_aet_pens": false,
       "total_matches": 279,
       "has_cup_data": true,
@@ -332,7 +332,7 @@
       "streak_length": 8,
       "streak_end_date": "2024-02-11",
       "streak_start_date": "2023-12-20",
-      "days_since": 791,
+      "days_since": 792,
       "matches_since": 85,
       "competitions_in_streak": [
         "Coupe de France 2023/2024",
@@ -355,7 +355,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-08-13",
-      "strict_days_since": 973,
+      "strict_days_since": 974,
       "includes_aet_pens": true,
       "total_matches": 306,
       "has_cup_data": true,
@@ -372,7 +372,7 @@
       "streak_length": 5,
       "streak_end_date": "2024-10-26",
       "streak_start_date": "2024-09-24",
-      "days_since": 533,
+      "days_since": 534,
       "matches_since": 57,
       "competitions_in_streak": [
         "Ligue 2 2024/2025"
@@ -394,7 +394,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-10-26",
-      "strict_days_since": 533,
+      "strict_days_since": 534,
       "includes_aet_pens": false,
       "total_matches": 277,
       "has_cup_data": true,
@@ -411,7 +411,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-01-19",
       "streak_start_date": "2024-12-22",
-      "days_since": 448,
+      "days_since": 449,
       "matches_since": 49,
       "competitions_in_streak": [
         "Coupe de France 2024/2025",
@@ -434,7 +434,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-01-19",
-      "strict_days_since": 448,
+      "strict_days_since": 449,
       "includes_aet_pens": false,
       "total_matches": 271,
       "has_cup_data": true,
@@ -451,7 +451,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-04-06",
       "streak_start_date": "2025-03-02",
-      "days_since": 371,
+      "days_since": 372,
       "matches_since": 48,
       "competitions_in_streak": [
         "Ligue 1 2024/2025"
@@ -473,7 +473,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-04-06",
-      "strict_days_since": 371,
+      "strict_days_since": 372,
       "includes_aet_pens": false,
       "total_matches": 280,
       "has_cup_data": true,
@@ -490,7 +490,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-10-18",
       "streak_start_date": "2025-09-22",
-      "days_since": 176,
+      "days_since": 177,
       "matches_since": 32,
       "competitions_in_streak": [
         "Champions League",
@@ -513,7 +513,7 @@
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-10-18",
-      "strict_days_since": 176,
+      "strict_days_since": 177,
       "includes_aet_pens": false,
       "total_matches": 320,
       "has_cup_data": true,
@@ -530,7 +530,7 @@
       "streak_length": 10,
       "streak_end_date": "2026-01-17",
       "streak_start_date": "2025-11-02",
-      "days_since": 85,
+      "days_since": 86,
       "matches_since": 12,
       "competitions_in_streak": [
         "Coupe de France 2025/2026",
@@ -553,7 +553,7 @@
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-01-17",
-      "strict_days_since": 85,
+      "strict_days_since": 86,
       "includes_aet_pens": false,
       "total_matches": 278,
       "has_cup_data": true,
@@ -570,13 +570,14 @@
       "streak_length": 5,
       "streak_end_date": "2026-02-04",
       "streak_start_date": "2026-01-10",
-      "days_since": 67,
-      "matches_since": 9,
+      "days_since": 68,
+      "matches_since": 10,
       "competitions_in_streak": [
         "Coupe de France 2025/2026",
         "Ligue 1 2025/2026"
       ],
       "current_form": [
+        "L",
         "D",
         "L",
         "W",
@@ -585,17 +586,16 @@
         "D",
         "D",
         "W",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2016-11-26",
       "hair_tier": "Getting shaggy",
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-04",
-      "strict_days_since": 67,
+      "strict_days_since": 68,
       "includes_aet_pens": false,
-      "total_matches": 264,
+      "total_matches": 265,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -610,14 +610,15 @@
       "streak_length": 13,
       "streak_end_date": "2026-02-15",
       "streak_start_date": "2025-12-11",
-      "days_since": 56,
-      "matches_since": 9,
+      "days_since": 57,
+      "matches_since": 10,
       "competitions_in_streak": [
         "Coupe de France 2025/2026",
         "Europa League",
         "Ligue 1 2025/2026"
       ],
       "current_form": [
+        "W",
         "D",
         "L",
         "L",
@@ -626,17 +627,16 @@
         "D",
         "L",
         "L",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2017-02-26",
       "hair_tier": "Growing back",
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-15",
-      "strict_days_since": 56,
+      "strict_days_since": 57,
       "includes_aet_pens": false,
-      "total_matches": 316,
+      "total_matches": 317,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -651,7 +651,7 @@
       "streak_length": 5,
       "streak_end_date": "2026-04-05",
       "streak_start_date": "2026-02-28",
-      "days_since": 7,
+      "days_since": 8,
       "matches_since": 1,
       "competitions_in_streak": [
         "Ligue 1",
@@ -674,7 +674,7 @@
       "hair_description": "Clean buzzcut, fresh fade",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-04-05",
-      "strict_days_since": 7,
+      "strict_days_since": 8,
       "includes_aet_pens": false,
       "total_matches": 314,
       "has_cup_data": true,
@@ -691,7 +691,7 @@
       "streak_length": 5,
       "streak_end_date": "2026-04-08",
       "streak_start_date": "2026-03-11",
-      "days_since": 4,
+      "days_since": 5,
       "matches_since": 0,
       "competitions_in_streak": [
         "Champions League",
@@ -716,7 +716,7 @@
       "hair_description": "Clean buzzcut, fresh fade",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-04-08",
-      "strict_days_since": 4,
+      "strict_days_since": 5,
       "includes_aet_pens": false,
       "total_matches": 376,
       "has_cup_data": true,
