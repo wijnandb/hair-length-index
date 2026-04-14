@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-04-13T07:00:25.187272+00:00",
+  "generated_at": "2026-04-14T06:49:39.538498+00:00",
   "table": [
     {
       "position": 1,
@@ -111,13 +111,13 @@
       "position": 9,
       "team": "SS Lazio",
       "team_id": 110,
-      "played": 31,
+      "played": 32,
       "won": 11,
       "drawn": 11,
-      "lost": 9,
+      "lost": 10,
       "goals_for": 32,
-      "goals_against": 29,
-      "goal_difference": 3,
+      "goals_against": 30,
+      "goal_difference": 2,
       "points": 44
     },
     {
@@ -187,6 +187,19 @@
     },
     {
       "position": 15,
+      "team": "ACF Fiorentina",
+      "team_id": 99,
+      "played": 32,
+      "won": 8,
+      "drawn": 11,
+      "lost": 13,
+      "goals_for": 37,
+      "goals_against": 44,
+      "goal_difference": -7,
+      "points": 35
+    },
+    {
+      "position": 16,
       "team": "Cagliari Calcio",
       "team_id": 104,
       "played": 32,
@@ -197,19 +210,6 @@
       "goals_against": 44,
       "goal_difference": -11,
       "points": 33
-    },
-    {
-      "position": 16,
-      "team": "ACF Fiorentina",
-      "team_id": 99,
-      "played": 31,
-      "won": 7,
-      "drawn": 11,
-      "lost": 13,
-      "goals_for": 36,
-      "goals_against": 44,
-      "goal_difference": -8,
-      "points": 32
     },
     {
       "position": 17,
