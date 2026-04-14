@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-13",
+      "opponent": "Leeds United",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-03-20",
       "opponent": "AFC Bournemouth",
       "home_away": "A",
@@ -3796,8 +3806,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 110,
-    "end_index": 114,
+    "start_index": 111,
+    "end_index": 115,
     "length": 5
   }
 }

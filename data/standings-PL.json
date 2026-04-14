@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-13T06:58:32.583480+00:00",
+  "generated_at": "2026-04-14T06:53:12.545340+00:00",
   "table": [
     {
       "position": 1,
@@ -33,13 +33,13 @@
       "position": 3,
       "team": "Manchester United FC",
       "team_id": 66,
-      "played": 31,
+      "played": 32,
       "won": 15,
       "drawn": 10,
-      "lost": 6,
-      "goals_for": 56,
-      "goals_against": 43,
-      "goal_difference": 13,
+      "lost": 7,
+      "goals_for": 57,
+      "goals_against": 45,
+      "goal_difference": 12,
       "points": 55
     },
     {
@@ -189,14 +189,14 @@
       "position": 15,
       "team": "Leeds United FC",
       "team_id": 341,
-      "played": 31,
-      "won": 7,
+      "played": 32,
+      "won": 8,
       "drawn": 12,
       "lost": 12,
-      "goals_for": 37,
-      "goals_against": 48,
-      "goal_difference": -11,
-      "points": 33
+      "goals_for": 39,
+      "goals_against": 49,
+      "goal_difference": -10,
+      "points": 36
     },
     {
       "position": 16,
