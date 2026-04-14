@@ -1,7 +1,7 @@
 {
   "league": "LL",
   "season": "2025-26",
-  "generated_at": "2026-04-13T07:00:50.829767+00:00",
+  "generated_at": "2026-04-14T06:52:04.632024+00:00",
   "table": [
     {
       "position": 1,
@@ -98,13 +98,13 @@
       "position": 8,
       "team": "Getafe CF",
       "team_id": 82,
-      "played": 30,
+      "played": 31,
       "won": 12,
       "drawn": 5,
-      "lost": 13,
+      "lost": 14,
       "goals_for": 27,
-      "goals_against": 31,
-      "goal_difference": -4,
+      "goals_against": 32,
+      "goal_difference": -5,
       "points": 41
     },
     {
@@ -239,6 +239,19 @@
     },
     {
       "position": 19,
+      "team": "Levante UD",
+      "team_id": 88,
+      "played": 31,
+      "won": 7,
+      "drawn": 8,
+      "lost": 16,
+      "goals_for": 35,
+      "goals_against": 50,
+      "goal_difference": -15,
+      "points": 29
+    },
+    {
+      "position": 20,
       "team": "Real Oviedo",
       "team_id": 1048,
       "played": 31,
@@ -249,19 +262,6 @@
       "goals_against": 48,
       "goal_difference": -24,
       "points": 27
-    },
-    {
-      "position": 20,
-      "team": "Levante UD",
-      "team_id": 88,
-      "played": 30,
-      "won": 6,
-      "drawn": 8,
-      "lost": 16,
-      "goals_for": 34,
-      "goals_against": 50,
-      "goal_difference": -16,
-      "points": 26
     }
   ]
 }
