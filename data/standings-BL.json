@@ -1,7 +1,7 @@
 {
   "league": "BL",
   "season": "2025-26",
-  "generated_at": "2026-04-17T06:52:29.614500+00:00",
+  "generated_at": "2026-04-18T06:38:26.566196+00:00",
   "table": [
     {
       "position": 1,
@@ -148,6 +148,19 @@
     },
     {
       "position": 12,
+      "team": "1. FC Köln",
+      "team_id": 1,
+      "played": 30,
+      "won": 7,
+      "drawn": 10,
+      "lost": 13,
+      "goals_for": 44,
+      "goals_against": 51,
+      "goal_difference": -7,
+      "points": 31
+    },
+    {
+      "position": 13,
       "team": "Hamburger SV",
       "team_id": 7,
       "played": 29,
@@ -158,19 +171,6 @@
       "goals_against": 45,
       "goal_difference": -13,
       "points": 31
-    },
-    {
-      "position": 13,
-      "team": "1. FC Köln",
-      "team_id": 1,
-      "played": 29,
-      "won": 7,
-      "drawn": 9,
-      "lost": 13,
-      "goals_for": 43,
-      "goals_against": 50,
-      "goal_difference": -7,
-      "points": 30
     },
     {
       "position": 14,
@@ -202,14 +202,14 @@
       "position": 16,
       "team": "FC St. Pauli 1910",
       "team_id": 20,
-      "played": 29,
+      "played": 30,
       "won": 6,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 16,
-      "goals_for": 25,
-      "goals_against": 50,
+      "goals_for": 26,
+      "goals_against": 51,
       "goal_difference": -25,
-      "points": 25
+      "points": 26
     },
     {
       "position": 17,

@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-17",
+      "opponent": "1. FC Köln",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Bayern Munich",
       "home_away": "H",
@@ -2556,8 +2566,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 114,
-    "end_index": 123,
+    "start_index": 115,
+    "end_index": 124,
     "length": 10
   }
 }
