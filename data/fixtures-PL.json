@@ -1,6 +1,6 @@
 {
   "league": "PL",
-  "generated_at": "2026-04-17T06:54:20.905706+00:00",
+  "generated_at": "2026-04-18T06:42:07.461858+00:00",
   "matches": [
     {
       "date": "2026-04-18",
@@ -214,16 +214,6 @@
     },
     {
       "date": "2026-05-02",
-      "time": "11:30",
-      "home_team": "Aston Villa",
-      "home_team_id": 60,
-      "away_team": "Tottenham Hotspur",
-      "away_team_id": 253,
-      "competition": "Premier League",
-      "matchday": 35
-    },
-    {
-      "date": "2026-05-02",
       "time": "14:00",
       "home_team": "AFC Bournemouth",
       "home_team_id": 238,
@@ -279,6 +269,16 @@
       "home_team_id": 249,
       "away_team": "Liverpool FC",
       "away_team_id": 247,
+      "competition": "Premier League",
+      "matchday": 35
+    },
+    {
+      "date": "2026-05-03",
+      "time": "18:00",
+      "home_team": "Aston Villa",
+      "home_team_id": 60,
+      "away_team": "Tottenham Hotspur",
+      "away_team_id": 253,
       "competition": "Premier League",
       "matchday": 35
     },
