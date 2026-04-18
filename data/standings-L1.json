@@ -1,7 +1,7 @@
 {
   "league": "L1",
   "season": "2025-26",
-  "generated_at": "2026-04-17T06:51:41.946008+00:00",
+  "generated_at": "2026-04-18T06:38:42.543001+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Racing Club de Lens",
       "team_id": 546,
-      "played": 28,
-      "won": 19,
+      "played": 29,
+      "won": 20,
       "drawn": 2,
       "lost": 7,
-      "goals_for": 54,
-      "goals_against": 27,
-      "goal_difference": 27,
-      "points": 59
+      "goals_for": 57,
+      "goals_against": 29,
+      "goal_difference": 28,
+      "points": 62
     },
     {
       "position": 3,
@@ -124,13 +124,13 @@
       "position": 10,
       "team": "Toulouse FC",
       "team_id": 511,
-      "played": 29,
+      "played": 30,
       "won": 10,
       "drawn": 7,
-      "lost": 12,
-      "goals_for": 39,
-      "goals_against": 39,
-      "goal_difference": 0,
+      "lost": 13,
+      "goals_for": 41,
+      "goals_against": 42,
+      "goal_difference": -1,
       "points": 37
     },
     {
