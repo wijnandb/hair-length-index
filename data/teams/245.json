@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Brentford FC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Liverpool FC",
       "home_away": "A",
@@ -3216,8 +3226,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 152,
-    "end_index": 156,
+    "start_index": 153,
+    "end_index": 157,
     "length": 5
   }
 }

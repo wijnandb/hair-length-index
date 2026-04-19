@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Wolverhampton Wanderers",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-13",
       "opponent": "Manchester United",
       "home_away": "A",
@@ -3186,8 +3196,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 35,
-    "end_index": 41,
+    "start_index": 36,
+    "end_index": 42,
     "length": 7
   }
 }

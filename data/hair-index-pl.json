@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T06:42:12.877375",
+  "generated_at": "2026-04-19T06:47:20.733878",
   "threshold": 5,
   "teams": [
     {
@@ -13,8 +13,8 @@
       "streak_length": 7,
       "streak_end_date": "2020-07-15",
       "streak_start_date": "2020-03-07",
-      "days_since": 2103,
-      "matches_since": 271,
+      "days_since": 2104,
+      "matches_since": 272,
       "competitions_in_streak": [
         "Championship 2019/2020"
       ],
@@ -22,22 +22,22 @@
         "D",
         "D",
         "D",
+        "D",
         "L",
         "D",
         "W",
         "L",
         "W",
-        "D",
-        "W"
+        "D"
       ],
       "search_depth": "2017-08-05",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2020-07-15",
-      "strict_days_since": 2103,
+      "strict_days_since": 2104,
       "includes_aet_pens": false,
-      "total_matches": 420,
+      "total_matches": 421,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -52,7 +52,7 @@
       "streak_length": 7,
       "streak_end_date": "2020-10-03",
       "streak_start_date": "2020-09-13",
-      "days_since": 2023,
+      "days_since": 2024,
       "matches_since": 246,
       "competitions_in_streak": [
         "League Cup 2020/2021",
@@ -75,7 +75,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2020-10-03",
-      "strict_days_since": 2023,
+      "strict_days_since": 2024,
       "includes_aet_pens": false,
       "total_matches": 338,
       "has_cup_data": true,
@@ -92,7 +92,7 @@
       "streak_length": 5,
       "streak_end_date": "2021-03-17",
       "streak_start_date": "2021-03-02",
-      "days_since": 1858,
+      "days_since": 1859,
       "matches_since": 260,
       "competitions_in_streak": [
         "EFL Trophy 2020/2021",
@@ -115,7 +115,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-03-17",
-      "strict_days_since": 1858,
+      "strict_days_since": 1859,
       "includes_aet_pens": false,
       "total_matches": 412,
       "has_cup_data": true,
@@ -132,13 +132,14 @@
       "streak_length": 5,
       "streak_end_date": "2021-10-30",
       "streak_start_date": "2021-10-02",
-      "days_since": 1631,
-      "matches_since": 196,
+      "days_since": 1632,
+      "matches_since": 197,
       "competitions_in_streak": [
         "Championship 2021/2022"
       ],
       "current_form": [
         "W",
+        "W",
         "D",
         "D",
         "D",
@@ -146,7 +147,6 @@
         "D",
         "W",
         "D",
-        "W",
         "W"
       ],
       "search_depth": "2018-08-25",
@@ -154,9 +154,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-10-30",
-      "strict_days_since": 1631,
+      "strict_days_since": 1632,
       "includes_aet_pens": false,
-      "total_matches": 311,
+      "total_matches": 312,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -171,7 +171,7 @@
       "streak_length": 5,
       "streak_end_date": "2021-10-31",
       "streak_start_date": "2021-10-17",
-      "days_since": 1630,
+      "days_since": 1631,
       "matches_since": 228,
       "competitions_in_streak": [
         "Europa League",
@@ -195,7 +195,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-01-26",
-      "strict_days_since": 1908,
+      "strict_days_since": 1909,
       "includes_aet_pens": true,
       "total_matches": 331,
       "has_cup_data": true,
@@ -212,13 +212,14 @@
       "streak_length": 5,
       "streak_end_date": "2023-01-12",
       "streak_start_date": "2022-12-26",
-      "days_since": 1192,
-      "matches_since": 152,
+      "days_since": 1193,
+      "matches_since": 153,
       "competitions_in_streak": [
         "FA Cup 2022/2023",
         "Premier League 2022/2023"
       ],
       "current_form": [
+        "D",
         "L",
         "W",
         "D",
@@ -227,7 +228,6 @@
         "W",
         "W",
         "W",
-        "L",
         "L"
       ],
       "search_depth": "2017-12-02",
@@ -235,9 +235,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-01-12",
-      "strict_days_since": 1192,
+      "strict_days_since": 1193,
       "includes_aet_pens": false,
-      "total_matches": 321,
+      "total_matches": 322,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -252,13 +252,14 @@
       "streak_length": 5,
       "streak_end_date": "2024-02-18",
       "streak_start_date": "2024-01-28",
-      "days_since": 790,
-      "matches_since": 111,
+      "days_since": 791,
+      "matches_since": 112,
       "competitions_in_streak": [
         "FA Cup 2023/2024",
         "Premier League 2023/2024"
       ],
       "current_form": [
+        "W",
         "L",
         "D",
         "W",
@@ -266,7 +267,6 @@
         "W",
         "W",
         "D",
-        "W",
         "W",
         "W"
       ],
@@ -275,9 +275,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-02-18",
-      "strict_days_since": 790,
+      "strict_days_since": 791,
       "includes_aet_pens": false,
-      "total_matches": 380,
+      "total_matches": 381,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -292,19 +292,19 @@
       "streak_length": 5,
       "streak_end_date": "2024-10-03",
       "streak_start_date": "2024-09-18",
-      "days_since": 562,
-      "matches_since": 97,
+      "days_since": 563,
+      "matches_since": 98,
       "competitions_in_streak": [
         "Europa League",
         "League Cup 2024/2025",
         "Premier League 2024/2025"
       ],
       "current_form": [
+        "D",
         "L",
         "L",
         "W",
         "D",
-        "L",
         "L",
         "L",
         "L",
@@ -316,9 +316,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-10-03",
-      "strict_days_since": 562,
+      "strict_days_since": 563,
       "includes_aet_pens": false,
-      "total_matches": 366,
+      "total_matches": 367,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -333,13 +333,14 @@
       "streak_length": 6,
       "streak_end_date": "2025-03-08",
       "streak_start_date": "2025-02-08",
-      "days_since": 406,
-      "matches_since": 48,
+      "days_since": 407,
+      "matches_since": 49,
       "competitions_in_streak": [
         "FA Cup 2024/2025",
         "Premier League 2024/2025"
       ],
       "current_form": [
+        "D",
         "W",
         "W",
         "W",
@@ -348,8 +349,7 @@
         "W",
         "L",
         "L",
-        "L",
-        "D"
+        "L"
       ],
       "search_depth": "2018-11-03",
       "hair_tier": "Caveman",
@@ -358,7 +358,7 @@
       "strict_streak_end_date": null,
       "strict_days_since": null,
       "includes_aet_pens": true,
-      "total_matches": 307,
+      "total_matches": 308,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -373,7 +373,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-03-29",
       "streak_start_date": "2025-02-22",
-      "days_since": 385,
+      "days_since": 386,
       "matches_since": 60,
       "competitions_in_streak": [
         "FA Cup 2024/2025",
@@ -396,7 +396,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-03-29",
-      "strict_days_since": 385,
+      "strict_days_since": 386,
       "includes_aet_pens": false,
       "total_matches": 305,
       "has_cup_data": true,
@@ -413,7 +413,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-04-01",
       "streak_start_date": "2025-03-03",
-      "days_since": 382,
+      "days_since": 383,
       "matches_since": 55,
       "competitions_in_streak": [
         "FA Cup 2024/2025",
@@ -436,7 +436,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-01-11",
-      "strict_days_since": 462,
+      "strict_days_since": 463,
       "includes_aet_pens": true,
       "total_matches": 337,
       "has_cup_data": true,
@@ -453,8 +453,8 @@
       "streak_length": 6,
       "streak_end_date": "2025-04-16",
       "streak_start_date": "2025-03-10",
-      "days_since": 367,
-      "matches_since": 58,
+      "days_since": 368,
+      "matches_since": 59,
       "competitions_in_streak": [
         "League Cup 2024/2025",
         "Premier League 2024/2025"
@@ -463,22 +463,22 @@
         "L",
         "L",
         "L",
+        "L",
         "W",
         "D",
         "L",
         "W",
         "L",
-        "W",
-        "L"
+        "W"
       ],
       "search_depth": "2018-12-05",
       "hair_tier": "Caveman",
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-04-16",
-      "strict_days_since": 367,
+      "strict_days_since": 368,
       "includes_aet_pens": false,
-      "total_matches": 327,
+      "total_matches": 328,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -493,13 +493,14 @@
       "streak_length": 6,
       "streak_end_date": "2025-04-26",
       "streak_start_date": "2025-03-15",
-      "days_since": 357,
-      "matches_since": 42,
+      "days_since": 358,
+      "matches_since": 43,
       "competitions_in_streak": [
         "Premier League 2024/2025"
       ],
       "current_form": [
         "L",
+        "L",
         "D",
         "L",
         "W",
@@ -507,17 +508,16 @@
         "L",
         "D",
         "W",
-        "D",
-        "L"
+        "D"
       ],
       "search_depth": "2017-08-26",
       "hair_tier": "Caveman",
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-04-26",
-      "strict_days_since": 357,
+      "strict_days_since": 358,
       "includes_aet_pens": false,
-      "total_matches": 317,
+      "total_matches": 318,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -532,7 +532,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-05-03",
       "streak_start_date": "2025-04-11",
-      "days_since": 350,
+      "days_since": 351,
       "matches_since": 36,
       "competitions_in_streak": [
         "Championship 2024/2025"
@@ -554,7 +554,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-05-03",
-      "strict_days_since": 350,
+      "strict_days_since": 351,
       "includes_aet_pens": false,
       "total_matches": 311,
       "has_cup_data": true,
@@ -571,14 +571,15 @@
       "streak_length": 7,
       "streak_end_date": "2025-08-18",
       "streak_start_date": "2025-04-08",
-      "days_since": 243,
-      "matches_since": 35,
+      "days_since": 244,
+      "matches_since": 36,
       "competitions_in_streak": [
         "Championship 2024/2025",
         "Premier League 2025/2026"
       ],
       "current_form": [
         "W",
+        "W",
         "D",
         "D",
         "W",
@@ -586,17 +587,16 @@
         "L",
         "D",
         "W",
-        "D",
-        "W"
+        "D"
       ],
       "search_depth": "2017-11-04",
       "hair_tier": "Long & wild",
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-08-18",
-      "strict_days_since": 243,
+      "strict_days_since": 244,
       "includes_aet_pens": false,
-      "total_matches": 318,
+      "total_matches": 319,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -611,7 +611,7 @@
       "streak_length": 7,
       "streak_end_date": "2025-09-23",
       "streak_start_date": "2025-08-15",
-      "days_since": 207,
+      "days_since": 208,
       "matches_since": 42,
       "competitions_in_streak": [
         "Champions League",
@@ -635,7 +635,7 @@
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-09-23",
-      "strict_days_since": 207,
+      "strict_days_since": 208,
       "includes_aet_pens": false,
       "total_matches": 393,
       "has_cup_data": true,
@@ -652,7 +652,7 @@
       "streak_length": 11,
       "streak_end_date": "2025-12-27",
       "streak_start_date": "2025-11-06",
-      "days_since": 112,
+      "days_since": 113,
       "matches_since": 20,
       "competitions_in_streak": [
         "Europa League",
@@ -675,7 +675,7 @@
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-12-27",
-      "strict_days_since": 112,
+      "strict_days_since": 113,
       "includes_aet_pens": false,
       "total_matches": 332,
       "has_cup_data": true,
@@ -692,7 +692,7 @@
       "streak_length": 7,
       "streak_end_date": "2026-01-03",
       "streak_start_date": "2025-12-10",
-      "days_since": 105,
+      "days_since": 106,
       "matches_since": 24,
       "competitions_in_streak": [
         "Champions League",
@@ -716,7 +716,7 @@
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-11-04",
-      "strict_days_since": 165,
+      "strict_days_since": 166,
       "includes_aet_pens": true,
       "total_matches": 372,
       "has_cup_data": true,
@@ -733,8 +733,8 @@
       "streak_length": 5,
       "streak_end_date": "2026-01-31",
       "streak_start_date": "2026-01-17",
-      "days_since": 77,
-      "matches_since": 13,
+      "days_since": 78,
+      "matches_since": 14,
       "competitions_in_streak": [
         "Champions League",
         "Premier League 2025/2026"
@@ -745,20 +745,20 @@
         "L",
         "L",
         "L",
+        "L",
         "W",
         "W",
         "L",
-        "D",
-        "W"
+        "D"
       ],
       "search_depth": "2018-11-11",
       "hair_tier": "Getting shaggy",
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-01-31",
-      "strict_days_since": 77,
+      "strict_days_since": 78,
       "includes_aet_pens": false,
-      "total_matches": 394,
+      "total_matches": 395,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -773,7 +773,7 @@
       "streak_length": 6,
       "streak_end_date": "2026-02-28",
       "streak_start_date": "2026-02-04",
-      "days_since": 49,
+      "days_since": 50,
       "matches_since": 7,
       "competitions_in_streak": [
         "FA Cup 2025/2026",
@@ -797,7 +797,7 @@
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-28",
-      "strict_days_since": 49,
+      "strict_days_since": 50,
       "includes_aet_pens": false,
       "total_matches": 415,
       "has_cup_data": true,

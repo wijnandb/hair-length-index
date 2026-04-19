@@ -1,57 +1,7 @@
 {
   "league": "PL",
-  "generated_at": "2026-04-18T06:42:07.461858+00:00",
+  "generated_at": "2026-04-19T06:47:17.333174+00:00",
   "matches": [
-    {
-      "date": "2026-04-18",
-      "time": "11:30",
-      "home_team": "Brentford FC",
-      "home_team_id": 239,
-      "away_team": "Fulham FC",
-      "away_team_id": 245,
-      "competition": "Premier League",
-      "matchday": 33
-    },
-    {
-      "date": "2026-04-18",
-      "time": "14:00",
-      "home_team": "Newcastle United",
-      "home_team_id": 250,
-      "away_team": "AFC Bournemouth",
-      "away_team_id": 238,
-      "competition": "Premier League",
-      "matchday": 33
-    },
-    {
-      "date": "2026-04-18",
-      "time": "14:00",
-      "home_team": "Leeds United",
-      "home_team_id": 246,
-      "away_team": "Wolverhampton Wanderers",
-      "away_team_id": 255,
-      "competition": "Premier League",
-      "matchday": 33
-    },
-    {
-      "date": "2026-04-18",
-      "time": "16:30",
-      "home_team": "Tottenham Hotspur",
-      "home_team_id": 253,
-      "away_team": "Brighton & Hove Albion",
-      "away_team_id": 240,
-      "competition": "Premier League",
-      "matchday": 33
-    },
-    {
-      "date": "2026-04-18",
-      "time": "19:00",
-      "home_team": "Chelsea FC",
-      "home_team_id": 242,
-      "away_team": "Manchester United",
-      "away_team_id": 249,
-      "competition": "Premier League",
-      "matchday": 33
-    },
     {
       "date": "2026-04-19",
       "time": "13:00",
@@ -215,16 +165,6 @@
     {
       "date": "2026-05-02",
       "time": "14:00",
-      "home_team": "AFC Bournemouth",
-      "home_team_id": 238,
-      "away_team": "Crystal Palace",
-      "away_team_id": 243,
-      "competition": "Premier League",
-      "matchday": 35
-    },
-    {
-      "date": "2026-05-02",
-      "time": "14:00",
       "home_team": "Brentford FC",
       "home_team_id": 239,
       "away_team": "West Ham United",
@@ -259,6 +199,16 @@
       "home_team_id": 237,
       "away_team": "Fulham FC",
       "away_team_id": 245,
+      "competition": "Premier League",
+      "matchday": 35
+    },
+    {
+      "date": "2026-05-03",
+      "time": "13:00",
+      "home_team": "AFC Bournemouth",
+      "home_team_id": 238,
+      "away_team": "Crystal Palace",
+      "away_team_id": 243,
       "competition": "Premier League",
       "matchday": 35
     },
@@ -335,26 +285,6 @@
     {
       "date": "2026-05-09",
       "time": "14:00",
-      "home_team": "Crystal Palace",
-      "home_team_id": 243,
-      "away_team": "Everton FC",
-      "away_team_id": 244,
-      "competition": "Premier League",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-09",
-      "time": "14:00",
-      "home_team": "Burnley FC",
-      "home_team_id": 241,
-      "away_team": "Aston Villa",
-      "away_team_id": 60,
-      "competition": "Premier League",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-09",
-      "time": "14:00",
       "home_team": "Fulham FC",
       "home_team_id": 245,
       "away_team": "AFC Bournemouth",
@@ -369,6 +299,26 @@
       "home_team_id": 248,
       "away_team": "Brentford FC",
       "away_team_id": 239,
+      "competition": "Premier League",
+      "matchday": 36
+    },
+    {
+      "date": "2026-05-10",
+      "time": "13:00",
+      "home_team": "Crystal Palace",
+      "home_team_id": 243,
+      "away_team": "Everton FC",
+      "away_team_id": 244,
+      "competition": "Premier League",
+      "matchday": 36
+    },
+    {
+      "date": "2026-05-10",
+      "time": "13:00",
+      "home_team": "Burnley FC",
+      "home_team_id": 241,
+      "away_team": "Aston Villa",
+      "away_team_id": 60,
       "competition": "Premier League",
       "matchday": 36
     },
