@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Atalanta",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-10",
       "opponent": "Pisa SC",
       "home_away": "H",
@@ -4386,8 +4396,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 54,
-    "end_index": 59,
+    "start_index": 55,
+    "end_index": 60,
     "length": 6
   }
 }

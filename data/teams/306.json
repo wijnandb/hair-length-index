@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Parma Calcio 1913",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "AC Milan",
       "home_away": "A",
@@ -3516,8 +3526,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 147,
-    "end_index": 152,
+    "start_index": 148,
+    "end_index": 153,
     "length": 6
   }
 }
