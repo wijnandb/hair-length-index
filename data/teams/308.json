@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Havre AC",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Stade Rennais",
       "home_away": "A",
@@ -2716,8 +2726,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 49,
-    "end_index": 53,
+    "start_index": 50,
+    "end_index": 54,
     "length": 5
   }
 }

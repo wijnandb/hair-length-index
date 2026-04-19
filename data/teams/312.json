@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Angers SCO",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "OGC Nice",
       "home_away": "A",
@@ -4166,8 +4176,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 295,
-    "end_index": 300,
+    "start_index": 296,
+    "end_index": 301,
     "length": 6
   }
 }

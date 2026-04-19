@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Lille OSC",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "Havre AC",
       "home_away": "H",
@@ -3046,8 +3056,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 196,
-    "end_index": 202,
+    "start_index": 197,
+    "end_index": 203,
     "length": 6
   }
 }
