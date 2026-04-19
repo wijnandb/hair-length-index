@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "Eintracht Frankfurt",
+      "home_away": "A",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Bor. Mönchengladbach",
       "home_away": "H",
@@ -3506,8 +3516,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 117,
-    "end_index": 122,
+    "start_index": 118,
+    "end_index": 123,
     "length": 6
   }
 }

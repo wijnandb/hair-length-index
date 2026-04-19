@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-18",
+      "opponent": "FC Augsburg",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Borussia Dortmund",
       "home_away": "A",
@@ -3946,8 +3956,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 67,
-    "end_index": 77,
+    "start_index": 68,
+    "end_index": 78,
     "length": 11
   }
 }
