@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-19",
+      "opponent": "US Cremonese",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Hellas Verona",
       "home_away": "H",
@@ -9486,8 +9496,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 576,
-    "end_index": 580,
+    "start_index": 577,
+    "end_index": 581,
     "length": 5
   }
 }

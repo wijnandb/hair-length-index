@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-19",
+      "opponent": "Bologna FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Atalanta",
       "home_away": "A",
@@ -4346,8 +4356,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 119,
-    "end_index": 125,
+    "start_index": 120,
+    "end_index": 126,
     "length": 7
   }
 }

@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-04-19T06:49:36.119235+00:00",
+  "generated_at": "2026-04-20T06:58:23.948948+00:00",
   "table": [
     {
       "position": 1,
@@ -18,6 +18,19 @@
     },
     {
       "position": 2,
+      "team": "AC Milan",
+      "team_id": 98,
+      "played": 33,
+      "won": 19,
+      "drawn": 9,
+      "lost": 5,
+      "goals_for": 48,
+      "goals_against": 27,
+      "goal_difference": 21,
+      "points": 66
+    },
+    {
+      "position": 3,
       "team": "SSC Napoli",
       "team_id": 113,
       "played": 33,
@@ -30,30 +43,17 @@
       "points": 66
     },
     {
-      "position": 3,
-      "team": "AC Milan",
-      "team_id": 98,
-      "played": 32,
-      "won": 18,
-      "drawn": 9,
-      "lost": 5,
-      "goals_for": 47,
-      "goals_against": 27,
-      "goal_difference": 20,
-      "points": 63
-    },
-    {
       "position": 4,
       "team": "Juventus FC",
       "team_id": 109,
-      "played": 32,
-      "won": 17,
+      "played": 33,
+      "won": 18,
       "drawn": 9,
       "lost": 6,
-      "goals_for": 55,
+      "goals_for": 57,
       "goals_against": 29,
-      "goal_difference": 26,
-      "points": 60
+      "goal_difference": 28,
+      "points": 63
     },
     {
       "position": 5,
@@ -98,13 +98,13 @@
       "position": 8,
       "team": "Bologna FC 1909",
       "team_id": 103,
-      "played": 32,
+      "played": 33,
       "won": 14,
       "drawn": 6,
-      "lost": 12,
+      "lost": 13,
       "goals_for": 42,
-      "goals_against": 37,
-      "goal_difference": 5,
+      "goals_against": 39,
+      "goal_difference": 3,
       "points": 48
     },
     {
@@ -148,6 +148,32 @@
     },
     {
       "position": 12,
+      "team": "Torino FC",
+      "team_id": 586,
+      "played": 33,
+      "won": 11,
+      "drawn": 7,
+      "lost": 15,
+      "goals_for": 37,
+      "goals_against": 54,
+      "goal_difference": -17,
+      "points": 40
+    },
+    {
+      "position": 13,
+      "team": "Genoa CFC",
+      "team_id": 107,
+      "played": 33,
+      "won": 10,
+      "drawn": 9,
+      "lost": 14,
+      "goals_for": 40,
+      "goals_against": 46,
+      "goal_difference": -6,
+      "points": 39
+    },
+    {
+      "position": 14,
       "team": "Parma Calcio 1913",
       "team_id": 112,
       "played": 33,
@@ -158,32 +184,6 @@
       "goals_against": 40,
       "goal_difference": -16,
       "points": 39
-    },
-    {
-      "position": 13,
-      "team": "Torino FC",
-      "team_id": 586,
-      "played": 32,
-      "won": 11,
-      "drawn": 6,
-      "lost": 15,
-      "goals_for": 37,
-      "goals_against": 54,
-      "goal_difference": -17,
-      "points": 39
-    },
-    {
-      "position": 14,
-      "team": "Genoa CFC",
-      "team_id": 107,
-      "played": 32,
-      "won": 9,
-      "drawn": 9,
-      "lost": 14,
-      "goals_for": 38,
-      "goals_against": 45,
-      "goal_difference": -7,
-      "points": 36
     },
     {
       "position": 15,
@@ -215,14 +215,14 @@
       "position": 17,
       "team": "US Cremonese",
       "team_id": 457,
-      "played": 32,
+      "played": 33,
       "won": 6,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 17,
       "goals_for": 26,
       "goals_against": 47,
       "goal_difference": -21,
-      "points": 27
+      "points": 28
     },
     {
       "position": 18,
@@ -241,26 +241,26 @@
       "position": 19,
       "team": "Hellas Verona FC",
       "team_id": 450,
-      "played": 32,
+      "played": 33,
       "won": 3,
       "drawn": 9,
-      "lost": 20,
+      "lost": 21,
       "goals_for": 23,
-      "goals_against": 55,
-      "goal_difference": -32,
+      "goals_against": 56,
+      "goal_difference": -33,
       "points": 18
     },
     {
       "position": 20,
       "team": "AC Pisa 1909",
       "team_id": 487,
-      "played": 32,
+      "played": 33,
       "won": 2,
       "drawn": 12,
-      "lost": 18,
-      "goals_for": 23,
-      "goals_against": 58,
-      "goal_difference": -35,
+      "lost": 19,
+      "goals_for": 24,
+      "goals_against": 60,
+      "goal_difference": -36,
       "points": 18
     }
   ]
