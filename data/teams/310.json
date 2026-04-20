@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-19",
+      "opponent": "Paris FC",
+      "home_away": "H",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-10",
       "opponent": "Olympique Marseille",
       "home_away": "A",
@@ -3906,8 +3916,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 294,
-    "end_index": 302,
+    "start_index": 295,
+    "end_index": 303,
     "length": 6
   }
 }
