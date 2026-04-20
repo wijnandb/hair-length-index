@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-19",
+      "opponent": "Bayern Munich",
+      "home_away": "A",
+      "score": "2-4",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "Hamburger SV",
       "home_away": "H",
@@ -3336,8 +3346,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 124,
-    "end_index": 129,
+    "start_index": 125,
+    "end_index": 130,
     "length": 6
   }
 }
