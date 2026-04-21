@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-04-20T06:58:23.948948+00:00",
+  "generated_at": "2026-04-21T06:53:37.072504+00:00",
   "table": [
     {
       "position": 1,
@@ -189,14 +189,14 @@
       "position": 15,
       "team": "ACF Fiorentina",
       "team_id": 99,
-      "played": 32,
+      "played": 33,
       "won": 8,
-      "drawn": 11,
+      "drawn": 12,
       "lost": 13,
-      "goals_for": 37,
-      "goals_against": 44,
+      "goals_for": 38,
+      "goals_against": 45,
       "goal_difference": -7,
-      "points": 35
+      "points": 36
     },
     {
       "position": 16,
@@ -228,14 +228,14 @@
       "position": 18,
       "team": "US Lecce",
       "team_id": 5890,
-      "played": 32,
+      "played": 33,
       "won": 7,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 19,
-      "goals_for": 21,
-      "goals_against": 45,
+      "goals_for": 22,
+      "goals_against": 46,
       "goal_difference": -24,
-      "points": 27
+      "points": 28
     },
     {
       "position": 19,
