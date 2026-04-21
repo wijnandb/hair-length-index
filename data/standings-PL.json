@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-20T06:59:54.490049+00:00",
+  "generated_at": "2026-04-21T06:52:07.166675+00:00",
   "table": [
     {
       "position": 1,
@@ -163,14 +163,14 @@
       "position": 13,
       "team": "Crystal Palace FC",
       "team_id": 354,
-      "played": 31,
+      "played": 32,
       "won": 11,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 11,
       "goals_for": 35,
       "goals_against": 36,
       "goal_difference": -1,
-      "points": 42
+      "points": 43
     },
     {
       "position": 14,
@@ -215,14 +215,14 @@
       "position": 17,
       "team": "West Ham United FC",
       "team_id": 563,
-      "played": 32,
+      "played": 33,
       "won": 8,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 16,
       "goals_for": 40,
       "goals_against": 57,
       "goal_difference": -17,
-      "points": 32
+      "points": 33
     },
     {
       "position": 18,

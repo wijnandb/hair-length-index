@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-20",
+      "opponent": "Crystal Palace",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-10",
       "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
@@ -3316,8 +3326,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 228,
-    "end_index": 232,
+    "start_index": 229,
+    "end_index": 233,
     "length": 6
   }
 }
