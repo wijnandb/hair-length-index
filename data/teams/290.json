@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-21",
+      "opponent": "RCD Mallorca",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "Elche CF",
       "home_away": "A",
@@ -3196,8 +3206,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 189,
-    "end_index": 193,
+    "start_index": 190,
+    "end_index": 194,
     "length": 0
   }
 }

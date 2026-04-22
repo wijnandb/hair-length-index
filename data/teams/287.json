@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-21",
+      "opponent": "CD Alavés",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-15",
       "opponent": "Bayern Munich",
       "home_away": "A",
@@ -4096,8 +4106,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 4,
-    "end_index": 8,
+    "start_index": 5,
+    "end_index": 9,
     "length": 5
   }
 }
