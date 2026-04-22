@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-21T06:52:07.166675+00:00",
+  "generated_at": "2026-04-22T06:53:41.382189+00:00",
   "table": [
     {
       "position": 1,
@@ -70,19 +70,32 @@
     },
     {
       "position": 6,
-      "team": "Chelsea FC",
-      "team_id": 61,
-      "played": 33,
+      "team": "Brighton & Hove Albion FC",
+      "team_id": 397,
+      "played": 34,
       "won": 13,
-      "drawn": 9,
-      "lost": 11,
-      "goals_for": 53,
-      "goals_against": 42,
-      "goal_difference": 11,
-      "points": 48
+      "drawn": 11,
+      "lost": 10,
+      "goals_for": 48,
+      "goals_against": 39,
+      "goal_difference": 9,
+      "points": 50
     },
     {
       "position": 7,
+      "team": "Chelsea FC",
+      "team_id": 61,
+      "played": 34,
+      "won": 13,
+      "drawn": 9,
+      "lost": 12,
+      "goals_for": 53,
+      "goals_against": 45,
+      "goal_difference": 8,
+      "points": 48
+    },
+    {
+      "position": 8,
       "team": "Brentford FC",
       "team_id": 402,
       "played": 33,
@@ -95,7 +108,7 @@
       "points": 48
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "AFC Bournemouth",
       "team_id": 1044,
       "played": 33,
@@ -106,19 +119,6 @@
       "goals_against": 50,
       "goal_difference": 0,
       "points": 48
-    },
-    {
-      "position": 9,
-      "team": "Brighton & Hove Albion FC",
-      "team_id": 397,
-      "played": 33,
-      "won": 12,
-      "drawn": 11,
-      "lost": 10,
-      "goals_for": 45,
-      "goals_against": 39,
-      "goal_difference": 6,
-      "points": 47
     },
     {
       "position": 10,
