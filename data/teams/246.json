@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-22",
+      "opponent": "AFC Bournemouth",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-18",
       "opponent": "Wolverhampton Wanderers",
       "home_away": "H",
@@ -3196,8 +3206,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 36,
-    "end_index": 42,
+    "start_index": 37,
+    "end_index": 43,
     "length": 7
   }
 }

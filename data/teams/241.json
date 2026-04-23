@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-22",
+      "opponent": "Manchester City",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "Nottingham Forest",
       "home_away": "A",
@@ -3126,8 +3136,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 37,
-    "end_index": 41,
+    "start_index": 38,
+    "end_index": 42,
     "length": 5
   }
 }

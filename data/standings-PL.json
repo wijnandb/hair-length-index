@@ -1,10 +1,23 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-22T06:53:41.382189+00:00",
+  "generated_at": "2026-04-23T06:54:29.140214+00:00",
   "table": [
     {
       "position": 1,
+      "team": "Manchester City FC",
+      "team_id": 65,
+      "played": 33,
+      "won": 21,
+      "drawn": 7,
+      "lost": 5,
+      "goals_for": 66,
+      "goals_against": 29,
+      "goal_difference": 37,
+      "points": 70
+    },
+    {
+      "position": 2,
       "team": "Arsenal FC",
       "team_id": 57,
       "played": 33,
@@ -15,19 +28,6 @@
       "goals_against": 26,
       "goal_difference": 37,
       "points": 70
-    },
-    {
-      "position": 2,
-      "team": "Manchester City FC",
-      "team_id": 65,
-      "played": 32,
-      "won": 20,
-      "drawn": 7,
-      "lost": 5,
-      "goals_for": 65,
-      "goals_against": 29,
-      "goal_difference": 36,
-      "points": 67
     },
     {
       "position": 3,
@@ -83,6 +83,19 @@
     },
     {
       "position": 7,
+      "team": "AFC Bournemouth",
+      "team_id": 1044,
+      "played": 34,
+      "won": 11,
+      "drawn": 16,
+      "lost": 7,
+      "goals_for": 52,
+      "goals_against": 52,
+      "goal_difference": 0,
+      "points": 49
+    },
+    {
+      "position": 8,
       "team": "Chelsea FC",
       "team_id": 61,
       "played": 34,
@@ -95,7 +108,7 @@
       "points": 48
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Brentford FC",
       "team_id": 402,
       "played": 33,
@@ -105,19 +118,6 @@
       "goals_for": 48,
       "goals_against": 44,
       "goal_difference": 4,
-      "points": 48
-    },
-    {
-      "position": 9,
-      "team": "AFC Bournemouth",
-      "team_id": 1044,
-      "played": 33,
-      "won": 11,
-      "drawn": 15,
-      "lost": 7,
-      "goals_for": 50,
-      "goals_against": 50,
-      "goal_difference": 0,
       "points": 48
     },
     {
@@ -189,14 +189,14 @@
       "position": 15,
       "team": "Leeds United FC",
       "team_id": 341,
-      "played": 33,
+      "played": 34,
       "won": 9,
-      "drawn": 12,
+      "drawn": 13,
       "lost": 12,
-      "goals_for": 42,
-      "goals_against": 49,
+      "goals_for": 44,
+      "goals_against": 51,
       "goal_difference": -7,
-      "points": 39
+      "points": 40
     },
     {
       "position": 16,
@@ -241,13 +241,13 @@
       "position": 19,
       "team": "Burnley FC",
       "team_id": 328,
-      "played": 33,
+      "played": 34,
       "won": 4,
       "drawn": 8,
-      "lost": 21,
+      "lost": 22,
       "goals_for": 34,
-      "goals_against": 67,
-      "goal_difference": -33,
+      "goals_against": 68,
+      "goal_difference": -34,
       "points": 20
     },
     {
