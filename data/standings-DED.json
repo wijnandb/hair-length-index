@@ -1,7 +1,7 @@
 {
   "league": "DED",
   "season": "2025-26",
-  "generated_at": "2026-04-22T06:50:56.467549+00:00",
+  "generated_at": "2026-04-23T06:48:45.091899+00:00",
   "table": [
     {
       "position": 1,
@@ -124,13 +124,13 @@
       "position": 10,
       "team": "Sparta Rotterdam",
       "team_id": 6806,
-      "played": 30,
+      "played": 31,
       "won": 12,
       "drawn": 6,
-      "lost": 12,
-      "goals_for": 35,
-      "goals_against": 49,
-      "goal_difference": -14,
+      "lost": 13,
+      "goals_for": 36,
+      "goals_against": 53,
+      "goal_difference": -17,
       "points": 42
     },
     {
@@ -174,6 +174,19 @@
     },
     {
       "position": 14,
+      "team": "Telstar 1963",
+      "team_id": 1912,
+      "played": 31,
+      "won": 7,
+      "drawn": 9,
+      "lost": 15,
+      "goals_for": 43,
+      "goals_against": 53,
+      "goal_difference": -10,
+      "points": 30
+    },
+    {
+      "position": 15,
       "team": "FC Volendam",
       "team_id": 1919,
       "played": 30,
@@ -186,7 +199,7 @@
       "points": 28
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "SBV Excelsior",
       "team_id": 670,
       "played": 30,
@@ -197,19 +210,6 @@
       "goals_against": 51,
       "goal_difference": -20,
       "points": 28
-    },
-    {
-      "position": 16,
-      "team": "Telstar 1963",
-      "team_id": 1912,
-      "played": 30,
-      "won": 6,
-      "drawn": 9,
-      "lost": 15,
-      "goals_for": 39,
-      "goals_against": 52,
-      "goal_difference": -13,
-      "points": 27
     },
     {
       "position": 17,
