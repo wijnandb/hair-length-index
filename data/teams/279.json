@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-22",
+      "opponent": "Celta de Vigo",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-14",
       "opponent": "Atlético Madrid",
       "home_away": "A",
@@ -3966,8 +3976,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 14,
-    "end_index": 19,
+    "start_index": 15,
+    "end_index": 20,
     "length": 6
   }
 }

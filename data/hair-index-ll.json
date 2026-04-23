@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T06:55:03.790767",
+  "generated_at": "2026-04-23T06:54:33.205946",
   "threshold": 5,
   "teams": [
     {
@@ -13,14 +13,15 @@
       "streak_length": 5,
       "streak_end_date": "2012-09-09",
       "streak_start_date": "2012-06-03",
-      "days_since": 4973,
-      "matches_since": 555,
+      "days_since": 4974,
+      "matches_since": 556,
       "competitions_in_streak": [
         "Segunda División 2011/2012",
         "Segunda División 2012/2013"
       ],
       "current_form": [
         "W",
+        "W",
         "L",
         "W",
         "L",
@@ -28,7 +29,6 @@
         "D",
         "L",
         "D",
-        "L",
         "L"
       ],
       "search_depth": "2009-08-30",
@@ -36,9 +36,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2012-09-09",
-      "strict_days_since": 4973,
+      "strict_days_since": 4974,
       "includes_aet_pens": false,
-      "total_matches": 694,
+      "total_matches": 695,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -53,7 +53,7 @@
       "streak_length": 5,
       "streak_end_date": "2016-06-18",
       "streak_start_date": "2016-06-04",
-      "days_since": 3595,
+      "days_since": 3596,
       "matches_since": 422,
       "competitions_in_streak": [
         "Primera Promotion 2015/2016",
@@ -76,7 +76,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2016-06-18",
-      "strict_days_since": 3595,
+      "strict_days_since": 3596,
       "includes_aet_pens": false,
       "total_matches": 554,
       "has_cup_data": true,
@@ -93,16 +93,14 @@
       "streak_length": 6,
       "streak_end_date": "2019-12-18",
       "streak_start_date": "2019-11-28",
-      "days_since": 2317,
-      "matches_since": 265,
+      "days_since": 2318,
+      "matches_since": 266,
       "competitions_in_streak": [
         "Copa del Rey 2019/2020",
         "Europa League",
         "Primera División 2019/2020"
       ],
       "current_form": [
-        "L",
-        "W",
         "W",
         "L",
         "W",
@@ -110,16 +108,18 @@
         "L",
         "W",
         "W",
-        "D"
+        "L",
+        "W",
+        "W"
       ],
       "search_depth": "2013-09-15",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2019-12-18",
-      "strict_days_since": 2317,
+      "strict_days_since": 2318,
       "includes_aet_pens": false,
-      "total_matches": 381,
+      "total_matches": 382,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -134,7 +134,7 @@
       "streak_length": 6,
       "streak_end_date": "2020-12-16",
       "streak_start_date": "2020-11-25",
-      "days_since": 1953,
+      "days_since": 1954,
       "matches_since": 231,
       "competitions_in_streak": [
         "Copa del Rey 2020/2021",
@@ -157,7 +157,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2020-12-16",
-      "strict_days_since": 1953,
+      "strict_days_since": 1954,
       "includes_aet_pens": false,
       "total_matches": 347,
       "has_cup_data": true,
@@ -174,7 +174,7 @@
       "streak_length": 6,
       "streak_end_date": "2021-01-19",
       "streak_start_date": "2020-12-17",
-      "days_since": 1919,
+      "days_since": 1920,
       "matches_since": 241,
       "competitions_in_streak": [
         "Copa del Rey 2020/2021",
@@ -197,7 +197,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-01-19",
-      "strict_days_since": 1919,
+      "strict_days_since": 1920,
       "includes_aet_pens": false,
       "total_matches": 365,
       "has_cup_data": true,
@@ -214,7 +214,7 @@
       "streak_length": 5,
       "streak_end_date": "2021-04-11",
       "streak_start_date": "2021-03-20",
-      "days_since": 1837,
+      "days_since": 1838,
       "matches_since": 214,
       "competitions_in_streak": [
         "Segunda División 2020/2021"
@@ -236,7 +236,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-04-11",
-      "strict_days_since": 1837,
+      "strict_days_since": 1838,
       "includes_aet_pens": false,
       "total_matches": 322,
       "has_cup_data": true,
@@ -253,7 +253,7 @@
       "streak_length": 5,
       "streak_end_date": "2021-04-25",
       "streak_start_date": "2021-04-04",
-      "days_since": 1823,
+      "days_since": 1824,
       "matches_since": 240,
       "competitions_in_streak": [
         "Primera División 2020/2021"
@@ -275,7 +275,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-04-25",
-      "strict_days_since": 1823,
+      "strict_days_since": 1824,
       "includes_aet_pens": false,
       "total_matches": 419,
       "has_cup_data": true,
@@ -292,7 +292,7 @@
       "streak_length": 5,
       "streak_end_date": "2021-12-20",
       "streak_start_date": "2021-12-02",
-      "days_since": 1584,
+      "days_since": 1585,
       "matches_since": 190,
       "competitions_in_streak": [
         "Copa del Rey 2021/2022",
@@ -332,7 +332,7 @@
       "streak_length": 5,
       "streak_end_date": "2023-02-19",
       "streak_start_date": "2023-01-21",
-      "days_since": 1158,
+      "days_since": 1159,
       "matches_since": 137,
       "competitions_in_streak": [
         "Segunda División 2022/2023"
@@ -354,7 +354,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-02-19",
-      "strict_days_since": 1158,
+      "strict_days_since": 1159,
       "includes_aet_pens": false,
       "total_matches": 308,
       "has_cup_data": true,
@@ -371,7 +371,7 @@
       "streak_length": 5,
       "streak_end_date": "2023-05-07",
       "streak_start_date": "2023-04-09",
-      "days_since": 1081,
+      "days_since": 1082,
       "matches_since": 130,
       "competitions_in_streak": [
         "Segunda División 2022/2023"
@@ -393,7 +393,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-05-07",
-      "strict_days_since": 1081,
+      "strict_days_since": 1082,
       "includes_aet_pens": false,
       "total_matches": 317,
       "has_cup_data": true,
@@ -410,7 +410,7 @@
       "streak_length": 5,
       "streak_end_date": "2023-11-09",
       "streak_start_date": "2023-10-26",
-      "days_since": 895,
+      "days_since": 896,
       "matches_since": 138,
       "competitions_in_streak": [
         "Copa del Rey 2023/2024",
@@ -434,7 +434,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-11-09",
-      "strict_days_since": 895,
+      "strict_days_since": 896,
       "includes_aet_pens": false,
       "total_matches": 364,
       "has_cup_data": true,
@@ -451,7 +451,7 @@
       "streak_length": 6,
       "streak_end_date": "2023-11-11",
       "streak_start_date": "2023-10-07",
-      "days_since": 893,
+      "days_since": 894,
       "matches_since": 111,
       "competitions_in_streak": [
         "Copa del Rey 2023/2024",
@@ -474,7 +474,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-11-11",
-      "strict_days_since": 893,
+      "strict_days_since": 894,
       "includes_aet_pens": false,
       "total_matches": 340,
       "has_cup_data": true,
@@ -491,7 +491,7 @@
       "streak_length": 6,
       "streak_end_date": "2024-12-11",
       "streak_start_date": "2024-11-24",
-      "days_since": 497,
+      "days_since": 498,
       "matches_since": 78,
       "competitions_in_streak": [
         "Europa League",
@@ -514,7 +514,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-12-11",
-      "strict_days_since": 497,
+      "strict_days_since": 498,
       "includes_aet_pens": false,
       "total_matches": 351,
       "has_cup_data": true,
@@ -531,14 +531,15 @@
       "streak_length": 5,
       "streak_end_date": "2024-12-12",
       "streak_start_date": "2024-11-28",
-      "days_since": 496,
-      "matches_since": 71,
+      "days_since": 497,
+      "matches_since": 72,
       "competitions_in_streak": [
         "Copa del Rey 2024/2025",
         "Europa League",
         "Primera División 2024/2025"
       ],
       "current_form": [
+        "L",
         "D",
         "W",
         "L",
@@ -547,17 +548,16 @@
         "W",
         "W",
         "D",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2010-01-24",
       "hair_tier": "Caveman",
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-01-21",
-      "strict_days_since": 1187,
+      "strict_days_since": 1188,
       "includes_aet_pens": true,
-      "total_matches": 363,
+      "total_matches": 364,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -572,7 +572,7 @@
       "streak_length": 5,
       "streak_end_date": "2025-03-23",
       "streak_start_date": "2025-02-23",
-      "days_since": 395,
+      "days_since": 396,
       "matches_since": 44,
       "competitions_in_streak": [
         "Segunda División 2024/2025"
@@ -594,7 +594,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-03-23",
-      "strict_days_since": 395,
+      "strict_days_since": 396,
       "includes_aet_pens": false,
       "total_matches": 315,
       "has_cup_data": true,
@@ -611,7 +611,7 @@
       "streak_length": 8,
       "streak_end_date": "2025-08-24",
       "streak_start_date": "2025-04-27",
-      "days_since": 241,
+      "days_since": 242,
       "matches_since": 40,
       "competitions_in_streak": [
         "Primera División 2024/2025",
@@ -634,7 +634,7 @@
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-08-24",
-      "strict_days_since": 241,
+      "strict_days_since": 242,
       "includes_aet_pens": false,
       "total_matches": 360,
       "has_cup_data": true,
@@ -651,8 +651,8 @@
       "streak_length": 5,
       "streak_end_date": "2025-11-06",
       "streak_start_date": "2025-10-23",
-      "days_since": 167,
-      "matches_since": 30,
+      "days_since": 168,
+      "matches_since": 31,
       "competitions_in_streak": [
         "Copa del Rey 2025/2026",
         "Europa League",
@@ -660,13 +660,13 @@
       ],
       "current_form": [
         "L",
+        "L",
         "W",
         "L",
         "W",
         "D",
         "D",
         "L",
-        "W",
         "W",
         "W"
       ],
@@ -675,9 +675,9 @@
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-11-06",
-      "strict_days_since": 167,
+      "strict_days_since": 168,
       "includes_aet_pens": false,
-      "total_matches": 315,
+      "total_matches": 316,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -692,8 +692,8 @@
       "streak_length": 7,
       "streak_end_date": "2025-11-29",
       "streak_start_date": "2025-10-27",
-      "days_since": 144,
-      "matches_since": 32,
+      "days_since": 145,
+      "matches_since": 33,
       "competitions_in_streak": [
         "Champions League",
         "Primera División 2025/2026"
@@ -701,23 +701,23 @@
       "current_form": [
         "L",
         "L",
+        "L",
         "W",
         "L",
         "L",
         "L",
         "W",
         "W",
-        "W",
-        "L"
+        "W"
       ],
       "search_depth": "2013-09-24",
       "hair_tier": "Long & wild",
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-11-29",
-      "strict_days_since": 144,
+      "strict_days_since": 145,
       "includes_aet_pens": false,
-      "total_matches": 378,
+      "total_matches": 379,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -732,8 +732,8 @@
       "streak_length": 6,
       "streak_end_date": "2026-02-07",
       "streak_start_date": "2026-01-21",
-      "days_since": 74,
-      "matches_since": 14,
+      "days_since": 75,
+      "matches_since": 15,
       "competitions_in_streak": [
         "Champions League",
         "Copa del Rey 2025/2026",
@@ -742,13 +742,13 @@
       "current_form": [
         "W",
         "W",
+        "W",
         "L",
         "W",
         "W",
         "W",
         "W",
         "D",
-        "W",
         "W"
       ],
       "search_depth": "2013-10-19",
@@ -756,9 +756,9 @@
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-07",
-      "strict_days_since": 74,
+      "strict_days_since": 75,
       "includes_aet_pens": false,
-      "total_matches": 396,
+      "total_matches": 397,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -773,7 +773,7 @@
       "streak_length": 5,
       "streak_end_date": "2026-03-22",
       "streak_start_date": "2026-03-06",
-      "days_since": 31,
+      "days_since": 32,
       "matches_since": 5,
       "competitions_in_streak": [
         "Champions League",
@@ -796,7 +796,7 @@
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-03-22",
-      "strict_days_since": 31,
+      "strict_days_since": 32,
       "includes_aet_pens": false,
       "total_matches": 410,
       "has_cup_data": true,

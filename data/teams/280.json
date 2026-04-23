@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-22",
+      "opponent": "Real Sociedad",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-13",
       "opponent": "Levante UD",
       "home_away": "A",
@@ -3816,8 +3826,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 265,
-    "end_index": 270,
+    "start_index": 266,
+    "end_index": 271,
     "length": 6
   }
 }

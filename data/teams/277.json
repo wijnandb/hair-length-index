@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-22",
+      "opponent": "FC Barcelona",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "Real Oviedo",
       "home_away": "H",
@@ -3156,8 +3166,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 30,
-    "end_index": 34,
+    "start_index": 31,
+    "end_index": 35,
     "length": 5
   }
 }
