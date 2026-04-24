@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-23",
+      "opponent": "RCD Espanyol",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "RCD Mallorca",
       "home_away": "A",
@@ -3656,8 +3666,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 241,
-    "end_index": 246,
+    "start_index": 242,
+    "end_index": 247,
     "length": 5
   }
 }

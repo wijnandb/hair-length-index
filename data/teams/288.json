@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-23",
+      "opponent": "Villarreal CF",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "Celta de Vigo",
       "home_away": "A",
@@ -3176,8 +3186,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 130,
-    "end_index": 134,
+    "start_index": 131,
+    "end_index": 135,
     "length": 5
   }
 }

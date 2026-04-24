@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-23",
+      "opponent": "Sevilla FC",
+      "home_away": "H",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-13",
       "opponent": "Getafe CF",
       "home_away": "H",
@@ -3156,8 +3166,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 44,
-    "end_index": 48,
+    "start_index": 45,
+    "end_index": 49,
     "length": 5
   }
 }

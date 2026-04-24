@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-23",
+      "opponent": "Rayo Vallecano",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-11",
       "opponent": "FC Barcelona",
       "home_away": "A",
@@ -3226,8 +3236,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 214,
-    "end_index": 218,
+    "start_index": 215,
+    "end_index": 219,
     "length": 5
   }
 }
