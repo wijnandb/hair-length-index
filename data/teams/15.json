@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-23",
+      "opponent": "PSV Eindhoven",
+      "home_away": "A",
+      "score": "1-6",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "Excelsior",
       "home_away": "H",
@@ -2676,8 +2686,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 109,
-    "end_index": 113,
+    "start_index": 110,
+    "end_index": 114,
     "length": 5
   }
 }

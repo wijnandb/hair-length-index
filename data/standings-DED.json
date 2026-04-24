@@ -1,20 +1,20 @@
 {
   "league": "DED",
   "season": "2025-26",
-  "generated_at": "2026-04-23T06:48:45.091899+00:00",
+  "generated_at": "2026-04-24T06:49:19.549049+00:00",
   "table": [
     {
       "position": 1,
       "team": "PSV",
       "team_id": 674,
-      "played": 30,
-      "won": 24,
+      "played": 31,
+      "won": 25,
       "drawn": 2,
       "lost": 4,
-      "goals_for": 84,
-      "goals_against": 40,
-      "goal_difference": 44,
-      "points": 74
+      "goals_for": 90,
+      "goals_against": 41,
+      "goal_difference": 49,
+      "points": 77
     },
     {
       "position": 2,
@@ -72,14 +72,14 @@
       "position": 6,
       "team": "AZ",
       "team_id": 682,
-      "played": 30,
+      "played": 31,
       "won": 14,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 10,
       "goals_for": 52,
       "goals_against": 45,
       "goal_difference": 7,
-      "points": 48
+      "points": 49
     },
     {
       "position": 7,
@@ -137,14 +137,14 @@
       "position": 11,
       "team": "Go Ahead Eagles",
       "team_id": 718,
-      "played": 30,
+      "played": 31,
       "won": 8,
-      "drawn": 12,
+      "drawn": 13,
       "lost": 10,
       "goals_for": 50,
       "goals_against": 45,
       "goal_difference": 5,
-      "points": 36
+      "points": 37
     },
     {
       "position": 12,
@@ -163,13 +163,13 @@
       "position": 13,
       "team": "PEC Zwolle",
       "team_id": 684,
-      "played": 30,
+      "played": 31,
       "won": 8,
       "drawn": 10,
-      "lost": 12,
-      "goals_for": 40,
-      "goals_against": 60,
-      "goal_difference": -20,
+      "lost": 13,
+      "goals_for": 41,
+      "goals_against": 66,
+      "goal_difference": -25,
       "points": 34
     },
     {
