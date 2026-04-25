@@ -1,7 +1,7 @@
 {
   "league": "BL",
   "season": "2025-26",
-  "generated_at": "2026-04-24T06:52:44.450776+00:00",
+  "generated_at": "2026-04-25T06:41:48.388377+00:00",
   "table": [
     {
       "position": 1,
@@ -33,14 +33,14 @@
       "position": 3,
       "team": "RB Leipzig",
       "team_id": 721,
-      "played": 30,
-      "won": 18,
+      "played": 31,
+      "won": 19,
       "drawn": 5,
       "lost": 7,
-      "goals_for": 59,
-      "goals_against": 37,
-      "goal_difference": 22,
-      "points": 59
+      "goals_for": 62,
+      "goals_against": 38,
+      "goal_difference": 24,
+      "points": 62
     },
     {
       "position": 4,
@@ -137,13 +137,13 @@
       "position": 11,
       "team": "1. FC Union Berlin",
       "team_id": 28,
-      "played": 30,
+      "played": 31,
       "won": 8,
       "drawn": 8,
-      "lost": 14,
-      "goals_for": 34,
-      "goals_against": 52,
-      "goal_difference": -18,
+      "lost": 15,
+      "goals_for": 35,
+      "goals_against": 55,
+      "goal_difference": -20,
       "points": 32
     },
     {
