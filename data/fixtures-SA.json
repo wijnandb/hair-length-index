@@ -1,17 +1,7 @@
 {
   "league": "SA",
-  "generated_at": "2026-04-23T06:53:57.368353+00:00",
+  "generated_at": "2026-04-25T06:43:22.741782+00:00",
   "matches": [
-    {
-      "date": "2026-04-24",
-      "time": "18:45",
-      "home_team": "SSC Napoli",
-      "home_team_id": 301,
-      "away_team": "US Cremonese",
-      "away_team_id": 304,
-      "competition": "Serie A",
-      "matchday": 34
-    },
     {
       "date": "2026-04-25",
       "time": "13:00",
@@ -203,38 +193,8 @@
       "matchday": 35
     },
     {
-      "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "ACF Fiorentina",
-      "home_team_id": 292,
-      "away_team": "Genoa CFC",
-      "away_team_id": 296,
-      "competition": "Serie A",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "AC Milan",
-      "home_team_id": 164,
-      "away_team": "Atalanta",
-      "away_team_id": 68,
-      "competition": "Serie A",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "Cagliari Calcio",
-      "home_team_id": 294,
-      "away_team": "Udinese Calcio",
-      "away_team_id": 306,
-      "competition": "Serie A",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-10",
-      "time": "00:00",
+      "date": "2026-05-08",
+      "time": "18:45",
       "home_team": "Torino FC",
       "home_team_id": 303,
       "away_team": "Sassuolo Calcio",
@@ -243,8 +203,38 @@
       "matchday": 36
     },
     {
+      "date": "2026-05-09",
+      "time": "13:00",
+      "home_team": "Cagliari Calcio",
+      "home_team_id": 294,
+      "away_team": "Udinese Calcio",
+      "away_team_id": 306,
+      "competition": "Serie A",
+      "matchday": 36
+    },
+    {
+      "date": "2026-05-09",
+      "time": "16:00",
+      "home_team": "Lazio Roma",
+      "home_team_id": 298,
+      "away_team": "Inter",
+      "away_team_id": 35,
+      "competition": "Serie A",
+      "matchday": 36
+    },
+    {
+      "date": "2026-05-09",
+      "time": "18:45",
+      "home_team": "US Lecce",
+      "home_team_id": 1132,
+      "away_team": "Juventus",
+      "away_team_id": 186,
+      "competition": "Serie A",
+      "matchday": 36
+    },
+    {
       "date": "2026-05-10",
-      "time": "00:00",
+      "time": "10:30",
       "home_team": "Hellas Verona",
       "home_team_id": 297,
       "away_team": "Como 1907",
@@ -254,37 +244,17 @@
     },
     {
       "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "Lazio Roma",
-      "home_team_id": 298,
-      "away_team": "Inter",
-      "away_team_id": 35,
+      "time": "13:00",
+      "home_team": "ACF Fiorentina",
+      "home_team_id": 292,
+      "away_team": "Genoa CFC",
+      "away_team_id": 296,
       "competition": "Serie A",
       "matchday": 36
     },
     {
       "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "Parma Calcio 1913",
-      "home_team_id": 299,
-      "away_team": "AS Roma",
-      "away_team_id": 72,
-      "competition": "Serie A",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "SSC Napoli",
-      "home_team_id": 301,
-      "away_team": "Bologna FC",
-      "away_team_id": 293,
-      "competition": "Serie A",
-      "matchday": 36
-    },
-    {
-      "date": "2026-05-10",
-      "time": "00:00",
+      "time": "13:00",
       "home_team": "US Cremonese",
       "home_team_id": 304,
       "away_team": "Pisa SC",
@@ -294,11 +264,31 @@
     },
     {
       "date": "2026-05-10",
-      "time": "00:00",
-      "home_team": "US Lecce",
-      "home_team_id": 1132,
-      "away_team": "Juventus",
-      "away_team_id": 186,
+      "time": "16:00",
+      "home_team": "Parma Calcio 1913",
+      "home_team_id": 299,
+      "away_team": "AS Roma",
+      "away_team_id": 72,
+      "competition": "Serie A",
+      "matchday": 36
+    },
+    {
+      "date": "2026-05-10",
+      "time": "18:45",
+      "home_team": "AC Milan",
+      "home_team_id": 164,
+      "away_team": "Atalanta",
+      "away_team_id": 68,
+      "competition": "Serie A",
+      "matchday": 36
+    },
+    {
+      "date": "2026-05-11",
+      "time": "18:45",
+      "home_team": "SSC Napoli",
+      "home_team_id": 301,
+      "away_team": "Bologna FC",
+      "away_team_id": 293,
       "competition": "Serie A",
       "matchday": 36
     },
