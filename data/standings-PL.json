@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-24T06:52:50.235465+00:00",
+  "generated_at": "2026-04-25T06:46:40.294638+00:00",
   "table": [
     {
       "position": 1,
@@ -137,13 +137,13 @@
       "position": 11,
       "team": "Sunderland AFC",
       "team_id": 71,
-      "played": 33,
+      "played": 34,
       "won": 12,
       "drawn": 10,
-      "lost": 11,
+      "lost": 12,
       "goals_for": 36,
-      "goals_against": 40,
-      "goal_difference": -4,
+      "goals_against": 45,
+      "goal_difference": -9,
       "points": 46
     },
     {
@@ -202,14 +202,14 @@
       "position": 16,
       "team": "Nottingham Forest FC",
       "team_id": 351,
-      "played": 33,
-      "won": 9,
+      "played": 34,
+      "won": 10,
       "drawn": 9,
       "lost": 15,
-      "goals_for": 36,
+      "goals_for": 41,
       "goals_against": 45,
-      "goal_difference": -9,
-      "points": 36
+      "goal_difference": -4,
+      "points": 39
     },
     {
       "position": 17,
