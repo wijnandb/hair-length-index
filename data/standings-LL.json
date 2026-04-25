@@ -1,7 +1,7 @@
 {
   "league": "LL",
   "season": "2025-26",
-  "generated_at": "2026-04-24T06:51:33.730227+00:00",
+  "generated_at": "2026-04-25T06:45:32.744602+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Real Madrid CF",
       "team_id": 86,
-      "played": 32,
+      "played": 33,
       "won": 23,
-      "drawn": 4,
+      "drawn": 5,
       "lost": 5,
-      "goals_for": 67,
-      "goals_against": 30,
+      "goals_for": 68,
+      "goals_against": 31,
       "goal_difference": 37,
-      "points": 73
+      "points": 74
     },
     {
       "position": 3,
@@ -59,14 +59,14 @@
       "position": 5,
       "team": "Real Betis Balompié",
       "team_id": 90,
-      "played": 32,
+      "played": 33,
       "won": 12,
-      "drawn": 13,
+      "drawn": 14,
       "lost": 7,
-      "goals_for": 48,
-      "goals_against": 40,
+      "goals_for": 49,
+      "goals_against": 41,
       "goal_difference": 8,
-      "points": 49
+      "points": 50
     },
     {
       "position": 6,
