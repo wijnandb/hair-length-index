@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "AS Monaco",
+      "home_away": "H",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-17",
       "opponent": "RC Lens",
       "home_away": "A",
@@ -2876,8 +2886,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 165,
-    "end_index": 169,
+    "start_index": 166,
+    "end_index": 170,
     "length": 5
   }
 }
