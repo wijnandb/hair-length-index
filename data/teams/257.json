@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "Bayer Leverkusen",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-17",
       "opponent": "FC St. Pauli",
       "home_away": "A",
@@ -2976,8 +2986,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 29,
-    "end_index": 33,
+    "start_index": 30,
+    "end_index": 34,
     "length": 5
   }
 }
