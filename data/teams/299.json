@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "Pisa SC",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-18",
       "opponent": "Udinese Calcio",
       "home_away": "A",
@@ -4966,8 +4976,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 362,
-    "end_index": 366,
+    "start_index": 363,
+    "end_index": 367,
     "length": 0
   }
 }
