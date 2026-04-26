@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "N.E.C.",
+      "home_away": "H",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-10",
       "opponent": "N.E.C.",
       "home_away": "H",
@@ -2956,8 +2966,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 127,
-    "end_index": 132,
+    "start_index": 128,
+    "end_index": 133,
     "length": 6
   }
 }

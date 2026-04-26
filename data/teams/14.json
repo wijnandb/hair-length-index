@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "Ajax",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "Fortuna Sittard",
       "home_away": "A",
@@ -3086,8 +3096,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 166,
-    "end_index": 171,
+    "start_index": 167,
+    "end_index": 172,
     "length": 6
   }
 }

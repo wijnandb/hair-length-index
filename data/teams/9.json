@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "Heerenveen",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-12",
       "opponent": "NAC Breda",
       "home_away": "H",
@@ -4136,8 +4146,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 281,
-    "end_index": 285,
+    "start_index": 282,
+    "end_index": 286,
     "length": 5
   }
 }
