@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "Fulham FC",
+      "home_away": "A",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "Sunderland AFC",
       "home_away": "H",
@@ -3336,8 +3346,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 21,
-    "end_index": 31,
+    "start_index": 22,
+    "end_index": 32,
     "length": 11
   }
 }

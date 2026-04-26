@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "West Ham United",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "Liverpool FC",
       "home_away": "H",
@@ -3396,8 +3406,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 247,
-    "end_index": 253,
+    "start_index": 248,
+    "end_index": 254,
     "length": 7
   }
 }

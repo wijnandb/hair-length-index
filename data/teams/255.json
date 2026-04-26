@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-25",
+      "opponent": "Tottenham Hotspur",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-18",
       "opponent": "Leeds United",
       "home_away": "A",
@@ -3186,8 +3196,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 43,
-    "end_index": 48,
+    "start_index": 44,
+    "end_index": 49,
     "length": 6
   }
 }
