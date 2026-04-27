@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "Borussia Dortmund",
+      "home_away": "A",
+      "score": "0-4",
+      "result": "L",
+      "competition": "Bundesliga",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "1. FC Heidenheim 1846",
       "home_away": "H",
@@ -5236,8 +5246,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 402,
-    "end_index": 409,
+    "start_index": 403,
+    "end_index": 410,
     "length": 8
   }
 }

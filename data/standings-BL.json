@@ -1,7 +1,7 @@
 {
   "league": "BL",
   "season": "2025-26",
-  "generated_at": "2026-04-26T06:50:40.194619+00:00",
+  "generated_at": "2026-04-27T07:05:59.239538+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Borussia Dortmund",
       "team_id": 4,
-      "played": 30,
-      "won": 19,
+      "played": 31,
+      "won": 20,
       "drawn": 7,
       "lost": 4,
-      "goals_for": 61,
+      "goals_for": 65,
       "goals_against": 31,
-      "goal_difference": 30,
-      "points": 64
+      "goal_difference": 34,
+      "points": 67
     },
     {
       "position": 3,
@@ -44,6 +44,19 @@
     },
     {
       "position": 4,
+      "team": "VfB Stuttgart",
+      "team_id": 10,
+      "played": 31,
+      "won": 17,
+      "drawn": 6,
+      "lost": 8,
+      "goals_for": 63,
+      "goals_against": 43,
+      "goal_difference": 20,
+      "points": 57
+    },
+    {
+      "position": 5,
       "team": "TSG 1899 Hoffenheim",
       "team_id": 2,
       "played": 31,
@@ -54,19 +67,6 @@
       "goals_against": 45,
       "goal_difference": 16,
       "points": 57
-    },
-    {
-      "position": 5,
-      "team": "VfB Stuttgart",
-      "team_id": 10,
-      "played": 30,
-      "won": 17,
-      "drawn": 5,
-      "lost": 8,
-      "goals_for": 62,
-      "goals_against": 42,
-      "goal_difference": 20,
-      "points": 56
     },
     {
       "position": 6,
@@ -98,13 +98,13 @@
       "position": 8,
       "team": "SC Freiburg",
       "team_id": 17,
-      "played": 30,
+      "played": 31,
       "won": 12,
       "drawn": 7,
-      "lost": 11,
+      "lost": 12,
       "goals_for": 44,
-      "goals_against": 48,
-      "goal_difference": -4,
+      "goals_against": 52,
+      "goal_difference": -8,
       "points": 43
     },
     {
@@ -148,6 +148,19 @@
     },
     {
       "position": 12,
+      "team": "SV Werder Bremen",
+      "team_id": 12,
+      "played": 31,
+      "won": 8,
+      "drawn": 8,
+      "lost": 15,
+      "goals_for": 36,
+      "goals_against": 54,
+      "goal_difference": -18,
+      "points": 32
+    },
+    {
+      "position": 13,
       "team": "1. FC Union Berlin",
       "team_id": 28,
       "played": 31,
@@ -160,7 +173,7 @@
       "points": 32
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "1. FC Köln",
       "team_id": 1,
       "played": 31,
@@ -173,7 +186,7 @@
       "points": 31
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Hamburger SV",
       "team_id": 7,
       "played": 31,
@@ -183,19 +196,6 @@
       "goals_for": 34,
       "goals_against": 50,
       "goal_difference": -16,
-      "points": 31
-    },
-    {
-      "position": 15,
-      "team": "SV Werder Bremen",
-      "team_id": 12,
-      "played": 30,
-      "won": 8,
-      "drawn": 7,
-      "lost": 15,
-      "goals_for": 35,
-      "goals_against": 53,
-      "goal_difference": -18,
       "points": 31
     },
     {
