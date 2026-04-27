@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "ACF Fiorentina",
+      "home_away": "A",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-17",
       "opponent": "Como 1907",
       "home_away": "H",
@@ -5826,8 +5836,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 443,
-    "end_index": 449,
+    "start_index": 444,
+    "end_index": 450,
     "length": 7
   }
 }

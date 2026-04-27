@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T06:50:52.580733",
+  "generated_at": "2026-04-27T07:09:59.264117",
   "threshold": 5,
   "teams": [
     {
@@ -13,31 +13,31 @@
       "streak_length": 5,
       "streak_end_date": "2007-04-17",
       "streak_start_date": "2007-03-25",
-      "days_since": 6949,
-      "matches_since": 778,
+      "days_since": 6950,
+      "matches_since": 779,
       "competitions_in_streak": [
         "Serie B 2006/2007"
       ],
       "current_form": [
-        "W",
-        "W",
-        "L",
         "L",
         "W",
         "W",
         "L",
+        "L",
         "W",
-        "D",
-        "L"
+        "W",
+        "L",
+        "W",
+        "D"
       ],
       "search_depth": "2003-08-17",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2007-04-17",
-      "strict_days_since": 6949,
+      "strict_days_since": 6950,
       "includes_aet_pens": false,
-      "total_matches": 910,
+      "total_matches": 911,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -52,12 +52,13 @@
       "streak_length": 5,
       "streak_end_date": "2011-10-15",
       "streak_start_date": "2011-09-24",
-      "days_since": 5307,
-      "matches_since": 577,
+      "days_since": 5308,
+      "matches_since": 578,
       "competitions_in_streak": [
         "Serie B 2011/2012"
       ],
       "current_form": [
+        "D",
         "D",
         "W",
         "W",
@@ -66,17 +67,16 @@
         "L",
         "W",
         "L",
-        "L",
-        "D"
+        "L"
       ],
       "search_depth": "2003-08-17",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2011-10-15",
-      "strict_days_since": 5307,
+      "strict_days_since": 5308,
       "includes_aet_pens": false,
-      "total_matches": 949,
+      "total_matches": 950,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -91,7 +91,7 @@
       "streak_length": 9,
       "streak_end_date": "2011-12-10",
       "streak_start_date": "2011-10-29",
-      "days_since": 5251,
+      "days_since": 5252,
       "matches_since": 597,
       "competitions_in_streak": [
         "Coppa Italia 2011/2012",
@@ -114,7 +114,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2011-12-10",
-      "strict_days_since": 5251,
+      "strict_days_since": 5252,
       "includes_aet_pens": false,
       "total_matches": 839,
       "has_cup_data": true,
@@ -131,14 +131,15 @@
       "streak_length": 7,
       "streak_end_date": "2015-08-29",
       "streak_start_date": "2015-05-10",
-      "days_since": 3893,
-      "matches_since": 443,
+      "days_since": 3894,
+      "matches_since": 444,
       "competitions_in_streak": [
         "Coppa Italia 2015/2016",
         "Serie A 2014/2015",
         "Serie A 2015/2016"
       ],
       "current_form": [
+        "D",
         "W",
         "L",
         "W",
@@ -147,17 +148,16 @@
         "L",
         "W",
         "W",
-        "W",
-        "L"
+        "W"
       ],
       "search_depth": "2009-12-12",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2015-08-29",
-      "strict_days_since": 3893,
+      "strict_days_since": 3894,
       "includes_aet_pens": false,
-      "total_matches": 582,
+      "total_matches": 583,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -172,7 +172,7 @@
       "streak_length": 5,
       "streak_end_date": "2017-06-17",
       "streak_start_date": "2017-05-24",
-      "days_since": 3235,
+      "days_since": 3236,
       "matches_since": 363,
       "competitions_in_streak": [
         "Serie C Playoff 2016/2017"
@@ -211,7 +211,7 @@
       "streak_length": 6,
       "streak_end_date": "2021-04-05",
       "streak_start_date": "2021-03-07",
-      "days_since": 1847,
+      "days_since": 1848,
       "matches_since": 200,
       "competitions_in_streak": [
         "Serie B 2020/2021"
@@ -233,7 +233,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2021-04-05",
-      "strict_days_since": 1847,
+      "strict_days_since": 1848,
       "includes_aet_pens": false,
       "total_matches": 328,
       "has_cup_data": true,
@@ -250,7 +250,7 @@
       "streak_length": 6,
       "streak_end_date": "2022-10-03",
       "streak_start_date": "2022-08-26",
-      "days_since": 1301,
+      "days_since": 1302,
       "matches_since": 148,
       "competitions_in_streak": [
         "Serie A 2022/2023"
@@ -272,7 +272,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-10-03",
-      "strict_days_since": 1301,
+      "strict_days_since": 1302,
       "includes_aet_pens": false,
       "total_matches": 352,
       "has_cup_data": true,
@@ -289,7 +289,7 @@
       "streak_length": 6,
       "streak_end_date": "2023-05-30",
       "streak_start_date": "2023-04-30",
-      "days_since": 1062,
+      "days_since": 1063,
       "matches_since": 121,
       "competitions_in_streak": [
         "Serie B 2022/2023",
@@ -312,7 +312,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-05-30",
-      "strict_days_since": 1062,
+      "strict_days_since": 1063,
       "includes_aet_pens": false,
       "total_matches": 358,
       "has_cup_data": true,
@@ -329,7 +329,7 @@
       "streak_length": 5,
       "streak_end_date": "2023-11-25",
       "streak_start_date": "2023-10-27",
-      "days_since": 883,
+      "days_since": 884,
       "matches_since": 108,
       "competitions_in_streak": [
         "Coppa Italia 2023/2024",
@@ -369,13 +369,14 @@
       "streak_length": 7,
       "streak_end_date": "2024-01-21",
       "streak_start_date": "2023-12-23",
-      "days_since": 826,
-      "matches_since": 120,
+      "days_since": 827,
+      "matches_since": 121,
       "competitions_in_streak": [
         "Coppa Italia 2023/2024",
         "Serie A 2023/2024"
       ],
       "current_form": [
+        "D",
         "W",
         "W",
         "W",
@@ -384,7 +385,6 @@
         "W",
         "D",
         "W",
-        "L",
         "L"
       ],
       "search_depth": "2006-12-01",
@@ -392,9 +392,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-01-21",
-      "strict_days_since": 826,
+      "strict_days_since": 827,
       "includes_aet_pens": false,
-      "total_matches": 435,
+      "total_matches": 436,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -409,7 +409,7 @@
       "streak_length": 5,
       "streak_end_date": "2024-09-21",
       "streak_start_date": "2024-08-24",
-      "days_since": 582,
+      "days_since": 583,
       "matches_since": 69,
       "competitions_in_streak": [
         "Serie B 2024/2025"
@@ -431,7 +431,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-09-21",
-      "strict_days_since": 582,
+      "strict_days_since": 583,
       "includes_aet_pens": false,
       "total_matches": 280,
       "has_cup_data": true,
@@ -448,14 +448,15 @@
       "streak_length": 7,
       "streak_end_date": "2024-11-03",
       "streak_start_date": "2024-10-03",
-      "days_since": 539,
-      "matches_since": 84,
+      "days_since": 540,
+      "matches_since": 85,
       "competitions_in_streak": [
         "Conference League",
         "Serie A 2024/2025"
       ],
       "current_form": [
         "D",
+        "D",
         "W",
         "W",
         "D",
@@ -463,7 +464,6 @@
         "W",
         "W",
         "D",
-        "L",
         "L"
       ],
       "search_depth": "2003-10-18",
@@ -471,9 +471,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-11-03",
-      "strict_days_since": 539,
+      "strict_days_since": 540,
       "includes_aet_pens": false,
-      "total_matches": 428,
+      "total_matches": 429,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -488,7 +488,7 @@
       "streak_length": 7,
       "streak_end_date": "2024-11-24",
       "streak_start_date": "2024-10-24",
-      "days_since": 518,
+      "days_since": 519,
       "matches_since": 71,
       "competitions_in_streak": [
         "Europa League",
@@ -511,7 +511,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-11-24",
-      "strict_days_since": 518,
+      "strict_days_since": 519,
       "includes_aet_pens": false,
       "total_matches": 409,
       "has_cup_data": true,
@@ -528,7 +528,7 @@
       "streak_length": 9,
       "streak_end_date": "2024-12-06",
       "streak_start_date": "2024-10-26",
-      "days_since": 506,
+      "days_since": 507,
       "matches_since": 79,
       "competitions_in_streak": [
         "Champions League",
@@ -551,7 +551,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-12-06",
-      "strict_days_since": 506,
+      "strict_days_since": 507,
       "includes_aet_pens": false,
       "total_matches": 431,
       "has_cup_data": true,
@@ -568,7 +568,7 @@
       "streak_length": 6,
       "streak_end_date": "2025-03-09",
       "streak_start_date": "2025-02-16",
-      "days_since": 413,
+      "days_since": 414,
       "matches_since": 56,
       "competitions_in_streak": [
         "Europa League",
@@ -591,7 +591,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-03-09",
-      "strict_days_since": 413,
+      "strict_days_since": 414,
       "includes_aet_pens": false,
       "total_matches": 440,
       "has_cup_data": true,
@@ -608,12 +608,13 @@
       "streak_length": 6,
       "streak_end_date": "2025-05-10",
       "streak_start_date": "2025-04-05",
-      "days_since": 351,
-      "matches_since": 40,
+      "days_since": 352,
+      "matches_since": 41,
       "competitions_in_streak": [
         "Serie A 2024/2025"
       ],
       "current_form": [
+        "W",
         "L",
         "L",
         "D",
@@ -622,17 +623,16 @@
         "W",
         "D",
         "W",
-        "W",
-        "D"
+        "W"
       ],
       "search_depth": "2003-09-20",
       "hair_tier": "Caveman",
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-05-10",
-      "strict_days_since": 351,
+      "strict_days_since": 352,
       "includes_aet_pens": false,
-      "total_matches": 270,
+      "total_matches": 271,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -647,32 +647,32 @@
       "streak_length": 5,
       "streak_end_date": "2025-09-28",
       "streak_start_date": "2025-08-29",
-      "days_since": 210,
-      "matches_since": 30,
+      "days_since": 211,
+      "matches_since": 31,
       "competitions_in_streak": [
         "Coppa Italia 2025/2026",
         "Serie A 2025/2026"
       ],
       "current_form": [
-        "W",
-        "L",
-        "L",
-        "W",
-        "L",
-        "W",
-        "W",
-        "L",
         "D",
-        "W"
+        "W",
+        "L",
+        "L",
+        "W",
+        "L",
+        "W",
+        "W",
+        "L",
+        "D"
       ],
       "search_depth": "2006-12-10",
       "hair_tier": "Long & wild",
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-09-28",
-      "strict_days_since": 210,
+      "strict_days_since": 211,
       "includes_aet_pens": false,
-      "total_matches": 413,
+      "total_matches": 414,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -687,14 +687,15 @@
       "streak_length": 6,
       "streak_end_date": "2026-02-14",
       "streak_start_date": "2026-01-23",
-      "days_since": 71,
-      "matches_since": 11,
+      "days_since": 72,
+      "matches_since": 12,
       "competitions_in_streak": [
         "Champions League",
         "Coppa Italia 2025/2026",
         "Serie A 2025/2026"
       ],
       "current_form": [
+        "D",
         "W",
         "W",
         "W",
@@ -703,17 +704,16 @@
         "L",
         "D",
         "W",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2007-01-13",
       "hair_tier": "Getting shaggy",
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-02-14",
-      "strict_days_since": 71,
+      "strict_days_since": 72,
       "includes_aet_pens": false,
-      "total_matches": 488,
+      "total_matches": 489,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -728,7 +728,7 @@
       "streak_length": 5,
       "streak_end_date": "2026-03-02",
       "streak_start_date": "2026-02-15",
-      "days_since": 55,
+      "days_since": 56,
       "matches_since": 9,
       "competitions_in_streak": [
         "Europa League",
@@ -751,7 +751,7 @@
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-03-02",
-      "strict_days_since": 55,
+      "strict_days_since": 56,
       "includes_aet_pens": false,
       "total_matches": 367,
       "has_cup_data": true,
@@ -768,7 +768,7 @@
       "streak_length": 5,
       "streak_end_date": "2026-04-06",
       "streak_start_date": "2026-02-28",
-      "days_since": 20,
+      "days_since": 21,
       "matches_since": 3,
       "competitions_in_streak": [
         "Serie A",
@@ -791,7 +791,7 @@
       "hair_description": "Short neat hair, hint of stubble",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-04-06",
-      "strict_days_since": 20,
+      "strict_days_since": 21,
       "includes_aet_pens": false,
       "total_matches": 417,
       "has_cup_data": true,

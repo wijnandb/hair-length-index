@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-20",
       "opponent": "US Lecce",
       "home_away": "A",
@@ -4286,8 +4296,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 84,
-    "end_index": 90,
+    "start_index": 85,
+    "end_index": 91,
     "length": 7
   }
 }
