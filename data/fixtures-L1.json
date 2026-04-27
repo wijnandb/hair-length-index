@@ -1,57 +1,7 @@
 {
   "league": "L1",
-  "generated_at": "2026-04-26T06:49:38.371001+00:00",
+  "generated_at": "2026-04-27T07:09:04.275986+00:00",
   "matches": [
-    {
-      "date": "2026-04-26",
-      "time": "13:00",
-      "home_team": "FC Lorient",
-      "home_team_id": 309,
-      "away_team": "RC Strasbourg",
-      "away_team_id": 319,
-      "competition": "Ligue 1",
-      "matchday": 31
-    },
-    {
-      "date": "2026-04-26",
-      "time": "15:15",
-      "home_team": "Havre AC",
-      "home_team_id": 312,
-      "away_team": "FC Metz",
-      "away_team_id": 310,
-      "competition": "Ligue 1",
-      "matchday": 31
-    },
-    {
-      "date": "2026-04-26",
-      "time": "15:15",
-      "home_team": "Paris FC",
-      "home_team_id": 317,
-      "away_team": "Lille OSC",
-      "away_team_id": 313,
-      "competition": "Ligue 1",
-      "matchday": 31
-    },
-    {
-      "date": "2026-04-26",
-      "time": "15:15",
-      "home_team": "Stade Rennais",
-      "home_team_id": 226,
-      "away_team": "FC Nantes",
-      "away_team_id": 311,
-      "competition": "Ligue 1",
-      "matchday": 31
-    },
-    {
-      "date": "2026-04-26",
-      "time": "18:45",
-      "home_team": "Olympique Marseille",
-      "home_team_id": 316,
-      "away_team": "OGC Nice",
-      "away_team_id": 314,
-      "competition": "Ligue 1",
-      "matchday": 31
-    },
     {
       "date": "2026-05-02",
       "time": "13:00",
@@ -231,26 +181,6 @@
       "away_team_id": 317,
       "competition": "Ligue 1",
       "matchday": 33
-    },
-    {
-      "date": "2026-05-13",
-      "time": "17:00",
-      "home_team": "Stade Brestois 29",
-      "home_team_id": 320,
-      "away_team": "RC Strasbourg",
-      "away_team_id": 319,
-      "competition": "Ligue 1",
-      "matchday": 29
-    },
-    {
-      "date": "2026-05-13",
-      "time": "19:00",
-      "home_team": "RC Lens",
-      "home_team_id": 192,
-      "away_team": "Paris Saint-Germain",
-      "away_team_id": 318,
-      "competition": "Ligue 1",
-      "matchday": 29
     },
     {
       "date": "2026-05-17",

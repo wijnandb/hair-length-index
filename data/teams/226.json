@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "FC Nantes",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "RC Strasbourg",
       "home_away": "A",
@@ -3076,8 +3086,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 86,
-    "end_index": 93,
+    "start_index": 87,
+    "end_index": 94,
     "length": 5
   }
 }

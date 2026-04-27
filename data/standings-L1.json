@@ -1,7 +1,7 @@
 {
   "league": "L1",
   "season": "2025-26",
-  "generated_at": "2026-04-26T06:49:19.153581+00:00",
+  "generated_at": "2026-04-27T07:08:41.972178+00:00",
   "table": [
     {
       "position": 1,
@@ -31,6 +31,19 @@
     },
     {
       "position": 3,
+      "team": "Lille OSC",
+      "team_id": 521,
+      "played": 31,
+      "won": 17,
+      "drawn": 6,
+      "lost": 8,
+      "goals_for": 50,
+      "goals_against": 34,
+      "goal_difference": 16,
+      "points": 57
+    },
+    {
+      "position": 4,
       "team": "Olympique Lyonnais",
       "team_id": 523,
       "played": 31,
@@ -43,43 +56,30 @@
       "points": 57
     },
     {
-      "position": 4,
-      "team": "Lille OSC",
-      "team_id": 521,
-      "played": 30,
-      "won": 16,
-      "drawn": 6,
-      "lost": 8,
-      "goals_for": 49,
-      "goals_against": 34,
-      "goal_difference": 15,
-      "points": 54
-    },
-    {
       "position": 5,
       "team": "Stade Rennais FC 1901",
       "team_id": 529,
-      "played": 30,
-      "won": 15,
+      "played": 31,
+      "won": 16,
       "drawn": 8,
       "lost": 7,
-      "goals_for": 52,
-      "goals_against": 41,
-      "goal_difference": 11,
-      "points": 53
+      "goals_for": 54,
+      "goals_against": 42,
+      "goal_difference": 12,
+      "points": 56
     },
     {
       "position": 6,
       "team": "Olympique de Marseille",
       "team_id": 516,
-      "played": 30,
+      "played": 31,
       "won": 16,
-      "drawn": 4,
+      "drawn": 5,
       "lost": 10,
-      "goals_for": 58,
-      "goals_against": 40,
+      "goals_for": 59,
+      "goals_against": 41,
       "goal_difference": 18,
-      "points": 52
+      "points": 53
     },
     {
       "position": 7,
@@ -98,26 +98,26 @@
       "position": 8,
       "team": "RC Strasbourg Alsace",
       "team_id": 576,
-      "played": 29,
-      "won": 12,
+      "played": 30,
+      "won": 13,
       "drawn": 7,
       "lost": 10,
-      "goals_for": 46,
-      "goals_against": 37,
-      "goal_difference": 9,
-      "points": 43
+      "goals_for": 49,
+      "goals_against": 39,
+      "goal_difference": 10,
+      "points": 46
     },
     {
       "position": 9,
       "team": "FC Lorient",
       "team_id": 525,
-      "played": 30,
+      "played": 31,
       "won": 10,
       "drawn": 11,
-      "lost": 9,
-      "goals_for": 40,
-      "goals_against": 44,
-      "goal_difference": -4,
+      "lost": 10,
+      "goals_for": 42,
+      "goals_against": 47,
+      "goal_difference": -5,
       "points": 41
     },
     {
@@ -150,13 +150,13 @@
       "position": 12,
       "team": "Paris FC",
       "team_id": 1045,
-      "played": 30,
+      "played": 31,
       "won": 9,
       "drawn": 11,
-      "lost": 10,
+      "lost": 11,
       "goals_for": 40,
-      "goals_against": 46,
-      "goal_difference": -6,
+      "goals_against": 47,
+      "goal_difference": -7,
       "points": 38
     },
     {
@@ -176,27 +176,27 @@
       "position": 14,
       "team": "Le Havre AC",
       "team_id": 533,
-      "played": 30,
+      "played": 31,
       "won": 6,
-      "drawn": 12,
+      "drawn": 13,
       "lost": 12,
-      "goals_for": 25,
-      "goals_against": 38,
+      "goals_for": 29,
+      "goals_against": 42,
       "goal_difference": -13,
-      "points": 30
+      "points": 31
     },
     {
       "position": 15,
       "team": "OGC Nice",
       "team_id": 522,
-      "played": 30,
+      "played": 31,
       "won": 7,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 15,
-      "goals_for": 34,
-      "goals_against": 56,
+      "goals_for": 35,
+      "goals_against": 57,
       "goal_difference": -22,
-      "points": 29
+      "points": 30
     },
     {
       "position": 16,
@@ -215,27 +215,27 @@
       "position": 17,
       "team": "FC Nantes",
       "team_id": 543,
-      "played": 30,
+      "played": 31,
       "won": 4,
       "drawn": 8,
-      "lost": 18,
-      "goals_for": 25,
-      "goals_against": 49,
-      "goal_difference": -24,
+      "lost": 19,
+      "goals_for": 26,
+      "goals_against": 51,
+      "goal_difference": -25,
       "points": 20
     },
     {
       "position": 18,
       "team": "FC Metz",
       "team_id": 545,
-      "played": 30,
+      "played": 31,
       "won": 3,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 21,
-      "goals_for": 27,
-      "goals_against": 66,
+      "goals_for": 31,
+      "goals_against": 70,
       "goal_difference": -39,
-      "points": 15
+      "points": 16
     }
   ]
 }

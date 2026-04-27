@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "Lille OSC",
+      "home_away": "H",
+      "score": "0-1",
+      "result": "L",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "FC Metz",
       "home_away": "A",
@@ -2786,8 +2796,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 58,
-    "end_index": 62,
+    "start_index": 59,
+    "end_index": 63,
     "length": 5
   }
 }

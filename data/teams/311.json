@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "Stade Rennais",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-22",
       "opponent": "Paris Saint-Germain",
       "home_away": "A",
@@ -2806,8 +2816,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 180,
-    "end_index": 184,
+    "start_index": 181,
+    "end_index": 185,
     "length": 0
   }
 }

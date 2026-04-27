@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "FC Lorient",
+      "home_away": "A",
+      "score": "3-2",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-19",
       "opponent": "Stade Rennais",
       "home_away": "H",
@@ -2816,8 +2826,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 49,
-    "end_index": 53,
+    "start_index": 50,
+    "end_index": 54,
     "length": 5
   }
 }
