@@ -1,7 +1,7 @@
 {
   "league": "LL",
   "season": "2025-26",
-  "generated_at": "2026-04-26T06:52:46.118043+00:00",
+  "generated_at": "2026-04-27T07:07:38.145790+00:00",
   "table": [
     {
       "position": 1,
@@ -33,14 +33,14 @@
       "position": 3,
       "team": "Villarreal CF",
       "team_id": 94,
-      "played": 32,
-      "won": 19,
+      "played": 33,
+      "won": 20,
       "drawn": 5,
       "lost": 8,
-      "goals_for": 57,
-      "goals_against": 37,
-      "goal_difference": 20,
-      "points": 62
+      "goals_for": 59,
+      "goals_against": 38,
+      "goal_difference": 21,
+      "points": 65
     },
     {
       "position": 4,
@@ -85,30 +85,43 @@
       "position": 7,
       "team": "RC Celta de Vigo",
       "team_id": 558,
-      "played": 32,
+      "played": 33,
       "won": 11,
       "drawn": 11,
-      "lost": 10,
-      "goals_for": 44,
-      "goals_against": 41,
-      "goal_difference": 3,
+      "lost": 11,
+      "goals_for": 45,
+      "goals_against": 43,
+      "goal_difference": 2,
       "points": 44
     },
     {
       "position": 8,
       "team": "Real Sociedad de Fútbol",
       "team_id": 92,
-      "played": 32,
+      "played": 33,
       "won": 11,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 12,
-      "goals_for": 49,
-      "goals_against": 49,
+      "goals_for": 52,
+      "goals_against": 52,
       "goal_difference": 0,
-      "points": 42
+      "points": 43
     },
     {
       "position": 9,
+      "team": "CA Osasuna",
+      "team_id": 79,
+      "played": 33,
+      "won": 11,
+      "drawn": 9,
+      "lost": 13,
+      "goals_for": 39,
+      "goals_against": 40,
+      "goal_difference": -1,
+      "points": 42
+    },
+    {
+      "position": 10,
       "team": "Athletic Club",
       "team_id": 77,
       "played": 33,
@@ -121,20 +134,20 @@
       "points": 41
     },
     {
-      "position": 10,
-      "team": "CA Osasuna",
-      "team_id": 79,
-      "played": 32,
-      "won": 10,
-      "drawn": 9,
-      "lost": 13,
-      "goals_for": 37,
-      "goals_against": 39,
-      "goal_difference": -2,
+      "position": 11,
+      "team": "Rayo Vallecano de Madrid",
+      "team_id": 87,
+      "played": 33,
+      "won": 9,
+      "drawn": 12,
+      "lost": 12,
+      "goals_for": 33,
+      "goals_against": 41,
+      "goal_difference": -8,
       "points": 39
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Valencia CF",
       "team_id": 95,
       "played": 33,
@@ -147,20 +160,20 @@
       "points": 39
     },
     {
-      "position": 12,
-      "team": "Rayo Vallecano de Madrid",
-      "team_id": 87,
-      "played": 32,
+      "position": 13,
+      "team": "Elche CF",
+      "team_id": 285,
+      "played": 33,
       "won": 9,
       "drawn": 11,
-      "lost": 12,
-      "goals_for": 30,
-      "goals_against": 38,
-      "goal_difference": -8,
+      "lost": 13,
+      "goals_for": 44,
+      "goals_against": 50,
+      "goal_difference": -6,
       "points": 38
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "RCD Espanyol de Barcelona",
       "team_id": 80,
       "played": 32,
@@ -173,7 +186,7 @@
       "points": 38
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Girona FC",
       "team_id": 298,
       "played": 33,
@@ -186,7 +199,7 @@
       "points": 38
     },
     {
-      "position": 15,
+      "position": 16,
       "team": "Deportivo Alavés",
       "team_id": 263,
       "played": 33,
@@ -199,7 +212,7 @@
       "points": 36
     },
     {
-      "position": 16,
+      "position": 17,
       "team": "RCD Mallorca",
       "team_id": 89,
       "played": 33,
@@ -212,29 +225,16 @@
       "points": 35
     },
     {
-      "position": 17,
-      "team": "Elche CF",
-      "team_id": 285,
-      "played": 32,
-      "won": 8,
-      "drawn": 11,
-      "lost": 13,
-      "goals_for": 42,
-      "goals_against": 49,
-      "goal_difference": -7,
-      "points": 35
-    },
-    {
       "position": 18,
       "team": "Sevilla FC",
       "team_id": 559,
-      "played": 32,
+      "played": 33,
       "won": 9,
       "drawn": 7,
-      "lost": 16,
-      "goals_for": 39,
-      "goals_against": 53,
-      "goal_difference": -14,
+      "lost": 17,
+      "goals_for": 40,
+      "goals_against": 55,
+      "goal_difference": -15,
       "points": 34
     },
     {
@@ -254,13 +254,13 @@
       "position": 20,
       "team": "Real Oviedo",
       "team_id": 1048,
-      "played": 32,
+      "played": 33,
       "won": 6,
       "drawn": 10,
-      "lost": 16,
-      "goals_for": 25,
-      "goals_against": 49,
-      "goal_difference": -24,
+      "lost": 17,
+      "goals_for": 26,
+      "goals_against": 51,
+      "goal_difference": -25,
       "points": 28
     }
   ]

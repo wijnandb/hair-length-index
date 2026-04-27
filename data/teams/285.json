@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "3-3",
+      "result": "D",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-23",
       "opponent": "RCD Espanyol",
       "home_away": "H",
@@ -3666,8 +3676,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 242,
-    "end_index": 247,
+    "start_index": 243,
+    "end_index": 248,
     "length": 5
   }
 }

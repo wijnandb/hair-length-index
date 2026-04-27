@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-26",
+      "opponent": "CA Osasuna",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-23",
       "opponent": "Levante UD",
       "home_away": "A",
@@ -4206,8 +4216,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 241,
-    "end_index": 245,
+    "start_index": 242,
+    "end_index": 246,
     "length": 5
   }
 }
