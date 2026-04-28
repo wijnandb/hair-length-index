@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-04-27T07:10:42.585512+00:00",
+  "generated_at": "2026-04-28T07:11:22.081875+00:00",
   "table": [
     {
       "position": 1,
@@ -33,14 +33,14 @@
       "position": 3,
       "team": "Manchester United FC",
       "team_id": 66,
-      "played": 33,
-      "won": 16,
+      "played": 34,
+      "won": 17,
       "drawn": 10,
       "lost": 7,
-      "goals_for": 58,
-      "goals_against": 45,
-      "goal_difference": 13,
-      "points": 58
+      "goals_for": 60,
+      "goals_against": 46,
+      "goal_difference": 14,
+      "points": 61
     },
     {
       "position": 4,
@@ -111,13 +111,13 @@
       "position": 9,
       "team": "Brentford FC",
       "team_id": 402,
-      "played": 33,
+      "played": 34,
       "won": 13,
       "drawn": 9,
-      "lost": 11,
-      "goals_for": 48,
-      "goals_against": 44,
-      "goal_difference": 4,
+      "lost": 12,
+      "goals_for": 49,
+      "goals_against": 46,
+      "goal_difference": 3,
       "points": 48
     },
     {

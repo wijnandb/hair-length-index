@@ -1,17 +1,7 @@
 {
   "league": "PL",
-  "generated_at": "2026-04-27T07:11:16.732869+00:00",
+  "generated_at": "2026-04-28T07:11:53.902686+00:00",
   "matches": [
-    {
-      "date": "2026-04-27",
-      "time": "19:00",
-      "home_team": "Manchester United",
-      "home_team_id": 249,
-      "away_team": "Brentford FC",
-      "away_team_id": 239,
-      "competition": "Premier League",
-      "matchday": 34
-    },
     {
       "date": "2026-05-01",
       "time": "19:00",
@@ -215,16 +205,6 @@
     {
       "date": "2026-05-17",
       "time": "14:00",
-      "home_team": "AFC Bournemouth",
-      "home_team_id": 238,
-      "away_team": "Manchester City",
-      "away_team_id": 248,
-      "competition": "Premier League",
-      "matchday": 37
-    },
-    {
-      "date": "2026-05-17",
-      "time": "14:00",
       "home_team": "Aston Villa",
       "home_team_id": 60,
       "away_team": "Liverpool FC",
@@ -249,16 +229,6 @@
       "home_team_id": 239,
       "away_team": "Crystal Palace",
       "away_team_id": 243,
-      "competition": "Premier League",
-      "matchday": 37
-    },
-    {
-      "date": "2026-05-17",
-      "time": "14:00",
-      "home_team": "Chelsea FC",
-      "home_team_id": 242,
-      "away_team": "Tottenham Hotspur",
-      "away_team_id": 253,
       "competition": "Premier League",
       "matchday": 37
     },
