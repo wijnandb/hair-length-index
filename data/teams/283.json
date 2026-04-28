@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-27",
+      "opponent": "Levante UD",
+      "home_away": "H",
+      "score": "0-0",
+      "result": "D",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-23",
       "opponent": "Rayo Vallecano",
       "home_away": "A",
@@ -3236,8 +3246,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 215,
-    "end_index": 219,
+    "start_index": 216,
+    "end_index": 220,
     "length": 5
   }
 }

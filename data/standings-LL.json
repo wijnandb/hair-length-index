@@ -1,7 +1,7 @@
 {
   "league": "LL",
   "season": "2025-26",
-  "generated_at": "2026-04-27T07:07:38.145790+00:00",
+  "generated_at": "2026-04-28T07:08:12.737587+00:00",
   "table": [
     {
       "position": 1,
@@ -161,6 +161,19 @@
     },
     {
       "position": 13,
+      "team": "RCD Espanyol de Barcelona",
+      "team_id": 80,
+      "played": 33,
+      "won": 10,
+      "drawn": 9,
+      "lost": 14,
+      "goals_for": 37,
+      "goals_against": 49,
+      "goal_difference": -12,
+      "points": 39
+    },
+    {
+      "position": 14,
       "team": "Elche CF",
       "team_id": 285,
       "played": 33,
@@ -170,19 +183,6 @@
       "goals_for": 44,
       "goals_against": 50,
       "goal_difference": -6,
-      "points": 38
-    },
-    {
-      "position": 14,
-      "team": "RCD Espanyol de Barcelona",
-      "team_id": 80,
-      "played": 32,
-      "won": 10,
-      "drawn": 8,
-      "lost": 14,
-      "goals_for": 37,
-      "goals_against": 49,
-      "goal_difference": -12,
       "points": 38
     },
     {
@@ -241,14 +241,14 @@
       "position": 19,
       "team": "Levante UD",
       "team_id": 88,
-      "played": 32,
+      "played": 33,
       "won": 8,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 16,
       "goals_for": 37,
       "goals_against": 50,
       "goal_difference": -13,
-      "points": 32
+      "points": 33
     },
     {
       "position": 20,
