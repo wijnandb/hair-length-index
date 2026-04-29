@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-04-28",
+      "opponent": "Paris Saint-Germain",
+      "home_away": "A",
+      "score": "4-5",
+      "result": "L",
+      "competition": "UEFA Champions League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "1. FSV Mainz 05",
       "home_away": "A",
@@ -4196,8 +4206,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 0,
-    "end_index": 7,
+    "start_index": 1,
+    "end_index": 8,
     "length": 7
   }
 }
