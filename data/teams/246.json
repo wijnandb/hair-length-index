@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-01",
+      "opponent": "Burnley FC",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-22",
       "opponent": "AFC Bournemouth",
       "home_away": "A",
@@ -3206,8 +3216,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 37,
-    "end_index": 43,
+    "start_index": 38,
+    "end_index": 44,
     "length": 7
   }
 }
