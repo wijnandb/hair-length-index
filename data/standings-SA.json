@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-05-01T07:09:32.387534+00:00",
+  "generated_at": "2026-05-02T06:53:54.703108+00:00",
   "table": [
     {
       "position": 1,
@@ -215,14 +215,14 @@
       "position": 17,
       "team": "US Lecce",
       "team_id": 5890,
-      "played": 34,
-      "won": 7,
+      "played": 35,
+      "won": 8,
       "drawn": 8,
       "lost": 19,
-      "goals_for": 22,
-      "goals_against": 46,
-      "goal_difference": -24,
-      "points": 29
+      "goals_for": 24,
+      "goals_against": 47,
+      "goal_difference": -23,
+      "points": 32
     },
     {
       "position": 18,
@@ -254,13 +254,13 @@
       "position": 20,
       "team": "AC Pisa 1909",
       "team_id": 487,
-      "played": 34,
+      "played": 35,
       "won": 2,
       "drawn": 12,
-      "lost": 20,
-      "goals_for": 24,
-      "goals_against": 61,
-      "goal_difference": -37,
+      "lost": 21,
+      "goals_for": 25,
+      "goals_against": 63,
+      "goal_difference": -38,
       "points": 18
     }
   ]
