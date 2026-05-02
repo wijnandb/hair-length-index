@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-01",
+      "opponent": "Girona FC",
+      "home_away": "A",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "CD Alavés",
       "home_away": "A",
@@ -3486,8 +3496,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 232,
-    "end_index": 237,
+    "start_index": 233,
+    "end_index": 238,
     "length": 6
   }
 }
