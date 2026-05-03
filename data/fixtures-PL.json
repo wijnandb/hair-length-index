@@ -1,47 +1,7 @@
 {
   "league": "PL",
-  "generated_at": "2026-05-02T06:54:32.220376+00:00",
+  "generated_at": "2026-05-03T07:07:34.606687+00:00",
   "matches": [
-    {
-      "date": "2026-05-02",
-      "time": "14:00",
-      "home_team": "Brentford FC",
-      "home_team_id": 239,
-      "away_team": "West Ham United",
-      "away_team_id": 254,
-      "competition": "Premier League",
-      "matchday": 35
-    },
-    {
-      "date": "2026-05-02",
-      "time": "14:00",
-      "home_team": "Newcastle United",
-      "home_team_id": 250,
-      "away_team": "Brighton & Hove Albion",
-      "away_team_id": 240,
-      "competition": "Premier League",
-      "matchday": 35
-    },
-    {
-      "date": "2026-05-02",
-      "time": "14:00",
-      "home_team": "Wolverhampton Wanderers",
-      "home_team_id": 255,
-      "away_team": "Sunderland AFC",
-      "away_team_id": 252,
-      "competition": "Premier League",
-      "matchday": 35
-    },
-    {
-      "date": "2026-05-02",
-      "time": "16:30",
-      "home_team": "Arsenal FC",
-      "home_team_id": 237,
-      "away_team": "Fulham FC",
-      "away_team_id": 245,
-      "competition": "Premier League",
-      "matchday": 35
-    },
     {
       "date": "2026-05-03",
       "time": "13:00",
@@ -193,16 +153,6 @@
       "matchday": 36
     },
     {
-      "date": "2026-05-13",
-      "time": "19:00",
-      "home_team": "Manchester City",
-      "home_team_id": 248,
-      "away_team": "Crystal Palace",
-      "away_team_id": 243,
-      "competition": "Premier League",
-      "matchday": 31
-    },
-    {
       "date": "2026-05-17",
       "time": "11:30",
       "home_team": "Aston Villa",
@@ -279,26 +229,6 @@
       "home_team_id": 237,
       "away_team": "Burnley FC",
       "away_team_id": 241,
-      "competition": "Premier League",
-      "matchday": 37
-    },
-    {
-      "date": "2026-05-19",
-      "time": "18:30",
-      "home_team": "AFC Bournemouth",
-      "home_team_id": 238,
-      "away_team": "Manchester City",
-      "away_team_id": 248,
-      "competition": "Premier League",
-      "matchday": 37
-    },
-    {
-      "date": "2026-05-19",
-      "time": "19:15",
-      "home_team": "Chelsea FC",
-      "home_team_id": 242,
-      "away_team": "Tottenham Hotspur",
-      "away_team_id": 253,
       "competition": "Premier League",
       "matchday": 37
     },
