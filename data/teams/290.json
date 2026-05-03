@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-02",
+      "opponent": "Atlético Madrid",
+      "home_away": "H",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "Girona FC",
       "home_away": "H",
@@ -3216,8 +3226,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 191,
-    "end_index": 195,
+    "start_index": 192,
+    "end_index": 196,
     "length": 0
   }
 }

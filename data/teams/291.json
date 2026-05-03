@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-02",
+      "opponent": "Levante UD",
+      "home_away": "H",
+      "score": "5-1",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-26",
       "opponent": "Celta de Vigo",
       "home_away": "H",
@@ -3626,8 +3636,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 42,
-    "end_index": 49,
+    "start_index": 43,
+    "end_index": 50,
     "length": 8
   }
 }
