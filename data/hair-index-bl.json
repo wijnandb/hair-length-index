@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T06:54:06.340058",
+  "generated_at": "2026-05-03T07:06:02.761737",
   "threshold": 5,
   "teams": [
     {
@@ -13,13 +13,14 @@
       "streak_length": 5,
       "streak_end_date": "2010-03-07",
       "streak_start_date": "2010-02-10",
-      "days_since": 5900,
-      "matches_since": 598,
+      "days_since": 5901,
+      "matches_since": 599,
       "competitions_in_streak": [
         "2. Bundesliga 2009/2010",
         "DFB-Pokal 2009/2010"
       ],
       "current_form": [
+        "W",
         "D",
         "W",
         "D",
@@ -27,7 +28,6 @@
         "L",
         "L",
         "L",
-        "W",
         "W",
         "W"
       ],
@@ -36,9 +36,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2010-03-07",
-      "strict_days_since": 5900,
+      "strict_days_since": 5901,
       "includes_aet_pens": false,
-      "total_matches": 835,
+      "total_matches": 836,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -53,7 +53,7 @@
       "streak_length": 8,
       "streak_end_date": "2010-10-02",
       "streak_start_date": "2010-08-15",
-      "days_since": 5691,
+      "days_since": 5692,
       "matches_since": 590,
       "competitions_in_streak": [
         "Bundesliga 2010/2011",
@@ -76,7 +76,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2010-10-02",
-      "strict_days_since": 5691,
+      "strict_days_since": 5692,
       "includes_aet_pens": false,
       "total_matches": 858,
       "has_cup_data": true,
@@ -93,7 +93,7 @@
       "streak_length": 8,
       "streak_end_date": "2016-04-10",
       "streak_start_date": "2016-02-21",
-      "days_since": 3674,
+      "days_since": 3675,
       "matches_since": 403,
       "competitions_in_streak": [
         "2. Bundesliga 2015/2016"
@@ -115,7 +115,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2016-04-10",
-      "strict_days_since": 3674,
+      "strict_days_since": 3675,
       "includes_aet_pens": false,
       "total_matches": 524,
       "has_cup_data": true,
@@ -132,7 +132,7 @@
       "streak_length": 6,
       "streak_end_date": "2016-08-27",
       "streak_start_date": "2016-05-07",
-      "days_since": 3535,
+      "days_since": 3536,
       "matches_since": 389,
       "competitions_in_streak": [
         "Bundesliga 2015/2016",
@@ -157,7 +157,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2016-08-27",
-      "strict_days_since": 3535,
+      "strict_days_since": 3536,
       "includes_aet_pens": false,
       "total_matches": 527,
       "has_cup_data": true,
@@ -174,12 +174,13 @@
       "streak_length": 7,
       "streak_end_date": "2022-02-11",
       "streak_start_date": "2021-12-03",
-      "days_since": 1541,
-      "matches_since": 153,
+      "days_since": 1542,
+      "matches_since": 154,
       "competitions_in_streak": [
         "2. Bundesliga 2021/2022"
       ],
       "current_form": [
+        "L",
         "D",
         "W",
         "L",
@@ -188,7 +189,6 @@
         "L",
         "W",
         "W",
-        "L",
         "L"
       ],
       "search_depth": "2011-10-21",
@@ -196,9 +196,9 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-02-11",
-      "strict_days_since": 1541,
+      "strict_days_since": 1542,
       "includes_aet_pens": false,
-      "total_matches": 311,
+      "total_matches": 312,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -213,7 +213,7 @@
       "streak_length": 5,
       "streak_end_date": "2022-09-30",
       "streak_start_date": "2022-08-27",
-      "days_since": 1310,
+      "days_since": 1311,
       "matches_since": 130,
       "competitions_in_streak": [
         "2. Bundesliga 2022/2023"
@@ -235,7 +235,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2022-09-30",
-      "strict_days_since": 1310,
+      "strict_days_since": 1311,
       "includes_aet_pens": false,
       "total_matches": 310,
       "has_cup_data": true,
@@ -252,13 +252,14 @@
       "streak_length": 6,
       "streak_end_date": "2023-02-11",
       "streak_start_date": "2023-01-21",
-      "days_since": 1176,
-      "matches_since": 132,
+      "days_since": 1177,
+      "matches_since": 133,
       "competitions_in_streak": [
         "Bundesliga 2022/2023",
         "DFB-Pokal 2022/2023"
       ],
       "current_form": [
+        "D",
         "L",
         "L",
         "L",
@@ -267,17 +268,16 @@
         "L",
         "W",
         "L",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2015-12-05",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-02-11",
-      "strict_days_since": 1176,
+      "strict_days_since": 1177,
       "includes_aet_pens": false,
-      "total_matches": 284,
+      "total_matches": 285,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -292,7 +292,7 @@
       "streak_length": 10,
       "streak_end_date": "2023-04-08",
       "streak_start_date": "2023-01-29",
-      "days_since": 1120,
+      "days_since": 1121,
       "matches_since": 116,
       "competitions_in_streak": [
         "2. Bundesliga 2022/2023"
@@ -314,7 +314,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-04-08",
-      "strict_days_since": 1120,
+      "strict_days_since": 1121,
       "includes_aet_pens": false,
       "total_matches": 257,
       "has_cup_data": true,
@@ -331,31 +331,31 @@
       "streak_length": 6,
       "streak_end_date": "2023-10-21",
       "streak_start_date": "2023-09-02",
-      "days_since": 924,
-      "matches_since": 126,
+      "days_since": 925,
+      "matches_since": 127,
       "competitions_in_streak": [
         "Bundesliga 2023/2024"
       ],
       "current_form": [
         "D",
-        "L",
-        "W",
-        "L",
-        "W",
-        "L",
-        "W",
-        "L",
         "D",
-        "W"
+        "L",
+        "W",
+        "L",
+        "W",
+        "L",
+        "W",
+        "L",
+        "D"
       ],
       "search_depth": "2011-11-04",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-10-21",
-      "strict_days_since": 924,
+      "strict_days_since": 925,
       "includes_aet_pens": false,
-      "total_matches": 335,
+      "total_matches": 336,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -370,8 +370,8 @@
       "streak_length": 6,
       "streak_end_date": "2024-09-01",
       "streak_start_date": "2024-05-18",
-      "days_since": 608,
-      "matches_since": 76,
+      "days_since": 609,
+      "matches_since": 77,
       "competitions_in_streak": [
         "Bundesliga 2023/2024",
         "Bundesliga 2024/2025",
@@ -379,6 +379,7 @@
         "DFB-Pokal 2024/2025"
       ],
       "current_form": [
+        "D",
         "W",
         "L",
         "W",
@@ -387,17 +388,16 @@
         "L",
         "L",
         "L",
-        "D",
-        "L"
+        "D"
       ],
       "search_depth": "2015-11-27",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-09-01",
-      "strict_days_since": 608,
+      "strict_days_since": 609,
       "includes_aet_pens": false,
-      "total_matches": 263,
+      "total_matches": 264,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -412,14 +412,15 @@
       "streak_length": 7,
       "streak_end_date": "2024-12-01",
       "streak_start_date": "2024-10-30",
-      "days_since": 517,
-      "matches_since": 71,
+      "days_since": 518,
+      "matches_since": 72,
       "competitions_in_streak": [
         "Bundesliga 2024/2025",
         "DFB-Pokal 2024/2025",
         "Europa League"
       ],
       "current_form": [
+        "L",
         "D",
         "L",
         "W",
@@ -428,17 +429,16 @@
         "W",
         "D",
         "W",
-        "L",
-        "W"
+        "L"
       ],
       "search_depth": "2012-11-17",
       "hair_tier": "Bigfoot",
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-12-01",
-      "strict_days_since": 517,
+      "strict_days_since": 518,
       "includes_aet_pens": false,
-      "total_matches": 378,
+      "total_matches": 379,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -453,7 +453,7 @@
       "streak_length": 5,
       "streak_end_date": "2024-12-08",
       "streak_start_date": "2024-11-10",
-      "days_since": 510,
+      "days_since": 511,
       "matches_since": 55,
       "competitions_in_streak": [
         "Bundesliga 2024/2025",
@@ -476,7 +476,7 @@
       "hair_description": "Hair and beard merge, barely human",
       "strict_streak_found": true,
       "strict_streak_end_date": "2024-12-08",
-      "strict_days_since": 510,
+      "strict_days_since": 511,
       "includes_aet_pens": false,
       "total_matches": 330,
       "has_cup_data": true,
@@ -493,8 +493,8 @@
       "streak_length": 11,
       "streak_end_date": "2025-01-18",
       "streak_start_date": "2024-11-23",
-      "days_since": 469,
-      "matches_since": 69,
+      "days_since": 470,
+      "matches_since": 70,
       "competitions_in_streak": [
         "Bundesliga 2024/2025",
         "Champions League",
@@ -502,6 +502,7 @@
       ],
       "current_form": [
         "W",
+        "W",
         "L",
         "W",
         "W",
@@ -509,17 +510,16 @@
         "L",
         "D",
         "D",
-        "D",
-        "W"
+        "D"
       ],
       "search_depth": "2011-08-07",
       "hair_tier": "Caveman",
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-01-18",
-      "strict_days_since": 469,
+      "strict_days_since": 470,
       "includes_aet_pens": false,
-      "total_matches": 396,
+      "total_matches": 397,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -534,7 +534,7 @@
       "streak_length": 6,
       "streak_end_date": "2025-05-17",
       "streak_start_date": "2025-04-15",
-      "days_since": 350,
+      "days_since": 351,
       "matches_since": 49,
       "competitions_in_streak": [
         "Bundesliga 2024/2025",
@@ -557,7 +557,7 @@
       "hair_description": "Very long tangled hair, huge bushy beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-05-17",
-      "strict_days_since": 350,
+      "strict_days_since": 351,
       "includes_aet_pens": false,
       "total_matches": 393,
       "has_cup_data": true,
@@ -574,14 +574,15 @@
       "streak_length": 5,
       "streak_end_date": "2025-08-31",
       "streak_start_date": "2025-05-09",
-      "days_since": 244,
-      "matches_since": 30,
+      "days_since": 245,
+      "matches_since": 31,
       "competitions_in_streak": [
         "2. Bundesliga 2024/2025",
         "Bundesliga 2025/2026",
         "DFB-Pokal 2025/2026"
       ],
       "current_form": [
+        "D",
         "L",
         "D",
         "W",
@@ -590,17 +591,16 @@
         "D",
         "L",
         "L",
-        "D",
-        "L"
+        "D"
       ],
       "search_depth": "2011-10-30",
       "hair_tier": "Long & wild",
       "hair_description": "Long unkempt hair past shoulders, full beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2025-08-31",
-      "strict_days_since": 244,
+      "strict_days_since": 245,
       "includes_aet_pens": false,
-      "total_matches": 298,
+      "total_matches": 299,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -615,12 +615,13 @@
       "streak_length": 5,
       "streak_end_date": "2026-01-31",
       "streak_start_date": "2026-01-14",
-      "days_since": 91,
-      "matches_since": 11,
+      "days_since": 92,
+      "matches_since": 12,
       "competitions_in_streak": [
         "Bundesliga 2025/2026"
       ],
       "current_form": [
+        "D",
         "W",
         "W",
         "D",
@@ -629,17 +630,16 @@
         "D",
         "W",
         "L",
-        "D",
-        "W"
+        "D"
       ],
       "search_depth": "2011-08-20",
       "hair_tier": "Getting shaggy",
       "hair_description": "Messy medium-length hair, visible beard",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-01-31",
-      "strict_days_since": 91,
+      "strict_days_since": 92,
       "includes_aet_pens": false,
-      "total_matches": 324,
+      "total_matches": 325,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -654,13 +654,14 @@
       "streak_length": 5,
       "streak_end_date": "2026-04-24",
       "streak_start_date": "2026-03-20",
-      "days_since": 8,
-      "matches_since": 0,
+      "days_since": 9,
+      "matches_since": 1,
       "competitions_in_streak": [
         "Bundesliga",
         "Bundesliga 2025/2026"
       ],
       "current_form": [
+        "L",
         "W",
         "W",
         "W",
@@ -669,7 +670,6 @@
         "L",
         "W",
         "W",
-        "D",
         "D"
       ],
       "search_depth": "2011-10-25",
@@ -677,9 +677,9 @@
       "hair_description": "Clean buzzcut, fresh fade",
       "strict_streak_found": true,
       "strict_streak_end_date": "2023-09-27",
-      "strict_days_since": 948,
+      "strict_days_since": 949,
       "includes_aet_pens": true,
-      "total_matches": 352,
+      "total_matches": 353,
       "has_cup_data": true,
       "data_complete": true
     },
@@ -694,8 +694,8 @@
       "streak_length": 8,
       "streak_end_date": "2026-04-25",
       "streak_start_date": "2026-03-18",
-      "days_since": 7,
-      "matches_since": 1,
+      "days_since": 8,
+      "matches_since": 2,
       "competitions_in_streak": [
         "Bundesliga",
         "Bundesliga 2025/2026",
@@ -703,6 +703,7 @@
         "UEFA Champions League"
       ],
       "current_form": [
+        "D",
         "L",
         "W",
         "W",
@@ -711,17 +712,16 @@
         "W",
         "W",
         "W",
-        "W",
-        "D"
+        "W"
       ],
       "search_depth": "2004-11-27",
       "hair_tier": "Fresh cut",
       "hair_description": "Clean buzzcut, fresh fade",
       "strict_streak_found": true,
       "strict_streak_end_date": "2026-04-19",
-      "strict_days_since": 13,
+      "strict_days_since": 14,
       "includes_aet_pens": true,
-      "total_matches": 420,
+      "total_matches": 421,
       "has_cup_data": true,
       "data_complete": true
     }
