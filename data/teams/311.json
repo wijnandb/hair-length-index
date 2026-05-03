@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-02",
+      "opponent": "Olympique Marseille",
+      "home_away": "H",
+      "score": "3-0",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-26",
       "opponent": "Stade Rennais",
       "home_away": "A",
@@ -2816,8 +2826,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 181,
-    "end_index": 185,
+    "start_index": 182,
+    "end_index": 186,
     "length": 0
   }
 }
