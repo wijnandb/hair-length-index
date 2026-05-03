@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-02",
+      "opponent": "FC Utrecht",
+      "home_away": "A",
+      "score": "0-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "Ajax",
       "home_away": "H",
@@ -3096,8 +3106,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 167,
-    "end_index": 172,
+    "start_index": 168,
+    "end_index": 173,
     "length": 6
   }
 }

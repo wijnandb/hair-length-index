@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-02",
+      "opponent": "Ajax",
+      "home_away": "A",
+      "score": "2-2",
+      "result": "D",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-23",
       "opponent": "PEC Zwolle",
       "home_away": "H",
@@ -3606,8 +3616,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 16,
-    "end_index": 21,
+    "start_index": 17,
+    "end_index": 22,
     "length": 6
   }
 }
