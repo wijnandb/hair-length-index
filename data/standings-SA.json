@@ -1,7 +1,7 @@
 {
   "league": "SA",
   "season": "2025-26",
-  "generated_at": "2026-05-02T06:53:54.703108+00:00",
+  "generated_at": "2026-05-03T07:06:45.449819+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "SSC Napoli",
       "team_id": 113,
-      "played": 34,
+      "played": 35,
       "won": 21,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 7,
       "goals_for": 52,
       "goals_against": 33,
       "goal_difference": 19,
-      "points": 69
+      "points": 70
     },
     {
       "position": 3,
@@ -59,14 +59,14 @@
       "position": 5,
       "team": "Como 1907",
       "team_id": 7397,
-      "played": 34,
+      "played": 35,
       "won": 17,
-      "drawn": 10,
+      "drawn": 11,
       "lost": 7,
       "goals_for": 59,
       "goals_against": 28,
       "goal_difference": 31,
-      "points": 61
+      "points": 62
     },
     {
       "position": 6,
@@ -85,14 +85,14 @@
       "position": 7,
       "team": "Atalanta BC",
       "team_id": 102,
-      "played": 34,
+      "played": 35,
       "won": 14,
-      "drawn": 12,
+      "drawn": 13,
       "lost": 8,
       "goals_for": 47,
       "goals_against": 32,
       "goal_difference": 15,
-      "points": 54
+      "points": 55
     },
     {
       "position": 8,
@@ -122,6 +122,19 @@
     },
     {
       "position": 10,
+      "team": "Udinese Calcio",
+      "team_id": 115,
+      "played": 35,
+      "won": 13,
+      "drawn": 8,
+      "lost": 14,
+      "goals_for": 43,
+      "goals_against": 46,
+      "goal_difference": -3,
+      "points": 47
+    },
+    {
+      "position": 11,
       "team": "US Sassuolo Calcio",
       "team_id": 471,
       "played": 34,
@@ -132,19 +145,6 @@
       "goals_against": 44,
       "goal_difference": -3,
       "points": 46
-    },
-    {
-      "position": 11,
-      "team": "Udinese Calcio",
-      "team_id": 115,
-      "played": 34,
-      "won": 12,
-      "drawn": 8,
-      "lost": 14,
-      "goals_for": 41,
-      "goals_against": 46,
-      "goal_difference": -5,
-      "points": 44
     },
     {
       "position": 12,
@@ -163,27 +163,27 @@
       "position": 13,
       "team": "Torino FC",
       "team_id": 586,
-      "played": 34,
+      "played": 35,
       "won": 11,
       "drawn": 8,
-      "lost": 15,
+      "lost": 16,
       "goals_for": 39,
-      "goals_against": 56,
-      "goal_difference": -17,
+      "goals_against": 58,
+      "goal_difference": -19,
       "points": 41
     },
     {
       "position": 14,
       "team": "Genoa CFC",
       "team_id": 107,
-      "played": 34,
+      "played": 35,
       "won": 10,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 15,
       "goals_for": 40,
       "goals_against": 48,
       "goal_difference": -8,
-      "points": 39
+      "points": 40
     },
     {
       "position": 15,
