@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Aston Villa",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Premier League",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "Wolverhampton Wanderers",
       "home_away": "A",
@@ -3686,8 +3696,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 99,
-    "end_index": 103,
+    "start_index": 100,
+    "end_index": 104,
     "length": 5
   }
 }
