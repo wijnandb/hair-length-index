@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Juventus",
+      "home_away": "A",
+      "score": "1-1",
+      "result": "D",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "US Lecce",
       "home_away": "H",
@@ -8396,8 +8406,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 597,
-    "end_index": 605,
+    "start_index": 598,
+    "end_index": 606,
     "length": 9
   }
 }
