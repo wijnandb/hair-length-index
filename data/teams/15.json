@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Heracles Almelo",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-23",
       "opponent": "PSV Eindhoven",
       "home_away": "A",
@@ -2686,8 +2696,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 110,
-    "end_index": 114,
+    "start_index": 111,
+    "end_index": 115,
     "length": 5
   }
 }

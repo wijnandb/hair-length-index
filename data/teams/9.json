@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Feyenoord",
+      "home_away": "H",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "Heerenveen",
       "home_away": "A",
@@ -4146,8 +4156,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 282,
-    "end_index": 286,
+    "start_index": 283,
+    "end_index": 287,
     "length": 5
   }
 }

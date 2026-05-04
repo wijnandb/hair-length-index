@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Fortuna Sittard",
+      "home_away": "A",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Eredivisie",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "FC Groningen",
       "home_away": "H",
@@ -3426,8 +3436,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 45,
-    "end_index": 51,
+    "start_index": 46,
+    "end_index": 52,
     "length": 7
   }
 }
