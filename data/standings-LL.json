@@ -1,7 +1,7 @@
 {
   "league": "LL",
   "season": "2025-26",
-  "generated_at": "2026-05-03T07:07:04.061785+00:00",
+  "generated_at": "2026-05-04T07:16:49.840276+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Real Madrid CF",
       "team_id": 86,
-      "played": 33,
-      "won": 23,
+      "played": 34,
+      "won": 24,
       "drawn": 5,
       "lost": 5,
-      "goals_for": 68,
+      "goals_for": 70,
       "goals_against": 31,
-      "goal_difference": 37,
-      "points": 74
+      "goal_difference": 39,
+      "points": 77
     },
     {
       "position": 3,
@@ -59,39 +59,39 @@
       "position": 5,
       "team": "Real Betis Balompié",
       "team_id": 90,
-      "played": 33,
-      "won": 12,
+      "played": 34,
+      "won": 13,
       "drawn": 14,
       "lost": 7,
-      "goals_for": 49,
+      "goals_for": 52,
       "goals_against": 41,
-      "goal_difference": 8,
-      "points": 50
+      "goal_difference": 11,
+      "points": 53
     },
     {
       "position": 6,
       "team": "RC Celta de Vigo",
       "team_id": 558,
-      "played": 33,
-      "won": 11,
+      "played": 34,
+      "won": 12,
       "drawn": 11,
       "lost": 11,
-      "goals_for": 45,
-      "goals_against": 43,
-      "goal_difference": 2,
-      "points": 44
+      "goals_for": 48,
+      "goals_against": 44,
+      "goal_difference": 4,
+      "points": 47
     },
     {
       "position": 7,
       "team": "Getafe CF",
       "team_id": 82,
-      "played": 33,
+      "played": 34,
       "won": 13,
       "drawn": 5,
-      "lost": 15,
+      "lost": 16,
       "goals_for": 28,
-      "goals_against": 34,
-      "goal_difference": -6,
+      "goals_against": 36,
+      "goal_difference": -8,
       "points": 44
     },
     {
@@ -137,30 +137,17 @@
       "position": 11,
       "team": "Rayo Vallecano de Madrid",
       "team_id": 87,
-      "played": 33,
-      "won": 9,
+      "played": 34,
+      "won": 10,
       "drawn": 12,
       "lost": 12,
-      "goals_for": 33,
+      "goals_for": 35,
       "goals_against": 41,
-      "goal_difference": -8,
-      "points": 39
+      "goal_difference": -6,
+      "points": 42
     },
     {
       "position": 12,
-      "team": "RCD Espanyol de Barcelona",
-      "team_id": 80,
-      "played": 33,
-      "won": 10,
-      "drawn": 9,
-      "lost": 14,
-      "goals_for": 37,
-      "goals_against": 49,
-      "goal_difference": -12,
-      "points": 39
-    },
-    {
-      "position": 13,
       "team": "Valencia CF",
       "team_id": 95,
       "played": 34,
@@ -173,16 +160,29 @@
       "points": 39
     },
     {
+      "position": 13,
+      "team": "RCD Espanyol de Barcelona",
+      "team_id": 80,
+      "played": 34,
+      "won": 10,
+      "drawn": 9,
+      "lost": 15,
+      "goals_for": 37,
+      "goals_against": 51,
+      "goal_difference": -14,
+      "points": 39
+    },
+    {
       "position": 14,
       "team": "Elche CF",
       "team_id": 285,
-      "played": 33,
+      "played": 34,
       "won": 9,
       "drawn": 11,
-      "lost": 13,
-      "goals_for": 44,
-      "goals_against": 50,
-      "goal_difference": -6,
+      "lost": 14,
+      "goals_for": 45,
+      "goals_against": 53,
+      "goal_difference": -8,
       "points": 38
     },
     {
@@ -254,13 +254,13 @@
       "position": 20,
       "team": "Real Oviedo",
       "team_id": 1048,
-      "played": 33,
+      "played": 34,
       "won": 6,
       "drawn": 10,
-      "lost": 17,
+      "lost": 18,
       "goals_for": 26,
-      "goals_against": 51,
-      "goal_difference": -25,
+      "goals_against": 54,
+      "goal_difference": -28,
       "points": 28
     }
   ]

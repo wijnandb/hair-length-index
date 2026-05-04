@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Celta de Vigo",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-26",
       "opponent": "Real Oviedo",
       "home_away": "A",
@@ -6966,8 +6976,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 557,
-    "end_index": 561,
+    "start_index": 558,
+    "end_index": 562,
     "length": 5
   }
 }

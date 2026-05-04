@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Getafe CF",
+      "home_away": "A",
+      "score": "2-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-26",
       "opponent": "Real Sociedad",
       "home_away": "H",
@@ -3676,8 +3686,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 243,
-    "end_index": 248,
+    "start_index": 244,
+    "end_index": 249,
     "length": 5
   }
 }
