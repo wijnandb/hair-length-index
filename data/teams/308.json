@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "AJ Auxerre",
+      "home_away": "A",
+      "score": "1-3",
+      "result": "L",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "Paris Saint-Germain",
       "home_away": "H",
@@ -2736,8 +2746,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 51,
-    "end_index": 55,
+    "start_index": 52,
+    "end_index": 56,
     "length": 5
   }
 }

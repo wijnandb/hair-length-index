@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-03",
+      "opponent": "Angers SCO",
+      "home_away": "H",
+      "score": "3-1",
+      "result": "W",
+      "competition": "Ligue 1",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-25",
       "opponent": "Olympique Lyonnais",
       "home_away": "A",
@@ -2726,8 +2736,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 87,
-    "end_index": 91,
+    "start_index": 88,
+    "end_index": 92,
     "length": 5
   }
 }
