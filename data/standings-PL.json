@@ -1,7 +1,7 @@
 {
   "league": "PL",
   "season": "2025-26",
-  "generated_at": "2026-05-04T07:15:34.102216+00:00",
+  "generated_at": "2026-05-05T06:59:29.961457+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Manchester City FC",
       "team_id": 65,
-      "played": 33,
+      "played": 34,
       "won": 21,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 5,
-      "goals_for": 66,
-      "goals_against": 29,
+      "goals_for": 69,
+      "goals_against": 32,
       "goal_difference": 37,
-      "points": 70
+      "points": 71
     },
     {
       "position": 3,
@@ -111,17 +111,30 @@
       "position": 9,
       "team": "Chelsea FC",
       "team_id": 61,
-      "played": 34,
+      "played": 35,
       "won": 13,
       "drawn": 9,
-      "lost": 12,
-      "goals_for": 53,
-      "goals_against": 45,
-      "goal_difference": 8,
+      "lost": 13,
+      "goals_for": 54,
+      "goals_against": 48,
+      "goal_difference": 6,
       "points": 48
     },
     {
       "position": 10,
+      "team": "Everton FC",
+      "team_id": 62,
+      "played": 35,
+      "won": 13,
+      "drawn": 9,
+      "lost": 13,
+      "goals_for": 44,
+      "goals_against": 44,
+      "goal_difference": 0,
+      "points": 48
+    },
+    {
+      "position": 11,
       "team": "Fulham FC",
       "team_id": 63,
       "played": 35,
@@ -132,19 +145,6 @@
       "goals_against": 49,
       "goal_difference": -5,
       "points": 48
-    },
-    {
-      "position": 11,
-      "team": "Everton FC",
-      "team_id": 62,
-      "played": 34,
-      "won": 13,
-      "drawn": 8,
-      "lost": 13,
-      "goals_for": 41,
-      "goals_against": 41,
-      "goal_difference": 0,
-      "points": 47
     },
     {
       "position": 12,
@@ -202,14 +202,14 @@
       "position": 16,
       "team": "Nottingham Forest FC",
       "team_id": 351,
-      "played": 34,
-      "won": 10,
+      "played": 35,
+      "won": 11,
       "drawn": 9,
       "lost": 15,
-      "goals_for": 41,
-      "goals_against": 45,
-      "goal_difference": -4,
-      "points": 39
+      "goals_for": 44,
+      "goals_against": 46,
+      "goal_difference": -2,
+      "points": 42
     },
     {
       "position": 17,
