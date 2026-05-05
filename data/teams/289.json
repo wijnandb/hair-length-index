@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-04",
+      "opponent": "Real Sociedad",
+      "home_away": "H",
+      "score": "1-0",
+      "result": "W",
+      "competition": "Primera Division",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-04-26",
       "opponent": "CA Osasuna",
       "home_away": "A",
@@ -4216,8 +4226,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 242,
-    "end_index": 246,
+    "start_index": 243,
+    "end_index": 247,
     "length": 5
   }
 }
