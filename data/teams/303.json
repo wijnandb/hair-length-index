@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-08",
+      "opponent": "Sassuolo Calcio",
+      "home_away": "H",
+      "score": "2-1",
+      "result": "W",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-05-02",
       "opponent": "Udinese Calcio",
       "home_away": "A",
@@ -9516,8 +9526,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 579,
-    "end_index": 583,
+    "start_index": 580,
+    "end_index": 584,
     "length": 5
   }
 }

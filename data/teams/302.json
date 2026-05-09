@@ -4,6 +4,16 @@
   "short_name": null,
   "matches": [
     {
+      "date": "2026-05-08",
+      "opponent": "Torino FC",
+      "home_away": "A",
+      "score": "1-2",
+      "result": "L",
+      "competition": "Serie A",
+      "decided_in": "REGULAR",
+      "source": "football-data.org"
+    },
+    {
       "date": "2026-05-03",
       "opponent": "AC Milan",
       "home_away": "H",
@@ -5846,8 +5856,8 @@
   ],
   "streak": {
     "found": true,
-    "start_index": 445,
-    "end_index": 451,
+    "start_index": 446,
+    "end_index": 452,
     "length": 7
   }
 }
