@@ -1,7 +1,7 @@
 {
   "league": "BL",
   "season": "2025-26",
-  "generated_at": "2026-05-08T06:47:27.455515+00:00",
+  "generated_at": "2026-05-09T06:55:18.796485+00:00",
   "table": [
     {
       "position": 1,
@@ -20,14 +20,14 @@
       "position": 2,
       "team": "Borussia Dortmund",
       "team_id": 4,
-      "played": 32,
-      "won": 20,
+      "played": 33,
+      "won": 21,
       "drawn": 7,
       "lost": 5,
-      "goals_for": 65,
-      "goals_against": 32,
-      "goal_difference": 33,
-      "points": 67
+      "goals_for": 68,
+      "goals_against": 34,
+      "goal_difference": 34,
+      "points": 70
     },
     {
       "position": 3,
@@ -98,13 +98,13 @@
       "position": 8,
       "team": "Eintracht Frankfurt",
       "team_id": 19,
-      "played": 32,
+      "played": 33,
       "won": 11,
       "drawn": 10,
-      "lost": 11,
-      "goals_for": 57,
-      "goals_against": 60,
-      "goal_difference": -3,
+      "lost": 12,
+      "goals_for": 59,
+      "goals_against": 63,
+      "goal_difference": -4,
       "points": 43
     },
     {
